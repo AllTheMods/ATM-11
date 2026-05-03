@@ -1,9 +1,7 @@
--Xmx8G
-# Considder using 12G as -Xmx if possible
+-Xmx8G # Consider using 12G as -Xmx if possible
 -XX:+UseZGC
 -XX:+UnlockExperimentalVMOptions
--XX:ConcGCThreads=6
-#THIS IS CONSIDDERING YOUR SERVER HAS AT ELAST 6 CORES!
-#The standard for GoncGCThreads is threads divided by four, increase to your liking but leave at least 2 threads, so 1 core
-#so that those can still prioritise the Tick loop.
-# say; ConcGCThreads=8 for a 10 core or in my case ConcGCThreads=14 for my 16 Core cpu !
+-XX:ConcGCThreads=6 # This is assuming your server has at least six cores.
+# The standard for GoncGCThreads is threads divided by four, increase to your liking but leave at least 2 threads, so 1 core
+# so that those can still prioritise the Tick loop.
+# say; ConcGCThreads=8 for a 10 core or ConcGCThreads=14 for a 16 core CPU
