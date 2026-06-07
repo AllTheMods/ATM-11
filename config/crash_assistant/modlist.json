@@ -949,13 +949,13 @@
     "curseForgeHash": 2682543116,
     "modrinthHash": "450659f08e453912a8b27297883d76e306475352"
   },
-  "logisticsnetworks-26.1.2-1.7.0.jar": {
-    "jarName": "logisticsnetworks-26.1.2-1.7.0.jar",
+  "logisticsnetworks-26.1.2-1.7.1.jar": {
+    "jarName": "logisticsnetworks-26.1.2-1.7.1.jar",
     "modId": "logisticsnetworks",
     "name": "LogisticsNetworks",
-    "version": "1.7.0",
-    "curseForgeHash": 4007285179,
-    "modrinthHash": "384ee15ba2323844aee920644026a7614b8876be"
+    "version": "1.7.1",
+    "curseForgeHash": 2174483419,
+    "modrinthHash": "b6960ea82171a2f8d1394cdb908c21b33bf0e8bb"
   },
   "lootr-neoforge-26.1.2-1.22.36.109.jar": {
     "jarName": "lootr-neoforge-26.1.2-1.22.36.109.jar",
