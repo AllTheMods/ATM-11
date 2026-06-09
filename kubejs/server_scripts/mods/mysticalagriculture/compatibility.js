@@ -39,11 +39,11 @@ const useBlocks = [
   { resource: "dark_steel", essence: "imperium" },
   { resource: "pulsating_alloy", essence: "imperium" },
   { resource: "energetic_alloy", essence: "imperium" },
-  // { resource: "refined_glowstone", essence: "imperium", block: "mekanism:block_refined_glowstone" },
-  // { resource: "refined_obsidian", essence: "imperium", block: "mekanism:block_refined_obsidian" },
+  { resource: "refined_glowstone", essence: "imperium", block: "mekanism:block_refined_glowstone" },
+  { resource: "refined_obsidian", essence: "imperium", block: "mekanism:block_refined_obsidian" },
   { resource: "constantan", essence: "imperium" },
-  // { resource: "cyanite", essence: "supremium", block: "bigreactors:cyanite_block" },
-  // { resource: "graphite", essence: "tertium", block: "bigreactors:graphite_block" },
+  { resource: "cyanite", essence: "supremium", block: "bigreactors:cyanite_block" },
+  { resource: "graphite", essence: "tertium", block: "bigreactors:graphite_block" },
   { resource: "compressed_iron", essence: "imperium" },
   { resource: "electrum", essence: "imperium" },
   { resource: "invar", essence: "imperium" }
@@ -73,6 +73,7 @@ const different = [
 if (Platform.isLoaded("mysticalagriculture")) {
   ServerEvents.recipes((allthemods) => {
     function mysticalTags(material, tag, tags) {
+
       let recipeEssence = ""
       let recipeTag = ""
       let recipeSeed = ""
@@ -89,8 +90,10 @@ if (Platform.isLoaded("mysticalagriculture")) {
         recipeTag = `#${tag}${material.resource}`
         if (material.seed !== undefined) {
           recipeSeed = `mysticalagriculture:${material.seed}_seeds`
-        } else {
+        } else if (Item.exists(`mysticalagriculture:${material.resource}_seeds`))  {
           recipeSeed = `mysticalagriculture:${material.resource}_seeds`
+        } else {
+          return
         }
       }
 
@@ -106,7 +109,7 @@ if (Platform.isLoaded("mysticalagriculture")) {
         if (Item.exists(`allthecompressed:${material.resource}_block_1x`)) {
           // use the allthecompressed block if it exists
           recipeTag = `allthecompressed:${material.resource}_block_1x`
-        } else if (material.block !== undefined) {
+        } else if (material.block !== undefined && Item.exists(material.block)) {
           // else use the provided block in useBlocks
           recipeTag = material.block
         } else {
