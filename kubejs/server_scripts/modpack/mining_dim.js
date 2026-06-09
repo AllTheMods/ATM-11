@@ -401,7 +401,6 @@ ServerEvents.generateData("after_mods", (allthemods) => {
     endStoneReplaces,
     netherrackReplaces
   ) => {
-    if (!Item.exists(id)) return
     let jsonPlaced = JsonIO.toObject({
       feature: id,
       placement: [
@@ -440,11 +439,15 @@ ServerEvents.generateData("after_mods", (allthemods) => {
 
     let jsonForge = JsonIO.toObject({
       type: "neoforge:add_features",
-      biomes: "#allthemodium:mining_features/mining_biomes",
-      features: [id],
+      biomes: "allthemodium:mining",
+      features: id,
       step: "underground_ores"
     })
     if (stoneReplaces !== null) {
+      if (!Item.exists(stoneReplaces)) {
+        console.warn(`${stoneReplaces} does not exist`)
+        return
+      }
       jsonConfigured.config.targets.push(
         JsonIO.toObject({
           target: {
@@ -458,6 +461,10 @@ ServerEvents.generateData("after_mods", (allthemods) => {
       )
     }
     if (deepslateReplaces !== null) {
+      if (!Item.exists(deepslateReplaces)) {
+        console.warn(`${deepslateReplaces} does not exist`)
+        return
+      }
       jsonConfigured.config.targets.push(
         JsonIO.toObject({
           target: {
@@ -471,6 +478,10 @@ ServerEvents.generateData("after_mods", (allthemods) => {
       )
     }
     if (endStoneReplaces !== null) {
+      if (!Item.exists(endStoneReplaces)) {
+        console.warn(`${endStoneReplaces} does not exist`)
+        return
+      }
       jsonConfigured.config.targets.push(
         JsonIO.toObject({
           target: {
@@ -484,6 +495,10 @@ ServerEvents.generateData("after_mods", (allthemods) => {
       )
     }
     if (netherrackReplaces !== null) {
+      if (!Item.exists(netherrackReplaces)) {
+        console.warn(`${netherrackReplaces} does not exist`)
+        return
+      }
       jsonConfigured.config.targets.push(
         JsonIO.toObject({
           target: {
