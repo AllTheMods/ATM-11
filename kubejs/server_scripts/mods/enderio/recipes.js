@@ -21,9 +21,7 @@ if (Platform.isLoaded("enderio")) {
               .custom({
                 type: "enderio:sag_milling",
                 energy: 2400,
-                input: {
-                  tag: `c:raw_materials/${sag.material}`
-                },
+                input: `#c:raw_materials/${sag.material}`,
                 outputs: [
                   {
                     item: {
@@ -58,9 +56,7 @@ if (Platform.isLoaded("enderio")) {
               .custom({
                 type: "enderio:sag_milling",
                 energy: 2400,
-                input: {
-                  tag: `c:raw_materials/${sag.material}`
-                },
+                input: `#c:raw_materials/${sag.material}`,
                 outputs: [
                   {
                     item: {
@@ -88,9 +84,7 @@ if (Platform.isLoaded("enderio")) {
             .custom({
               type: "enderio:sag_milling",
               energy: 2400,
-              input: {
-                tag: `c:ores/${sag.material}`
-              },
+              input: `#c:ores/${sag.material}`,
               outputs: [
                 {
                   item: {
@@ -125,9 +119,7 @@ if (Platform.isLoaded("enderio")) {
               type: "enderio:sag_milling",
               bonus: "none",
               energy: 2400,
-              input: {
-                tag: `c:ingots/${sag.material}`
-              },
+              input: `#c:ingots/${sag.material}`,
               outputs: [
                 {
                   item: {
