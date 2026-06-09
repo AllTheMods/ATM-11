@@ -6,24 +6,12 @@ ServerEvents.recipes((allthemods) => {
     let recipe = {
       type: "powah:energizing",
       energy: energy,
-      ingredients: [],
+      ingredients: inputs,
       result: {
         count: result.count || 1,
         id: result.item
       }
     }
-
-    inputs.forEach((input) => {
-      let ingredients = {}
-
-      if (input.tag) {
-        ingredients.tag = input.tag
-      } else {
-        ingredients.item = input.item
-      }
-
-      recipe.ingredients.push(ingredients)
-    })
 
     allthemods.custom(recipe).id(`kubejs:energizing/${id}`)
   }
@@ -100,16 +88,16 @@ ServerEvents.recipes((allthemods) => {
     ])
   }
 
-  if (Platform.isLoaded("powah")) {
+  if (Platform.isLoaded("powah") && Platform.isLoaded("allthecompressed")) {
     // Vibranium - ATM Alloy
     energizing(
       { item: "allthemodium:vibranium_allthemodium_alloy_ingot" },
       [
-        { tag: "c:ingots/allthemodium" },
-        { item: "allthemodium:piglich_heart" },
-        { item: "allthecompressed:nitro_crystal_block_1x" },
-        { item: "allthemodium:piglich_heart" },
-        { tag: "c:ingots/vibranium" }
+        "#c:ingots/allthemodium",
+        "allthemodium:piglich_heart",
+        "allthecompressed:nitro_crystal_block_1x",
+        "allthemodium:piglich_heart",
+        "#c:ingots/vibranium"
       ],
       1000000000,
       "vibranium_allthemodium_alloy_ingot"
@@ -117,11 +105,11 @@ ServerEvents.recipes((allthemods) => {
     energizing(
       { item: "allthemodium:vibranium_allthemodium_block" },
       [
-        { tag: "c:storage_blocks/allthemodium" },
-        { item: "allthemodium:piglich_heart_block" },
-        { item: "allthecompressed:nitro_crystal_block_2x" },
-        { item: "allthemodium:piglich_heart_block" },
-        { tag: "c:storage_blocks/vibranium" }
+        "#c:storage_blocks/allthemodium",
+        "allthemodium:piglich_heart_block",
+        "allthecompressed:nitro_crystal_block_2x",
+        "allthemodium:piglich_heart_block",
+        "#c:storage_blocks/vibranium"
       ],
       9000000000,
       "vibranium_allthemodium_block"
@@ -130,11 +118,11 @@ ServerEvents.recipes((allthemods) => {
       energizing(
         { item: `allthecompressed:vibranium_allthemodium_block_${i - 2}x` },
         [
-          { item: `allthecompressed:allthemodium_block_${i - 2}x` },
-          { item: `allthecompressed:piglich_heart_block_${i - 2}x` },
-          { item: `allthecompressed:nitro_crystal_block_${i}x` },
-          { item: `allthecompressed:piglich_heart_block_${i - 2}x` },
-          { item: `allthecompressed:vibranium_block_${i - 2}x` }
+          `allthecompressed:allthemodium_block_${i - 2}x`,
+          `allthecompressed:piglich_heart_block_${i - 2}x`,
+          `allthecompressed:nitro_crystal_block_${i}x`,
+          `allthecompressed:piglich_heart_block_${i - 2}x`,
+          `allthecompressed:vibranium_block_${i - 2}x`
         ],
         9000000000 * Math.pow(3, i - 2),
         `vibranium_allthemodium_block_${i - 2}x`
