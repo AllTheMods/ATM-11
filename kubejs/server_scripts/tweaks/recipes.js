@@ -61,9 +61,7 @@ ServerEvents.recipes((allthemods) => {
       type: "powah:energizing",
       energy: 50000,
       ingredients: [
-        {
-          tag: "c:ores/uraninite_regular"
-        }
+        "#c:ores/uraninite_regular"
       ],
       result: {
         count: 5,
