@@ -127,6 +127,20 @@ ServerEvents.recipes((allthemods) => {
         .id("allthemods:saltpeter_dust_from_block")
     }
   }
+
+  allthemods.remove({ id: "croptopia:knife" })
+  allthemods.shaped(
+    Item.of('croptopia:knife'),
+    [
+      ' I ',
+      ' I ',
+      'S  '
+    ],
+    {
+      S: '#c:rods/wooden',
+      I: '#c:ingots/iron',
+    }
+  ).id("croptopia:knife")
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods.
