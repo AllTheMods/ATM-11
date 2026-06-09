@@ -8,39 +8,24 @@ if (Platform.isLoaded("mysticalagriculture")) {
           type: "mysticalagriculture:awakening",
           essences: [
             {
-              id: "mysticalagriculture:air_essence",
+              ingredient: "mysticalagriculture:air_essence",
               count: essenceCount
             },
             {
-              id: "mysticalagriculture:earth_essence",
+              ingredient: "mysticalagriculture:earth_essence",
               count: essenceCount
             },
             {
-              id: "mysticalagriculture:water_essence",
+              ingredient: "mysticalagriculture:water_essence",
               count: essenceCount
             },
             {
-              id: "mysticalagriculture:fire_essence",
+              ingredient: "mysticalagriculture:fire_essence",
               count: essenceCount
             }
           ],
-          input: {
-            item: input
-          },
-          ingredients: [
-            {
-              item: ingredients.item1
-            },
-            {
-              item: ingredients.item2
-            },
-            {
-              item: ingredients.item3
-            },
-            {
-              item: ingredients.item4
-            }
-          ],
+          input: input,
+          ingredients: ingredients,
           result: {
             id: result
           }
@@ -52,12 +37,12 @@ if (Platform.isLoaded("mysticalagriculture")) {
     awakenedEssenceCrafting(
       40,
       "minecraft:lily_pad",
-      {
-        item1: "allthemodium:vibranium_plate",
-        item2: "reliquary:fertile_essence",
-        item3: "reliquary:fertile_essence",
-        item4: "reliquary:fertile_essence"
-      },
+      [
+        "allthemodium:vibranium_plate",
+        "reliquary:fertile_essence",
+        "reliquary:fertile_essence",
+        "reliquary:fertile_essence"
+      ],
       "reliquary:fertile_lily_pad"
     )
   })

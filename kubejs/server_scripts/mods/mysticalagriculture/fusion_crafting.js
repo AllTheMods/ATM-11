@@ -9,33 +9,35 @@ if (Platform.isLoaded("mysticalagriculture")) {
         .id(`kubejs:mysticalagriculture/${essenceType}_essence_crafting`)
     }
 
-    essenceCircle("allthemodium:allthemodium_nugget", "allthemodium")
-    essenceCircle("allthemodium:vibranium_nugget", "vibranium")
-    essenceCircle("allthemodium:unobtainium_nugget", "unobtainium")
-    if (Platform.isLoaded("xycraft_world")) {
-      essenceCircle("12x xycraft_world:kivi", "kivi")
-    }
+    //TODO: Uncomment once mystical customizations doesnt cause a blackscreen anymore
 
-    essenceCircle("12x forbidden_arcanus:darkstone", "darkstone")
-    essenceCircle("6x silentgear:azure_silver_ingot", "azure_silver")
-    essenceCircle("6x silentgear:crimson_iron_ingot", "crimson_iron")
-    if (Platform.isLoaded("extendedae")) {
-      essenceCircle("3x extendedae:entro_crystal", "entro")
-    }
-    if (Platform.isLoaded("megacells")) {
-      essenceCircle("2x megacells:sky_steel_ingot", "sky_steel")
-    }
+    // essenceCircle("allthemodium:allthemodium_nugget", "allthemodium")
+    // essenceCircle("allthemodium:vibranium_nugget", "vibranium")
+    // essenceCircle("allthemodium:unobtainium_nugget", "unobtainium")
+    // if (Platform.isLoaded("xycraft_world")) {
+    //   essenceCircle("12x xycraft_world:kivi", "kivi")
+    // }
 
-    if (Platform.isLoaded("actuallyadditions")) {
-      essenceCircle("3x actuallyadditions:black_quartz", "black_quartz")
-    }
+    // essenceCircle("12x forbidden_arcanus:darkstone", "darkstone")
+    // essenceCircle("6x silentgear:azure_silver_ingot", "azure_silver")
+    // essenceCircle("6x silentgear:crimson_iron_ingot", "crimson_iron")
+    // if (Platform.isLoaded("extendedae")) {
+    //   essenceCircle("3x extendedae:entro_crystal", "entro")
+    // }
+    // if (Platform.isLoaded("megacells")) {
+    //   essenceCircle("2x megacells:sky_steel_ingot", "sky_steel")
+    // }
+
+    // if (Platform.isLoaded("actuallyadditions")) {
+    //   essenceCircle("3x actuallyadditions:black_quartz", "black_quartz")
+    // }
 
     // infusion seed crafting
     function seedCrafting(output, middle, item1, item2, item3, item4, item5, item6, item7, item8) {
       allthemods
         .custom({
           type: "mysticalagriculture:infusion",
-          input: { item: middle },
+          input: middle,
           ingredients: [
             item1,
             item2,

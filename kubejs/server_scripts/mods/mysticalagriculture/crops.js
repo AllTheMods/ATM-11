@@ -53,7 +53,7 @@ if (Platform.isLoaded("mysticalagriculture")) {
         JsonExport.disabled.push(CropName)
       }
     }
-    JsonIO.write("kubejs/server_scripts/mods/MysticalAgriculture/cropInfo.json", JsonExport)
+    JsonIO.write("kubejs/server_scripts/mods/mysticalagriculture/cropInfo.json", JsonExport)
 
     // Immersive Engineering Cloche
     if (Platform.isLoaded("immersiveengineering")) {
