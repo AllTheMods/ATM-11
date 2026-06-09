@@ -31,12 +31,8 @@ if (Platform.isLoaded("ae2")) {
         .custom({
           type: "ae2:inscriber",
           ingredients: {
-            top: {
-              item: "kubejs:universal_press"
-            },
-            middle: {
-              item: input
-            }
+            top: "kubejs:universal_press",
+            middle: input
           },
           mode: "inscribe",
           result: {
