@@ -13,16 +13,18 @@ if (Platform.isLoaded("ae2")) {
       })
       .id("allthemods:aeinfinitybooster/infinity_card")
 
-    allthemods
-      .shaped("kubejs:universal_press", ["FPF", "CSL", "FEF"], {
-        F: "#c:ingots/sky_steel",
-        P: "ae2:silicon_press",
-        C: "ae2:calculation_processor_press",
-        S: "minecraft:slime_ball",
-        L: "ae2:logic_processor_press",
-        E: "ae2:engineering_processor_press"
-      })
-      .id("allthemods:universal_press")
+    if (Platform.isLoaded("megacells")) {
+      allthemods
+        .shaped("kubejs:universal_press", ["FPF", "CSL", "FEF"], {
+          F: "#c:ingots/sky_steel",
+          P: "ae2:silicon_press",
+          C: "ae2:calculation_processor_press",
+          S: "minecraft:slime_ball",
+          L: "ae2:logic_processor_press",
+          E: "ae2:engineering_processor_press"
+        })
+        .id("allthemods:universal_press")
+    }
 
     function universalPress(input, output, id) {
       allthemods
@@ -81,40 +83,55 @@ if (Platform.isLoaded("ae2")) {
       allthemods.custom(recipe).id(`kubejs:crystal_assembler/${id}`)
     }
 
-    createCrystalAssemblerRecipe(
-      { item: "megacells:sky_bronze_ingot", count: 8 },
-      [
-        { item: "ae2:charged_certus_quartz_crystal", count: 4 },
-        { item: "minecraft:copper_ingot", count: 4 },
-        { item: "ae2:sky_stone_block", count: 4 }
-      ],
-      "sky_bronze_ingot",
-      { fluid: "minecraft:lava", count: 100 }
-    )
-    createCrystalAssemblerRecipe(
-      { item: "megacells:sky_osmium_ingot", count: 8 },
-      [
-        { item: "ae2:charged_certus_quartz_crystal", count: 4 },
-        { item: "alltheores:osmium_ingot", count: 4 },
-        { item: "ae2:sky_stone_block", count: 4 }
-      ],
-      "sky_osmium_ingot",
-      { fluid: "minecraft:lava", count: 100 }
-    )
+    if (Platform.isLoaded("megacells")) {
+      createCrystalAssemblerRecipe(
+        { item: "megacells:sky_bronze_ingot", count: 8 },
+        [
+          { item: "ae2:charged_certus_quartz_crystal", count: 4 },
+          { item: "minecraft:copper_ingot", count: 4 },
+          { item: "ae2:sky_stone_block", count: 4 }
+        ],
+        "sky_bronze_ingot",
+        { fluid: "minecraft:lava", count: 100 }
+      )
+      createCrystalAssemblerRecipe(
+        { item: "megacells:sky_osmium_ingot", count: 8 },
+        [
+          { item: "ae2:charged_certus_quartz_crystal", count: 4 },
+          { item: "alltheores:osmium_ingot", count: 4 },
+          { item: "ae2:sky_stone_block", count: 4 }
+        ],
+        "sky_osmium_ingot",
+        { fluid: "minecraft:lava", count: 100 }
+      )
+    }
 
     universalPress("ae2:silicon", "ae2:printed_silicon", "printed_silicon")
     universalPress("ae2:certus_quartz_crystal", "ae2:printed_calculation_processor", "printed_calculation_processor")
     universalPress("minecraft:diamond", "ae2:printed_engineering_processor", "printed_engineering_processor")
     universalPress("minecraft:gold_ingot", "ae2:printed_logic_processor", "printed_logic_processor")
-    universalPress(
-      "megacells:sky_steel_ingot",
-      "megacells:printed_accumulation_processor",
-      "printed_accumulation_processor"
-    )
-    universalPress("appflux:charged_redstone", "appflux:printed_energy_processor", "printed_energy_processor")
-    universalPress("extendedae:entro_crystal", "extendedae:concurrent_processor_print", "concurrent_processor_print")
+    if (Platform.isLoaded("megacells")) {
+      universalPress(
+        "megacells:sky_steel_ingot",
+        "megacells:printed_accumulation_processor",
+        "printed_accumulation_processor"
+      )
+    }
+
+    if (Platform.isLoaded("applflux")) {
+      universalPress("appflux:charged_redstone", "appflux:printed_energy_processor", "printed_energy_processor")
+    }
+
+    if (Platform.isLoaded("extendedae")) {
+      universalPress("extendedae:entro_crystal", "extendedae:concurrent_processor_print", "concurrent_processor_print")
+    }
+    
     universalPress("minecraft:iron_block", "kubejs:universal_press", "universal_press_duplicate")
-    universalPress("advanced_ae:quantum_alloy", "advanced_ae:printed_quantum_processor", "printed_quantum_processor")
+    
+    if (Platform.isLoaded("advanced_ae")) {
+      universalPress("advanced_ae:quantum_alloy", "advanced_ae:printed_quantum_processor", "printed_quantum_processor")
+    }
+    
 
     const colors = [
       "white",
@@ -151,14 +168,15 @@ if (Platform.isLoaded("ae2")) {
     })
 
     allthemods
-      .shapeless(` 4x ae2:fluix_covered_cable`, [`ae2:fluix_covered_dense_cable`])
+      .shapeless(`4x ae2:fluix_covered_cable`, [`ae2:fluix_covered_dense_cable`])
       .id(`allthemods:ae2/dense_to_normal`)
     allthemods
       .shapeless(` 4x ae2:fluix_smart_cable`, [`ae2:fluix_smart_dense_cable`])
       .id(`allthemods:ae2/smart_dense_to_smart_normal`)
 
-    // duplicating universal press with the circuit slicer for when you used up all your presses
-    createCrystalAssemblerRecipe(
+    if (Platform.isLoaded("extendedae")) {
+      // duplicating universal press with the circuit slicer for when you used up all your presses
+      createCrystalAssemblerRecipe(
       { item: "extendedae:circuit_cutter" },
       [
         { item: "extendedae:machine_frame" },
@@ -184,6 +202,7 @@ if (Platform.isLoaded("ae2")) {
         }
       })
       .id("extendedae:slicing/universal_press")
+    }
   })
 }
 

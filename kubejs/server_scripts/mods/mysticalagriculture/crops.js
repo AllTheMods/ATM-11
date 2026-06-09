@@ -2,19 +2,19 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 if (Platform.isLoaded("mysticalagriculture")) {
-  const CropRegistry = Java.loadClass("com.blakebr0.mysticalagriculture.registry.CropRegistry")
-  const $Objects = Java.loadClass("java.util.Objects")
+  let CropRegistry = Java.loadClass("com.blakebr0.mysticalagriculture.registry.CropRegistry")
+  let $Objects = Java.loadClass("java.util.Objects")
 
   // sets the chance for a seed to drop
-  const SecondarySeed = 0.01
-  const TierSecondaryCutoff = 5
+  let SecondarySeed = 0.01
+  let TierSecondaryCutoff = 5
 
   ServerEvents.tags("item", (allthemods) => {
     let CropRegistryInstance = CropRegistry.getInstance()
     let cropTiers = CropRegistryInstance.getTiers()
     let tiers = Array.apply(null, Array(cropTiers.length))
     for (const CropTier of cropTiers) {
-      tiers[CropTier.getValue() - 1] = CropTier.getFarmland()
+      tiers[CropTier.getValue() - 1] = CropTier.getFarmlandBlock()
       if (CropTier.getValue() >= TierSecondaryCutoff) {
         CropTier.setSecondarySeedDrop(false)
         CropTier.setBaseSecondaryChance(0)

@@ -19,7 +19,7 @@ if (Platform.isLoaded("bibliocraft")) {
     woodTypes.forEach((wood) => {
       if (!Item.exists(`bibliocraft:${wood}_fancy_sign`)) {
         allthemods.json(`bibliocraft:recipe/wood/${wood}/fancy_sign`, {
-          "neoforge:condition": [{ type: "neoforge:false" }]
+          "neoforge:condition": [{ type: "neoforge:never" }]
         })
       }
     })

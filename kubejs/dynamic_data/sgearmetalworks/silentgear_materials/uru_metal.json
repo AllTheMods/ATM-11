@@ -10,9 +10,7 @@
       "infusing"
     ],
     "gear_type_blacklist": [],
-    "ingredient": {
-      "tag": "c:ingots/uru_metal"
-    },
+    "ingredient": "#c:ingots/uru_metal",
     "part_substitutes": {}
   },
   "display": {
@@ -21,7 +19,13 @@
     "name": {
       "translate": "material.sgearmetalworks.uru_metal"
     },
-    "name_prefix": ""
+    "name_prefix": "",
+    "equippable": {
+      "always_use_tint": true,
+      "asset_id": "silentgear:generic_shiny",
+      "compound_asset_id": "silentgear:generic_shiny",
+      "equip_sound": "minecraft:item.armor.equip_generic"
+    }
   },
   "properties": {
     "silentgear:main": {

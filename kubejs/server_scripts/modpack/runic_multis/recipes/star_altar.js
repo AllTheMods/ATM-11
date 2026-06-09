@@ -3,12 +3,12 @@ if (Platform.isLoaded("modern_industrialization")) {
     // Awakened Alloy Block
     allthemods.recipes.modern_industrialization
       .star_altar(2048, 200)
-      .itemIn("allthemodium:unobtainium_vibranium_alloy_block")
+      .itemIn("allthemodium:unobtainium_vibranium_block")
       .itemIn("4x mysticalagriculture:awakened_supremium_essence")
       .itemIn('4x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":1}}]')
       .itemIn("4x mysticalagriculture:awakened_supremium_gemstone")
       .itemOut(
-        `allthemodium:unobtainium_vibranium_alloy_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"extra":[{"italic":false,"text":"Awakened Unobtainium-Vibranium Alloy Block"}],"text":""}']`
+        `allthemodium:unobtainium_vibranium_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"extra":[{"italic":false,"text":"Awakened Unobtainium-Vibranium Alloy Block"}],"text":""}']`
       )
 
     // Infused Patrick Star
@@ -40,10 +40,10 @@ if (Platform.isLoaded("modern_industrialization")) {
     // ATM Star
     allthemods.recipes.modern_industrialization
       .star_altar(2048, 200)
-      .itemIn("28x allthemodium:unobtainium_allthemodium_alloy_block")
+      .itemIn("28x allthemodium:unobtainium_allthemodium_block")
       .itemIn("15x allthecompressed:nether_star_block_3x")
       .itemIn(
-        `2x allthemodium:unobtainium_vibranium_alloy_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"extra":[{"italic":false,"text":"Awakened Unobtainium-Vibranium Alloy Block"}],"text":""}']`
+        `2x allthemodium:unobtainium_vibranium_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"extra":[{"italic":false,"text":"Awakened Unobtainium-Vibranium Alloy Block"}],"text":""}']`
       )
       .itemIn("allthetweaks:oblivion_shard")
       .itemIn("mysticalagradditions:creative_essence")

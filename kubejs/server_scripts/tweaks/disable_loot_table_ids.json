@@ -961,6 +961,7 @@
         "cataclysm:recipe/stonecutting/stone_tiles_from_stonecutting",
         "cataclysm:recipe/stonecutting/stone_pillar_from_stonecutting",
         "pastel:recipe/mod_integration/ae2/blasting/pure_fluix",
-        "pastel:recipe/mod_integration/ae2/blasting/pure_certus_quartz"
+        "pastel:recipe/mod_integration/ae2/blasting/pure_certus_quartz",
+        "mysticalagriculture:recipe/essence/enderio/copper_alloy_ingot"
     ]
 }

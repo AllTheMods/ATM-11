@@ -1,7 +1,7 @@
 {
   "type": "productivemetalworks:item_casting",
   "cast": {
-    "type": "sgearmetalworks:component",
+    "neoforge:ingredient_type": "sgearmetalworks:component",
     "components": {
       "silentgear:material_list": [
         {
@@ -13,12 +13,12 @@
         }
       ]
     },
-    "items": "silentgear:spear_tip"
+    "items": "silentgear:spearhead"
   },
   "consume_cast": true,
   "fluid": {
     "amount": 90,
-    "tag": "c:molten_uru_metal"
+    "ingredient": "#c:molten_uru_metal"
   },
   "result": {
     "components": {
@@ -33,6 +33,6 @@
       ]
     },
     "count": 1,
-    "id": "silentgear:spear_tip"
+    "id": "silentgear:spearhead"
   }
 }

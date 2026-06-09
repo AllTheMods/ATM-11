@@ -261,7 +261,7 @@ if (Platform.isLoaded("modern_industrialization")) {
       .fluidIn("820x kubejs:liquid_aureal")
       .fluidIn("10x kubejs:liquid_souls")
       .fluidIn("10000x evilcraft:blood")
-      .itemIn("3x forbidden_arcanus:xpetrified_orb")
+      .itemIn("3x forbidden_arcanus:condensed_experience")
       .itemIn("forbidden_arcanus:stellarite_piece")
       .itemIn("minecraft:diamond")
       .itemOut("forbidden_arcanus:eternal_stella")

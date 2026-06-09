@@ -54,22 +54,22 @@ ItemEvents.modifyTooltips((allthemods) => {
 
   if (Platform.isLoaded("forbidden_arcanus")) {
     // Forbidden Arcanus
-    allthemods.add("forbidden_arcanus:hephaestus_forge_tier_1", [
-      Text.of("§c§lShift-Right-Click§r§c the §c§lSmithing Table§r§c with §lMundabitur Dust"),
-      Text.of("§c█ = Gilded Chiseled Polished Darkstone with Smithing Table on top"),
-      Text.of("§7█ = Polished Darkstone"),
-      Text.of("§5█§7 = Gilded Chiseled Polished Darkstone"),
-      Text.of("§6█§7 = Chiseled Arcane Polished Darkstone"),
-      Text.of("§0███§7███§0███"),
-      Text.of("§0█§7███§5█§7███§0█"),
-      Text.of("§0█§7█§5█§7███§5█§7█§0█"),
-      Text.of("§7████§6█§7████"),
-      Text.of("§7█§5█§7█§6█§c█§6█§7█§5█§7█"),
-      Text.of("§7████§6█§7████"),
-      Text.of("§0█§7█§5█§7███§5█§7█§0█"),
-      Text.of("§0█§7███§5█§7███§0█"),
-      Text.of("§0███§7███§0███")
-    ])
+    // allthemods.add("forbidden_arcanus:hephaestus_forge_tier_1", [
+      // Text.of("§c§lShift-Right-Click§r§c the §c§lSmithing Table§r§c with §lMundabitur Dust"),
+      // Text.of("§c█ = Gilded Chiseled Polished Darkstone with Smithing Table on top"),
+      // Text.of("§7█ = Polished Darkstone"),
+      // Text.of("§5█§7 = Gilded Chiseled Polished Darkstone"),
+      // Text.of("§6█§7 = Chiseled Arcane Polished Darkstone"),
+      // Text.of("§0███§7███§0███"),
+      // Text.of("§0█§7███§5█§7███§0█"),
+      // Text.of("§0█§7█§5█§7███§5█§7█§0█"),
+      // Text.of("§7████§6█§7████"),
+      // Text.of("§7█§5█§7█§6█§c█§6█§7█§5█§7█"),
+      // Text.of("§7████§6█§7████"),
+      // Text.of("§0█§7█§5█§7███§5█§7█§0█"),
+      // Text.of("§0█§7███§5█§7███§0█"),
+      // Text.of("§0███§7███§0███")
+    // ])
     allthemods.add("forbidden_arcanus:clibano_core", [
       Text.of("§c§lShift-Right-Click§r§c the §c§lClibano Core§r§c with §c§lMundabitur Dust"),
       Text.of("§5█§7 = Polished Darkstone"),
@@ -96,11 +96,11 @@ ItemEvents.modifyTooltips((allthemods) => {
     allthemods.add("forbidden_arcanus:blood_test_tube", [
       Text.of("§7Hold a test tube in your off-hand and then kill mobs")
     ])
-    allthemods.add("forbidden_arcanus:xpetrified_orb", [
-      Text.of("§7Only obtainable via the Black Hole"),
-      Text.of("§7To make a Black Hole throw Dark Matter together with Corrupti Dust on the ground"),
-      Text.of("§7Feed it enough xp to make it spit out an Xpetrified Orb")
-    ])
+    // allthemods.add("forbidden_arcanus:condensed_experience", [
+    //   Text.of("§7Only obtainable via the Black Hole"),
+    //   Text.of("§7To make a Black Hole throw Dark Matter together with Corrupti Dust on the ground"),
+    //   Text.of("§7Feed it enough xp to make it spit out an Xpetrified Orb")
+    // ])
     allthemods.add("forbidden_arcanus:dragon_scale", [Text.of("§7Dropped by the Ender Dragon")])
     allthemods.add("forbidden_arcanus:stella_arcanum", [
       Text.of("§7Very rarely spawns between Y -44 and Y 42"),

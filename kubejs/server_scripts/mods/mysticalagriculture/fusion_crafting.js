@@ -12,13 +12,23 @@ if (Platform.isLoaded("mysticalagriculture")) {
     essenceCircle("allthemodium:allthemodium_nugget", "allthemodium")
     essenceCircle("allthemodium:vibranium_nugget", "vibranium")
     essenceCircle("allthemodium:unobtainium_nugget", "unobtainium")
-    essenceCircle("12x xycraft_world:kivi", "kivi")
+    if (Platform.isLoaded("xycraft_world")) {
+      essenceCircle("12x xycraft_world:kivi", "kivi")
+    }
+
     essenceCircle("12x forbidden_arcanus:darkstone", "darkstone")
     essenceCircle("6x silentgear:azure_silver_ingot", "azure_silver")
     essenceCircle("6x silentgear:crimson_iron_ingot", "crimson_iron")
-    essenceCircle("3x extendedae:entro_crystal", "entro")
-    essenceCircle("2x megacells:sky_steel_ingot", "sky_steel")
-    essenceCircle("3x actuallyadditions:black_quartz", "black_quartz")
+    if (Platform.isLoaded("extendedae")) {
+      essenceCircle("3x extendedae:entro_crystal", "entro")
+    }
+    if (Platform.isLoaded("megacells")) {
+      essenceCircle("2x megacells:sky_steel_ingot", "sky_steel")
+    }
+
+    if (Platform.isLoaded("actuallyadditions")) {
+      essenceCircle("3x actuallyadditions:black_quartz", "black_quartz")
+    }
 
     // infusion seed crafting
     function seedCrafting(output, middle, item1, item2, item3, item4, item5, item6, item7, item8) {
@@ -27,14 +37,14 @@ if (Platform.isLoaded("mysticalagriculture")) {
           type: "mysticalagriculture:infusion",
           input: { item: middle },
           ingredients: [
-            { item: item1 },
-            { item: item2 },
-            { item: item3 },
-            { item: item4 },
-            { item: item5 },
-            { item: item6 },
-            { item: item7 },
-            { item: item8 }
+            item1,
+            item2,
+            item3,
+            item4,
+            item5,
+            item6,
+            item7,
+            item8
           ],
           result: { id: output }
         })

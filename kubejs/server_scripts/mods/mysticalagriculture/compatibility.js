@@ -80,13 +80,13 @@ if (Platform.isLoaded("mysticalagriculture")) {
       // for ingredients in a different format
       if (tags === "different") {
         recipeEssence = `mysticalagriculture:${material.essence}_essence`
-        recipeTag = material.tag
+        recipeTag = "#"+material.tag
         recipeSeed = `mysticalagriculture:${material.seed}_seeds`
       }
       // for ingots/gems (and probably dusts)
       else {
         recipeEssence = `mysticalagriculture:${material.essence}_essence`
-        recipeTag = `${tag}${material.resource}`
+        recipeTag = `#${tag}${material.resource}`
         if (material.seed !== undefined) {
           recipeSeed = `mysticalagriculture:${material.seed}_seeds`
         } else {
@@ -111,20 +111,29 @@ if (Platform.isLoaded("mysticalagriculture")) {
           recipeTag = material.block
         } else {
           // else neither exists, fallback to the first thing we can find via the storage_blocks tag
-          recipeTag = Ingredient.of(`#c:storage_blocks/${material.resource}`).getItemIds()[0]
+          let result = Ingredient.parseString(`#c:storage_blocks/${material.resource}`)
+          if (result.isError()) {
+            return
+          }
+          recipeTag = result.getOrThrow().getFirst()
+          if (recipeTag.isEmpty()) {
+            return
+          } else {
+            recipeTag = recipeTag.id
+          }
         }
         allthemods.custom({
           type: "mysticalagriculture:infusion",
-          input: { item: "mysticalagriculture:prosperity_seed_base" },
+          input: "mysticalagriculture:prosperity_seed_base",
           ingredients: [
-            { item: recipeTag },
-            { item: recipeEssence },
-            { item: recipeTag },
-            { item: recipeEssence },
-            { item: recipeTag },
-            { item: recipeEssence },
-            { item: recipeTag },
-            { item: recipeEssence }
+            recipeTag,
+            recipeEssence,
+            recipeTag,
+            recipeEssence,
+            recipeTag,
+            recipeEssence,
+            recipeTag,
+            recipeEssence
           ],
           result: {
             id: recipeSeed
@@ -133,16 +142,16 @@ if (Platform.isLoaded("mysticalagriculture")) {
       } else {
         allthemods.custom({
           type: "mysticalagriculture:infusion",
-          input: { item: "mysticalagriculture:prosperity_seed_base" },
+          input: "mysticalagriculture:prosperity_seed_base",
           ingredients: [
-            { tag: recipeTag },
-            { item: recipeEssence },
-            { tag: recipeTag },
-            { item: recipeEssence },
-            { tag: recipeTag },
-            { item: recipeEssence },
-            { tag: recipeTag },
-            { item: recipeEssence }
+            recipeTag,
+            recipeEssence,
+            recipeTag,
+            recipeEssence,
+            recipeTag,
+            recipeEssence,
+            recipeTag,
+            recipeEssence
           ],
           result: {
             id: recipeSeed

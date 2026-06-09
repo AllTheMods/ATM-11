@@ -11,10 +11,10 @@ ServerEvents.generateData("after_mods", (event) => {
       if (json != null) {
         json = json.asJsonObject
         // TODO: need to find out why it is crashing...
-        if (rl.includes("biome_modifier/")) {
-          console.warn(`Skipping biome modifiers for mod ${modId}`)
-          return
-        }
+        // if (rl.includes("biome_modifier/")) {
+        //   console.warn(`Skipping biome modifiers for mod ${modId}`)
+        //   return
+        // }
         if (rl.includes("tags/")) {
           // console.warn(`Skipping Dynamic Data TAGS for mod ${modId} for now...`)
           let values = json.getAsJsonArray("values")
@@ -28,7 +28,7 @@ ServerEvents.generateData("after_mods", (event) => {
             }
           }
           values.addAll(toAdd)
-          // console.log(values)
+          event.json(rl, json)
         } else {
           event.json(rl, json)
         }

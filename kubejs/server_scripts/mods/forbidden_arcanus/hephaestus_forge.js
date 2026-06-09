@@ -19,57 +19,39 @@ if (Platform.isLoaded("forbidden_arcanus")) {
         inputs: [
           {
             amount: 1,
-            ingredient: {
-              item: "forbidden_arcanus:obsidiansteel_block"
-            }
+            ingredient: "forbidden_arcanus:obsidiansteel_block"
           },
           {
             amount: 1,
-            ingredient: {
-              item: ingot
-            }
+            ingredient: ingot
           },
           {
             amount: 1,
-            ingredient: {
-              item: "forbidden_arcanus:obsidiansteel_block"
-            }
+            ingredient: "forbidden_arcanus:obsidiansteel_block"
           },
           {
             amount: 1,
-            ingredient: {
-              item: ingot
-            }
+            ingredient: ingot
           },
           {
             amount: 1,
-            ingredient: {
-              item: "forbidden_arcanus:obsidiansteel_block"
-            }
+            ingredient: "forbidden_arcanus:obsidiansteel_block"
           },
           {
             amount: 1,
-            ingredient: {
-              item: ingot
-            }
+            ingredient: ingot
           },
           {
             amount: 1,
-            ingredient: {
-              item: "forbidden_arcanus:obsidiansteel_block"
-            }
+            ingredient: "forbidden_arcanus:obsidiansteel_block"
           },
           {
             amount: 1,
-            ingredient: {
-              item: ingot
-            }
+            ingredient: ingot
           }
         ],
         magic_circle: "forbidden_arcanus:create_item",
-        main_ingredient: {
-          item: relic
-        },
+        main_ingredient: relic,
         result: {
           type: "forbidden_arcanus:create_item",
           result_item: {

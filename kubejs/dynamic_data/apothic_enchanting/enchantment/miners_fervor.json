@@ -1,5 +1,5 @@
 {
-    "neoforge:conditions":[{"type":"neoforge:false"}],
+    //"neoforge:conditions":[{"type":"neoforge:never"}],
     "anvil_cost": 10,
     "description": {
       "color": "dark_purple",

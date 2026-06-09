@@ -6,7 +6,7 @@
     "flowerBlock": "allthecompressed:antimatter_block",
     "selfbreed": false,
     "irradiated": true,
-    "conditions": [
+    "neoforge:conditions": [
         {
             "modid": "mekanism",
             "type": "neoforge:mod_loaded"

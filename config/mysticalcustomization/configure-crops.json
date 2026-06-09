@@ -1,0 +1,5 @@
+{
+  "mysticalagriculture:enderium": {
+  "ingredient": {"tag": "c:ingots/enderium"},
+  "enabled": "true"
+}}

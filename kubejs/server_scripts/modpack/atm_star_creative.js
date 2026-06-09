@@ -2,7 +2,7 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.recipes((allthemods) => {
-  if (Platform.isLoaded("powah") && Platform.isLoaded("ae2")) {
+  if (Platform.isLoaded("powah") && Platform.isLoaded("ae2") && Platform.isLoaded("megacells")) {
     // AE2
     allthemods
       .custom({
@@ -147,7 +147,7 @@ ServerEvents.recipes((allthemods) => {
         ["ACA", "BFB", "DED"],
         {
           A: "mysticalagradditions:creative_essence",
-          B: "allthemodium:vibranium_allthemodium_alloy_block",
+          B: "allthemodium:vibranium_allthemodium_block",
           C: 'ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
           D: 'ironjetpacks:thruster[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
           E: "allthetweaks:atm_star",

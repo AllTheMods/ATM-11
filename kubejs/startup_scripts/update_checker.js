@@ -3,7 +3,7 @@ let $Locale = Java.loadClass("java.util.Locale")
 let modPackId = "1148445" // could get from BCC but :shrug:
 
 StartupEvents.postInit((event) => {
-  if (Platform.isLoaded("bcc") && Platform.isClientEnvironment()) {
+  if (Platform.isLoaded("bcc") && Platform.isLoaded("kubejstweaks") && Platform.isClientEnvironment()) {
     let $BccInstance = Java.loadClass("dev.wuffs.bcc.BetterCompatibilityChecker")
     // testing
     // let currentVersion = new $DefaultArtifactVersion("0.2.0-beta")

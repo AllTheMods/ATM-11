@@ -115,7 +115,7 @@ ServerEvents.recipes((allthemods) => {
       "vibranium_allthemodium_alloy_ingot"
     )
     energizing(
-      { item: "allthemodium:vibranium_allthemodium_alloy_block" },
+      { item: "allthemodium:vibranium_allthemodium_block" },
       [
         { tag: "c:storage_blocks/allthemodium" },
         { item: "allthemodium:piglich_heart_block" },
@@ -124,11 +124,11 @@ ServerEvents.recipes((allthemods) => {
         { tag: "c:storage_blocks/vibranium" }
       ],
       9000000000,
-      "vibranium_allthemodium_alloy_block"
+      "vibranium_allthemodium_block"
     )
     for (let i = 3; i < 10; i++) {
       energizing(
-        { item: `allthecompressed:vibranium_allthemodium_alloy_block_${i - 2}x` },
+        { item: `allthecompressed:vibranium_allthemodium_block_${i - 2}x` },
         [
           { item: `allthecompressed:allthemodium_block_${i - 2}x` },
           { item: `allthecompressed:piglich_heart_block_${i - 2}x` },
@@ -137,7 +137,7 @@ ServerEvents.recipes((allthemods) => {
           { item: `allthecompressed:vibranium_block_${i - 2}x` }
         ],
         9000000000 * Math.pow(3, i - 2),
-        `vibranium_allthemodium_alloy_block_${i - 2}x`
+        `vibranium_allthemodium_block_${i - 2}x`
       )
     }
   }
@@ -162,7 +162,7 @@ ServerEvents.recipes((allthemods) => {
       "unobtainium_allthemodium_alloy_ingot"
     )
     enchanting_apparatus(
-      { item: "allthemodium:unobtainium_allthemodium_alloy_block" },
+      { item: "allthemodium:unobtainium_allthemodium_block" },
       [
         { item: "allthemodium:piglich_heart_block" },
         { item: "kubejs:air_essence_block" },
@@ -176,7 +176,7 @@ ServerEvents.recipes((allthemods) => {
       { item: "ars_nouveau:source_gem_block" },
       false,
       90000,
-      "unobtainium_allthemodium_alloy_block"
+      "unobtainium_allthemodium_block"
     )
   }
 
@@ -215,7 +215,7 @@ ServerEvents.recipes((allthemods) => {
       ],
       "900x allthemodium:soul_lava",
       200,
-      "allthemodium:unobtainium_vibranium_alloy_block"
+      "allthemodium:unobtainium_vibranium_block"
     )
   }
 })

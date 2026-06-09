@@ -3,7 +3,11 @@ ServerEvents.generateData("after_mods", (allthemods) => {
 
   for (let id of ids) {
     allthemods.json(`${id}.json`, {
-      type: "neoforge:none"
+      "neoforge:conditions": [
+        {
+          type: "neoforge:never"
+        }
+      ]
     })
   }
 })

@@ -82,7 +82,7 @@ if (Platform.isLoaded("mekanism")) {
     allthemods.custom({
       type: "mekanism:oxidizing",
       input: {
-        type: "productivebees:component",
+        "neoforge:ingredient_type": "productivebees:component",
         components: {
           "productivebees:bee_type": "productivebees:wasted_radioactive"
         },

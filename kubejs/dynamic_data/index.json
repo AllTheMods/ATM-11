@@ -1,8 +1,8 @@
 {
     "index": [
         "allthemodium/forbidden_arcanus/hephaestus_forge/ritual/alloy_axe.json",
-        "allthemodium/forbidden_arcanus/hephaestus_forge/ritual/alloy_paxel.json",
-        "allthemodium/forbidden_arcanus/hephaestus_forge/ritual/alloy_pick.json",
+        //"allthemodium/forbidden_arcanus/hephaestus_forge/ritual/alloy_paxel.json",
+        //"allthemodium/forbidden_arcanus/hephaestus_forge/ritual/alloy_pick.json",
         "allthemodium/forbidden_arcanus/hephaestus_forge/ritual/alloy_shovel.json",
         "allthemodium/forbidden_arcanus/hephaestus_forge/ritual/alloy_sword.json",
         "allthemodium/loot_table/chest/generic_loot.json",
@@ -20,7 +20,7 @@
         "alltheores/worldgen/placed_feature/ore_iridium_placed.json",
         "alltheores/worldgen/placed_feature/ore_uranium_placed.json",
         "apotheosis/data_maps/item/loot_category_overrides.json",
-        "apothic_enchanting/enchantment/miners_fervor.json",
+        //"apothic_enchanting/enchantment/miners_fervor.json",
         "atm/neoforge/biome_modifier/remove_lava_springs.json",
         "atm/neoforge/biome_modifier/remove_silentgems_ores.json",
         "atm/tags/worldgen/biome/allthemodium_spawnable.json",

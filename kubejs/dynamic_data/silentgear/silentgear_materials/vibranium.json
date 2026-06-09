@@ -8,9 +8,7 @@
       "endgame"
     ],
     "gear_type_blacklist": [],
-    "ingredient": {
-      "item": "kubejs:silent_vibranium_plate"
-    },
+    "ingredient": "kubejs:silent_vibranium_plate",
     "part_substitutes": {}
   },
   "display": {
@@ -18,6 +16,12 @@
     "main_texture_type": "HIGH_CONTRAST",
     "name": {
       "translate": "material.silentgear.vibranium"
+    },
+    "equippable": {
+      "always_use_tint": true,
+      "asset_id": "silentgear:generic_shiny",
+      "compound_asset_id": "silentgear:generic_shiny",
+      "equip_sound": "minecraft:item.armor.equip_generic"
     }
   },
   "properties": {

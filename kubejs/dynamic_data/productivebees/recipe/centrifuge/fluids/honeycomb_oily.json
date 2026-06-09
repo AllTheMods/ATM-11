@@ -1,7 +1,7 @@
 {
   "type": "productivebees:centrifuge",
   "ingredient": {
-    "type": "productivebees:component",
+    "neoforge:ingredient_type": "productivebees:component",
     "components": {
       "productivebees:bee_type": "productivebees:oily"
     },

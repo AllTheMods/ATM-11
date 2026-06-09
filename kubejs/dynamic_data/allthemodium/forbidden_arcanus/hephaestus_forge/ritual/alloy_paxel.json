@@ -9,57 +9,39 @@
   "inputs": [
     {
       "amount": 1,
-      "ingredient": {
-        "item": "allthemodium:alloy_sword"
-      }
+      "ingredient": "allthemodium:alloy_sword"
     },
     {
       "amount": 1,
-      "ingredient": {
-        "item": "forbidden_arcanus:terrastomp_prism"
-      }
+      "ingredient": "forbidden_arcanus:terrastomp_prism"
     },
     {
       "amount": 1,
-      "ingredient": {
-        "item": "allthemodium:alloy_pick"
-      }
+      "ingredient": "allthemodium:alloy_pick"
     },
     {
       "amount": 1,
-      "ingredient": {
-        "item": "forbidden_arcanus:sea_prism"
-      }
+      "ingredient": "forbidden_arcanus:sea_prism"
     },
     {
       "amount": 1,
-      "ingredient": {
-        "item": "allthemodium:alloy_axe"
-      }
+      "ingredient": "allthemodium:alloy_axe"
     },
     {
       "amount": 1,
-      "ingredient": {
-        "item": "forbidden_arcanus:whirlwind_prism"
-      }
+      "ingredient": "forbidden_arcanus:whirlwind_prism"
     },
     {
       "amount": 1,
-      "ingredient": {
-        "item": "allthemodium:alloy_shovel"
-      }
+      "ingredient": "allthemodium:alloy_shovel"
     },
     {
       "amount": 1,
-      "ingredient": {
-        "item": "forbidden_arcanus:smelter_prism"
-      }
+      "ingredient": "forbidden_arcanus:smelter_prism"
     }
   ],
   "magic_circle": "forbidden_arcanus:upgrade_tier",
-  "main_ingredient": {
-    "item": "mysticalagradditions:awakened_supremium_paxel"
-  },
+  "main_ingredient": "mysticalagradditions:awakened_supremium_paxel",
   "result": {
     "type": "forbidden_arcanus:create_item",
     "result_item": {
