@@ -989,14 +989,6 @@
     "curseForgeHash": 2682543116,
     "modrinthHash": "450659f08e453912a8b27297883d76e306475352"
   },
-  "little-big-redstone-1.9.0-alpha-26.1.2.jar": {
-    "jarName": "little-big-redstone-1.9.0-alpha-26.1.2.jar",
-    "modId": "little_big_redstone",
-    "name": "Little Big Redstone",
-    "version": "1.9.0-alpha-26.1.2",
-    "curseForgeHash": 1963656034,
-    "modrinthHash": "f617f1e5e091850b010ba9a692a4ba4558cc5f6c"
-  },
   "logisticsnetworks-26.1.2-1.7.1.jar": {
     "jarName": "logisticsnetworks-26.1.2-1.7.1.jar",
     "modId": "logisticsnetworks",
@@ -1593,14 +1585,6 @@
     "version": "2.6.1",
     "curseForgeHash": 1267745246,
     "modrinthHash": "eded79445f9a50631e64c9f934d16243af3fac41"
-  },
-  "tesseract-api-neoforge-1.13.0-alpha-26.1.2.jar": {
-    "jarName": "tesseract-api-neoforge-1.13.0-alpha-26.1.2.jar",
-    "modId": "tesseract_api",
-    "name": "Tesseract API",
-    "version": "1.13.0-alpha-26.1.2",
-    "curseForgeHash": 2216070954,
-    "modrinthHash": "b972b03664897fe718c57bb5bd95777b237cdb14"
   },
   "theurgy-26.1.2-neoforge-1.109.0.jar": {
     "jarName": "theurgy-26.1.2-neoforge-1.109.0.jar",
