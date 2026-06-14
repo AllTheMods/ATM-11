@@ -25,6 +25,18 @@ if (Platform.isLoaded("ae2")) {
         })
         .id("allthemods:universal_press")
     }
+	else {
+	  allthemods
+        .shaped("kubejs:universal_press", ["FPF", "CSL", "FEF"], {
+          F: "#c:ingots/steel",
+          P: "ae2:silicon_press",
+          C: "ae2:calculation_processor_press",
+          S: "minecraft:slime_ball",
+          L: "ae2:logic_processor_press",
+          E: "ae2:engineering_processor_press"
+        })
+        .id("allthemods:universal_press")
+	}
 
     function universalPress(input, output, id) {
       allthemods
@@ -114,7 +126,7 @@ if (Platform.isLoaded("ae2")) {
       )
     }
 
-    if (Platform.isLoaded("applflux")) {
+    if (Platform.isLoaded("appflux")) {
       universalPress("appflux:charged_redstone", "appflux:printed_energy_processor", "printed_energy_processor")
     }
 
