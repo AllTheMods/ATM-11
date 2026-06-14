@@ -30,15 +30,15 @@ ItemEvents.modifyTooltips((allthemods) => {
   allthemods.add("kubejs:silent_unobtainium_plate", [Text.of("§7§oIt's less... talkative now")])
 
   allthemods.add("allthemodium:allthemodium_ingot", [
-    Text.of("§7§oThese arent the ingots you are looking for"),
+    Text.of("§7§oSilent Gear users, these aren\'t the ingots you are looking for"),
     Text.of("§6Look for the [Silent Allthemodium Plate]")
   ])
   allthemods.add("allthemodium:vibranium_ingot", [
-    Text.of("§7§oThese arent the ingots you are looking for"),
+    Text.of("§7§oSilent Gear users, these aren\'t the ingots you are looking for"),
     Text.of("§6Look for the [Silent Vibranium Plate]")
   ])
   allthemods.add("allthemodium:unobtainium_ingot", [
-    Text.of("§7§oThese arent the ingots you are looking for"),
+    Text.of("§7§oSilent Gear users, these aren\'t the ingots you are looking for"),
     Text.of("§6Look for the [Silent Unobtainium Plate]")
   ])
 
@@ -155,8 +155,8 @@ ItemEvents.modifyTooltips((allthemods) => {
     )
   }
 
-  if (Platform.isLoaded("gateways")) {
-    // Apotheosis Gateway Warning
+	// Apotheosis Gateway Warning
+  if (Platform.isLoaded("gateways") && Platform.isLoaded("twilightforest")) {
     allthemods.add(
       [
         'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/frontier"]',
@@ -170,26 +170,70 @@ ItemEvents.modifyTooltips((allthemods) => {
       ]
     )
   }
-  if (Platform.isLoaded("deeperdarker")) {
-    // Botany Pot Sculk
+  else if (Platform.isLoaded("gateways")) {
+    allthemods.add(
+      [
+        'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/frontier"]',
+        'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/ascent"]',
+        'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/summit"]',
+        'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/pinnacle"]'
+      ],
+      [
+        Text.of("§cWARNING: Will implode at wave 3 outside of the following dimensions:"),
+        Text.of("§cOverworld, The Nether, The End")
+      ]
+    )
+  }
+  // Botany Pot Sculk
+  if (Platform.isLoaded("botanypots")) {
     allthemods.add(
       [
         "minecraft:sculk",
         "minecraft:sculk_sensor",
         "minecraft:sculk_catalyst",
         "minecraft:sculk_vein",
-        "minecraft:sculk_shrieker",
-        "deeperdarker:gloomy_sculk",
-        "deeperdarker:gloomy_grass",
-        "deeperdarker:glowing_flowers",
-        "deeperdarker:sculk_vines",
-        "deeperdarker:glowing_roots",
-        "deeperdarker:bloom_berries",
-        "deeperdarker:glowing_grass",
-        "deeperdarker:sculk_tendrils"
+        "minecraft:sculk_shrieker"
       ],
       [Text.of("§9In a Botany Pot: Requires a hoe enchanted with Silk Touch to be harvested")]
     )
+	if (Platform.isLoaded("deeperdarker")) {
+		allthemods.add(
+		  [
+			"deeperdarker:gloomy_sculk",
+			"deeperdarker:gloomy_grass",
+			"deeperdarker:glowing_flowers",
+			"deeperdarker:sculk_vines",
+			"deeperdarker:glowing_roots",
+			"deeperdarker:bloom_berries",
+			"deeperdarker:glowing_grass",
+			"deeperdarker:sculk_tendrils"
+		  ],
+		  [Text.of("§9In a Botany Pot: Requires a hoe enchanted with Silk Touch to be harvested")]
+		)	
+	}
+  }
+  // Apotheosis Gems
+  if (Platform.isLoaded("apotheosis")) {
+	  allthemods.add(
+	  [
+		'apotheosis:gem[apotheosis:gem="apotheosis:the_end/endersurge"]',
+		'apotheosis:gem[apotheosis:gem="apotheosis:the_end/mageslayer"]'
+	  ],
+	  [Text.of("§7Can be dropped by hostile mobs in The End")])
+	  allthemods.add(
+	  [
+		'apotheosis:gem[apotheosis:gem="apotheosis:overworld/royalty"]',
+		'apotheosis:gem[apotheosis:gem="apotheosis:overworld/earth"]',
+		'apotheosis:gem[apotheosis:gem="apotheosis:overworld/verdant_ruin"]'
+	  ],
+	  [Text.of("§7Can be dropped by hostile mobs in the Overworld")])
+	  allthemods.add(
+	  [
+		'apotheosis:gem[apotheosis:gem="apotheosis:the_nether/blood_lord"]',
+		'apotheosis:gem[apotheosis:gem="apotheosis:the_nether/inferno"]',
+		'apotheosis:gem[apotheosis:gem="apotheosis:the_nether/molten_breach"]'
+	  ],
+	  [Text.of("§7Can be dropped by hostile mobs in The Nether")])
   }
 })
 
