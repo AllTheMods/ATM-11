@@ -113,15 +113,15 @@ ServerEvents.recipes((allthemods) => {
     ])
     .id("allthemods:example_firework_star")
   // Saltpeter Block Recipes
-  if (Item.exists("kubejs:saltpeter_block") && Platform.isLoaded("railcraft")) {
+  if (Item.exists("kubejs:saltpeter_block")) {
     allthemods
       .shaped(Item.of(`kubejs:saltpeter_block`), ["CCC", "CCC", "CCC"], {
         C: `#c:dusts/saltpeter`
       })
       .id("allthemods:saltpeter_block")
-    if (Platform.isLoaded("railcraft")) {
+    if (Platform.isLoaded("neovitae")) {
       allthemods
-        .shapeless(Item.of("railcraft:saltpeter_dust", 9), ["kubejs:saltpeter_block"])
+        .shapeless(Item.of("neovitae:saltpeter", 9), ["kubejs:saltpeter_block"])
         .id("allthemods:saltpeter_dust_from_block")
     }
   }
