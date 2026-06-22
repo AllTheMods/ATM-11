@@ -1,0 +1,83 @@
+{
+  id: "788F9A636009996D",
+  order_index: 60,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "364882975F2CC2D1",
+      item: {
+        id: "refinedstorage:raw_basic_processor",
+        count: 1,
+      },
+      count: 3,
+      random_bonus: 1,
+      weight: 8.0,
+    },
+    {
+      id: "7954CDD3F826DC5D",
+      item: {
+        id: "refinedstorage:raw_improved_processor",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 5.0,
+    },
+    {
+      id: "1CEFF8C3AC0467A4",
+      item: {
+        id: "refinedstorage:raw_advanced_processor",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "703FFC8C0D078729",
+      item: {
+        id: "refinedstorage:basic_processor",
+        count: 1,
+      },
+      count: 3,
+      random_bonus: 1,
+      weight: 5.0,
+    },
+    {
+      id: "37DDFCFF5229A5E7",
+      item: {
+        id: "refinedstorage:improved_processor",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 5.0,
+    },
+    {
+      id: "4A95E20A5B55E72C",
+      item: {
+        id: "refinedstorage:advanced_processor",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "772D1B4045C496B5",
+      item: {
+        id: "extradisks:raw_withering_processor",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+    {
+      id: "629C299283A4FFB4",
+      item: {
+        id: "extradisks:withering_processor",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+  ],
+}

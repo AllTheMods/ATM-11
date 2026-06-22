@@ -1,0 +1,174 @@
+{
+  id: "11204745E52B4C0C",
+  order_index: 35,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "261FF334AB097C51",
+      item: {
+        id: "minecraft:oak_log",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "1E5F1BB76C570C2C",
+      item: {
+        id: "minecraft:spruce_log",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "59F8AAC046E1906B",
+      item: {
+        id: "minecraft:birch_log",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "58B5FDA54EB22C7B",
+      item: {
+        id: "minecraft:jungle_log",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "77A26499938C4EAD",
+      item: {
+        id: "minecraft:acacia_log",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "10C4D1351B85F2E7",
+      item: {
+        id: "minecraft:dark_oak_log",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "5021A0123CE9216C",
+      item: {
+        id: "minecraft:mangrove_log",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "2F61CE1CB3ABF835",
+      item: {
+        id: "minecraft:cherry_log",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "12B8D3463A9644A7",
+      item: {
+        id: "minecraft:bamboo_block",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "33521BF02F1A4ECC",
+      item: {
+        id: "minecraft:crimson_stem",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "7E0D83210B833347",
+      item: {
+        id: "minecraft:warped_stem",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "3D13C97654E56BD1",
+      item: {
+        id: "minecraft:oak_sapling",
+        count: 1,
+      },
+    },
+    {
+      id: "5ECFFA76568FC6F2",
+      item: {
+        id: "minecraft:spruce_sapling",
+        count: 1,
+      },
+    },
+    {
+      id: "710C5C518C95B420",
+      item: {
+        id: "minecraft:birch_sapling",
+        count: 1,
+      },
+    },
+    {
+      id: "3DA4E13373044F64",
+      item: {
+        id: "minecraft:jungle_sapling",
+        count: 1,
+      },
+    },
+    {
+      id: "060506EAA6565108",
+      item: {
+        id: "minecraft:acacia_sapling",
+        count: 1,
+      },
+    },
+    {
+      id: "794343489B6B5006",
+      item: {
+        id: "minecraft:dark_oak_sapling",
+        count: 1,
+      },
+    },
+    {
+      id: "7F2032D78479604A",
+      item: {
+        id: "minecraft:cherry_sapling",
+        count: 1,
+      },
+    },
+    {
+      id: "319CA7C51F122333",
+      item: {
+        id: "minecraft:mangrove_propagule",
+        count: 1,
+      },
+    },
+    {
+      id: "7C39BFD808F6463B",
+      item: {
+        id: "minecraft:bamboo",
+        count: 1,
+      },
+    },
+    {
+      id: "0EC5F5F8FD87E1BA",
+      item: {
+        id: "minecraft:crimson_fungus",
+        count: 1,
+      },
+    },
+    {
+      id: "5F4A2F1CECEDE394",
+      item: {
+        id: "minecraft:warped_fungus",
+        count: 1,
+      },
+    },
+  ],
+}

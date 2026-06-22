@@ -1,0 +1,4020 @@
+{
+  id: "59395B6806F2A98A",
+  group: "5A4775CCD6D26C80",
+  order_index: 1,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "cataclysm:the_incinerator",
+    },
+  },
+  filename: "cataclysm",
+  default_quest_shape: "rsquare",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  autofocus_id: "689F32883C4E9502",
+  quests: [
+    {
+      x: 0.0,
+      y: -17.0,
+      shape: "none",
+      hide_dependency_lines: true,
+      dependencies: [
+        "689F32883C4E9502",
+      ],
+      size: 1.5,
+      icon_scale: 2.0,
+      optional: true,
+      id: "18EB86F91CBBCCC6",
+      tasks: [
+        {
+          id: "2CDF2FE08D652C52",
+          type: "item",
+          item: {
+            id: "minecraft:ender_eye",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57DE78815E832C1D",
+          type: "item",
+          item: {
+            id: "minecraft:ender_eye",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -15.5,
+      shape: "circle",
+      dependencies: [
+        "18EB86F91CBBCCC6",
+      ],
+      size: 1.1,
+      optional: true,
+      id: "775AB10F8196F27B",
+      tasks: [
+        {
+          id: "72CE2E38E7AC5A6E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:mech_eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17093958C3AD519E",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_leaping",
+              },
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "4338C1517B0E8423",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -17.5,
+      shape: "circle",
+      dependencies: [
+        "18EB86F91CBBCCC6",
+      ],
+      size: 1.1,
+      optional: true,
+      id: "43A5B83862D9E94C",
+      tasks: [
+        {
+          id: "00232AAA1405DA42",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:flame_eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C5E97A48ECC7147",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_strength",
+              },
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "398E5C714579892B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -18.5,
+      shape: "circle",
+      dependencies: [
+        "18EB86F91CBBCCC6",
+      ],
+      size: 1.1,
+      optional: true,
+      id: "62C32905C33E2D88",
+      tasks: [
+        {
+          id: "42199FC37B72E56E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:void_eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5659D02D7A84C1C6",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_slow_falling",
+              },
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "1BCFE2CA4D370E9B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -16.5,
+      shape: "circle",
+      dependencies: [
+        "18EB86F91CBBCCC6",
+      ],
+      size: 1.1,
+      optional: true,
+      id: "7C848C7011726470",
+      tasks: [
+        {
+          id: "0B559DA611584321",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:monstrous_eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28326B41D26CED40",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_fire_resistance",
+              },
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "1410BD54CE5CFA1C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -18.5,
+      shape: "circle",
+      dependencies: [
+        "18EB86F91CBBCCC6",
+      ],
+      size: 1.1,
+      optional: true,
+      id: "3E8C7D92F99496BE",
+      tasks: [
+        {
+          id: "7EC48FDF6D04FD45",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:abyss_eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A6007F230962086",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_water_breathing",
+              },
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "17D95D63E0DDD26E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -16.5,
+      shape: "circle",
+      dependencies: [
+        "18EB86F91CBBCCC6",
+      ],
+      size: 1.1,
+      optional: true,
+      id: "2542D8A6894816C6",
+      tasks: [
+        {
+          id: "0AEA5298F3F3440B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:desert_eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2893F39C51CB1AE8",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_regeneration",
+              },
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "265F8EE221AB5A27",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherrack",
+        count: 1,
+      },
+      x: 1.5,
+      y: 1.0,
+      shape: "none",
+      dependencies: [
+        "689F32883C4E9502",
+      ],
+      icon_scale: 1.75,
+      id: "565376084F05ED6E",
+      tasks: [
+        {
+          id: "0B67D1F6E147566B",
+          type: "dimension",
+          dimension: "minecraft:the_nether",
+        },
+      ],
+      rewards: [
+        {
+          id: "478A8E7656398BD5",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:grass_block",
+        count: 1,
+      },
+      x: -1.5,
+      y: 1.0,
+      shape: "none",
+      dependencies: [
+        "689F32883C4E9502",
+      ],
+      icon_scale: 1.75,
+      id: "0496E8E786262464",
+      tasks: [
+        {
+          id: "0F998B5ABA5A3DE8",
+          type: "dimension",
+          dimension: "minecraft:overworld",
+        },
+      ],
+      rewards: [
+        {
+          id: "2C2CD4E098E4EA6D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:end_stone",
+        count: 1,
+      },
+      x: 1.5,
+      y: -2.0,
+      shape: "none",
+      dependencies: [
+        "689F32883C4E9502",
+      ],
+      icon_scale: 1.75,
+      id: "392EAE8BE71510C1",
+      tasks: [
+        {
+          id: "580603D270DF4193",
+          type: "dimension",
+          dimension: "minecraft:the_end",
+        },
+      ],
+      rewards: [
+        {
+          id: "18C196D30E0C4749",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -5.0,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "1C5EA7D62BAF2108",
+      ],
+      size: 1.5,
+      id: "746DE905D45A396C",
+      tasks: [
+        {
+          id: "043F030DD013235B",
+          type: "kill",
+          entity: "cataclysm:the_leviathan",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "3C6E611257297855",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:music_disc_the_leviathan",
+            },
+          },
+        },
+        {
+          id: "2E18F044A088B5D2",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 7.0,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "7AED8FD7FB023AD8",
+      ],
+      size: 1.5,
+      id: "17CA9D80D8EC3EF7",
+      tasks: [
+        {
+          id: "212643C57CFE4F25",
+          type: "kill",
+          entity: "cataclysm:the_harbinger",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "03F5924E7B5AB842",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:music_disc_the_harbinger",
+            },
+          },
+        },
+        {
+          id: "41F03B08315ED970",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 4.0,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "0B7F2B63D867D221",
+      ],
+      size: 1.5,
+      id: "33B1D3FD4C0B5514",
+      tasks: [
+        {
+          id: "331CDAB944917322",
+          type: "kill",
+          entity: "cataclysm:ancient_remnant",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "08CF2960E7163296",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:music_disc_ancient_remnant",
+            },
+          },
+        },
+        {
+          id: "78AFD5989B0005F8",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 4.0,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "0F8F0F7880235BA2",
+      ],
+      size: 1.5,
+      id: "53154550397E9704",
+      tasks: [
+        {
+          id: "1FFD677F6F52F10B",
+          type: "kill",
+          entity: "cataclysm:netherite_monstrosity",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "768FECAA1BA532FF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:music_disc_netherite_monstrosity",
+            },
+          },
+        },
+        {
+          id: "44F62ABC539E2657",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -0.5,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "7F4963FCAE5337EC",
+      ],
+      size: 1.5,
+      id: "7D57A14810BC0CBE",
+      tasks: [
+        {
+          id: "5A6C5151B3A21A3E",
+          type: "kill",
+          entity: "cataclysm:ignis",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "27614C476ED3AA1D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:music_disc_ignis",
+            },
+          },
+        },
+        {
+          id: "36B3C8B07B2D9066",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -5.0,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "21A0FD474FBB49F7",
+      ],
+      size: 1.5,
+      id: "2B115519A21F9CB7",
+      tasks: [
+        {
+          id: "56CD54E84D962527",
+          type: "kill",
+          entity: "cataclysm:ender_guardian",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "740082C803FCA043",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:music_disc_ender_guardian",
+            },
+          },
+        },
+        {
+          id: "2045595195B4DD3E",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:polished_blackstone",
+        count: 1,
+      },
+      x: 2.5,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "565376084F05ED6E",
+      ],
+      size: 1.2,
+      icon_scale: 1.6,
+      id: "0F8F0F7880235BA2",
+      tasks: [
+        {
+          id: "7EDD3301703FD7E5",
+          type: "structure",
+          structure: "cataclysm:soul_black_smith",
+        },
+      ],
+      rewards: [
+        {
+          id: "5F2310FE204165E0",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "1FE199D2505A1A5D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:nether_bricks",
+        count: 1,
+      },
+      x: 4.5,
+      y: -0.5,
+      shape: "square",
+      dependencies: [
+        "565376084F05ED6E",
+      ],
+      size: 1.2,
+      icon_scale: 1.6,
+      id: "50C9CB8FB16E453D",
+      tasks: [
+        {
+          id: "28EA523F9834EB02",
+          type: "structure",
+          structure: "cataclysm:burning_arena",
+        },
+      ],
+      rewards: [
+        {
+          id: "6A52AA5E44E9ABE7",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "000C49BB603686B3",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "cataclysm:void_infused_end_stone_bricks",
+        },
+      },
+      x: 2.5,
+      y: -3.0,
+      shape: "square",
+      dependencies: [
+        "392EAE8BE71510C1",
+      ],
+      size: 1.25,
+      icon_scale: 1.6,
+      id: "21A0FD474FBB49F7",
+      tasks: [
+        {
+          id: "20930238A87763FA",
+          type: "structure",
+          structure: "cataclysm:ruined_citadel",
+        },
+      ],
+      rewards: [
+        {
+          id: "001CE1620E423866",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "186DE226DDA7D08D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:sandstone",
+        count: 1,
+      },
+      x: -2.5,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "0496E8E786262464",
+      ],
+      size: 1.2,
+      icon_scale: 1.6,
+      id: "70CDA5F1593DB4B2",
+      tasks: [
+        {
+          id: "397BEEBF069AE7BF",
+          type: "structure",
+          structure: "cataclysm:cursed_pyramid",
+        },
+      ],
+      rewards: [
+        {
+          id: "350A340E31DC058C",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "625465DE356374EF",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "cataclysm:stone_tiles",
+        },
+      },
+      x: -2.5,
+      y: -3.0,
+      shape: "square",
+      dependencies: [
+        "0496E8E786262464",
+      ],
+      size: 1.2,
+      icon_scale: 1.6,
+      id: "45FBEABEBA7CC09E",
+      tasks: [
+        {
+          id: "78AFAE165BEF2155",
+          type: "structure",
+          structure: "cataclysm:sunken_city",
+        },
+      ],
+      rewards: [
+        {
+          id: "37CD7BB5A906EF80",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "6898F3E3AF83BFF4",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:deepslate_bricks",
+        count: 1,
+      },
+      x: 0.0,
+      y: 4.0,
+      shape: "square",
+      dependencies: [
+        "0496E8E786262464",
+      ],
+      size: 1.2,
+      icon_scale: 1.6,
+      id: "747B62A955D0C629",
+      tasks: [
+        {
+          id: "1D372E69BEEA8873",
+          type: "structure",
+          structure: "cataclysm:ancient_factory",
+        },
+      ],
+      rewards: [
+        {
+          id: "767B32FBFFEFA4C4",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "5BB5E7FF896AF009",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 3.0,
+      shape: "diamond",
+      dependencies: [
+        "70CDA5F1593DB4B2",
+      ],
+      id: "0B7F2B63D867D221",
+      tasks: [
+        {
+          id: "6599745E6193516E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:necklace_of_the_desert",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20667F8350DE1F2E",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "50C9CB8FB16E453D",
+      ],
+      id: "7F4963FCAE5337EC",
+      tasks: [
+        {
+          id: "54A79D79C6D345FF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:burning_ashes",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63FB62CD1FA2A43A",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -4.0,
+      shape: "diamond",
+      dependencies: [
+        "45FBEABEBA7CC09E",
+      ],
+      id: "1C5EA7D62BAF2108",
+      tasks: [
+        {
+          id: "11D3895ECA7E27F3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:abyssal_sacrifice",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A18FCD15D27309D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 5.5,
+      shape: "diamond",
+      dependencies: [
+        "747B62A955D0C629",
+      ],
+      id: "7AED8FD7FB023AD8",
+      tasks: [
+        {
+          id: "5E725AD79C4E7211",
+          type: "item",
+          item: {
+            id: "minecraft:nether_star",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67AC1A8F842B2778",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 6.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "53154550397E9704",
+      ],
+      size: 1.2,
+      id: "2A196974431FCC42",
+      tasks: [
+        {
+          id: "1FA495218EEB8C0B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:infernal_forge",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41C83F5B4B9CD271",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "6EB8E42F87CD39F8",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -7.5,
+      dependencies: [
+        "746DE905D45A396C",
+      ],
+      size: 1.2,
+      id: "46CC8E7ED59F51D2",
+      tasks: [
+        {
+          id: "286746C63BD684BC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:tidal_claws",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "743158EF518E02EB",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 10.0,
+      dependencies: [
+        "17CA9D80D8EC3EF7",
+      ],
+      size: 1.2,
+      id: "6ED61438A8A1EAA4",
+      tasks: [
+        {
+          id: "187285D1EF51215A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:witherite_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5168F62745FC98D7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:witherite_ingot",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "77F6D919C595A432",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 5.0,
+      dependencies: [
+        "53154550397E9704",
+      ],
+      size: 1.2,
+      id: "6FC4146E534C51DA",
+      tasks: [
+        {
+          id: "441555E3052F2EAF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:monstrous_helm",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15D75261DBC75B95",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -6.5,
+      dependencies: [
+        "746DE905D45A396C",
+      ],
+      size: 1.2,
+      id: "7CBEBBCB9D95D11A",
+      tasks: [
+        {
+          id: "0B02E5B6D743E0EF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:abyssal_egg",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C2F1E0C91A86470",
+          type: "item",
+          item: {
+            id: "minecraft:tropical_fish",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "6C97144C07C6763D",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 11.5,
+      dependencies: [
+        "6ED61438A8A1EAA4",
+      ],
+      id: "5EDB5A2D744CE415",
+      tasks: [
+        {
+          id: "6CECFDF3DCC27679",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:laser_gatling",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67755CBF39DD231B",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "57B3F339F542AF34",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 11.5,
+      dependencies: [
+        "6ED61438A8A1EAA4",
+      ],
+      id: "04B40BB107F14330",
+      tasks: [
+        {
+          id: "72E0E199F3AE9F33",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:meat_shredder",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "672307E37F5B69B6",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 11.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6ED61438A8A1EAA4",
+      ],
+      id: "445C9117198936B6",
+      tasks: [
+        {
+          id: "6181C8700EB260A6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:wither_assault_shoulder_weapon",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26E6234F8E898200",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 13.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "6ED61438A8A1EAA4",
+      ],
+      size: 1.3,
+      id: "683C260C854C5AA3",
+      tasks: [
+        {
+          id: "5E7B39AC84FFB6F7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:mechanical_fusion_anvil",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E5DE4955410F050",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:mechanical_fusion_anvil",
+            },
+          },
+        },
+        {
+          id: "6A1CD28139E0C5EF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:witherite_ingot",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 15.5,
+      dependencies: [
+        "683C260C854C5AA3",
+        "2A196974431FCC42",
+        "35E42F7925CA097A",
+      ],
+      id: "6BC3CF8937DEDE89",
+      tasks: [
+        {
+          id: "29537CE0D9AC9F93",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:void_forge",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B530C5894009A11",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 15.0,
+      dependencies: [
+        "683C260C854C5AA3",
+        "445C9117198936B6",
+        "35E42F7925CA097A",
+      ],
+      id: "74ACCEB6DC9EF6F7",
+      tasks: [
+        {
+          id: "7931E6A8146EEACF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:void_assault_shoulder_weapon",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "09BBBBE2A5A73C8D",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 15.0,
+      dependencies: [
+        "683C260C854C5AA3",
+        "4D644A9829C240CB",
+        "2CD58FC229BC0C28",
+      ],
+      id: "1D56D3B444A4B2D4",
+      tasks: [
+        {
+          id: "71F499EE36FAEF39",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:gauntlet_of_bulwark",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7BD51DAD45864CBD",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -0.5,
+      dependencies: [
+        "7D57A14810BC0CBE",
+      ],
+      size: 1.25,
+      id: "291C76140DE97E3C",
+      tasks: [
+        {
+          id: "5D307DA493AB79A3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ignitium_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05052BA5F76F07B0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ignitium_upgrade_smithing_template",
+            },
+          },
+        },
+        {
+          id: "26D091B2DB876DE1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ignitium_ingot",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "54EC1DFEBE78E1A9",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: 0.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "291C76140DE97E3C",
+      ],
+      id: "4D644A9829C240CB",
+      tasks: [
+        {
+          id: "35C54CFEA7E48119",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:bulwark_of_the_flame",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FE5086439FACD0C",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: -1.5,
+      dependencies: [
+        "291C76140DE97E3C",
+      ],
+      id: "2BCB788924BBD849",
+      tasks: [
+        {
+          id: "349198054DE2DC32",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:the_incinerator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "24DB06F152E67CEF",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -7.0,
+      hide_dependent_lines: true,
+      dependencies: [
+        "2B115519A21F9CB7",
+      ],
+      size: 1.2,
+      id: "2CD58FC229BC0C28",
+      tasks: [
+        {
+          id: "4B57B1AC4E115AFD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:gauntlet_of_guard",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5FBAF52AFC6CDFC4",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 6.0,
+      shape: "circle",
+      dependencies: [
+        "747B62A955D0C629",
+      ],
+      id: "3459CAEB59CBD60E",
+      tasks: [
+        {
+          id: "7DBF4C90566816D2",
+          type: "kill",
+          entity: "cataclysm:the_prowler",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "17FFE3174DD94B2B",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "517AC886B716756D",
+          type: "item",
+          item: {
+            id: "minecraft:iron_block",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "67898FD03CA0F51E",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -3.5,
+      shape: "circle",
+      dependencies: [
+        "45FBEABEBA7CC09E",
+      ],
+      id: "1744E700CF742CE2",
+      tasks: [
+        {
+          id: "2BF15BDF1224FB2E",
+          type: "kill",
+          entity: "cataclysm:coralssus",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "303C57818DE3671C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:coral_chunk",
+            },
+          },
+        },
+        {
+          id: "187AA2BA46021C13",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "0496E8E786262464",
+      ],
+      id: "631796E7615C04FA",
+      tasks: [
+        {
+          id: "1FC04EDCAF7CBD0D",
+          type: "kill",
+          entity: "cataclysm:amethyst_crab",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "7A5DCDBA1EC3EDA0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:amethyst_crab_meat",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "024E695A79D69822",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:amethyst_crab_shell",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "50C9CB8FB16E453D",
+      ],
+      id: "1B4ED65C614B102F",
+      tasks: [
+        {
+          id: "6186918546506DB1",
+          type: "kill",
+          entity: "cataclysm:ignited_revenant",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5C7012777AF62759",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:burning_ashes",
+            },
+          },
+        },
+        {
+          id: "53A4D426F5AF10BA",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 6.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "33B1D3FD4C0B5514",
+      ],
+      size: 1.2,
+      id: "1178E4123E8818E2",
+      tasks: [
+        {
+          id: "0719F24B45469C70",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:sandstorm_in_a_bottle",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79E5178115CFB266",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -5.0,
+      shape: "circle",
+      hide_dependent_lines: true,
+      dependencies: [
+        "21A0FD474FBB49F7",
+      ],
+      id: "6B5BC33667C782EC",
+      tasks: [
+        {
+          id: "37AF6786E3E6BE61",
+          type: "kill",
+          entity: "cataclysm:ender_golem",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "7C07FE2479C96D7C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:void_core",
+            },
+          },
+        },
+        {
+          id: "3F4F8C549F13E312",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "cataclysm:altar_of_fire",
+        },
+      },
+      x: 0.0,
+      y: -0.5,
+      shape: "gear",
+      size: 3.0,
+      id: "689F32883C4E9502",
+      tasks: [
+        {
+          id: "276930FE3A5CD916",
+          type: "advancement",
+          advancement: "minecraft:adventure/root",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "5E49AB96CBF9431C",
+          type: "item",
+          item: {
+            id: "minecraft:cooked_beef",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "213FD686870FAC06",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 6.0,
+      dependencies: [
+        "33B1D3FD4C0B5514",
+      ],
+      size: 1.2,
+      id: "4FA7774D89171BB3",
+      tasks: [
+        {
+          id: "5C9844F4FF6759A1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:remnant_skull",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37B281044368D0F7",
+          type: "item",
+          item: {
+            id: "minecraft:sniffer_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "30A13BB89A3AF781",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -3.5,
+      shape: "circle",
+      hide_dependent_lines: true,
+      dependencies: [
+        "21A0FD474FBB49F7",
+      ],
+      id: "465B08461B460DAC",
+      tasks: [
+        {
+          id: "5A4F3C501FCA8D4A",
+          type: "kill",
+          entity: "cataclysm:endermaptera",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "1C8F230A3F989084",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:void_jaw",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "6418AEAEA11F91BA",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 2.5,
+      shape: "circle",
+      hide_dependent_lines: true,
+      dependencies: [
+        "70CDA5F1593DB4B2",
+      ],
+      id: "4FA156C383C9C438",
+      tasks: [
+        {
+          id: "3ED2F1DCEF876342",
+          type: "kill",
+          entity: "cataclysm:koboleton",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "25317F8199EB2CE2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:khopesh",
+            },
+          },
+        },
+        {
+          id: "109410F4D71BE052",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 6.0,
+      shape: "circle",
+      dependencies: [
+        "747B62A955D0C629",
+      ],
+      id: "4BF5EB050EC14C80",
+      tasks: [
+        {
+          id: "115CC8CB465CC75B",
+          type: "kill",
+          entity: "cataclysm:the_watcher",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "7A45D3D1815C64E1",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "1043613D32D3FCD0",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "58033D6C579BA244",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -5.0,
+      shape: "circle",
+      dependencies: [
+        "45FBEABEBA7CC09E",
+      ],
+      id: "6E08D4E6BC3FB99F",
+      tasks: [
+        {
+          id: "32F07A1E7D1DB677",
+          type: "kill",
+          entity: "cataclysm:deepling",
+          value: 1,
+        },
+        {
+          id: "1292EDE5AE9A6208",
+          type: "kill",
+          entity: "cataclysm:deepling_angler",
+          value: 1,
+        },
+        {
+          id: "0F979803BAD37C6D",
+          type: "kill",
+          entity: "cataclysm:deepling_brute",
+          value: 1,
+        },
+        {
+          id: "1FD4301EF1879E2F",
+          type: "kill",
+          entity: "cataclysm:deepling_priest",
+          value: 1,
+        },
+        {
+          id: "77D7886DB72A9515",
+          type: "kill",
+          entity: "cataclysm:deepling_warlock",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "592D448CCE4A4816",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:coral_spear",
+            },
+          },
+        },
+        {
+          id: "789C6F12170F2201",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:coral_bardiche",
+            },
+          },
+        },
+        {
+          id: "6891D0BD83C53A78",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:athame",
+            },
+          },
+        },
+        {
+          id: "620A2DC2C3504004",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "cataclysm:frosted_stone_bricks",
+        },
+      },
+      x: -4.5,
+      y: -0.5,
+      shape: "square",
+      dependencies: [
+        "0496E8E786262464",
+      ],
+      size: 1.2,
+      icon_scale: 1.6,
+      id: "1A8F438DB8508276",
+      tasks: [
+        {
+          id: "6F6236B1DA6BEED3",
+          type: "structure",
+          structure: "cataclysm:frosted_prison",
+        },
+      ],
+      rewards: [
+        {
+          id: "33C107B2219996D0",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "5A227714A730E37B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -0.5,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "55278DDC31951DA5",
+      ],
+      size: 1.5,
+      id: "71055E7BBB337C4D",
+      tasks: [
+        {
+          id: "1D9C01A57A7C29DF",
+          type: "kill",
+          entity: "cataclysm:maledictus",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5E6539F27AC93DAA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:music_disc_maledictus",
+            },
+          },
+        },
+        {
+          id: "0F5DB036D8668240",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -0.5,
+      dependencies: [
+        "71055E7BBB337C4D",
+      ],
+      size: 1.2,
+      id: "6DC633B4D09185A5",
+      tasks: [
+        {
+          id: "4E747C5E3ADB8FBF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:cursium_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3DBDB1752FC3595C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:cursium_upgrade_smithing_template",
+            },
+          },
+        },
+        {
+          id: "4B35E3BAC57D4C72",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:cursium_ingot",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "247B5CCAB9F4B2FF",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -17.5,
+      shape: "circle",
+      dependencies: [
+        "18EB86F91CBBCCC6",
+      ],
+      size: 1.1,
+      optional: true,
+      id: "3DD71B6C4B80FB44",
+      tasks: [
+        {
+          id: "2EE44A9E56A5AC64",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:cursed_eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7675BCB1AFF57B95",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_swiftness",
+              },
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "0E7D5335CB99FB5D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -3.0,
+      shape: "circle",
+      dependencies: [
+        "45FBEABEBA7CC09E",
+      ],
+      id: "5D74D73092ACD2F2",
+      tasks: [
+        {
+          id: "59B0ADEF1CCD5D19",
+          type: "kill",
+          entity: "cataclysm:coral_golem",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "7A3731D161C7A77D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:crystallized_coral_fragments",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "1932DDE3C922A961",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 2.0,
+      shape: "circle",
+      hide_dependent_lines: true,
+      dependencies: [
+        "70CDA5F1593DB4B2",
+      ],
+      id: "13D5F689E6884281",
+      tasks: [
+        {
+          id: "4B276ADB7BC73DFE",
+          type: "kill",
+          entity: "cataclysm:kobolediator",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "7AA4C57F0157B16C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:kobolediator_skull",
+            },
+          },
+        },
+        {
+          id: "72F642925A1C5682",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 4.0,
+      shape: "circle",
+      hide_dependent_lines: true,
+      dependencies: [
+        "70CDA5F1593DB4B2",
+      ],
+      id: "62DF58D36B739EA0",
+      tasks: [
+        {
+          id: "03BC318A73EED58F",
+          type: "kill",
+          entity: "cataclysm:wadjet",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "4C5372D80992DA43",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ancient_spear",
+            },
+          },
+        },
+        {
+          id: "685A5B57978FFBC4",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "50C9CB8FB16E453D",
+      ],
+      id: "236EA8D18ECD5FE8",
+      tasks: [
+        {
+          id: "5DC9853ADBF3C848",
+          type: "kill",
+          entity: "cataclysm:ignited_berserker",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "1CC277EAF6FA1460",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:dying_ember",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "71D654E5CF38EED6",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "1A8F438DB8508276",
+      ],
+      id: "4D822D92492E1F53",
+      tasks: [
+        {
+          id: "23F8CD69811E5531",
+          type: "kill",
+          entity: "cataclysm:aptrgangr",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "77BECC9EED1295CC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:black_steel_block",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "66C82F17DE2A3868",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "1A8F438DB8508276",
+      ],
+      id: "0894EB1F3FCFCECA",
+      tasks: [
+        {
+          id: "7E86018A45A5231B",
+          type: "kill",
+          entity: "cataclysm:draugr",
+          value: 1,
+        },
+        {
+          id: "345D244DD3CFF768",
+          type: "kill",
+          entity: "cataclysm:elite_draugr",
+          value: 1,
+        },
+        {
+          id: "4264E1BE34D7CF29",
+          type: "kill",
+          entity: "cataclysm:royal_draugr",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "1486DE3286EE4CA1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:black_steel_sword",
+            },
+          },
+        },
+        {
+          id: "4911EA6B890C4140",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:black_steel_targe",
+            },
+          },
+        },
+        {
+          id: "538F6E31326BDA83",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: -0.5,
+      dependencies: [
+        "291C76140DE97E3C",
+      ],
+      id: "69439426534EBDC4",
+      tasks: [
+        {
+          id: "6421E1E5B3B0775F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:blazing_grips",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A2DD1676C040D3B",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 13.0,
+      y: -0.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "291C76140DE97E3C",
+      ],
+      id: "0EE0946240B41A00",
+      tasks: [
+        {
+          id: "64C9394257B1BFE4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ignitium_helmet",
+            },
+          },
+        },
+        {
+          id: "17AA9547DCA9E318",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ignitium_chestplate",
+            },
+          },
+        },
+        {
+          id: "70493D80F8BA30FE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ignitium_leggings",
+            },
+          },
+        },
+        {
+          id: "208721837E518BAA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ignitium_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2750DB34961A1FC7",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 6.0,
+      dependencies: [
+        "53154550397E9704",
+      ],
+      size: 1.2,
+      id: "25ACB08E4F12CE79",
+      tasks: [
+        {
+          id: "284B25931C329763",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:lava_power_cell",
+            },
+          },
+        },
+        {
+          id: "4A2EA8013947CCF3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:netherite_effigy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EA33F875D98ED0D",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: 5.0,
+      dependencies: [
+        "33B1D3FD4C0B5514",
+        "4FA156C383C9C438",
+        "13D5F689E6884281",
+        "62DF58D36B739EA0",
+      ],
+      dependency_requirement: "one_completed",
+      id: "462D173D576A8D91",
+      tasks: [
+        {
+          id: "1D37CB3AF21A7B5E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ancient_metal_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07873BCF9F27C47F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ancient_metal_nugget",
+            },
+          },
+          count: 36,
+        },
+        {
+          id: "07BBC36B21E6B73C",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -12.0,
+      y: -0.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6DC633B4D09185A5",
+      ],
+      id: "0853917693A259C2",
+      tasks: [
+        {
+          id: "2E3A865D69AF2237",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:the_annihilator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06070297008C752B",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -12.5,
+      y: -1.5,
+      dependencies: [
+        "6DC633B4D09185A5",
+      ],
+      id: "37E4DECFB6526969",
+      tasks: [
+        {
+          id: "0C20E2E8CB495097",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:soul_render",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17452901A650308D",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -12.5,
+      y: 0.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6DC633B4D09185A5",
+      ],
+      id: "4E2C589C7638390F",
+      tasks: [
+        {
+          id: "437318B1467615E2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:cursed_bow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2405576A514870F7",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -13.0,
+      y: -0.5,
+      dependencies: [
+        "6DC633B4D09185A5",
+      ],
+      id: "7270FA5C48AF7280",
+      tasks: [
+        {
+          id: "3818D0AD3D3CEB23",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:cursium_helmet",
+            },
+          },
+        },
+        {
+          id: "58FA4ABD432FA465",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:cursium_chestplate",
+            },
+          },
+        },
+        {
+          id: "33BA5E2BA15AE19B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:cursium_leggings",
+            },
+          },
+        },
+        {
+          id: "2479FF720BBB3DD2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:cursium_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5068D700EA08B319",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 16.0,
+      dependencies: [
+        "683C260C854C5AA3",
+        "1178E4123E8818E2",
+        "2CD58FC229BC0C28",
+      ],
+      id: "5E3263ACE170A8E3",
+      tasks: [
+        {
+          id: "1D720A6A11114AED",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:gauntlet_of_maelstrom",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D01FB40571C4EFF",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 15.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "683C260C854C5AA3",
+        "0853917693A259C2",
+        "291C76140DE97E3C",
+      ],
+      id: "62089E9E6D596DA7",
+      tasks: [
+        {
+          id: "7B6CA094447C3307",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:the_immolator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46357429A7741E30",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 16.0,
+      dependencies: [
+        "683C260C854C5AA3",
+        "1178E4123E8818E2",
+        "4E2C589C7638390F",
+      ],
+      id: "3B577572FA7A413E",
+      tasks: [
+        {
+          id: "25F8EDC9691694B7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:wrath_of_the_desert",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6478D57835BE09C9",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 15.5,
+      dependencies: [
+        "683C260C854C5AA3",
+        "0EE0946240B41A00",
+      ],
+      id: "7AEE4BE3AB41ED3E",
+      tasks: [
+        {
+          id: "087F7DE821F0EBF7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ignitium_elytra_chestplate",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1441FA0C176D1128",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -8.0,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6B5BC33667C782EC",
+      ],
+      id: "35E42F7925CA097A",
+      tasks: [
+        {
+          id: "0F638F28617D25D9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:void_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0FB8F2CFB6398BF6",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -6.0,
+      dependencies: [
+        "465B08461B460DAC",
+      ],
+      id: "05DE9E1CDFBC22DE",
+      tasks: [
+        {
+          id: "44CB083FE59B6184",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:void_scatter_arrow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "496D5A55529C1BFF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:void_scatter_arrow",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "15899A810BF52CBA",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 6.0,
+      dependencies: [
+        "4FA156C383C9C438",
+      ],
+      id: "5C6C4AD0F60BECCA",
+      tasks: [
+        {
+          id: "4C82C85393A0CFE6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:khopesh",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59C5D2058E0B055E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:khopesh",
+            },
+          },
+        },
+        {
+          id: "28C4BCDB0E7AE6DA",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 7.0,
+      dependencies: [
+        "13D5F689E6884281",
+        "462D173D576A8D91",
+      ],
+      id: "01AFC11EAAB6CB3B",
+      tasks: [
+        {
+          id: "787DB837F16663A5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:bone_reptile_helmet",
+            },
+          },
+        },
+        {
+          id: "6E925A7B24DF8FCB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:bone_reptile_chestplate",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "29F2D8464E119F2D",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 7.5,
+      dependencies: [
+        "462D173D576A8D91",
+      ],
+      id: "2F62C290A5CE50F8",
+      tasks: [
+        {
+          id: "39637D7839CE1D81",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ancient_spear",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4560A97A39082D6C",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -2.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "25ACB08E4F12CE79",
+        "7CBEBBCB9D95D11A",
+        "4FA7774D89171BB3",
+      ],
+      hide_until_deps_complete: true,
+      dependency_requirement: "one_completed",
+      optional: true,
+      id: "4CCEC13CC5A5772D",
+      tasks: [
+        {
+          id: "38FFA24FDD924194",
+          type: "item",
+          item: {
+            id: "minecraft:bucket",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 1.5,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "00307A898A639191",
+      tasks: [
+        {
+          id: "0303CDB18BBD9575",
+          type: "checkmark",
+        },
+        {
+          id: "0B7F934439806558",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "cataclysm:azure_seastone_bricks",
+        },
+      },
+      x: 0.0,
+      y: -5.0,
+      shape: "square",
+      dependencies: [
+        "0496E8E786262464",
+      ],
+      size: 1.25,
+      icon_scale: 1.6,
+      id: "573DD5834B321D0A",
+      tasks: [
+        {
+          id: "4A6DE7C971D4DBE2",
+          type: "structure",
+          structure: "cataclysm:acropolis",
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -11.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "655FF7295B688354",
+      ],
+      id: "3C0F8EB779E56F2A",
+      tasks: [
+        {
+          id: "1D1F9207DD5E36B5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:chitin_claw",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "525A2591ADE675A1",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -11.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "713006AB89E43C6D",
+      ],
+      size: 1.2,
+      id: "2011638351B67396",
+      tasks: [
+        {
+          id: "3749918766468C2B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:astrape",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E8EA35B7EEC2C67",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -11.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "713006AB89E43C6D",
+      ],
+      size: 1.2,
+      id: "6CB8D3919B16784B",
+      tasks: [
+        {
+          id: "7DCF623D6E648C6A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:ceraunus",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02AD865CE2B43640",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "4D822D92492E1F53",
+      ],
+      id: "55278DDC31951DA5",
+      tasks: [
+        {
+          id: "781F4F988B317FEA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:strange_key",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "129F8BF259695EBC",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -15.5,
+      shape: "circle",
+      dependencies: [
+        "18EB86F91CBBCCC6",
+      ],
+      size: 1.1,
+      optional: true,
+      id: "30C5D432C810F904",
+      tasks: [
+        {
+          id: "7F53E5F334E98681",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:storm_eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "451630BFF5E6F2FA",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:healing",
+              },
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "6683F63843A63CDE",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -8.0,
+      shape: "octagon",
+      dependencies: [
+        "573DD5834B321D0A",
+      ],
+      size: 1.5,
+      id: "713006AB89E43C6D",
+      tasks: [
+        {
+          id: "3A1225710734FE89",
+          type: "kill",
+          entity: "cataclysm:scylla",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "7FF1086F44128F32",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:music_disc_scylla",
+            },
+          },
+        },
+        {
+          id: "0BDAE90E90C9DF04",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -6.5,
+      shape: "circle",
+      dependencies: [
+        "573DD5834B321D0A",
+      ],
+      id: "5BD22081ED81BCC6",
+      tasks: [
+        {
+          id: "43D4C5A2A9258E6D",
+          type: "kill",
+          entity: "cataclysm:urchinkin",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "05C62E3F7540A5F1",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -7.5,
+      shape: "circle",
+      dependencies: [
+        "573DD5834B321D0A",
+      ],
+      id: "5FBA199E0B7F1585",
+      tasks: [
+        {
+          id: "4FD03130879688D5",
+          type: "kill",
+          entity: "cataclysm:symbiocto",
+          value: 1,
+        },
+        {
+          id: "7E5824C2C5FCBDD8",
+          type: "kill",
+          entity: "cataclysm:drowned_host",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5B5E83870620078D",
+          type: "item",
+          item: {
+            id: "minecraft:ink_sac",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "6116121EBF25EBC9",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -7.5,
+      shape: "circle",
+      dependencies: [
+        "573DD5834B321D0A",
+      ],
+      id: "696A33E7D91A487E",
+      tasks: [
+        {
+          id: "6041EBC003D45F5A",
+          type: "kill",
+          entity: "cataclysm:cindaria",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "0A59C5DC26E2D2CB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:lacrima",
+            },
+          },
+        },
+        {
+          id: "67C82857D53117EB",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -7.0,
+      shape: "circle",
+      dependencies: [
+        "573DD5834B321D0A",
+      ],
+      id: "655FF7295B688354",
+      tasks: [
+        {
+          id: "099FF4BCCD3E612D",
+          type: "kill",
+          entity: "cataclysm:clawdian",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "450E90461D727691",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:chitin_claw",
+            },
+          },
+        },
+        {
+          id: "4448411A960BB353",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -6.5,
+      shape: "circle",
+      dependencies: [
+        "573DD5834B321D0A",
+      ],
+      id: "0741FABE57CA1A7D",
+      tasks: [
+        {
+          id: "2362A07A36DDFB22",
+          type: "kill",
+          entity: "cataclysm:hippocamtus",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "702E8E39F0ADBE9F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:lacrima",
+            },
+          },
+        },
+        {
+          id: "137DCA519BDF280E",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "cataclysm:music_disc_the_cataclysmfarer",
+        },
+      },
+      x: 0.0,
+      y: -20.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "2B115519A21F9CB7",
+        "71055E7BBB337C4D",
+        "17CA9D80D8EC3EF7",
+        "713006AB89E43C6D",
+        "33B1D3FD4C0B5514",
+        "7D57A14810BC0CBE",
+        "746DE905D45A396C",
+        "53154550397E9704",
+      ],
+      id: "2790EB2E347D28DE",
+      tasks: [
+        {
+          id: "01063DC98BCE5A91",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "53C53B97C22A576D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "cataclysm:music_disc_the_cataclysmfarer",
+            },
+          },
+        },
+        {
+          id: "388C6D4D376FAA2E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "dyenamics:amber_glazed_terracotta",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "36085102DFDE5810",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "476BC912A8D98B1A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0F9000022FE357BA",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7DFC39278AB7E425",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "590E340DD8B24EA5",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5F1C78B88693B3EC",
+          type: "xp_levels",
+          xp_levels: 250,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -13.0,
+      width: 9.354545454545455,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title.png",
+      id: "1CA6315B075727B8",
+    },
+    {
+      x: 6.0,
+      y: -6.0,
+      width: 5.593406593406593,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title_guardian.png",
+      id: "6A3F54F346CE4A39",
+    },
+    {
+      x: 6.0,
+      y: -5.0,
+      width: 9.0,
+      height: 0.7,
+      rotation: 45.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_bar_guardian2.png",
+      order: 1,
+      id: "040792DF00A56529",
+    },
+    {
+      x: 9.5,
+      y: -0.5,
+      width: 1.6272727272727272,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title_ignis.png",
+      id: "5BE8CE7091EE8B12",
+    },
+    {
+      x: 8.5,
+      y: 0.5,
+      width: 7.0,
+      height: 0.4375,
+      rotation: 90.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_bar_ignis2.png",
+      id: "7E962A46277086F6",
+    },
+    {
+      x: 5.5,
+      y: 4.5,
+      width: 6.990909090909091,
+      height: 1.0,
+      rotation: -45.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title_monstrosity.png",
+      id: "38A273DFDDCE116D",
+    },
+    {
+      x: 6.5,
+      y: 4.5,
+      width: 11.0,
+      height: 0.7,
+      rotation: -45.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_bar_monstrosity2.png",
+      id: "4610D1DD3AA76FFA",
+    },
+    {
+      x: 0.0,
+      y: 8.25,
+      width: 4.290909090909091,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title_habinger.png",
+      id: "740234ABCEAD69F5",
+    },
+    {
+      x: 0.75,
+      y: 9.0,
+      width: 7.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_bar_harbinger2.png",
+      id: "44B2E5E0E7108D07",
+    },
+    {
+      x: -5.0,
+      y: 5.0,
+      width: 6.208791208791209,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title_remnant.png",
+      id: "679DA7A15E27DAE5",
+    },
+    {
+      x: -5.0,
+      y: 6.0,
+      width: 9.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_bar_remnant2.png",
+      id: "1EA1714666C8A9BF",
+    },
+    {
+      x: -9.5,
+      y: -0.5,
+      width: 3.978021978021978,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title_maledictus.png",
+      id: "07526AC42AEAFD7F",
+    },
+    {
+      x: -8.5,
+      y: -1.0,
+      width: 7.0,
+      height: 0.875,
+      rotation: -90.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_bar_maledictus2.png",
+      id: "032C61F20210B48B",
+    },
+    {
+      x: -5.5,
+      y: -6.5,
+      width: 5.186813186813187,
+      height: 1.0,
+      rotation: -45.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title_leviathan.png",
+      id: "69C29F25612AC61B",
+    },
+    {
+      x: -4.5,
+      y: -6.5,
+      width: 8.0,
+      height: 0.5,
+      rotation: -45.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_bar_leviathan2.png",
+      id: "2DF7FC63CBC51819",
+    },
+    {
+      x: 0.0,
+      y: 12.5,
+      width: 7.010989010989011,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title_items.png",
+      id: "0CCFEBF8BC258E4E",
+    },
+    {
+      x: 7.5,
+      y: -9.5,
+      width: 2.0068846815834767,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_guardiuan.png",
+      id: "44607EEDEB3EBADC",
+    },
+    {
+      x: 10.5,
+      y: -3.5,
+      width: 2.1993865030674846,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_ignis.png",
+      id: "642C6BE6A9667CCF",
+    },
+    {
+      x: 9.5,
+      y: 5.5,
+      width: 1.9820359281437125,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_monstrosity.png",
+      id: "78C82A82046699A8",
+    },
+    {
+      x: 3.0,
+      y: 10.0,
+      width: 2.0965517241379312,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_harbinger.png",
+      id: "449C49ED40DA2A91",
+    },
+    {
+      x: -8.0,
+      y: 9.0,
+      width: 2.0128205128205128,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_remnant.png",
+      id: "467A0DEA079EFB95",
+    },
+    {
+      x: -11.0,
+      y: 2.5,
+      width: 2.6625766871165646,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_maledictus.png",
+      id: "4FB9C88512E00514",
+    },
+    {
+      x: -9.5,
+      y: -6.5,
+      width: 2.380859375,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_leviathan.png",
+      id: "2EA19F05410C675C",
+    },
+    {
+      x: 10.5,
+      y: -6.5,
+      width: 4.01673640167364,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_citadel.png",
+      id: "2F2FE8FCC2A0FE08",
+    },
+    {
+      x: 11.0,
+      y: 2.5,
+      width: 4.0021097046413505,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_arena.png",
+      id: "1013D327757C2E53",
+    },
+    {
+      x: -3.5,
+      y: 10.0,
+      width: 3.983402489626556,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_factory.png",
+      id: "3A3C66BFD5C6882D",
+    },
+    {
+      x: 7.5,
+      y: 8.5,
+      width: 4.01673640167364,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_blacksmith.png",
+      id: "3DF194923B652E36",
+    },
+    {
+      x: -10.5,
+      y: 6.0,
+      width: 4.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_pyramid.png",
+      id: "3544857C02E53043",
+    },
+    {
+      x: -10.5,
+      y: -3.5,
+      width: 4.01673640167364,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_prison.png",
+      id: "688517FA23AED00B",
+    },
+    {
+      x: -7.0,
+      y: -9.5,
+      width: 3.871244635193133,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_city.png",
+      id: "300D037FCC55F8BA",
+    },
+    {
+      x: 7.5,
+      y: 8.5,
+      width: 4.7,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "7B812B45D019A999",
+    },
+    {
+      x: -3.5,
+      y: 10.0,
+      width: 4.75,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "1515FFFD31A55438",
+    },
+    {
+      x: -10.5,
+      y: 6.0,
+      width: 4.75,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "7BDFD3680FF3BDE6",
+    },
+    {
+      x: -10.5,
+      y: -3.5,
+      width: 4.7,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "766714B2727FAA83",
+    },
+    {
+      x: -7.0,
+      y: -9.5,
+      width: 4.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "387312767DE511D1",
+    },
+    {
+      x: 11.0,
+      y: 2.5,
+      width: 4.75,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "4ED6ADDDF0D47C0F",
+    },
+    {
+      x: 10.5,
+      y: -6.5,
+      width: 4.75,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "281FF9452D6308ED",
+    },
+    {
+      x: -9.5,
+      y: -6.5,
+      width: 2.8,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "0B2969D957291ADC",
+    },
+    {
+      x: -11.0,
+      y: 2.5,
+      width: 2.9,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "4E5FA07759EF7EED",
+    },
+    {
+      x: -8.0,
+      y: 9.0,
+      width: 2.35,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "41EE9F35EB839046",
+    },
+    {
+      x: 3.0,
+      y: 10.0,
+      width: 2.35,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "2AA211E15BCE1AC3",
+    },
+    {
+      x: 9.5,
+      y: 5.5,
+      width: 2.35,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "3543B80E550BE365",
+    },
+    {
+      x: 10.5,
+      y: -3.5,
+      width: 2.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "44E9F3B135C27257",
+    },
+    {
+      x: 7.5,
+      y: -9.5,
+      width: 2.4,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "7BAC8D31274753C9",
+    },
+    {
+      x: 0.75,
+      y: -9.0,
+      width: 8.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "cataclysm:textures/gui/boss_bar/scylla_bar_overlay.png",
+      id: "2A2039059645C912",
+    },
+    {
+      x: 0.0,
+      y: -10.0,
+      width: 2.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_title_scylla.png",
+      id: "56B5718E86117345",
+    },
+    {
+      x: 4.0,
+      y: -11.0,
+      width: 4.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_acropolis.png",
+      id: "5A690F364BBC477F",
+    },
+    {
+      x: -3.5,
+      y: -11.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_scylla.png",
+      id: "1BAFF695FB72D4F4",
+    },
+    {
+      x: -3.5,
+      y: -11.0,
+      width: 2.4,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "71ABE74B542BC83E",
+    },
+    {
+      x: 4.0,
+      y: -11.0,
+      width: 4.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/cataclysm/cataclysm_frame.png",
+      id: "11F6CF4AAF812139",
+    },
+  ],
+}

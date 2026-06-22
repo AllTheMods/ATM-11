@@ -1,0 +1,4111 @@
+{
+  id: "76DF5FAA7961E5E7",
+  group: "02FE661031A105D8",
+  order_index: 4,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "irons_spellbooks:scroll",
+    },
+  },
+  filename: "iron_spells_and_spellbooks",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "minecraft:book",
+        count: 1,
+      },
+      x: 4.0,
+      y: -8.5,
+      shape: "square",
+      hide_dependent_lines: true,
+      id: "615C3E012B2DECD3",
+      tasks: [
+        {
+          id: "6502D0124314BF25",
+          type: "item",
+          item: {
+            id: "minecraft:paper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "231B5B9731B07E53",
+          type: "item",
+          item: {
+            id: "minecraft:paper",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -8.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "7408CCF998D9CD37",
+      tasks: [
+        {
+          id: "6F0B2D8E0F4A8F27",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:netherite_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A55C808BAC88ECE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:legendary_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -8.5,
+      shape: "square",
+      dependencies: [
+        "7408CCF998D9CD37",
+      ],
+      id: "445C21949ADA1FE3",
+      tasks: [
+        {
+          id: "7C13F89FE54C5D8D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:allthemodium_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5016E225DFFE4510",
+          type: "item",
+          item: {
+            id: "allthemodium:allthemodium_upgrade_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -8.5,
+      shape: "square",
+      dependencies: [
+        "445C21949ADA1FE3",
+      ],
+      id: "3DCD38634176BD92",
+      tasks: [
+        {
+          id: "6BA92364768B8CD4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:vibranium_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7799ADC405111DE6",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_upgrade_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -8.5,
+      shape: "square",
+      dependencies: [
+        "3DCD38634176BD92",
+      ],
+      id: "27CF1A2587321A2C",
+      tasks: [
+        {
+          id: "7DDFBD15D58978B9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:unobtainium_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A6B5A61207C8054",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_upgrade_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -8.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "67A587F4BAD76C70",
+      tasks: [
+        {
+          id: "6077B2E430D01066",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:copper_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0181CA7B3448C53C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:common_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -8.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "6CE7115DA2B23776",
+      tasks: [
+        {
+          id: "34EBDAAB54DEC7D7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:iron_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B016E7BB94B93F9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:uncommon_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -8.0,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "66762A4743104157",
+      tasks: [
+        {
+          id: "4A1F6C4CC2624031",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:gold_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7CF77C5B3E6D55F7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:rare_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -8.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "4407BD7B5F033765",
+      tasks: [
+        {
+          id: "7040BF1C496C2185",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:diamond_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17E703890863C286",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:epic_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -9.0,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "1CAEC4C273EDDB99",
+      tasks: [
+        {
+          id: "463614EE1B9E0590",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:rotten_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7BA21F76F1D1563F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:rare_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -9.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "4E3355FDCB65BB63",
+      tasks: [
+        {
+          id: "2C2307F605F18979",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:evoker_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "158AAA21F5E6260C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:epic_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -7.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "48C68664319B0294",
+      tasks: [
+        {
+          id: "63FB8946440CCEDB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:necronomicon_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3980F859732CFA37",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:epic_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -10.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "1A0368CB49B8CBFF",
+      tasks: [
+        {
+          id: "093FE39726FF986E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:blaze_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "017C87162F328470",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:epic_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -6.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "73D6B980D35082A0",
+      tasks: [
+        {
+          id: "5F5991AFE9757950",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:villager_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3BA65ACBDE632A92",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:epic_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -5.5,
+      shape: "square",
+      dependencies: [
+        "1CAEC4C273EDDB99",
+      ],
+      id: "78AA7BFABBFB9973",
+      tasks: [
+        {
+          id: "11E0DAD46E622968",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:druidic_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35475D285361ED90",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:epic_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -7.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "652A14E17DDE97E6",
+      tasks: [
+        {
+          id: "23A37A934A4C83E5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:dragonskin_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7BB7AECDA4A62E3D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:legendary_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -8.25,
+      y: 5.5,
+      shape: "diamond",
+      size: 1.5,
+      id: "2A787B99A8B0C767",
+      tasks: [
+        {
+          id: "6EAC7D1EB04B2686",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:inscription_table",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70AB901751BE0F43",
+          type: "item",
+          item: {
+            id: "minecraft:paper",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 4.75,
+      shape: "diamond",
+      size: 1.5,
+      id: "551A4916F032ACCF",
+      tasks: [
+        {
+          id: "7A0BAF69F0AEE0AE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_anvil",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "12BF12853B302708",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:upgrade_orb",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -6.75,
+      y: 5.5,
+      shape: "diamond",
+      size: 1.5,
+      id: "69838E3F12218D68",
+      tasks: [
+        {
+          id: "6FC286A3EC91DE9F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:scroll_forge",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20EDABAC9A96258A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:rare_ink",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 6.25,
+      shape: "diamond",
+      size: 1.5,
+      id: "3E8077AB45C79E6A",
+      tasks: [
+        {
+          id: "7DE683FE83AE2C19",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:alchemist_cauldron",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4065C90A9423D9A9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:oakskin_elixir",
+            },
+          },
+        },
+        {
+          id: "54B576CCD81B30BF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:invisibility_elixir",
+            },
+          },
+        },
+        {
+          id: "047CA47141F8B998",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:evasion_elixir",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 8.0,
+      shape: "diamond",
+      id: "541446863A72B96C",
+      tasks: [
+        {
+          id: "3508E0BECB5DD919",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:common_ink",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "18ABCBE38C93164A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:common_ink",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 7.5,
+      shape: "diamond",
+      id: "637C87D8968CD51A",
+      tasks: [
+        {
+          id: "718C6E669D17F0C0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:uncommon_ink",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D16DACA6D6E8EA2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:uncommon_ink",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 8.0,
+      shape: "diamond",
+      id: "60FAD8BF235E381B",
+      tasks: [
+        {
+          id: "38691751D6156791",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:rare_ink",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0DF72CE9CA1693CD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:rare_ink",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: 7.5,
+      shape: "diamond",
+      id: "06F8EDF7513F8611",
+      tasks: [
+        {
+          id: "1C60DB6E320883DF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:epic_ink",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EEABD789960AC05",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:epic_ink",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 8.0,
+      shape: "diamond",
+      id: "67D40A1A9332C03D",
+      tasks: [
+        {
+          id: "4948A54224513853",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:legendary_ink",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2AC73A86B874938C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:legendary_ink",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 4.5,
+      shape: "pentagon",
+      dependencies: [
+        "639531AB27DCD267",
+      ],
+      size: 1.3,
+      id: "36F87173D8CD1D68",
+      tasks: [
+        {
+          id: "0DCF8CD129263225",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:lightning_rune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B60CA662CF4E48E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:lightning_rune",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 3.0,
+      shape: "octagon",
+      size: 2.0,
+      id: "639531AB27DCD267",
+      tasks: [
+        {
+          id: "3D0E50F79BBFB8E2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:blank_rune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22A13BA6CFA84533",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:blank_rune",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 5.5,
+      dependencies: [
+        "36F87173D8CD1D68",
+      ],
+      id: "05DBDD86FCFF3BA8",
+      tasks: [
+        {
+          id: "659F1A7D0E67F23E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:lightning_upgrade_orb",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E3D432F89004AF6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:lightning_upgrade_orb",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 7.5,
+      shape: "pentagon",
+      dependencies: [
+        "639531AB27DCD267",
+      ],
+      size: 1.3,
+      id: "69763C2E2F454A73",
+      tasks: [
+        {
+          id: "634698E023224876",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:fire_rune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D17EFD179403504",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:fire_rune",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 7.5,
+      shape: "pentagon",
+      dependencies: [
+        "639531AB27DCD267",
+      ],
+      size: 1.3,
+      id: "7C79BCE482A06199",
+      tasks: [
+        {
+          id: "54D2968A39335B94",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ice_rune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47BE12E5770D5DDF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ice_rune",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 4.5,
+      shape: "pentagon",
+      dependencies: [
+        "639531AB27DCD267",
+      ],
+      size: 1.3,
+      id: "0EED5D755D2C866A",
+      tasks: [
+        {
+          id: "4C392FED43CE3A79",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ender_rune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "395F8BF373AC047E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ender_rune",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 4.5,
+      shape: "pentagon",
+      dependencies: [
+        "639531AB27DCD267",
+      ],
+      size: 1.3,
+      id: "7270A37E31A70C91",
+      tasks: [
+        {
+          id: "76FE9CD7C301AD3B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:holy_rune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "332785208A140301",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:holy_rune",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 7.5,
+      shape: "pentagon",
+      dependencies: [
+        "639531AB27DCD267",
+      ],
+      size: 1.3,
+      id: "24150DE600C2D761",
+      tasks: [
+        {
+          id: "46FE75ED07A456F7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:blood_rune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "547550452D865205",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:blood_rune",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 4.5,
+      shape: "pentagon",
+      dependencies: [
+        "639531AB27DCD267",
+      ],
+      size: 1.3,
+      id: "1BE69992D2C5085B",
+      tasks: [
+        {
+          id: "79C97582AC678CBF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:evocation_rune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41C19F9FA3187DBA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:evocation_rune",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 7.5,
+      shape: "pentagon",
+      dependencies: [
+        "639531AB27DCD267",
+      ],
+      size: 1.3,
+      id: "000C1ECD781F3F81",
+      tasks: [
+        {
+          id: "638387342D93E886",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:nature_rune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "545B0278B6FE8509",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:nature_rune",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 8.5,
+      dependencies: [
+        "69763C2E2F454A73",
+      ],
+      id: "32D2CE292E088939",
+      tasks: [
+        {
+          id: "17BDD679028814A2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:fire_upgrade_orb",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "128A56F15DBD0BBC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:fire_upgrade_orb",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 8.5,
+      dependencies: [
+        "7C79BCE482A06199",
+      ],
+      id: "76558D23A70AFF78",
+      tasks: [
+        {
+          id: "1363286BCB4D1B2F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ice_upgrade_orb",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2926EE1DDA1EAE25",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ice_upgrade_orb",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 5.5,
+      dependencies: [
+        "0EED5D755D2C866A",
+      ],
+      id: "2BB910B217DF3A12",
+      tasks: [
+        {
+          id: "739EFE9E68204C8E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ender_upgrade_orb",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "760BB6C069D24785",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ender_upgrade_orb",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 5.5,
+      dependencies: [
+        "7270A37E31A70C91",
+      ],
+      id: "401BB95B740385B7",
+      tasks: [
+        {
+          id: "5C06B792E65671B7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:holy_upgrade_orb",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04F75F97A70D4F92",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:holy_upgrade_orb",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 8.5,
+      dependencies: [
+        "24150DE600C2D761",
+      ],
+      id: "2E6F1C8718EB8C66",
+      tasks: [
+        {
+          id: "51A955F8266388C0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:blood_upgrade_orb",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6883DD602681DE95",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:blood_upgrade_orb",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 5.5,
+      dependencies: [
+        "1BE69992D2C5085B",
+      ],
+      id: "0CE1F6DE5FD6A6D9",
+      tasks: [
+        {
+          id: "445AFFA43D663E2E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:evocation_upgrade_orb",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61833CFDCEF0E599",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:evocation_upgrade_orb",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 8.5,
+      dependencies: [
+        "000C1ECD781F3F81",
+      ],
+      id: "4104ABDC0E577350",
+      tasks: [
+        {
+          id: "2827F04FDE7E2EFF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:nature_upgrade_orb",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64D833B66910C00A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:nature_upgrade_orb",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 8.5,
+      shape: "rsquare",
+      dependencies: [
+        "69763C2E2F454A73",
+        "12498F8B5740F66E",
+      ],
+      id: "06F2C42E6408149E",
+      tasks: [
+        {
+          id: "15A5A3E9B5E7408D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyromancer_helmet",
+            },
+          },
+        },
+        {
+          id: "16B174CC92560C1D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyromancer_chestplate",
+            },
+          },
+        },
+        {
+          id: "773A7DAC74D1129E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyromancer_leggings",
+            },
+          },
+        },
+        {
+          id: "3DD0EAF67B234245",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyromancer_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FB4692B0380ECAF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 8.5,
+      shape: "rsquare",
+      dependencies: [
+        "7C79BCE482A06199",
+        "12498F8B5740F66E",
+      ],
+      id: "489833A2A6C39151",
+      tasks: [
+        {
+          id: "074C34798C780717",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cryomancer_helmet",
+            },
+          },
+        },
+        {
+          id: "16E1EA352F3AE603",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cryomancer_chestplate",
+            },
+          },
+        },
+        {
+          id: "6902B4D88C5D1D9E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cryomancer_leggings",
+            },
+          },
+        },
+        {
+          id: "02A8F765C44A7CD6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cryomancer_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A8AA6AD4583AD31",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 5.5,
+      shape: "rsquare",
+      dependencies: [
+        "36F87173D8CD1D68",
+        "12498F8B5740F66E",
+      ],
+      id: "4CCA1E2AAA9AB9D9",
+      tasks: [
+        {
+          id: "648C0C5589A1EBF8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:electromancer_helmet",
+            },
+          },
+        },
+        {
+          id: "64556EDCE8DFDC01",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:electromancer_chestplate",
+            },
+          },
+        },
+        {
+          id: "17B2E0E42C9E7FD4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:electromancer_leggings",
+            },
+          },
+        },
+        {
+          id: "5E5E043729B00A2F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:electromancer_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05611EF761E22078",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 5.5,
+      shape: "rsquare",
+      dependencies: [
+        "0EED5D755D2C866A",
+        "12498F8B5740F66E",
+      ],
+      id: "19542103E042BDB5",
+      tasks: [
+        {
+          id: "45EA8BAA78E35A59",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:shadowwalker_helmet",
+            },
+          },
+        },
+        {
+          id: "3390FC17DC27AE44",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:shadowwalker_chestplate",
+            },
+          },
+        },
+        {
+          id: "6F42DE6255FA2EC5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:shadowwalker_leggings",
+            },
+          },
+        },
+        {
+          id: "79BA11CC61AFF789",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:shadowwalker_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "556A75A230A7FB7F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 5.5,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "7270A37E31A70C91",
+        "12498F8B5740F66E",
+      ],
+      id: "24BAC1C0392E950E",
+      tasks: [
+        {
+          id: "180047D663C0E520",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:priest_helmet",
+            },
+          },
+        },
+        {
+          id: "7A7FA15862290EB5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:priest_chestplate",
+            },
+          },
+        },
+        {
+          id: "4666D04D6F72D4EF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:priest_leggings",
+            },
+          },
+        },
+        {
+          id: "42915369150F71AC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:priest_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3234598909E89E39",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 8.5,
+      shape: "rsquare",
+      dependencies: [
+        "24150DE600C2D761",
+        "12498F8B5740F66E",
+      ],
+      id: "5DE863C3FB6492BE",
+      tasks: [
+        {
+          id: "31E9928D9D8E56B1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cultist_helmet",
+            },
+          },
+        },
+        {
+          id: "3B58AA5A37681F95",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cultist_chestplate",
+            },
+          },
+        },
+        {
+          id: "0DE64C8F5E57D530",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cultist_leggings",
+            },
+          },
+        },
+        {
+          id: "51AF0872134A9438",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cultist_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E0AB4E3643616E9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 5.5,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "1BE69992D2C5085B",
+        "12498F8B5740F66E",
+      ],
+      id: "0E594BC58CC7476F",
+      tasks: [
+        {
+          id: "4C54C4B0BEA37C43",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:archevoker_helmet",
+            },
+          },
+        },
+        {
+          id: "103B9A33981DA57E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:archevoker_chestplate",
+            },
+          },
+        },
+        {
+          id: "12462F1FBEF40EC7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:archevoker_leggings",
+            },
+          },
+        },
+        {
+          id: "6DD1859E412EDD24",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:archevoker_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "030656069DF2B656",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 8.5,
+      shape: "rsquare",
+      dependencies: [
+        "000C1ECD781F3F81",
+        "12498F8B5740F66E",
+      ],
+      id: "6D232F6D8E8DA546",
+      tasks: [
+        {
+          id: "5F3591F891E97AE9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:plagued_helmet",
+            },
+          },
+        },
+        {
+          id: "12A9B2F2883A2B64",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:plagued_chestplate",
+            },
+          },
+        },
+        {
+          id: "2E4C5DDFBAF2E7F1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:plagued_leggings",
+            },
+          },
+        },
+        {
+          id: "795A76F0EDCF55DD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:plagued_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C626523F443307E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:stone_bricks",
+        count: 1,
+      },
+      x: 5.5,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "3009018DEC1EC952",
+      ],
+      size: 1.2,
+      id: "6DB5732177AABB87",
+      tasks: [
+        {
+          id: "58BDC26BCCADEC22",
+          type: "structure",
+          structure: "irons_spellbooks:catacombs",
+        },
+      ],
+      rewards: [
+        {
+          id: "5393F61EE3C9DEF3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:wither_skeleton_skull",
+        count: 1,
+      },
+      x: 5.0,
+      y: -3.0,
+      shape: "diamond",
+      dependencies: [
+        "6DB5732177AABB87",
+      ],
+      size: 1.2,
+      id: "0436DF3308681913",
+      tasks: [
+        {
+          id: "0578D51FAF53123E",
+          type: "kill",
+          entity: "irons_spellbooks:dead_king",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "03C23C77EF25C4C0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:blank_rune",
+            },
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:dark_oak_log",
+        count: 1,
+      },
+      x: 5.0,
+      y: -0.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "3009018DEC1EC952",
+      ],
+      size: 1.2,
+      id: "641888DC7BC40AA9",
+      tasks: [
+        {
+          id: "15B0574265D66F03",
+          type: "structure",
+          structure: "irons_spellbooks:evoker_fort",
+        },
+      ],
+      rewards: [
+        {
+          id: "0A507F7F42EA3B4A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:totem_of_undying",
+        count: 1,
+      },
+      x: 4.0,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "641888DC7BC40AA9",
+      ],
+      size: 1.2,
+      id: "68B44B9E939F4228",
+      tasks: [
+        {
+          id: "057705B366878174",
+          type: "kill",
+          entity: "irons_spellbooks:archevoker",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "0984DAB8E3603A83",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:evocation_rune",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:mangrove_log",
+        count: 1,
+      },
+      x: 8.5,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "3009018DEC1EC952",
+      ],
+      size: 1.2,
+      id: "6963EC8A71D66AE3",
+      tasks: [
+        {
+          id: "60894C5B3A6E9DC1",
+          type: "structure",
+          structure: "irons_spellbooks:mangrove_hut",
+        },
+      ],
+      rewards: [
+        {
+          id: "1AD3F48A00B9856F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:healing",
+          },
+        },
+      },
+      x: 9.0,
+      y: -3.0,
+      shape: "diamond",
+      dependencies: [
+        "6963EC8A71D66AE3",
+      ],
+      size: 1.2,
+      id: "548F85EE6B6F1811",
+      tasks: [
+        {
+          id: "24CB88A2AB1614D2",
+          type: "kill",
+          entity: "irons_spellbooks:apothecarist",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "4EBAE4CBE310C358",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:nature_rune",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:blackstone",
+        count: 1,
+      },
+      x: 8.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "3009018DEC1EC952",
+      ],
+      size: 1.2,
+      id: "30B7AF815D9D7553",
+      tasks: [
+        {
+          id: "461BA0C4C9389E1D",
+          type: "structure",
+          structure: "irons_spellbooks:pyromancer_tower",
+        },
+      ],
+      rewards: [
+        {
+          id: "2AA4DDD3E70D6C51",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:fire_charge",
+        count: 1,
+      },
+      x: 9.0,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "30B7AF815D9D7553",
+      ],
+      size: 1.2,
+      id: "59E68086A8B99EA7",
+      tasks: [
+        {
+          id: "7954F2F744B999C4",
+          type: "kill",
+          entity: "irons_spellbooks:pyromancer",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "7FEA8FCAF3452395",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:fire_rune",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:packed_ice",
+        count: 1,
+      },
+      x: 5.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "3009018DEC1EC952",
+      ],
+      size: 1.2,
+      id: "13F77C38AC015E9F",
+      tasks: [
+        {
+          id: "2E3B052C7DDEC133",
+          type: "structure",
+          structure: "irons_spellbooks:mountain_tower",
+        },
+      ],
+      rewards: [
+        {
+          id: "68D4B581ECCF20B7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:snowball",
+        count: 1,
+      },
+      x: 5.0,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "13F77C38AC015E9F",
+      ],
+      size: 1.2,
+      id: "555ED1E39131D91B",
+      tasks: [
+        {
+          id: "7B5566E59E84B1FE",
+          type: "kill",
+          entity: "irons_spellbooks:cryomancer",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "6DA1755FA3A0E77F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ice_rune",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:deepslate_tiles",
+        count: 1,
+      },
+      x: 12.5,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "72AB70FD8D8FABBF",
+      ],
+      size: 1.2,
+      id: "7FC54AF87CBDD222",
+      tasks: [
+        {
+          id: "5663C7A9B9DB0F11",
+          type: "structure",
+          structure: "irons_spellbooks:ancient_battleground",
+        },
+      ],
+      rewards: [
+        {
+          id: "68D7E0E5F683B522",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_pickaxe",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "irons_spellbooks:armor_pile",
+        },
+      },
+      x: 13.5,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "7FC54AF87CBDD222",
+        "6187837A51BA09DC",
+      ],
+      size: 1.2,
+      id: "395A33977B18B9AD",
+      tasks: [
+        {
+          id: "02CDD36D03E62071",
+          type: "kill",
+          entity: "irons_spellbooks:citadel_keeper",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "09AA886DDCA0ECD2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cinder_essence",
+            },
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "irons_spellbooks:scroll",
+        },
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      size: 3.0,
+      id: "300F2E45D185A9A1",
+      tasks: [
+        {
+          id: "4E7FDA9DE2071EE5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BEC54791A7352FB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:oak_log",
+        count: 1,
+      },
+      x: 7.0,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "3009018DEC1EC952",
+      ],
+      size: 1.2,
+      id: "01119871B1D5C576",
+      tasks: [
+        {
+          id: "1758F9A1E399448B",
+          type: "structure",
+          tags: [
+            "village",
+          ],
+          structure: "#minecraft:village",
+        },
+      ],
+      rewards: [
+        {
+          id: "21F4BD3CC3708E34",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:golden_apple",
+        count: 1,
+      },
+      x: 7.0,
+      y: -4.0,
+      shape: "diamond",
+      dependencies: [
+        "01119871B1D5C576",
+      ],
+      size: 1.2,
+      id: "7F85669FEA41CD97",
+      tasks: [
+        {
+          id: "25BF2D52BEB024B3",
+          type: "kill",
+          entity: "irons_spellbooks:priest",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "061AE7083D11867A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:holy_rune",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:grass_block",
+        count: 1,
+      },
+      x: 7.0,
+      y: -0.5,
+      shape: "octagon",
+      size: 2.0,
+      id: "3009018DEC1EC952",
+      tasks: [
+        {
+          id: "08BA6518F2BBDD85",
+          type: "dimension",
+          dimension: "minecraft:overworld",
+        },
+      ],
+      rewards: [
+        {
+          id: "2D116FDCEA070CBA",
+          type: "item",
+          item: {
+            id: "minecraft:map",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherrack",
+        count: 1,
+      },
+      x: 13.5,
+      y: -3.0,
+      shape: "octagon",
+      size: 1.5,
+      id: "72AB70FD8D8FABBF",
+      tasks: [
+        {
+          id: "10B368D0D52F377B",
+          type: "dimension",
+          dimension: "minecraft:the_nether",
+        },
+      ],
+      rewards: [
+        {
+          id: "42EEEAE5E04CDFD6",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "irons_spellbooks:tarnished_helmet",
+        },
+      },
+      x: 7.0,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "3009018DEC1EC952",
+      ],
+      id: "204B969DA081056A",
+      tasks: [
+        {
+          id: "1CC0E97BB8DC4F35",
+          type: "kill",
+          entity: "irons_spellbooks:necromancer",
+          value: 5,
+        },
+      ],
+      rewards: [
+        {
+          id: "008A3E406FB09885",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:tarnished_helmet",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:sculk_sensor",
+        count: 1,
+      },
+      x: 7.0,
+      y: 4.5,
+      shape: "octagon",
+      size: 1.5,
+      id: "5ED368C926E5F32C",
+      tasks: [
+        {
+          id: "6D7DD99A02A8F451",
+          type: "biome",
+          biome: "minecraft:deep_dark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7168285F8D52B227",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 6.5,
+      shape: "diamond",
+      dependencies: [
+        "5ED368C926E5F32C",
+      ],
+      hide_until_deps_visible: true,
+      size: 1.2,
+      hide_details_until_startable: true,
+      id: "5B013A3A37D6902B",
+      tasks: [
+        {
+          id: "45C1F9BF5C0EAE0A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ancient_knowledge_fragment",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "218DA9B1217C1CBE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ancient_knowledge_fragment",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 8.5,
+      shape: "rsquare",
+      dependencies: [
+        "5B013A3A37D6902B",
+      ],
+      hide_until_deps_visible: true,
+      hide_details_until_startable: true,
+      id: "2B901ECF97FFA181",
+      tasks: [
+        {
+          id: "3D0B1A6B945A87B5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:eldritch_manuscript",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B7A3F07EDA98210",
+          type: "item",
+          item: {
+            id: "minecraft:echo_shard",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 2.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "2D84DA544D7A24FA",
+      tasks: [
+        {
+          id: "76B722B1AE7B6CF2",
+          type: "checkmark",
+        },
+        {
+          id: "00C6A5CB44392D7E",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -11.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "2664373E8977E7BE",
+      tasks: [
+        {
+          id: "1DDF029E09A8C61D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cursed_doll_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4DF715C3C962C45E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:epic_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -9.5,
+      shape: "square",
+      dependencies: [
+        "615C3E012B2DECD3",
+      ],
+      id: "34FC02F47F52887F",
+      tasks: [
+        {
+          id: "7A2CCC1FC9D50D02",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ice_spell_book",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2570A49FC92A06E0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:legendary_ink",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:cobweb",
+        count: 1,
+      },
+      x: 9.0,
+      y: -0.5,
+      shape: "hexagon",
+      dependencies: [
+        "3009018DEC1EC952",
+      ],
+      size: 1.2,
+      id: "373EBEB2E96D9361",
+      tasks: [
+        {
+          id: "0A1192670764D2BC",
+          type: "structure",
+          structure: "irons_spellbooks:ice_spider_den",
+        },
+      ],
+      rewards: [
+        {
+          id: "3398D7E91E82DF61",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "373EBEB2E96D9361",
+      ],
+      size: 1.2,
+      id: "420CB9502DF8E1BC",
+      tasks: [
+        {
+          id: "455D90D247951B1E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:icy_fang",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6FB92A3F70AD6C39",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ice_venom_vial",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "343D9B4D7756218D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:icy_fang",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 1.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "395A33977B18B9AD",
+        "294418130521FDF4",
+      ],
+      id: "25F79B40579B3909",
+      tasks: [
+        {
+          id: "7D700EA1731B5495",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:keeper_flamberge",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73253859ADB67C83",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:polished_basalt",
+        count: 1,
+      },
+      x: 14.5,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "72AB70FD8D8FABBF",
+      ],
+      size: 1.2,
+      id: "6187837A51BA09DC",
+      tasks: [
+        {
+          id: "2D3E5BA95AD1C288",
+          type: "structure",
+          structure: "irons_spellbooks:citadel",
+        },
+      ],
+      rewards: [
+        {
+          id: "19AB6255468978BB",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "4567A27C53A01903",
+        "294418130521FDF4",
+      ],
+      id: "0474C15D3AE3C2C9",
+      tasks: [
+        {
+          id: "6E188EA46702D3BD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:decrepit_scythe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B8247742A47E274",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: 2.0,
+      shape: "diamond",
+      hide_dependent_lines: true,
+      dependencies: [
+        "6187837A51BA09DC",
+        "71F0E9C36AA02B46",
+      ],
+      size: 1.5,
+      id: "4567A27C53A01903",
+      tasks: [
+        {
+          id: "2CD7B426F220F1C8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:divine_soulshard",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F677A43F2F2226F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:decrepit_scythe",
+            },
+          },
+        },
+        {
+          id: "0EFA4F6093C3E1D3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyrium_ingot",
+            },
+          },
+        },
+        {
+          id: "0701F64F7E8E6438",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -2.5,
+      size: 1.2,
+      id: "294418130521FDF4",
+      tasks: [
+        {
+          id: "5F7FFB16A12B5DF9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:raw_mithril",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67A49E297E8C6A0E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:mithril_scrap",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 0.5,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "3A85110725E81CDF",
+      ],
+      id: "12498F8B5740F66E",
+      tasks: [
+        {
+          id: "6D7A6BD863C60517",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(irons_spellbooks:wizard_helmet)item(irons_spellbooks:wizard_helmet)item(irons_spellbooks:wizard_chestplate)item(irons_spellbooks:wizard_leggings)item(irons_spellbooks:wizard_boots))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5961D3922B39D4C8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:magic_cloth",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -1.0,
+      shape: "pentagon",
+      dependencies: [
+        "294418130521FDF4",
+      ],
+      size: 1.5,
+      id: "660D8AD3EE975340",
+      tasks: [
+        {
+          id: "399654165D090F19",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:weapon_parts",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A14A7BAC35BB0F9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:mithril_ingot",
+            },
+          },
+        },
+        {
+          id: "3CA4F17DC2E20C1D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 20,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "660D8AD3EE975340",
+      ],
+      id: "29605960803BE885",
+      tasks: [
+        {
+          id: "16EB28E49718C0A1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:amethyst_rapier",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B3D808B4BAFF8B6",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "660D8AD3EE975340",
+      ],
+      id: "1338EED4F26F3EFF",
+      tasks: [
+        {
+          id: "0E63C59F7B958A55",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:spellbreaker",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45A5BAC7017A44B0",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "660D8AD3EE975340",
+      ],
+      id: "161477ABCC437BD2",
+      tasks: [
+        {
+          id: "788B7A0F7AAE5F06",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:boreal_blade",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4210725925AD9073",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -13.5,
+      y: -1.5,
+      shape: "pentagon",
+      size: 1.2,
+      id: "6F5F1C525CF08F96",
+      tasks: [
+        {
+          id: "279DA565E9ADF7B0",
+          type: "item",
+          item: {
+            id: "minecraft:stick",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64CD59A0372C3B5C",
+          type: "item",
+          item: {
+            id: "minecraft:wooden_shovel",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -12.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "6F5F1C525CF08F96",
+      ],
+      id: "6046CA1F6AFE2AEA",
+      tasks: [
+        {
+          id: "5B4A13F7D25DB33F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:blood_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "077DC33AD0A8EA56",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -14.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "6F5F1C525CF08F96",
+      ],
+      id: "08767A1E6D48A5EA",
+      tasks: [
+        {
+          id: "285E7A33FE846BC2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:graybeard_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F2E62ED1F2F3506",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -13.5,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "6F5F1C525CF08F96",
+      ],
+      id: "794D6F9B8DB31E7D",
+      tasks: [
+        {
+          id: "11BBA3F4C3A23BC5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:ice_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "248F58F87F350234",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -14.5,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "6F5F1C525CF08F96",
+      ],
+      id: "67439337E29A308B",
+      tasks: [
+        {
+          id: "1C0D59E0A7B0FBBF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:artificer_cane",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3911B9F394A3735E",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -13.5,
+      y: 0.5,
+      shape: "rsquare",
+      dependencies: [
+        "6F5F1C525CF08F96",
+      ],
+      id: "0F8B349EBC9110D6",
+      tasks: [
+        {
+          id: "1877EED520176B3E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:lightning_rod",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55F3DE2E47B0584F",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -12.5,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "6F5F1C525CF08F96",
+      ],
+      id: "29BDCF3C1B11B4C6",
+      tasks: [
+        {
+          id: "72E37A2B768844B0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyrium_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60BC36CD99373008",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -1.5,
+      shape: "pentagon",
+      size: 1.2,
+      id: "3A85110725E81CDF",
+      tasks: [
+        {
+          id: "345F73D8DEB110E2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:magic_cloth",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CD26241E70E05F4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:magic_cloth",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "3A85110725E81CDF",
+      ],
+      id: "67308C5DDF4A10D2",
+      tasks: [
+        {
+          id: "46D60EFC3A46B9E5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(irons_spellbooks:wandering_magician_helmet)item(irons_spellbooks:wandering_magician_chestplate)item(irons_spellbooks:wandering_magician_leggings)item(irons_spellbooks:wandering_magician_boots))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "616907D4B89CF20D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:arcane_essence",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "3A85110725E81CDF",
+      ],
+      id: "19B057DFF331E41C",
+      tasks: [
+        {
+          id: "3C3C72B067AD5E27",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(irons_spellbooks:pumpkin_helmet)item(irons_spellbooks:pumpkin_chestplate)item(irons_spellbooks:pumpkin_leggings)item(irons_spellbooks:pumpkin_boots))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B59599E4CC33943",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:magic_cloth",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "27D2752C27ED6FD3",
+          type: "item",
+          item: {
+            id: "minecraft:hay_block",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "3A85110725E81CDF",
+        "24BAC1C0392E950E",
+      ],
+      id: "00D80AA4CDD8335C",
+      tasks: [
+        {
+          id: "1991A448185D8EE4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:paladin_chestplate",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10D22680BF548062",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "2102A064860C4B3E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:mithril_ingot",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "3A85110725E81CDF",
+        "0E594BC58CC7476F",
+      ],
+      id: "36B283532D70776A",
+      tasks: [
+        {
+          id: "2FC04F357631B1DE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:speed_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1D19F0CC330A0C97",
+          type: "item",
+          item: {
+            id: "minecraft:emerald",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "6943F88947034157",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:mithril_ingot",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "12498F8B5740F66E",
+      ],
+      id: "44E8D5DAD7E22724",
+      tasks: [
+        {
+          id: "27D8ABC106075E00",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(irons_spellbooks:netherite_mage_helmet)item(irons_spellbooks:netherite_mage_chestplate)item(irons_spellbooks:netherite_mage_leggings)item(irons_spellbooks:netherite_mage_boots))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5471538C42EF12BD",
+          type: "item",
+          item: {
+            id: "minecraft:netherite_ingot",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 2.5,
+      shape: "rsquare",
+      dependencies: [
+        "641888DC7BC40AA9",
+        "294418130521FDF4",
+      ],
+      id: "258B4890CF13D199",
+      tasks: [
+        {
+          id: "00E87FB117FF8EA3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:magehunter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01F1B041822AFB21",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: 0.5,
+      dependencies: [
+        "395A33977B18B9AD",
+      ],
+      id: "71F0E9C36AA02B46",
+      tasks: [
+        {
+          id: "50F57A00EBFEB80F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cinderous_soulcaller",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F30E29EF13EB77B",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_fire_resistance",
+              },
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: 0.5,
+      shape: "rsquare",
+      dependencies: [
+        "6187837A51BA09DC",
+      ],
+      id: "79EC8A49368421BF",
+      tasks: [
+        {
+          id: "5ED7B6172E011A4F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyrium_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DFD7F94E608B4EA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyrium_ingot",
+            },
+          },
+        },
+        {
+          id: "3AFB65DB2E8A79FF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:disc_fragment_flame_still_burns",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.5,
+      y: -3.0,
+      width: 9.38265306122449,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_title.png",
+      id: "7154096F555727B3",
+    },
+    {
+      x: 2.5,
+      y: 0.0,
+      width: 1.5506216696269983,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_pyromancer.png",
+      click: "#59E68086A8B99EA7",
+      id: "7D7641AE8EEA452B",
+    },
+    {
+      x: -2.5,
+      y: 0.0,
+      width: 1.738703339882122,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_cryomancer.png",
+      click: "#555ED1E39131D91B",
+      id: "0AAB87FCCC12E9B2",
+    },
+    {
+      x: -12.5,
+      y: 5.0,
+      width: 5.4288407163053725,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_table.png",
+      click: "#3009018DEC1EC952",
+      id: "4FD57DF30CCC47F6",
+    },
+    {
+      x: -14.5,
+      y: 7.5,
+      width: 2.106776180698152,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_cauldron.png",
+      click: "#3E8077AB45C79E6A",
+      id: "3D19A39EEC3B11D3",
+    },
+    {
+      x: -12.5,
+      y: 7.5,
+      width: 1.9232409381663114,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_anvil.png",
+      click: "#551A4916F032ACCF",
+      id: "6257B41155C8BFAC",
+    },
+    {
+      x: -10.5,
+      y: 7.5,
+      width: 2.3376623376623376,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_scroll.png",
+      click: "#69838E3F12218D68",
+      id: "1D1331E85A6CF9D6",
+    },
+    {
+      x: 12.0,
+      y: 5.0,
+      width: 2.3363914373088686,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_king.png",
+      click: "#0436DF3308681913",
+      id: "48E8EDD2CF537AE8",
+    },
+    {
+      x: 16.0,
+      y: 5.5,
+      width: 1.7410714285714288,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_necromancer.png",
+      click: "#204B969DA081056A",
+      id: "4D87362E67D6A35F",
+    },
+    {
+      x: 14.0,
+      y: 5.5,
+      width: 2.070567986230637,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_knight.png",
+      click: "#395A33977B18B9AD",
+      id: "2E66E4C354AB0B02",
+    },
+    {
+      x: -3.5,
+      y: -6.0,
+      width: 4.444444444444445,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_mountaintower.png",
+      click: "#3009018DEC1EC952",
+      id: "5AD8707A8E4AF6C8",
+    },
+    {
+      x: 3.5,
+      y: -6.0,
+      width: 4.444444444444445,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_pyromancertower.png",
+      click: "#3009018DEC1EC952",
+      id: "3006ED49A1776531",
+    },
+    {
+      x: 7.5,
+      y: -6.0,
+      width: 4.444444444444445,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_magrovehut.png",
+      click: "#3009018DEC1EC952",
+      id: "35D4A49EEE82EBEA",
+    },
+    {
+      x: -7.5,
+      y: -6.0,
+      width: 4.444444444444445,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_evokerfort.png",
+      click: "#3009018DEC1EC952",
+      id: "2CC0773656A9D143",
+    },
+    {
+      x: -5.0,
+      y: 6.199999999999999,
+      width: 0.3,
+      height: 0.3,
+      rotation: 0.0,
+      image: "allthetweaks:item/atm_star",
+      id: "2AF5DD4216EFF31C",
+    },
+    {
+      x: -11.5,
+      y: -6.0,
+      width: 6.5,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_frame.png",
+      id: "1859B1BE2E1CAED6",
+    },
+    {
+      x: -3.5,
+      y: -6.0,
+      width: 6.5,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_frame.png",
+      id: "5E31CFFC19C81B3A",
+    },
+    {
+      x: 3.5,
+      y: -6.0,
+      width: 6.5,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_frame.png",
+      id: "119D468B30E2EA83",
+    },
+    {
+      x: 7.5,
+      y: -6.0,
+      width: 6.5,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_frame.png",
+      id: "5BA7A14908D8169F",
+    },
+    {
+      x: -12.5,
+      y: 5.0,
+      width: 8.0,
+      height: 6.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_frame.png",
+      id: "281DA89889384109",
+    },
+    {
+      x: 9.5,
+      y: 5.5,
+      width: 6.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_echo.png",
+      click: "#4567A27C53A01903",
+      id: "62C94E868EAEC10A",
+    },
+    {
+      x: -11.5,
+      y: -6.0,
+      width: 4.44,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_citadel.png",
+      click: "#6187837A51BA09DC",
+      id: "5D636D527AE0A6E6",
+    },
+    {
+      x: -7.5,
+      y: -6.0,
+      width: 6.5,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_frame.png",
+      id: "7EF86FF5DAF6622E",
+    },
+    {
+      x: 11.5,
+      y: -6.0,
+      width: 6.5,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_frame.png",
+      id: "63F679083D5C34BA",
+    },
+    {
+      x: 11.5,
+      y: -6.0,
+      width: 4.44,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iron_spells/spells_den.png",
+      click: "#373EBEB2E96D9361",
+      id: "193667FFCD0066DE",
+    },
+  ],
+}

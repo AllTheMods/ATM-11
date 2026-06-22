@@ -1,0 +1,2350 @@
+{
+  id: "73180B829B960E63",
+  group: "49AECADBA9E79A3B",
+  order_index: 2,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "ironfurnaces:million_furnace",
+    },
+  },
+  filename: "generators",
+  default_quest_shape: "square",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: -3.0,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "47750F3CB020104C",
+      ],
+      id: "2748ACEAB96A5F60",
+      tasks: [
+        {
+          id: "3FA02C4DF722D831",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:iron_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "418B0AB5F7210588",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_iron",
+            },
+          },
+        },
+        {
+          id: "219022A87535B7F2",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 4.0,
+      shape: "square",
+      dependencies: [
+        "2748ACEAB96A5F60",
+        "61847F47CCA225D9",
+      ],
+      dependency_requirement: "one_completed",
+      id: "420FE84DEE12CCE0",
+      tasks: [
+        {
+          id: "6F39535100663F77",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:gold_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F055AFC53D8DF42",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_gold2",
+            },
+          },
+        },
+        {
+          id: "039B7D0DBE44C9B5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_gold",
+            },
+          },
+        },
+        {
+          id: "18C511833F579930",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 6.0,
+      shape: "square",
+      dependencies: [
+        "420FE84DEE12CCE0",
+      ],
+      id: "21EA29A8C7F950CE",
+      tasks: [
+        {
+          id: "077252C1A4175920",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:diamond_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6926332F80711102",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_diamond",
+            },
+          },
+        },
+        {
+          id: "3558BD6550270A38",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 6.0,
+      shape: "square",
+      dependencies: [
+        "21EA29A8C7F950CE",
+      ],
+      id: "711DDD55CEC439E5",
+      tasks: [
+        {
+          id: "6ECF5BA47D176D7D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:emerald_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2EFFB4B2C0EB3B54",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_emerald",
+            },
+          },
+        },
+        {
+          id: "480819591C235B49",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 4.0,
+      shape: "square",
+      dependencies: [
+        "2354BC5330350DF6",
+        "711DDD55CEC439E5",
+      ],
+      dependency_requirement: "one_completed",
+      id: "32C7D8AE859BF89E",
+      tasks: [
+        {
+          id: "694E0730B29BEF80",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:obsidian_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08C0ADB3F26DC561",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_obsidian2",
+            },
+          },
+        },
+        {
+          id: "0AB931260F94F729",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 6.0,
+      shape: "square",
+      dependencies: [
+        "21EA29A8C7F950CE",
+      ],
+      id: "2354BC5330350DF6",
+      tasks: [
+        {
+          id: "26CE85F193784F9D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:crystal_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53A5D4B1905A19D3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_crystal",
+            },
+          },
+        },
+        {
+          id: "129D25BA46802634",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "47750F3CB020104C",
+      ],
+      id: "661C072E48F8D41F",
+      tasks: [
+        {
+          id: "60B2B799FB293974",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:copper_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "339B00F7AB29615F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_copper",
+            },
+          },
+        },
+        {
+          id: "12D0975D71B0EF2D",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "661C072E48F8D41F",
+        "2748ACEAB96A5F60",
+      ],
+      dependency_requirement: "one_completed",
+      id: "61847F47CCA225D9",
+      tasks: [
+        {
+          id: "6828EEA56791555C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:silver_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C9C045DFB87E87B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_silver",
+            },
+          },
+        },
+        {
+          id: "3795E50309E6A7A8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_iron2",
+            },
+          },
+        },
+        {
+          id: "43FE08956366F929",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 5.0,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0AD2B11565B484E7",
+        "7A615E2A152917AD",
+      ],
+      hide_until_deps_visible: true,
+      hide_details_until_startable: true,
+      id: "2EE8FCB63A338BC4",
+      tasks: [
+        {
+          id: "0B62A5DC9EB8E6CF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:million_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6138203D4B4405CC",
+          type: "item",
+          item: {
+            id: "minecraft:raw_iron",
+            count: 1,
+          },
+          count: 64,
+        },
+        {
+          id: "7C4D39D60EC3E2EF",
+          type: "xp",
+          xp: 500,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      size: 2.0,
+      id: "47750F3CB020104C",
+      tasks: [
+        {
+          id: "703D7D142BD7CEC9",
+          type: "item",
+          item: {
+            id: "minecraft:furnace",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31CA66909C70BBD2",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ore",
+            count: 1,
+          },
+          count: 9,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 2.0,
+      dependencies: [
+        "47750F3CB020104C",
+      ],
+      id: "618F1434757C8E69",
+      tasks: [
+        {
+          id: "34B322D0103A702D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:copper_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "281190DEF2243DD7",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+        },
+        {
+          id: "07B91786EF4FE76F",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 3.0,
+      dependencies: [
+        "618F1434757C8E69",
+      ],
+      id: "61F265D9A5713A4D",
+      tasks: [
+        {
+          id: "0EB013018E702B1B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:iron_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C57EA9A84FBE46D",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "2C217936B60081EC",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 4.0,
+      dependencies: [
+        "61F265D9A5713A4D",
+      ],
+      id: "25A3E30F722B38B6",
+      tasks: [
+        {
+          id: "050D165BFB764088",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:gold_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "24B89F74A9E49299",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "4FD87DDB6636856A",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 4.0,
+      dependencies: [
+        "25A3E30F722B38B6",
+      ],
+      hide_until_deps_visible: true,
+      id: "1C73E60FC70408D4",
+      tasks: [
+        {
+          id: "3760CF6628449FEA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:culinary_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "355848A001554BDC",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "41B93C598FD2BBB5",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 5.0,
+      dependencies: [
+        "25A3E30F722B38B6",
+      ],
+      id: "28FEB4C11AD1AE7C",
+      tasks: [
+        {
+          id: "2BF8EAF6DC5D319B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:diamond_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "651D74881934907F",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "152B2A4DCCBF4FC3",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 5.0,
+      dependencies: [
+        "28FEB4C11AD1AE7C",
+      ],
+      id: "07BEB974DF1E5AD3",
+      tasks: [
+        {
+          id: "4F7772A5628CD409",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:netherite_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5694BE118F5B1489",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "411AC5DA2D1438C7",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 5.0,
+      dependencies: [
+        "28FEB4C11AD1AE7C",
+      ],
+      id: "076A648E3E3245C9",
+      tasks: [
+        {
+          id: "498EED55AD10AC0B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:emerald_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35B5EC77C478110B",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "4678306E627CAD60",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 6.0,
+      dependencies: [
+        "28FEB4C11AD1AE7C",
+      ],
+      id: "311F43D48B9C26FF",
+      tasks: [
+        {
+          id: "2C5E1B693F30A58B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:obsidian_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B85BD1152763EE7",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "5A0BADEEBE47C7DE",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 4.0,
+      dependencies: [
+        "1C73E60FC70408D4",
+      ],
+      hide_until_deps_visible: true,
+      id: "68972BA647FDCF8F",
+      tasks: [
+        {
+          id: "39307952E4735E09",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:honey_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47A5B263CA06D9FF",
+          type: "item",
+          item: {
+            id: "minecraft:honey_block",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "48C9FE7021DE61BE",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 5.0,
+      dependencies: [
+        "1C73E60FC70408D4",
+      ],
+      hide_until_deps_visible: true,
+      id: "7297391D026EE9A6",
+      tasks: [
+        {
+          id: "749FA5DA6A42E764",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:potion_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32B38128B961D10B",
+          type: "item",
+          item: {
+            id: "minecraft:glass_bottle",
+            count: 1,
+          },
+          count: 9,
+        },
+        {
+          id: "7B0DEB7CEDC9CD13",
+          type: "item",
+          item: {
+            id: "minecraft:blaze_powder",
+            count: 1,
+          },
+          count: 9,
+        },
+        {
+          id: "6A63B5740D7E02C5",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 6.0,
+      dependencies: [
+        "311F43D48B9C26FF",
+      ],
+      hide_until_deps_visible: true,
+      id: "6A1145678E80FB8E",
+      tasks: [
+        {
+          id: "24481F34C15FB282",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:enchantment_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "371F290F134C81B7",
+          type: "item",
+          item: {
+            id: "minecraft:lapis_lazuli",
+            count: 1,
+          },
+          count: 9,
+        },
+        {
+          id: "55684C973FE98D57",
+          type: "item",
+          item: {
+            id: "minecraft:book",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "1B88E282A6E09335",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 7.0,
+      dependencies: [
+        "311F43D48B9C26FF",
+      ],
+      hide_until_deps_visible: true,
+      id: "552CA2ABE659A507",
+      tasks: [
+        {
+          id: "47F0D4C2445694CF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:magmatic_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EDD1682F7E8AF7E",
+          type: "item",
+          item: {
+            id: "minecraft:lava_bucket",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "19BB1B3645E0AEF3",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 6.0,
+      dependencies: [
+        "311F43D48B9C26FF",
+      ],
+      hide_until_deps_visible: true,
+      id: "69201157ECFBB426",
+      tasks: [
+        {
+          id: "0E0857E2248D657E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:ender_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BE5511978950717",
+          type: "item",
+          item: {
+            id: "minecraft:ender_pearl",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "7C61CDF56A10DC76",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 5.0,
+      dependencies: [
+        "07BEB974DF1E5AD3",
+      ],
+      hide_until_deps_visible: true,
+      id: "1843C79133DFB024",
+      tasks: [
+        {
+          id: "2A5900E766CEB417",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:netherstar_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73709A450E84888B",
+          type: "item",
+          item: {
+            id: "minecraft:wither_skeleton_skull",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "6B30CEFE52A2A153",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 6.0,
+      dependencies: [
+        "69201157ECFBB426",
+      ],
+      hide_until_deps_visible: true,
+      id: "40DB6E3DE87F16EF",
+      tasks: [
+        {
+          id: "73CB2D4EE3ACEE1A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "generatorgalore:halitosis_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "218046278739D11D",
+          type: "item",
+          item: {
+            id: "minecraft:dragon_breath",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "63A5FEE430E3A993",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 4.0,
+      shape: "square",
+      dependencies: [
+        "32C7D8AE859BF89E",
+      ],
+      id: "79C4CF8D7312FC28",
+      tasks: [
+        {
+          id: "7396676DE78C892F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:netherite_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B10BDA090A6930E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_netherite",
+            },
+          },
+        },
+        {
+          id: "27891F5E409ADF76",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -10.0,
+      y: 2.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "661C072E48F8D41F",
+        "2748ACEAB96A5F60",
+      ],
+      dependency_requirement: "one_completed",
+      id: "78D1C97A542133D8",
+      tasks: [
+        {
+          id: "1311C09169CA7055",
+          type: "item",
+          item: {
+            id: "minecraft:paper",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "78D1C97A542133D8",
+      ],
+      size: 1.0,
+      icon_scale: 1.5,
+      id: "73FF01D830A669AA",
+      tasks: [
+        {
+          id: "20DE2F2B898D0005",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:augment_blasting",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27572EF014F455FB",
+          type: "item",
+          item: {
+            id: "minecraft:raw_iron",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "78D1C97A542133D8",
+      ],
+      icon_scale: 1.5,
+      id: "33436ED0D9F128BD",
+      tasks: [
+        {
+          id: "758315445FF03189",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:augment_smoking",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "353EBB30C94C8972",
+          type: "item",
+          item: {
+            id: "minecraft:beef",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 4.0,
+      shape: "rsquare",
+      dependencies: [
+        "78D1C97A542133D8",
+      ],
+      icon_scale: 1.5,
+      id: "49F08DE190AAD0D8",
+      tasks: [
+        {
+          id: "43956CC225D2571B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:augment_factory",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A2BB52A90D0F30D",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 13,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 4.0,
+      shape: "rsquare",
+      dependencies: [
+        "78D1C97A542133D8",
+      ],
+      icon_scale: 1.5,
+      id: "07753C5D94312A50",
+      tasks: [
+        {
+          id: "4C75C05EDFA9A697",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:augment_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0AEB3EC2C0B283BE",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 5.0,
+      shape: "rsquare",
+      dependencies: [
+        "78D1C97A542133D8",
+      ],
+      icon_scale: 1.5,
+      id: "7F67849DE9F700D8",
+      tasks: [
+        {
+          id: "4E8DC26DF9905F9C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:augment_speed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01998AFE3AFC0D37",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 5.0,
+      shape: "rsquare",
+      dependencies: [
+        "78D1C97A542133D8",
+      ],
+      icon_scale: 1.5,
+      id: "538821E23E39BE97",
+      tasks: [
+        {
+          id: "121305057D3E8015",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:augment_fuel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A5AD0264B49A339",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 7.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "2748ACEAB96A5F60",
+        "661C072E48F8D41F",
+      ],
+      dependency_requirement: "one_completed",
+      id: "686B25F2E9D8CC97",
+      tasks: [
+        {
+          id: "1C9D63BCE843C437",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:item_spooky",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F6385518AC2519D",
+          type: "item",
+          item: {
+            id: "minecraft:jack_o_lantern",
+            count: 1,
+            components: {
+              "minecraft:custom_name": "\\\"Spooky Pumpkin\\\"",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 7.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "2748ACEAB96A5F60",
+        "661C072E48F8D41F",
+      ],
+      dependency_requirement: "one_completed",
+      id: "553220A2CD7CAFE4",
+      tasks: [
+        {
+          id: "5EE98EB3DC0E291F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:item_xmas",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "24C4930CF7FE42C9",
+          type: "item",
+          item: {
+            id: "minecraft:spruce_sapling",
+            count: 1,
+            components: {
+              "minecraft:custom_name": "\\\"Christmas Tree Sapling\\\"",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -10.0,
+      y: 6.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "661C072E48F8D41F",
+        "2748ACEAB96A5F60",
+      ],
+      dependency_requirement: "one_completed",
+      id: "20EC8001A05CE2C8",
+      tasks: [
+        {
+          id: "45C945406D8C21A7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:heater",
+            },
+          },
+        },
+        {
+          id: "48E37342F58C067C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:item_heater",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1CAA20F71E9C8A12",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 3.0,
+      shape: "square",
+      dependencies: [
+        "79C4CF8D7312FC28",
+      ],
+      hide_until_deps_visible: true,
+      hide_details_until_startable: true,
+      id: "7A615E2A152917AD",
+      tasks: [
+        {
+          id: "2CC59DECF8DCA48E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:rainbow_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CC7A041EA0C54D0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:netherite_furnace",
+            },
+          },
+        },
+        {
+          id: "3D7DDCD98D6C43C1",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 3.0,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "420FE84DEE12CCE0",
+        "2354BC5330350DF6",
+        "661C072E48F8D41F",
+        "21EA29A8C7F950CE",
+        "2748ACEAB96A5F60",
+        "61847F47CCA225D9",
+        "711DDD55CEC439E5",
+        "32C7D8AE859BF89E",
+      ],
+      hide_until_deps_visible: true,
+      hide_details_until_startable: true,
+      id: "0AD2B11565B484E7",
+      tasks: [
+        {
+          id: "1364DC251AC7325A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x ironfurnaces:rainbow_plating",
+            },
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "1CBB74563FE53945",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:crystal_furnace",
+            },
+          },
+        },
+        {
+          id: "70394D13CDA72AEF",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 3.0,
+      dependencies: [
+        "2EE8FCB63A338BC4",
+      ],
+      hide_until_deps_visible: true,
+      hide_details_until_startable: true,
+      id: "062AA943A1629A86",
+      tasks: [
+        {
+          id: "7074C679F7E9CC65",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:rainbow_coal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F86DDCE0851F919",
+          type: "xp",
+          xp: 500,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 4.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "661C072E48F8D41F",
+        "2748ACEAB96A5F60",
+      ],
+      dependency_requirement: "one_completed",
+      id: "757B14D08A9A03C4",
+      tasks: [
+        {
+          id: "087F1F4ABAEABEE3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:item_copy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "322E4627F7EE7DC6",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 4.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "420FE84DEE12CCE0",
+        "2354BC5330350DF6",
+        "21EA29A8C7F950CE",
+        "661C072E48F8D41F",
+        "61847F47CCA225D9",
+        "2748ACEAB96A5F60",
+        "2EE8FCB63A338BC4",
+        "711DDD55CEC439E5",
+        "32C7D8AE859BF89E",
+        "79C4CF8D7312FC28",
+      ],
+      hide_until_deps_visible: true,
+      id: "0ADBE90B33ACC9FB",
+      tasks: [
+        {
+          id: "1E571965015CB5C6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:million_furnace",
+            },
+          },
+        },
+        {
+          id: "76F4E8E39E65DE8E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:copper_furnace",
+            },
+          },
+        },
+        {
+          id: "609F73623D8C1115",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:iron_furnace",
+            },
+          },
+        },
+        {
+          id: "3309793C433ED961",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:silver_furnace",
+            },
+          },
+        },
+        {
+          id: "5591ADC1C86DF4C9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:gold_furnace",
+            },
+          },
+        },
+        {
+          id: "3C67BBF2E866071D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:diamond_furnace",
+            },
+          },
+        },
+        {
+          id: "1FEA3210D56357D3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:emerald_furnace",
+            },
+          },
+        },
+        {
+          id: "19CB7D9D615F95B7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:crystal_furnace",
+            },
+          },
+        },
+        {
+          id: "6C031CF27E690421",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:obsidian_furnace",
+            },
+          },
+        },
+        {
+          id: "461287CF29534C60",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:netherite_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5623C6D98BDF087C",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 27,
+        },
+        {
+          id: "5F938DFDAEA33B45",
+          type: "xp",
+          xp: 500,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 2.0,
+      dependencies: [
+        "618F1434757C8E69",
+      ],
+      hide_until_deps_visible: true,
+      id: "7CE86300AF8E9BCA",
+      tasks: [
+        {
+          id: "37641D5607F6D00A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(generatorgalore:copper_generator_8x)item(generatorgalore:diamond_generator_8x)item(generatorgalore:emerald_generator_8x)item(generatorgalore:enchantment_generator_8x)item(generatorgalore:ender_generator_8x)item(generatorgalore:gold_generator_8x)item(generatorgalore:halitosis_generator_8x)item(generatorgalore:honey_generator_8x)item(generatorgalore:iron_generator_8x)item(generatorgalore:magmatic_generator_8x)item(generatorgalore:netherite_generator_8x)item(generatorgalore:netherstar_generator_8x)item(generatorgalore:obsidian_generator_8x)item(generatorgalore:potion_generator_8x))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59D897D18695FFF0",
+          type: "item",
+          item: {
+            id: "minecraft:sculk",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "53A5D0F23E6795F0",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 3.0,
+      dependencies: [
+        "7CE86300AF8E9BCA",
+      ],
+      hide_until_deps_visible: true,
+      id: "72A287DCAEEFE49F",
+      tasks: [
+        {
+          id: "31E6FDB712244B72",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(generatorgalore:culinary_generator_64x)item(generatorgalore:enchantment_generator_64x)item(generatorgalore:ender_generator_64x)item(generatorgalore:halitosis_generator_64x)item(generatorgalore:honey_generator_64x)item(generatorgalore:magmatic_generator_64x)item(generatorgalore:netherite_generator_64x)item(generatorgalore:netherstar_generator_64x)item(generatorgalore:potion_generator_64x))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52C6D6F0CA122630",
+          type: "item",
+          item: {
+            id: "minecraft:heart_of_the_sea",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "0B829ACBC940EA33",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -1.5,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "39605F1FEB1A5A1C",
+      tasks: [
+        {
+          id: "5DB7A437BEC3E2D4",
+          type: "checkmark",
+        },
+        {
+          id: "38B6F45109CB033A",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 5.0,
+      dependencies: [
+        "79C4CF8D7312FC28",
+      ],
+      optional: true,
+      id: "3A4C17878FC8315B",
+      tasks: [
+        {
+          id: "710A1EE625BB05C2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:allthemodium_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "267CF2D64101DD03",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_allthemodium",
+            },
+          },
+        },
+        {
+          id: "43B0A25C206C1D1B",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 6.0,
+      dependencies: [
+        "3A4C17878FC8315B",
+      ],
+      optional: true,
+      id: "2E85D6E2CFCC356E",
+      tasks: [
+        {
+          id: "4F5816CE50B317C9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:vibranium_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66D125B9640849E3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_vibranium",
+            },
+          },
+        },
+        {
+          id: "4C0D18289215A5F2",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: 6.0,
+      dependencies: [
+        "2E85D6E2CFCC356E",
+      ],
+      optional: true,
+      id: "25080E3295B1DF01",
+      tasks: [
+        {
+          id: "219B80EF2B90BBFD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:unobtainium_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54105E0656B25E8A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:upgrade_unobtainium",
+            },
+          },
+        },
+        {
+          id: "3280CDD99A393F11",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 8.0,
+      y: 2.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/copper_generator_front",
+      id: "673786A83882F98B",
+    },
+    {
+      x: 8.0,
+      y: 3.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/iron_generator_front",
+      id: "39086D5369A25483",
+    },
+    {
+      x: 8.0,
+      y: 5.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/diamond_generator_front",
+      id: "79A55B426F6E0E91",
+    },
+    {
+      x: 8.0,
+      y: 4.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/gold_generator_front",
+      id: "3906ACEDF74EA4E0",
+    },
+    {
+      x: 8.0,
+      y: 6.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/emerald_generator_front",
+      id: "0A1BC1323ED32CF7",
+    },
+    {
+      x: 2.5,
+      y: 4.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/netherstar_generator_top_on",
+      id: "3227DD25BF4D003D",
+    },
+    {
+      x: 2.5,
+      y: 2.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/culinary_generator_top_on",
+      id: "24FA573697EF5345",
+    },
+    {
+      x: 2.5,
+      y: 3.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/enchantment_generator_top_on",
+      id: "7CAE3137A488233D",
+    },
+    {
+      x: 1.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/obsidian_generator_front",
+      id: "56D88506F508C950",
+    },
+    {
+      x: 2.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/netherstar_generator_front",
+      id: "3CD6275A7FD12C0F",
+    },
+    {
+      x: 3.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/netherite_generator_front",
+      id: "5BCE88E26F7D8CB5",
+    },
+    {
+      x: 4.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/enchantment_generator_front",
+      id: "79EE38F5E1D6EC7C",
+    },
+    {
+      x: 5.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/magmatic_generator_front",
+      id: "31A30517CA7FB12B",
+    },
+    {
+      x: 8.0,
+      y: 7.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/honey_generator_front",
+      id: "20C2AFD3B1BE0238",
+    },
+    {
+      x: 8.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/halitosis_generator_front",
+      id: "3F1190B584C51746",
+    },
+    {
+      x: 8.0,
+      y: 8.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/potion_generator_front",
+      id: "70F0D6879F4E5F85",
+    },
+    {
+      x: 6.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/culinary_generator_front",
+      id: "77C10EABB0EED68D",
+    },
+    {
+      x: 7.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "generatorgalore:block/ender_generator_front",
+      id: "06FA6CC782BEDED0",
+    },
+    {
+      x: -13.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/copper_furnace_front_on",
+      id: "3D94FA3F4D651946",
+    },
+    {
+      x: -12.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/iron_furnace_front_on",
+      id: "42C775F27015A12D",
+    },
+    {
+      x: -10.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/gold_furnace_front_on",
+      id: "491D1EAB56DEBCCE",
+    },
+    {
+      x: -11.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/silver_furnace_front_on",
+      id: "01CF2373C01892BE",
+    },
+    {
+      x: -9.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/diamond_furnace_front_on",
+      id: "34E3A7ABC3645E43",
+    },
+    {
+      x: -5.0,
+      y: 0.0,
+      width: 8.60759493670886,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/furnaces/iron_furnaces.png",
+      id: "4A91F7FBD8CDC115",
+    },
+    {
+      x: 6.0,
+      y: 0.0,
+      width: 11.10126582278481,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/generator/generator_galore.png",
+      id: "458852471EE377D8",
+    },
+    {
+      x: -11.5,
+      y: 3.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/iron_furnace_front_on_blast",
+      id: "27536618AF26BECE",
+    },
+    {
+      x: -8.5,
+      y: 3.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/iron_furnace_front_on_smoke",
+      id: "52CA749FFD0AEE88",
+    },
+    {
+      x: -8.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/emerald_furnace_front_on",
+      id: "4746D811E17041CF",
+    },
+    {
+      x: -7.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/crystal_furnace_front_on",
+      id: "61C8E801C92D8DB1",
+    },
+    {
+      x: -5.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/netherite_furnace_front_on",
+      id: "6FF8498DD296B108",
+    },
+    {
+      x: -6.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/obsidian_furnace_front_on",
+      id: "6ECE0CFD63910E44",
+    },
+    {
+      x: -1.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/million_furnace_front_on",
+      id: "27B90613DBAE2288",
+    },
+    {
+      x: -2.0,
+      y: 8.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/xmas_furnace_front_on",
+      id: "6945B45A9280C5C5",
+    },
+    {
+      x: -4.0,
+      y: 8.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/spooky_furnace_front_on",
+      id: "3B74DF53491E5BAA",
+    },
+    {
+      x: -2.3000000000000007,
+      y: 5.0,
+      width: 0.3,
+      height: 0.3,
+      rotation: 0.0,
+      image: "allthetweaks:item/atm_star",
+      id: "6355830C3B712EE0",
+    },
+    {
+      x: 3.0,
+      y: 6.699999999999999,
+      width: 0.3,
+      height: 0.3,
+      rotation: 0.0,
+      image: "allthetweaks:item/atm_star",
+      id: "68A5BE378A32417F",
+    },
+    {
+      x: 5.7,
+      y: 3.0,
+      width: 0.3,
+      height: 0.3,
+      rotation: 0.0,
+      image: "allthetweaks:item/atm_star",
+      id: "641F6375D49E2E8D",
+    },
+    {
+      x: -3.6,
+      y: 3.0,
+      width: 0.3,
+      height: 0.3,
+      rotation: 0.0,
+      image: "allthetweaks:item/atm_star",
+      id: "3E58EF5D1B388275",
+    },
+    {
+      x: -4.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/allthemodium_furnace_front_on",
+      id: "3255842F71A2A582",
+    },
+    {
+      x: -3.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/vibranium_furnace_front_on",
+      id: "22D84CAD33954471",
+    },
+    {
+      x: -2.0,
+      y: 9.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ironfurnaces:block/unobtainium_furnace_front_on",
+      id: "66B700F73B8CDB17",
+    },
+  ],
+}

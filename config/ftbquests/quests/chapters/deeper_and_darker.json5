@@ -1,0 +1,1809 @@
+{
+  id: "13B172FA69904D9F",
+  group: "5A4775CCD6D26C80",
+  order_index: 2,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "deeperdarker:heart_of_the_deep",
+    },
+  },
+  filename: "deeper_and_darker",
+  default_quest_shape: "hexagon",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "minecraft:reinforced_deepslate",
+        count: 1,
+      },
+      x: -2.5,
+      y: -3.0,
+      shape: "octagon",
+      id: "0B11EAB8D76529E0",
+      tasks: [
+        {
+          id: "0A7D66CA65D3EFD6",
+          type: "structure",
+          structure: "minecraft:ancient_city",
+        },
+      ],
+      rewards: [
+        {
+          id: "6A6F29F26CF6D4D6",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png",
+        },
+      },
+      x: -1.0,
+      y: -3.0,
+      shape: "circle",
+      dependencies: [
+        "0B11EAB8D76529E0",
+      ],
+      size: 1.2,
+      id: "3D579A1F7EFEDD5C",
+      tasks: [
+        {
+          id: "0925979432057907",
+          type: "kill",
+          entity: "minecraft:warden",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "776894CDA8D29DD9",
+          type: "item",
+          item: {
+            id: "minecraft:echo_shard",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "2041952666E40A74",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_carapace",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -3.0,
+      shape: "heart",
+      dependencies: [
+        "3D579A1F7EFEDD5C",
+      ],
+      id: "6E38CF6E7360E9CA",
+      tasks: [
+        {
+          id: "155AE69BDDF7E6CB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:heart_of_the_deep",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AC8BCEE625020F7",
+          type: "item",
+          item: {
+            id: "minecraft:phantom_membrane",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:sculk_vein",
+        count: 1,
+      },
+      x: -1.0,
+      y: -1.5,
+      shape: "gear",
+      hide_dependent_lines: true,
+      dependencies: [
+        "6E38CF6E7360E9CA",
+      ],
+      size: 2.0,
+      id: "76F14C2B866B4EAD",
+      tasks: [
+        {
+          id: "3091FE88808DDD9E",
+          type: "dimension",
+          dimension: "deeperdarker:otherside",
+        },
+      ],
+      rewards: [
+        {
+          id: "4581D977E170C107",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "20E8BFDC770762CC",
+          type: "item",
+          item: {
+            id: "minecraft:cyan_wool",
+            count: 1,
+          },
+          count: 64,
+        },
+        {
+          id: "699A8356E0CD1D67",
+          type: "item",
+          item: {
+            id: "minecraft:netherite_hoe",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "deeperdarker:blooming_sculk_stone",
+        },
+      },
+      x: -2.0,
+      y: 0.5,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "76F14C2B866B4EAD",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.3,
+      icon_scale: 1.3,
+      id: "68446510A1B0D9B8",
+      rewards: [
+        {
+          id: "157E9A914A034CE5",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:sculk",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.5,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "76F14C2B866B4EAD",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.3,
+      icon_scale: 1.3,
+      id: "0450060852F290CA",
+      rewards: [
+        {
+          id: "12700971EA4C9E48",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "deeperdarker:echo_soil",
+        },
+      },
+      x: -2.0,
+      y: 2.5,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "76F14C2B866B4EAD",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.3,
+      icon_scale: 1.3,
+      id: "59AF80E8EE17C769",
+      rewards: [
+        {
+          id: "4ADA531A9F5FCAFA",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "deeperdarker:gloomy_sculk",
+        },
+      },
+      x: 0.0,
+      y: 2.5,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "76F14C2B866B4EAD",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.3,
+      icon_scale: 1.3,
+      id: "3CF2DFB7F0CE065B",
+      rewards: [
+        {
+          id: "38AC2AC681EF8295",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 1.0,
+      shape: "circle",
+      hide_dependent_lines: true,
+      dependencies: [
+        "0450060852F290CA",
+        "59AF80E8EE17C769",
+      ],
+      id: "5E287410EE969244",
+      tasks: [
+        {
+          id: "3F6A0D097C43FE36",
+          type: "kill",
+          entity: "deeperdarker:shattered",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "725098CC4A25CB34",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sculk_bone",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "0450060852F290CA",
+        "59AF80E8EE17C769",
+      ],
+      id: "60721C9B94B36C24",
+      tasks: [
+        {
+          id: "642A68D019FCA296",
+          type: "kill",
+          entity: "deeperdarker:sculk_centipede",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "33675C27929DA074",
+          type: "item",
+          item: {
+            id: "minecraft:string",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 2.0,
+      shape: "circle",
+      hide_dependent_lines: true,
+      dependencies: [
+        "0450060852F290CA",
+        "68446510A1B0D9B8",
+      ],
+      id: "736F4A43EEBDD7B3",
+      tasks: [
+        {
+          id: "0F56FB9ADD6E8173",
+          type: "kill",
+          entity: "deeperdarker:sculk_snapper",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "2387BBC5985E4AAC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:soul_dust",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "68446510A1B0D9B8",
+      ],
+      id: "16A2CC83C99B1F86",
+      tasks: [
+        {
+          id: "7E85A07F49F485E7",
+          type: "kill",
+          entity: "deeperdarker:angler_fish",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "0D77573A56F49A75",
+          type: "item",
+          item: {
+            id: "minecraft:water_bucket",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "68446510A1B0D9B8",
+      ],
+      id: "10E025288BB00657",
+      tasks: [
+        {
+          id: "32EEA48AE6AACB4A",
+          type: "kill",
+          entity: "deeperdarker:sludge",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "0EE10597C32AECD8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:resonarium",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "0450060852F290CA",
+      ],
+      id: "774D61FEFABEFD9A",
+      tasks: [
+        {
+          id: "7A23EB9E9EFE589C",
+          type: "kill",
+          entity: "deeperdarker:shriek_worm",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "37FB05FDB3D760E6",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 1.0,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "76F14C2B866B4EAD",
+        "0B11EAB8D76529E0",
+      ],
+      hide_until_deps_complete: true,
+      id: "196003E1486ABB31",
+      tasks: [
+        {
+          id: "0A540C96CCE078F2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_upgrade_smithing_template",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "298CAFDC37B67E91",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_upgrade_smithing_template",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "196003E1486ABB31",
+        "45C9D975E3731DFE",
+      ],
+      id: "7CBAA67204CC258C",
+      tasks: [
+        {
+          id: "14208C18D09A625E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(deeperdarker:warden_sword)item(deeperdarker:warden_axe))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "273BC3CA12F4E0F8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "196003E1486ABB31",
+        "45C9D975E3731DFE",
+      ],
+      id: "726A627BD7654E0C",
+      tasks: [
+        {
+          id: "2404B1F307BB631A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(deeperdarker:warden_pickaxe)item(deeperdarker:warden_shovel)item(deeperdarker:warden_hoe))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FBF34E4D9FA04C5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "deeperdarker:sculk_stone_tiles",
+        },
+      },
+      x: -1.0,
+      y: 3.5,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "0450060852F290CA",
+      ],
+      id: "35629CB10DBDE340",
+      tasks: [
+        {
+          id: "724E1013C94FCE36",
+          type: "structure",
+          structure: "deeperdarker:ancient_temple",
+        },
+      ],
+      rewards: [
+        {
+          id: "5320454C60EF8A98",
+          type: "item",
+          item: {
+            id: "minecraft:cyan_wool",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "3AABC0F4D415E030",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "2A4CBC206C58A36F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:heart_of_the_deep",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 4.5,
+      shape: "square",
+      dependencies: [
+        "35629CB10DBDE340",
+      ],
+      id: "7FF3EA602FE7A546",
+      tasks: [
+        {
+          id: "06B95C293D282038",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sculk_transmitter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3147F125E31B45A3",
+          type: "item",
+          item: {
+            id: "minecraft:crafting_table",
+            count: 1,
+          },
+        },
+        {
+          id: "3968622E085CF16D",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "196003E1486ABB31",
+        "45C9D975E3731DFE",
+      ],
+      id: "6E901EF1CB411088",
+      tasks: [
+        {
+          id: "04C8F8C2632F116F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_helmet",
+            },
+          },
+        },
+        {
+          id: "05E24505D83DF602",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_chestplate",
+            },
+          },
+        },
+        {
+          id: "15CB60DCC9EB6755",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_leggings",
+            },
+          },
+        },
+        {
+          id: "216789181B7685CC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36AE779FB1EB1D9F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 1.0,
+      shape: "square",
+      dependencies: [
+        "4D57A07592AED307",
+        "5E287410EE969244",
+        "736F4A43EEBDD7B3",
+      ],
+      id: "4A01C5F5DCF32C19",
+      tasks: [
+        {
+          id: "453D4F29D23FC118",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:soul_elytra",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B9557AF128E187F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -2.0,
+      dependencies: [
+        "68446510A1B0D9B8",
+      ],
+      id: "183F6A790EC006B8",
+      tasks: [
+        {
+          id: "6766B01814BE6296",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:blooming_stem",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "16772EBFE93C5462",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:blooming_stem",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -2.0,
+      dependencies: [
+        "59AF80E8EE17C769",
+      ],
+      id: "0B718FC37699B822",
+      tasks: [
+        {
+          id: "3145BBDC2A9E7774",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:echo_log",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "404C7CE996A05300",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:echo_sapling",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "75701808FDDDDEE9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:echo_log",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -1.0,
+      dependencies: [
+        "0450060852F290CA",
+        "59AF80E8EE17C769",
+        "68446510A1B0D9B8",
+      ],
+      id: "6BB948F44B0950E8",
+      tasks: [
+        {
+          id: "5C838B001FB2AF7B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:cobbled_sculk_stone",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F4F720A99397326",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:cobbled_sculk_stone",
+            },
+          },
+          count: 12,
+        },
+        {
+          id: "1EFD67FAF8C6D7E8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sculk_stone",
+            },
+          },
+          count: 12,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -1.0,
+      dependencies: [
+        "3CF2DFB7F0CE065B",
+      ],
+      id: "716FF64ACF896D50",
+      tasks: [
+        {
+          id: "252FC5FF328914BF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:cobbled_gloomslate",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20958EF59713F128",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:gloomslate",
+            },
+          },
+          count: 12,
+        },
+        {
+          id: "38081657884886C1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:cobbled_gloomslate",
+            },
+          },
+          count: 12,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 4.5,
+      dependencies: [
+        "68446510A1B0D9B8",
+      ],
+      id: "5CCF573B67317591",
+      tasks: [
+        {
+          id: "1629F5F959005971",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:glowing_roots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E144C8CD16B73CA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:glowing_roots",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 4.5,
+      dependencies: [
+        "68446510A1B0D9B8",
+      ],
+      id: "21398F45428CD1D1",
+      tasks: [
+        {
+          id: "5BF361D8D188DADD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:bloom_berries",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D7DE064EA8C6C1B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:bloom_berries",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 4.5,
+      dependencies: [
+        "68446510A1B0D9B8",
+        "0450060852F290CA",
+      ],
+      id: "72EC845C19645AFC",
+      tasks: [
+        {
+          id: "67D74575D2974053",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sculk_vines",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E082D368E2F2A43",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sculk_vines",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 4.5,
+      dependencies: [
+        "68446510A1B0D9B8",
+      ],
+      id: "36149E69A8C264E4",
+      tasks: [
+        {
+          id: "2ED9DE6BBECA9CDA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:ice_lily",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01B581ABEB1B68C9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:ice_lily",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -2.0,
+      dependencies: [
+        "68446510A1B0D9B8",
+      ],
+      id: "44F9B8F285546B2C",
+      tasks: [
+        {
+          id: "78D21547807C806C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:blooming_moss_block",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "470C1DACF1769DCD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:blooming_moss_block",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -2.0,
+      dependencies: [
+        "59AF80E8EE17C769",
+      ],
+      id: "1A2EA742FDED54FF",
+      tasks: [
+        {
+          id: "4CD08B1B3A888A91",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:echo_soil",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "608E0BB027254CF7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:echo_soil",
+            },
+          },
+          count: 12,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -1.0,
+      dependencies: [
+        "59AF80E8EE17C769",
+      ],
+      id: "1BFE6745F49B4AB0",
+      tasks: [
+        {
+          id: "07E4391152889001",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sculk_gleam",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7620B7F4774E65B7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sculk_gleam",
+            },
+          },
+          count: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "deeperdarker:gloomy_geyser",
+        },
+      },
+      x: -6.0,
+      y: -1.5,
+      dependencies: [
+        "3CF2DFB7F0CE065B",
+      ],
+      id: "39100B3867E9C01E",
+      tasks: [
+        {
+          id: "5F2E186A1A3C41EA",
+          type: "observation",
+          timer: 0,
+          observation_type: "block",
+          to_observe: "deeperdarker:gloomy_geyser",
+        },
+      ],
+      rewards: [
+        {
+          id: "13610484B7A1EC8A",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:slow_falling",
+              },
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 4.5,
+      dependencies: [
+        "3CF2DFB7F0CE065B",
+      ],
+      id: "201E3E41018F9521",
+      tasks: [
+        {
+          id: "104E090D168D4CE0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:gloomy_cactus",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0508F27C62F18B2A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:gloomy_cactus",
+            },
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -1.0,
+      dependencies: [
+        "3CF2DFB7F0CE065B",
+      ],
+      id: "56D41A4605C42EB5",
+      tasks: [
+        {
+          id: "1495CBC301805E29",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:crystallized_amber",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33B6DCD6ED508C53",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:crystallized_amber",
+            },
+          },
+          count: 12,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "4D57A07592AED307",
+        "5E287410EE969244",
+        "736F4A43EEBDD7B3",
+      ],
+      id: "13B338F377951032",
+      tasks: [
+        {
+          id: "732F7BD2686546F9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sonorous_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "149CB5013C711CE8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 4.5,
+      dependencies: [
+        "0450060852F290CA",
+      ],
+      id: "0850F88E2205623F",
+      tasks: [
+        {
+          id: "632FDFBFD89DD9F9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sculk_tendrils",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7822171456D926ED",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:sculk_tendrils",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "736F4A43EEBDD7B3",
+      ],
+      id: "78BCED8699ADEDF4",
+      tasks: [
+        {
+          id: "4655017104923660",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:soundproof_glass",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AE84DFE82B6C2E5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:soundproof_glass",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "deeperdarker:sculk_jaw",
+        },
+      },
+      x: 4.0,
+      y: -1.5,
+      dependencies: [
+        "0450060852F290CA",
+      ],
+      id: "67D38E8A57949B34",
+      tasks: [
+        {
+          id: "442E351384423777",
+          type: "observation",
+          timer: 0,
+          observation_type: "block",
+          to_observe: "deeperdarker:sculk_jaw",
+        },
+      ],
+      rewards: [
+        {
+          id: "08544D820C3213DE",
+          type: "item",
+          item: {
+            id: "minecraft:cooked_beef",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "deeperdarker:stalker_spawn_egg",
+        },
+      },
+      x: -0.5,
+      y: 4.5,
+      shape: "circle",
+      hide_dependent_lines: true,
+      dependencies: [
+        "35629CB10DBDE340",
+      ],
+      id: "4D57A07592AED307",
+      tasks: [
+        {
+          id: "52747BC064FD3D7F",
+          type: "observation",
+          timer: 0,
+          observation_type: "block",
+          to_observe: "deeperdarker:ancient_vase",
+        },
+      ],
+      rewards: [
+        {
+          id: "0943536DF4131FC5",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -1.5,
+      shape: "diamond",
+      dependencies: [
+        "0450060852F290CA",
+      ],
+      id: "39BED5DD9D24F98E",
+      tasks: [
+        {
+          id: "25EF0FD904FA20FF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:grime_ball",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "521236086E845B78",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:grime_ball",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "11921E5894F79ED8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:grime_brick",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:grass_block",
+        count: 1,
+      },
+      x: -1.0,
+      y: 5.5,
+      shape: "gear",
+      dependencies: [
+        "35629CB10DBDE340",
+      ],
+      id: "5C983A41886A2B75",
+      tasks: [
+        {
+          id: "2558DFB29F08FAEF",
+          type: "observation",
+          timer: 0,
+          observation_type: "block",
+          to_observe: "minecraft:reinforced_deepslate",
+        },
+      ],
+      rewards: [
+        {
+          id: "21CCCCFAFE11D501",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 1.5,
+      shape: "circle",
+      dependencies: [
+        "35629CB10DBDE340",
+      ],
+      id: "5866438E5D19AB69",
+      tasks: [
+        {
+          id: "63270FCC3A3FFF34",
+          type: "kill",
+          entity: "deeperdarker:sculk_leech",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "73913D21239C5722",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:soul_dust",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 1.0,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "76F14C2B866B4EAD",
+        "3D579A1F7EFEDD5C",
+      ],
+      hide_until_deps_complete: true,
+      id: "45C9D975E3731DFE",
+      tasks: [
+        {
+          id: "1D876AD04C9038EF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:reinforced_echo_shard",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "689C06246F3E2BF1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:reinforced_echo_shard",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 1.5,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "01ECFBB5F0574C24",
+      tasks: [
+        {
+          id: "5B7FD7C2F05FA64D",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: -1.0,
+      y: -4.5,
+      width: 15.0,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/deepndark/dnd_title.png",
+      order: 2,
+      id: "51B451437455FE7B",
+    },
+    {
+      x: -1.0,
+      y: 1.5,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/deepndark/dnd_biome.png",
+      order: 2,
+      dependency: "76F14C2B866B4EAD",
+      id: "560822D5E7944E58",
+    },
+    {
+      x: 2.5,
+      y: -3.0,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/deepndark/dnd_blocks.png",
+      order: 2,
+      dependency: "76F14C2B866B4EAD",
+      id: "41A5037BCE320A4C",
+    },
+    {
+      x: -4.5,
+      y: -3.0,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/deepndark/dnd_blocks.png",
+      order: 2,
+      dependency: "76F14C2B866B4EAD",
+      id: "6C83B35E71C811B8",
+    },
+    {
+      x: 2.5,
+      y: 3.5,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/deepndark/dnd_plants.png",
+      order: 2,
+      dependency: "76F14C2B866B4EAD",
+      id: "3CDF77DDDCE0D3B9",
+    },
+    {
+      x: -4.5,
+      y: 3.5,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/deepndark/dnd_plants.png",
+      order: 2,
+      dependency: "76F14C2B866B4EAD",
+      id: "27CEAD7750F309EC",
+    },
+    {
+      x: -5.0,
+      y: 0.0,
+      width: 2.7,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/deepndark/dnd_gear.png",
+      order: 2,
+      dependency: "76F14C2B866B4EAD",
+      id: "349C2567CFEA9BC8",
+    },
+    {
+      x: 3.0,
+      y: 0.0,
+      width: 2.5,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/deepndark/dnd_mobs.png",
+      order: 2,
+      dependency: "76F14C2B866B4EAD",
+      id: "03F88C7BFA90C9C8",
+    },
+    {
+      x: -7.5,
+      y: 1.5,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "minecraft:block/sculk",
+      id: "0FD1EB31EC95A153",
+    },
+    {
+      x: -7.5,
+      y: -5.0,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "minecraft:block/sculk",
+      id: "6EE205D6C547671D",
+    },
+    {
+      x: -1.0,
+      y: 1.5,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "minecraft:block/sculk",
+      id: "3589F1D0B3F8DFF8",
+    },
+    {
+      x: 5.5,
+      y: 8.0,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "minecraft:block/sculk",
+      id: "01D03415B21D1B83",
+    },
+    {
+      x: 5.5,
+      y: -5.0,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "minecraft:block/sculk",
+      id: "597F5658C65CCD7E",
+    },
+    {
+      x: 5.5,
+      y: 1.5,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "minecraft:block/sculk",
+      id: "7566DD5723820EF0",
+    },
+    {
+      x: -1.0,
+      y: -5.0,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "minecraft:block/sculk",
+      id: "03362B575BC2A509",
+    },
+    {
+      x: -1.0,
+      y: 8.0,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "minecraft:block/sculk",
+      id: "68C06A92A5D02F6B",
+    },
+    {
+      x: -7.5,
+      y: 8.0,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "minecraft:block/sculk",
+      id: "67BC44A31AC23741",
+    },
+  ],
+}

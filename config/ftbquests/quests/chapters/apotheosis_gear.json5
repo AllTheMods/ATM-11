@@ -1,0 +1,1421 @@
+{
+  id: "0731FA8830F28280",
+  group: "15E5B587D291A4AA",
+  order_index: 0,
+  icon: {
+    id: "apotheosis:gem",
+    count: 1,
+    components: {
+      "apotheosis:gem": "apotheosis:core/solar",
+      "apotheosis:purity": "perfect",
+    },
+  },
+  filename: "apotheosis_gear",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      icon: {
+        id: "apotheosis:gem",
+        count: 1,
+        components: {
+          "apotheosis:gem": "apotheosis:core/solar",
+          "apotheosis:purity": "perfect",
+        },
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      size: 2.0,
+      id: "3BF5B8DE7A1CC4D7",
+      tasks: [
+        {
+          id: "67D884FA6DD22065",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item(apotheosis:gem)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D265B41D964221E",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "4063209399EDD574",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 2.0,
+      dependencies: [
+        "3BF5B8DE7A1CC4D7",
+      ],
+      size: 1.2,
+      id: "45647395169978ED",
+      tasks: [
+        {
+          id: "2655172BFD49E650",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "408C660438AE0D4B",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 2.0,
+      shape: "rsquare",
+      dependencies: [
+        "45647395169978ED",
+      ],
+      size: 0.9,
+      id: "6667638252DB9C74",
+      tasks: [
+        {
+          id: "75D9B77957E05997",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_fused_slate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7BB489A1DC5CE07D",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_fused_slate",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "50A9E29B1AA796F4",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 5.5,
+      shape: "hexagon",
+      dependencies: [
+        "45647395169978ED",
+        "7C90008081DEBECA",
+      ],
+      size: 1.5,
+      id: "1CD05CB4A3DB112A",
+      tasks: [
+        {
+          id: "503AF8C9A38E7FBC",
+          type: "item",
+          item: {
+            id: "apotheosis:salvaging_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58746B251C32AE6D",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_horse_armor",
+            count: 1,
+          },
+        },
+        {
+          id: "77D9437D04C9A1A9",
+          type: "item",
+          item: {
+            id: "minecraft:wolf_armor",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 5.0,
+      dependencies: [
+        "1CD05CB4A3DB112A",
+      ],
+      size: 0.95,
+      id: "16C74B5F99AD6724",
+      tasks: [
+        {
+          id: "713EFE882A8DF739",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:common_material",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "734AF3AF18C1890F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:common_material",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "5B06FA7B8C907DE6",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 6.0,
+      dependencies: [
+        "1CD05CB4A3DB112A",
+      ],
+      size: 0.95,
+      id: "0089A394566B0F3B",
+      tasks: [
+        {
+          id: "366192B3D26A0B5A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:uncommon_material",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FEBD23E24089BAE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:uncommon_material",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "05EBF8B74B0DBCEE",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 7.125,
+      dependencies: [
+        "1CD05CB4A3DB112A",
+      ],
+      size: 0.95,
+      id: "001C1881E9289566",
+      tasks: [
+        {
+          id: "3CC05E350375C00A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:rare_material",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32124AADFAD26DF4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:rare_material",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "4A92B7975B29F146",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 1.392857142857153,
+      y: 4.946428571428569,
+      dependencies: [
+        "1CD05CB4A3DB112A",
+      ],
+      size: 0.95,
+      id: "099C2A9B9CA138F8",
+      tasks: [
+        {
+          id: "140462D246ACBAFF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:mythic_material",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BDC8A3A55BD907A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:mythic_material",
+            },
+          },
+        },
+        {
+          id: "33A38A6C4DB8384A",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 1.3571428571428612,
+      y: 5.910714285714285,
+      dependencies: [
+        "1CD05CB4A3DB112A",
+      ],
+      size: 0.95,
+      id: "6EF206A0BD5BAC0A",
+      tasks: [
+        {
+          id: "2A1FC2E2E0C01055",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:epic_material",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E90610981FEDD4B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:epic_material",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "523B6676B1206AFF",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "6667638252DB9C74",
+      ],
+      size: 0.9,
+      id: "24D11ED5F4EEDC48",
+      tasks: [
+        {
+          id: "62B040B3CB6E67D7",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_socketing",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EFFC47E86BAF0FB",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_socketing",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "6667638252DB9C74",
+      ],
+      size: 0.9,
+      id: "4E9DDDBD8263D0E3",
+      tasks: [
+        {
+          id: "732FFA8937D88CDC",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_unnaming",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DC22F7458B4A2EC",
+          type: "item",
+          item: {
+            id: "minecraft:name_tag",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 2.0,
+      shape: "rsquare",
+      dependencies: [
+        "6667638252DB9C74",
+      ],
+      size: 0.9,
+      id: "7CB03F92F9ECEFFB",
+      tasks: [
+        {
+          id: "1EECC71985048B2C",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_withdrawal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06476980C7E86320",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_withdrawal",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "6667638252DB9C74",
+      ],
+      size: 0.9,
+      id: "2002C7EB13626AE7",
+      tasks: [
+        {
+          id: "771A7C97DD1E2A6D",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_enhancement",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0FFC5C1C4FCD346B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:mythic_material",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "6667638252DB9C74",
+      ],
+      size: 0.9,
+      id: "38956DC28E317DEF",
+      tasks: [
+        {
+          id: "6A5314ED64C58405",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_rebirth",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "561C35495396FF41",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_rebirth",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "3E1C4E8169CEA701",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: -1.7999999999999998,
+      y: 8.3,
+      shape: "hexagon",
+      dependencies: [
+        "45647395169978ED",
+      ],
+      size: 1.2,
+      id: "29EA8E178F8F8FDB",
+      tasks: [
+        {
+          id: "29718A6DB9A7D9E8",
+          type: "item",
+          item: {
+            id: "apotheosis:simple_reforging_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06CEFE411A827E19",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:uncommon_material",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "6F47577A723EBF1C",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_rebirth",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "5DD2ED0F264F9FD3",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 1.3214285714285836,
+      y: 8.30357142857143,
+      shape: "hexagon",
+      dependencies: [
+        "6EF206A0BD5BAC0A",
+        "29EA8E178F8F8FDB",
+      ],
+      size: 1.2,
+      id: "1403D677CF2815C3",
+      tasks: [
+        {
+          id: "55D268545CC6B992",
+          type: "item",
+          item: {
+            id: "apotheosis:reforging_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3679713EC367113C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:epic_material",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "31C5311836E45756",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_rebirth",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "572B2A6137EC2E76",
+          type: "xp_levels",
+          xp_levels: 6,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 5.5,
+      shape: "hexagon",
+      dependencies: [
+        "2002C7EB13626AE7",
+        "099C2A9B9CA138F8",
+      ],
+      size: 1.2,
+      id: "57BB2CC6D9D2AE87",
+      tasks: [
+        {
+          id: "30628EF8836E341E",
+          type: "item",
+          item: {
+            id: "apotheosis:augmenting_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70E05481298C3185",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_enhancement",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "7E139757E921E73C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:mythic_material",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "62FEBB7B94E2DA49",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "45647395169978ED",
+      ],
+      id: "7C90008081DEBECA",
+      tasks: [
+        {
+          id: "146817D02B4E6F59",
+          type: "item",
+          item: {
+            id: "minecraft:smithing_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "65BA038401749B00",
+          type: "item",
+          item: {
+            id: "minecraft:smithing_table",
+            count: 1,
+          },
+        },
+        {
+          id: "57978148FA44D942",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "45647395169978ED",
+      ],
+      id: "166CE4243896A0CD",
+      tasks: [
+        {
+          id: "5B4B74090A6D2218",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_cutting_table",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:wooden_sword",
+        count: 1,
+      },
+      x: -2.0,
+      y: 3.5,
+      shape: "octagon",
+      dependencies: [
+        "196312DF0D2E2CB6",
+      ],
+      id: "377A41499D8218C9",
+      tasks: [
+        {
+          id: "76F3B5C3CB49DDBD",
+          type: "advancement",
+          advancement: "apotheosis:progression/haven",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "2162B90127FA6656",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:common_material",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "2DA383B7A79FDE9A",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 2.0,
+      shape: "octagon",
+      dependencies: [
+        "45647395169978ED",
+      ],
+      size: 1.5,
+      id: "196312DF0D2E2CB6",
+      tasks: [
+        {
+          id: "0A3853BD4F62B78E",
+          type: "advancement",
+          advancement: "apotheosis:progression/root",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "0BC721E7CF41B60A",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:stone_sword",
+        count: 1,
+      },
+      x: -3.0,
+      y: 3.0,
+      shape: "octagon",
+      dependencies: [
+        "377A41499D8218C9",
+      ],
+      id: "2A032EC573B5316C",
+      tasks: [
+        {
+          id: "5CB6CA97E58BCEAA",
+          type: "advancement",
+          advancement: "apotheosis:progression/frontier",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "26BBE771B757D17C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:uncommon_material",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "175A24C9B2690C65",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_sword",
+        count: 1,
+      },
+      x: -3.5,
+      y: 2.0,
+      shape: "octagon",
+      dependencies: [
+        "2A032EC573B5316C",
+      ],
+      id: "1D1FAA2F86695781",
+      tasks: [
+        {
+          id: "2CABD34152BDD4B3",
+          type: "advancement",
+          advancement: "apotheosis:progression/ascent",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "61C1A8AB063D4A75",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:rare_material",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "6FE2F519614E89A5",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond_sword",
+        count: 1,
+      },
+      x: -3.0,
+      y: 1.0,
+      shape: "octagon",
+      dependencies: [
+        "1D1FAA2F86695781",
+      ],
+      id: "097FDC136BC843A7",
+      tasks: [
+        {
+          id: "12514CC5B41CD0EB",
+          type: "advancement",
+          advancement: "apotheosis:progression/summit",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "5809483F636CDDB0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:epic_material",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "69BA26A2DE95EB61",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherite_sword",
+        count: 1,
+      },
+      x: -2.0,
+      y: 0.5,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "097FDC136BC843A7",
+      ],
+      id: "7EF873DCEB3B9D48",
+      tasks: [
+        {
+          id: "22DAF9F7495BC1EF",
+          type: "advancement",
+          advancement: "apotheosis:progression/pinnacle",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "287189F44A37E215",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:mythic_material",
+            },
+          },
+        },
+        {
+          id: "337C61045F41CE25",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 2.0,
+      shape: "rsquare",
+      dependencies: [
+        "6667638252DB9C74",
+      ],
+      id: "552BA5E6FA987256",
+      tasks: [
+        {
+          id: "792E53E6205E05AB",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_malice",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "223E23495A144E6A",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_malice",
+            count: 1,
+          },
+          count: 6,
+        },
+        {
+          id: "1B06B35EEBD10490",
+          type: "xp",
+          xp: 666,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 3.5,
+      dependencies: [
+        "2A032EC573B5316C",
+      ],
+      id: "22E57BF23B9BA2C5",
+      tasks: [
+        {
+          id: "1F073FD0F4A296A3",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(component(fuzzy:{\\\"gateways:gateway\\\":\\\"apotheosis:tiered/frontier\\\"})component(fuzzy:{\\\"gateways:gateway\\\":\\\"apotheosis:tiered/ascent\\\"})component(fuzzy:{\\\"gateways:gateway\\\":\\\"apotheosis:tiered/summit\\\"})component(fuzzy:{\\\"gateways:gateway\\\":\\\"apotheosis:tiered/pinnacle\\\"}))item(gateways:gate_pearl)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "473D5E78D7E86DD7",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "46F82C45D5B1394B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:uncommon_material",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "0728DA7695A6B750",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "gateways:gate_pearl",
+        count: 1,
+        components: {
+          "gateways:gateway": "apotheosis:endless_invader",
+        },
+      },
+      x: -5.0,
+      y: 3.0,
+      dependencies: [
+        "22E57BF23B9BA2C5",
+        "7EF873DCEB3B9D48",
+      ],
+      id: "6B5B01C612951BAF",
+      tasks: [
+        {
+          id: "68A6804F5E9D1B90",
+          type: "item",
+          item: {
+            id: "gateways:gate_pearl",
+            count: 1,
+            components: {
+              "gateways:gateway": "apotheosis:tiered/pinnacle",
+            },
+          },
+          match_components: "strict",
+        },
+        {
+          id: "3CD3B96BCB661E58",
+          type: "item",
+          item: {
+            id: "gateways:gate_pearl",
+            count: 1,
+            components: {
+              "gateways:gateway": "apotheosis:endless_invader",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "62B800A1111A79A9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "apotheosis:mythic_material",
+            },
+          },
+          count: 32,
+        },
+        {
+          id: "1DB2DF554FC79AEA",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          count: 64,
+        },
+        {
+          id: "23510F828F60F8AE",
+          type: "item",
+          item: {
+            id: "apotheosis:music_disc_glimmer",
+            count: 1,
+          },
+        },
+        {
+          id: "6D62862FF1008E67",
+          type: "item",
+          item: {
+            id: "apotheosis:music_disc_shimmer",
+            count: 1,
+          },
+        },
+        {
+          id: "77C15E6925DD6838",
+          type: "item",
+          item: {
+            id: "apotheosis:music_disc_flash",
+            count: 1,
+          },
+        },
+        {
+          id: "23FE831BDA8848EA",
+          type: "item",
+          item: {
+            id: "gateways:gate_pearl",
+            count: 1,
+            components: {
+              "gateways:gateway": "apotheosis:endless_invader",
+            },
+          },
+        },
+        {
+          id: "14E6533C235C2E3A",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: -7.071428571428555,
+      y: 1.7678571428571388,
+      shape: "none",
+      dependencies: [
+        "6B5B01C612951BAF",
+      ],
+      size: 1.5,
+      id: "2E5E129F25707C5D",
+      tasks: [
+        {
+          id: "2624E09A5B8C1D0D",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_supremacy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46857F68BFA906D6",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_supremacy",
+            count: 1,
+          },
+        },
+        {
+          id: "781E5F0FD32FCAD3",
+          type: "item",
+          item: {
+            id: "allthemodium:allthemodium_block",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "34E6AD132DA2ADFE",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_block",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "2237C7BA952EBDD1",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_block",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "1E534C9814128D4C",
+          type: "xp_levels",
+          xp_levels: 100,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 0.0,
+      optional: true,
+      invisible: true,
+      id: "7080F026A37F1832",
+      tasks: [
+        {
+          id: "31C72EBA091270E7",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -2.0,
+      width: 7.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/apothic/apotheosis_gear.png",
+      id: "61B765BE9AA8E4F6",
+    },
+    {
+      x: 3.0,
+      y: 7.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/apothic/gear_augment.png",
+      id: "3223BC018B207763",
+    },
+    {
+      x: -2.0,
+      y: 9.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/apothic/gear_simple.png",
+      id: "7105F928F07891E9",
+    },
+    {
+      x: 2.0,
+      y: 9.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/apothic/gear_reforge.png",
+      id: "1D56795AD2376A88",
+    },
+    {
+      x: 4.5,
+      y: 5.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/apothic/gear_gem.png",
+      id: "4BF055B5D65283E0",
+    },
+    {
+      x: -3.5,
+      y: 5.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/apothic/gear_smith.png",
+      id: "559DDDC11DF2F6FE",
+    },
+    {
+      x: 5.0,
+      y: 3.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/sigils/enhancement",
+      id: "0FE24180A70B223C",
+    },
+    {
+      x: 5.0,
+      y: 2.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/sigils/withdrawal",
+      id: "737137CAB86BA3D4",
+    },
+    {
+      x: 4.0,
+      y: 3.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/sigils/rebirth",
+      id: "07183A4E796712EE",
+    },
+    {
+      x: 6.0,
+      y: 1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/sigils/unnaming",
+      id: "71F0563929E0D610",
+    },
+    {
+      x: 5.0,
+      y: 1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/sigils/socketing",
+      id: "0A67DE164E562DB4",
+    },
+    {
+      x: -2.5,
+      y: 4.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:textures/gui/book/haven_icon.png",
+      id: "78F7B0525F9F160E",
+    },
+    {
+      x: -5.0,
+      y: 2.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:textures/gui/book/frontier_icon.png",
+      id: "72EDEA9E470B55FC",
+    },
+    {
+      x: -4.0,
+      y: 0.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:textures/gui/book/summit_icon.png",
+      id: "148D5DC0EF300385",
+    },
+    {
+      x: -3.0,
+      y: 7.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/apothic/gear_salvage.png",
+      id: "121116541935A414",
+    },
+    {
+      x: 2.5,
+      y: -0.5,
+      width: 2.5,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/apothic/gear_sigils.png",
+      id: "0C69FAF5985DDEE8",
+    },
+    {
+      x: -3.0,
+      y: -0.5,
+      width: 5.0,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/apothic/gear_tiers.png",
+      id: "17EBE4675EF48513",
+    },
+    {
+      x: 6.0,
+      y: 2.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/sigils/malice",
+      id: "49D87062F8E6672E",
+    },
+    {
+      x: 4.0,
+      y: 1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/sigils/supremacy",
+      click: "#2E5E129F25707C5D",
+      id: "63F4DC9292F47FA8",
+    },
+    {
+      x: -7.0,
+      y: 2.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "gateways:item/gate_pearl_large",
+      color: 16755200,
+      id: "0F5D7D208E0828C3",
+    },
+  ],
+}

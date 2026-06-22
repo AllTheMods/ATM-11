@@ -1,0 +1,2729 @@
+{
+  id: "4EBB2171D5A3AAAC",
+  group: "02FE661031A105D8",
+  order_index: 3,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_1",
+    },
+  },
+  filename: "forbidden__arcanus",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_1",
+        },
+      },
+      x: 2.5,
+      y: -1.0,
+      shape: "gear",
+      size: 2.0,
+      id: "092BB595F75D5536",
+      tasks: [
+        {
+          id: "6B772FA03562537D",
+          type: "location",
+          dimension: "minecraft:overworld",
+          ignore_dimension: false,
+          position: [
+            -1000000000,
+            1,
+            -1000000000,
+          ],
+          size: [
+            -1000000000,
+            1,
+            -1000000000,
+          ],
+        },
+      ],
+      rewards: [
+        {
+          id: "3E9F25BFE28D3AE6",
+          type: "item",
+          item: {
+            id: "minecraft:iron_pickaxe",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "forbidden_arcanus:deepslate_arcane_crystal_ore",
+        count: 1,
+      },
+      x: 4.5,
+      y: -1.0,
+      shape: "square",
+      hide_dependent_lines: true,
+      dependencies: [
+        "092BB595F75D5536",
+      ],
+      id: "62C60FF24B2F7290",
+      tasks: [
+        {
+          id: "6204AF3CD7D2CC37",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BE2B64C89F21435",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_crystal",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "092BB595F75D5536",
+      ],
+      size: 1.2,
+      id: "230EEE4671B46D0C",
+      tasks: [
+        {
+          id: "43A5CD740F24A3ED",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:darkstone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28C8F5467AC0B3CA",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:darkstone",
+            count: 1,
+          },
+          count: 32,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "forbidden_arcanus:runic_deepslate",
+        count: 1,
+      },
+      x: 4.5,
+      y: 0.0,
+      shape: "square",
+      hide_dependent_lines: true,
+      dependencies: [
+        "092BB595F75D5536",
+      ],
+      id: "31AD9826FB036C98",
+      tasks: [
+        {
+          id: "117AD4ACD2CB198A",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:rune",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21F180313D280A37",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:rune",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "forbidden_arcanus:stella_arcanum",
+        count: 1,
+      },
+      x: 4.5,
+      y: -2.0,
+      shape: "square",
+      dependencies: [
+        "092BB595F75D5536",
+      ],
+      id: "52472667678E10D1",
+      tasks: [
+        {
+          id: "79B56A02FF147F15",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:stellarite_piece",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33263574BEB62442",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:stellarite_piece",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -3.5,
+      id: "2D3C8905B783A212",
+      tasks: [
+        {
+          id: "091F7BA371F7F81B",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:mundabitur_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6635EC3C8AA2977E",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:mundabitur_dust",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -2.5,
+      shape: "square",
+      dependencies: [
+        "49D0B6D3ED3DCCCD",
+        "2D3C8905B783A212",
+      ],
+      id: "29434DB0CC2E30E6",
+      tasks: [
+        {
+          id: "3563DC0E1C061E55",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:deorum_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "612B7A270EF4855C",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:deorum_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -3.5,
+      dependencies: [
+        "62C60FF24B2F7290",
+      ],
+      id: "49D0B6D3ED3DCCCD",
+      tasks: [
+        {
+          id: "538BFD91AE600398",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_crystal_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "19C0B51A79011166",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_crystal",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "forbidden_arcanus:darkstone_pedestal",
+        count: 1,
+      },
+      x: 8.0,
+      y: -1.0,
+      shape: "rsquare",
+      dependencies: [
+        "230EEE4671B46D0C",
+        "29434DB0CC2E30E6",
+      ],
+      id: "0FD638380EECFFBD",
+      tasks: [
+        {
+          id: "1F69FA94F4B3CB37",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:polished_darkstone",
+            count: 1,
+          },
+          count: 48,
+        },
+        {
+          id: "22ECC8138C9286AD",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:gilded_chiseled_polished_darkstone",
+            count: 1,
+          },
+          count: 9,
+        },
+        {
+          id: "2B17F7791E0C4314",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:chiseled_arcane_polished_darkstone",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "5F985E5DA92CF2C5",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:darkstone_pedestal",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "00D7C2BCAD726BE8",
+          type: "item",
+          item: {
+            id: "minecraft:smithing_table",
+            count: 1,
+          },
+        },
+        {
+          id: "2C7C87DE6AE8B715",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:mundabitur_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71174873D7F741C9",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:test_tube",
+            count: 1,
+          },
+        },
+        {
+          id: "7AD660B74AAEF3CE",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "1991DD38F8154CEF",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "2F08FABBAF5432D9",
+          type: "item",
+          item: {
+            id: "minecraft:experience_bottle",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -2.5,
+      size: 1.2,
+      id: "4BE209D5DAF1F321",
+      tasks: [
+        {
+          id: "5E7A46B9CB8A2523",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "016CEF585A7D1B3D",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: -2.5,
+      dependencies: [
+        "4A564E8FE587C7E4",
+        "580148D1141446A6",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.2,
+      id: "539266A1C03C2EBA",
+      tasks: [
+        {
+          id: "39A26499C8B0FC86",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07340EAC2A1D9207",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 0.5,
+      dependencies: [
+        "31AD9826FB036C98",
+      ],
+      size: 1.2,
+      id: "40B757772D0FBAC9",
+      tasks: [
+        {
+          id: "5A42F3E1E83F263C",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:test_tube",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D21710E315BC55A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mob_grinding_utils:spikes",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: 0.5,
+      dependencies: [
+        "3999AE0921641E60",
+      ],
+      size: 1.2,
+      id: "2ADA491A2485061C",
+      tasks: [
+        {
+          id: "659DCADAC821ECB7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D9CC88499D544BC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "539266A1C03C2EBA",
+        "40B757772D0FBAC9",
+        "4BE209D5DAF1F321",
+        "2ADA491A2485061C",
+        "0FD638380EECFFBD",
+      ],
+      size: 2.0,
+      id: "185DBBDD252CBA0C",
+      tasks: [
+        {
+          id: "39FEA97553B2367A",
+          type: "observation",
+          icon: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_1",
+            },
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "forbidden_arcanus:hephaestus_forge_tier_1",
+        },
+      ],
+      rewards: [
+        {
+          id: "5887F69034646D2E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+            },
+          },
+        },
+        {
+          id: "729A86A55F88D9F6",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "6B0B07942D514136",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "028B4921077EBC5A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
+            },
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 16.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "185DBBDD252CBA0C",
+        "198E9E90CC9606C4",
+      ],
+      size: 2.0,
+      id: "050CD33E92601651",
+      tasks: [
+        {
+          id: "7F1B7BC6D0BE42BB",
+          type: "observation",
+          icon: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_2",
+            },
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "forbidden_arcanus:hephaestus_forge_tier_2",
+        },
+      ],
+      rewards: [
+        {
+          id: "7AD618D2FD8B077A",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "117961562D453208",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+            },
+          },
+        },
+        {
+          id: "16B54397523EC4F1",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "460FECA4973A1F25",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
+            },
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: -1.0,
+      dependencies: [
+        "185DBBDD252CBA0C",
+        "198E9E90CC9606C4",
+      ],
+      id: "07BEE6FEC14765DC",
+      tasks: [
+        {
+          id: "41E6EA289B6E1E0C",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:ferrognetic_mixture",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6382ECAF771645DE",
+          type: "item",
+          item: {
+            id: "pipez:item_pipe",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: 0.0,
+      dependencies: [
+        "66FE4552E09B5EFF",
+        "185DBBDD252CBA0C",
+        "198E9E90CC9606C4",
+      ],
+      id: "03C54B07106091DD",
+      tasks: [
+        {
+          id: "70A89D0957930BD0",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:smelter_prism",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1ECA9CA086F4092C",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:smelter_prism",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: -2.0,
+      shape: "diamond",
+      dependencies: [
+        "185DBBDD252CBA0C",
+        "198E9E90CC9606C4",
+      ],
+      id: "0AC8FE3B59D1B09D",
+      tasks: [
+        {
+          id: "4A59C560E2F0CC43",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:quantum_catcher",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "250B5A6A0A10ECF6",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 17.5,
+      y: -1.0,
+      dependencies: [
+        "66FE4552E09B5EFF",
+        "050CD33E92601651",
+      ],
+      id: "63C95FDAA447CA47",
+      tasks: [
+        {
+          id: "18AE610827D4AB97",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:terrastomp_prism",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "424757A8886282AD",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:terrastomp_prism",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 19.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "050CD33E92601651",
+      ],
+      size: 2.0,
+      id: "46567ED894E9883C",
+      tasks: [
+        {
+          id: "114F4D54018B45EE",
+          type: "observation",
+          icon: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_3",
+            },
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "forbidden_arcanus:hephaestus_forge_tier_3",
+        },
+      ],
+      rewards: [
+        {
+          id: "2A2660478EA80715",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "1116758FF1868EEB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "261FE4BD8C4C857B",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "2E8E7B0E6243FD22",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 20.5,
+      y: -0.5,
+      dependencies: [
+        "66FE4552E09B5EFF",
+        "46567ED894E9883C",
+      ],
+      id: "414A35A72AFB5FF5",
+      tasks: [
+        {
+          id: "1CBDC28981E720A2",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:sea_prism",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7039CA43B4B69744",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:sea_prism",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 20.5,
+      y: -1.5,
+      dependencies: [
+        "46567ED894E9883C",
+      ],
+      id: "5A6FF0D4BA894306",
+      tasks: [
+        {
+          id: "0FE3577EA8F40141",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:eternal_stella",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F027FED60D85419",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 20.5,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "46567ED894E9883C",
+      ],
+      id: "3D82C6639A6371CB",
+      tasks: [
+        {
+          id: "341F07FB8148C404",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:quantum_injector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D7027FE3D99A054",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:mundabitur_dust",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 20.5,
+      y: 0.5,
+      dependencies: [
+        "66FE4552E09B5EFF",
+        "46567ED894E9883C",
+      ],
+      id: "5F00A66CC1FE1F9F",
+      tasks: [
+        {
+          id: "27A2E8DF8A359458",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:whirlwind_prism",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E086A65570540CC",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:whirlwind_prism",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 22.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "46567ED894E9883C",
+      ],
+      size: 2.0,
+      id: "6BA2BC09E23B34A9",
+      tasks: [
+        {
+          id: "6C4DA123838166A7",
+          type: "observation",
+          icon: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_4",
+            },
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "forbidden_arcanus:hephaestus_forge_tier_4",
+        },
+      ],
+      rewards: [
+        {
+          id: "73DF43CEDE7FB284",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+          count: 15,
+        },
+        {
+          id: "14126A365CECF184",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "5A55C3179627986C",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+          count: 15,
+        },
+        {
+          id: "4850F9B9A12B1EF5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
+            },
+          },
+          count: 15,
+        },
+      ],
+    },
+    {
+      x: 23.5,
+      y: -1.5,
+      shape: "diamond",
+      dependencies: [
+        "6BA2BC09E23B34A9",
+      ],
+      id: "487C70679535DDDB",
+      tasks: [
+        {
+          id: "77B5DDA6BD761146",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:boss_catcher",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7482286C03DA9F91",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+          count: 20,
+        },
+      ],
+    },
+    {
+      x: 23.5,
+      y: -0.5,
+      dependencies: [
+        "67CCEFEBA4D79429",
+        "6BA2BC09E23B34A9",
+      ],
+      id: "5ED0DA95BAE43D88",
+      tasks: [
+        {
+          id: "25CCD791EA260E90",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul_binding_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "461B4F91C9139A4E",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:enchanted_soul",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 25.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "6BA2BC09E23B34A9",
+      ],
+      size: 2.0,
+      id: "15849165CA8C00F9",
+      tasks: [
+        {
+          id: "7878654529FB7236",
+          type: "observation",
+          icon: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_5",
+            },
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "forbidden_arcanus:hephaestus_forge_tier_5",
+        },
+      ],
+      rewards: [
+        {
+          id: "47391F1E7A64780F",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:aureal_bottle",
+            count: 1,
+          },
+          count: 20,
+        },
+        {
+          id: "7BA2DABC81C2F572",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "04BA8B8651CFA149",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+          count: 20,
+        },
+        {
+          id: "6BF3392D003B3882",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
+            },
+          },
+          count: 20,
+        },
+        {
+          id: "2959A3E2AC7AD0FA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "industrialization_overdrive:terminal",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 18.200000000000003,
+      y: -3.9000000000000004,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "692183ACBB2AABF7",
+      ],
+      size: 1.3,
+      id: "66FE4552E09B5EFF",
+      tasks: [
+        {
+          id: "45A1E17EA95C78C5",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:elementarium",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BF5F399869B6E93",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_crystal",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -5.2,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "692183ACBB2AABF7",
+      ],
+      size: 1.3,
+      id: "67CCEFEBA4D79429",
+      tasks: [
+        {
+          id: "2E7D7BC917E53DE0",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:divine_pact",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "16A8659BC7F4E2B9",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:enchanted_soul",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "forbidden_arcanus:arcane_crystal_obelisk",
+        count: 1,
+      },
+      x: 10.0,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "4BE209D5DAF1F321",
+        "62C60FF24B2F7290",
+      ],
+      id: "7671AFAA1EFD287F",
+      tasks: [
+        {
+          id: "2F6E6A8E20D0884E",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_crystal_block",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "4BE24BAC97E28990",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_polished_darkstone",
+            count: 1,
+          },
+        },
+        {
+          id: "11F3CE0A465A6C10",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:mundabitur_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C62B4293C21C5CC",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_crystal_obelisk",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: -4.0,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5CD0E6F349F2F32D",
+      ],
+      id: "4A564E8FE587C7E4",
+      tasks: [
+        {
+          id: "3CE3D28560E57A92",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:soul_extractor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17CC20D618F74FF0",
+          type: "item",
+          item: {
+            id: "minecraft:soul_sand",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "allthetweaks:pulsating_black_hole",
+        count: 1,
+      },
+      x: 12.0,
+      y: 3.0,
+      dependencies: [
+        "356102D5B5F3CA1E",
+        "5CD0E6F349F2F32D",
+      ],
+      size: 1.5,
+      id: "3999AE0921641E60",
+      tasks: [
+        {
+          id: "2492DF2E4C785E13",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:dark_matter",
+            count: 1,
+          },
+        },
+        {
+          id: "57D5DA9B42ECC0BE",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:corrupti_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0A14995524F31DEF",
+          type: "item",
+          item: {
+            id: "minecraft:experience_bottle",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "forbidden_arcanus:clibano_core",
+        count: 1,
+      },
+      x: 8.0,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "230EEE4671B46D0C",
+      ],
+      size: 1.5,
+      id: "4707FB01F15F6E1F",
+      tasks: [
+        {
+          id: "1A8C2612F1B274EF",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:polished_darkstone",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "7534ED761938BADE",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:polished_darkstone_bricks",
+            count: 1,
+          },
+          count: 17,
+        },
+        {
+          id: "61CFE362AAD274F0",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:clibano_core",
+            count: 1,
+          },
+        },
+        {
+          id: "0C3BBCACBA9CC794",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:mundabitur_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "729129840593270D",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "1FC19744108B0BE4",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 16.900000000000002,
+      y: -3.9000000000000004,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "692183ACBB2AABF7",
+      ],
+      size: 1.3,
+      id: "2002AB7D061007FA",
+      tasks: [
+        {
+          id: "4FEC631A2656C16C",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:artisan_relic",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11D28EBC2B33162A",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:deorum_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 3.0,
+      shape: "square",
+      dependencies: [
+        "2002AB7D061007FA",
+        "4707FB01F15F6E1F",
+      ],
+      id: "356102D5B5F3CA1E",
+      tasks: [
+        {
+          id: "4013D6DFBB9C1470",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:obsidiansteel_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A809DB25AEA23A3",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:obsidiansteel_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "forbidden_arcanus:netherite_blacksmith_gavel",
+        count: 1,
+      },
+      x: 13.0,
+      y: -1.0,
+      shape: "rsquare",
+      dependencies: [
+        "185DBBDD252CBA0C",
+      ],
+      id: "198E9E90CC9606C4",
+      tasks: [
+        {
+          id: "2BF7B18BF099BCC0",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:blacksmith_gavel_head",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7281207339B497BF",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "3498B2DBC2BCB1C4",
+          type: "item",
+          item: {
+            id: "minecraft:stick",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "356102D5B5F3CA1E",
+      ],
+      hide_until_deps_complete: true,
+      id: "4CFE097D0A8683C8",
+      tasks: [
+        {
+          id: "5CE7337322AE6339",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:obsidian_skull",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "562CAC94C09126C7",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:obsidiansteel_ingot",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 14.0,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "6F57BE412A7BE84E",
+        "79C9875A1A494762",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.3,
+      id: "5CD0E6F349F2F32D",
+      tasks: [
+        {
+          id: "53756ACD61EB40E7",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:edelwood_log",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "29379031F6DE21BA",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:edelwood_log",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 14.0,
+      y: 4.0,
+      shape: "rsquare",
+      dependencies: [
+        "5CD0E6F349F2F32D",
+      ],
+      hide_until_deps_complete: true,
+      id: "52D4FCE72B15BC46",
+      tasks: [
+        {
+          id: "51E9105646A5E300",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:edelwood_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DAAEF65E975A6C9",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -2.5,
+      shape: "diamond",
+      dependencies: [
+        "29434DB0CC2E30E6",
+      ],
+      hide_until_deps_complete: true,
+      id: "53E2BEA626B35BFC",
+      tasks: [
+        {
+          id: "4A3000606F54DB21",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:spectral_eye_amulet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2139BA285B77382D",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 17.0,
+      y: 3.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "02F2DF9D9DA7833A",
+      tasks: [
+        {
+          id: "333F55C8B6309F73",
+          type: "item",
+          item: {
+            id: "minecraft:enchanting_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56F26978B443541E",
+          type: "item",
+          item: {
+            id: "minecraft:lapis_lazuli",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: 15.5,
+      y: 3.0,
+      dependencies: [
+        "02F2DF9D9DA7833A",
+      ],
+      id: "6F57BE412A7BE84E",
+      tasks: [
+        {
+          id: "2396418B708F23AF",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:corrupt_soul",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C709C60A8D8070F",
+          type: "item",
+          item: {
+            id: "minecraft:oak_sapling",
+            count: 1,
+          },
+        },
+        {
+          id: "59AAB4076D6B5F3D",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:corrupt_soul",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 14.0,
+      y: 1.5,
+      id: "79C9875A1A494762",
+      tasks: [
+        {
+          id: "0B79080463C860ED",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:bee_queen/dedicated_trade_tags/modded/utilitarian_soliciting_carpets))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53DDDA79FB756C15",
+          type: "item",
+          item: {
+            id: "minecraft:emerald",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:dark_oak_sapling",
+        count: 1,
+      },
+      x: 12.5,
+      y: -4.0,
+      shape: "octagon",
+      id: "580148D1141446A6",
+      tasks: [
+        {
+          id: "3DBE6E5DFF071416",
+          type: "biome",
+          biome: "minecraft:dark_forest",
+        },
+      ],
+      rewards: [
+        {
+          id: "2000157DD30832D1",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:edelwood_log",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 15.600000000000001,
+      y: -5.2,
+      shape: "rsquare",
+      dependencies: [
+        "692183ACBB2AABF7",
+      ],
+      size: 1.3,
+      id: "22F5F931D38E5187",
+      tasks: [
+        {
+          id: "2F2D1A502F1FD601",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:crimson_stone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D0D20371483062E",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:mundabitur_dust",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 17.5,
+      y: -5.5,
+      shape: "octagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "092BB595F75D5536",
+      ],
+      hide_until_deps_complete: true,
+      size: 2.0,
+      id: "692183ACBB2AABF7",
+      tasks: [
+        {
+          id: "14E43D7B404B8AD4",
+          type: "dimension",
+          dimension: "minecraft:overworld",
+        },
+      ],
+    },
+    {
+      x: 33.5,
+      y: -4.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "15849165CA8C00F9",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.3,
+      id: "3DF1435A15515DA9",
+      tasks: [
+        {
+          id: "483CE85A24790D59",
+          type: "item",
+          item: {
+            id: "justdirethings:blockbreakert2",
+            count: 1,
+          },
+        },
+        {
+          id: "7186C02D092E441D",
+          type: "item",
+          item: {
+            id: "justdirethings:blockplacert2",
+            count: 1,
+          },
+        },
+        {
+          id: "5FAA1C6E7BFEE271",
+          type: "item",
+          item: {
+            id: "justdirethings:clickert2",
+            count: 1,
+          },
+        },
+        {
+          id: "7F8A853B386AB2F2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "forbidden_arcanus:soul_extractor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3DD67371C0B80B51",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:eternal_stella",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 31.5,
+      y: 2.5,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "15849165CA8C00F9",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "3227846235A60B58",
+      tasks: [
+        {
+          id: "09EB713B3DFC147C",
+          type: "item",
+          item: {
+            id: "minecraft:spawner",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32C5DA8D2FFED957",
+          type: "item",
+          item: {
+            id: "minecraft:chorus_fruit",
+            count: 1,
+          },
+        },
+        {
+          id: "503C51D576EBB097",
+          type: "item",
+          item: {
+            id: "minecraft:clock",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "22FC3842D2E72981",
+          type: "item",
+          item: {
+            id: "minecraft:sugar",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 33.5,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "3227846235A60B58",
+      ],
+      size: 1.3,
+      id: "3C5A5432E6B1EF9E",
+      tasks: [
+        {
+          id: "5E798DAD9D07FD3C",
+          type: "item",
+          item: {
+            id: "evilcraft:spiked_plate",
+            count: 1,
+          },
+        },
+        {
+          id: "20C0F821D7BFE975",
+          type: "item",
+          item: {
+            id: "evilcraft:sanguinary_pedestal_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41E402E2F1F009DA",
+          type: "item",
+          item: {
+            id: "evilcraft:spiked_plate",
+            count: 1,
+          },
+        },
+        {
+          id: "7690E53BA1502C24",
+          type: "item",
+          item: {
+            id: "evilcraft:sanguinary_pedestal_1",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:cauldron",
+        count: 1,
+      },
+      x: 31.5,
+      y: -3.75,
+      shape: "hexagon",
+      dependencies: [
+        "00F2C4A528873A6B",
+      ],
+      hide_until_deps_visible: true,
+      size: 1.5,
+      id: "798B592E956AD28C",
+      tasks: [
+        {
+          id: "6AEEE6865507F52C",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:rune_block",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "10D7E6CF923C209B",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:quantum_injector",
+            count: 1,
+          },
+        },
+        {
+          id: "4559773DB06CEDD6",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_crystal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "408B0D55BCF10C19",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_polished_darkstone_pillar",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "57350D94298AF86F",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_polished_darkstone",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "48768AB29200654C",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:polished_darkstone_stairs",
+            count: 1,
+          },
+          count: 19,
+        },
+        {
+          id: "34840B304F06B134",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:gilded_chiseled_polished_darkstone",
+            count: 1,
+          },
+        },
+        {
+          id: "0845E29E22AED37B",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:polished_darkstone",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "01D16EA4A29E7C91",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:runic_crucible",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64185222FE064D1A",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:soul",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "418F99DCD844B4AF",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:arcane_crystal_dust",
+            count: 1,
+          },
+          count: 20,
+        },
+      ],
+    },
+    {
+      x: 29.5,
+      y: -4.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "15849165CA8C00F9",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.3,
+      id: "12256A90B1CE3F90",
+      tasks: [
+        {
+          id: "787280D3C1229DA5",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:arcane_crystal",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "63FB86D6A09DCEA2",
+          type: "item",
+          item: {
+            id: "productivebees:spawn_egg_configurable_bee",
+            count: 1,
+            components: {
+              "minecraft:entity_data": {
+                id: "productivebees:configurable_bee",
+                type: "productivebees:arcane_crystal",
+              },
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 29.5,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "3227846235A60B58",
+      ],
+      size: 1.3,
+      id: "0C25F73C0E0FB22A",
+      tasks: [
+        {
+          id: "7D5D7AC5C7F9C956",
+          type: "item",
+          item: {
+            id: "justdirethings:experienceholder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F97252825A68AC4",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 29.0,
+      y: -2.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "15849165CA8C00F9",
+      ],
+      hide_until_deps_complete: true,
+      id: "0BCC79C1D002F532",
+      tasks: [
+        {
+          id: "768E5111A892E9C6",
+          type: "item",
+          item: {
+            id: "cookingforblockheads:sink",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05E813320EB3B10B",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_importer_fluid",
+            count: 1,
+          },
+        },
+        {
+          id: "60A5994CCAE48A62",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_interface_fluid",
+            count: 1,
+          },
+        },
+        {
+          id: "68143020E5192D56",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 34.0,
+      y: -2.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "15849165CA8C00F9",
+      ],
+      hide_until_deps_complete: true,
+      id: "1D94F59F13667DCF",
+      tasks: [
+        {
+          id: "371B4ABC3A7608F5",
+          type: "item",
+          item: {
+            id: "productivetrees:soul_tree_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57625CDFA5E3E6EB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "industrialforegoing:fluid_extractor",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 32.5,
+      y: -2.5,
+      dependencies: [
+        "1D94F59F13667DCF",
+        "3DF1435A15515DA9",
+        "798B592E956AD28C",
+      ],
+      hide_until_deps_visible: true,
+      size: 1.3,
+      id: "0DC0E236C8213050",
+      tasks: [
+        {
+          id: "05535B8C94E70C5F",
+          type: "item",
+          item: {
+            id: "kubejs:liquid_souls_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "700180CD975AFD38",
+          type: "item",
+          item: {
+            id: "kubejs:liquid_souls_bucket",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 30.5,
+      y: -2.5,
+      dependencies: [
+        "798B592E956AD28C",
+        "12256A90B1CE3F90",
+        "0BCC79C1D002F532",
+      ],
+      hide_until_deps_visible: true,
+      size: 1.3,
+      id: "67258590FA14BE44",
+      tasks: [
+        {
+          id: "181E5AEEFBB79CBD",
+          type: "item",
+          item: {
+            id: "kubejs:liquid_aureal_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27C6BCF98F13A5D7",
+          type: "item",
+          item: {
+            id: "kubejs:liquid_aureal_bucket",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 32.5,
+      y: 0.5,
+      dependencies: [
+        "3C5A5432E6B1EF9E",
+      ],
+      hide_until_deps_visible: true,
+      size: 1.3,
+      id: "0447551EF7FB171B",
+      tasks: [
+        {
+          id: "334111AC1B4E07FB",
+          type: "item",
+          item: {
+            id: "evilcraft:bucket_blood",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4845CAB57EA0D693",
+          type: "item",
+          item: {
+            id: "evilcraft:bucket_blood",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 30.5,
+      y: 0.5,
+      dependencies: [
+        "0C25F73C0E0FB22A",
+      ],
+      hide_until_deps_visible: true,
+      size: 1.3,
+      id: "4E014B495668A601",
+      tasks: [
+        {
+          id: "3B22A6E895A1BE70",
+          type: "item",
+          item: {
+            id: "justdirethings:xp_fluid_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "664EE6EA31620135",
+          type: "item",
+          item: {
+            id: "justdirethings:xp_fluid_bucket",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 31.5,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "15849165CA8C00F9",
+        "4E014B495668A601",
+        "67258590FA14BE44",
+        "0DC0E236C8213050",
+        "0447551EF7FB171B",
+      ],
+      hide_until_deps_visible: true,
+      size: 2.0,
+      id: "0D61473D7A09CD48",
+      tasks: [
+        {
+          id: "0912CAC19BBA29D1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:auto_forge",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04FDBB71CF4A7948",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 34.5,
+      y: -1.0,
+      shape: "gear",
+      dependencies: [
+        "0D61473D7A09CD48",
+      ],
+      size: 1.3,
+      id: "3B5DEB942752B3BF",
+      tasks: [
+        {
+          id: "0D1806A422DCCE39",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(forbidden_arcanus:corrupted_arcane_crystal)item(modern_industrialization:turbo_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6AD7085528178C32",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:advanced_upgrade",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "79E1FB97671560EF",
+          type: "item",
+          item: {
+            id: "enderio:sentient_ender",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 31.5,
+      y: -5.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "15849165CA8C00F9",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.3,
+      id: "00F2C4A528873A6B",
+      tasks: [
+        {
+          id: "637F0048D3CAD8B4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "starbunclemania:source_condenser",
+            },
+          },
+        },
+        {
+          id: "3C7296E2E064C061",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "sauce:source_fluid_bucket",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59E9F7821DE7F56B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "sauce:source_fluid_bucket",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 11.0,
+      y: -5.0,
+      width: 2.34375,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_title_tier1.png",
+      id: "6CE923A420EF6F24",
+    },
+    {
+      x: 16.0,
+      y: -2.5,
+      width: 2.5875000000000004,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_title_tier2.png",
+      id: "194B4E15981A24D2",
+    },
+    {
+      x: 19.0,
+      y: -2.5,
+      width: 2.60625,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_title_tier3.png",
+      id: "025E359CCC5C0559",
+    },
+    {
+      x: 22.0,
+      y: -2.5,
+      width: 2.5875000000000004,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_title_tier4.png",
+      id: "2DEECE48EEB8F999",
+    },
+    {
+      x: 25.0,
+      y: -2.5,
+      width: 2.578125,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_title_tier5.png",
+      id: "4709448F6143129B",
+    },
+    {
+      x: 8.0,
+      y: 1.5,
+      width: 4.168539325842697,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_title_clibano.png",
+      id: "16D1DE175CB83A97",
+    },
+    {
+      x: 17.5,
+      y: -7.0,
+      width: 3.6707317073170733,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_title_relics.png",
+      dependency: "692183ACBB2AABF7",
+      id: "12A94EA949E18382",
+    },
+    {
+      x: 1.0,
+      y: -1.0,
+      width: 10.98876404494382,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/forbidden/forbidden_title.png",
+      id: "33A5E277D0ACFC69",
+    },
+    {
+      x: 16.0,
+      y: -0.5,
+      width: 4.139650872817955,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_tier1.png",
+      id: "3FD7BDAE03FD390B",
+    },
+    {
+      x: 19.0,
+      y: -0.5,
+      width: 4.095011876484561,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_tier2.png",
+      id: "0A7B5F40838701B2",
+    },
+    {
+      x: 11.0,
+      y: -0.5,
+      width: 4.952038369304556,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_tier3.png",
+      id: "0CFA61C9B1DA484D",
+    },
+    {
+      x: 25.0,
+      y: -0.5,
+      width: 4.0771084337349395,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_tier4.png",
+      id: "6D74F342D8EE83B3",
+    },
+    {
+      x: 22.0,
+      y: -0.5,
+      width: 4.12621359223301,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_tier5.png",
+      id: "69BCA825475FF2FB",
+    },
+    {
+      x: 17.5,
+      y: -5.0,
+      width: 4.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "forbidden_arcanus:item/enhancer/elementarium",
+      dependency: "692183ACBB2AABF7",
+      id: "0B0E3C8F39FAF772",
+    },
+    {
+      x: 8.0,
+      y: 3.5,
+      width: 3.133037694013304,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_clibano4.png",
+      id: "4493727E7EC284E3",
+    },
+    {
+      x: 12.0,
+      y: 3.0,
+      width: 3.3306451612903225,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_blackhole.png",
+      id: "15AC26006B17EB5A",
+    },
+    {
+      x: 31.5,
+      y: -7.0,
+      width: 9.547619047619047,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_automatic.png",
+      dependency: "15849165CA8C00F9",
+      id: "6137A5E0625F6F4E",
+    },
+    {
+      x: 31.5,
+      y: -1.0,
+      width: 6.697674418604651,
+      height: 6.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/chap3/creative_forge4.png",
+      dependency: "15849165CA8C00F9",
+      id: "45822073D78D43A0",
+    },
+    {
+      x: 27.5,
+      y: -2.5,
+      width: 1.9330708661417322,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_sink.png",
+      dependency: "15849165CA8C00F9",
+      id: "5F81BBE90DADECBC",
+    },
+    {
+      x: 36.0,
+      y: -2.5,
+      width: 3.4841121495327103,
+      height: 4.0,
+      rotation: 5.0,
+      image: "atm:textures/questpics/forbidden/forbidden_tree.png",
+      dependency: "15849165CA8C00F9",
+      id: "5F9E5438544550D0",
+    },
+    {
+      x: 35.0,
+      y: 2.0,
+      width: 1.9162995594713657,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_pedestal.png",
+      dependency: "15849165CA8C00F9",
+      id: "234F8081C29E6CE2",
+    },
+    {
+      x: 28.0,
+      y: 2.0,
+      width: 1.7149425287356321,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_holder.png",
+      dependency: "15849165CA8C00F9",
+      id: "13F57E4EA7D31757",
+    },
+    {
+      x: 31.464285714285708,
+      y: -6.160714285714295,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/forbidden/forbidden_condenser.png",
+      dependency: "15849165CA8C00F9",
+      id: "27878C2BA151351C",
+    },
+  ],
+}

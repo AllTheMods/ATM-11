@@ -1,0 +1,292 @@
+{
+  id: "1AE4A39086CA5564",
+  order_index: 31,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "7DF5C3C849093542",
+      item: {
+        id: "mysticalagriculture:imperium_farmland",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4FF1780E04BE861B",
+      item: {
+        id: "mysticalagriculture:nickel_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "6E7E686DCA75750C",
+      item: {
+        id: "mysticalagriculture:uranium_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "6140D53216C784A0",
+      item: {
+        id: "mysticalagriculture:soulium_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "1E0B85074808E0A7",
+      item: {
+        id: "mysticalagriculture:lapis_lazuli_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "62FC4F6746A90246",
+      item: {
+        id: "mysticalagriculture:gold_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "666650A3A23E8425",
+      item: {
+        id: "mysticalagriculture:end_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "3D7212ECF7BE14FB",
+      item: {
+        id: "mysticalagriculture:electrum_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "5520EFED4DC3BAC2",
+      item: {
+        id: "mysticalagriculture:constantan_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "51D2E7481CC95B1D",
+      item: {
+        id: "mysticalagriculture:compressed_iron_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "12A92D4B45659216",
+      item: {
+        id: "mysticalagriculture:invar_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "36DD53B7EEE2C54D",
+      item: {
+        id: "mysticalagriculture:osmium_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "2EEC4A2576C5434A",
+      item: {
+        id: "mysticalagriculture:fluix_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "36ED2790C5FFF11B",
+      item: {
+        id: "mysticalagriculture:refined_obsidian_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "0BD5BD23A7F7ED44",
+      item: {
+        id: "mysticalagriculture:refined_glowstone_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "75075950A03A481E",
+      item: {
+        id: "mysticalagriculture:peridot_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "36415C435B44331F",
+      item: {
+        id: "mysticalagriculture:ruby_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "0600E0E172AE5E56",
+      item: {
+        id: "mysticalagriculture:sapphire_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "75F666387578ABBF",
+      item: {
+        id: "mysticalagriculture:fluorite_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "7130004E299E668C",
+      item: {
+        id: "mysticalagriculture:energized_steel_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "710008D40312DFE5",
+      item: {
+        id: "mysticalagriculture:blazing_crystal_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "220AB37940AFAF8F",
+      item: {
+        id: "mysticalagriculture:enderman_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "519DFE00F86B0366",
+      item: {
+        id: "mysticalagriculture:blaze_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "4D6A0386766CEE9A",
+      item: {
+        id: "mysticalagriculture:ghast_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "0F480EDDD3EE9E2B",
+      item: {
+        id: "mysticalagriculture:breeze_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "1DC15DF7C08BA4B8",
+      item: {
+        id: "mysticalagriculture:experience_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "6F8BF993F6BE48F7",
+      item: {
+        id: "mysticalagradditions:imperium_coal",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 3.0,
+    },
+    {
+      id: "1AC4C41C20E4EB48",
+      item: {
+        id: "mysticalagradditions:imperium_apple",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7C6E8611DDCDCF46",
+      item: {
+        id: "mysticalagriculture:imperium_ingot",
+        count: 1,
+      },
+      weight: 2.5,
+    },
+    {
+      id: "08E54BCA5192F35F",
+      item: {
+        id: "mysticalagriculture:imperium_gemstone",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "52EBD075C124119A",
+      item: {
+        id: "mysticalagriculture:imperium_essence",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 5.0,
+    },
+    {
+      id: "6A54A9757ED80FA8",
+      item: {
+        id: "mysticalagriculture:imperium_block",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "5E72FAE57BED61E1",
+      item: {
+        id: "mysticalagriculture:hop_graphite_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "730EAC5B743F8F4F",
+      item: {
+        id: "mysticalagriculture:dark_steel_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "211A632DEF33C51E",
+      item: {
+        id: "mysticalagriculture:energetic_alloy_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "525CD6F4CE36503D",
+      item: {
+        id: "mysticalagriculture:fiery_ingot_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "485E1A21D954A6E3",
+      item: {
+        id: "mysticalagriculture:soularium_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "1D08ABD695691522",
+      item: {
+        id: "mysticalagriculture:pulsating_alloy_seeds",
+        count: 1,
+      },
+    },
+    {
+      id: "69D0E41FAF7E30A7",
+      item: {
+        id: "mysticalagriculture:knightmetal_seeds",
+        count: 1,
+      },
+    },
+  ],
+}

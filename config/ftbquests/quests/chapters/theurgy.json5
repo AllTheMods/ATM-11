@@ -1,0 +1,1523 @@
+{
+  id: "007B547630FF0478",
+  group: "02FE661031A105D8",
+  order_index: 7,
+  icon: {
+    id: "theurgy:alchemical_sulfur_sulfur",
+    count: 1,
+  },
+  filename: "theurgy",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      x: 4.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "0542FE108089A0A2",
+      ],
+      size: 1.2,
+      id: "02593CD4B4AE814C",
+      tasks: [
+        {
+          id: "2BC2C407C46E8F62",
+          type: "item",
+          item: {
+            id: "theurgy:calcination_oven",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0153AFF5A808EC1D",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 2.5,
+      shape: "rsquare",
+      dependencies: [
+        "02593CD4B4AE814C",
+      ],
+      size: 1.1,
+      id: "0830195863384CF0",
+      tasks: [
+        {
+          id: "5FA078DDD229500E",
+          type: "item",
+          item: {
+            id: "theurgy:alchemical_salt_strata",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "041AB43BE6F1DB65",
+          type: "item",
+          item: {
+            id: "theurgy:alchemical_salt_strata",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "02593CD4B4AE814C",
+      ],
+      size: 1.1,
+      id: "616364E6AE05C341",
+      tasks: [
+        {
+          id: "5716B33F6FC83094",
+          type: "item",
+          item: {
+            id: "theurgy:alchemical_salt_mineral",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "48FCFF8CEE291DA6",
+          type: "item",
+          item: {
+            id: "theurgy:alchemical_salt_mineral",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 0.5,
+      shape: "rsquare",
+      dependencies: [
+        "02593CD4B4AE814C",
+      ],
+      hide_until_deps_complete: false,
+      size: 1.1,
+      id: "26B462F2F41A77C7",
+      tasks: [
+        {
+          id: "0836C787FDF7899A",
+          type: "item",
+          item: {
+            id: "theurgy:alchemical_salt_plant",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "528078DAFEC09D8F",
+          type: "item",
+          item: {
+            id: "theurgy:alchemical_salt_plant",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -0.5,
+      shape: "rsquare",
+      dependencies: [
+        "02593CD4B4AE814C",
+      ],
+      size: 1.1,
+      id: "7A271F425C3934CE",
+      tasks: [
+        {
+          id: "2E2BC1EA3F25F479",
+          type: "item",
+          item: {
+            id: "theurgy:alchemical_salt_creature",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "141B33D137464BD7",
+          type: "item",
+          item: {
+            id: "theurgy:alchemical_salt_creature",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "theurgy:sal_ammoniac_accumulator",
+        count: 1,
+      },
+      x: 0.0,
+      y: 8.0,
+      shape: "hexagon",
+      dependencies: [
+        "76F675A898EAB4E8",
+        "45996B848792379E",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.1,
+      icon_scale: 1.3,
+      id: "285B3FB38B12F8CA",
+      tasks: [
+        {
+          id: "7B04A7294C4A52CB",
+          type: "item",
+          item: {
+            id: "theurgy:sal_ammoniac_accumulator",
+            count: 1,
+          },
+        },
+        {
+          id: "5D2C2ABDDE9F77AF",
+          type: "item",
+          item: {
+            id: "theurgy:sal_ammoniac_tank",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32EC13A56AC230B7",
+          type: "item",
+          item: {
+            id: "theurgy:sal_ammoniac_crystal",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 9.0,
+      shape: "rsquare",
+      id: "45996B848792379E",
+      tasks: [
+        {
+          id: "1476F390A6789572",
+          type: "item",
+          item: {
+            id: "theurgy:sal_ammoniac_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08E663CBC638D862",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 9.0,
+      id: "76F675A898EAB4E8",
+      tasks: [
+        {
+          id: "0A2949304DBB3D75",
+          type: "item",
+          item: {
+            id: "minecraft:water_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "521AFCFE3F8C0B95",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 7.0,
+      shape: "hexagon",
+      dependencies: [
+        "285B3FB38B12F8CA",
+      ],
+      size: 1.1,
+      id: "6CAD27627A3F8FD7",
+      tasks: [
+        {
+          id: "5237BBFCDD3B7777",
+          type: "item",
+          item: {
+            id: "theurgy:liquefaction_cauldron",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44A520B3E33E6CF8",
+          type: "item",
+          item: {
+            id: "theurgy:alchemical_sulfur_sal_ammoniac",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:campfire",
+        count: 1,
+      },
+      x: 6.0,
+      y: 1.0,
+      shape: "square",
+      icon_scale: 1.5,
+      id: "19A2016B54C6FA34",
+      tasks: [
+        {
+          id: "3489080F5FDE8B1B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "55B6A322CAAF47E0",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "19A2016B54C6FA34",
+      ],
+      id: "0EADCEA9AB001FC7",
+      tasks: [
+        {
+          id: "6B5FBCE040473F6D",
+          type: "item",
+          item: {
+            id: "theurgy:pyromantic_brazier",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B8C5F0716A14FB0",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "19A2016B54C6FA34",
+      ],
+      id: "0854AD352218E1C3",
+      tasks: [
+        {
+          id: "527A1DEF45B98C1A",
+          type: "item",
+          item: {
+            id: "theurgy:caloric_flux_emitter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EAB0A0E8CEA2A93",
+          type: "item",
+          item: {
+            id: "theurgy:mercury_shard",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "0542FE108089A0A2",
+      ],
+      id: "36926B5EBFF6E55A",
+      tasks: [
+        {
+          id: "5EEBA7D3E0509495",
+          type: "item",
+          item: {
+            id: "theurgy:distiller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3DC18770E98DCB85",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 2.5,
+      shape: "rsquare",
+      dependencies: [
+        "36926B5EBFF6E55A",
+      ],
+      size: 1.2,
+      id: "5844DD2BEE5EC3DC",
+      tasks: [
+        {
+          id: "7F9D6D178F0C221B",
+          type: "item",
+          item: {
+            id: "theurgy:mercury_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "49D4E9DED8ABE67E",
+          type: "item",
+          item: {
+            id: "theurgy:mercury_crystal",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:divination_rod",
+        count: 1,
+      },
+      x: -6.5,
+      y: -2.0,
+      shape: "octagon",
+      size: 1.3,
+      id: "0460DDEEFDEB0AAF",
+      tasks: [
+        {
+          id: "3ABECD22D09DEEFB",
+          type: "item",
+          item: {
+            id: "minecraft:stick",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F9A3E2F866320C0",
+          type: "item",
+          item: {
+            id: "minecraft:glass",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "theurgy:alchemical_sulfur_sulfur",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      hide_dependent_lines: true,
+      size: 3.0,
+      id: "0542FE108089A0A2",
+      tasks: [
+        {
+          id: "7CB9C080F0597A4D",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60C5AF9A89C97164",
+          type: "item",
+          item: {
+            id: "minecraft:copper_block",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 2.5,
+      shape: "octagon",
+      dependencies: [
+        "0F7BB4ECCA5C082C",
+        "6A8E748B642DD16F",
+        "06AD25DB96F3A1CC",
+      ],
+      size: 1.65,
+      icon_scale: 1.2,
+      id: "2B29E9AB9447E1C6",
+      tasks: [
+        {
+          id: "0EE1803A83EC23CD",
+          type: "item",
+          item: {
+            id: "theurgy:incubator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21D3EB1A785C7B7B",
+          type: "xp",
+          xp: 500,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "5844DD2BEE5EC3DC",
+      ],
+      size: 1.1,
+      id: "06AD25DB96F3A1CC",
+      tasks: [
+        {
+          id: "47EE33AC7DAB2A33",
+          type: "item",
+          item: {
+            id: "theurgy:incubator_mercury_vessel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "557CD7D0BB331B05",
+          type: "item",
+          item: {
+            id: "theurgy:mercury_shard",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "0830195863384CF0",
+        "616364E6AE05C341",
+        "7A271F425C3934CE",
+        "26B462F2F41A77C7",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.1,
+      id: "6A8E748B642DD16F",
+      tasks: [
+        {
+          id: "78E140B5E31E3E7F",
+          type: "item",
+          item: {
+            id: "theurgy:incubator_salt_vessel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "142AB07FADA1DBD7",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "61DA3D61D7103647",
+      ],
+      size: 1.1,
+      id: "0F7BB4ECCA5C082C",
+      tasks: [
+        {
+          id: "5CA4B1BF5C882EDC",
+          type: "item",
+          item: {
+            id: "theurgy:incubator_sulfur_vessel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3FF8578CBAFFC97E",
+          type: "item",
+          item: {
+            id: "theurgy:sal_ammoniac_crystal",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 5.25,
+      shape: "diamond",
+      dependencies: [
+        "61DA3D61D7103647",
+      ],
+      id: "161E7D934A21F849",
+      tasks: [
+        {
+          id: "69FBC5FC544D1709",
+          type: "item",
+          item: {
+            id: "theurgy:reformation_source_pedestal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5766DF085D507B6B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 5.75,
+      shape: "diamond",
+      dependencies: [
+        "161E7D934A21F849",
+      ],
+      id: "1A46A97A00A31C03",
+      tasks: [
+        {
+          id: "22BF9CA8F02A551B",
+          type: "item",
+          item: {
+            id: "theurgy:reformation_target_pedestal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DBE5F4DE43B1A4A",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 5.25,
+      shape: "diamond",
+      dependencies: [
+        "1A46A97A00A31C03",
+      ],
+      id: "72FADEAEE2DA03AF",
+      tasks: [
+        {
+          id: "27D247D6BE453057",
+          type: "item",
+          item: {
+            id: "theurgy:reformation_result_pedestal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2839098B15DDBF50",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 5.75,
+      shape: "diamond",
+      dependencies: [
+        "72FADEAEE2DA03AF",
+      ],
+      id: "3EB63AF53E70C931",
+      tasks: [
+        {
+          id: "5D83CDBA9378D861",
+          type: "item",
+          item: {
+            id: "theurgy:sulfuric_flux_emitter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68C21C4AED7D0FF7",
+          type: "item",
+          item: {
+            id: "theurgy:mercury_catalyst",
+            count: 1,
+          },
+        },
+        {
+          id: "667E5699C991DE91",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:stone_pickaxe",
+        count: 1,
+      },
+      x: -7.5,
+      y: -3.0,
+      shape: "square",
+      dependencies: [
+        "0460DDEEFDEB0AAF",
+      ],
+      id: "3C5734448FEC128B",
+      tasks: [
+        {
+          id: "253334249156C3DC",
+          type: "item",
+          item: {
+            id: "theurgy:divination_rod_t1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "686D9B06BDFB63D4",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ore",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_pickaxe",
+        count: 1,
+      },
+      x: -8.0,
+      y: -2.0,
+      shape: "square",
+      dependencies: [
+        "0460DDEEFDEB0AAF",
+      ],
+      id: "6C6F4EB5CBE2FBC2",
+      tasks: [
+        {
+          id: "5887A64B41485E2C",
+          type: "item",
+          item: {
+            id: "theurgy:divination_rod_t2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73E9681E6DEB4A7B",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ore",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond_pickaxe",
+        count: 1,
+      },
+      x: -8.0,
+      y: -1.0,
+      shape: "square",
+      dependencies: [
+        "0460DDEEFDEB0AAF",
+      ],
+      id: "457CAE66B0FA4CCF",
+      tasks: [
+        {
+          id: "79FE6D0CBF733979",
+          type: "item",
+          item: {
+            id: "theurgy:divination_rod_t3",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6316C86C084363C9",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_ore",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherite_pickaxe",
+        count: 1,
+      },
+      x: -7.0,
+      y: -0.5,
+      shape: "square",
+      dependencies: [
+        "0460DDEEFDEB0AAF",
+      ],
+      id: "4EE482B9D61B5933",
+      tasks: [
+        {
+          id: "0BD988BF5DDD1F1B",
+          type: "item",
+          item: {
+            id: "theurgy:divination_rod_t4",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "501FC2BBCA875EC8",
+          type: "item",
+          item: {
+            id: "minecraft:ancient_debris",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "5844DD2BEE5EC3DC",
+      ],
+      id: "1C829609915E0012",
+      tasks: [
+        {
+          id: "39AED32FAFECA15C",
+          type: "item",
+          item: {
+            id: "theurgy:mercury_catalyst",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62D23F8FA8761B1A",
+          type: "item",
+          item: {
+            id: "theurgy:mercury_crystal",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 5.5,
+      shape: "hexagon",
+      dependencies: [
+        "61DA3D61D7103647",
+      ],
+      size: 1.2,
+      id: "730F2D3329C4FF88",
+      tasks: [
+        {
+          id: "4AF4960FB868A622",
+          type: "item",
+          item: {
+            id: "theurgy:fermentation_vat",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03DB3163160469C7",
+          type: "item",
+          item: {
+            id: "minecraft:sugar",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 5.5,
+      shape: "hexagon",
+      dependencies: [
+        "730F2D3329C4FF88",
+      ],
+      size: 1.2,
+      id: "3B6F723B03C4BF55",
+      tasks: [
+        {
+          id: "589B1CE20E12F4F4",
+          type: "item",
+          item: {
+            id: "theurgy:digestion_vat",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "333E67C56A189878",
+          type: "item",
+          item: {
+            id: "theurgy:purified_gold",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 2.5,
+      shape: "pentagon",
+      dependencies: [
+        "5844DD2BEE5EC3DC",
+      ],
+      size: 1.5,
+      id: "16B88F46021E956D",
+      tasks: [
+        {
+          id: "0A7473CC9CC267D4",
+          type: "item",
+          item: {
+            id: "theurgy:copper_wire",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "401ECAF07F504C82",
+          type: "item",
+          item: {
+            id: "theurgy:mercury_crystal",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "16B88F46021E956D",
+      ],
+      icon_scale: 1.5,
+      id: "49D1B01E07ABA471",
+      tasks: [
+        {
+          id: "7F0A96FDE6F1B7BF",
+          type: "item",
+          item: {
+            id: "theurgy:logistics_item_inserter",
+            count: 1,
+          },
+        },
+        {
+          id: "51F480E9E04FB66D",
+          type: "item",
+          item: {
+            id: "theurgy:logistics_item_extractor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64D94AA85171575A",
+          type: "item",
+          item: {
+            id: "theurgy:logistics_item_inserter",
+            count: 1,
+          },
+        },
+        {
+          id: "45430A6D8ADFD010",
+          type: "item",
+          item: {
+            id: "theurgy:logistics_item_extractor",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "16B88F46021E956D",
+      ],
+      icon_scale: 1.5,
+      id: "20C3AADEE2D4800D",
+      tasks: [
+        {
+          id: "05EDAFAD74D3049D",
+          type: "item",
+          item: {
+            id: "theurgy:logistics_fluid_inserter",
+            count: 1,
+          },
+        },
+        {
+          id: "03833E74C0A40105",
+          type: "item",
+          item: {
+            id: "theurgy:logistics_fluid_extractor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1D7BDAD7495B26E1",
+          type: "item",
+          item: {
+            id: "theurgy:logistics_fluid_inserter",
+            count: 1,
+          },
+        },
+        {
+          id: "4F624A18055FBC89",
+          type: "item",
+          item: {
+            id: "theurgy:logistics_fluid_extractor",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "16B88F46021E956D",
+      ],
+      size: 1.1,
+      icon_scale: 1.5,
+      id: "48EE6C807C1668D4",
+      tasks: [
+        {
+          id: "50B0B7E05A78A13C",
+          type: "item",
+          item: {
+            id: "theurgy:logistics_connector_node",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45FA3984768955B6",
+          type: "item",
+          item: {
+            id: "theurgy:copper_wire",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 4.0,
+      shape: "rsquare",
+      dependencies: [
+        "16B88F46021E956D",
+      ],
+      id: "54F0C5C48CFC94D0",
+      tasks: [
+        {
+          id: "6C02F5CFD17D6D76",
+          type: "item",
+          item: {
+            id: "theurgy:list_filter",
+            count: 1,
+          },
+        },
+        {
+          id: "45CE75713CBD3391",
+          type: "item",
+          item: {
+            id: "theurgy:attribute_filter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "315782FCEC0E65F1",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 4.0,
+      dependencies: [
+        "16B88F46021E956D",
+      ],
+      id: "393DA9C9D808A851",
+      tasks: [
+        {
+          id: "1E51F24F7C683E0D",
+          type: "item",
+          item: {
+            id: "theurgy:mercurial_wand",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6FF1960DD55728F7",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 5.5,
+      dependencies: [
+        "730F2D3329C4FF88",
+      ],
+      optional: true,
+      id: "55E321EFBE8956DE",
+      tasks: [
+        {
+          id: "43A4DA9DC1BF66F1",
+          type: "item",
+          item: {
+            id: "theurgy:fermentation_starter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2BB87EED51D08A4E",
+          type: "item",
+          item: {
+            id: "theurgy:fermentation_starter",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:copper_ingot",
+        count: 1,
+      },
+      x: -5.5,
+      y: -3.0,
+      shape: "square",
+      dependencies: [
+        "0460DDEEFDEB0AAF",
+      ],
+      id: "7198ED7E97A256A4",
+      tasks: [
+        {
+          id: "171462C8083334F7",
+          type: "item",
+          item: {
+            id: "theurgy:sulfur_attuned_divination_rod_abundant",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11BF5FA50BB88F79",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_ingot",
+        count: 1,
+      },
+      x: -5.0,
+      y: -2.0,
+      shape: "square",
+      dependencies: [
+        "0460DDEEFDEB0AAF",
+      ],
+      id: "2F0D6267569F740B",
+      tasks: [
+        {
+          id: "5CFBC24AE8ACF3DA",
+          type: "item",
+          item: {
+            id: "theurgy:sulfur_attuned_divination_rod_common",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5058E540BB8B4847",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:gold_ingot",
+        count: 1,
+      },
+      x: -5.0,
+      y: -1.0,
+      shape: "square",
+      dependencies: [
+        "0460DDEEFDEB0AAF",
+      ],
+      id: "7119F8C352D057BC",
+      tasks: [
+        {
+          id: "099712F18C66EAB1",
+          type: "item",
+          item: {
+            id: "theurgy:sulfur_attuned_divination_rod_rare",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0343094EEDF2E3E8",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond",
+        count: 1,
+      },
+      x: -6.0,
+      y: -0.5,
+      shape: "square",
+      dependencies: [
+        "0460DDEEFDEB0AAF",
+      ],
+      id: "7878F190BC8ADC82",
+      tasks: [
+        {
+          id: "6553CFFB1EAFA21E",
+          type: "item",
+          item: {
+            id: "theurgy:sulfur_attuned_divination_rod_precious",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23C6774C79909ECA",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:amethyst_cluster",
+        count: 1,
+      },
+      x: -6.5,
+      y: -3.5,
+      shape: "square",
+      dependencies: [
+        "0460DDEEFDEB0AAF",
+      ],
+      id: "7A1C117CA8FB7C31",
+      tasks: [
+        {
+          id: "49F4EF0FDF09FD5E",
+          type: "item",
+          item: {
+            id: "theurgy:amethyst_divination_rod",
+            count: 1,
+            components: {
+              "theurgy:divination_linked_block": "minecraft:budding_amethyst",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3CCC96E4A089FABA",
+          type: "item",
+          item: {
+            id: "minecraft:budding_amethyst",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 5.5,
+      shape: "rsquare",
+      dependencies: [
+        "6CAD27627A3F8FD7",
+      ],
+      size: 1.3,
+      icon_scale: 1.3,
+      id: "61DA3D61D7103647",
+      tasks: [
+        {
+          id: "76F6BC2EC054BD3C",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(theurgy:alchemical_sulfurs)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34CA3ECB70C56EB3",
+          type: "item",
+          item: {
+            id: "theurgy:sal_ammoniac_crystal",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -4.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "41ABC09C798CA8BE",
+      tasks: [
+        {
+          id: "6D9221A533926A7B",
+          type: "checkmark",
+        },
+        {
+          id: "339A5D32CC00D60C",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -2.5,
+      width: 8.717391304347826,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy.png",
+      id: "329C4B7D57D80728",
+    },
+    {
+      x: -2.5,
+      y: 11.0,
+      width: 2.0597014925373136,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy_sal_side.png",
+      id: "4C21BCC81A4005DF",
+    },
+    {
+      x: 0.0,
+      y: 11.0,
+      width: 1.8285714285714285,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy_lique.png",
+      id: "40CD93EE0AAD2CE9",
+    },
+    {
+      x: 3.0,
+      y: 11.0,
+      width: 3.329113924050633,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy_incubator.png",
+      id: "242B00D1E4B0C4E5",
+    },
+    {
+      x: 5.0,
+      y: 7.0,
+      width: 9.919642857142858,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy_reform_full.png",
+      id: "23E99252656930C4",
+    },
+    {
+      x: 6.0,
+      y: 3.5,
+      width: 2.128099173553719,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy_brazier.png",
+      id: "3B1F863000C79BB5",
+    },
+    {
+      x: -2.0,
+      y: 7.5,
+      width: 1.9858156028368794,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy_ferment.png",
+      id: "143D46FC5B3BC6EE",
+    },
+    {
+      x: -5.0,
+      y: 7.5,
+      width: 2.186813186813187,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy_digest.png",
+      id: "53475C5071CE7642",
+    },
+    {
+      x: 6.0,
+      y: -0.5,
+      width: 1.5678391959798994,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy_oven.png",
+      id: "6043168D361EAC82",
+    },
+    {
+      x: -3.0,
+      y: 0.0,
+      width: 1.91644908616188,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/theurgy/theurgy_mercuryflux.png",
+      id: "0DCE3C94EBB4B2EF",
+    },
+  ],
+}

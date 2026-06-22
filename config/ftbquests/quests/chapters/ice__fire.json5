@@ -1,0 +1,4407 @@
+{
+  id: "5D8E83698AEF1092",
+  group: "5A4775CCD6D26C80",
+  order_index: 4,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "iceandfire:dragon_skull_fire",
+    },
+  },
+  filename: "ice__fire",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "minecraft:mossy_stone_bricks",
+        count: 1,
+      },
+      x: 25.0,
+      y: -7.5,
+      shape: "octagon",
+      dependencies: [
+        "48B1BD7D86CAC4A0",
+      ],
+      id: "121DE9824813D558",
+      tasks: [
+        {
+          id: "5D8E5A7F92C88F44",
+          type: "structure",
+          structure: "iceandfire:gorgon_temple",
+        },
+      ],
+      rewards: [
+        {
+          id: "1171AAAC86DAAE14",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:blindfold",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:gorgon",
+        },
+      },
+      x: 25.0,
+      y: -6.0,
+      shape: "rsquare",
+      dependencies: [
+        "48B1BD7D86CAC4A0",
+      ],
+      size: 1.5,
+      id: "41C7DEAB41F4B700",
+      tasks: [
+        {
+          id: "38F3C03364C441E4",
+          type: "kill",
+          entity: "iceandfire:gorgon",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "40094E883287F615",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:gorgon_head",
+            },
+          },
+        },
+        {
+          id: "137DA6FDD6AC226A",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 24.5,
+      y: -4.5,
+      dependencies: [
+        "41C7DEAB41F4B700",
+      ],
+      id: "395417A7ABC3658F",
+      tasks: [
+        {
+          id: "1494733856F6E4A8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:gorgon_head",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "350381EE0DEFB2D4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:podium_spruce",
+            },
+          },
+        },
+        {
+          id: "5F815DCBD01892D5",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:gravel",
+        count: 1,
+      },
+      x: 22.5,
+      y: -10.0,
+      shape: "octagon",
+      dependencies: [
+        "48B1BD7D86CAC4A0",
+      ],
+      id: "136C40D8350651DC",
+      tasks: [
+        {
+          id: "285FF72E7A57C8FA",
+          type: "structure",
+          structure: "iceandfire:siren_island",
+        },
+      ],
+      rewards: [
+        {
+          id: "5AAE18C543D84F16",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:earplugs",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:siren",
+        },
+      },
+      x: 21.0,
+      y: -10.0,
+      shape: "rsquare",
+      dependencies: [
+        "48B1BD7D86CAC4A0",
+      ],
+      size: 1.5,
+      id: "1713E5D74658F095",
+      tasks: [
+        {
+          id: "4A5A8491B4195EF1",
+          type: "kill",
+          entity: "iceandfire:siren",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "3F1311F11555D9A5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:shiny_scales",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "0FE0F3AF71C47330",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -9.5,
+      shape: "diamond",
+      dependencies: [
+        "1713E5D74658F095",
+      ],
+      dependency_requirement: "one_completed",
+      id: "7D086BC5AC152E27",
+      tasks: [
+        {
+          id: "7D5A9EAB8115BEEE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:shiny_scales",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A4DC8D5B839FD63",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_flute",
+            },
+          },
+        },
+        {
+          id: "70EE34FFCD4B4BFF",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:water_bucket",
+        count: 1,
+      },
+      x: 41.0,
+      y: -3.5,
+      shape: "octagon",
+      id: "6ECB27052FCB874E",
+      rewards: [
+        {
+          id: "0D935234F9A13C00",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:water_breathing",
+              },
+            },
+          },
+        },
+        {
+          id: "5EAECB0D188553DE",
+          type: "item",
+          item: {
+            id: "minecraft:bamboo_raft",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:hippocampus",
+        },
+      },
+      x: 39.25,
+      y: -3.5,
+      shape: "rsquare",
+      dependencies: [
+        "6ECB27052FCB874E",
+      ],
+      size: 1.5,
+      id: "760864EE43FB33AC",
+      tasks: [
+        {
+          id: "5870EE53D7903B79",
+          type: "kill",
+          entity: "iceandfire:hippocampus",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "191C656121902C31",
+          type: "item",
+          item: {
+            id: "minecraft:kelp",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "2A65215739454463",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:shiny_scales",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "4B784FDE94515ED7",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:sea_serpent",
+        },
+      },
+      x: 43.0,
+      y: -3.5,
+      shape: "rsquare",
+      dependencies: [
+        "6ECB27052FCB874E",
+      ],
+      size: 1.5,
+      id: "74C648FC8733310B",
+      tasks: [
+        {
+          id: "5FCC313B7A243C14",
+          type: "advancement",
+          advancement: "iceandfire:iceandfire/kill_sea_serpent",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "417CAD892B7CDA58",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:sea_serpent_fang",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "7B0E687BC86BE89E",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 37.5,
+      y: -3.5,
+      dependencies: [
+        "760864EE43FB33AC",
+      ],
+      id: "41F9CC26C7D86AE9",
+      tasks: [
+        {
+          id: "61221620C0A33E76",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:hippocampus_slapper",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10512F1A1E8147F9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:podium_acacia",
+            },
+          },
+        },
+        {
+          id: "2A02748E9D34F3C7",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:skeleton_skull",
+        count: 1,
+      },
+      x: 27.5,
+      y: -18.5,
+      shape: "octagon",
+      dependencies: [
+        "02DEAB3F1198BFBE",
+      ],
+      id: "0FE94BE5ADB6E595",
+      tasks: [
+        {
+          id: "4CABDAEC3F3F1F11",
+          type: "structure",
+          structure: "iceandfire:hydra_cave",
+        },
+      ],
+      rewards: [
+        {
+          id: "130241B5638EE088",
+          type: "item",
+          item: {
+            id: "minecraft:skeleton_skull",
+            count: 1,
+          },
+        },
+        {
+          id: "71A0FC02F0AF30DE",
+          type: "item",
+          item: {
+            id: "minecraft:milk_bucket",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:hydra",
+        },
+      },
+      x: 27.5,
+      y: -20.0,
+      shape: "rsquare",
+      dependencies: [
+        "02DEAB3F1198BFBE",
+      ],
+      size: 1.5,
+      id: "05113AC92BC1B192",
+      tasks: [
+        {
+          id: "7C0E4ABB6C65209E",
+          type: "advancement",
+          advancement: "iceandfire:iceandfire/kill_hydra",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "20E7E1498DE46682",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "55992F4DA22296F6",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 27.0,
+      y: -21.5,
+      dependencies: [
+        "05113AC92BC1B192",
+      ],
+      id: "09ABD5D978373A54",
+      tasks: [
+        {
+          id: "28B0E1A879CD61B0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:hydra_heart",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27FDACA2782941DA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:hydra_skull",
+            },
+          },
+        },
+        {
+          id: "51145CC5AD6A7328",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 28.0,
+      y: -21.5,
+      dependencies: [
+        "05113AC92BC1B192",
+      ],
+      id: "65E98FCE27B552F4",
+      tasks: [
+        {
+          id: "05F354B18789BB1A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:hydra_arrow",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "0E40D54F879FBC55",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:hydra_arrow",
+            },
+          },
+          count: 12,
+        },
+        {
+          id: "21CCDAA6B49A8FD1",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:white_wool",
+        count: 1,
+      },
+      x: 32.5,
+      y: -14.5,
+      shape: "octagon",
+      dependencies: [
+        "10CA52D15EAB71A3",
+      ],
+      id: "435890CE1A1B3C04",
+      tasks: [
+        {
+          id: "3255658206244B26",
+          type: "structure",
+          structure: "iceandfire:cyclops_cave",
+        },
+      ],
+      rewards: [
+        {
+          id: "6350A44630AFC173",
+          type: "item",
+          item: {
+            id: "minecraft:wheat",
+            count: 1,
+          },
+          count: 9,
+        },
+        {
+          id: "6B52EB3D8CC0CC31",
+          type: "item",
+          item: {
+            id: "minecraft:lead",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:cyclops",
+        },
+      },
+      x: 34.0,
+      y: -15.0,
+      shape: "rsquare",
+      dependencies: [
+        "10CA52D15EAB71A3",
+      ],
+      size: 1.5,
+      id: "3C0671BE5E94730E",
+      tasks: [
+        {
+          id: "6EB647A53A11DE56",
+          type: "kill",
+          entity: "iceandfire:cyclops",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "2AD0763DDE8C3E77",
+          type: "item",
+          item: {
+            id: "minecraft:arrow",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "104B98FE45BA0BD5",
+          type: "item",
+          item: {
+            id: "minecraft:sheep_spawn_egg",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "187BD0E4F0CA775E",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 35.5,
+      y: -15.5,
+      dependencies: [
+        "3C0671BE5E94730E",
+      ],
+      id: "2A26CE0E88B62002",
+      tasks: [
+        {
+          id: "587B3F36D9262E76",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:cyclops_eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "784F4F143E369D7E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:cyclops_skull",
+            },
+          },
+        },
+        {
+          id: "7C7962252A452193",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:amphithere",
+        },
+      },
+      x: 34.0,
+      y: -10.0,
+      shape: "rsquare",
+      dependencies: [
+        "10CA52D15EAB71A3",
+      ],
+      size: 1.5,
+      id: "2D71532A99C167AA",
+      tasks: [
+        {
+          id: "08D02CC21A08D203",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:amphithere_feather",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C89CB730C922989",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:amphithere_feather",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "4E3404ABEA24DC16",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 45.0,
+      y: -3.5,
+      shape: "diamond",
+      dependencies: [
+        "74C648FC8733310B",
+      ],
+      id: "2B84A4377688B189",
+      tasks: [
+        {
+          id: "047744035FE7C4C6",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(iceandfire:scales/sea_serpent))",
+            },
+          },
+        },
+        {
+          id: "56EE83CE2BAF71DC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:sea_serpent_fang",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "067E8C8ACD72FBE6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonbone",
+            },
+          },
+        },
+        {
+          id: "7F047CC4A9741B6E",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+        },
+        {
+          id: "46560B92C82799C7",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "iceandfire:graveyard_soil",
+        },
+      },
+      x: 28.5,
+      y: -7.0,
+      shape: "octagon",
+      dependencies: [
+        "703790CCCE440946",
+      ],
+      id: "661114AFCBBD5F28",
+      tasks: [
+        {
+          id: "5B975D6E9F9CA297",
+          type: "structure",
+          structure: "iceandfire:graveyard",
+        },
+      ],
+      rewards: [
+        {
+          id: "75164A5CAE4C7D91",
+          type: "item",
+          item: {
+            id: "minecraft:wither_rose",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:ghost",
+        },
+      },
+      x: 27.5,
+      y: -5.0,
+      shape: "rsquare",
+      dependencies: [
+        "703790CCCE440946",
+      ],
+      size: 1.5,
+      id: "14CF23064A6035CD",
+      tasks: [
+        {
+          id: "51788617A8177A2E",
+          type: "advancement",
+          advancement: "iceandfire:iceandfire/kill_ghost",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "26DBB289D1B7521E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:ectoplasm",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "6FDD5372E7B47FCF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:ghost_chest",
+            },
+          },
+        },
+        {
+          id: "20804AD8D9374C3B",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 30.0,
+      y: -19.0,
+      shape: "rsquare",
+      dependencies: [
+        "10CA52D15EAB71A3",
+      ],
+      size: 1.5,
+      id: "4ED6B18DF7D51E13",
+      tasks: [
+        {
+          id: "2A3B3D5B7E30D978",
+          type: "advancement",
+          advancement: "iceandfire:iceandfire/kill_deathworm",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "23063A5D0B310E9F",
+          type: "item",
+          item: {
+            id: "minecraft:fishing_rod",
+            count: 1,
+          },
+        },
+        {
+          id: "526C3390005E1981",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "iceandfire:pixie_house_mushroom_red",
+        },
+      },
+      x: 22.5,
+      y: -14.5,
+      shape: "octagon",
+      dependencies: [
+        "59D91C5E11F67FC3",
+      ],
+      id: "5E45C9C2D72EDBCC",
+      tasks: [
+        {
+          id: "3F5CDB32322A8D04",
+          type: "structure",
+          structure: "iceandfire:pixie_village",
+        },
+      ],
+      rewards: [
+        {
+          id: "7DB05CF705D6F879",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:pixie_dust",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:pixie",
+        },
+      },
+      x: 21.0,
+      y: -15.0,
+      shape: "rsquare",
+      dependencies: [
+        "59D91C5E11F67FC3",
+      ],
+      size: 1.5,
+      id: "617C6D6C35B4917D",
+      tasks: [
+        {
+          id: "0F93AA0655EB66FB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:pixie_dust",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "634487BACBC1C819",
+          type: "item",
+          item: {
+            id: "minecraft:cake",
+            count: 1,
+          },
+        },
+        {
+          id: "781674DD249B05AE",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "iceandfire:textures/entity_icon/troll/troll_mountain.png",
+        },
+      },
+      x: 20.5,
+      y: -12.5,
+      shape: "rsquare",
+      dependencies: [
+        "59D91C5E11F67FC3",
+        "02DEAB3F1198BFBE",
+        "703790CCCE440946",
+      ],
+      size: 1.5,
+      id: "5D6A4E574823446F",
+      tasks: [
+        {
+          id: "4EF4052D397751EB",
+          type: "kill",
+          entity: "iceandfire:troll",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "07CBFEFB4DA85D89",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:troll_tusk",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "05F44D59FE0A97AA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:troll_weapon_axe",
+            },
+          },
+        },
+        {
+          id: "55770941ACFEA0C2",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 19.0,
+      y: -12.5,
+      shape: "diamond",
+      dependencies: [
+        "5D6A4E574823446F",
+      ],
+      id: "45084D3A3E5DB63B",
+      tasks: [
+        {
+          id: "4FDAD86E9BC70A05",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:troll_tusk",
+            },
+          },
+        },
+        {
+          id: "413E2B1199F7B2FE",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:troll_leather_forest)item(iceandfire:troll_leather_frost)item(iceandfire:troll_leather_mountain))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A8C58F86FEE3666",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:troll_tusk",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "4D4AEE963E881B57",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "iceandfire:chared_grass",
+        },
+      },
+      x: 25.0,
+      y: -38.0,
+      shape: "octagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "6800E0113DE9A4DB",
+        "59D91C5E11F67FC3",
+      ],
+      id: "7FA9EA93602A98EC",
+      tasks: [
+        {
+          id: "565B8C25FBA06F96",
+          type: "structure",
+          structure: "iceandfire:fire_dragon_roost",
+        },
+      ],
+      rewards: [
+        {
+          id: "3D22D7D6124B2FC4",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "2C27894C6B1B7D20",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_fire_resistance",
+              },
+            },
+          },
+        },
+        {
+          id: "4A701B5690DF9EF1",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "iceandfire:frozen_grass",
+        },
+      },
+      x: 27.5,
+      y: -37.5,
+      shape: "octagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "6800E0113DE9A4DB",
+        "02DEAB3F1198BFBE",
+      ],
+      id: "70AD5D79881EE1B5",
+      tasks: [
+        {
+          id: "7F104F1116B969DA",
+          type: "structure",
+          structure: "iceandfire:ice_dragon_roost",
+        },
+      ],
+      rewards: [
+        {
+          id: "402E5826EFBD7C04",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "6387A0F9A46CA8E0",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_swiftness",
+              },
+            },
+          },
+        },
+        {
+          id: "777ADC9832232888",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "iceandfire:crackled_grass",
+        },
+      },
+      x: 30.0,
+      y: -38.0,
+      shape: "octagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "6800E0113DE9A4DB",
+        "10CA52D15EAB71A3",
+      ],
+      id: "42626A0CD814353D",
+      tasks: [
+        {
+          id: "15F4F0FABA54C6AE",
+          type: "structure",
+          structure: "iceandfire:lightning_dragon_roost",
+        },
+      ],
+      rewards: [
+        {
+          id: "6A898D0464DD2A43",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "0707B4686771F2D3",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_strength",
+              },
+            },
+          },
+        },
+        {
+          id: "6406DAE229BD5026",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:raw_gold_block",
+        count: 1,
+      },
+      x: 25.0,
+      y: -40.5,
+      shape: "octagon",
+      dependencies: [
+        "6800E0113DE9A4DB",
+      ],
+      id: "43630EF0B85AE7E1",
+      tasks: [
+        {
+          id: "7A931B7C3BF01FC7",
+          type: "structure",
+          structure: "iceandfire:fire_dragon_cave",
+        },
+      ],
+      rewards: [
+        {
+          id: "063C07057F1324DC",
+          type: "item",
+          item: {
+            id: "minecraft:enchanted_golden_apple",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "1C35012D62927870",
+          type: "item",
+          item: {
+            id: "apotheosis:potion_charm",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:fire_resistance",
+              },
+            },
+          },
+        },
+        {
+          id: "2CB2A24520107ED9",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "alltheores:raw_silver_block",
+        count: 1,
+      },
+      x: 27.5,
+      y: -40.0,
+      shape: "octagon",
+      dependencies: [
+        "6800E0113DE9A4DB",
+      ],
+      id: "70099F9B69F9D055",
+      tasks: [
+        {
+          id: "48B38176DBF65168",
+          type: "structure",
+          structure: "iceandfire:ice_dragon_cave",
+        },
+      ],
+      rewards: [
+        {
+          id: "709655CA8BC5BF3F",
+          type: "item",
+          item: {
+            id: "minecraft:enchanted_golden_apple",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "45D8405B5C800953",
+          type: "item",
+          item: {
+            id: "apotheosis:potion_charm",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:swiftness",
+              },
+            },
+          },
+        },
+        {
+          id: "0769121CB755B39D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:raw_copper_block",
+        count: 1,
+      },
+      x: 30.0,
+      y: -40.5,
+      shape: "octagon",
+      dependencies: [
+        "6800E0113DE9A4DB",
+      ],
+      id: "1CB063BBEC35712B",
+      tasks: [
+        {
+          id: "5B3640F3D347CB3A",
+          type: "structure",
+          structure: "iceandfire:lightning_dragon_cave",
+        },
+      ],
+      rewards: [
+        {
+          id: "1E3EA1228CAC82DC",
+          type: "item",
+          item: {
+            id: "minecraft:enchanted_golden_apple",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "71FB3B438B85DC69",
+          type: "item",
+          item: {
+            id: "apotheosis:potion_charm",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:strength",
+              },
+            },
+          },
+        },
+        {
+          id: "48E008D2F1B16F36",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 25.0,
+      y: -39.0,
+      shape: "rsquare",
+      dependencies: [
+        "6800E0113DE9A4DB",
+      ],
+      size: 1.5,
+      id: "32992E3534B86521",
+      tasks: [
+        {
+          id: "4F3D1BF4E10770D2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(iceandfire:scales/dragon/fire))",
+            },
+          },
+        },
+        {
+          id: "54DE1FB742295FA9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:fire_dragon_blood",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23EE06D807DA5238",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:fire_dragon_heart",
+            },
+          },
+        },
+        {
+          id: "139B29EC0F12053A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:fire_dragon_blood",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "08F921FCFF8F73F0",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -38.5,
+      shape: "rsquare",
+      dependencies: [
+        "6800E0113DE9A4DB",
+      ],
+      size: 1.5,
+      id: "43922DB543DC05C0",
+      tasks: [
+        {
+          id: "0620A9784793301A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(iceandfire:scales/dragon/ice))",
+            },
+          },
+        },
+        {
+          id: "163D463630E6AD8D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:ice_dragon_blood",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3392A2868F6D4CB7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:ice_dragon_heart",
+            },
+          },
+        },
+        {
+          id: "7E15DBFFA59C6617",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:ice_dragon_blood",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "0DCF00EDADB5A4F4",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 30.0,
+      y: -39.0,
+      shape: "rsquare",
+      dependencies: [
+        "6800E0113DE9A4DB",
+      ],
+      size: 1.5,
+      id: "4B65720872B062F8",
+      tasks: [
+        {
+          id: "4BFCCD15D178ED0D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(iceandfire:scales/dragon/lightning))",
+            },
+          },
+        },
+        {
+          id: "7538AE48DD0CB96B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:lightning_dragon_blood",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FB7355AFFCF1181",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:lightning_dragon_heart",
+            },
+          },
+        },
+        {
+          id: "04ECBE0892A0CF1D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:lightning_dragon_blood",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "0572472B9638713E",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 25.0,
+      y: -41.5,
+      shape: "rsquare",
+      dependencies: [
+        "6800E0113DE9A4DB",
+      ],
+      size: 1.5,
+      id: "765CD913CC3896B2",
+      tasks: [
+        {
+          id: "73A02CA0F7204A81",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_red)item(iceandfire:dragonegg_green)item(iceandfire:dragonegg_bronze)item(iceandfire:dragonegg_gray))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A0C759085B87E3B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_red",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "5441EAE443B1806F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_green",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "044B626529F05B11",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_bronze",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "6B4BE884950F3241",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_gray",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "26AE1C878ED68EFC",
+          type: "xp_levels",
+          xp_levels: 20,
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -41.0,
+      shape: "rsquare",
+      dependencies: [
+        "6800E0113DE9A4DB",
+      ],
+      size: 1.5,
+      id: "0B3AC4E923332AC6",
+      tasks: [
+        {
+          id: "4703C2FA0B8E7CA5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_blue)item(iceandfire:dragonegg_white)item(iceandfire:dragonegg_sapphire)item(iceandfire:dragonegg_silver))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34DE03219C20BDC0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_blue",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "2E661BF4DF36AEDB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_white",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "4DFC6AF19776AB84",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_sapphire",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "117D10B5F3372A6E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_silver",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "70CDD1C27278A324",
+          type: "xp_levels",
+          xp_levels: 20,
+        },
+      ],
+    },
+    {
+      x: 30.0,
+      y: -41.5,
+      shape: "rsquare",
+      dependencies: [
+        "6800E0113DE9A4DB",
+      ],
+      size: 1.5,
+      id: "1042A0DC0A9321BB",
+      tasks: [
+        {
+          id: "721D4B2BCA090BEE",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_electric)item(iceandfire:dragonegg_amethyst)item(iceandfire:dragonegg_copper)item(iceandfire:dragonegg_black))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "330380BB76C70BF6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_electric",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "4BE5BFBB690B5014",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_amethyst",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "682192EA8E7BAB7D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_copper",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "7EE594E5702BA04D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonscale_black",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "56B670222267BAED",
+          type: "xp_levels",
+          xp_levels: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:stymphalian_bird",
+        },
+      },
+      x: 25.0,
+      y: -19.0,
+      shape: "rsquare",
+      dependencies: [
+        "02DEAB3F1198BFBE",
+      ],
+      size: 1.5,
+      id: "666FFDFDB7C869F5",
+      tasks: [
+        {
+          id: "2CA26752EEF201B1",
+          type: "advancement",
+          advancement: "iceandfire:iceandfire/kill_stymphalian_bird",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "3C8806480B9349E0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:stymphalian_bird_feather",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "67A09E7BA929CA33",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 24.0,
+      y: -45.0,
+      shape: "hexagon",
+      dependencies: [
+        "77793642678CB886",
+      ],
+      size: 1.25,
+      id: "176D31AF1B0925AA",
+      tasks: [
+        {
+          id: "0E9B4F4A00E26E63",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "6830A36E7241CC4A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonforge_fire_brick",
+            },
+          },
+          count: 17,
+        },
+        {
+          id: "7712FBE2D5F31D8E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonforge_fire_input",
+            },
+          },
+        },
+        {
+          id: "4B9CDCD867DA1114",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonforge_fire_core_disabled",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04DA3E5603F3A056",
+          type: "item",
+          item: {
+            id: "minecraft:iron_block",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "27A138AD4064173C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "4C9D3D863FCFBAAD",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -45.5,
+      shape: "hexagon",
+      dependencies: [
+        "2B2BB53FA86A07B7",
+      ],
+      size: 1.25,
+      id: "45068FB6758D3BA1",
+      tasks: [
+        {
+          id: "58AF4278D8C796E8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "0FA90251FC56217A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonforge_ice_brick",
+            },
+          },
+          count: 17,
+        },
+        {
+          id: "41092B8251BA373C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonforge_ice_input",
+            },
+          },
+        },
+        {
+          id: "573F7F097FFFDC31",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonforge_ice_core_disabled",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "012FCD3DE0C3DA32",
+          type: "item",
+          item: {
+            id: "minecraft:iron_block",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "7BA601D5EE720502",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "65808A93CD60CC67",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 31.0,
+      y: -45.0,
+      shape: "hexagon",
+      dependencies: [
+        "0481E975F317F64D",
+      ],
+      size: 1.25,
+      id: "210542B036255FBF",
+      tasks: [
+        {
+          id: "290E080FC208757E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "3F28CACFA8B8D68A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonforge_lightning_brick",
+            },
+          },
+          count: 17,
+        },
+        {
+          id: "369CAB512FEAEE0E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonforge_lightning_input",
+            },
+          },
+        },
+        {
+          id: "1239D87B4EDAF26B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonforge_lightning_core_disabled",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CD3EDC1E56F57EB",
+          type: "item",
+          item: {
+            id: "minecraft:iron_block",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "5F63FE2F95F801CC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "4F57C1FF8612DA0D",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 24.5,
+      y: -20.5,
+      dependencies: [
+        "666FFDFDB7C869F5",
+      ],
+      id: "2E7D6A54B361B727",
+      tasks: [
+        {
+          id: "4AFEDE13A758B44D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:stymphalian_bird_dagger",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2747640752D472CF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "3C7261102870874C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:stymphalian_skull",
+            },
+          },
+        },
+        {
+          id: "794FA420A2D2EA76",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 23.5,
+      y: -19.5,
+      dependencies: [
+        "666FFDFDB7C869F5",
+      ],
+      id: "2738184B6A688D2C",
+      tasks: [
+        {
+          id: "62663F4A25870879",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:stymphalian_arrow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "032267148F5DC091",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:stymphalian_arrow",
+            },
+          },
+          count: 12,
+        },
+        {
+          id: "61582B734F1ED5CD",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: -9.0,
+      dependencies: [
+        "7D086BC5AC152E27",
+        "1713E5D74658F095",
+      ],
+      id: "7CBF22CCCF599F26",
+      tasks: [
+        {
+          id: "54D8620F0F9CFC01",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:siren_flute",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CE0057AF72795CA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
+            },
+          },
+        },
+        {
+          id: "62A3448FA79C4582",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -3.5,
+      dependencies: [
+        "14CF23064A6035CD",
+      ],
+      id: "39107884D6C80D41",
+      tasks: [
+        {
+          id: "206FFEC41FF12130",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:ghost_sword",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77EBECB469EDC7BE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "5729704C65A07D2E",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 29.0,
+      y: -30.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "760864EE43FB33AC",
+        "3166CA00032C18F7",
+      ],
+      size: 1.2,
+      id: "37DB7871590921CF",
+      tasks: [
+        {
+          id: "4A894487D6AEA124",
+          type: "item",
+          item: {
+            id: "minecraft:kelp",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "016DBC5D8A8ACABA",
+          type: "item",
+          item: {
+            id: "minecraft:saddle",
+            count: 1,
+          },
+        },
+        {
+          id: "40FA6F1A1C24E20B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 46.0,
+      y: -4.5,
+      dependencies: [
+        "2B84A4377688B189",
+      ],
+      id: "43008E93B34F4F06",
+      tasks: [
+        {
+          id: "484E79013543D76D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:sea_serpent_arrow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5221F5FF3698B088",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:sea_serpent_arrow",
+            },
+          },
+          count: 12,
+        },
+        {
+          id: "2CFE49BAEA6FA85E",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 46.5,
+      y: -3.5,
+      dependencies: [
+        "2B84A4377688B189",
+      ],
+      id: "6FE6F50029D690C0",
+      tasks: [
+        {
+          id: "2D60CE44A290C710",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:tide_trident",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "798017FFD5ED158D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "6F70D3833DD18205",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:seaserpent_skull",
+            },
+          },
+        },
+        {
+          id: "6ABAFCC9B29F96E5",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -13.0,
+      dependencies: [
+        "5D6A4E574823446F",
+      ],
+      id: "7C5FC2015F1E6DB1",
+      tasks: [
+        {
+          id: "4F3B27F987FA751B",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:troll_weapon_axe)item(iceandfire:troll_weapon_column)item(iceandfire:troll_weapon_column_forest)item(iceandfire:troll_weapon_column_frost)item(iceandfire:troll_weapon_hammer)item(iceandfire:troll_weapon_trunk)item(iceandfire:troll_weapon_trunk_frost))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "38AF49F3C9D68959",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "4D0DFACEBE05EEDB",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -12.0,
+      dependencies: [
+        "45084D3A3E5DB63B",
+      ],
+      id: "03326C2FF16F64C3",
+      tasks: [
+        {
+          id: "2F6DA7A9259F8585",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:forest_troll_leather_helmet)item(iceandfire:forest_troll_leather_chestplate)item(iceandfire:forest_troll_leather_leggings)item(iceandfire:forest_troll_leather_boots)item(iceandfire:frost_troll_leather_helmet)item(iceandfire:frost_troll_leather_chestplate)item(iceandfire:frost_troll_leather_leggings)item(iceandfire:frost_troll_leather_boots)item(iceandfire:mountain_troll_leather_helmet)item(iceandfire:mountain_troll_leather_chestplate)item(iceandfire:mountain_troll_leather_leggings)item(iceandfire:mountain_troll_leather_boots))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "711D3934D67E5E17",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "31ED243544E87200",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 31.5,
+      y: -19.5,
+      dependencies: [
+        "4ED6B18DF7D51E13",
+      ],
+      id: "4A84C8578C2F7F71",
+      tasks: [
+        {
+          id: "3014A3CA3C73E6D4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:deathworm_gauntlet_yellow)item(iceandfire:deathworm_gauntlet_white)item(iceandfire:deathworm_gauntlet_red))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1260B601FCF4BA0B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:deathworm_egg_giant",
+            },
+          },
+        },
+        {
+          id: "08859AD5D985D6AA",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 30.5,
+      y: -20.5,
+      dependencies: [
+        "4ED6B18DF7D51E13",
+      ],
+      id: "6774BBE7C7C5D7EB",
+      tasks: [
+        {
+          id: "433EA38A6B260048",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:deathworm_chitin_yellow)item(iceandfire:deathworm_chitin_white)item(iceandfire:deathworm_chitin_red))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0524DC2EBDFD4DE4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:deathworm_chitin_yellow",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "261373BD978C8170",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:deathworm_chitin_white",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "1B955769C8EBE4E1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:deathworm_chitin_red",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "5398A111DF5426BA",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 26.0,
+      y: -30.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "4ED6B18DF7D51E13",
+        "3166CA00032C18F7",
+      ],
+      size: 1.2,
+      id: "06ECF443FBCC12FC",
+      tasks: [
+        {
+          id: "091437742C548F81",
+          type: "item",
+          item: {
+            id: "minecraft:fishing_rod",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "7670835027D2B9A0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:deathworm_egg",
+            },
+          },
+        },
+        {
+          id: "0D31FDC2F9D48EE8",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:hippogryph",
+        },
+      },
+      x: 30.0,
+      y: -6.0,
+      shape: "rsquare",
+      dependencies: [
+        "703790CCCE440946",
+      ],
+      size: 1.5,
+      id: "6009E239E2E15236",
+      tasks: [
+        {
+          id: "7B8C0D61ADC2D7E8",
+          type: "kill",
+          entity: "iceandfire:hippogryph",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "75E8954933D28018",
+          type: "item",
+          item: {
+            id: "minecraft:rabbit_foot",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "011DA2A87C2FC576",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 29.0,
+      y: -31.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "6009E239E2E15236",
+        "3166CA00032C18F7",
+      ],
+      size: 1.2,
+      id: "131164DA08BB87B3",
+      tasks: [
+        {
+          id: "377931E8EF5278C9",
+          type: "advancement",
+          advancement: "iceandfire:iceandfire/tame_hippogryph",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "6D21118276DC1B24",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:diamond_hippogryph_armor",
+            },
+          },
+        },
+        {
+          id: "2ADEEC030E0FFB9B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 30.5,
+      y: -4.5,
+      dependencies: [
+        "6009E239E2E15236",
+      ],
+      id: "69211D34F8182976",
+      tasks: [
+        {
+          id: "39019B44DB379EA1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:hippogryph_sword",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0828AEE9A897E54A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "4DF9A4AF13A07602",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:hippogryph_skull",
+            },
+          },
+        },
+        {
+          id: "22FDB38B8421C450",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 35.0,
+      y: -9.0,
+      dependencies: [
+        "2D71532A99C167AA",
+      ],
+      id: "10642351AD9A9907",
+      tasks: [
+        {
+          id: "0E94CCAA969BB3F8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:amphithere_arrow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36F008D0B3D118E0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:amphithere_arrow",
+            },
+          },
+          count: 12,
+        },
+        {
+          id: "65493E74E3BA0F28",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 35.5,
+      y: -10.0,
+      dependencies: [
+        "2D71532A99C167AA",
+      ],
+      id: "445DB66B81146E91",
+      tasks: [
+        {
+          id: "1B8D94634F27443D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:amphithere_macuahuitl",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "012D79A527AF2F61",
+          type: "item",
+          item: {
+            id: "minecraft:obsidian",
+            count: 1,
+          },
+          count: 12,
+        },
+        {
+          id: "57F4DE085A5BAFD5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:amphithere_skull",
+            },
+          },
+        },
+        {
+          id: "191F1CBD5DC03063",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 27.0,
+      y: -32.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "2D71532A99C167AA",
+        "3166CA00032C18F7",
+      ],
+      size: 1.2,
+      id: "47E4BA6643A4BA85",
+      tasks: [
+        {
+          id: "53A4389C698BF294",
+          type: "advancement",
+          advancement: "iceandfire:iceandfire/tame_amphithere",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "4C7954880B4F44FF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:amphithere_feather",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "67B378E7CEE38B03",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "!ftbquests:icon": {
+          },
+          "ftbquests:entity_face": "iceandfire:cockatrice",
+        },
+      },
+      x: 34.5,
+      y: -12.5,
+      shape: "rsquare",
+      dependencies: [
+        "10CA52D15EAB71A3",
+      ],
+      size: 1.5,
+      id: "38CAB3EF0D89B8F4",
+      tasks: [
+        {
+          id: "32057A4DB1ED95AD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:witherbone",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5FB20240F76F4547",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:witherbone",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "490E87A9D45ECC6F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:wither_shard",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "00056142FA7F5123",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 36.0,
+      y: -12.0,
+      dependencies: [
+        "38CAB3EF0D89B8F4",
+      ],
+      id: "07AF1D5C24B069DD",
+      tasks: [
+        {
+          id: "1CD90E48172E5690",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:cockatrice_scepter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70CD3767901CA450",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:cockatrice_skull",
+            },
+          },
+        },
+        {
+          id: "254B5A8CAE748966",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 36.0,
+      y: -13.0,
+      id: "4AFDC9ACAC926654",
+      tasks: [
+        {
+          id: "3872480FD8C46F6A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:rotten_egg",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21AFE28FC7F3AD23",
+          type: "item",
+          item: {
+            id: "minecraft:egg",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "3C5227B76C083C65",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 28.0,
+      y: -32.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "38CAB3EF0D89B8F4",
+        "4AFDC9ACAC926654",
+        "3166CA00032C18F7",
+      ],
+      size: 1.2,
+      id: "46AADB01BBD156D2",
+      tasks: [
+        {
+          id: "0CB6EDF9702986B4",
+          type: "advancement",
+          advancement: "iceandfire:iceandfire/tame_cockatrice",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "20DDF779304E39CB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:witherbone",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "17C021E0EF61958F",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -10.5,
+      shape: "hexagon",
+      dependencies: [
+        "7B21D2FAD5F3246A",
+      ],
+      id: "2B90982E3B1E545C",
+      tasks: [
+        {
+          id: "37B0B634DF925107",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:bestiary",
+            },
+          },
+        },
+        {
+          id: "39BFF49C6D983775",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:lectern",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D4588B2A640F9C4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:manuscript",
+            },
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: 26.0,
+      y: -31.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "617C6D6C35B4917D",
+        "3166CA00032C18F7",
+      ],
+      size: 1.2,
+      id: "32C45C6C811FB5F9",
+      tasks: [
+        {
+          id: "2BCD016F70368254",
+          type: "item",
+          item: {
+            id: "minecraft:cake",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B65A0B7AB3351CD",
+          type: "item",
+          item: {
+            id: "minecraft:cake",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "5D7AF37A4EEDB451",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 20.5,
+      y: -16.5,
+      dependencies: [
+        "617C6D6C35B4917D",
+      ],
+      id: "315913D32319F010",
+      tasks: [
+        {
+          id: "353106C55857698B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:pixie_jar_empty",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2639588D7CDF3F86",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:pixie_jar_empty",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -15.5,
+      dependencies: [
+        "617C6D6C35B4917D",
+      ],
+      id: "3804364077F4BAD4",
+      tasks: [
+        {
+          id: "01763766EFCD88FF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:pixie_wand",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63AEB649B6A944D4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:pixie_dust",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "2F232C5F103A7218",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -35.5,
+      shape: "gear",
+      hide_dependency_lines: true,
+      size: 1.5,
+      id: "6800E0113DE9A4DB",
+      tasks: [
+        {
+          id: "51EE1671000347A4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonbone",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "65C77681311DD64C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonbone",
+            },
+          },
+          count: 9,
+        },
+        {
+          id: "0839D2E7ABC98A14",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 24.0,
+      y: -43.0,
+      dependencies: [
+        "765CD913CC3896B2",
+      ],
+      id: "77793642678CB886",
+      tasks: [
+        {
+          id: "3E3EBDB1D26C3117",
+          type: "item",
+          item: {
+            id: "minecraft:netherrack",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23242D3D1618EF4E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -43.5,
+      dependencies: [
+        "0B3AC4E923332AC6",
+      ],
+      id: "2B2BB53FA86A07B7",
+      tasks: [
+        {
+          id: "71321938044ADBE4",
+          type: "item",
+          item: {
+            id: "minecraft:water_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F8F7AFAC88C1744",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 31.0,
+      y: -43.0,
+      dependencies: [
+        "1042A0DC0A9321BB",
+      ],
+      id: "0481E975F317F64D",
+      tasks: [
+        {
+          id: "7CC983792E1265FD",
+          type: "location",
+          dimension: "minecraft:overworld",
+          ignore_dimension: false,
+          position: [
+            -1000000,
+            80,
+            -1000000,
+          ],
+          size: [
+            -1000000,
+            80,
+            -1000000,
+          ],
+        },
+      ],
+      rewards: [
+        {
+          id: "29F325C8D7F860EB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -31.0,
+      shape: "pentagon",
+      hide_dependency_lines: true,
+      size: 2.0,
+      id: "3166CA00032C18F7",
+      tasks: [
+        {
+          id: "3CC50EAEEE1E8A56",
+          type: "item",
+          item: {
+            id: "minecraft:stick",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B2B212F50BC74F6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 26.5,
+      y: -44.5,
+      dependencies: [
+        "77793642678CB886",
+        "2B2BB53FA86A07B7",
+        "0481E975F317F64D",
+      ],
+      id: "0DABAD0803DCEA1E",
+      tasks: [
+        {
+          id: "6F732623B498EE87",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_stick",
+            },
+          },
+        },
+        {
+          id: "24B27CCD01B77A0A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_horn",
+            },
+          },
+        },
+        {
+          id: "688B2A12311EED3D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_flute",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B049727F86CCB37",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "1EE08953E02507F6",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: 28.5,
+      y: -44.5,
+      dependencies: [
+        "77793642678CB886",
+        "2B2BB53FA86A07B7",
+        "0481E975F317F64D",
+      ],
+      id: "47A7F4972D58A7D5",
+      tasks: [
+        {
+          id: "4308BE39F35E2298",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_meal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0914C216DE80223B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragon_meal",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "32FBE12A7C9385D8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:sickly_dragon_meal",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -29.5,
+      shape: "circle",
+      dependencies: [
+        "3166CA00032C18F7",
+      ],
+      id: "2E0FBBE43D92CA42",
+      tasks: [
+        {
+          id: "0ABD29C3A5B5B876",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:chain",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3977B295C59AD500",
+          type: "item",
+          item: {
+            id: "minecraft:cobblestone_wall",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0398B6CFF503739A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:chain_sticky",
+            },
+          },
+        },
+        {
+          id: "32A5AC24E1F6182E",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 23.5,
+      y: -46.0,
+      shape: "diamond",
+      dependencies: [
+        "176D31AF1B0925AA",
+      ],
+      id: "0C176F04D32B75DD",
+      tasks: [
+        {
+          id: "3BED9AF0C1BD57B7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonsteel_fire_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "530CD02A3C2C664A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonsteel_fire_ingot",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "550A7934C915ACB9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:fire_dragon_blood",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "63B420D4B35E7175",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:summoning_crystal_fire",
+            },
+          },
+        },
+        {
+          id: "4FB23A427197823B",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -47.0,
+      shape: "diamond",
+      dependencies: [
+        "45068FB6758D3BA1",
+      ],
+      id: "406433F7FF3B0E7B",
+      tasks: [
+        {
+          id: "26E4867B6DA3058D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonsteel_ice_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "555B98587FB8F621",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonsteel_ice_ingot",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "6DFB663AC83A45CB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:ice_dragon_blood",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "4B81F218EC22F21F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:summoning_crystal_ice",
+            },
+          },
+        },
+        {
+          id: "50CE029DDDC1FB93",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 31.5,
+      y: -46.0,
+      shape: "diamond",
+      dependencies: [
+        "210542B036255FBF",
+      ],
+      id: "72FB345F3A7E7288",
+      tasks: [
+        {
+          id: "4179FBF3C2120214",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonsteel_lightning_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "76612669FFB8BACA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:dragonsteel_lightning_ingot",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "3D510E185F8E9237",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:lightning_dragon_blood",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "079D9EAD1C5DEE49",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:summoning_crystal_lightning",
+            },
+          },
+        },
+        {
+          id: "619B5267C9965A40",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 46.0,
+      y: -2.5,
+      dependencies: [
+        "2B84A4377688B189",
+      ],
+      id: "0F9DCF36112C9922",
+      tasks: [
+        {
+          id: "2519E6394D62203F",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:tide_blue_helmet)item(iceandfire:tide_blue_chestplate)item(iceandfire:tide_blue_leggings)item(iceandfire:tide_blue_boots)item(iceandfire:tide_bronze_helmet)item(iceandfire:tide_bronze_chestplate)item(iceandfire:tide_bronze_leggings)item(iceandfire:tide_bronze_boots)item(iceandfire:tide_deepblue_helmet)item(iceandfire:tide_deepblue_chestplate)item(iceandfire:tide_deepblue_leggings)item(iceandfire:tide_deepblue_boots)item(iceandfire:tide_green_helmet)item(iceandfire:tide_green_chestplate)item(iceandfire:tide_green_leggings)item(iceandfire:tide_green_boots)item(iceandfire:tide_purple_helmet)item(iceandfire:tide_purple_chestplate)item(iceandfire:tide_purple_leggings)item(iceandfire:tide_purple_boots)item(iceandfire:tide_red_helmet)item(iceandfire:tide_red_chestplate)item(iceandfire:tide_red_leggings)item(iceandfire:tide_red_boots)item(iceandfire:tide_teal_helmet)item(iceandfire:tide_teal_chestplate)item(iceandfire:tide_teal_leggings)item(iceandfire:tide_teal_boots))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0A1CA0E35D820FB4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "78F2DAE925C03F4E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:shiny_scales",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "787BBC9B4AFE3E97",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 29.0,
+      y: -15.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "3D88FEFA4C63CB20",
+      tasks: [
+        {
+          id: "73AE639A41A16778",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 27.5,
+      y: -12.5,
+      shape: "gear",
+      size: 3.0,
+      id: "7B21D2FAD5F3246A",
+      tasks: [
+        {
+          id: "2CD913A5FD480693",
+          type: "dimension",
+          dimension: "allthemodium:the_other",
+        },
+      ],
+      rewards: [
+        {
+          id: "64565824195E28FD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "iceandfire:manuscript",
+            },
+          },
+          count: 9,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "allthemodium:ancient_sapling",
+        count: 1,
+      },
+      x: 29.0,
+      y: -9.0,
+      shape: "pentagon",
+      dependencies: [
+        "7B21D2FAD5F3246A",
+      ],
+      size: 1.5,
+      id: "703790CCCE440946",
+      tasks: [
+        {
+          id: "7CE87FBDC9B7B169",
+          type: "biome",
+          biome: "allthemodium:the_other",
+        },
+      ],
+      rewards: [
+        {
+          id: "29109342CDCC3B9C",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:soul_sand",
+        count: 1,
+      },
+      x: 25.0,
+      y: -9.5,
+      shape: "pentagon",
+      dependencies: [
+        "7B21D2FAD5F3246A",
+      ],
+      size: 1.5,
+      id: "48B1BD7D86CAC4A0",
+      tasks: [
+        {
+          id: "5338E22A0D50350E",
+          type: "biome",
+          biome: "allthemodium:soul_sand_valley",
+        },
+      ],
+      rewards: [
+        {
+          id: "6F368F7596EF556E",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "allthemodium:soul_sapling",
+        count: 1,
+      },
+      x: 27.0,
+      y: -16.5,
+      shape: "pentagon",
+      dependencies: [
+        "7B21D2FAD5F3246A",
+      ],
+      size: 1.5,
+      id: "02DEAB3F1198BFBE",
+      tasks: [
+        {
+          id: "17FA8796C5D6324B",
+          type: "biome",
+          biome: "allthemodium:warped_forest",
+        },
+      ],
+      rewards: [
+        {
+          id: "6B20397855DABF86",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:sand",
+        count: 1,
+      },
+      x: 31.5,
+      y: -12.5,
+      shape: "pentagon",
+      dependencies: [
+        "7B21D2FAD5F3246A",
+      ],
+      size: 1.5,
+      id: "10CA52D15EAB71A3",
+      tasks: [
+        {
+          id: "0C81BFBEC5769F4B",
+          type: "biome",
+          biome: "allthemodium:desert",
+        },
+      ],
+      rewards: [
+        {
+          id: "4617D01F8310B50A",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "allthemodium:demonic_sapling",
+        count: 1,
+      },
+      x: 23.5,
+      y: -13.0,
+      shape: "pentagon",
+      dependencies: [
+        "7B21D2FAD5F3246A",
+      ],
+      size: 1.5,
+      id: "59D91C5E11F67FC3",
+      tasks: [
+        {
+          id: "56420F84AC34D9F0",
+          type: "biome",
+          biome: "allthemodium:crimson_forest",
+        },
+      ],
+      rewards: [
+        {
+          id: "56F0FF233F854911",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 23.5,
+      y: -28.0,
+      width: 5.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_1.png",
+      id: "072BE64C52D406EB",
+    },
+    {
+      x: 27.5,
+      y: -27.5,
+      width: 4.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_2.png",
+      id: "440A174824CB5449",
+    },
+    {
+      x: 31.5,
+      y: -28.0,
+      width: 5.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_3.png",
+      id: "160441133D2815EE",
+    },
+    {
+      x: 27.5,
+      y: -33.5,
+      width: 3.0,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_pets.png",
+      id: "41339A764E5553D6",
+    },
+    {
+      x: 36.0,
+      y: -8.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: -45.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_amphithere.png",
+      id: "29A37A7B9B9FA65A",
+    },
+    {
+      x: 17.5,
+      y: -8.0,
+      width: 3.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_siren.png",
+      id: "192B5D9BE150EC8B",
+    },
+    {
+      x: 39.0,
+      y: -5.0,
+      width: 4.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_hippocampus.png",
+      id: "673D5991E0C5241B",
+    },
+    {
+      x: 44.5,
+      y: -1.5,
+      width: 6.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_serpent.png",
+      id: "2A883CF7908122C4",
+    },
+    {
+      x: 37.5,
+      y: -12.5,
+      width: 4.0,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_cockatrice.png",
+      id: "3E11DB5C49EE8B30",
+    },
+    {
+      x: 27.5,
+      y: -22.5,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_hydra.png",
+      id: "561D7D5E862223C5",
+    },
+    {
+      x: 22.5,
+      y: -21.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: -45.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_stymphalian.png",
+      id: "5FD91CEF313A6AC4",
+    },
+    {
+      x: 23.0,
+      y: -21.0,
+      width: 2.0,
+      height: 1.0,
+      rotation: -45.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_birds.png",
+      id: "7BAE98C7E8C10D93",
+    },
+    {
+      x: 27.5,
+      y: -2.0,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_ghosts.png",
+      id: "56604C510707F9E3",
+    },
+    {
+      x: 36.5,
+      y: -16.0,
+      width: 4.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_cyclops.png",
+      id: "421AB877366C1018",
+    },
+    {
+      x: 19.0,
+      y: -17.0,
+      width: 2.5,
+      height: 1.0,
+      rotation: -45.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_pixie.png",
+      id: "5704F4F40BC8EAEC",
+    },
+    {
+      x: 31.5,
+      y: -3.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: -45.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_hippogryth.png",
+      id: "75B5B56B50FA8F30",
+    },
+    {
+      x: 16.5,
+      y: -12.5,
+      width: 3.0,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_trolls.png",
+      id: "2A06EA40DB68ECFF",
+    },
+    {
+      x: 23.5,
+      y: -3.5,
+      width: 3.5,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_gorgon.png",
+      id: "79134C5935F578AF",
+    },
+    {
+      x: 32.0,
+      y: -21.0,
+      width: 6.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_worm.png",
+      id: "1F04B5D1D69C3061",
+    },
+    {
+      x: 28.0,
+      y: 0.0,
+      width: 2.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_ghost.png",
+      id: "2B60EF5F199DC249",
+    },
+    {
+      x: 21.0,
+      y: -22.5,
+      width: 4.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_bird.png",
+      id: "511967D8EF990B75",
+    },
+    {
+      x: 27.5,
+      y: -24.5,
+      width: 6.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_hydra.png",
+      id: "7F0B760C7447E868",
+    },
+    {
+      x: 40.0,
+      y: -12.0,
+      width: 4.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_cockatrice.png",
+      id: "7FF00FAAFD64BDFD",
+    },
+    {
+      x: 44.5,
+      y: -6.0,
+      width: 6.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_serpent.png",
+      id: "1613780B400B07DF",
+    },
+    {
+      x: 39.0,
+      y: -1.5,
+      width: 3.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_hippocampus.png",
+      id: "3CF860CEE1402943",
+    },
+    {
+      x: 16.5,
+      y: -7.0,
+      width: 5.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_siren.png",
+      id: "0A332760FFC36AFE",
+    },
+    {
+      x: 38.0,
+      y: -7.5,
+      width: 4.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_amphithere.png",
+      id: "561CBEBEF1D1E46D",
+    },
+    {
+      x: 33.5,
+      y: -22.5,
+      width: 2.5,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_worm.png",
+      id: "23E8BE1EB76DB9F8",
+    },
+    {
+      x: 22.5,
+      y: -2.0,
+      width: 2.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_gorgon.png",
+      id: "242A1473BEA3D8EA",
+    },
+    {
+      x: 15.0,
+      y: -12.5,
+      width: 2.5,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_troll.png",
+      id: "014265B6F5141AEE",
+    },
+    {
+      x: 33.5,
+      y: -2.0,
+      width: 3.5,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_hippogryth.png",
+      id: "616ECD64CD130514",
+    },
+    {
+      x: 18.0,
+      y: -18.0,
+      width: 1.5,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_pixie.png",
+      id: "3209BF0BB33E3E4D",
+    },
+    {
+      x: 38.5,
+      y: -18.0,
+      width: 3.0,
+      height: 6.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_cyclops.png",
+      id: "18C41023CFD8DC1B",
+    },
+    {
+      x: 23.5,
+      y: -39.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_firedragon.png",
+      id: "4CDC577A48C1F257",
+    },
+    {
+      x: 27.5,
+      y: -48.0,
+      width: 4.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_icedragon.png",
+      id: "55F2267BE408FDBA",
+    },
+    {
+      x: 32.0,
+      y: -39.5,
+      width: 6.0,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/iceandfire/iaf_title_lightningdragon.png",
+      id: "1260AF1D22EA7DCD",
+    },
+    {
+      x: 20.5,
+      y: -39.0,
+      width: 5.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_firedragon.png",
+      id: "64E678C6CBF4C3C2",
+    },
+    {
+      x: 35.0,
+      y: -39.0,
+      width: 5.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_lightningdragon.png",
+      id: "6BE2EC9A16508FDC",
+    },
+    {
+      x: 27.5,
+      y: -49.5,
+      width: 5.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/iceandfire/iaf_icedragon.png",
+      id: "502F51F39B469931",
+    },
+  ],
+}

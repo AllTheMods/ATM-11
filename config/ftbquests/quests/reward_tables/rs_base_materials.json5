@@ -1,0 +1,49 @@
+{
+  id: "5B1B065B81883FF5",
+  order_index: 59,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "70A9DF7BF87FB983",
+      item: {
+        id: "ae2:silicon",
+        count: 1,
+      },
+      count: 5,
+    },
+    {
+      id: "0C492AB0ACD4BBD1",
+      item: {
+        id: "refinedstorage:quartz_enriched_iron",
+        count: 1,
+      },
+      count: 5,
+      weight: 2.0,
+    },
+    {
+      id: "61C73635A8298DEF",
+      item: {
+        id: "refinedstorage:quartz_enriched_copper",
+        count: 1,
+      },
+      count: 5,
+    },
+    {
+      id: "2839039CEB75AD0B",
+      item: {
+        id: "refinedstorage:machine_casing",
+        count: 1,
+      },
+    },
+    {
+      id: "2D6EF4B97BD1BBAE",
+      item: {
+        id: "refinedstorage:processor_binding",
+        count: 1,
+      },
+      count: 5,
+    },
+  ],
+}

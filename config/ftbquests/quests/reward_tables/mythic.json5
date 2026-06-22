@@ -1,0 +1,126 @@
+{
+  id: "481E10AEAC95C550",
+  order_index: 8,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "1DEE92FAC91278BB",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:pellet_antimatter",
+        },
+      },
+    },
+    {
+      id: "20488B131E9DD296",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:ultimate_induction_cell",
+        },
+      },
+      count: 3,
+      weight: 2.0,
+    },
+    {
+      id: "2DC9300719C4DC3F",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:ultimate_induction_provider",
+        },
+      },
+      count: 3,
+      weight: 2.0,
+    },
+    {
+      id: "091CD07B22DDD080",
+      item: {
+        id: "powah:reactor_nitro",
+        count: 1,
+      },
+      count: 36,
+      weight: 2.0,
+    },
+    {
+      id: "1B734DF742F50CA1",
+      item: {
+        id: "allthemodium:allthemodium_block",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "2A36DDB940C3EF5A",
+      item: {
+        id: "allthemodium:vibranium_block",
+        count: 1,
+      },
+      count: 8,
+      weight: 2.0,
+    },
+    {
+      id: "24DFCBA7C9010B8B",
+      item: {
+        id: "allthemodium:unobtainium_block",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "24F1044CBDA0C651",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "ironfurnaces:unobtainium_furnace",
+        },
+      },
+      weight: 2.0,
+    },
+    {
+      id: "1F25C49187176451",
+      item: {
+        id: "ironjetpacks:jetpack",
+        count: 1,
+        components: {
+          "ironjetpacks:jetpack_id": "ironjetpacks:vibranium",
+          "minecraft:attribute_modifiers": [
+            {
+              type: "minecraft:armor",
+              id: "ironjetpacks:armor.jetpack",
+              amount: 0.0,
+              operation: "add_value",
+              slot: "chest",
+            },
+            {
+              type: "minecraft:armor_toughness",
+              id: "ironjetpacks:armor.jetpack",
+              amount: 0.0,
+              operation: "add_value",
+              slot: "chest",
+            },
+          ],
+        },
+      },
+      weight: 2.0,
+    },
+    {
+      id: "792B0BD087FCFDBC",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "allthecompressed:nether_star_block_3x",
+        },
+      },
+    },
+  ],
+}

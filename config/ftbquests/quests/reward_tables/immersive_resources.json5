@@ -1,0 +1,65 @@
+{
+  id: "0A4D0C6441DBF319",
+  order_index: 44,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "1A44C094B2526C54",
+      item: {
+        id: "minecraft:iron_ingot",
+        count: 1,
+      },
+      count: 5,
+    },
+    {
+      id: "38D5E5201DDACF74",
+      item: {
+        id: "minecraft:coal",
+        count: 1,
+      },
+      count: 5,
+    },
+    {
+      id: "3726080EAAC7A062",
+      item: {
+        id: "minecraft:copper_ingot",
+        count: 1,
+      },
+      count: 6,
+    },
+    {
+      id: "56FBD1E2C49894A8",
+      item: {
+        id: "minecraft:gold_ingot",
+        count: 1,
+      },
+      count: 3,
+    },
+    {
+      id: "38174A50F62FA038",
+      item: {
+        id: "alltheores:aluminum_ingot",
+        count: 1,
+      },
+      count: 3,
+    },
+    {
+      id: "03E0B497400A62B1",
+      item: {
+        id: "minecraft:brick",
+        count: 1,
+      },
+      count: 8,
+    },
+    {
+      id: "2ACBBF3FF8B5C27C",
+      item: {
+        id: "minecraft:redstone",
+        count: 1,
+      },
+      count: 10,
+    },
+  ],
+}

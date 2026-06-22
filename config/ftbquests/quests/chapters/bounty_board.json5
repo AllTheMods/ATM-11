@@ -1,0 +1,1721 @@
+{
+  id: "18A429E7F56AF5A9",
+  group: "",
+  order_index: 0,
+  filename: "bounty_board",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "2B05A29C62676EB2",
+      tasks: [
+        {
+          id: "5457CD8C1ABA0B9E",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "4247F14C46042AFC",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "716EC603C1FC926F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "444ACE285311ECB4",
+      tasks: [
+        {
+          id: "3AD10C31CB6BA4C2",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "6A111F9EEADA4BA2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6FCE69EAA8F7D08C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "146232B8504789C1",
+      tasks: [
+        {
+          id: "51471254BFEBDAA7",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "0030F09FB9D2DE22",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "03A2CFC2335A776A",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "3FDDD3EECB6D7A85",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5E76EDDE93587CF1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "7D5B36BF3EC0C93F",
+      tasks: [
+        {
+          id: "5056DC37AEF523E5",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "180D2F31E833E6B5",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "60C9D5254F78453D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "42822B1E8A53D051",
+      tasks: [
+        {
+          id: "5B35720DF93CE2DB",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "47DAFBFECB3B54BE",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "3518A0200422A88E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "4748831E75A840BE",
+      tasks: [
+        {
+          id: "015CB0D172D0712A",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "056975CFED74BF64",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "750E749A079F915D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "410E0DD607CB3469",
+      tasks: [
+        {
+          id: "2E17443A1BF2A0DA",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "7A227BD20C66223A",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "342AD2A33F43C0EE",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "649295B3143B081D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "313019F9ED9DC6FE",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "555957ED58ABF8F8",
+      tasks: [
+        {
+          id: "00655AC734444E54",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "4F90CF0B7D2FED9B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "033A2FCD299B5D6F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "77FC692AC94D2EEF",
+      tasks: [
+        {
+          id: "423AF6C6647B1626",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "311AAB7A9D64E946",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "02E39788C2347A3F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "65BBA5C0DAEEC31F",
+      tasks: [
+        {
+          id: "1AB92CF7F0246D21",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "01F13A0B354BBBFD",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "52557DBFFE61E796",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "76A29816F19E33A2",
+      tasks: [
+        {
+          id: "24BA89BD9898759B",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "27F653E02AC93F25",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "2C419A310D1686C7",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1E1ACF28D0392E3B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "5FCA4FF8C135435E",
+      tasks: [
+        {
+          id: "045D1087A2692360",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "7A4B7D60F897D023",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "486302C7D5B4041B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "41C0948CD9D50322",
+      tasks: [
+        {
+          id: "6E3ACC74E0987981",
+          type: "advancement",
+          advancement: "minecraft:story/root",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "55CF29758364D4B2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "728BE1816DA23DC0",
+      tasks: [
+        {
+          id: "1809F1F9A3043683",
+          type: "kill",
+          entity: "minecraft:ender_dragon",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "3E3A9EB1F3AAB283",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5DE4B3BE0F590D71",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "26ADAC29B5369011",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "09C82CDDA800D8C9",
+      tasks: [
+        {
+          id: "171FD27057746E80",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "794A9665B0D9CCF1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1434B9579016D3A0",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2D22E6C0EABD5BFF",
+          type: "xp",
+          xp: 500,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "08D1CC753F6B4283",
+      tasks: [
+        {
+          id: "2F28B803C75DA3B2",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "2B969D67BA8AFD3B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6871AA890A24F11B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "56DA46DC82F6665D",
+      tasks: [
+        {
+          id: "452B65E139D9E12D",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "0F951F75DBAF4D7C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4296A74144EBD7F1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3F227FD8C4577EAE",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "0F55D0B4D5094EDB",
+      tasks: [
+        {
+          id: "596ABB45C0612AAF",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "1D136D138EF82DA9",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "26EF416511A49817",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "2052F84B9D14A141",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -2.5,
+      id: "17F3AC15ADCFB175",
+      tasks: [
+        {
+          id: "0EA4B08DAAFA4287",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "203C5104D0EE9774",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "36F858FD06683839",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "2916F873A4DA84E8",
+      tasks: [
+        {
+          id: "58BF5D3267CF02F8",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "2666996F798768C7",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "268C07B6CA4CDF5E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -5.5,
+      dependencies: [
+        "2916F873A4DA84E8",
+      ],
+      id: "2AAF57D1D8AB6BF8",
+      tasks: [
+        {
+          id: "6BA6847A172C8DD7",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "05A65D5FBBCE30C9",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "46897BBCAF61CBCB",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0E43D55ADBF66410",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "479A4E778D8D7317",
+      tasks: [
+        {
+          id: "53C23DB8B4D1CEE2",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "4EEDA3086FA8D846",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6F2AC0995B13BC50",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "1F18B64C84C8809D",
+      tasks: [
+        {
+          id: "18644A08B73A4B12",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "275D3078C224D84C",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "18E8AA34DB10D4AF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "283CA6DB77D5D2EB",
+      tasks: [
+        {
+          id: "5801AF8000768808",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "4A6C2A97D769418B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "524BCAEA8EC772F5",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "63A1F25DF658928A",
+      tasks: [
+        {
+          id: "0F94F7427F99DAFE",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "6D9B9C1582E05FFD",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "13133B21B6680DA4",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "319B63A612336BE5",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3F780B09E39A1F03",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "2D7E335B9D780E70",
+      tasks: [
+        {
+          id: "0F8ACB07CFA8CB33",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "2B8E13883A6DEF5F",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2DCDA6CE746BEBF0",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "6141DE779232C8AA",
+      tasks: [
+        {
+          id: "1718CA0F8978181C",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "651B5C4C1024BC53",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "4FB5BA9D969A1025",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "4F48A4839B549C92",
+      tasks: [
+        {
+          id: "00445193DEB7EAA0",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "7E7B0138373F4D28",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "375FDEF229AED155",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "6C9BC3A699E57162",
+      tasks: [
+        {
+          id: "404D3420276BD963",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "3D8FB446CA3F27F4",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "3DD5D5A5D39C411C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "633125E5D7705BFF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "35CC1F1DA9530688",
+      tasks: [
+        {
+          id: "2038156A13C07BFC",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "0845C88CA6D644A3",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4871EDD07934397F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "5AC497F76A086A5C",
+      tasks: [
+        {
+          id: "7BAB5E17D2DE4E3E",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "310682051A0C2291",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "3545146C9E60CD9B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "6E4FD0B568BEB3F9",
+      tasks: [
+        {
+          id: "7127A76DEB4D1696",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "6CCE54980E8D2003",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4227DE8BC66C8470",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "2D136FCDA92C92AC",
+      tasks: [
+        {
+          id: "78A782913B7E6353",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "52854A638D3FE878",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "0049AE95E8647336",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "2A0CD06747FBE0D8",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "3F4C40818D552881",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2A063FC9FE48C54F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "6F93A02E620C69FE",
+      tasks: [
+        {
+          id: "5A3D6416BA0C7A20",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "2019E33C08375AA8",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7A8FF2B777E0E6D6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "3371F9248D403664",
+      tasks: [
+        {
+          id: "1016033CBB003413",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "3C294799544A5584",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "7221550A96E0CD00",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "65A4A21FEB144C30",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "738E94C4CFB05D11",
+      tasks: [
+        {
+          id: "33107949548BC22D",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "021EACDBD76A9D2E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "45DA910A0FE7A08E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "65CE9117B923C0DB",
+      tasks: [
+        {
+          id: "29A605F8B896F3B9",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "578580004196BB13",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "46FE70A8D25378BD",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "24573A422CE166A4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1050FBCABC67BA5A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "180B3AFF8C552F3F",
+      tasks: [
+        {
+          id: "727813FFC599C36D",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "4E3E6BB30F0AF436",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0D93F33D0C1A9F92",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "0E20A9B79D1C6637",
+      tasks: [
+        {
+          id: "69678CAC075C8EA5",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "49202375E31213C8",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3B094578896C0276",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "48C26A872754A4F8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "08B60D8A25008CCC",
+      tasks: [
+        {
+          id: "00CBF98DE4E9CC90",
+          type: "checkmark",
+        },
+        {
+          id: "65E53C9C5AE98B69",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "2BD077EFE77B8EBB",
+      tasks: [
+        {
+          id: "27BA6318EA2571EF",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "44529CBD7ED7502A",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "3938CDF8DF2C1766",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "3D59A3B7F940F8D0",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "5706AC6072D005A3",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "57E03D5C83C0AC22",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "6827836C8E675A94",
+      tasks: [
+        {
+          id: "2270A75156F454C2",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "70FE879E07048556",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "1F2F14A414E02FF8",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "6E0C2317F20C947C",
+          type: "kill",
+          entity: "variantsandventures:verdant",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "4DBB5B2919BC0D99",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "4E90D5E8646C1C81",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "1F31EBF49079F9D3",
+      tasks: [
+        {
+          id: "731E8888AF95E703",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "2C1B4079B2636255",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "155EE6983A63B091",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "40AA310A66CB42C4",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "61001A53475D7303",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "4CCDC48B6CF0E9A6",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "697D13BE679C255C",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "65FC7DCD1AD3551C",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "60CC38041D477625",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "3D9CA8869A46294A",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "53BDC9D0909029C8",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "5C29B98A93C02002",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "6501298CA7F25C22",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "710A9E28A01EAE55",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "665BA2AB6D013133",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "48731DD4B285EF6D",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "482EB089D051A610",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "425CF0235A15267D",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "2F6DD85FD4E5944E",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "30EE1106BBB241CA",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "570223A03231DF8C",
+      tasks: [
+        {
+          id: "1B12C1A4AC759504",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "4A0E0B8BF5F47AD7",
+          type: "kill",
+          entity: "endermanoverhaul:swamp_enderman",
+          value: 1,
+        },
+        {
+          id: "48C92AF818612EAE",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "10A3CB37865A3977",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "61A3E71C7AF4D8DB",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "03E9013007576E97",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "1B54BDEF7517778E",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "0BDBE858DB680768",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "27CC6E8A08475943",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "22FEA0AE155F815A",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "7F38E8E5DAAB86F7",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "4D60118A45E4AB00",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "0BA3024B113FB4C0",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "7C4AB0561CA3A82C",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "62D9B47A7A46EB50",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "3FAE09970BADAF9C",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "6713DD4E63A55772",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+        {
+          id: "2B53F437D7A01098",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "309FE3D88633DEB8",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "43E622AE47323E2A",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "3EBF039B52EE3B68",
+          type: "item",
+          item: {
+            id: "minecraft:apple",
+            count: 1,
+          },
+        },
+        {
+          id: "21E14E72D1CD4046",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "13BB75A7E1973488",
+      tasks: [
+        {
+          id: "17866842A275B4AA",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "47EE9DED85C4DFB2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2A3EF5F2876D7235",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2FE20DB8B55821D1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "6DCDD55786025911",
+      tasks: [
+        {
+          id: "38E34F997A59FDC3",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "0FEDB3F957B8EFBA",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4B040CCA92509D76",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "327AD5CF0D35765B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "199932BF623A6785",
+      tasks: [
+        {
+          id: "4A68FB4E1FED5F47",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "60C889EE9A26BB7D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "721928BA80B3CDEC",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "00FCD620346CD937",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "734411D931A8CDBF",
+      tasks: [
+        {
+          id: "6219443664D0465C",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "5B7DCC94C0CF66C4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "22F455F176233430",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "3813F5C1760C3A79",
+      tasks: [
+        {
+          id: "5EB07157D785C3FC",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "78725DEDE162CADD",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "493A6DE589C23218",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "2CA9394459C24012",
+      tasks: [
+        {
+          id: "42474723672C2787",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 100,
+        },
+      ],
+      rewards: [
+        {
+          id: "460EB4768EF41335",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4CB0208C2757B1F3",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "",
+      id: "141E4D66846589F8",
+    },
+  ],
+}

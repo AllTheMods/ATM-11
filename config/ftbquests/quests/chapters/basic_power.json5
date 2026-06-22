@@ -1,0 +1,1313 @@
+{
+  id: "5D045EF1AB73DF70",
+  group: "49AECADBA9E79A3B",
+  order_index: 0,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "mekanism:creative_energy_cube",
+    },
+  },
+  filename: "basic_power",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      hide_dependent_lines: true,
+      size: 2.0,
+      id: "4AB0DD227471FDBF",
+      tasks: [
+        {
+          id: "1F2490B2B9A2B5F9",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C8F065AEE4CDB80",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 2.0,
+      shape: "rsquare",
+      hide_dependency_lines: false,
+      dependencies: [
+        "5E41363F9AE243F3",
+      ],
+      id: "6D6E07564D8FDD8D",
+      tasks: [
+        {
+          id: "39CEB20C5018F460",
+          type: "item",
+          item: {
+            id: "alltheores:uranium_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C7FBA6844D50ABA",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 3.5,
+      shape: "rsquare",
+      hide_dependency_lines: false,
+      dependencies: [
+        "42D173B9FF8D16E4",
+      ],
+      id: "48DC9E8E9D21A2FA",
+      tasks: [
+        {
+          id: "59DE118DD6597A4E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanismgenerators:solar_generator)item(mekanismgenerators:advanced_solar_generator)item(mekanismgenerators:wind_generator))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "089AE645B9673F30",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0BC0C16377807E51",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 2.0,
+      shape: "rsquare",
+      dependencies: [
+        "42D173B9FF8D16E4",
+      ],
+      id: "11D09E918015355C",
+      tasks: [
+        {
+          id: "44999798D86177A3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:heat_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C4527E368FC896E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "02D2B64B495DCFCA",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "42D173B9FF8D16E4",
+      ],
+      id: "0BB367839D28607D",
+      tasks: [
+        {
+          id: "0F7D7AE91E20F778",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(actuallyadditions:coal_generator)item(justdirethings:generatort1)item(rftoolspower:coalgenerator))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D172A6A2CA90F91",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3DBB5291DD942498",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "4AB0DD227471FDBF",
+      ],
+      size: 1.5,
+      id: "42D173B9FF8D16E4",
+      tasks: [
+        {
+          id: "6D88F09899BB4808",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CE525ECCA99C748",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "1F81EA5E45424308",
+      ],
+      id: "4EEAB467C722ECE7",
+      tasks: [
+        {
+          id: "467584E3BB06E9CD",
+          type: "item",
+          item: {
+            id: "pipez:energy_pipe",
+            count: 1,
+          },
+        },
+        {
+          id: "5299A78587A00044",
+          type: "item",
+          item: {
+            id: "pipez:wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08460933939CF881",
+          type: "item",
+          item: {
+            id: "pipez:energy_pipe",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "4A14E1A2F4FAB17A",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "1F81EA5E45424308",
+      ],
+      id: "5C47935A3B2877FF",
+      tasks: [
+        {
+          id: "6C4B8A2662030CB0",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:advanced_universal_cable)item(mekanism:elite_universal_cable)item(mekanism:ultimate_universal_cable))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46E642A34AD07DB6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "3154E935BF7E0C2E",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:energy_tablet",
+        },
+      },
+      x: -5.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4AB0DD227471FDBF",
+      ],
+      size: 1.5,
+      id: "1F81EA5E45424308",
+      tasks: [
+        {
+          id: "128DC243A78982C3",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C863FCC138617D2",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "1F81EA5E45424308",
+      ],
+      id: "7FE969CB4B419FC6",
+      tasks: [
+        {
+          id: "3E843C44C9CD3ACC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:quantum_entangloporter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2960A7A9FFFE9624",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "20AEBE6BF09FA9EB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:battery_nitro",
+        count: 1,
+      },
+      x: 5.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4AB0DD227471FDBF",
+      ],
+      size: 1.5,
+      id: "76EA017B12E8F01B",
+      tasks: [
+        {
+          id: "4D6630377238B530",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "477F18566EC6FB2A",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:basic_energy_cube",
+        },
+      },
+      x: 7.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "76EA017B12E8F01B",
+      ],
+      id: "477B411F84342EEA",
+      tasks: [
+        {
+          id: "76378687551A79C3",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_energy_cube)item(mekanism:advanced_energy_cube)item(mekanism:elite_energy_cube)item(mekanism:ultimate_energy_cube)item(mekanism:creative_energy_cube))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E2E1F9ED0EEB289",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:steel_casing",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "0659C1BF97FB5990",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "76EA017B12E8F01B",
+      ],
+      id: "05B6DB75AEC01187",
+      tasks: [
+        {
+          id: "7CA8741CA073C1DA",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(rftoolspower:cell1)item(rftoolspower:cell2)item(rftoolspower:cell3))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F94B0F7122D1380",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "rftoolspower:power_core1",
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "4EA3F1ECA3147606",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "76EA017B12E8F01B",
+      ],
+      id: "72EA25D05C46D39A",
+      tasks: [
+        {
+          id: "460A67B09BD45CF4",
+          type: "item",
+          item: {
+            id: "integrateddynamics:energy_battery",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D6EEC3641B95A9E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "12B4237BA53B15DE",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "4AB0DD227471FDBF",
+      ],
+      size: 1.5,
+      id: "5E41363F9AE243F3",
+      tasks: [
+        {
+          id: "09C547CC92623525",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E00FAF6499D09FC",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 3.5,
+      shape: "rsquare",
+      dependencies: [
+        "5E41363F9AE243F3",
+      ],
+      min_width: 300,
+      id: "0AEC181F5E21A299",
+      tasks: [
+        {
+          id: "2ADE2B487637FA3F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:gas_burning_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B9C300DF6442A1D",
+          type: "item",
+          item: {
+            id: "minecraft:melon_slice",
+            count: 1,
+          },
+          count: 8,
+          random_bonus: 8,
+        },
+        {
+          id: "72D7D24015E0E60A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "5E41363F9AE243F3",
+      ],
+      id: "35ABB0DEE70DF7FD",
+      tasks: [
+        {
+          id: "60907E798B65407F",
+          type: "item",
+          item: {
+            id: "powah:uraninite",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2374BE0128AF2ED8",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "4AB0DD227471FDBF",
+      ],
+      size: 1.5,
+      min_width: 250,
+      id: "3BDB94F17765EE77",
+      tasks: [
+        {
+          id: "40B5F7ECA67EBF03",
+          type: "item",
+          item: {
+            id: "minecraft:netherite_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45BE4BD6F9CCB927",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 0.0,
+      dependencies: [
+        "4EEAB467C722ECE7",
+      ],
+      hide_until_deps_visible: true,
+      id: "1409C17773B6A131",
+      tasks: [
+        {
+          id: "098F1B932F851616",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(pipez:basic_upgrade)item(pipez:improved_upgrade)item(pipez:advanced_upgrade)item(pipez:ultimate_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C5A013A4D52E1A4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "468EF1A091C92102",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 0.0,
+      shape: "gear",
+      dependencies: [
+        "477B411F84342EEA",
+      ],
+      size: 1.5,
+      min_width: 250,
+      id: "682034C680FDEDC2",
+      tasks: [
+        {
+          id: "44C02386C9B8E0D3",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_provider)item(mekanism:advanced_induction_provider)item(mekanism:elite_induction_provider)item(mekanism:ultimate_induction_provider))",
+            },
+          },
+        },
+        {
+          id: "35C1DBD4544C9BB0",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_cell)item(mekanism:advanced_induction_cell)item(mekanism:elite_induction_cell)item(mekanism:ultimate_induction_cell))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4897BCA1A6B1D623",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 2.0,
+      shape: "pentagon",
+      dependencies: [
+        "1F81EA5E45424308",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "35CC898E0E49FE58",
+      tasks: [
+        {
+          id: "0F0CBAF912DE462F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_dust",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "16D31D3D55F77046",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_dust",
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "0AD4164867D1B53A",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "fluxnetworks:flux_core",
+        },
+      },
+      x: -5.5,
+      y: 3.5,
+      dependencies: [
+        "35CC898E0E49FE58",
+      ],
+      id: "1BE26A00A420DAE3",
+      tasks: [
+        {
+          id: "5E760075B279BA71",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_core",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "01B3CDAA69D1FA2F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_block",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FA376B34C2BF04A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_dust",
+            },
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "3C2BBFC2A36E722F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 4.5,
+      dependencies: [
+        "1BE26A00A420DAE3",
+      ],
+      id: "5F078A574A783B02",
+      tasks: [
+        {
+          id: "00B1C30B3E10D332",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_plug",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46F6946231FB28A0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_block",
+            },
+          },
+        },
+        {
+          id: "54BE5D837D80D8DC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 5.5,
+      dependencies: [
+        "5F078A574A783B02",
+      ],
+      min_width: 300,
+      id: "36DEA17CBB696CC7",
+      tasks: [
+        {
+          id: "2D0212699F99459F",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2AC42E9338722803",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_dust",
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "0B96AB43D100BEE9",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 6.5,
+      shape: "diamond",
+      dependencies: [
+        "36DEA17CBB696CC7",
+      ],
+      id: "56B6ABF3D6EA0D84",
+      tasks: [
+        {
+          id: "026DE584C4DF393C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_point",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34498E12E8224864",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_core",
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "0F4344B098AAE197",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 6.5,
+      shape: "diamond",
+      dependencies: [
+        "36DEA17CBB696CC7",
+      ],
+      id: "79AD74A863EA43CB",
+      tasks: [
+        {
+          id: "3C574DDC057353DF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:basic_flux_storage",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25BC89A9224CEF6B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_block",
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "10590E9DC1B2B34D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 5.5,
+      shape: "diamond",
+      dependencies: [
+        "36DEA17CBB696CC7",
+      ],
+      optional: true,
+      min_width: 300,
+      id: "2EB7784D5296F410",
+      tasks: [
+        {
+          id: "3D721B55E8D33FE8",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "179AEC57128B7E2B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_dust",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "1BBA69927177C952",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 7.0,
+      shape: "diamond",
+      dependencies: [
+        "36DEA17CBB696CC7",
+      ],
+      min_width: 300,
+      id: "27A4FA38992448A0",
+      tasks: [
+        {
+          id: "013BD44E5E82802A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_controller",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08F2EBF0C9D9FD73",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_block",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "239AD7002FCA24BC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "35CC898E0E49FE58",
+      ],
+      hide_until_deps_complete: true,
+      optional: true,
+      id: "7A979BEB20C9591E",
+      tasks: [
+        {
+          id: "236EBC924A3AF02B",
+          type: "item",
+          item: {
+            id: "productivebees:spawn_egg_configurable_bee",
+            count: 1,
+            components: {
+              "minecraft:entity_data": {
+                id: "productivebees:configurable_bee",
+                type: "productivebees:flux",
+              },
+            },
+          },
+          match_components: "fuzzy",
+        },
+      ],
+      rewards: [
+        {
+          id: "5FCB7B058A9451A4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_dust",
+            },
+          },
+          count: 5,
+          random_bonus: 5,
+        },
+        {
+          id: "473D2EAFC5978C2A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 5.5,
+      shape: "rsquare",
+      dependencies: [
+        "3BDB94F17765EE77",
+      ],
+      id: "0BB42C5861B22D32",
+      tasks: [
+        {
+          id: "18736EFD68DF29F2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "industrialforegoing:mycelial_reactor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D0DCA6D5E4D9A46",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "industrialforegoing:machine_frame_supreme",
+            },
+          },
+        },
+        {
+          id: "3295EBA69803C65F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 5.5,
+      shape: "rsquare",
+      dependencies: [
+        "3BDB94F17765EE77",
+      ],
+      id: "43D83CFA824B0A70",
+      tasks: [
+        {
+          id: "432BE31C377BF703",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:fusion_reactor_controller",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "220F5932CFFE3D16",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ultimate_control_circuit",
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "58477B30172FA356",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 6.0,
+      dependencies: [
+        "3BDB94F17765EE77",
+      ],
+      id: "2D4749DF9642F334",
+      tasks: [
+        {
+          id: "18BA2B3E63A88A72",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "dysoncubeproject:em_railejector_controller",
+            },
+          },
+        },
+        {
+          id: "21557FD99031BE4C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "dysoncubeproject:ray_receiver_controller",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:energy_core",
+        },
+      },
+      x: 5.5,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "76EA017B12E8F01B",
+      ],
+      id: "677D0C23D53A77CA",
+      tasks: [
+        {
+          id: "7EFDC209D199681D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0846E066332FBFCE",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "788EAA17663077E5",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "35CC898E0E49FE58",
+      ],
+      hide_until_deps_complete: true,
+      optional: true,
+      id: "1EECA19DF9CF6A0C",
+      tasks: [
+        {
+          id: "122A80350E32318A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:extractor",
+            },
+          },
+        },
+        {
+          id: "0E8994B88ABB9271",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "appflux:charged_redstone_block",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A4E9CB6E67430E6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "fluxnetworks:flux_dust",
+            },
+          },
+          count: 5,
+          random_bonus: 5,
+        },
+        {
+          id: "00E3D3B0B266F9FE",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -3.0,
+      width: 15.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basic_power/allthepower.png",
+      id: "7C844A6C4DBB899C",
+    },
+  ],
+}
