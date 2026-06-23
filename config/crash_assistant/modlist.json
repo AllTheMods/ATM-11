@@ -909,13 +909,13 @@
     "curseForgeHash": 4106474474,
     "modrinthHash": "2242cdd3fc548755e375a50b2651ad66abd09677"
   },
-  "irons_jewelry-26.1.2-2.0.0.2.jar": {
-    "jarName": "irons_jewelry-26.1.2-2.0.0.2.jar",
+  "irons_jewelry-26.1.2-2.0.0.3.jar": {
+    "jarName": "irons_jewelry-26.1.2-2.0.0.3.jar",
     "modId": "irons_jewelry",
     "name": "Iron\u0027s Gems \u0027n Jewelry",
-    "version": "26.1.2-2.0.0.2",
-    "curseForgeHash": 2355291992,
-    "modrinthHash": "39353010ac95f38d3e5d691a01b9bcd15ae2de34"
+    "version": "26.1.2-2.0.0.3",
+    "curseForgeHash": 4056348146,
+    "modrinthHash": "469127e62cc9e142b7183b4a6c32df9d9d19dc16"
   },
   "irons_lib-26.1.2-2.0.0.jar": {
     "jarName": "irons_lib-26.1.2-2.0.0.jar",
@@ -1005,13 +1005,13 @@
     "curseForgeHash": 228699385,
     "modrinthHash": "9d7c67fbb015296236dcc56816ae604815721379"
   },
-  "kubejs-neoforge-26.1.2-8.0.3.jar": {
-    "jarName": "kubejs-neoforge-26.1.2-8.0.3.jar",
+  "kubejs-neoforge-26.1.2-8.0.2.jar": {
+    "jarName": "kubejs-neoforge-26.1.2-8.0.2.jar",
     "modId": "kubejs",
     "name": "KubeJS",
-    "version": "26.1.2-8.0.3",
-    "curseForgeHash": 1872728923,
-    "modrinthHash": "0ecd50867bf2f02d6c003c00b69de60fdacb432d"
+    "version": "26.1.2-8.0.2",
+    "curseForgeHash": 3103403189,
+    "modrinthHash": "5d8abf63060048d2aebdb560409a44b4a5d5fc47"
   },
   "laserbridges-26.1.2-neoforge-5.4.jar": {
     "jarName": "laserbridges-26.1.2-neoforge-5.4.jar",
