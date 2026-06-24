@@ -1,0 +1,133 @@
+{
+    "type": "modonomicon:dense",
+    "mapping": {
+        "7": {
+            "type": "modonomicon:block",
+            "block": "neovitae:master_ritual_stone"
+        },
+        "1": {
+            "type": "modonomicon:block",
+            "block": "neovitae:fire_ritual_stone"
+        },
+        "2": {
+            "type": "modonomicon:block",
+            "block": "neovitae:dusk_ritual_stone"
+        },
+        "3": {
+            "type": "modonomicon:block",
+            "block": "neovitae:water_ritual_stone"
+        },
+        "4": {
+            "type": "modonomicon:block",
+            "block": "neovitae:air_ritual_stone"
+        },
+        "5": {
+            "type": "modonomicon:block",
+            "block": "occultism:spirit_attuned_crystal"
+        },
+        "0": {
+            "type": "modonomicon:tag",
+            "display": "occultism:golden_sacrificial_bowl",
+            "tag": "#occultism:center_sacrificial_bowl"
+        },
+        "6": {
+            "type": "modonomicon:block",
+            "block": "occultism:sacrificial_bowl"
+        },
+        "8": {
+            "type": "modonomicon:block",
+            "block": "occultism:otherstone_pedestal"
+        },
+        "9": {
+            "type": "modonomicon:blockstate",
+            "block": "minecraft:soul_lantern[hanging=true]"
+        },
+        "a": {
+            "type": "modonomicon:block",
+            "block": "occultism:chalk_glyph_white"
+        },
+        "b": {
+            "type": "modonomicon:block",
+            "block": "occultism:chalk_glyph_blue"
+        },
+        "c": {
+            "type": "modonomicon:block",
+            "block": "occultism:chalk_glyph_void"
+        },
+        "d": {
+            "type": "modonomicon:blockstate",
+            "block": "occultism:sacrificial_bowl[facing=down]"
+        },
+        "*": {
+            "type": "modonomicon:display",
+            "display": "occultism:otherstone"
+        },
+        "+": {
+            "type": "modonomicon:display",
+            "display": "occultism:otherrock"
+        },
+        "n": {
+            "type": "modonomicon:blockstate",
+            "block": "occultism:sacrificial_bowl[facing=north]"
+        },
+        "e": {
+            "type": "modonomicon:blockstate",
+            "block": "occultism:sacrificial_bowl[facing=east]"
+        },
+        "s": {
+            "type": "modonomicon:blockstate",
+            "block": "occultism:sacrificial_bowl[facing=south]"
+        },
+        "w": {
+            "type": "modonomicon:blockstate",
+            "block": "occultism:sacrificial_bowl[facing=west]"
+        }
+    },
+    "pattern": [
+        [
+            "___2___",
+            "_34e43_",
+            "_4___4_",
+            "2s___n2",
+            "_4___4_",
+            "_34w43_",
+            "___2___"
+        ],
+        [
+            "2_____2",
+            "_9d_d9_",
+            "_d___d_",
+            "_______",
+            "_d___d_",
+            "_9d_d9_",
+            "2_____2"
+        ],
+        [
+            "1__6__1",
+            "_______",
+            "_______",
+            "6_____6",
+            "_______",
+            "_______",
+            "1__6__1"
+        ],
+        [
+            "2ba8ab2",
+            "ba_c_ab",
+            "a_5_5_a",
+            "8c_0_c8",
+            "a_5_5_a",
+            "ba_c_ab",
+            "2ba8ab2" 
+        ],
+        [
+            "+*+*+*+",
+            "*+*+*+*",
+            "+*+*+*+",
+            "*+*7*+*",
+            "+*+*+*+",
+            "*+*+*+*",
+            "+*+*+*+"
+        ]
+    ]
+}

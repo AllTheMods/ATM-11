@@ -69,6 +69,37 @@ StartupEvents.registry("item", (allthemods) => {
   allthemods.create("imperium_enchanting_base").texture("minecraft:item/enchanted_book").color(0x5555ff)
   allthemods.create("supremium_enchanting_base").texture("minecraft:item/enchanted_book").color(0xff5555)
 
+  allthemods.create('allthemodium_mesh').unstackable()
+  allthemods.create('occultism:ritual_dummy/crystalline_infusion').texture('occultism:item/ritual_dummy_craft').displayName('Ritual: Crystalline Infusion')
+  let georeCat = [
+    'copper',
+    'iron',
+    'tin',
+    'gold',
+    'nickel',
+    'coal',
+    'zinc',
+    'lead',
+    'silver',
+    'redstone',
+    'lapis',
+    'osmium',
+    'quartz',
+    'aluminum',
+    'uraninite',
+    'platinum',
+    'diamond',
+    'emerald',
+    'ancient_debris',
+    'allthemodium',
+    'vibranium',
+    'unobtainium'
+  ]
+
+  for (let mat of georeCat) {
+    allthemods.create(`${mat}_catalyst`).texture(`geore:item/${mat}_shard`).glow(true)
+  }
+
   if (Platform.isLoaded("iceandfire")) {
     allthemods
       .create("fire_eye")

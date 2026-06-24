@@ -1,0 +1,11 @@
+{
+    "type": "modonomicon:text",
+    "condition": {
+        "type": "modonomicon:none"
+    },
+    "id": "uses2",
+    "show_title_separator": true,
+    "sort_number": 2,
+    "text": "book.occultism.dictionary_of_spirits.pentacles.crystalline_infusion.uses2.text",
+    "title": "book.occultism.dictionary_of_spirits.pentacles.crystalline_infusion.uses2.title"
+}
