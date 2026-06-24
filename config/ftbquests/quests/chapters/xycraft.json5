@@ -1,0 +1,1103 @@
+{
+  id: "219B7A003658D24F",
+  group: "2B51AC12041E3F89",
+  order_index: 8,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "xycraft_world:xychorium_gem_blue",
+    },
+  },
+  filename: "xycraft",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  autofocus_id: "2AC7BC448C007BDB",
+  quests: [
+    {
+      x: -1.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "15540271BF17C2E4",
+      tasks: [
+        {
+          id: "4EEF358CAC170CC4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems/xychorium)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CDD4192853BADC6",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "15540271BF17C2E4",
+      ],
+      id: "08E484DD3E751697",
+      tasks: [
+        {
+          id: "53B3983C04A5CB1C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_gem_blue",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15DDBBD1EDE8A843",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_storage_blue",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "462DEE14F79B8CCF",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "15540271BF17C2E4",
+      ],
+      id: "3F68BA498E877C8C",
+      tasks: [
+        {
+          id: "59E3B2A8BA8579C0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_gem_green",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "187352DA383B7DF6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_storage_green",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "3E0C9AD83C190CC8",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "15540271BF17C2E4",
+      ],
+      id: "2B5E14A47062F83C",
+      tasks: [
+        {
+          id: "4D389CB7B26F5EB5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_gem_red",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54AEEA17E0FA8135",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_storage_red",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "7E3B99D53B518048",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "15540271BF17C2E4",
+      ],
+      id: "0D01524F249E25D7",
+      tasks: [
+        {
+          id: "78DA1FE8F54FDAE8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_gem_dark",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47406628118C4FAC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_storage_dark",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "441961E8BDDFDE22",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "15540271BF17C2E4",
+      ],
+      id: "69F11A94D44AB5CF",
+      tasks: [
+        {
+          id: "08082713F1556E3A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_gem_light",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15F2DA96D08F45EE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:xychorium_storage_light",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "30318BC56B093D00",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "7574A782DCFB87CE",
+      tasks: [
+        {
+          id: "4BF8E17EC585CA54",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:kivi",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35BC84DFB247D4E8",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 0.0,
+      dependencies: [
+        "7574A782DCFB87CE",
+      ],
+      size: 1.25,
+      id: "2AC7BC448C007BDB",
+      tasks: [
+        {
+          id: "704B12123DFC3CDA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:machine_base",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "588A664EA3133C1A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:machine_base",
+            },
+          },
+          count: 3,
+          random_bonus: 2,
+        },
+        {
+          id: "708BE30907A8B470",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 0.0,
+      dependencies: [
+        "2B5E14A47062F83C",
+        "2AC7BC448C007BDB",
+      ],
+      id: "5E1D4169C083ACEF",
+      tasks: [
+        {
+          id: "2E515AF3D5E72596",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:ignition_plate",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "718E0ACB646A6530",
+          type: "item",
+          item: {
+            id: "minecraft:lava_bucket",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "708FCB208BAFBA90",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -1.0,
+      dependencies: [
+        "3F68BA498E877C8C",
+        "2AC7BC448C007BDB",
+      ],
+      id: "3E970E76372AB094",
+      tasks: [
+        {
+          id: "3C69F169CDF02BC0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:planter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E05B27D9EBDCE8F",
+          type: "item",
+          item: {
+            id: "minecraft:wheat_seeds",
+            count: 1,
+          },
+          count: 5,
+          random_bonus: 5,
+        },
+        {
+          id: "17409E46C9213120",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -2.0,
+      dependencies: [
+        "08E484DD3E751697",
+        "2AC7BC448C007BDB",
+      ],
+      id: "623E6A855B363C8D",
+      tasks: [
+        {
+          id: "308A581A02968EBB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:water_block",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A17107D57BBE1E1",
+          type: "item",
+          item: {
+            id: "minecraft:water_bucket",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "04B0A097DB8F065B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 2.0,
+      dependencies: [
+        "69F11A94D44AB5CF",
+        "2AC7BC448C007BDB",
+      ],
+      id: "2C4ECA4F5B1639F4",
+      tasks: [
+        {
+          id: "302ABCB249064D46",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:light_field",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A22D0A5AAD95D34",
+          type: "item",
+          item: {
+            id: "minecraft:glowstone",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "7C9CBE2C368546AE",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 1.0,
+      dependencies: [
+        "0D01524F249E25D7",
+        "2AC7BC448C007BDB",
+      ],
+      id: "64D0D69ADB8820DA",
+      tasks: [
+        {
+          id: "4A432948E1F77298",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:fluid_void",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C638EBAF29CD369",
+          type: "item",
+          item: {
+            id: "minecraft:bucket",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "4DF915CF697019BF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -2.0,
+      dependencies: [
+        "7574A782DCFB87CE",
+      ],
+      id: "71D133BA3EC6F4FD",
+      tasks: [
+        {
+          id: "2457D9787DD41867",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:extractor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A3909D004F030AA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:kivi",
+            },
+          },
+          count: 5,
+          random_bonus: 5,
+        },
+        {
+          id: "34E27F4E11D3F8BE",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 2.0,
+      id: "39E4FC9BA89E44BC",
+      tasks: [
+        {
+          id: "05930E109A92E8BB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:stake",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1558FCDBAF58C98C",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "apothic_attributes:levitation",
+              },
+            },
+          },
+        },
+        {
+          id: "33F11E1C7258F806",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 2.0,
+      shape: "pentagon",
+      dependencies: [
+        "7574A782DCFB87CE",
+      ],
+      size: 1.2,
+      id: "6D0876A402C22067",
+      tasks: [
+        {
+          id: "1820FB689A9537EF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:port_item",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20DDF24F5D642F86",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:port_item",
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "470A211A0428430A",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -2.0,
+      shape: "pentagon",
+      dependencies: [
+        "7574A782DCFB87CE",
+      ],
+      size: 1.2,
+      id: "2C7D62231AD6406A",
+      tasks: [
+        {
+          id: "470DF61394ED606D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:port_fluid",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1687EC60DA0E9D13",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:port_fluid",
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "40ADF887EF953209",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 2.5,
+      dependencies: [
+        "06B85804163DD18B",
+        "6D0876A402C22067",
+      ],
+      id: "4A92237E17ED5F1C",
+      tasks: [
+        {
+          id: "2B9EAD369BB9F233",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:void_container",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6230EB15ED4862B0",
+          type: "item",
+          item: {
+            id: "alltheores:aluminum_ingot",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "3C853CFDE6CDCB57",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 2.5,
+      dependencies: [
+        "6D0876A402C22067",
+      ],
+      id: "06B85804163DD18B",
+      tasks: [
+        {
+          id: "366CCB18B6C9CC7A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:soaryn_box",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "313071486C91900D",
+          type: "item",
+          item: {
+            id: "pipez:item_pipe",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "121268C988915DBC",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 1.5,
+      dependencies: [
+        "06B85804163DD18B",
+        "6D0876A402C22067",
+      ],
+      id: "355244420EA47546",
+      tasks: [
+        {
+          id: "6B60741F11E1F1AE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:fabricator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "525DB571EA0769AA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:soaryn_box",
+            },
+          },
+        },
+        {
+          id: "678B24D551EDB369",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -1.5,
+      dependencies: [
+        "2C7D62231AD6406A",
+      ],
+      id: "43F08B510FC1C06F",
+      tasks: [
+        {
+          id: "781F65E2C16C94BB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:item_io",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "19CFD9C273503054",
+          type: "item",
+          item: {
+            id: "minecraft:bucket",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "4EF3B4EEA9C13D48",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -3.0,
+      dependencies: [
+        "2C7D62231AD6406A",
+      ],
+      id: "643FB1A3ED0EA9EC",
+      tasks: [
+        {
+          id: "539E2D9E214F0142",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:valve",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3647CEF5F7135475",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:port_fluid",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "665D944792325D70",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -2.5,
+      dependencies: [
+        "2C7D62231AD6406A",
+        "643FB1A3ED0EA9EC",
+        "43F08B510FC1C06F",
+        "030AC1AF8F735550",
+      ],
+      id: "2278A98DCDF713D7",
+      tasks: [
+        {
+          id: "460FA61A72720319",
+          type: "item",
+          item: {
+            id: "minecraft:glass",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "230753A98859C84C",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 3.0,
+      dependencies: [
+        "6D0876A402C22067",
+        "06B85804163DD18B",
+      ],
+      id: "1E00DBAACDF4404F",
+      tasks: [
+        {
+          id: "2F151495F025EEB1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:collector",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36356C42D53FA44A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:soaryn_box",
+            },
+          },
+        },
+        {
+          id: "3AF1A7ABA05B7111",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "xycraft_machines:hydro_pump",
+        },
+      },
+      x: 6.5,
+      y: -2.5,
+      dependencies: [
+        "2C7D62231AD6406A",
+      ],
+      id: "030AC1AF8F735550",
+      tasks: [
+        {
+          id: "4EA1F55E2C1D5795",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:hydro_pump",
+            },
+          },
+        },
+        {
+          id: "55DD09212E3DB168",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(pipez:fluid_pipe)item(moderndynamics:fluid_pipe)item(mekanism:basic_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:ultimate_mechanical_pipe)item(immersiveengineering:fluid_pipe)item(pipez:universal_pipe)item_tag(modern_industrialization:fluid_pipes))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "730C13184D1CCB8A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_machines:water_block",
+            },
+          },
+        },
+        {
+          id: "499D7CBD6A652137",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -1.5,
+      shape: "circle",
+      dependencies: [
+        "7574A782DCFB87CE",
+      ],
+      hide_until_deps_complete: true,
+      optional: true,
+      id: "1A96C595CBA42840",
+      tasks: [
+        {
+          id: "23AEF92B0F4BD3E9",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:kivi_seeds",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "540D42ACD0129963",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "xycraft_world:kivi",
+            },
+          },
+          count: 8,
+          random_bonus: 8,
+        },
+        {
+          id: "4EC4A33E7744B01B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 1.5,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "16B4A00948D1F60D",
+      tasks: [
+        {
+          id: "706FA543A6C675D3",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 4.5,
+      y: 4.0,
+      width: 2.0348837209302326,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/xycraft/balloon.png",
+      id: "6A696276E2814B83",
+    },
+    {
+      x: 4.5,
+      y: -4.0,
+      width: 3.294117647058824,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/xycraft/extrator.png",
+      id: "16E1528CD6F3894E",
+    },
+    {
+      x: -2.5,
+      y: 0.0,
+      width: 5.132530120481928,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/xycraft/xycraft.png",
+      id: "665C71F48D494EC7",
+    },
+    {
+      x: 10.5,
+      y: -3.5,
+      width: 3.1714285714285717,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/xycraft/tank.png",
+      id: "4B25BAEA83C74829",
+    },
+    {
+      x: 10.5,
+      y: 4.0,
+      width: 4.265822784810126,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/xycraft/fabricator.png",
+      id: "7643463AF16E54D4",
+    },
+  ],
+}

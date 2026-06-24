@@ -1,0 +1,129 @@
+{
+  id: "5958F7D688A0101D",
+  order_index: 48,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "647219CB0CC4E134",
+      item: {
+        id: "productivebees:gene",
+        count: 1,
+        components: {
+          "productivebees:gene_group": {
+            attribute: "weather_tolerance",
+            value: "weather_tolerance.any",
+            purity: 25,
+          },
+        },
+      },
+      weight: 0.2,
+    },
+    {
+      id: "699A7C2205EA5A2B",
+      item: {
+        id: "productivebees:gene",
+        count: 1,
+        components: {
+          "productivebees:gene_group": {
+            attribute: "behavior",
+            value: "behavior.metaturnal",
+            purity: 25,
+          },
+        },
+      },
+      weight: 0.3,
+    },
+    {
+      id: "7EABB62519D985EC",
+      item: {
+        id: "productivebees:gene",
+        count: 1,
+        components: {
+          "productivebees:gene_group": {
+            attribute: "productivity",
+            value: "productivity.very_high",
+            purity: 25,
+          },
+        },
+      },
+      weight: 0.15,
+    },
+    {
+      id: "7D606935F9971609",
+      item: {
+        id: "productivebees:gene",
+        count: 1,
+        components: {
+          "productivebees:gene_group": {
+            attribute: "productivity",
+            value: "productivity.high",
+            purity: 25,
+          },
+        },
+      },
+      weight: 0.45,
+    },
+    {
+      id: "443C1CB7447BE142",
+      item: {
+        id: "productivebees:gene",
+        count: 1,
+        components: {
+          "productivebees:gene_group": {
+            attribute: "productivity",
+            value: "productivity.high",
+            purity: 50,
+          },
+        },
+      },
+      weight: 0.35,
+    },
+    {
+      id: "4D5FF8EAE43379B2",
+      item: {
+        id: "productivebees:gene",
+        count: 1,
+        components: {
+          "productivebees:gene_group": {
+            attribute: "behavior",
+            value: "behavior.metaturnal",
+            purity: 50,
+          },
+        },
+      },
+      weight: 0.25,
+    },
+    {
+      id: "7F6E3DBACBF79146",
+      item: {
+        id: "productivebees:gene",
+        count: 1,
+        components: {
+          "productivebees:gene_group": {
+            attribute: "endurance",
+            value: "endurance.strong",
+            purity: 50,
+          },
+        },
+      },
+      weight: 0.45,
+    },
+    {
+      id: "33306E8BF084115B",
+      item: {
+        id: "productivebees:gene",
+        count: 1,
+        components: {
+          "productivebees:gene_group": {
+            attribute: "endurance",
+            value: "endurance.strong",
+            purity: 25,
+          },
+        },
+      },
+      weight: 0.5,
+    },
+  ],
+}

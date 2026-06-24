@@ -1,0 +1,53 @@
+{
+  id: "6329856B9A5563C4",
+  order_index: 57,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "0DC2464B848C078E",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:awakened_core",
+        },
+      },
+      count: 3,
+      weight: 2.0,
+    },
+    {
+      id: "2190681D1DDD0D34",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:awakened_draconium_ingot",
+        },
+      },
+      count: 4,
+      weight: 2.0,
+    },
+    {
+      id: "0309C39178E52F82",
+      item: {
+        id: "minecraft:nether_star",
+        count: 1,
+      },
+      count: 2,
+      weight: 0.5,
+    },
+    {
+      id: "0848D4DCAE7A19B3",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:draconic_energy_core",
+        },
+      },
+      count: 2,
+    },
+  ],
+}

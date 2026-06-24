@@ -1,0 +1,39 @@
+{
+  id: "3EFA2A65D70FADCC",
+  order_index: 46,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "76A9116D60794C31",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "oritech:machine_extender",
+        },
+      },
+    },
+    {
+      id: "1005D3233191DFB1",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "oritech:machine_speed_addon",
+        },
+      },
+    },
+    {
+      id: "5BF4E921C9438323",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "oritech:machine_efficiency_addon",
+        },
+      },
+    },
+  ],
+}

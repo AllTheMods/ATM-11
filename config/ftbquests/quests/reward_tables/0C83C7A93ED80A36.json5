@@ -1,0 +1,256 @@
+{
+  id: "0C83C7A93ED80A36",
+  order_index: 41,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "061A5F4BDEDD389E",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:gold_fiber",
+        },
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 2.0,
+    },
+    {
+      id: "4022B6EAC30CA247",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:gold_leaf",
+        },
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 1.5,
+    },
+    {
+      id: "34501F178CC59E93",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:gold_powder",
+        },
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 1.5,
+    },
+    {
+      id: "015D3977210996E3",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:ancient_sapling",
+        },
+      },
+      weight: 0.75,
+    },
+    {
+      id: "2096CCEE5D34855B",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:infused_stone",
+        },
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 0.75,
+    },
+    {
+      id: "35AB3727B879ED35",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:aura_bloom",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "5ED3209062652B02",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:aura_cactus",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "5B77F0FCE3A1D531",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:warped_aura_mushroom",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "0AA95FDFAF828CFE",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:crimson_aura_mushroom",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "19D961FA77E9C55D",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:aura_mushroom",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "11137EF6C15075DA",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:bottle_two_the_rebottling",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "247DE7E5B97156BF",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:end_flower",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "0084B149BC255E93",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:aura_bottle",
+        },
+      },
+      random_bonus: 1,
+    },
+    {
+      id: "44B77D05AA159A47",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:aura_bottle",
+        },
+      },
+      random_bonus: 1,
+    },
+    {
+      id: "7F02F5D39BA3B151",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:aura_bottle",
+        },
+      },
+      random_bonus: 1,
+    },
+    {
+      id: "75E325D5BF306F0C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:farming_stencil",
+        },
+      },
+      count: 2,
+      random_bonus: 2,
+    },
+    {
+      id: "44B9358D88C29904",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:ancient_log",
+        },
+      },
+      count: 3,
+      random_bonus: 2,
+    },
+    {
+      id: "2E40D6A8DEBF6C55",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:ancient_stick",
+        },
+      },
+      count: 2,
+      random_bonus: 2,
+    },
+    {
+      id: "2253F0F68B879A4A",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:gold_brick",
+        },
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 0.75,
+    },
+    {
+      id: "61CA415AB5031BB7",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:ender_crate",
+        },
+      },
+      weight: 0.5,
+    },
+  ],
+}

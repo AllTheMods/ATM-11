@@ -1,0 +1,152 @@
+{
+  id: "7FB97C5850827C71",
+  order_index: 26,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "68F23643F9D26712",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:advanced_pressure_tube",
+        },
+      },
+      count: 5,
+      random_bonus: 5,
+      weight: 1.5,
+    },
+    {
+      id: "4FB2A8D41A0E7EF5",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:aphorism_tile",
+        },
+      },
+      random_bonus: 1,
+      weight: 2.0,
+    },
+    {
+      id: "3CAFFB7EEC6D8AA8",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:solar_cell",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 2.0,
+    },
+    {
+      id: "04854C156B9C70FD",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:solar_compressor",
+        },
+      },
+    },
+    {
+      id: "0CC1A37261C8F64C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:pneumatic_dynamo",
+        },
+      },
+    },
+    {
+      id: "26F60369A753E049",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:flux_compressor",
+        },
+      },
+    },
+    {
+      id: "7598A7998E7C31A9",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:electrostatic_compressor",
+        },
+      },
+    },
+    {
+      id: "2B04FB1CD1CC81B4",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:advanced_liquid_compressor",
+        },
+      },
+    },
+    {
+      id: "5FFAAD8D3C67114D",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:large_tank",
+        },
+      },
+      weight: 2.0,
+    },
+    {
+      id: "30F042943FCCBCED",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:pressurized_spawner",
+        },
+      },
+      weight: 1.5,
+    },
+    {
+      id: "46A3A10741742419",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:reinforced_air_canister",
+        },
+      },
+      random_bonus: 1,
+      weight: 2.0,
+    },
+    {
+      id: "5A57B78551D22C7A",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:jet_boots_upgrade_1",
+        },
+      },
+    },
+    {
+      id: "4B3943EA7F2B66EE",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:jet_boots_upgrade_2",
+        },
+      },
+      weight: 0.5,
+    },
+  ],
+}

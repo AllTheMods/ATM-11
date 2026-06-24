@@ -1,0 +1,285 @@
+{
+  id: "08F142CC52B97FF5",
+  order_index: 42,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "156E69FD454E9382",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:steeleaf_ingot",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 0.5,
+    },
+    {
+      id: "245D4EB778C0777E",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:knightmetal_ingot",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 0.5,
+    },
+    {
+      id: "5FACBEEB65797B14",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:raw_ironwood",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+    },
+    {
+      id: "38AC2E6906633A18",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:ironwood_ingot",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 0.5,
+    },
+    {
+      id: "43010A4A645DD2EF",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:fiery_blood",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 0.25,
+    },
+    {
+      id: "1AE9136C2CF02F48",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:hydra_chop",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 0.2,
+    },
+    {
+      id: "316283D128C1E71D",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:raw_venison",
+        },
+      },
+      count: 5,
+      random_bonus: 5,
+    },
+    {
+      id: "706D6E51334BEC13",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:cooked_venison",
+        },
+      },
+      count: 5,
+      random_bonus: 5,
+    },
+    {
+      id: "72AF613212E42C2A",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:charm_of_life_1",
+        },
+      },
+      random_bonus: 1,
+      weight: 0.5,
+    },
+    {
+      id: "57C17FF88935FB58",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:charm_of_keeping_1",
+        },
+      },
+      random_bonus: 1,
+      weight: 0.3,
+    },
+    {
+      id: "330A9A5DE58570DB",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:ore_magnet",
+        },
+      },
+      weight: 0.1,
+    },
+    {
+      id: "5FCB59CADEF2E54F",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:reappearing_block",
+        },
+      },
+      count: 3,
+      random_bonus: 2,
+      weight: 0.1,
+    },
+    {
+      id: "796E6743DEA4F47E",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:transformation_powder",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 0.25,
+    },
+    {
+      id: "64943BD8805B97A1",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:cicada",
+        },
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 0.5,
+    },
+    {
+      id: "01417E717E77ED61",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:ironwood_sword",
+        },
+      },
+      weight: 0.2,
+    },
+    {
+      id: "5D5650F56616B275",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:steeleaf_sword",
+        },
+      },
+      weight: 0.1,
+    },
+    {
+      id: "758453F8900483F9",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:boar_spawn_egg",
+        },
+      },
+      weight: 0.25,
+    },
+    {
+      id: "5EAAAD95B86CF232",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:deer_spawn_egg",
+        },
+      },
+      weight: 0.25,
+    },
+    {
+      id: "035117BE118F7C11",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:raven_feather",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 0.5,
+    },
+    {
+      id: "592DB89AD53093EA",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:penguin_spawn_egg",
+        },
+      },
+      weight: 0.25,
+    },
+    {
+      id: "3D66A56AF176A61C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:raven_spawn_egg",
+        },
+      },
+      weight: 0.25,
+    },
+    {
+      id: "0B66E6580579E776",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:squirrel_spawn_egg",
+        },
+      },
+      weight: 0.25,
+    },
+    {
+      id: "5431EB1290938393",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "twilightforest:tiny_bird_spawn_egg",
+        },
+      },
+      weight: 0.25,
+    },
+  ],
+}

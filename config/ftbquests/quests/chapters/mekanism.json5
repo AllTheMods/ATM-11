@@ -1,0 +1,4861 @@
+{
+  id: "23983F4DC524B14B",
+  group: "2B51AC12041E3F89",
+  order_index: 5,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "mekanism:steel_casing",
+    },
+  },
+  filename: "mekanism",
+  default_quest_shape: "hexagon",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      x: -7.0,
+      y: -2.0,
+      shape: "octagon",
+      dependencies: [
+        "6F62B5510FA881CD",
+      ],
+      size: 1.5,
+      id: "162CE44400A63575",
+      tasks: [
+        {
+          id: "28277BA9F319240D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:metallurgic_infuser",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "29AFF06DC385D68F",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "51A5CFAC8F959189",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "0289C12C1A4022C4",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "4B45935DA547D7B4",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -4.0,
+      hide_dependent_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.2,
+      id: "08DDE018A804BFE7",
+      tasks: [
+        {
+          id: "1AE233B4CCFE99F7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:enrichment_chamber",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D309655B901C073",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_ore",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "12756A65FE318060",
+          type: "item",
+          item: {
+            id: "minecraft:coal_ore",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "45C1AA71947C4995",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -3.5,
+      dependencies: [
+        "6263A27182B2CE3D",
+      ],
+      size: 1.2,
+      id: "195729280394ABFB",
+      tasks: [
+        {
+          id: "6934C61AFEB0443D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:osmium_compressor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23F31E184A0BC6BF",
+          type: "item",
+          item: {
+            id: "alltheores:osmium_block",
+            count: 1,
+          },
+        },
+        {
+          id: "7B52A7CDA934D47A",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 0.0,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.2,
+      id: "7AE502EDB73BD57A",
+      tasks: [
+        {
+          id: "431D7329CFCAF880",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:crusher",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BC0F06D1BAD23AF",
+          type: "item",
+          item: {
+            id: "minecraft:pumpkin_pie",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "7068E963D0F4FF58",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "4CF90B91BEEBDA77",
+          type: "item",
+          item: {
+            id: "alltheores:osmium_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "699A98E44F03D330",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 4.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "4274E777FB60BA28",
+      ],
+      size: 1.0,
+      progression_mode: "linear",
+      id: "37D4E5ACB35D8BF1",
+      tasks: [
+        {
+          id: "71E922FC5BBF154C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:jetpack",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A969E408A3A696F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "628D9C60888FE986",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -7.625,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      size: 1.25,
+      progression_mode: "linear",
+      id: "7CC49360D07086B8",
+      tasks: [
+        {
+          id: "0526878F9506FB48",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:quantum_entangloporter",
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "1EECF8E3FA949798",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:quantum_entangloporter",
+            },
+          },
+        },
+        {
+          id: "7F542B1C3C284C12",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -3.0,
+      shape: "circle",
+      dependencies: [
+        "162CE44400A63575",
+      ],
+      id: "166971866A9234C7",
+      tasks: [
+        {
+          id: "72CE838EFDDE6479",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1394A54150017C88",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "162CE44400A63575",
+      ],
+      id: "0498A578D0EC3254",
+      tasks: [
+        {
+          id: "5E51F5B17F77573E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_control_circuit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11892350D0F57F0A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_control_circuit",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "195729280394ABFB",
+        "5B556192F060F3F1",
+      ],
+      size: 1.3,
+      id: "31B73D16C0199785",
+      tasks: [
+        {
+          id: "69CEEFADCFA28675",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ingot_refined_obsidian",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F39D67873850A3E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ingot_refined_obsidian",
+            },
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.2,
+      optional: true,
+      id: "488DBE69595F38F8",
+      tasks: [
+        {
+          id: "5A081977DB9407EA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:energized_smelter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "341723A1E8951B15",
+          type: "item",
+          item: {
+            id: "alltheores:iron_dust",
+            count: 1,
+          },
+          count: 6,
+        },
+        {
+          id: "769AEF45B4D10F89",
+          type: "item",
+          item: {
+            id: "alltheores:gold_dust",
+            count: 1,
+          },
+          count: 6,
+        },
+        {
+          id: "04CDF937CBD1C53D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 5.375,
+      y: -9.5,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "162CE44400A63575",
+      ],
+      size: 1.25,
+      id: "7B0DFA55B4D8B16D",
+      tasks: [
+        {
+          id: "2C1730C4F7CB8377",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:teleporter_frame",
+            },
+          },
+          count: 9,
+        },
+        {
+          id: "68FE61A81A5C1390",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:teleporter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4290B93D9B749D40",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:teleporter",
+            },
+          },
+        },
+        {
+          id: "026DBF270D3D7CE2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:teleporter_frame",
+            },
+          },
+          count: 9,
+        },
+        {
+          id: "53E0CBF154C002AB",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -7.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+        "01A90E2541C91DB2",
+      ],
+      id: "3C8D9278B81BB37A",
+      tasks: [
+        {
+          id: "46C5C0922839BDCA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:upgrade_speed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43031D02E152F43D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:structural_glass",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "7CEFECD1244BFF92",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "2D10CC62E829D608",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -7.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+        "01A90E2541C91DB2",
+      ],
+      id: "0ACE573560A19309",
+      tasks: [
+        {
+          id: "1B5CF4B0B6D3F6F9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:upgrade_energy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "728A5E0B2CC417CC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:structural_glass",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "0B8ECCC73D708913",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "4E6A4D72CF6BECA4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -8.0,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+        "01A90E2541C91DB2",
+      ],
+      id: "763FB27929E053BE",
+      tasks: [
+        {
+          id: "43E4874F23459DB1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:upgrade_filter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C14BE9CAE4F8F14",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:structural_glass",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "479D3C8D1D749913",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "7030428EB92884FE",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -8.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+        "01A90E2541C91DB2",
+      ],
+      id: "001DE8028CAF0A08",
+      tasks: [
+        {
+          id: "126FB3CA8F2CCF11",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:upgrade_muffling",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BDA678CBD028B9D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:structural_glass",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "493649CB64BD53CC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "74D9ABBD6ADE2799",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: -7.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+        "01A90E2541C91DB2",
+      ],
+      id: "09830BB2A23E94B4",
+      tasks: [
+        {
+          id: "70A4BDDF6392DC9D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:upgrade_chemical",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E758DDC0EE913C7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:structural_glass",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "488100DCB6362F62",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "13C3EF825D013B86",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -8.0,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+        "01A90E2541C91DB2",
+      ],
+      id: "515A60B89ED5440D",
+      tasks: [
+        {
+          id: "0872B5A950703C8A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:upgrade_stone_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0DB82DEFBF1797E5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:structural_glass",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "6DA9CC0BE71178A9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "0865420DFDC64BF7",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -5.5,
+      shape: "octagon",
+      dependencies: [
+        "4B35C01F5D0AAC58",
+      ],
+      size: 2.0,
+      progression_mode: "linear",
+      id: "5E116409DC7D30BB",
+      tasks: [
+        {
+          id: "2612CACBDDF9AD1A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:configurator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0DFF754CD9DF5964",
+          type: "item",
+          item: {
+            id: "alltheores:steel_block",
+            count: 1,
+          },
+        },
+        {
+          id: "6572C829FB6DF680",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:configurator",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 4.0,
+      dependencies: [
+        "4935209D870E25F2",
+      ],
+      size: 1.2,
+      id: "74200A48498DD7F8",
+      tasks: [
+        {
+          id: "22ACFEB806D68385",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:solar_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "397335D5B4A474D7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:solar_generator",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 5.0,
+      dependencies: [
+        "4935209D870E25F2",
+      ],
+      size: 1.2,
+      id: "0650996C7818ADB5",
+      tasks: [
+        {
+          id: "7BA12BAB8271E170",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:heat_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "413517CB91D4A852",
+          type: "item",
+          item: {
+            id: "minecraft:lava_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "2BC53B28C901804D",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 4.0,
+      dependencies: [
+        "4935209D870E25F2",
+      ],
+      size: 1.2,
+      id: "6CD1720B76F47806",
+      tasks: [
+        {
+          id: "36B12984060A90FD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:bio_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6368C6C6C848FD1C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:bio_fuel",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 4.0,
+      dependencies: [
+        "74200A48498DD7F8",
+      ],
+      size: 1.2,
+      id: "4EDD96EB60EF5814",
+      tasks: [
+        {
+          id: "4F0B3CA66BE1AEE1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:advanced_solar_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25D9FC3B87830E62",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:advanced_solar_generator",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 5.0,
+      dependencies: [
+        "4935209D870E25F2",
+      ],
+      size: 1.2,
+      id: "7778937DF377C1B4",
+      tasks: [
+        {
+          id: "50624A39AD15A8A6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:wind_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "776C92303452C13A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:wind_generator",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:creative_energy_cube",
+        },
+      },
+      x: -10.5,
+      y: -2.0,
+      shape: "gear",
+      size: 3.0,
+      id: "58B125BD4876054C",
+      tasks: [
+        {
+          id: "77329B944064E893",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "457FAB2DDE9FBC18",
+          type: "item",
+          item: {
+            id: "alltheores:osmium_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "289C97B3D45F7CEA",
+          type: "xp",
+          xp: 5,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "58B125BD4876054C",
+      ],
+      id: "6F62B5510FA881CD",
+      tasks: [
+        {
+          id: "52967F83338A3AC3",
+          type: "item",
+          item: {
+            id: "alltheores:osmium_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15B09C5CB616774A",
+          type: "item",
+          item: {
+            id: "alltheores:osmium_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "05E6E064A356BD50",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -5.5,
+      shape: "circle",
+      dependencies: [
+        "08DDE018A804BFE7",
+      ],
+      id: "0F326EEEC2EBE4E5",
+      tasks: [
+        {
+          id: "4B60ACBCC3B46D1D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:enriched)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "592DDA8413504FDB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:enriched_carbon",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "59D1BBED0E121735",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:enriched_redstone",
+            },
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -1.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "4A1C8125896F7F1A",
+      tasks: [
+        {
+          id: "62F11A588B293CA6",
+          type: "checkmark",
+        },
+        {
+          id: "770B8B984F85AB73",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -2.0,
+      shape: "diamond",
+      dependencies: [
+        "162CE44400A63575",
+      ],
+      size: 1.2,
+      id: "4B35C01F5D0AAC58",
+      tasks: [
+        {
+          id: "6E9280AEB3B1D973",
+          type: "item",
+          item: {
+            id: "alltheores:steel_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "748014A68CC69AA4",
+          type: "item",
+          item: {
+            id: "alltheores:steel_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -2.0,
+      shape: "octagon",
+      dependencies: [
+        "4B35C01F5D0AAC58",
+      ],
+      size: 2.0,
+      id: "21D8B88155648EA6",
+      tasks: [
+        {
+          id: "4F664D5E6C5FDE3B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:steel_casing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "267158EC8C481DAA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:steel_casing",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "7EA74CD7BD2DBD03",
+          type: "item",
+          item: {
+            id: "alltheores:steel_block",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -1.0,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.2,
+      id: "7ECA0633AF1AEC19",
+      tasks: [
+        {
+          id: "6EBD377FB5A66ABC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:precision_sawmill",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "598E76F7F2DCC74B",
+          type: "item",
+          item: {
+            id: "minecraft:oak_log",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "5E624A978A096C90",
+          type: "item",
+          item: {
+            id: "minecraft:oak_door",
+            count: 1,
+          },
+        },
+        {
+          id: "5A42042191700450",
+          type: "item",
+          item: {
+            id: "minecraft:stick",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "713C27B39155B95B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 2.5,
+      shape: "octagon",
+      dependencies: [
+        "166971866A9234C7",
+      ],
+      size: 2.0,
+      id: "4935209D870E25F2",
+      tasks: [
+        {
+          id: "3FD63A725A23D407",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:energy_tablet",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D0F47B9722395FB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:energy_tablet",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:basic_control_circuit",
+        },
+      },
+      x: -8.5,
+      y: -5.0,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0498A578D0EC3254",
+        "166971866A9234C7",
+      ],
+      size: 1.5,
+      id: "19341B01E048ACAB",
+      tasks: [
+        {
+          id: "185D97FCA1C83569",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+        },
+        {
+          id: "676E0375B6D394DE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_control_circuit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E6C67FC60596199",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "76915C0FFCE25CD5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_control_circuit",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "2660677569A147E1",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:advanced_control_circuit",
+        },
+      },
+      x: -8.5,
+      y: -6.5,
+      shape: "square",
+      dependencies: [
+        "19341B01E048ACAB",
+      ],
+      size: 1.5,
+      id: "7C687DCF71D77761",
+      tasks: [
+        {
+          id: "3B51C96356777FE6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+        },
+        {
+          id: "742BD37F93033B43",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_control_circuit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5712ADF318B8BCA5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "25E4D4721B55C437",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_control_circuit",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "6D27F6A4BACDE0EB",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:elite_control_circuit",
+        },
+      },
+      x: -8.5,
+      y: -8.0,
+      shape: "square",
+      dependencies: [
+        "7C687DCF71D77761",
+      ],
+      size: 1.5,
+      id: "1AEFF93A398B8BBF",
+      tasks: [
+        {
+          id: "781B2DF9116224AE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_reinforced",
+            },
+          },
+        },
+        {
+          id: "5276C509EAB86E08",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:elite_control_circuit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F7663D600B2904D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_reinforced",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "3266975151F0231F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:elite_control_circuit",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "4ABE7D45262B995E",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:ultimate_control_circuit",
+        },
+      },
+      x: -8.5,
+      y: -9.5,
+      shape: "square",
+      dependencies: [
+        "1AEFF93A398B8BBF",
+      ],
+      size: 1.5,
+      id: "06210B6FD0F9989B",
+      tasks: [
+        {
+          id: "7B50CD2512E228C7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_atomic",
+            },
+          },
+        },
+        {
+          id: "51D7F20218979185",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ultimate_control_circuit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3BF1F01D8DAEE36B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_atomic",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "30187838EE3F1AA7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ultimate_control_circuit",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "07B74F1FC6847CE8",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -2.0,
+      shape: "square",
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      id: "6263A27182B2CE3D",
+      tasks: [
+        {
+          id: "12083A6D1B9E9DD2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_control_circuit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "001818AFC352F576",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -0.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6263A27182B2CE3D",
+        "08DDE018A804BFE7",
+      ],
+      size: 1.2,
+      id: "33415CB421F7620A",
+      tasks: [
+        {
+          id: "1EA4F0AB480D485C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:purification_chamber",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05476026B011B7F3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "18AFA7F8A99DB420",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -2.0,
+      shape: "square",
+      dependencies: [
+        "6263A27182B2CE3D",
+      ],
+      id: "71CF9E59F8F0B4A6",
+      tasks: [
+        {
+          id: "3F63638F51621F9B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:elite_control_circuit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FE81BD3BD80497B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_reinforced",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -3.5,
+      dependencies: [
+        "71CF9E59F8F0B4A6",
+        "33415CB421F7620A",
+      ],
+      size: 1.2,
+      id: "27512B0434531195",
+      tasks: [
+        {
+          id: "74B8B9D4235932E9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_injection_chamber",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2DC3AEEEC5632BA4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electrolytic_separator",
+            },
+          },
+        },
+        {
+          id: "4C2BC1143155F85D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:rotary_condensentrator",
+            },
+          },
+        },
+        {
+          id: "7D84FC16988D899C",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -0.5,
+      dependencies: [
+        "71CF9E59F8F0B4A6",
+      ],
+      size: 1.2,
+      id: "566C1DBA9829E328",
+      tasks: [
+        {
+          id: "053EF49754F230E7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:combiner",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4DCDD31F9A3C37CE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:dust_obsidian",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "79DEEE79FAE9CF36",
+          type: "item",
+          item: {
+            id: "minecraft:deepslate",
+            count: 1,
+          },
+        },
+        {
+          id: "12491ACB4EC7978C",
+          type: "item",
+          item: {
+            id: "minecraft:honeycomb",
+            count: 1,
+          },
+          count: 6,
+        },
+        {
+          id: "2F392DF89C823E7A",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -2.0,
+      shape: "square",
+      dependencies: [
+        "71CF9E59F8F0B4A6",
+      ],
+      id: "1ABD22AA58E093A6",
+      tasks: [
+        {
+          id: "502CE81BE644D7C6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ultimate_control_circuit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4331C41B400F9C1C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_atomic",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -3.5,
+      dependencies: [
+        "1ABD22AA58E093A6",
+      ],
+      size: 1.2,
+      id: "60B52705049D1BA5",
+      tasks: [
+        {
+          id: "6E41AFEFE0465C0E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_washer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3501EAECA7D7B468",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_fluid_tank",
+            },
+          },
+        },
+        {
+          id: "169B67FD084BB70E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ingot_refined_obsidian",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "18E677533572DDC9",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -0.5,
+      dependencies: [
+        "1ABD22AA58E093A6",
+      ],
+      size: 1.2,
+      id: "6B8040401B512E50",
+      tasks: [
+        {
+          id: "13D3F4ECC92F2E27",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_dissolution_chamber",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A15BC4722C8BCBB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:elite_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "4E8F1FACDBB479BE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ingot_refined_obsidian",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "6803529F2D18E713",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -2.0,
+      dependencies: [
+        "1ABD22AA58E093A6",
+      ],
+      size: 1.2,
+      id: "602A6CF9D5B66AD3",
+      tasks: [
+        {
+          id: "5DFC69D1B7401504",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_crystallizer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "303E36985ED99568",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:dust_lithium",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "5D27CC0963A09EC3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ingot_refined_obsidian",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "3F2A3E09FA7C86AB",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 0.5,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.2,
+      id: "18783C62009934DB",
+      tasks: [
+        {
+          id: "3E038C9465AFD2DF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electrolytic_separator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2154BC07C710F358",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electric_pump",
+            },
+          },
+        },
+        {
+          id: "613AEE5D814373FE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_fluid_tank",
+            },
+          },
+        },
+        {
+          id: "7EF9AB970ADA6543",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -4.5,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.2,
+      id: "2A793B35FE25003C",
+      tasks: [
+        {
+          id: "094E011B06F9C4C1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_oxidizer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "653751838EC9DCF4",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "2293E19A1F4ABEA2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:bio_fuel",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "12C65CD9B872414B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -2.0,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.2,
+      id: "376532CD98D39781",
+      tasks: [
+        {
+          id: "237D7DBBA337FDB6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_infuser",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42CFE43A8BA5FAF9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "4F9A8AF6979D6095",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 0.0,
+      hide_dependent_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.2,
+      id: "71869B1D81D6A7EF",
+      tasks: [
+        {
+          id: "308D7BDFD0DE8029",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:pressurized_reaction_chamber",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6272571A549DAE05",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "alltheores:sulfur",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "50C32590C8A18E63",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:dust_charcoal",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "08DDF2A1AC118BCD",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -4.0,
+      hide_dependent_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.2,
+      id: "603BEDD49070ECAD",
+      tasks: [
+        {
+          id: "37810885CDE26AA0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:rotary_condensentrator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F9489F163A378BA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_fluid_tank",
+            },
+          },
+        },
+        {
+          id: "063FC130A99430D8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "4024E2541F914B2D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: -2.0,
+      shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "376532CD98D39781",
+        "2A793B35FE25003C",
+        "6B8040401B512E50",
+        "08DDE018A804BFE7",
+        "603BEDD49070ECAD",
+      ],
+      size: 3.0,
+      id: "7276892E129A739B",
+      tasks: [
+        {
+          id: "0EEB2867C1D2D227",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "alltheores:sulfur",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04E2FD578DBB2E16",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "alltheores:sulfur",
+            },
+          },
+          count: 20,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 4.5,
+      shape: "rsquare",
+      dependencies: [
+        "4935209D870E25F2",
+      ],
+      id: "62827AA1AD29A222",
+      tasks: [
+        {
+          id: "6877D91D6603E4FD",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:advanced_universal_cable)item(mekanism:elite_universal_cable)item(mekanism:ultimate_universal_cable))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "600CE8C98D0CF3B2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_universal_cable",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "7CF35F9ED70945C9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_universal_cable",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 4.5,
+      shape: "rsquare",
+      dependencies: [
+        "4935209D870E25F2",
+      ],
+      id: "0AA9EF3981E9BA37",
+      tasks: [
+        {
+          id: "03C590DB786810FB",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_energy_cube)item(mekanism:advanced_energy_cube)item(mekanism:elite_energy_cube)item(mekanism:ultimate_energy_cube))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10FD3BDB04012C03",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_energy_cube",
+            },
+          },
+        },
+        {
+          id: "4840E4DD56DBD180",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_energy_cube",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -7.5,
+      shape: "rsquare",
+      dependencies: [
+        "5E116409DC7D30BB",
+      ],
+      size: 1.25,
+      id: "33C69B5934BE4D64",
+      tasks: [
+        {
+          id: "4632192573FD8501",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:ultimate_mechanical_pipe))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26272E4B7C8569D4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_mechanical_pipe",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "1C9261B07B99DB1C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_mechanical_pipe",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -7.5,
+      shape: "rsquare",
+      dependencies: [
+        "5E116409DC7D30BB",
+      ],
+      size: 1.25,
+      id: "3AF1DC02E9A0010C",
+      tasks: [
+        {
+          id: "50795B2B2A320D16",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_pressurized_tube)item(mekanism:advanced_pressurized_tube)item(mekanism:elite_pressurized_tube)item(mekanism:ultimate_pressurized_tube))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55A16073857CB8E8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_pressurized_tube",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "5F163E54692A7B7C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_pressurized_tube",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -7.5,
+      shape: "rsquare",
+      dependencies: [
+        "5E116409DC7D30BB",
+      ],
+      size: 1.25,
+      id: "60ECCCAB66AAC05D",
+      tasks: [
+        {
+          id: "6B24D8667BC856A3",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_logistical_transporter)item(mekanism:advanced_logistical_transporter)item(mekanism:elite_logistical_transporter)item(mekanism:ultimate_logistical_transporter))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0694B55D2359E8EC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_logistical_transporter",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "4642175991AD49EB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_logistical_transporter",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -7.5,
+      shape: "rsquare",
+      dependencies: [
+        "5E116409DC7D30BB",
+      ],
+      size: 1.25,
+      id: "66A450CAC07232E1",
+      tasks: [
+        {
+          id: "36B9FB74D9BF26E4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_thermodynamic_conductor)item(mekanism:advanced_thermodynamic_conductor)item(mekanism:elite_thermodynamic_conductor)item(mekanism:ultimate_thermodynamic_conductor))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "452CE7224E47C6FB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_thermodynamic_conductor",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "38CBB51E6E32F1F1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_thermodynamic_conductor",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -9.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "19341B01E048ACAB",
+      ],
+      size: 1.1,
+      id: "090B564935D7A8F5",
+      tasks: [
+        {
+          id: "09788D3638E59F3B",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_tier_installer)item(mekanism:advanced_tier_installer)item(mekanism:elite_tier_installer)item(mekanism:ultimate_tier_installer))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "083E13034B619449",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_tier_installer",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "061B8D59E524F7D1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_tier_installer",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -9.0,
+      dependencies: [
+        "3AF1DC02E9A0010C",
+      ],
+      id: "1922623A26E08078",
+      tasks: [
+        {
+          id: "16E5E87F1CAC042A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_chemical_tank)item(mekanism:advanced_chemical_tank)item(mekanism:elite_chemical_tank)item(mekanism:ultimate_chemical_tank))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11BD4A6B2F166B9F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "0BDA77DFE349F0AA",
+          type: "item",
+          item: {
+            id: "alltheores:osmium_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -9.0,
+      dependencies: [
+        "33C69B5934BE4D64",
+      ],
+      id: "7952DA35B4F5C598",
+      tasks: [
+        {
+          id: "68C11540A9010775",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_fluid_tank)item(mekanism:advanced_fluid_tank)item(mekanism:elite_fluid_tank)item(mekanism:ultimate_fluid_tank))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E34B11E7DAE24E5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "0D0E955A5FEF26DC",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -9.0,
+      dependencies: [
+        "60ECCCAB66AAC05D",
+      ],
+      id: "73E6878553BA6908",
+      tasks: [
+        {
+          id: "11EF7663818B6CC6",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_bin)item(mekanism:advanced_bin)item(mekanism:elite_bin)item(mekanism:ultimate_bin))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27A380BFA32783CB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_control_circuit",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "099EDEA01FCF014F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_control_circuit",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -9.0,
+      dependencies: [
+        "66A450CAC07232E1",
+      ],
+      id: "2D1CBCEC82F1B37D",
+      tasks: [
+        {
+          id: "63F607E14930E02F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:fuelwood_heater",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "603A2C9BF522F6EC",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -9.0,
+      dependencies: [
+        "66A450CAC07232E1",
+      ],
+      id: "21F3379C904BFD50",
+      tasks: [
+        {
+          id: "4AF656625B1F28EC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:resistive_heater",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C517D46C4681B3A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_energy_cube",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -9.0,
+      dependencies: [
+        "60ECCCAB66AAC05D",
+      ],
+      id: "1F8B4F648EB5A0DC",
+      tasks: [
+        {
+          id: "2C1B1D314E190B80",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:personal_barrel)item(mekanism:personal_chest))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "76209AC2E7706116",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:security_desk",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 5.5,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "4935209D870E25F2",
+      ],
+      id: "4274E777FB60BA28",
+      tasks: [
+        {
+          id: "2C00975AAF9037A4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chargepad",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71401FACDE62C93B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_energy_cube",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 4.0,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.25,
+      id: "119BED334E331C25",
+      tasks: [
+        {
+          id: "4558919345C3BE5D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:enrichment_chamber)item(mekanism:basic_enriching_factory)item(mekanism:advanced_enriching_factory)item(mekanism:elite_enriching_factory)item(mekanism:ultimate_enriching_factory))",
+            },
+          },
+        },
+        {
+          id: "4B6C5B2099B18AB7",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:energized_smelter)item(mekanism:basic_smelting_factory)item(mekanism:advanced_smelting_factory)item(mekanism:elite_smelting_factory)item(mekanism:ultimate_smelting_factory))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DA9DE79920ACF0D",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ore",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "2D599F0012C5292F",
+          type: "item",
+          item: {
+            id: "minecraft:raw_iron",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "79532E4325832DA5",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 5.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.25,
+      id: "445CC9AAA6F8AAB6",
+      tasks: [
+        {
+          id: "4D849193A07D4F83",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electric_pump",
+            },
+          },
+        },
+        {
+          id: "1F65F84DA1EAFB3E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electrolytic_separator",
+            },
+          },
+        },
+        {
+          id: "564D0E533237E951",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:purification_chamber)item(mekanism:basic_purifying_factory)item(mekanism:advanced_purifying_factory)item(mekanism:elite_purifying_factory)item(mekanism:ultimate_purifying_factory))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6545A9A44AC20C75",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "0A7713B4BC19BB41",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 5.5,
+      shape: "rsquare",
+      dependencies: [
+        "445CC9AAA6F8AAB6",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "67E7A9A65B14C933",
+      tasks: [
+        {
+          id: "35A07C18FFEEB872",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:crusher)item(mekanism:basic_crushing_factory)item(mekanism:advanced_crushing_factory)item(mekanism:elite_crushing_factory)item(mekanism:ultimate_crushing_factory))",
+              "minecraft:custom_name": "\\\"Crushers\\\"",
+            },
+          },
+        },
+        {
+          id: "091B97D20403D516",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:enrichment_chamber)item(mekanism:basic_enriching_factory)item(mekanism:advanced_enriching_factory)item(mekanism:elite_enriching_factory)item(mekanism:ultimate_enriching_factory))",
+              "minecraft:custom_name": "\\\"Enrichers\\\"",
+            },
+          },
+        },
+        {
+          id: "6CB34AE622DF9CC2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:energized_smelter)item(mekanism:basic_smelting_factory)item(mekanism:advanced_smelting_factory)item(mekanism:elite_smelting_factory)item(mekanism:ultimate_smelting_factory))",
+              "minecraft:custom_name": "\\\"Smelters\\\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AB2D7D9AA2BE472",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ore",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "55159C553478CDC8",
+          type: "item",
+          item: {
+            id: "alltheores:osmium_ore",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "38C647CDCD725418",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 7.0,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.25,
+      id: "7485BCBE366501DF",
+      tasks: [
+        {
+          id: "035EB822D59843CF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electric_pump",
+            },
+          },
+        },
+        {
+          id: "16BF380980B2DE0C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "33x mekanism:thermal_evaporation_block",
+            },
+          },
+          count: 33,
+        },
+        {
+          id: "588EFECC7652D8D2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:thermal_evaporation_controller",
+            },
+          },
+        },
+        {
+          id: "10105D951F3248A7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mekanism:thermal_evaporation_valve",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "77FDF195DA1CE7F4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electrolytic_separator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "292B18BEC429B4D0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "2E8D7FD7ACE14A10",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -10.0,
+      dependencies: [
+        "1922623A26E08078",
+        "7952DA35B4F5C598",
+      ],
+      size: 1.2,
+      id: "1796E08BBDC09B84",
+      tasks: [
+        {
+          id: "32BDF7C590D601B5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:dynamic_tank",
+            },
+          },
+          count: 24,
+        },
+        {
+          id: "0D1B204C8F7B1FA2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:dynamic_valve",
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "0CCBE9EC3436E9D0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:elite_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "22BBD887A8D665EB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:elite_fluid_tank",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -9.5,
+      size: 1.25,
+      id: "120572510F525930",
+      tasks: [
+        {
+          id: "16C70D3717B4AFA6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "33x mekanism:thermal_evaporation_block",
+            },
+          },
+          count: 33,
+        },
+        {
+          id: "32DC3A08F464FE4A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:thermal_evaporation_controller",
+            },
+          },
+        },
+        {
+          id: "6531FEB89CE39D30",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:thermal_evaporation_valve",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07C38D00F977E69D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismgenerators:advanced_solar_generator",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "529D9F7222ECA206",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:resistive_heater",
+            },
+          },
+        },
+        {
+          id: "0D2BACAD23FAA446",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:thermal_evaporation_valve",
+            },
+          },
+        },
+        {
+          id: "5E7CAE49899EB41B",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 7.0,
+      shape: "rsquare",
+      dependencies: [
+        "7485BCBE366501DF",
+      ],
+      size: 1.25,
+      id: "0E175356D43E6A10",
+      tasks: [
+        {
+          id: "2501510A452D3752",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electric_pump",
+            },
+          },
+        },
+        {
+          id: "2A16BDCF5D671F6C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electrolytic_separator",
+            },
+          },
+        },
+        {
+          id: "07541802E7166E15",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_infuser",
+            },
+          },
+        },
+        {
+          id: "0DD1875F204237AF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_injection_chamber",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1DDB046FBFC93324",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "66671348F6544046",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 7.0,
+      shape: "rsquare",
+      dependencies: [
+        "0E175356D43E6A10",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "0095422BC87AA135",
+      tasks: [
+        {
+          id: "4E0A3C347EDD235A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:purification_chamber)item(mekanism:basic_purifying_factory)item(mekanism:advanced_purifying_factory)item(mekanism:elite_purifying_factory)item(mekanism:ultimate_purifying_factory))",
+              "minecraft:custom_name": "\\\"Purifiers\\\"",
+            },
+          },
+        },
+        {
+          id: "62E0C347DC32EA77",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:crusher)item(mekanism:basic_crushing_factory)item(mekanism:advanced_crushing_factory)item(mekanism:elite_crushing_factory)item(mekanism:ultimate_crushing_factory))",
+              "minecraft:custom_name": "\\\"Crushers\\\"",
+            },
+          },
+        },
+        {
+          id: "2068F53F091BFD5A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:enrichment_chamber)item(mekanism:basic_enriching_factory)item(mekanism:advanced_enriching_factory)item(mekanism:elite_enriching_factory)item(mekanism:ultimate_enriching_factory))",
+              "minecraft:custom_name": "\\\"Enrichers\\\"",
+            },
+          },
+        },
+        {
+          id: "17C665008B4C0CD7",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:energized_smelter)item(mekanism:basic_smelting_factory)item(mekanism:advanced_smelting_factory)item(mekanism:elite_smelting_factory)item(mekanism:ultimate_smelting_factory))",
+              "minecraft:custom_name": "\\\"Smelters\\\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25BC01275C92351F",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ore",
+            count: 1,
+          },
+          count: 15,
+        },
+        {
+          id: "486B7A91EAB7AB8D",
+          type: "item",
+          item: {
+            id: "alltheores:osmium_ore",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "73D5B5FBCBFA8652",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ore",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "4BCDC983D961F5B1",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 8.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "21D8B88155648EA6",
+      ],
+      size: 1.25,
+      id: "75E4751F7A802A44",
+      tasks: [
+        {
+          id: "7FCF6E8726BCC769",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "alltheores:sulfur",
+            },
+          },
+        },
+        {
+          id: "1B9DB785874C57E9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_oxidizer",
+            },
+          },
+        },
+        {
+          id: "324B835F4DCD19E1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electric_pump",
+            },
+          },
+        },
+        {
+          id: "6DACC77807D1F342",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electrolytic_separator",
+            },
+          },
+        },
+        {
+          id: "2D2FB303107792DD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_infuser",
+            },
+          },
+        },
+        {
+          id: "4BCAB6D0CF43D92D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:rotary_condensentrator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7422BD0EA8BA033D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "alltheores:sulfur",
+            },
+          },
+          count: 15,
+        },
+        {
+          id: "3CADEA11716F0617",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 8.5,
+      shape: "rsquare",
+      dependencies: [
+        "75E4751F7A802A44",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "77FB313845779AED",
+      tasks: [
+        {
+          id: "09507CD87D0C63E9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_infuser",
+            },
+          },
+        },
+        {
+          id: "4C477D72D11841F6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_dissolution_chamber",
+            },
+          },
+        },
+        {
+          id: "5B2C5388C7248FFE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_washer",
+            },
+          },
+        },
+        {
+          id: "094DC5B0E5C7BE73",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_crystallizer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "011C82C32E2D5318",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "4AAFEB570B2D4F13",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 8.5,
+      shape: "rsquare",
+      dependencies: [
+        "77FB313845779AED",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "6DC1E08D019FD543",
+      tasks: [
+        {
+          id: "5C547747E49BA6BB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electric_pump",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "2CC21EF452CFFF59",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "33x mekanism:thermal_evaporation_block",
+            },
+          },
+          count: 33,
+        },
+        {
+          id: "2E867FB131DEA968",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:thermal_evaporation_controller",
+            },
+          },
+        },
+        {
+          id: "41E94425E789750E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mekanism:thermal_evaporation_valve",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "27BDA44CC3FFCCF1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electrolytic_separator",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "14FC42B5DA7DCF2F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_infuser",
+            },
+          },
+        },
+        {
+          id: "4D61A21032717E84",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:chemical_injection_chamber",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6064CA02EC67EB58",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "55F30B1ABAE292C5",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 8.5,
+      shape: "rsquare",
+      dependencies: [
+        "6DC1E08D019FD543",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "7934873E784C4B3C",
+      tasks: [
+        {
+          id: "587C27CE66ABA2F0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electric_pump",
+            },
+          },
+        },
+        {
+          id: "55A840C3871027EA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electrolytic_separator",
+            },
+          },
+        },
+        {
+          id: "729C1974AE346ECA",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:purification_chamber)item(mekanism:basic_purifying_factory)item(mekanism:advanced_purifying_factory)item(mekanism:elite_purifying_factory)item(mekanism:ultimate_purifying_factory))",
+              "minecraft:custom_name": "\\\"Purificaters\\\"",
+            },
+          },
+        },
+        {
+          id: "591B93F4B6397821",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:crusher)item(mekanism:basic_crushing_factory)item(mekanism:advanced_crushing_factory)item(mekanism:elite_crushing_factory)item(mekanism:ultimate_crushing_factory))",
+              "minecraft:custom_name": "\\\"Crushers\\\"",
+            },
+          },
+        },
+        {
+          id: "4C0098C62CDF1FF9",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:enrichment_chamber)item(mekanism:basic_enriching_factory)item(mekanism:advanced_enriching_factory)item(mekanism:elite_enriching_factory)item(mekanism:ultimate_enriching_factory))",
+              "minecraft:custom_name": "\\\"Enrichers\\\"",
+            },
+          },
+        },
+        {
+          id: "7EA092725A784CA7",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:energized_smelter)item(mekanism:basic_smelting_factory)item(mekanism:advanced_smelting_factory)item(mekanism:elite_smelting_factory)item(mekanism:ultimate_smelting_factory))",
+              "minecraft:custom_name": "\\\"Smelters\\\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "409F61362A2BA634",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ore",
+            count: 1,
+          },
+          count: 64,
+        },
+        {
+          id: "60A04F6BA4CD960A",
+          type: "item",
+          item: {
+            id: "alltheores:osmium_ore",
+            count: 1,
+          },
+          count: 32,
+        },
+        {
+          id: "6D2F13974DA9E8B8",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ore",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "54782F51BCC1E8F9",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_ore",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "593DF38F9DF1C59D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "7AE502EDB73BD57A",
+      ],
+      id: "081DC030A0546549",
+      tasks: [
+        {
+          id: "58541E64C0528FCB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:bio_fuel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E155F8EA88C7910",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:bio_fuel",
+            },
+          },
+          count: 20,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 4.0,
+      shape: "diamond",
+      dependencies: [
+        "4274E777FB60BA28",
+      ],
+      id: "041365A540BF5A03",
+      tasks: [
+        {
+          id: "70669B704E16F873",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:dictionary",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33E3934A54BC84E7",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 5.0,
+      shape: "diamond",
+      dependencies: [
+        "4274E777FB60BA28",
+      ],
+      id: "424B3E3B299D3999",
+      tasks: [
+        {
+          id: "1FD1AD6C0B30ABE1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:gauge_dropper",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "774DD6A4EE49565C",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 5.0,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "7ECA0633AF1AEC19",
+      ],
+      id: "24BA664B60E49461",
+      tasks: [
+        {
+          id: "31AD5FA0F75FD3A8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:cardboard_box",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63B70159808C939B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:cardboard_box",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "0ED14EF87E68ACC8",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 0.5,
+      shape: "circle",
+      dependencies: [
+        "081DC030A0546549",
+        "71869B1D81D6A7EF",
+        "603BEDD49070ECAD",
+      ],
+      size: 1.2,
+      id: "78DD2A3DFF6D1613",
+      tasks: [
+        {
+          id: "040CDB71DC622FC4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:hdpe_pellet",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EC2423B07B0AA88",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:hdpe_rod",
+            },
+          },
+        },
+        {
+          id: "2DE29D789F1A1AEA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:hdpe_sheet",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -6.5,
+      id: "01A90E2541C91DB2",
+      tasks: [
+        {
+          id: "0B19D86DE8DCF565",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:structural_glass",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02FF9639E87BF709",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:alloy_infused",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "7FABE2A6BAA7DF66",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:structural_glass",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -5.0,
+      shape: "circle",
+      hide_dependency_lines: true,
+      dependencies: [
+        "162CE44400A63575",
+        "7AE502EDB73BD57A",
+      ],
+      id: "5B556192F060F3F1",
+      tasks: [
+        {
+          id: "37FF64DCDB960FBA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:dust_refined_obsidian",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "418AAD88D53EAAA2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:dust_refined_obsidian",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "4E4B1227E0F81F39",
+          type: "item",
+          item: {
+            id: "minecraft:obsidian",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 4.0,
+      shape: "diamond",
+      dependencies: [
+        "4274E777FB60BA28",
+      ],
+      id: "2EA0C74AE7366656",
+      tasks: [
+        {
+          id: "5D8B220595482CF8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:portable_teleporter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DAE272482998AC7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:teleporter_frame",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "28033050CC6DF9A0",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 4.5,
+      shape: "diamond",
+      dependencies: [
+        "4274E777FB60BA28",
+      ],
+      id: "227E9783382527CA",
+      tasks: [
+        {
+          id: "328177CC5FD61DA4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:free_runners",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D48B17E3382C805",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 4.5,
+      shape: "diamond",
+      dependencies: [
+        "4274E777FB60BA28",
+      ],
+      id: "47E79DFD123BF617",
+      tasks: [
+        {
+          id: "5FF2634A276FF524",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:scuba_tank",
+            },
+          },
+        },
+        {
+          id: "487C0DA7C751B99A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:scuba_mask",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F7C2465564E5F6E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "5C33E9251B64798F",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 5.0,
+      shape: "diamond",
+      dependencies: [
+        "4274E777FB60BA28",
+      ],
+      id: "109310AF19AAC482",
+      tasks: [
+        {
+          id: "69A763528F647332",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:flamethrower",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AA0BADBC8E67240",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_chemical_tank",
+            },
+          },
+        },
+        {
+          id: "51B15E931FCB66F9",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 5.0,
+      shape: "diamond",
+      dependencies: [
+        "4274E777FB60BA28",
+      ],
+      id: "4E7823C2FCEBE4DC",
+      tasks: [
+        {
+          id: "76FACB3C857BF76D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:electric_bow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0251A3BB2F1F2CCA",
+          type: "item",
+          item: {
+            id: "minecraft:arrow",
+            count: 1,
+          },
+          count: 32,
+        },
+        {
+          id: "467EF468F7C44F7D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 1.5,
+      shape: "circle",
+      dependencies: [
+        "7AE502EDB73BD57A",
+        "08DDE018A804BFE7",
+      ],
+      dependency_requirement: "one_completed",
+      id: "47F38E606AD3FF53",
+      tasks: [
+        {
+          id: "6DCF32EB40B8E9C6",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(c:dusts))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7905B57A34AF9588",
+          type: "item",
+          item: {
+            id: "alltheores:iron_dust",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "50B3CF752D26C095",
+          type: "item",
+          item: {
+            id: "alltheores:steel_dust",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 5.425000000000001,
+      y: -7.600000000000001,
+      size: 1.25,
+      id: "07084582F9562740",
+      tasks: [
+        {
+          id: "1B40B1C298D12D12",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:pigment_extractor",
+            },
+          },
+        },
+        {
+          id: "47432A2FAA916A78",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:pigment_mixer",
+            },
+          },
+        },
+        {
+          id: "2F880D83507954E3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:painting_machine",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F0E05D0E667AEA3",
+          type: "item",
+          item: {
+            id: "minecraft:red_dye",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "2585A76194E6C8A7",
+          type: "item",
+          item: {
+            id: "minecraft:yellow_dye",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "4517B94A3A175723",
+          type: "item",
+          item: {
+            id: "minecraft:blue_dye",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "504152C6142FE8E0",
+          type: "item",
+          item: {
+            id: "minecraft:brown_dye",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "7B284225A9C56D5E",
+          type: "item",
+          item: {
+            id: "minecraft:black_dye",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "629674720AEEB8F4",
+          type: "item",
+          item: {
+            id: "minecraft:white_dye",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: -8.5,
+      y: -3.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "mekanismtools:item/osmium/paxel",
+      id: "7B15E856EF8E0B95",
+    },
+    {
+      x: -14.5,
+      y: -2.0,
+      width: 6.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title.png",
+      id: "5D929E3CCA1A9F0F",
+    },
+    {
+      x: -11.0,
+      y: -5.0,
+      width: 4.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_basic.png",
+      id: "0B91A9A3A0A95721",
+    },
+    {
+      x: -12.0,
+      y: -6.5,
+      width: 6.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_advanced.png",
+      id: "3C9039DDB53F1B48",
+    },
+    {
+      x: -11.0,
+      y: -8.0,
+      width: 4.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_elite.png",
+      id: "33996B2E27A7367A",
+    },
+    {
+      x: -11.5,
+      y: -9.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_ultimate.png",
+      id: "18231C0CC6DE2089",
+    },
+    {
+      x: 4.5,
+      y: 2.0,
+      width: 7.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_machines.png",
+      id: "69BCE2CA86EE3ABB",
+    },
+    {
+      x: -4.0,
+      y: -11.0,
+      width: 6.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_logistics.png",
+      id: "1512EBB6F9170E67",
+    },
+    {
+      x: 4.5,
+      y: -6.0,
+      width: 7.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_machines.png",
+      id: "53EDB156B72661CB",
+    },
+    {
+      x: 4.5,
+      y: -10.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_mo.png",
+      id: "3A491B0A4940A9A5",
+    },
+    {
+      x: 10.0,
+      y: -10.5,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_upgrades.png",
+      id: "3DB9D5CB44C55235",
+    },
+    {
+      x: -5.5,
+      y: 7.0,
+      width: 4.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_energy.png",
+      id: "52E2B3C8B9B10DAB",
+    },
+    {
+      x: 1.0,
+      y: 6.0,
+      width: 2.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_tools.png",
+      id: "719B81576130488B",
+    },
+    {
+      x: 8.0,
+      y: 4.0,
+      width: 6.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_1.png",
+      id: "61676385DB437C9A",
+    },
+    {
+      x: 9.5,
+      y: 5.5,
+      width: 6.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_2.png",
+      id: "28F0874BC3A19630",
+    },
+    {
+      x: 11.0,
+      y: 7.0,
+      width: 6.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_3.png",
+      id: "713A3D3D918AA4F9",
+    },
+    {
+      x: 12.5,
+      y: 8.5,
+      width: 6.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_title_4.png",
+      id: "7876DDEAD8BCD7B1",
+    },
+    {
+      x: -7.0,
+      y: 1.5,
+      width: 2.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_wind.png",
+      id: "367071495C9F78A8",
+    },
+    {
+      x: -8.0,
+      y: 1.5,
+      width: 2.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_wind.png",
+      id: "5EA28DC2879A9BC3",
+    },
+    {
+      x: -9.0,
+      y: 1.5,
+      width: 2.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_wind.png",
+      id: "0CA62C02AB74959C",
+    },
+    {
+      x: -4.0,
+      y: 2.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_solar.png",
+      id: "5EDC835F77E4FFC0",
+    },
+    {
+      x: -2.5,
+      y: 2.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_solar.png",
+      id: "2A2745BA1A30C94F",
+    },
+    {
+      x: 0.5,
+      y: 2.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_box.png",
+      id: "4CD36A0896141A28",
+    },
+    {
+      x: -6.5,
+      y: -4.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_enrich.png",
+      id: "5C43065551C51ACB",
+    },
+    {
+      x: 0.5,
+      y: -7.5,
+      width: 1.5,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_fluid.png",
+      id: "1A36099D0B94E2E3",
+    },
+    {
+      x: 0.5,
+      y: -9.5,
+      width: 1.5,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mek/mek_chemical.png",
+      id: "3873107F4A2B3730",
+    },
+  ],
+}
