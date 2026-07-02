@@ -1,0 +1,1195 @@
+{
+  id: "7A72E12C3839D165",
+  group: "02FE661031A105D8",
+  order_index: 5,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "naturesaura:gold_leaf",
+    },
+  },
+  filename: "natures_aura",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: 2.5,
+      y: 0.0,
+      dependencies: [
+        "7DAED14CEC4CDA51",
+      ],
+      size: 1.25,
+      id: "4F9D6109EEA5D26A",
+      tasks: [
+        {
+          id: "46CB54014AC0447C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x naturesaura:gold_leaf",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "5B02A6C891227D29",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:gold_leaf",
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "6CAA8129F43AE29B",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:gold_powder",
+        },
+      },
+      x: 4.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "4F9D6109EEA5D26A",
+      ],
+      size: 1.4,
+      icon_scale: 1.1,
+      id: "497AE687B7E95DE8",
+      tasks: [
+        {
+          id: "55628B1EECBB5E94",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(minecraft:oak_sapling)item(minecraft:jungle_sapling))",
+            },
+          },
+        },
+        {
+          id: "531BA7E45499F20D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x naturesaura:wood_stand",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "172E24F739EEA426",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "16x naturesaura:gold_powder",
+            },
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "263B58408756F0D7",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "78FBBD798532E0C7",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -1.5,
+      dependencies: [
+        "497AE687B7E95DE8",
+      ],
+      id: "12D3C7FC4B3DAB23",
+      tasks: [
+        {
+          id: "5C146B5DA9342F90",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:eye",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0538EE90F51EC299",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "60D55CC4EC5F4DED",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -1.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "497AE687B7E95DE8",
+      ],
+      id: "22ADCF96AE3E609B",
+      tasks: [
+        {
+          id: "457413B665C31128",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:ancient_sapling",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "659656A2281281F0",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "64E310D44F8EE569",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 0.0,
+      dependencies: [
+        "497AE687B7E95DE8",
+      ],
+      id: "05E668CE6687AC64",
+      tasks: [
+        {
+          id: "250CD873FCE7202F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:token_joy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3AB60B3BA5F7F8ED",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0BBC6C584FC0AA3B",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 1.5,
+      dependencies: [
+        "497AE687B7E95DE8",
+      ],
+      id: "5A011CE8EEA3F9D8",
+      tasks: [
+        {
+          id: "2C08B46593A9B329",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:aura_bottle",
+            },
+          },
+        },
+        {
+          id: "5FD10BCA425E745A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:aura_bottle",
+            },
+          },
+        },
+        {
+          id: "6217C3256485AF70",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:aura_bottle",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "671E4F61F1B3699D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:vacuum_bottle",
+            },
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "57755CC6A9E0B376",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 1.5,
+      dependencies: [
+        "5A011CE8EEA3F9D8",
+        "3C2F5AB815A6C949",
+      ],
+      id: "71B6F013C8A60EB6",
+      tasks: [
+        {
+          id: "7E80C1A891CB854B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:oak_generator",
+            },
+          },
+        },
+        {
+          id: "58E562C058F72AB0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:flower_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D8960CA9C40A84B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "235D556AD4C2FDF8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 3.0,
+      dependencies: [
+        "3C2F5AB815A6C949",
+      ],
+      id: "0B6D35F5B3A11FD2",
+      tasks: [
+        {
+          id: "1715E8DAFB3D3838",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:aura_cache",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F0A4F212A355533",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "487CF239ABD63AE8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 4.5,
+      dependencies: [
+        "0B6D35F5B3A11FD2",
+        "1D39634260A47C9A",
+      ],
+      id: "24599D45F5D1606E",
+      tasks: [
+        {
+          id: "0785B90A3359EF21",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:aura_trove",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "584BCEA94028B3F9",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0EB4EAE31C361DAB",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:nature_altar",
+        },
+      },
+      x: 8.0,
+      y: 0.0,
+      shape: "pentagon",
+      dependencies: [
+        "05E668CE6687AC64",
+      ],
+      size: 1.5,
+      id: "20F9EF925DB1CE05",
+      tasks: [
+        {
+          id: "1C97A13C673C872C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:nature_altar",
+            },
+          },
+        },
+        {
+          id: "0CA0B32D52395A39",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)",
+            },
+          },
+          count: 20,
+        },
+        {
+          id: "52874F5B79ECAE65",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:stone_bricks)",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "005FC74EBECBBD39",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x naturesaura:gold_brick",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "1523CDF0F19A3162",
+          type: "item",
+          item: {
+            id: "minecraft:chiseled_stone_bricks",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "6236EF6A50E178BC",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "35A1A9938FEF4A1C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 3.0,
+      dependencies: [
+        "5A011CE8EEA3F9D8",
+      ],
+      optional: true,
+      id: "3F8A5CBEAE024748",
+      tasks: [
+        {
+          id: "78363A5BFED389F3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:outpost_finder",
+            },
+          },
+        },
+        {
+          id: "39F677AFED023C6F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:fortress_finder",
+            },
+          },
+        },
+        {
+          id: "55C491B1083C46FB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:end_city_finder",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4388EAE6C8A04973",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6F0FEC625987F600",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 1.5,
+      dependencies: [
+        "20F9EF925DB1CE05",
+      ],
+      id: "3C2F5AB815A6C949",
+      tasks: [
+        {
+          id: "687BAA9990A67C2E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:infused_iron",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1DEBE51A7FA6FDDB",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0D7D898031CA25A1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 1.5,
+      dependencies: [
+        "20F9EF925DB1CE05",
+      ],
+      id: "3EC90ADA4E322B14",
+      tasks: [
+        {
+          id: "076D4BEB697AA55A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:tainted_gold",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5968EAE4FAE64169",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3EBAE5C8A4C59485",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "naturesaura:offering_table",
+        },
+      },
+      x: 8.0,
+      y: 3.0,
+      shape: "pentagon",
+      dependencies: [
+        "3C2F5AB815A6C949",
+        "3EC90ADA4E322B14",
+        "0EFD0A4AE82153E8",
+      ],
+      size: 1.25,
+      id: "5C990F7E5D345A6F",
+      tasks: [
+        {
+          id: "5FCFEA59AF1636DE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:offering_table",
+            },
+          },
+        },
+        {
+          id: "2E97226C40818239",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:flowers)",
+            },
+          },
+          count: 36,
+        },
+        {
+          id: "5CFDF0F9971BE465",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "3x naturesaura:calling_spirit",
+            },
+          },
+          count: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "3AE65EA024BC5847",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "47D651BF2DE75C46",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 4.5,
+      dependencies: [
+        "5C990F7E5D345A6F",
+      ],
+      id: "1D39634260A47C9A",
+      tasks: [
+        {
+          id: "32333C6D1AD96106",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:sky_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B03F12214704259",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4512677DDC4711A2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 3.0,
+      dependencies: [
+        "5C990F7E5D345A6F",
+        "0EFD0A4AE82153E8",
+      ],
+      id: "4AD4FDF70B9BFCC9",
+      tasks: [
+        {
+          id: "18E1687150A37F37",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:token_euphoria",
+            },
+          },
+        },
+        {
+          id: "03ED1F9B3A7E3CCD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:token_terror",
+            },
+          },
+        },
+        {
+          id: "7CEE6E6829D2BC96",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:token_rage",
+            },
+          },
+        },
+        {
+          id: "5362B4DA434BDFF2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:token_grief",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6753674290A2752E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2DA2593ACF033861",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -1.5,
+      dependencies: [
+        "20F9EF925DB1CE05",
+        "0EFD0A4AE82153E8",
+      ],
+      id: "54F7AD64A403C9BF",
+      tasks: [
+        {
+          id: "12FF35B444D5F641",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:crushing_catalyst",
+            },
+          },
+        },
+        {
+          id: "67583A940E7BA925",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:conversion_catalyst",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "351DD42840C93A33",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "16F5C8E972132872",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 4.5,
+      dependencies: [
+        "4AD4FDF70B9BFCC9",
+        "1D39634260A47C9A",
+      ],
+      id: "0FD26FD88E801C0E",
+      tasks: [
+        {
+          id: "14BDAD1D8EF6D754",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:animal_spawner",
+            },
+          },
+        },
+        {
+          id: "48828EAA097984AD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:birth_spirit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0111441CEC9ECE8C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "65E7041617B2E85A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "7DAED14CEC4CDA51",
+      tasks: [
+        {
+          id: "06D5CD358CFB4D2D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:gold_fiber",
+            },
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "534E243D88E50AC6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "patchouli:guide_book",
+            },
+          },
+        },
+        {
+          id: "1F5E315D07B2A65B",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -1.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "05E668CE6687AC64",
+      ],
+      id: "0EFD0A4AE82153E8",
+      tasks: [
+        {
+          id: "6B46BB7EF0CA76B4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:token_fear",
+            },
+          },
+        },
+        {
+          id: "7C59F509A0D8CEB0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:token_anger",
+            },
+          },
+        },
+        {
+          id: "72C1E0F2F9F923BD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:token_sorrow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "093DB2A3C28FF57F",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3AE41DBD10734ED3",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 6.0,
+      dependencies: [
+        "1D39634260A47C9A",
+      ],
+      id: "2B4D4E741D855B5A",
+      tasks: [
+        {
+          id: "55F7A32C63A206B2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:depth_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D1AC5C000589417",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "75B109A8430AAA7B",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 6.0,
+      dependencies: [
+        "1D39634260A47C9A",
+        "22ADCF96AE3E609B",
+      ],
+      optional: true,
+      id: "34ABEF75AE1E5A0F",
+      tasks: [
+        {
+          id: "159513977921D09B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:netherite_finder",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01AEE39CBB7624D8",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2625AC546F7332B8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 3.0,
+      dependencies: [
+        "5A011CE8EEA3F9D8",
+      ],
+      optional: true,
+      id: "1ABEC7DE47BD6286",
+      tasks: [
+        {
+          id: "4D6D4F663B472B77",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:ender_crate",
+            },
+          },
+        },
+        {
+          id: "49E7547CEA050C39",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:ender_access",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FD9E95B39CF60B3",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "40699ABA2D6B77A6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: 3.0,
+      dependencies: [
+        "4AD4FDF70B9BFCC9",
+        "22ADCF96AE3E609B",
+      ],
+      id: "4F03B152479C4AC0",
+      tasks: [
+        {
+          id: "7610B30E5D604349",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "naturesaura:loot_finder",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69BAA9DC96AAD6CC",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "010E0886F2156704",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 2.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "5A0EB2ADEBC7EE2B",
+      tasks: [
+        {
+          id: "15698B55CCAD2433",
+          type: "checkmark",
+        },
+        {
+          id: "4C6370D2B7EF8685",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 11.0,
+      y: -3.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "naturesaura:item/gold_leaf",
+      id: "2581E506DC308580",
+    },
+    {
+      x: 2.5,
+      y: -1.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "naturesaura:item/vacuum_bottle",
+      id: "7E40A6D74C0CDAFC",
+    },
+    {
+      x: 5.0,
+      y: -3.5,
+      width: 12.1,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/natures_aura/natures_aura_title.png",
+      id: "09F419F97968FC79",
+    },
+    {
+      x: 2.5,
+      y: 1.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 0.0,
+      image: "naturesaura:item/eye_improved",
+      id: "21FC80BBD82E6DE6",
+    },
+    {
+      x: 4.5,
+      y: 0.0,
+      width: 1.75,
+      height: 1.75,
+      rotation: 0.0,
+      image: "refurbished_furniture:textures/particle/super_bounce_0.png",
+      id: "7D38AD40D8EA1A10",
+    },
+    {
+      x: -0.14,
+      y: 0.14,
+      width: 5.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "irons_spellbooks:textures/particle/acid_bubble_3.png",
+      id: "20C08EBC72940695",
+    },
+    {
+      x: 11.0,
+      y: 0.0,
+      width: 9.859550561797754,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/natures_aura/natural_altar.png",
+      id: "7CF4B19E2B6787B0",
+    },
+  ],
+}

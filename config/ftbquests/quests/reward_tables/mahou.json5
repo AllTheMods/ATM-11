@@ -1,0 +1,86 @@
+{
+  id: "779C873798AE0A92",
+  order_index: 43,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "1A3CE507C9855982",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mahoutsukai:powdered_diamond",
+        },
+      },
+      count: 3,
+    },
+    {
+      id: "13212845D6F01E3D",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mahoutsukai:powdered_emerald",
+        },
+      },
+      count: 3,
+    },
+    {
+      id: "05B56EA73C57F074",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mahoutsukai:powdered_ender",
+        },
+      },
+      count: 6,
+    },
+    {
+      id: "676326C2C5CC5327",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mahoutsukai:powdered_eye",
+        },
+      },
+      count: 3,
+    },
+    {
+      id: "62623F15733887BD",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mahoutsukai:powdered_gold",
+        },
+      },
+      count: 6,
+    },
+    {
+      id: "211FC8AF0167EB84",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mahoutsukai:powdered_iron",
+        },
+      },
+      count: 6,
+    },
+    {
+      id: "718F9314F1701408",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mahoutsukai:powdered_quartz",
+        },
+      },
+      count: 6,
+    },
+  ],
+}

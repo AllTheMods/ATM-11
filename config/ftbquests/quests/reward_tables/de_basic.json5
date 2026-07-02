@@ -1,0 +1,53 @@
+{
+  id: "73742263F9E32427",
+  order_index: 53,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "180D7B7E118268ED",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:draconium_dust",
+        },
+      },
+      count: 5,
+      weight: 2.0,
+    },
+    {
+      id: "3B7B9F04C6E08AC8",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:draconium_ingot",
+        },
+      },
+      count: 5,
+      weight: 2.0,
+    },
+    {
+      id: "1CDD8B2C75B833B3",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:draconium_core",
+        },
+      },
+      count: 3,
+    },
+    {
+      id: "7E8E08B68696D0A7",
+      item: {
+        id: "minecraft:diamond",
+        count: 1,
+      },
+      count: 3,
+      weight: 0.5,
+    },
+  ],
+}

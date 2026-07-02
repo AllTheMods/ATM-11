@@ -1,0 +1,1652 @@
+{
+  id: "43BB00A7A7E1042C",
+  group: "15E5B587D291A4AA",
+  order_index: 4,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "mahoutsukai:morgan",
+    },
+  },
+  filename: "mahou_tsukai",
+  default_quest_shape: "diamond",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mahoutsukai:mahoujin_projector",
+        },
+      },
+      x: 0.5,
+      y: 1.0,
+      shape: "gear",
+      size: 2.0,
+      id: "4A88472F1581EE7E",
+      tasks: [
+        {
+          id: "7878FC796BBFCF10",
+          type: "advancement",
+          advancement: "mahoutsukai:root",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "033B32F09F74A32C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:guidebook",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -1.0,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "4A88472F1581EE7E",
+      ],
+      id: "6AD061C4331BE1F8",
+      tasks: [
+        {
+          id: "5BED745AE359BD12",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:attuner",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28591588C437277B",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -1.0,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "4A88472F1581EE7E",
+      ],
+      id: "7F7ED94590B5B857",
+      tasks: [
+        {
+          id: "3403F270D9F328B9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
+            },
+          },
+        },
+        {
+          id: "16862BF857843EC4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:dagger",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62F3F6EBBB74AAF2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
+            },
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -1.0,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "4A88472F1581EE7E",
+      ],
+      id: "54E6C0D1BB442184",
+      tasks: [
+        {
+          id: "2AD6E59C532B0676",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:mortar_and_pestle",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2EB287B466EDBF8C",
+          type: "item",
+          item: {
+            id: "minecraft:ender_eye",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "evilcraft:blood_stain",
+        count: 1,
+      },
+      x: -0.5,
+      y: -4.0,
+      dependencies: [
+        "6AD061C4331BE1F8",
+        "54E6C0D1BB442184",
+      ],
+      size: 1.5,
+      id: "0D19FB62C2C1D9F7",
+      tasks: [
+        {
+          id: "4A084703BE712433",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mahoutsukai:powdered_iron",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "5B766A8E75D11F3A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:powdered_emerald",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02340AC7D3461843",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mob_grinding_utils:dreadful_dirt",
+            },
+          },
+          count: 9,
+        },
+        {
+          id: "34FD1AAAEF75CA9A",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherite_shovel",
+        count: 1,
+      },
+      x: 0.5,
+      y: -3.0,
+      dependencies: [
+        "6AD061C4331BE1F8",
+        "54E6C0D1BB442184",
+      ],
+      size: 1.5,
+      id: "5149BDF6BC4B3857",
+      tasks: [
+        {
+          id: "72E60474B84AC3C6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:powdered_diamond",
+            },
+          },
+        },
+        {
+          id: "5AE0B9B99B80AE07",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mahoutsukai:powdered_emerald",
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "2156D68CF5490BD5",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_shovel",
+            count: 1,
+          },
+        },
+        {
+          id: "0D70B5103CAD320D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mahoutsukai:mahoujin_projector",
+        },
+      },
+      x: 1.5,
+      y: -4.0,
+      dependencies: [
+        "6AD061C4331BE1F8",
+        "54E6C0D1BB442184",
+      ],
+      size: 1.5,
+      id: "73325912C84F64A5",
+      tasks: [
+        {
+          id: "34EFE899FB9B266E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:powdered_quartz",
+            },
+          },
+        },
+        {
+          id: "17FF908275004895",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mahoutsukai:powdered_emerald",
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "33DF95912BA1D475",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:attuned_diamond",
+            },
+          },
+        },
+        {
+          id: "55A0F5909E8F3D76",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -0.5,
+      size: 1.5,
+      id: "565703CBB06CEABF",
+      tasks: [
+        {
+          id: "586916ED82D2DD2C",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_sword",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01179EDB257DAF60",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "03B8FA520122B5F6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -2.0,
+      dependencies: [
+        "565703CBB06CEABF",
+        "3907E68572324333",
+        "0A1FBDA0C1314DE1",
+      ],
+      size: 1.5,
+      id: "59FD3C4E415EEDDD",
+      tasks: [
+        {
+          id: "2C55B6F6B7DCFA14",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:murky_bucket",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03598DB77462DDE7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "765C27CCC822B144",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "143C258C8C808BF4",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 5.25,
+      y: -2.75,
+      dependencies: [
+        "54E6C0D1BB442184",
+      ],
+      size: 1.2,
+      id: "3907E68572324333",
+      tasks: [
+        {
+          id: "2214CCA41C2062D5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mahoutsukai:powdered_diamond",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "7173DA8F45027624",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:powdered_emerald",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77A50E4F0B8E7DE1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "459C0FCAB1EFFF8B",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: 6.75,
+      y: -1.25,
+      dependencies: [
+        "6AD061C4331BE1F8",
+      ],
+      size: 1.2,
+      id: "0A1FBDA0C1314DE1",
+      tasks: [
+        {
+          id: "0DFE8322F1043E90",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:attuned_emerald",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35C7FFABBE6BECEE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:attuned_diamond",
+            },
+          },
+        },
+        {
+          id: "02083D9418242263",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: 6.75,
+      y: -2.75,
+      dependencies: [
+        "59FD3C4E415EEDDD",
+      ],
+      size: 1.5,
+      id: "03DCDFB32CD4BD85",
+      tasks: [
+        {
+          id: "3AFBB5C47474BFB0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:caliburn",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "440EBE35EB9E543E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "4775C10EF9798BD4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "55E443447C2A341F",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -3.5,
+      dependencies: [
+        "03DCDFB32CD4BD85",
+      ],
+      size: 1.2,
+      id: "012912FDAFCD1C66",
+      tasks: [
+        {
+          id: "6DC9B5F714C6FE8C",
+          type: "item",
+          item: {
+            id: "minecraft:nether_star",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B93BDA18731DC58",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+        {
+          id: "3BE344A9F21DD89C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6FEC6C0184E8B397",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 8.25,
+      y: -4.25,
+      dependencies: [
+        "012912FDAFCD1C66",
+      ],
+      size: 1.5,
+      id: "795FA102F6577368",
+      tasks: [
+        {
+          id: "6A8295B93E5034B8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:morgan",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1AFD5A52DD673687",
+          type: "item",
+          item: {
+            id: "minecraft:villager_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "434EE6A766FE4292",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0C0B8377102EABD4",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -5.0,
+      dependencies: [
+        "795FA102F6577368",
+      ],
+      size: 1.2,
+      id: "777BB82B56038ED3",
+      tasks: [
+        {
+          id: "3BB63555AA0CEB4A",
+          type: "kill",
+          entity: "minecraft:villager",
+          value: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "5D3951C458EB1B00",
+          type: "item",
+          item: {
+            id: "reliquary:pedestals/passive/red_passive_pedestal",
+            count: 1,
+          },
+        },
+        {
+          id: "5A3670D0BA3BBD12",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "22511C3ABCAEB755",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -2.5,
+      dependencies: [
+        "7F7ED94590B5B857",
+        "54E6C0D1BB442184",
+      ],
+      size: 1.5,
+      id: "5F9B8ACCE0C8389E",
+      tasks: [
+        {
+          id: "21CEAE027D983282",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mahoutsukai:powdered_diamond",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "1B2952B260D5C432",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:powdered_iron",
+            },
+          },
+        },
+        {
+          id: "210B395A33A40FE7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "668189FC9F7E09BF",
+          type: "item",
+          item: {
+            id: "minecraft:stick",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "7F533C290D351F3F",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "537AFE9A45C8B3E2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -2.5,
+      dependencies: [
+        "5F9B8ACCE0C8389E",
+      ],
+      size: 1.2,
+      id: "21D323D95F5A7DB3",
+      tasks: [
+        {
+          id: "049799C40545AB1C",
+          type: "item",
+          item: {
+            id: "minecraft:stick",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A12A247414E3E19",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "62353E183B4A53D4",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -2.5,
+      dependencies: [
+        "21D323D95F5A7DB3",
+      ],
+      size: 1.5,
+      id: "5FD4FB9D24586B9B",
+      tasks: [
+        {
+          id: "4ABE3C758C42EB4E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:staff_emrys",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31207888D6B7BF06",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "792700A0E5536D27",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "05CBA43926D96707",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -2.5,
+      dependencies: [
+        "5F9B8ACCE0C8389E",
+      ],
+      size: 1.2,
+      id: "53829B3E51936ACD",
+      tasks: [
+        {
+          id: "2FD63B9DA3F02205",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_sword",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56934D49F6E14AF2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "29C9D36E3BFF3D61",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -2.5,
+      dependencies: [
+        "53829B3E51936ACD",
+      ],
+      size: 1.5,
+      id: "63768C7B988ED22B",
+      tasks: [
+        {
+          id: "32BDABD1D7BCAA9C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:clarent",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B1B35F5CC4DB8B6",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "66F4ABC1E58BB128",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1B5C5B315310C781",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -4.0,
+      dependencies: [
+        "5F9B8ACCE0C8389E",
+      ],
+      size: 1.2,
+      id: "002B8F2DE2CB4D2C",
+      tasks: [
+        {
+          id: "1E87CE2F633083A4",
+          type: "item",
+          item: {
+            id: "minecraft:shield",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E489DA04C2BE0E1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0C18016993FC8EB2",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -5.0,
+      dependencies: [
+        "002B8F2DE2CB4D2C",
+      ],
+      id: "3FB0F22BEF7FE622",
+      tasks: [
+        {
+          id: "056F5C51843197C1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:scroll_damage_exchange",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03D7C9486D9CB118",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -5.0,
+      dependencies: [
+        "002B8F2DE2CB4D2C",
+      ],
+      id: "731A4846BC556AE1",
+      tasks: [
+        {
+          id: "303DC4CF00EBF72D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:scroll_death_collection",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B765B1257BF468B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mob_grinding_utils:delightful_dirt",
+            },
+          },
+          count: 9,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -5.0,
+      dependencies: [
+        "002B8F2DE2CB4D2C",
+      ],
+      id: "2D08BCF993B241B8",
+      tasks: [
+        {
+          id: "4C0F43FF42AE41C8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:scroll_immunity_exchange",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0458D38452376B1B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -6.5,
+      dependencies: [
+        "3FB0F22BEF7FE622",
+        "731A4846BC556AE1",
+        "2D08BCF993B241B8",
+      ],
+      size: 1.5,
+      id: "378105383747DD48",
+      tasks: [
+        {
+          id: "09C6B3425E2D28C6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:replica",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F233105512040B2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "09640C870C18F3CF",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "14458FE3B5274AD9",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -1.0,
+      dependencies: [
+        "5F9B8ACCE0C8389E",
+      ],
+      size: 1.2,
+      id: "146AF0937D9C63DE",
+      tasks: [
+        {
+          id: "04BEDF6241255FB3",
+          type: "item",
+          item: {
+            id: "minecraft:bow",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "312F85E72BD356A0",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6E543F7405DD4F30",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 0.5,
+      dependencies: [
+        "146AF0937D9C63DE",
+      ],
+      size: 1.5,
+      id: "6E04A314CD796254",
+      tasks: [
+        {
+          id: "74EEFA68C5C602FE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:nobu",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F4AE8C182D4B153",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "076B264F6F616BBF",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "51C56155CD73308D",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -10.0,
+      dependencies: [
+        "54E6C0D1BB442184",
+        "7F7ED94590B5B857",
+      ],
+      id: "7992C63F063BE908",
+      tasks: [
+        {
+          id: "381CBCFB71018C25",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mahoutsukai:powdered_gold",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "268FD4E46EA238E7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:powdered_diamond",
+            },
+          },
+        },
+        {
+          id: "1E1F53A59347E65E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "309EA5143A13EC8E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3750C482B3E06A5C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -10.0,
+      dependencies: [
+        "7992C63F063BE908",
+      ],
+      size: 1.5,
+      id: "4C647369D976E67E",
+      tasks: [
+        {
+          id: "18B0DF3F88158F35",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:mystic_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "508FD39CC6BFDB83",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1A0A792F03CF449D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7DACB5F752140619",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -10.5,
+      dependencies: [
+        "54E6C0D1BB442184",
+        "7F7ED94590B5B857",
+      ],
+      id: "5EF54E0EB14024D1",
+      tasks: [
+        {
+          id: "18980EBAE4ED777A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mahoutsukai:powdered_gold",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "7FC1E468111BF468",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:powdered_ender",
+            },
+          },
+        },
+        {
+          id: "6F027A96876BC5BE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A2932AF971EABA4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "392615B0491BEE8C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -12.0,
+      dependencies: [
+        "5EF54E0EB14024D1",
+      ],
+      size: 1.5,
+      id: "34DACB973CBDE129",
+      tasks: [
+        {
+          id: "3066CF1FA66F6B40",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:spatial_disorientation_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B6EF6862A0C4D18",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1FC1CCAB3985F4BE",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2D413E59B50EB81A",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -10.0,
+      dependencies: [
+        "54E6C0D1BB442184",
+        "7F7ED94590B5B857",
+      ],
+      id: "3E89BC6875790952",
+      tasks: [
+        {
+          id: "0754EB6E2BC4CBE4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mahoutsukai:powdered_diamond",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "49B29D6704E49828",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:powdered_ender",
+            },
+          },
+        },
+        {
+          id: "7997526C86FB2F81",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53572E3F28FB6BE0",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "72030A8B9ADC4654",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -10.0,
+      dependencies: [
+        "3E89BC6875790952",
+      ],
+      size: 1.5,
+      id: "5212A4D67B1851EF",
+      tasks: [
+        {
+          id: "7921DC93B0D4A9D2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:proximity_projection_keys",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4477CB641F70A0A6",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "491BDED3BF4B2E6B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5AFF3DE6D25A841D",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -9.5,
+      dependencies: [
+        "54E6C0D1BB442184",
+        "7F7ED94590B5B857",
+      ],
+      id: "3FF97A4B5029C0E7",
+      tasks: [
+        {
+          id: "664ADBD5CACCEC65",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x mahoutsukai:powdered_gold",
+            },
+          },
+        },
+        {
+          id: "72625D241B682131",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:powdered_diamond",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "3493A768C43A84D2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22B16AB6B842FA6A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "16F53E2CAE15D227",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -8.0,
+      dependencies: [
+        "3FF97A4B5029C0E7",
+      ],
+      size: 1.5,
+      id: "667B95A687703D6D",
+      tasks: [
+        {
+          id: "6068B969875D0516",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mahoutsukai:weapon_projectile_bow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E547E7BC44FC884",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5CD14CAEBA70106A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7BC519962004A3C0",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.5,
+      y: 3.5,
+      width: 16.258823529411764,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_tsukai.png",
+      id: "67C3492031087D88",
+    },
+    {
+      x: 0.5,
+      y: -5.0,
+      width: 9.0635593220339,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_generation.png",
+      id: "5E0ADE653155654A",
+    },
+    {
+      x: -3.5,
+      y: -3.5,
+      width: 4.080508474576271,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_clarent.png",
+      order: 1,
+      id: "3072D1C8C9E6C54C",
+    },
+    {
+      x: -6.5,
+      y: 1.5,
+      width: 2.6186440677966103,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_nobu.png",
+      id: "412F8926C4C5A117",
+    },
+    {
+      x: -9.5,
+      y: -3.5,
+      width: 3.1144067796610164,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_emrys.png",
+      order: 1,
+      id: "6815D8E02B8A855B",
+    },
+    {
+      x: -6.5,
+      y: -7.5,
+      width: 3.8008474576271185,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_replica.png",
+      id: "0956020D330144A9",
+    },
+    {
+      x: 0.5,
+      y: -13.0,
+      width: 10.652542372881356,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_disorientation.png",
+      id: "384DED796A2DFEF9",
+    },
+    {
+      x: -3.5,
+      y: -11.0,
+      width: 8.199152542372882,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_explosion.png",
+      order: 1,
+      id: "7216A360F4D349A0",
+    },
+    {
+      x: 0.5,
+      y: -6.5,
+      width: 6.332142857142857,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_bow.png",
+      id: "3078ACCDDFCFD9E0",
+    },
+    {
+      x: 4.0,
+      y: -11.0,
+      width: 6.522727272727273,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_keys.png",
+      order: 1,
+      id: "1DF0C4CF5C16CDBB",
+    },
+    {
+      x: 10.0,
+      y: -2.5,
+      width: 4.525423728813559,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_caliburn.png",
+      id: "4BD8E1B90DFE4BE0",
+    },
+    {
+      x: 11.5,
+      y: -4.5,
+      width: 3.851694915254237,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/mahou/mahou_morgan.png",
+      id: "5D87F440593B3BBB",
+    },
+    {
+      x: 7.0,
+      y: -3.0,
+      width: 7.0,
+      height: 7.0,
+      rotation: 0.0,
+      image: "mahoutsukai:item/morgan",
+      id: "1BEA3E0405BF17AC",
+    },
+    {
+      x: -6.5,
+      y: -2.5,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "mahoutsukai:block/mahoujin",
+      id: "0CCF268120F84D50",
+    },
+    {
+      x: 0.5,
+      y: 0.0,
+      width: 4.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "mahoutsukai:block/mahoujin_casting",
+      id: "01477C891DA6FCEA",
+    },
+    {
+      x: 0.5,
+      y: -10.0,
+      width: 5.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "mahoutsukai:block/mahoujin_changeable_fae",
+      id: "6ABEED8D5EC4365C",
+    },
+    {
+      x: 0.5,
+      y: -3.5,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "mahoutsukai:block/mahoujin_changeable",
+      id: "71B36B41D38C644C",
+    },
+  ],
+}

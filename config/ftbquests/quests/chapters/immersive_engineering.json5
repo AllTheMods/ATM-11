@@ -1,0 +1,6123 @@
+{
+  id: "22C20C1827FE6805",
+  group: "2B51AC12041E3F89",
+  order_index: 2,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "immersiveengineering:hammer",
+    },
+  },
+  filename: "immersive_engineering",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      size: 2.5,
+      id: "2E9D1131DC21CC5B",
+      tasks: [
+        {
+          id: "0DC4B0000B8974C7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:hammer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "603CF0FF7519B478",
+          type: "item",
+          item: {
+            id: "minecraft:brick",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "638F570D8ADE8320",
+          type: "item",
+          item: {
+            id: "minecraft:raw_iron",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_crude.png",
+        },
+      },
+      x: 0.0,
+      y: 2.0,
+      shape: "none",
+      dependencies: [
+        "2E9D1131DC21CC5B",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "04DD3F761C210822",
+      tasks: [
+        {
+          id: "3FE78EA80561B53F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blastbrick",
+            },
+          },
+          count: 27,
+        },
+      ],
+      rewards: [
+        {
+          id: "37F00F8032F46AB2",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "5B219D4A5F1D40F7",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "3F7A25649B29BBB6",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "04DD3F761C210822",
+        "4BBF987FEF639801",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.5,
+      id: "2262AB9F934165D0",
+      tasks: [
+        {
+          id: "23B6BEDDD3B41602",
+          type: "item",
+          item: {
+            id: "alltheores:steel_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "51B9AEAD2D39F487",
+          type: "item",
+          item: {
+            id: "alltheores:steel_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "4F0D80B1457C1ABF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_blast.png",
+        },
+      },
+      x: 0.0,
+      y: 5.0,
+      shape: "none",
+      dependencies: [
+        "2262AB9F934165D0",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "41B99DBD03EB74FF",
+      tasks: [
+        {
+          id: "596BBB2940ADABEE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blastbrick_reinforced",
+            },
+          },
+          count: 27,
+        },
+        {
+          id: "4D5FA238E199BECE",
+          type: "item",
+          item: {
+            id: "minecraft:hopper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04644AE01FD646F6",
+          type: "item",
+          item: {
+            id: "minecraft:iron_block",
+            count: 1,
+          },
+        },
+        {
+          id: "7D2E901B60AC3C7F",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+        },
+        {
+          id: "7AC351D9FA59FB94",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_coke.png",
+        },
+      },
+      x: -2.0,
+      y: 0.0,
+      shape: "none",
+      dependencies: [
+        "2E9D1131DC21CC5B",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "573C2242EAB85B49",
+      tasks: [
+        {
+          id: "34944DEA6E2AF115",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:cokebrick",
+            },
+          },
+          count: 27,
+        },
+      ],
+      rewards: [
+        {
+          id: "265F7DD2B4303E31",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "6B23E3B8823618F5",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "573C2242EAB85B49",
+      ],
+      id: "7B447E986493AD6B",
+      tasks: [
+        {
+          id: "1E1157A2351866EA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:creosote_bucket",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1523D526C6C9B912",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:creosote_bucket",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "573C2242EAB85B49",
+      ],
+      id: "5A2A718C569F3C19",
+      tasks: [
+        {
+          id: "4CBB52C7D0BF9B28",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:coal_coke)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5162BC5568044C07",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:coal_coke",
+            },
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_alloy.png",
+        },
+      },
+      x: 2.0,
+      y: 0.0,
+      shape: "none",
+      dependencies: [
+        "2E9D1131DC21CC5B",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "4BBF987FEF639801",
+      tasks: [
+        {
+          id: "7DF1B5E33AE78BAD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x immersiveengineering:alloybrick",
+            },
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "58B3C580B86AA719",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "16456C3162AC3262",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "4BBF987FEF639801",
+      ],
+      id: "3EDDF96EA5056D28",
+      tasks: [
+        {
+          id: "061CF3FE488C4884",
+          type: "item",
+          item: {
+            id: "alltheores:constantan_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A6125F7AE4D7E63",
+          type: "item",
+          item: {
+            id: "alltheores:constantan_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "4BBF987FEF639801",
+      ],
+      id: "1A8F2408970BFCCF",
+      tasks: [
+        {
+          id: "16F5A4657FFD6D94",
+          type: "item",
+          item: {
+            id: "alltheores:electrum_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "655C43FA6FC34D4F",
+          type: "item",
+          item: {
+            id: "alltheores:electrum_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "4BBF987FEF639801",
+      ],
+      optional: true,
+      id: "73110103EF23BFDF",
+      tasks: [
+        {
+          id: "7C7E9F25CBF00792",
+          type: "item",
+          item: {
+            id: "alltheores:brass_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78EA8566B6A331F7",
+          type: "item",
+          item: {
+            id: "alltheores:brass_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "76134D1A40F896F5",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "4BBF987FEF639801",
+      ],
+      optional: true,
+      id: "767E4FC03B6F6534",
+      tasks: [
+        {
+          id: "57CBAB78E576366F",
+          type: "item",
+          item: {
+            id: "alltheores:invar_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D62C06CC4A4A3DA",
+          type: "item",
+          item: {
+            id: "alltheores:invar_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "4FF01A915B9E49B7",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "4BBF987FEF639801",
+      ],
+      optional: true,
+      id: "30EA16BB8C169F86",
+      tasks: [
+        {
+          id: "71A59FE1AE9D56DA",
+          type: "item",
+          item: {
+            id: "alltheores:bronze_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F77525319DAE543",
+          type: "item",
+          item: {
+            id: "alltheores:bronze_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "124FCA304AE01647",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_silo.png",
+        },
+      },
+      x: -9.5,
+      y: 5.0,
+      shape: "none",
+      dependencies: [
+        "3E89034E0CB8D687",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "5DE3F2A96715BA2E",
+      tasks: [
+        {
+          id: "38072B273F705071",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "50x immersiveengineering:sheetmetal_iron",
+            },
+          },
+          count: 50,
+        },
+        {
+          id: "1F691FA3350E1797",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:treated_fence",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "6BEE9AF7D663093E",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "077C1742E2C00030",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:conveyor_basic",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "32CD2AEF63C17656",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 7.0,
+      shape: "pentagon",
+      dependencies: [
+        "18A9392BBCF5A871",
+      ],
+      size: 1.25,
+      id: "591E6964ABCC638C",
+      tasks: [
+        {
+          id: "6615AD9059660A15",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:conveyor_basic",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54AC5AA67CB15FA4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:conveyor_basic",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_tank.png",
+        },
+      },
+      x: -3.5,
+      y: 5.0,
+      shape: "none",
+      dependencies: [
+        "78DA970F97002975",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "36EB83BB41A9E621",
+      tasks: [
+        {
+          id: "6D4225AC46E79BCB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "34x immersiveengineering:sheetmetal_iron",
+            },
+          },
+          count: 34,
+        },
+        {
+          id: "7DE7858E410495EA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:treated_fence",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "623A4E7FB44F0026",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "63CA3A796532F2EB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "67437B726DF2E3B1",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 3.0,
+      shape: "pentagon",
+      dependencies: [
+        "18A9392BBCF5A871",
+      ],
+      size: 1.25,
+      id: "28E99A6E17E86709",
+      tasks: [
+        {
+          id: "55344B3AD166A2C4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_pipe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C17730C21C1D70D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 5.0,
+      shape: "hexagon",
+      dependencies: [
+        "18A9392BBCF5A871",
+      ],
+      id: "78DA970F97002975",
+      tasks: [
+        {
+          id: "5580FF146C9E7EA0",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:wooden_barrel)item(immersiveengineering:metal_barrel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DFEB80BE518FCEF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:metal_barrel",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 5.0,
+      shape: "hexagon",
+      dependencies: [
+        "18A9392BBCF5A871",
+      ],
+      id: "3E89034E0CB8D687",
+      tasks: [
+        {
+          id: "7FED013A7F667CC6",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:crate)item(immersiveengineering:reinforced_crate))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "459FA58CA403606C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:reinforced_crate",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 6.5,
+      dependencies: [
+        "288406DE6DA31BA6",
+      ],
+      id: "0ACC0092A8F722C6",
+      tasks: [
+        {
+          id: "4025792887CB9BE2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:wirecoil_copper)item(immersiveengineering:wirecoil_electrum)item(immersiveengineering:wirecoil_steel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "041899150DB14CAD",
+          type: "item",
+          item: {
+            id: "minecraft:terracotta",
+            count: 1,
+          },
+          count: 12,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 7.0,
+      shape: "diamond",
+      dependencies: [
+        "0ACC0092A8F722C6",
+      ],
+      id: "7A41038180C06B00",
+      tasks: [
+        {
+          id: "59DC19A11848EFE1",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:connector_lv)item(immersiveengineering:connector_mv)item(immersiveengineering:connector_hv))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22086E0836714A14",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:connector_lv",
+            },
+          },
+        },
+        {
+          id: "4ADDFA74E114001C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:connector_mv",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 8.0,
+      shape: "hexagon",
+      dependencies: [
+        "0ACC0092A8F722C6",
+      ],
+      id: "50326B1D6EE8FA0B",
+      tasks: [
+        {
+          id: "20D0DB49AFA7976F",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:capacitor_lv)item(immersiveengineering:capacitor_mv)item(immersiveengineering:capacitor_hv))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E3D171AD951344F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:capacitor_lv",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 7.5,
+      dependencies: [
+        "0ACC0092A8F722C6",
+      ],
+      id: "135A16EDEEE27FA9",
+      tasks: [
+        {
+          id: "7DD9DCBE80530D39",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:wirecoil_copper",
+            },
+          },
+        },
+        {
+          id: "71AA7B67032348CA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:wirecoil_electrum",
+            },
+          },
+        },
+        {
+          id: "59DB9F8D97677620",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:wirecoil_steel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "057A7280FA35B1E9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:connector_hv",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 7.0,
+      shape: "diamond",
+      dependencies: [
+        "0ACC0092A8F722C6",
+      ],
+      id: "452EF09F6CB4AD99",
+      tasks: [
+        {
+          id: "440F173D6B5EE74E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:connector_lv_relay)item(immersiveengineering:connector_mv_relay)item(immersiveengineering:connector_hv_relay))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41E88744708D892F",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 2.0,
+      dependencies: [
+        "28E99A6E17E86709",
+      ],
+      id: "607D9B53C632DEDE",
+      tasks: [
+        {
+          id: "504C8520573A2344",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:pipe_valve",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1464DAEDFE7C676A",
+          type: "item",
+          item: {
+            id: "minecraft:lever",
+            count: 1,
+          },
+        },
+        {
+          id: "7C64CD3BD6474530",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 8.0,
+      shape: "hexagon",
+      dependencies: [
+        "0ACC0092A8F722C6",
+      ],
+      id: "28847A536C38EEA0",
+      tasks: [
+        {
+          id: "53AF5EFD070E8761",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:transformer)item(immersiveengineering:transformer_hv))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C5162447BB46BD4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:connector_lv",
+            },
+          },
+        },
+        {
+          id: "0D268A636145759F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:connector_mv",
+            },
+          },
+        },
+        {
+          id: "264B5BDFB759E518",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:connector_hv",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 6.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "2E9D1131DC21CC5B",
+      ],
+      size: 1.2,
+      id: "4C4C9ADAC6107F89",
+      tasks: [
+        {
+          id: "33166EB8A81E2DBA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:light_engineering",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22B6C79C07C0A7CC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:light_engineering",
+            },
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 6.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "2262AB9F934165D0",
+      ],
+      size: 1.2,
+      id: "1759A4E2AF0D2C88",
+      tasks: [
+        {
+          id: "01C08A7F472F6F5B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:heavy_engineering",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B921B104F3ADA1D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:heavy_engineering",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 6.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "2E9D1131DC21CC5B",
+      ],
+      size: 1.2,
+      id: "1D4E7F548431263A",
+      tasks: [
+        {
+          id: "76B57935D7D73E4D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21298218C8912A29",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 6.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "2262AB9F934165D0",
+      ],
+      size: 1.2,
+      id: "1A13039D6302ADA5",
+      tasks: [
+        {
+          id: "77A38517B4FAD157",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77DC2B8333DAC16C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:generator",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 6.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "2262AB9F934165D0",
+      ],
+      size: 1.2,
+      id: "56CE6CF9C99FB522",
+      tasks: [
+        {
+          id: "53D455C5E6C0170C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:radiator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15C597E3523228A6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:radiator",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "288406DE6DA31BA6",
+      ],
+      id: "506F20AF8E857559",
+      tasks: [
+        {
+          id: "618D97216A93EFD5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:dynamo",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "490F2D396EAE2352",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:treated_wood_horizontal",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "21C1310802C09079",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 3.5,
+      dependencies: [
+        "506F20AF8E857559",
+      ],
+      id: "7AE85F4FF4DDF4F2",
+      tasks: [
+        {
+          id: "4E391D14FCF95506",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:windmill",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CF4082CD518E681",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:windmill_sail",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "2997E0D26638F921",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 2.5,
+      dependencies: [
+        "506F20AF8E857559",
+      ],
+      id: "3A4A8EAA3022C7BA",
+      tasks: [
+        {
+          id: "0799908421F97562",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:watermill",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "14EF833EC052FE93",
+          type: "item",
+          item: {
+            id: "minecraft:water_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "3493A17826FE6140",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "288406DE6DA31BA6",
+      ],
+      id: "252A24CED69C1882",
+      tasks: [
+        {
+          id: "4D76807033DE9054",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:thermoelectric_generator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CC3C49DCB75C18E",
+          type: "item",
+          item: {
+            id: "minecraft:bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "1A7ED235A7FA1B20",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 0.0,
+      shape: "diamond",
+      hide_dependent_lines: true,
+      dependencies: [
+        "7B447E986493AD6B",
+      ],
+      id: "3DE14F16F3109229",
+      tasks: [
+        {
+          id: "053F8A38BE6215FF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:treated_wood_horizontal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79122C0081062FB8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:treated_wood_horizontal",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 5.0,
+      shape: "gear",
+      size: 2.0,
+      id: "288406DE6DA31BA6",
+      tasks: [
+        {
+          id: "5A03337F505D9BCB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:wirecutter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "12BEB5E45C8D3888",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0221A594DAEDBADF",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 2.5,
+      dependencies: [
+        "252A24CED69C1882",
+      ],
+      id: "481735FE3164C8D5",
+      tasks: [
+        {
+          id: "5CEB2D56A9EA74D0",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(minecraft:water_bucket)item(minecraft:ice)item(minecraft:packed_ice)item(minecraft:blue_ice)item(minecraft:snow_block))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "366A2279A628B7BF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 3.5,
+      dependencies: [
+        "252A24CED69C1882",
+      ],
+      id: "0F14270F0A718C01",
+      tasks: [
+        {
+          id: "43FDC45CF464047E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(minecraft:lava_bucket)item(minecraft:magma_block)item(alltheores:uranium_block))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CAFEE1E8D51C2AC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_diesel.png",
+        },
+      },
+      x: 4.5,
+      y: 5.125,
+      shape: "none",
+      dependencies: [
+        "288406DE6DA31BA6",
+        "56CE6CF9C99FB522",
+        "1D4E7F548431263A",
+        "1A13039D6302ADA5",
+        "1759A4E2AF0D2C88",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "4D193D60A3CAF435",
+      tasks: [
+        {
+          id: "516BA1717A7BE2EE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "9x immersiveengineering:radiator",
+            },
+          },
+          count: 9,
+        },
+        {
+          id: "50C34F4A6772FBBD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:generator",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "72542FE29081715D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "13x immersiveengineering:heavy_engineering",
+            },
+          },
+          count: 13,
+        },
+        {
+          id: "5E7A374041B2116F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "78063232B90830C0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "6x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "225CD45CB73A41A6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "5x immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 5,
+        },
+      ],
+      rewards: [
+        {
+          id: "02CA9258BB695370",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "77DAC814DADBFD96",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7AE8925746C9D45B",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_lightning.png",
+        },
+      },
+      x: 8.375,
+      y: 5.125,
+      shape: "none",
+      dependencies: [
+        "288406DE6DA31BA6",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "5EE1DF1C8F0C1FF9",
+      tasks: [
+        {
+          id: "43F6276C29742E88",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:coil_hv",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "318ECF5A6DC77AFA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:light_engineering",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "505DB34EDA126973",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x immersiveengineering:coil_lv",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "28D2BB46AF54ED8D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "40DED229DB95ECB7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:treated_fence",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "684CD2C917CBADB5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:capacitor_hv",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "361DFFC74E14C75F",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5DB28E80042E178D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:steel_fence",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "6A26B0053CAF4058",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 5.0,
+      shape: "gear",
+      size: 2.0,
+      id: "18A9392BBCF5A871",
+      tasks: [
+        {
+          id: "5E8C064F72034C3C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:screwdriver",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77CEAD8A0089D18F",
+          type: "item",
+          item: {
+            id: "alltheores:iron_plate",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "766C70301884941F",
+          type: "item",
+          item: {
+            id: "minecraft:leather",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_press.png",
+        },
+      },
+      x: -4.0,
+      y: 9.5,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "1759A4E2AF0D2C88",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "3EE95747CA6DFB1A",
+      tasks: [
+        {
+          id: "31832792FB2D9A4C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "21E9573B1385ABEF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "16BD09E30CE36FCE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:heavy_engineering",
+            },
+          },
+        },
+        {
+          id: "5C0A27EA31A8CA78",
+          type: "item",
+          item: {
+            id: "minecraft:piston",
+            count: 1,
+          },
+        },
+        {
+          id: "4B242230A6D53ED9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:conveyor_basic",
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "65472E5BB16F8644",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6DB472900B4F64D4",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7690123BA7C41DF4",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_crusher.png",
+        },
+      },
+      x: -2.5,
+      y: 9.5,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "32384DE59539557D",
+      tasks: [
+        {
+          id: "211E9301590CDD6C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "10x immersiveengineering:light_engineering",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "15BC31EACADB995B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "334ED902B5A63210",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "10x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "7A3EDB5ABEBBCDC6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x immersiveengineering:steel_fence",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "34424E87D679D3AA",
+          type: "item",
+          item: {
+            id: "minecraft:hopper",
+            count: 1,
+          },
+          count: 9,
+        },
+      ],
+      rewards: [
+        {
+          id: "091690560D4D98DF",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5C5E15F4CF150A64",
+          type: "item",
+          item: {
+            id: "minecraft:raw_iron_block",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "21275C36A6957C84",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_saw.png",
+        },
+      },
+      x: -1.0,
+      y: 9.5,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "1759A4E2AF0D2C88",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "63F5314A1072FA05",
+      tasks: [
+        {
+          id: "1D6B0BE179E438AF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:light_engineering",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "29679DFAF3688A13",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:sheetmetal_iron",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "5BC9F17566112D06",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:heavy_engineering",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "1F6313C26E5F7D3F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "5E36485B05AEC545",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "126EE5FF13775C84",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:conveyor_basic",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "35A4293C34073C0C",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "41F67A986D63C1F9",
+          type: "item",
+          item: {
+            id: "minecraft:oak_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "2E141E96372A4129",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:sawblade",
+            },
+          },
+        },
+        {
+          id: "56E213E9FC9B312E",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_mixer.png",
+        },
+      },
+      x: 1.0,
+      y: 9.5,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "1F7DA060792D716A",
+      tasks: [
+        {
+          id: "2186668919BED733",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:light_engineering",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "727BD97B3AB7479A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:sheetmetal_iron",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "6EDD71D8954331F6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "13083904E29B6854",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "43DE5D25CC9BA58E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:steel_fence",
+            },
+          },
+        },
+        {
+          id: "35DDBF919BD2238A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "3x immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "30B83564FE71A871",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "71363739197D8915",
+          type: "item",
+          item: {
+            id: "cookingforblockheads:sink",
+            count: 1,
+          },
+        },
+        {
+          id: "0DD68829996F7079",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_bottler.png",
+        },
+      },
+      x: 2.5,
+      y: 9.5,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "6BD348735C27BB44",
+      tasks: [
+        {
+          id: "17245F9809F6770E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:sheetmetal_iron",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "37903EE56D0E35B4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "7540463B5414E931",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:light_engineering",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "38670902BEED13C0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "3x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "576E555E24F81740",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "3x immersiveengineering:conveyor_basic",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "6BF4CA990AC1D6D1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_pump",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "755DB89EB53AEC1E",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6A6ADA628767D8CA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_fluid_tank",
+            },
+          },
+        },
+        {
+          id: "29025229025886AA",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_fermenter.png",
+        },
+      },
+      x: 4.0,
+      y: 9.5,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "5F4F7637044BD4F1",
+      tasks: [
+        {
+          id: "3A176A962A5919D2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:light_engineering",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "58AFA9E03A6F66A4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "693795FA60C76AB5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:sheetmetal_iron",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "7DA67B1D72A7D6FC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "6x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "2DA2DAF100BEB247",
+          type: "item",
+          item: {
+            id: "minecraft:cauldron",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "42E1153745A18A67",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "629B6A3F335A9A03",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "76F09491A443EFDA",
+          type: "item",
+          item: {
+            id: "minecraft:sweet_berries",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "6B90F8CB29E7DAB0",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_squeezer.png",
+        },
+      },
+      x: -4.0,
+      y: 11.0,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "066B8A75B299AED8",
+      tasks: [
+        {
+          id: "460B46D59B7FB169",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:light_engineering",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "7AED892AF8D26AA4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "1753E67772445136",
+          type: "item",
+          item: {
+            id: "minecraft:piston",
+            count: 1,
+          },
+        },
+        {
+          id: "74B8DE6A1C8AFA59",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "6x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "45B0AF58386883AA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "3x immersiveengineering:steel_fence",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "734D869A2E3417AB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "4C4DB43CE3630842",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:wooden_barrel",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "5C14751A7B402A4C",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "74AEC62B34B0FB4A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:seed",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "4FDCB6777E208362",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_refinery.png",
+        },
+      },
+      x: -2.5,
+      y: 11.0,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "1759A4E2AF0D2C88",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "13471E64CDE49D27",
+      tasks: [
+        {
+          id: "79A8D5248C0F47EC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:light_engineering",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "21EE8FF71E9FD622",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:heavy_engineering",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "323EFE6F6501676B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "16x immersiveengineering:sheetmetal_iron",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "6B7E8FF2E0CD78A4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "0A03AAEFD1383CE0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "2E5B743629E2CE23",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "5x immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 5,
+        },
+      ],
+      rewards: [
+        {
+          id: "2BED91FF660540E5",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "78F63280C05270CD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:jerrycan",
+            },
+          },
+        },
+        {
+          id: "0F4C8BB1F8A058E3",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_assembler.png",
+        },
+      },
+      x: -1.0,
+      y: 11.0,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "1C76E244AE3582E6",
+      tasks: [
+        {
+          id: "4533CB1AE7F6F4FC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:rs_engineering",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "12F7D04E193CE2E2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:light_engineering",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "312FB447598DEE05",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "5x immersiveengineering:sheetmetal_iron",
+            },
+          },
+          count: 9,
+        },
+        {
+          id: "714FBC767A24FC6B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "6x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "54A6F220C6DD7156",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "6x immersiveengineering:slab_sheetmetal_iron",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "311F2ED4DBA5FA85",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:conveyor_basic",
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "75F1BE0CC5CA069B",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1F72F9C46B4BA93B",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7F1D1B00548E10D3",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_automated.png",
+        },
+      },
+      x: 1.0,
+      y: 11.0,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "1759A4E2AF0D2C88",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "4104C5D003D4705A",
+      tasks: [
+        {
+          id: "17C57C16F52E344E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:light_engineering",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "3B367FBF6EBB93F2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "690A2AAF64DA8B22",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:heavy_engineering",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "215A170928C25A7B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "5x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "5D98129E137A6772",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "2x immersiveengineering:slab_treated_wood_horizontal",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "71E89ACB8324ED99",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:conveyor_basic",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "2102DBCB55ECE56A",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "104DDFEFBE5B92F4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blueprint",
+            },
+          },
+        },
+        {
+          id: "49E7C4B8458A7854",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_arc.png",
+        },
+      },
+      x: 2.5,
+      y: 11.0,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "1759A4E2AF0D2C88",
+        "4C4C9ADAC6107F89",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "4F56BFE6E4716F6D",
+      tasks: [
+        {
+          id: "0F77E4AA9F8B29A4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x immersiveengineering:sheetmetal_steel",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "01BBDC6956BD2DD3",
+          type: "item",
+          item: {
+            id: "alltheores:steel_block",
+            count: 1,
+          },
+          count: 6,
+        },
+        {
+          id: "5D1A4336AACBF465",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "6x immersiveengineering:heavy_engineering",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "773241124A5C44CD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "19B4DFC33F326B56",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "10x immersiveengineering:light_engineering",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "07C166C8FC0AB702",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "27x immersiveengineering:blastbrick_reinforced",
+            },
+          },
+          count: 27,
+        },
+        {
+          id: "0691F2B98EE54E95",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:slab_sheetmetal_steel",
+            },
+          },
+          count: 14,
+        },
+        {
+          id: "50634AC3F6466F69",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "5x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "77B4D2FE41B9556D",
+          type: "item",
+          item: {
+            id: "minecraft:cauldron",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A2189D1B16E0DC3",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "46F55D9AC0FC75C0",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "59835288D72E1BB2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:graphite_electrode",
+            },
+          },
+        },
+        {
+          id: "79831C244BBEF1FA",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "atm:textures/questpics/immersive/immersive_excavator.png",
+        },
+      },
+      x: 4.0,
+      y: 11.0,
+      shape: "none",
+      dependencies: [
+        "1D4E7F548431263A",
+        "1759A4E2AF0D2C88",
+        "4C4C9ADAC6107F89",
+        "56CE6CF9C99FB522",
+      ],
+      size: 1.25,
+      icon_scale: 2.0,
+      id: "4BA2F4AC2A08C294",
+      tasks: [
+        {
+          id: "5C25A42ACF50DD6E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:sheetmetal_steel",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "4AA295A2A2586DF3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "3x immersiveengineering:radiator",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "37F6D96CBBCFFE56",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "9x immersiveengineering:light_engineering",
+            },
+          },
+          count: 9,
+        },
+        {
+          id: "3DF49ED25B565ACB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+            },
+          },
+        },
+        {
+          id: "189DD2F5E713B2B0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x immersiveengineering:heavy_engineering",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "562C6B2001A38CE3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "26x immersiveengineering:steel_scaffolding_standard",
+            },
+          },
+          count: 26,
+        },
+        {
+          id: "78AC8EC04CDAFFDE",
+          type: "item",
+          item: {
+            id: "alltheores:steel_block",
+            count: 1,
+          },
+          count: 9,
+        },
+      ],
+      rewards: [
+        {
+          id: "4409B2EAA156C7E7",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "24E5045F171DAB4F",
+          type: "item",
+          item: {
+            id: "sophisticatedstorage:diamond_chest",
+            count: 1,
+            components: {
+              "sophisticatedstorage:wood_type": "oak",
+            },
+          },
+        },
+        {
+          id: "5AD90F8F07044285",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 5.0,
+      dependencies: [
+        "41B99DBD03EB74FF",
+      ],
+      hide_until_deps_complete: true,
+      optional: true,
+      id: "56E30438AE512475",
+      tasks: [
+        {
+          id: "356DD7CCC4FDA7B1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blastfurnace_preheater",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03088E1EA770222C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blastfurnace_preheater",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 5.0,
+      dependencies: [
+        "41B99DBD03EB74FF",
+      ],
+      hide_until_deps_complete: true,
+      optional: true,
+      id: "38F01BAEC74D5D68",
+      tasks: [
+        {
+          id: "2F3B73D6C48955E6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blastfurnace_preheater",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52197F9F67CB18E6",
+          type: "xp",
+          xp: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -7.0,
+      shape: "gear",
+      dependencies: [
+        "458265FCD6B3068E",
+      ],
+      size: 2.5,
+      id: "23FDFA44A162023A",
+      tasks: [
+        {
+          id: "64B4A6BCC26D53F3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:workbench",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6EA722E72E69B939",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "146A308DEFC378C4",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1EE91116B821AEF9",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "3DE14F16F3109229",
+      ],
+      size: 1.25,
+      id: "458265FCD6B3068E",
+      tasks: [
+        {
+          id: "4ECE5DA3F4FA106E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:craftingtable",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "068C6EBE7DFF26D1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:treated_wood_horizontal",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -10.5,
+      shape: "rsquare",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "5585130028BB8298",
+      tasks: [
+        {
+          id: "1A616ADFC9A72930",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:revolver",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F978144727D88DF",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "23B1B41083623468",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -9.5,
+      shape: "rsquare",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "586F6FD38CF85DCA",
+      tasks: [
+        {
+          id: "2EF4495FB6E792AE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:drill",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4EB6FA91DA0E3661",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4665EED7BCDE962A",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -10.5,
+      shape: "rsquare",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "47656073894224AF",
+      tasks: [
+        {
+          id: "3F5109BE954591C1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:railgun",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CA8DB8CB0D64434",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0D9BDC6900CD94FC",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -8.5,
+      shape: "rsquare",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "5C5546A5103BCF55",
+      tasks: [
+        {
+          id: "107A823CDD66067A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:chemthrower",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25FFEAE45EDB4154",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7DA028B8CDAE9EEE",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 3.0,
+      dependencies: [
+        "28E99A6E17E86709",
+      ],
+      id: "31324A6F96CAC112",
+      tasks: [
+        {
+          id: "28F70258686FDCA3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_pump",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5EFD02927AD6A2CD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 3.0,
+      shape: "hexagon",
+      dependencies: [
+        "28E99A6E17E86709",
+      ],
+      id: "679E80EBB9A2AE7E",
+      tasks: [
+        {
+          id: "42FDEB042C4F2336",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_sorter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F4F25B42DE84B9E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "28E99A6E17E86709",
+      ],
+      id: "320EE52EB022FAD3",
+      tasks: [
+        {
+          id: "079C5CCD1E3C97BF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_placer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78FE81D7E175EC5F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:fluid_pipe",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 7.0,
+      dependencies: [
+        "591E6964ABCC638C",
+      ],
+      id: "4AAB3899F530CC19",
+      tasks: [
+        {
+          id: "15795AB2872E2DEE",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:chute_iron)item(immersiveengineering:chute_steel)item(immersiveengineering:chute_aluminum)item(immersiveengineering:chute_copper))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7766885A37B71C7E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:chute_colored_pink",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 8.0,
+      dependencies: [
+        "591E6964ABCC638C",
+      ],
+      id: "1BF02D43986ABB03",
+      tasks: [
+        {
+          id: "02B26D0D73E5E361",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:conveyor_basic)item(immersiveengineering:conveyor_dropper)item(immersiveengineering:conveyor_vertical)item(immersiveengineering:conveyor_splitter)item(immersiveengineering:conveyor_extract))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1DCD917AAE8E56D1",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 7.0,
+      shape: "hexagon",
+      dependencies: [
+        "591E6964ABCC638C",
+      ],
+      id: "67940C0774E73217",
+      tasks: [
+        {
+          id: "304883E1496D3494",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:sorter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69642860A99B5DF6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:conveyor_basic",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 8.0,
+      shape: "hexagon",
+      dependencies: [
+        "591E6964ABCC638C",
+      ],
+      id: "3E32450DBB7529AA",
+      tasks: [
+        {
+          id: "4982F17B7762E475",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:item_batcher",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6259A4CE83D49DF4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:conveyor_basic",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -7.0,
+      shape: "diamond",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "4E8860056D068610",
+      tasks: [
+        {
+          id: "7097C167AAB4B666",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blueprint",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2235C82408ACF1C3",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -8.0,
+      shape: "diamond",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "763AE58CF620695E",
+      tasks: [
+        {
+          id: "61239AF1EA4453B3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blueprint",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "103F17A7ECDE1E5B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -9.0,
+      shape: "diamond",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "007A11C49E06F15F",
+      tasks: [
+        {
+          id: "75F8B8173C1208BF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blueprint",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "457553422672A643",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -9.5,
+      shape: "diamond",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "7B9672C4FCFFB887",
+      tasks: [
+        {
+          id: "5DABAC347B6E9103",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blueprint",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A7013E344B9D251",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -9.0,
+      shape: "diamond",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "2E89A03BA809634E",
+      tasks: [
+        {
+          id: "43B01F6B75ABB9DA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blueprint",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DF4D693CDEEF991",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -8.0,
+      shape: "diamond",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "47E32A084CAA1512",
+      tasks: [
+        {
+          id: "017F71A521055F9C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blueprint",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7400C7863B900EF0",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -7.0,
+      shape: "diamond",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "39DAC0592300992A",
+      tasks: [
+        {
+          id: "1AE2C9614D691727",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:blueprint",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5474E612BE7A7246",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -11.0,
+      shape: "rsquare",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "6140EAA6E042EF7C",
+      tasks: [
+        {
+          id: "51813D8BEEF55081",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:skyhook",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "402D0A5F6FA236D2",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "52A4B224A64F176E",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -9.5,
+      shape: "rsquare",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "29C9F8719DA63D8D",
+      tasks: [
+        {
+          id: "5A9D00A32CCF4C1A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:buzzsaw",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "653DF4AFCC5B22A5",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4276B185DED89EBA",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -8.5,
+      shape: "rsquare",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "063241B72BB3403E",
+      tasks: [
+        {
+          id: "4EB53F7A98392C54",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:shield",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B73DC3B69BA7F13",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6AAAC4024DEB866E",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "063241B72BB3403E",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "2F19529214CA9559",
+      tasks: [
+        {
+          id: "2D1DBFDA1B98E36F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_shield_flash",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30E51D25FC4D5124",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "063241B72BB3403E",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "35E399D88D2EDCB6",
+      tasks: [
+        {
+          id: "17E8D1BFFA414842",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_shield_shock",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B4EED78F258D1B3",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "063241B72BB3403E",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "0D2D1F99945BA209",
+      tasks: [
+        {
+          id: "3C90EC82EFE0FF5A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_shield_magnet",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FBD7EFC58413873",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "6140EAA6E042EF7C",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "13AF35A3108B02AF",
+      tasks: [
+        {
+          id: "444173167ED99F53",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_skyhook_slope",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "445A5F6197CE0166",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "6140EAA6E042EF7C",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "4D8190E94851C546",
+      tasks: [
+        {
+          id: "176D553ECC8E6FCF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_skyhook_insulation",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17C9D8C09CED4DBD",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "6140EAA6E042EF7C",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "520904C106D7D93D",
+      tasks: [
+        {
+          id: "03470767A1E92358",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_skyhook_mace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "24D430C986C071DC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5585130028BB8298",
+        "47656073894224AF",
+      ],
+      dependency_requirement: "one_completed",
+      size: 0.75,
+      optional: true,
+      id: "72CE46D28C9E7452",
+      tasks: [
+        {
+          id: "22B60B9F3943933F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_railgun_scope",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20258AEC5BC31AC9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "47656073894224AF",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "4E297778DCEEC963",
+      tasks: [
+        {
+          id: "1575675D3D1DAF8A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_railgun_capacitors",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A8F413B13366614",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5585130028BB8298",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "5E228ACA1B13AD04",
+      tasks: [
+        {
+          id: "6997136C71297901",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_revolver_bayonet",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7FB1BCC8AF740E21",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5585130028BB8298",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "2224AA108FC006F3",
+      tasks: [
+        {
+          id: "78C6996AA099376A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:speedloader",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2BF7E4AAF1C93CDD",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5585130028BB8298",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "4B42D962FE910CB3",
+      tasks: [
+        {
+          id: "02AB2AB07E1A30FF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_revolver_electro",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F8FE1758A8B8368",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5585130028BB8298",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "407C2D00F22BD89D",
+      tasks: [
+        {
+          id: "3DAAE8E6C7119E4B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_revolver_magazine",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "514055FC1FE2D317",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -7.0,
+      shape: "rsquare",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "3ED40CC40458087E",
+      tasks: [
+        {
+          id: "543D68325BA9C24E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:powerpack",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F25A71DB5C312D0",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3024C8A8AFCEB9E5",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -7.0,
+      shape: "rsquare",
+      dependencies: [
+        "23FDFA44A162023A",
+      ],
+      id: "0A7B0D0B81E138DE",
+      tasks: [
+        {
+          id: "652E2578DB73608A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolbox",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73A2AFBA7AFC46C0",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6F7BF5FD44A30567",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "3ED40CC40458087E",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "662DD269B027B6C8",
+      tasks: [
+        {
+          id: "352065C387D67A1C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_powerpack_antenna",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "467AF163568C399C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "3ED40CC40458087E",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "27FA2DB7839172BB",
+      tasks: [
+        {
+          id: "007FECC885B21F57",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_powerpack_induction",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2BD7413C155ED666",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "3ED40CC40458087E",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "231E0C0A9B0C0509",
+      tasks: [
+        {
+          id: "72F02B003359A477",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_powerpack_magnet",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F608F0CF0D29AF8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "3ED40CC40458087E",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "38C98FCB6A2D4226",
+      tasks: [
+        {
+          id: "4D14990B7C4C1934",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_powerpack_tesla",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E9F2F0D17A1050F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "29C9F8719DA63D8D",
+        "586F6FD38CF85DCA",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "1A3F053E0F693002",
+      tasks: [
+        {
+          id: "1C8B1F49BCFF7E44",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_drill_lube",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4453508EAB5B81B9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "29C9F8719DA63D8D",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "5218DAE147AC9F44",
+      tasks: [
+        {
+          id: "61DAA67DA704EEE4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_buzzsaw_spareblades",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "18A09C79244A640B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "29C9F8719DA63D8D",
+        "586F6FD38CF85DCA",
+        "5C5546A5103BCF55",
+      ],
+      dependency_requirement: "one_completed",
+      size: 0.75,
+      optional: true,
+      id: "553ADA7040B652CD",
+      tasks: [
+        {
+          id: "10A9FF77583E4F6F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_drill_capacity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "084AAF53219E3109",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "586F6FD38CF85DCA",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "7744BEC5CD328262",
+      tasks: [
+        {
+          id: "3DACAE1408545008",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_drill_waterproof",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F226A1C20AD9897",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -4.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "586F6FD38CF85DCA",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "6D42D0102D1CBC19",
+      tasks: [
+        {
+          id: "0B38C101DB6ED5B8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_drill_damage",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2EEFCEB382446E26",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "586F6FD38CF85DCA",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "33732EE8110A0911",
+      tasks: [
+        {
+          id: "34F6883930466021",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_drill_fortune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D70ED864F502725",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5C5546A5103BCF55",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "340F93695FFF8D76",
+      tasks: [
+        {
+          id: "279F828976EDAB32",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_chemthrower_focus",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69509A04AD0C6EC4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -3.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5C5546A5103BCF55",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "598DE7CEDA864B50",
+      tasks: [
+        {
+          id: "53187FC85EE8030D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:toolupgrade_chemthrower_multitank",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C0E5E5540C88A21",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.375,
+      y: -10.125,
+      dependencies: [
+        "586F6FD38CF85DCA",
+      ],
+      size: 0.75,
+      id: "1A6A383B4EF26B20",
+      tasks: [
+        {
+          id: "56D7513E9D02F900",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:drillhead_iron)item(immersiveengineering:drillhead_steel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D4A1CA2918F79FC",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -3.375,
+      y: -10.125,
+      dependencies: [
+        "29C9F8719DA63D8D",
+      ],
+      size: 0.75,
+      id: "7A1E3E7E2DF17AD2",
+      tasks: [
+        {
+          id: "0837FA64B9C50048",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:sawblade)item(immersiveengineering:rockcutter)item(immersiveengineering:grindingdisk))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04FFC8E2F1353DAB",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "69B33C8473D37497",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -12.0,
+      dependencies: [
+        "6140EAA6E042EF7C",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "1FA44E8FEE004AB4",
+      tasks: [
+        {
+          id: "0CD67A3D64E9B49B",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:wirecoil_structure_rope)item(immersiveengineering:wirecoil_structure_steel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "49FC7418BE55CBD5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:steel_post",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -11.5,
+      dependencies: [
+        "47656073894224AF",
+      ],
+      size: 0.75,
+      id: "431C62A6F8ECB4EC",
+      tasks: [
+        {
+          id: "0B62C759781950A1",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(alltheores:steel_rod)item(alltheores:iron_rod)item(alltheores:aluminum_rod)item(immersiveengineering:graphite_electrode)item(immersiveengineering:sawblade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56C5A246C5A22711",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "50319EAADDCAB33B",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 2.25,
+      y: -11.125,
+      dependencies: [
+        "47656073894224AF",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "2A1BFB2E0F1F3312",
+      tasks: [
+        {
+          id: "79F67E07C28F8E97",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(minecraft:trident)item(minecraft:blaze_rod)item(minecraft:end_rod)item(minecraft:ender_pearl))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52E7ACDB0ABA9952",
+          type: "item",
+          item: {
+            id: "minecraft:ender_pearl",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -2.25,
+      y: -11.125,
+      dependencies: [
+        "5585130028BB8298",
+      ],
+      size: 0.75,
+      id: "0D212038C0A45E0B",
+      tasks: [
+        {
+          id: "173B725A839DEEAA",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:bullet_casull)item(immersiveengineering:bullet_armor_piercing)item(immersiveengineering:bullet_buckshot)item(immersiveengineering:bullet_silver))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0EE1A539A6B19BFB",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "77AAA7299E6D52B8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:empty_casing",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "5436B290DE44455D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:empty_shell",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -11.5,
+      dependencies: [
+        "5585130028BB8298",
+      ],
+      size: 0.75,
+      optional: true,
+      id: "373668AE257A7A94",
+      tasks: [
+        {
+          id: "529FFD7D692AEFA5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:bullet_he)item(immersiveengineering:bullet_dragons_breath)item(immersiveengineering:bullet_potion)item(immersiveengineering:bullet_homing)item(immersiveengineering:bullet_wolfpack)item(immersiveengineering:bullet_flare))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62C6ED420428CD2E",
+          type: "choice",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6495639FF99A4A6F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:empty_casing",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "7504AC117EA1CE6F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:empty_shell",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -9.0,
+      y: -8.5,
+      shape: "rsquare",
+      dependencies: [
+        "67FB03BE6685AFE1",
+      ],
+      id: "4295C863C9A81F28",
+      tasks: [
+        {
+          id: "3891D9B4661C9863",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:tesla_coil",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BFFF2FF648A0ABF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:capacitor_lv",
+            },
+          },
+        },
+        {
+          id: "6181179699955A26",
+          type: "xp",
+          xp: 500,
+        },
+      ],
+    },
+    {
+      x: -11.0,
+      y: -7.5,
+      shape: "rsquare",
+      dependencies: [
+        "67FB03BE6685AFE1",
+      ],
+      id: "34D09336FA3E272A",
+      tasks: [
+        {
+          id: "4F5F91AAAC75104C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:turret_chem",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22B712D27E118ED0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:creosote_bucket",
+            },
+          },
+        },
+        {
+          id: "55C93C2F1393907B",
+          type: "xp",
+          xp: 500,
+        },
+      ],
+    },
+    {
+      x: -10.0,
+      y: -8.5,
+      shape: "rsquare",
+      dependencies: [
+        "67FB03BE6685AFE1",
+      ],
+      id: "341BB1353A1E45EA",
+      tasks: [
+        {
+          id: "03B4A647C9F7B38A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:turret_gun",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DA59BAA036E4A13",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:bullet_casull",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "07396766FD74A8EB",
+          type: "xp",
+          xp: 500,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -7.5,
+      shape: "rsquare",
+      dependencies: [
+        "67FB03BE6685AFE1",
+      ],
+      id: "79BEECD4E545793F",
+      tasks: [
+        {
+          id: "05A64B72ACE0BB32",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:razor_wire",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40E92A7D1452DCBF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:razor_wire",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "2E5BE5AB74B54F2E",
+          type: "xp",
+          xp: 500,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -7.0,
+      shape: "gear",
+      size: 1.5,
+      id: "67FB03BE6685AFE1",
+      tasks: [
+        {
+          id: "44AAEEE6188C4D90",
+          type: "advancement",
+          advancement: "immersiveengineering:main/kill_illager",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "2F0A9A2AA01C7C9C",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:railgun",
+        },
+      },
+      x: -10.5,
+      y: -6.0,
+      dependencies: [
+        "67FB03BE6685AFE1",
+      ],
+      id: "7FE273141D3DFFFD",
+      tasks: [
+        {
+          id: "145AA309E02241D8",
+          type: "kill",
+          entity: "immersiveengineering:fusilier",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "1D54EACB6690652A",
+          type: "item",
+          item: {
+            id: "alltheores:iron_rod",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "3E7E369415447E04",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:revolver",
+        },
+      },
+      x: -8.5,
+      y: -6.0,
+      dependencies: [
+        "67FB03BE6685AFE1",
+      ],
+      id: "2F8D117F802FEAF0",
+      tasks: [
+        {
+          id: "075C4721D53AE20A",
+          type: "kill",
+          entity: "immersiveengineering:commando",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "41159D13A12F46EB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:bullet_casull",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "1BAAF7A386D962F1",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:shield",
+        },
+      },
+      x: -9.5,
+      y: -5.5,
+      dependencies: [
+        "67FB03BE6685AFE1",
+      ],
+      id: "50F1C4521D282C60",
+      tasks: [
+        {
+          id: "242E0EFC521E799D",
+          type: "kill",
+          entity: "immersiveengineering:bulwark",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "0519EC70DD87FC83",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:shader_bag_immersiveengineering_masterwork",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "69FBD9C72245249C",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -7.5,
+      shape: "hexagon",
+      dependencies: [
+        "442B1A1900BADAFC",
+      ],
+      id: "0AE6AD813928DE4F",
+      tasks: [
+        {
+          id: "53ACAE72C918C5FF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:furnace_heater",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34ED818EA7393227",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ironfurnaces:iron_furnace",
+            },
+          },
+        },
+        {
+          id: "4130E2C22D5A62FF",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -8.5,
+      shape: "heart",
+      dependencies: [
+        "442B1A1900BADAFC",
+      ],
+      size: 1.2,
+      id: "251464B43353D4C6",
+      tasks: [
+        {
+          id: "32F274559B6B9A52",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:cloche",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0957A42C8151D161",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_seeds",
+            count: 1,
+          },
+        },
+        {
+          id: "7AD0A91C0B7309DB",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_farmland",
+            count: 1,
+          },
+        },
+        {
+          id: "3BE64402CC84A018",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: -7.5,
+      shape: "hexagon",
+      dependencies: [
+        "442B1A1900BADAFC",
+      ],
+      id: "6B2BD6F939136F50",
+      tasks: [
+        {
+          id: "3DFAD16BFEA33008",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:turntable",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6075C3DE970EF20E",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "398B857DA9AC4A3A",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -6.0,
+      shape: "hexagon",
+      dependencies: [
+        "442B1A1900BADAFC",
+      ],
+      id: "7060290E107D92AB",
+      tasks: [
+        {
+          id: "3B6CCBAC1C1664D7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:charging_station",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "025AF8B1CF758D9C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:capacitor_lv",
+            },
+          },
+        },
+        {
+          id: "597E705CF1DCAFB6",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -7.0,
+      shape: "gear",
+      size: 1.5,
+      id: "442B1A1900BADAFC",
+      tasks: [
+        {
+          id: "2F5363A9CB078692",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:treated_wood_horizontal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "469CC6A0E1AA8381",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:treated_wood_horizontal",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -6.0,
+      shape: "hexagon",
+      dependencies: [
+        "442B1A1900BADAFC",
+      ],
+      id: "257C80468B080B3C",
+      tasks: [
+        {
+          id: "67F84B2B9932988B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "immersiveengineering:electromagnet",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EA5C01D397BB51E",
+          type: "item",
+          item: {
+            id: "minecraft:hopper",
+            count: 1,
+          },
+        },
+        {
+          id: "24B452700ACB1A9F",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 3.5,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "6F3C82072672FD17",
+      tasks: [
+        {
+          id: "603A16080675C348",
+          type: "checkmark",
+        },
+        {
+          id: "0D7C60D7BFBD8CF0",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 4.0,
+      y: -2.0,
+      width: 10.5,
+      height: 1.25,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "1BF8E788BE31BBB8",
+    },
+    {
+      x: 0.0,
+      y: -2.0,
+      width: 20.53012048192771,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_title.png",
+      order: 2,
+      id: "26208F9762F40CEE",
+    },
+    {
+      x: -4.8,
+      y: -2.0,
+      width: 9.0,
+      height: 1.25,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "5F3592A455DD7325",
+    },
+    {
+      x: 10.5,
+      y: 5.0,
+      width: 3.8795180722891565,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/immersive/immersive_title_wir.png",
+      order: 2,
+      id: "0B1ED0FA3247A8D2",
+    },
+    {
+      x: -11.0,
+      y: 5.0,
+      width: 5.710843373493976,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/immersive/immersive_title_log.png",
+      order: 2,
+      id: "147A53DA1CA6782A",
+    },
+    {
+      x: 0.0,
+      y: 8.0,
+      width: 5.542168674698795,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_title_mac.png",
+      order: 2,
+      id: "67926E209D54FE79",
+    },
+    {
+      x: 0.0,
+      y: 8.0,
+      width: 5.3,
+      height: 0.8,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "1C400A6E139C5DDA",
+    },
+    {
+      x: 10.5,
+      y: 5.0,
+      width: 3.7,
+      height: 0.8,
+      rotation: 90.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "7C5F76893E2135FB",
+    },
+    {
+      x: -11.0,
+      y: 5.0,
+      width: 5.5,
+      height: 0.8,
+      rotation: -90.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "156297B2739548FE",
+    },
+    {
+      x: -2.5,
+      y: -5.75,
+      width: 3.5542168674698793,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_title_tol.png",
+      order: 2,
+      id: "1A18F340D963C061",
+    },
+    {
+      x: 3.5,
+      y: -5.75,
+      width: 5.650602409638554,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_title_upg.png",
+      order: 2,
+      id: "0EF31121E1484717",
+    },
+    {
+      x: -2.5,
+      y: -5.75,
+      width: 3.2,
+      height: 0.8,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "4025219041865BBE",
+    },
+    {
+      x: 3.5,
+      y: -5.75,
+      width: 5.5,
+      height: 0.8,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "2C75EBB394C57461",
+    },
+    {
+      x: 0.0,
+      y: 5.5,
+      width: 34.87244897959184,
+      height: 15.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      id: "301AE763AB4F33DD",
+    },
+    {
+      x: 0.0,
+      y: -7.0,
+      width: 34.87244897959184,
+      height: 15.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      id: "7548E13DC81C4F7E",
+    },
+    {
+      x: -11.0,
+      y: 12.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "76D74B267ACAA3FB",
+    },
+    {
+      x: 13.0,
+      y: -7.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/immersive/immersive_title_sma.png",
+      order: 2,
+      id: "71B263F8D5C0A03A",
+    },
+    {
+      x: 13.0,
+      y: -9.5,
+      width: 3.7,
+      height: 0.8,
+      rotation: 90.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "7DF9877BC5486E58",
+    },
+    {
+      x: 13.0,
+      y: -5.2,
+      width: 5.7,
+      height: 0.8,
+      rotation: 90.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "2344628CE71D72E7",
+    },
+    {
+      x: -13.0,
+      y: -6.5,
+      width: 13.397435897435898,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/immersive/immersive_title_oad.png",
+      order: 2,
+      id: "0852FF5642C32549",
+    },
+    {
+      x: -13.0,
+      y: -4.0,
+      width: 7.5,
+      height: 0.8,
+      rotation: -90.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "002CC6DF925A761B",
+    },
+    {
+      x: -13.0,
+      y: -9.0,
+      width: 7.5,
+      height: 0.8,
+      rotation: -90.0,
+      image: "atm:textures/questpics/immersive/immersive_back2.png",
+      order: 1,
+      id: "5AD1117BEDB98BF1",
+    },
+    {
+      x: -3.0,
+      y: 12.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "706D8A011EDF97A9",
+    },
+    {
+      x: 11.0,
+      y: 12.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "47475606E5AEDBC1",
+    },
+    {
+      x: 3.5,
+      y: 12.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "266A20F09E6DC336",
+    },
+    {
+      x: 15.0,
+      y: 8.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "40F19F214A6BAE06",
+    },
+    {
+      x: 15.0,
+      y: -4.5,
+      width: 10.0,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "1D0E5BA5B9CA06A8",
+    },
+    {
+      x: 15.0,
+      y: -9.5,
+      width: 10.0,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "3CAA452376995D00",
+    },
+    {
+      x: 15.0,
+      y: 2.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "1F71F273C9582CA6",
+    },
+    {
+      x: -15.0,
+      y: -9.5,
+      width: 10.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "406B9B21CBE2A17A",
+    },
+    {
+      x: -15.0,
+      y: 8.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "137BCFF13846BFE5",
+    },
+    {
+      x: -15.0,
+      y: -4.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "6C7F9B5A94111745",
+    },
+    {
+      x: -15.0,
+      y: 3.0,
+      width: 10.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "5478A9E44EA22B4A",
+    },
+    {
+      x: 11.0,
+      y: -13.5,
+      width: 10.0,
+      height: 1.0,
+      rotation: 180.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "14DA13BA78FD4655",
+    },
+    {
+      x: -11.0,
+      y: -13.5,
+      width: 10.0,
+      height: 1.0,
+      rotation: 180.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "40E044D5AD05A540",
+    },
+    {
+      x: -3.0,
+      y: -13.5,
+      width: 10.0,
+      height: 1.0,
+      rotation: 180.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "3C3ACE73B9DAACD4",
+    },
+    {
+      x: 3.5,
+      y: -13.5,
+      width: 10.0,
+      height: 1.0,
+      rotation: 180.0,
+      image: "atm:textures/questpics/immersive/immersive_back1.png",
+      id: "0DEF51A8918D68E2",
+    },
+  ],
+}

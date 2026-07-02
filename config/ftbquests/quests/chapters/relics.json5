@@ -1,0 +1,1113 @@
+{
+  id: "11919EBB416B2BD0",
+  group: "15E5B587D291A4AA",
+  order_index: 5,
+  icon: {
+    id: "ftbquests:custom_icon",
+    count: 1,
+    components: {
+      "ftbquests:icon": "relics:item/kinetic_belt_flawless",
+    },
+  },
+  filename: "relics",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  autofocus_id: "64141B720662B652",
+  quests: [
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "relics:item/kinetic_belt_flawless",
+        },
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      size: 2.0,
+      icon_scale: 1.1,
+      id: "64141B720662B652",
+      tasks: [
+        {
+          id: "3710D647993D8DE7",
+          type: "xp",
+          value: 1,
+          points: false,
+        },
+      ],
+      rewards: [
+        {
+          id: "4C83061720AA2F94",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "2B08B19B35EEBCBA",
+      ],
+      id: "54822638CC243004",
+      tasks: [
+        {
+          id: "71E030C34CAAE9B6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:sphere_of_self_sacrifice",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58922C75496BC851",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "1B597F71FEE2546F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:mirrorweave",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "2B08B19B35EEBCBA",
+      ],
+      id: "5EB87CE5F6DEFAAA",
+      tasks: [
+        {
+          id: "0CFCC6207B0EB70F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:piglin_mask",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10F734C01A12D709",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "284124825828E1A3",
+          type: "item",
+          item: {
+            id: "minecraft:magma_block",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -4.0,
+      shape: "rsquare",
+      dependencies: [
+        "730130CCF1CF5119",
+      ],
+      id: "6B40AF49F505A551",
+      tasks: [
+        {
+          id: "0A935B1F1BAB379E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:roller_skate",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D766994223B328E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      shape: "rsquare",
+      dependencies: [
+        "730130CCF1CF5119",
+      ],
+      id: "12449D23295CF9ED",
+      tasks: [
+        {
+          id: "0045D90350F06441",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:jellyfish_necklace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71B74405C11A27CE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "0194F9F69D23A29C",
+          type: "item",
+          item: {
+            id: "aquaculture:jellyfish",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -3.5,
+      shape: "rsquare",
+      dependencies: [
+        "730130CCF1CF5119",
+      ],
+      id: "3BD73FEAE853D350",
+      tasks: [
+        {
+          id: "25DB66CF433EA60F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:hunting_belt",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4EC426A774CFF65B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "0066262A30FA503B",
+          type: "item",
+          item: {
+            id: "minecraft:ice",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 2.0,
+      shape: "rsquare",
+      dependencies: [
+        "2B08B19B35EEBCBA",
+      ],
+      id: "395668FBCB6537AF",
+      tasks: [
+        {
+          id: "0436F96069375D4B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:reflective_necklace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13EA8CED7EC0185B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "4ADF93759B5ABEDF",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "5D82340E9BED9C79",
+      ],
+      id: "1E2A9446594638E2",
+      tasks: [
+        {
+          id: "3B5C71C7F3798A0E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:chorus_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2553B55660B1DFC6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "09C26A86B0BF0ADA",
+          type: "item",
+          item: {
+            id: "minecraft:chorus_fruit",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 3.5,
+      shape: "rsquare",
+      dependencies: [
+        "5D82340E9BED9C79",
+      ],
+      id: "60CECAAE2D43EC6E",
+      tasks: [
+        {
+          id: "6B6BA467225122A8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:clot_of_time",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70BE3CE7991B95EF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "5D73F77CF23B0B0B",
+          type: "item",
+          item: {
+            id: "minecraft:clock",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "relics:kinetic_belt",
+        },
+      },
+      x: 4.0,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "5D82340E9BED9C79",
+      ],
+      id: "18DB8C875F2331B2",
+      tasks: [
+        {
+          id: "39902B0053BD0A97",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:kinetic_belt",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "18D2A6CA17BB33DB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "22AE0D3972332FC3",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -3.0,
+      shape: "rsquare",
+      dependencies: [
+        "730130CCF1CF5119",
+      ],
+      id: "7F2D696AC9F4C4E4",
+      tasks: [
+        {
+          id: "11655B2807FF11CA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:cut_glass_boot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "657518074319A215",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "0665A9296D374229",
+          type: "item",
+          item: {
+            id: "minecraft:packed_ice",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -4.0,
+      shape: "rsquare",
+      dependencies: [
+        "730130CCF1CF5119",
+      ],
+      id: "3E8BA5E075ABD136",
+      tasks: [
+        {
+          id: "565C55FF7E131F17",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:chef_hat",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "16174D4BD699A6AE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 3.5,
+      shape: "rsquare",
+      dependencies: [
+        "2B08B19B35EEBCBA",
+      ],
+      id: "40AB457E37919ABE",
+      tasks: [
+        {
+          id: "51439DB4FA76AC48",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:ring_of_the_seven_deadly_sins",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68E6DE9DEE1F710E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "4444C12BA43710E2",
+          type: "item",
+          item: {
+            id: "minecraft:netherrack",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "relics:midnight_mantle",
+        },
+      },
+      x: 3.5,
+      y: 2.0,
+      shape: "rsquare",
+      dependencies: [
+        "5D82340E9BED9C79",
+      ],
+      id: "7C3F65B5DAC7E57B",
+      tasks: [
+        {
+          id: "2A6F0D976724CBF3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:midnight_mantle",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D80A1DBCC49FA15",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -4.0,
+      shape: "rsquare",
+      dependencies: [
+        "730130CCF1CF5119",
+      ],
+      id: "677A701E06422CF3",
+      tasks: [
+        {
+          id: "5DFC2DA62718174A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:leafy_mantle",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25F848986B8E004A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -3.5,
+      shape: "rsquare",
+      dependencies: [
+        "730130CCF1CF5119",
+      ],
+      id: "748A01B5607C475B",
+      tasks: [
+        {
+          id: "244B401B38A179AF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:springy_boot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E734CA95E740CFB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -3.0,
+      shape: "rsquare",
+      dependencies: [
+        "730130CCF1CF5119",
+      ],
+      id: "21BEE9867796933A",
+      tasks: [
+        {
+          id: "4178C3EBAD9F0670",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:rider_flute",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DFC929F7C3BD47E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "08C84D9D5A6AFD43",
+          type: "item",
+          item: {
+            id: "minecraft:snow_block",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:grass_block",
+        count: 1,
+      },
+      x: 0.0,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "64141B720662B652",
+      ],
+      icon_scale: 2.0,
+      id: "730130CCF1CF5119",
+      tasks: [
+        {
+          id: "78910F1DA5FE3640",
+          type: "dimension",
+          icon: {
+            id: "minecraft:grass_block",
+            count: 1,
+          },
+          dimension: "minecraft:overworld",
+        },
+      ],
+      rewards: [
+        {
+          id: "461D6445B549CFD1",
+          type: "item",
+          item: {
+            id: "minecraft:grass_block",
+            count: 1,
+          },
+          count: 32,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherrack",
+        count: 1,
+      },
+      x: -1.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "64141B720662B652",
+      ],
+      icon_scale: 2.0,
+      id: "2B08B19B35EEBCBA",
+      tasks: [
+        {
+          id: "6990F3804C13A8E5",
+          type: "dimension",
+          icon: {
+            id: "minecraft:netherrack",
+            count: 1,
+          },
+          dimension: "minecraft:the_nether",
+        },
+      ],
+      rewards: [
+        {
+          id: "2537CCC684F7F12D",
+          type: "item",
+          item: {
+            id: "minecraft:netherrack",
+            count: 1,
+          },
+          count: 32,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:end_stone",
+        count: 1,
+      },
+      x: 1.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "64141B720662B652",
+      ],
+      icon_scale: 2.0,
+      id: "5D82340E9BED9C79",
+      tasks: [
+        {
+          id: "237EA6DA8CF08A20",
+          type: "dimension",
+          icon: {
+            id: "minecraft:end_stone",
+            count: 1,
+          },
+          dimension: "minecraft:the_end",
+        },
+      ],
+      rewards: [
+        {
+          id: "740D5F39A8BCFA46",
+          type: "item",
+          item: {
+            id: "minecraft:end_stone",
+            count: 1,
+          },
+          count: 32,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 2.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "3E99F4CD379DE9D7",
+      tasks: [
+        {
+          id: "5E90B977ACB0C900",
+          type: "checkmark",
+        },
+        {
+          id: "23C7F92BD9D39E14",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 4.0,
+      shape: "rsquare",
+      dependencies: [
+        "5EB87CE5F6DEFAAA",
+      ],
+      id: "4BADD8A0FD85DB33",
+      tasks: [
+        {
+          id: "12326EDDE280D1E6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:golden_tooth",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "084B8CE7B219477F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "relics:relic_experience_bottle",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "6784E1177418EB4A",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -8.5,
+      width: 8.55,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_title.png",
+      id: "4CE20ECF1B86E702",
+    },
+    {
+      x: -6.5,
+      y: 0.0,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_bastion.png",
+      click: "#2B08B19B35EEBCBA",
+      id: "7E0AFD6644642FED",
+    },
+    {
+      x: -5.5,
+      y: 3.5,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_fortress.png",
+      click: "#2B08B19B35EEBCBA",
+      id: "58B9070599FE117F",
+    },
+    {
+      x: -2.0,
+      y: 6.0,
+      width: 3.6192271442035815,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_portal.png",
+      click: "#2B08B19B35EEBCBA",
+      id: "0993638283BD0B9E",
+    },
+    {
+      x: 2.0,
+      y: 6.0,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_endcity.png",
+      click: "#5D82340E9BED9C79",
+      id: "25F3BA645197AA51",
+    },
+    {
+      x: 5.5,
+      y: 3.5,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_endship.png",
+      click: "#5D82340E9BED9C79",
+      id: "3FD81799EE5CBEFF",
+    },
+    {
+      x: 6.5,
+      y: 0.0,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_ruins.png",
+      click: "#730130CCF1CF5119",
+      id: "60DA63963AFD6CF5",
+    },
+    {
+      x: 5.5,
+      y: -3.5,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_shipwreck.png",
+      click: "#730130CCF1CF5119",
+      id: "3980278CCAAD4FB6",
+    },
+    {
+      x: 2.0,
+      y: -6.0,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_mine.png",
+      click: "#730130CCF1CF5119",
+      id: "22D2FF9E617FAC0D",
+    },
+    {
+      x: -5.5,
+      y: -3.5,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_village.png",
+      click: "#730130CCF1CF5119",
+      id: "59487EAAE3641FDF",
+    },
+    {
+      x: -2.0,
+      y: -6.0,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/relics/relics_chest_stronghold.png",
+      click: "#730130CCF1CF5119",
+      id: "581FC9D6FB522732",
+    },
+    {
+      x: -2.0,
+      y: -6.0,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "4D49EA55B982AEA4",
+    },
+    {
+      x: 2.0,
+      y: -6.0,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "54B9263C8D218B58",
+    },
+    {
+      x: 5.5,
+      y: -3.5,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "19081542F0A737C0",
+    },
+    {
+      x: 6.5,
+      y: 0.0,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "62F166E79C04004B",
+    },
+    {
+      x: 5.5,
+      y: 3.5,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "6B9F6AA1AE4DB834",
+    },
+    {
+      x: 2.0,
+      y: 6.0,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "39C8227D85A71B61",
+    },
+    {
+      x: -2.0,
+      y: 6.0,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "41B576CAC881CC35",
+    },
+    {
+      x: -5.5,
+      y: 3.5,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "475CE5D5DDA99341",
+    },
+    {
+      x: -6.5,
+      y: 0.0,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "11DDA240A59BC557",
+    },
+    {
+      x: -5.5,
+      y: -3.5,
+      width: 4.0,
+      height: 5.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/building_tips/building_frame.png",
+      id: "59A5B49AEAE99F46",
+    },
+  ],
+}

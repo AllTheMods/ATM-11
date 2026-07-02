@@ -1,0 +1,86 @@
+{
+  id: "0F18B2B15BE4FF2B",
+  order_index: 40,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "modern_industrialization:steam_quarry",
+    },
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "30516220E1E14BBA",
+      item: {
+        id: "alltheores:steel_ingot",
+        count: 1,
+      },
+      count: 8,
+      weight: 0.8,
+    },
+    {
+      id: "2ECCA6087D445E01",
+      item: {
+        id: "minecraft:copper_ingot",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.5,
+    },
+    {
+      id: "7D8023130B7AAF32",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:bronze_tank",
+        },
+      },
+    },
+    {
+      id: "60A06D3DDEDE5A92",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:bronze_barrel",
+        },
+      },
+    },
+    {
+      id: "06E8564E523063B2",
+      item: {
+        id: "alltheores:bronze_ingot",
+        count: 1,
+      },
+      count: 8,
+      weight: 1.2,
+    },
+    {
+      id: "18B6B4C22E4BBC52",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:bronze_machine_casing",
+        },
+      },
+      count: 2,
+      weight: 0.4,
+    },
+    {
+      id: "6DDDC6403DB3BAC1",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:steel_machine_casing",
+        },
+      },
+      weight: 0.3,
+    },
+  ],
+}

@@ -1,0 +1,116 @@
+{
+  id: "517CB2DAB0515A50",
+  order_index: 0,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "428FEFDCEFEA2751",
+      item: {
+        id: "ae2:certus_quartz_crystal",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 4.0,
+    },
+    {
+      id: "60C9534712C9D517",
+      item: {
+        id: "ae2:certus_quartz_dust",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 5.0,
+    },
+    {
+      id: "72BBB230EFF309C6",
+      item: {
+        id: "ae2:silicon",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 3.0,
+    },
+    {
+      id: "08B66FFFD86F3AD2",
+      item: {
+        id: "ae2:printed_silicon",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 2.0,
+    },
+    {
+      id: "03F3B4042D1EB832",
+      item: {
+        id: "ae2:charged_certus_quartz_crystal",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "542D67CE11091970",
+      item: {
+        id: "ae2:fluix_crystal",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 2.0,
+    },
+    {
+      id: "61457CAE8D9BA634",
+      item: {
+        id: "ae2:fluix_dust",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 2.0,
+    },
+    {
+      id: "6E53AAC2EA215B56",
+      item: {
+        id: "ae2:logic_processor",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 2.0,
+    },
+    {
+      id: "19E943E055FECA19",
+      item: {
+        id: "ae2:calculation_processor",
+        count: 1,
+      },
+      random_bonus: 1,
+    },
+    {
+      id: "76D48291478B26DD",
+      item: {
+        id: "ae2:engineering_processor",
+        count: 1,
+      },
+    },
+    {
+      id: "732BE89A7C1FC09A",
+      item: {
+        id: "ae2:formation_core",
+        count: 1,
+      },
+    },
+    {
+      id: "5E06E4BFE3DA4112",
+      item: {
+        id: "ae2:annihilation_core",
+        count: 1,
+      },
+    },
+  ],
+}

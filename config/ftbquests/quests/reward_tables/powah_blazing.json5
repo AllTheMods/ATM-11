@@ -1,0 +1,65 @@
+{
+  id: "1C750D27FEF7C386",
+  order_index: 13,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "14A618CA341F152F",
+      item: {
+        id: "powah:capacitor_blazing",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 10.0,
+    },
+    {
+      id: "14CBAFE3CE2D90B6",
+      item: {
+        id: "powah:crystal_blazing",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 25.0,
+    },
+    {
+      id: "0BC33BF00EF2DBBB",
+      item: {
+        id: "powah:energy_cell_blazing",
+        count: 1,
+      },
+    },
+    {
+      id: "6E51B1353D46290A",
+      item: {
+        id: "powah:energy_cable_blazing",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 10.0,
+    },
+    {
+      id: "183755D5721E4C14",
+      item: {
+        id: "powah:energizing_rod_blazing",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "72FDAD250E3B880B",
+      item: {
+        id: "powah:solar_panel_blazing",
+        count: 1,
+      },
+    },
+    {
+      id: "4FA55F3399705441",
+      item: {
+        id: "powah:blazing_crystal_block",
+        count: 1,
+      },
+    },
+  ],
+}

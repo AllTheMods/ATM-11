@@ -1,0 +1,4083 @@
+{
+  id: "48410B67C276ED1F",
+  group: "5A4775CCD6D26C80",
+  order_index: 0,
+  icon: {
+    id: "minecraft:bee_nest",
+    count: 1,
+  },
+  filename: "bumblezone",
+  default_quest_shape: "hexagon",
+  default_hide_dependency_lines: false,
+  autofocus_id: "396CEB9D05700927",
+  quests: [
+    {
+      icon: {
+        id: "minecraft:bee_nest",
+        count: 1,
+      },
+      x: -0.5,
+      y: -7.0,
+      shape: "gear",
+      hide_dependent_lines: true,
+      size: 2.0,
+      id: "22BB55249EF2E819",
+      tasks: [
+        {
+          id: "42D3D4E96812274C",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(minecraft:beehive)item_tag(productivebees:advanced_beehives))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F6FD804DF4C38FB",
+          type: "item",
+          item: {
+            id: "minecraft:ender_pearl",
+            count: 1,
+          },
+        },
+        {
+          id: "13D15A968B42F92E",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -7.0,
+      dependencies: [
+        "22BB55249EF2E819",
+      ],
+      id: "61768CFEDA041E4D",
+      tasks: [
+        {
+          id: "1C26B5DF53544E1C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:beehive_beeswax",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40A7B7BE67C2BA22",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:beehive_beeswax",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -7.0,
+      dependencies: [
+        "22BB55249EF2E819",
+      ],
+      id: "7834734E79E41A3A",
+      tasks: [
+        {
+          id: "386645685E595D4D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4A96EF596C4B3C50",
+          type: "xp",
+          xp: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:honeycomb_block",
+        count: 1,
+      },
+      x: -0.5,
+      y: 0.0,
+      hide_dependent_lines: true,
+      dependencies: [
+        "22BB55249EF2E819",
+      ],
+      size: 3.0,
+      id: "396CEB9D05700927",
+      tasks: [
+        {
+          id: "539A5CC2101A378C",
+          type: "dimension",
+          dimension: "the_bumblezone:the_bumblezone",
+        },
+      ],
+      rewards: [
+        {
+          id: "22A581A0E7BF52CD",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:sugar",
+        count: 1,
+      },
+      x: 1.5,
+      y: -1.0,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      size: 1.3,
+      id: "2A6FC21142E75DD5",
+      tasks: [
+        {
+          id: "290BC3C90F2A2C42",
+          type: "biome",
+          biome: "the_bumblezone:sugar_water_floor",
+        },
+      ],
+      rewards: [
+        {
+          id: "71E8BC9C85CBA694",
+          type: "item",
+          item: {
+            id: "minecraft:bucket",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:pile_of_pollen",
+        },
+      },
+      x: -1.0,
+      y: -2.5,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      size: 1.3,
+      id: "041D16DA96BC4253",
+      tasks: [
+        {
+          id: "6F20352B88F43C5A",
+          type: "biome",
+          biome: "the_bumblezone:pollinated_pillar",
+        },
+      ],
+      rewards: [
+        {
+          id: "7A823DC3045356F2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:pollen_puff",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:pollen_puff",
+        },
+      },
+      x: 0.0,
+      y: -2.5,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      size: 1.3,
+      id: "513060836057E5B7",
+      tasks: [
+        {
+          id: "4FC9AD2049A838F8",
+          type: "biome",
+          biome: "the_bumblezone:pollinated_fields",
+        },
+      ],
+      rewards: [
+        {
+          id: "203C39BA6736FD24",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:pollen_puff",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:sugar_infused_stone",
+        },
+      },
+      x: -2.5,
+      y: -1.0,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      size: 1.3,
+      id: "2AD13B965611DC86",
+      tasks: [
+        {
+          id: "7C748280941552E5",
+          type: "biome",
+          biome: "the_bumblezone:howling_constructs",
+        },
+      ],
+      rewards: [
+        {
+          id: "594ECEF1263CBC1E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:sugar_infused_stone",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:filled_porous_honeycomb_block",
+        },
+      },
+      x: 0.0,
+      y: 2.5,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      size: 1.3,
+      id: "2A50A687C40DB864",
+      tasks: [
+        {
+          id: "364359866DCD16E3",
+          type: "biome",
+          biome: "the_bumblezone:hive_wall",
+        },
+      ],
+      rewards: [
+        {
+          id: "220EBCF5E2491A0F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:porous_honeycomb_block",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:porous_honeycomb_block",
+        },
+      },
+      x: -1.0,
+      y: 2.5,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      size: 1.3,
+      id: "540895E6C9E724AD",
+      tasks: [
+        {
+          id: "0E2B282FBF1EE765",
+          type: "biome",
+          biome: "the_bumblezone:hive_pillar",
+        },
+      ],
+      rewards: [
+        {
+          id: "2EB9C721E628053F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:filled_porous_honeycomb_block",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:cornflower",
+        count: 1,
+      },
+      x: -2.5,
+      y: 1.0,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      size: 1.3,
+      id: "1C6B815C0F43312D",
+      tasks: [
+        {
+          id: "63B9390EFD13B40E",
+          type: "biome",
+          biome: "the_bumblezone:floral_meadow",
+        },
+      ],
+      rewards: [
+        {
+          id: "39C01EEAB238A814",
+          type: "item",
+          item: {
+            id: "minecraft:bone_meal",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:glistering_honey_crystal",
+        },
+      },
+      x: 1.5,
+      y: 1.0,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      size: 1.3,
+      id: "680E960554CEE76B",
+      tasks: [
+        {
+          id: "18DAD3C98F3D9D42",
+          type: "biome",
+          biome: "the_bumblezone:crystal_canyon",
+        },
+      ],
+      rewards: [
+        {
+          id: "29345B24A06FF209",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:glistering_honey_crystal",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:copper_ring",
+        },
+      },
+      x: 4.0,
+      y: -5.0,
+      id: "0B0BDC37185AF9EC",
+      tasks: [
+        {
+          id: "462DA49D00527652",
+          type: "structure",
+          structure: "the_bumblezone:ancient_hoops",
+        },
+      ],
+      rewards: [
+        {
+          id: "3807F084CE08EB50",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "56E4F05BC7CF753F",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:amethyst_cluster",
+        count: 1,
+      },
+      x: 4.0,
+      y: -4.0,
+      id: "288A4A32CDBB14D5",
+      tasks: [
+        {
+          id: "5775EEB8587C67AC",
+          type: "structure",
+          structure: "the_bumblezone:ancient_shrine",
+        },
+      ],
+      rewards: [
+        {
+          id: "174DBF1BF12039CF",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "035F8C0595B296C7",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:carvable_wax_chiseled",
+        },
+      },
+      x: 13.5,
+      y: -4.0,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      hide_until_deps_complete: true,
+      id: "46FEF3DB6A5B52A0",
+      tasks: [
+        {
+          id: "24B9DD8BC915A71A",
+          type: "structure",
+          structure: "the_bumblezone:battle_cubes",
+        },
+      ],
+      rewards: [
+        {
+          id: "25AF4055A035DA19",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+        {
+          id: "322D4AA11F5DF8D2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:stingless_bee_helmet_1",
+        },
+      },
+      x: 4.0,
+      y: -3.0,
+      id: "719D5CEB4217B734",
+      tasks: [
+        {
+          id: "657339037C6BCD37",
+          type: "structure",
+          structure: "the_bumblezone:bee_house",
+        },
+      ],
+      rewards: [
+        {
+          id: "15A6B550A616575A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7B4B7388AB3B0711",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:super_candle",
+        },
+      },
+      x: 4.0,
+      y: -2.0,
+      id: "0980661B2F7FBC10",
+      tasks: [
+        {
+          id: "1B7EC80B5A3E7177",
+          type: "structure",
+          structure: "the_bumblezone:candle_parkour",
+        },
+      ],
+      rewards: [
+        {
+          id: "6714A28BE73C40E1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "23EFE94C80B54594",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:crystal_cannon",
+        },
+      },
+      x: 5.0,
+      y: -4.5,
+      id: "571CC5558B87377D",
+      tasks: [
+        {
+          id: "555605A50D2DBCEC",
+          type: "structure",
+          structure: "the_bumblezone:cannon_range",
+        },
+      ],
+      rewards: [
+        {
+          id: "3488A1CBCC12E3AA",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6DFDE631EAE985F0",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:honey_cocoon",
+        },
+      },
+      x: 14.5,
+      y: -4.0,
+      dependencies: [
+        "0910C28A609ECBC1",
+      ],
+      id: "30C12E249F7E2D52",
+      tasks: [
+        {
+          id: "19D4A0625D5211BA",
+          type: "structure",
+          structure: "the_bumblezone:cell_maze",
+        },
+      ],
+      rewards: [
+        {
+          id: "6A9BA7DEF65CF524",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+        {
+          id: "5E6AE39B958186B9",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:cherry_sapling",
+        count: 1,
+      },
+      x: -4.0,
+      y: 1.0,
+      dependencies: [
+        "1C6B815C0F43312D",
+      ],
+      id: "0BE2E7C9454058C3",
+      tasks: [
+        {
+          id: "2DEA8F0D03EAF198",
+          type: "structure",
+          structure: "the_bumblezone:cherry_veteran_tree",
+        },
+      ],
+      rewards: [
+        {
+          id: "1CB8379C43ECEDD1",
+          type: "item",
+          item: {
+            id: "minecraft:honey_bottle",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:jukebox",
+        count: 1,
+      },
+      x: 5.0,
+      y: -3.5,
+      id: "4A5F84912C755688",
+      tasks: [
+        {
+          id: "0CC8FE713BF6DA37",
+          type: "structure",
+          structure: "the_bumblezone:dance_floor",
+        },
+      ],
+      rewards: [
+        {
+          id: "67D62BB1899A99A1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4158864782D66CEC",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "minecraft:chain",
+        },
+      },
+      x: 6.0,
+      y: -4.0,
+      id: "02F4C3BEBD8427AD",
+      tasks: [
+        {
+          id: "2F1C66641E8B0A4C",
+          type: "structure",
+          structure: "the_bumblezone:hanging_garden",
+        },
+      ],
+      rewards: [
+        {
+          id: "4B3F69182DACE322",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "13495944BC1FBCBD",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:beehive",
+        count: 1,
+      },
+      x: 6.0,
+      y: -3.0,
+      id: "358D4F507521075F",
+      tasks: [
+        {
+          id: "19830DD16EF6BC4C",
+          type: "structure",
+          structure: "the_bumblezone:hive_temple",
+        },
+      ],
+      rewards: [
+        {
+          id: "518A7F92D75B40C4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7AA9254736DE7248",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:honey_block",
+        count: 1,
+      },
+      x: 6.0,
+      y: -2.0,
+      id: "3B9E6FBEDABA4F7E",
+      tasks: [
+        {
+          id: "6503FBAD8D1D426E",
+          type: "structure",
+          structure: "the_bumblezone:honey_cave_room",
+        },
+      ],
+      rewards: [
+        {
+          id: "66D8BB63EAAF858C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3285E64E6337AE67",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:sugar_water_bucket",
+        },
+      },
+      x: 7.0,
+      y: -4.5,
+      id: "73C7F57B90731010",
+      tasks: [
+        {
+          id: "6F7BB94F0502A3A2",
+          type: "structure",
+          structure: "the_bumblezone:honey_fountain",
+        },
+      ],
+      rewards: [
+        {
+          id: "725510E9A5E616C3",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "634993947EE0A8FD",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:honey_slime_spawn_egg",
+        },
+      },
+      x: 7.0,
+      y: -3.5,
+      id: "29E2033EA65E706E",
+      tasks: [
+        {
+          id: "1993C6E13D0D41B8",
+          type: "structure",
+          structure: "the_bumblezone:honey_slime_ranch",
+        },
+      ],
+      rewards: [
+        {
+          id: "70F7A10FE5BDBC72",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "05EDBA7D678B74FB",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:yellow_bed",
+        count: 1,
+      },
+      x: 15.5,
+      y: -4.0,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      hide_until_deps_complete: true,
+      id: "4040BFCD4BE56621",
+      tasks: [
+        {
+          id: "210B8225E4FC8998",
+          type: "structure",
+          structure: "the_bumblezone:honitel",
+        },
+      ],
+      rewards: [
+        {
+          id: "2DFB36712B85AD73",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+        {
+          id: "3F2360569F891CC1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:ice",
+        count: 1,
+      },
+      x: 7.0,
+      y: -2.5,
+      id: "13E3DE157B89E847",
+      tasks: [
+        {
+          id: "4385724555C4DB88",
+          type: "structure",
+          structure: "the_bumblezone:ice_monolith",
+        },
+      ],
+      rewards: [
+        {
+          id: "68162C15124D76E1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1F8361E0A80B63CE",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:crystalline_flower",
+        },
+      },
+      x: 3.0,
+      y: 1.0,
+      dependencies: [
+        "680E960554CEE76B",
+      ],
+      id: "55B9B9C3AA01D323",
+      tasks: [
+        {
+          id: "76E5E614F685CF06",
+          type: "structure",
+          structure: "the_bumblezone:overgrown_flower",
+        },
+      ],
+      rewards: [
+        {
+          id: "4BA2FF55D5DD634E",
+          type: "item",
+          item: {
+            id: "minecraft:book",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_sword",
+        count: 1,
+      },
+      x: 3.0,
+      y: -1.0,
+      dependencies: [
+        "2A6FC21142E75DD5",
+      ],
+      id: "79FF12D7A4C8E821",
+      tasks: [
+        {
+          id: "146FD1A1F3454C79",
+          type: "structure",
+          structure: "the_bumblezone:pirate_ship",
+        },
+      ],
+      rewards: [
+        {
+          id: "5F055CB705A7CFE5",
+          type: "item",
+          item: {
+            id: "minecraft:spyglass",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:sugar_water_bucket",
+        },
+      },
+      x: -0.5,
+      y: -4.0,
+      dependencies: [
+        "513060836057E5B7",
+        "041D16DA96BC4253",
+      ],
+      dependency_requirement: "one_completed",
+      id: "5728D87E3240AF0D",
+      tasks: [
+        {
+          id: "50A22721F6C13C29",
+          type: "structure",
+          structure: "the_bumblezone:pollinated_stream",
+        },
+      ],
+      rewards: [
+        {
+          id: "54F79D6BD779BAD9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:pile_of_pollen_suspicious",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_blue",
+        },
+      },
+      x: 19.5,
+      y: 7.0,
+      dependencies: [
+        "6434796EAAF2A4EC",
+      ],
+      size: 1.2,
+      id: "053483E3349B2F8A",
+      tasks: [
+        {
+          id: "2D6CD40930F15532",
+          type: "structure",
+          structure: "the_bumblezone:sempiternal_sanctum_blue",
+        },
+      ],
+      rewards: [
+        {
+          id: "583B50783A3BC135",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:water_breathing",
+              },
+            },
+          },
+        },
+        {
+          id: "158B0D87DA71C03A",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+        {
+          id: "5AB4A40340255A9C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:stinger_spear",
+        },
+      },
+      x: 8.0,
+      y: -3.0,
+      id: "5B4397D4EC23E702",
+      tasks: [
+        {
+          id: "23354E3505DA9C74",
+          type: "structure",
+          structure: "the_bumblezone:stinger_spear_shrine",
+        },
+      ],
+      rewards: [
+        {
+          id: "15040AFFEBBF0A58",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "696A9AA7C7B567C0",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:windy_air",
+        },
+      },
+      x: 8.0,
+      y: -2.0,
+      id: "7231F6177EEF5BF0",
+      tasks: [
+        {
+          id: "7D06C07991579DF6",
+          type: "structure",
+          structure: "the_bumblezone:subway",
+        },
+      ],
+      rewards: [
+        {
+          id: "5EB9D46906E711AB",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1D5B5EB5D8FBDB89",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
+        },
+      },
+      x: 14.5,
+      y: -2.0,
+      dependencies: [
+        "67A0F6661D658A52",
+      ],
+      id: "6474FE12450A4A7D",
+      tasks: [
+        {
+          id: "72006973AD7DFBD6",
+          type: "structure",
+          structure: "the_bumblezone:throne_pillar",
+        },
+      ],
+      rewards: [
+        {
+          id: "3A83C9086D62772F",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 3.5,
+      id: "1A67F4F87B3D456C",
+      tasks: [
+        {
+          id: "13090912E63F5803",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:bee_cannon",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64EA26D25B3E9B0A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honeycomb_brood_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 2.5,
+      id: "2149833F65D523E5",
+      tasks: [
+        {
+          id: "40F605E96D10E24B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:crystal_cannon",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52723061BE6D5407",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_crystal_shards",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: 3.0,
+      id: "5219D2F2B13F57F3",
+      tasks: [
+        {
+          id: "0E7076463EC81FDE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:buzzing_briefcase",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "565C758EBB300ABC",
+          type: "item",
+          item: {
+            id: "productivebees:sturdy_bee_cage",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 2.5,
+      id: "027EF5C8A74B1596",
+      tasks: [
+        {
+          id: "2D804A6315871994",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:stinger_spear",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C3FD3FF0408ED5A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:enchanted_book",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 3.5,
+      id: "253957D992A88C88",
+      tasks: [
+        {
+          id: "534C0A81A2292ECB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_crystal_shield",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D617B815F9312E0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_crystal_shards",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -4.0,
+      id: "2DE2E5A1275E4B20",
+      tasks: [
+        {
+          id: "2894B3CCE3553D61",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:stingless_bee_helmet_1",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00898989D688D2A4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -4.0,
+      id: "7C7C0D3D7FCB0297",
+      tasks: [
+        {
+          id: "60EB37A14EF6B7C8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:stingless_bee_helmet_2",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "09006699FDFB9EE3",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -3.0,
+      id: "5F834F8C607A8B77",
+      tasks: [
+        {
+          id: "48A63CB0DC088CCB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:bumble_bee_chestplate_1",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53B82D5907266608",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -3.0,
+      id: "78B7FC6A868F5C4D",
+      tasks: [
+        {
+          id: "195781EFC3AC00BB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:bumble_bee_chestplate_2",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C6251A539F370DA",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -2.0,
+      id: "2B857941D7BBA0B8",
+      tasks: [
+        {
+          id: "75E4F4B0F1776BD9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_bee_leggings_1",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56D14079D9AF10AC",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -2.0,
+      id: "78E40BDB0E54B638",
+      tasks: [
+        {
+          id: "41B87091E5CA786A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_bee_leggings_2",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79E07BD2FD8026D6",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -1.0,
+      id: "72489FB9D9A5A24B",
+      tasks: [
+        {
+          id: "7CF6F7F21D0F6B03",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:carpenter_bee_boots_1",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13D0BEC7DFBCEC45",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -1.0,
+      id: "7208CB011F6E2ACF",
+      tasks: [
+        {
+          id: "0CFA3BBD10DFF920",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:carpenter_bee_boots_2",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7276FCAFA93DA415",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: -5.0,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      hide_until_deps_complete: true,
+      id: "0910C28A609ECBC1",
+      tasks: [
+        {
+          id: "2C508B9FD0001F02",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_compass",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03F859B5D1F408EF",
+          type: "item",
+          item: {
+            id: "minecraft:honey_bottle",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:ancient_wax_diamond",
+        },
+      },
+      x: -4.0,
+      y: -1.0,
+      dependencies: [
+        "2AD13B965611DC86",
+      ],
+      id: "0C8180524757B238",
+      tasks: [
+        {
+          id: "262F74C837037298",
+          type: "observation",
+          timer: 0,
+          observation_type: "block",
+          to_observe: "the_bumblezone:ancient_wax_diamond",
+        },
+      ],
+      rewards: [
+        {
+          id: "721FA4D8DBEA690A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:ancient_wax_diamond",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:honeycomb_brood_block",
+        },
+      },
+      x: -0.5,
+      y: 4.0,
+      dependencies: [
+        "540895E6C9E724AD",
+        "2A50A687C40DB864",
+      ],
+      dependency_requirement: "one_completed",
+      id: "6013C6B2E0B81D73",
+      tasks: [
+        {
+          id: "2A719B03218D5DB8",
+          type: "observation",
+          timer: 0,
+          observation_type: "block",
+          to_observe: "the_bumblezone:honeycomb_brood_block",
+        },
+      ],
+      rewards: [
+        {
+          id: "13552CE13799852D",
+          type: "item",
+          item: {
+            id: "minecraft:honey_bottle",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: -3.0,
+      dependencies: [
+        "4040BFCD4BE56621",
+        "30C12E249F7E2D52",
+        "46FEF3DB6A5B52A0",
+      ],
+      dependency_requirement: "one_completed",
+      id: "67A0F6661D658A52",
+      tasks: [
+        {
+          id: "1EE379C541B3C951",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_compass",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D3D73E5452F2B52",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: -0.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6474FE12450A4A7D",
+      ],
+      size: 2.0,
+      id: "5C040191740A53C8",
+      tasks: [
+        {
+          id: "2882BB5BBB18E9D2",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/the_beginning",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "0C1B0E938454B352",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: 5.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "037E0DAA5ECC5AB8",
+        "64FEF31955CB158D",
+        "04665EFC3A37250E",
+        "0F5549B02D1B383B",
+        "54D80939887B3F7D",
+        "72569275EDE9FA23",
+        "42CB494F72FA1FD1",
+        "12EF38830108D02B",
+        "0C9C5639D76FDF65",
+        "4646DCF463FD913F",
+        "341DF467E3936E78",
+        "3365017C9B24C0A9",
+        "6BC0904E03683190",
+        "14F6ED7F0C1DC503",
+        "612157986673F815",
+        "00764A738DA6451C",
+      ],
+      size: 1.5,
+      id: "6434796EAAF2A4EC",
+      tasks: [
+        {
+          id: "562570CAB78A7D54",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:essence_of_the_bees",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E56E94EF173922B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:ancient_wax_diamond",
+            },
+          },
+          count: 10,
+        },
+        {
+          id: "2C586757CFD1DC46",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_green",
+        },
+      },
+      x: 17.5,
+      y: 7.0,
+      dependencies: [
+        "6434796EAAF2A4EC",
+      ],
+      size: 1.2,
+      id: "516ECA0396621C32",
+      tasks: [
+        {
+          id: "2BBA3DE9CCE266D0",
+          type: "structure",
+          structure: "the_bumblezone:sempiternal_sanctum_green",
+        },
+      ],
+      rewards: [
+        {
+          id: "549E518FADAE3FA3",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:regeneration",
+              },
+            },
+          },
+        },
+        {
+          id: "58579003FAB2302A",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+        {
+          id: "7A933D0023F5ED07",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_purple",
+        },
+      },
+      x: 15.5,
+      y: 7.0,
+      dependencies: [
+        "6434796EAAF2A4EC",
+      ],
+      size: 1.2,
+      id: "29C78845B488EDF8",
+      tasks: [
+        {
+          id: "442B706E2D9E42B2",
+          type: "structure",
+          structure: "the_bumblezone:sempiternal_sanctum_purple",
+        },
+      ],
+      rewards: [
+        {
+          id: "56BB0EE71DDEF0DC",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "apothic_attributes:resistance",
+              },
+            },
+          },
+        },
+        {
+          id: "2C67A0CC787AB419",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+        {
+          id: "37F19FB2B49E97EE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_red",
+        },
+      },
+      x: 13.5,
+      y: 7.0,
+      dependencies: [
+        "6434796EAAF2A4EC",
+      ],
+      size: 1.2,
+      id: "3B7BB08D6AA2E7FE",
+      tasks: [
+        {
+          id: "14B67B76F5F7C85C",
+          type: "structure",
+          structure: "the_bumblezone:sempiternal_sanctum_red",
+        },
+      ],
+      rewards: [
+        {
+          id: "27A60EF1B6563439",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:strength",
+              },
+            },
+          },
+        },
+        {
+          id: "0AAE385B293B83B2",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+        {
+          id: "5C97C2B2F018C1C7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_white",
+        },
+      },
+      x: 11.5,
+      y: 7.0,
+      dependencies: [
+        "6434796EAAF2A4EC",
+      ],
+      size: 1.2,
+      id: "75ACC8CF5873F92D",
+      tasks: [
+        {
+          id: "02F65BF2D95F20EF",
+          type: "structure",
+          structure: "the_bumblezone:sempiternal_sanctum_white",
+        },
+      ],
+      rewards: [
+        {
+          id: "246D56AC76B18A6E",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:swiftness",
+              },
+            },
+          },
+        },
+        {
+          id: "1797F5B0AF60DD55",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+        {
+          id: "7A18EF7BB0D43F0A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_yellow",
+        },
+      },
+      x: 9.5,
+      y: 7.0,
+      dependencies: [
+        "6434796EAAF2A4EC",
+      ],
+      size: 1.2,
+      id: "27FEF80A08AF43C2",
+      tasks: [
+        {
+          id: "490363DB8613FCBE",
+          type: "structure",
+          structure: "the_bumblezone:sempiternal_sanctum_yellow",
+        },
+      ],
+      rewards: [
+        {
+          id: "74C5C565C6562353",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:leaping",
+              },
+            },
+          },
+        },
+        {
+          id: "23248720C036E330",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+        {
+          id: "53D97A807AA44A39",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: 8.5,
+      dependencies: [
+        "3B7BB08D6AA2E7FE",
+      ],
+      size: 1.5,
+      id: "58CC2E563F92B4C5",
+      tasks: [
+        {
+          id: "0AA6515146223498",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:essence_raging",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25930AC8EFEE6002",
+          type: "xp_levels",
+          xp_levels: 25,
+        },
+        {
+          id: "0A2DBD077C1AFA44",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: 8.5,
+      dependencies: [
+        "053483E3349B2F8A",
+      ],
+      size: 1.5,
+      id: "20E5C888891FBCFE",
+      tasks: [
+        {
+          id: "382894B61961C73F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:essence_calming",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41711FCF723398BD",
+          type: "xp_levels",
+          xp_levels: 25,
+        },
+        {
+          id: "2006CA88D631E64F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 17.5,
+      y: 8.5,
+      dependencies: [
+        "516ECA0396621C32",
+      ],
+      size: 1.5,
+      id: "1D4973B187284CBB",
+      tasks: [
+        {
+          id: "2D7CB61F2375BEFB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:essence_life",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "228CC02046CE3CD7",
+          type: "xp_levels",
+          xp_levels: 25,
+        },
+        {
+          id: "6622DC02AF8B5702",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 15.5,
+      y: 8.5,
+      dependencies: [
+        "29C78845B488EDF8",
+      ],
+      size: 1.5,
+      id: "4718C2728C0CA40F",
+      tasks: [
+        {
+          id: "72E4743B07F5B062",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:essence_knowing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6082C07A7103B1B4",
+          type: "xp_levels",
+          xp_levels: 25,
+        },
+        {
+          id: "3677BDD167D3FBB1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 8.5,
+      dependencies: [
+        "75ACC8CF5873F92D",
+      ],
+      size: 1.5,
+      id: "52C7FAA044E07628",
+      tasks: [
+        {
+          id: "25EAABE69C404707",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:essence_continuity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70A48D8649B6CD61",
+          type: "xp_levels",
+          xp_levels: 25,
+        },
+        {
+          id: "37C1A1C870A89FF5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 8.5,
+      dependencies: [
+        "27FEF80A08AF43C2",
+      ],
+      size: 1.5,
+      id: "3ADC0CBB059FF927",
+      tasks: [
+        {
+          id: "32EA7A3A8A542A86",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:essence_radiance",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D7AD572AE7A2376",
+          type: "xp_levels",
+          xp_levels: 25,
+        },
+        {
+          id: "49FF41D37AF67164",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:beehive",
+        count: 1,
+      },
+      x: 13.0,
+      y: 1.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      hide_until_deps_complete: false,
+      id: "42CB494F72FA1FD1",
+      tasks: [
+        {
+          id: "042010AB43CC92FA",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "76A65A2BF48546F2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3C84A4B8968A69F5",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:spider_eye",
+        count: 1,
+      },
+      x: 14.0,
+      y: 1.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "12EF38830108D02B",
+      tasks: [
+        {
+          id: "577FC88712CD8D54",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/too_many_legs",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "4F408D93543F9DED",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6F75D7FD9661EA35",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:honey_bottle",
+        count: 1,
+      },
+      x: 15.0,
+      y: 1.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "14F6ED7F0C1DC503",
+      tasks: [
+        {
+          id: "0B20B61A830CB8A6",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/honey_drunk",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "43E5091AA70334EA",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7F7224FCFE485E9E",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:pollen_puff",
+        },
+      },
+      x: 16.0,
+      y: 1.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "037E0DAA5ECC5AB8",
+      tasks: [
+        {
+          id: "3901F2EA270CF409",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/pollen_fight",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "0BDB14E064129F29",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "283F046377B65324",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:silverfish_spawn_egg",
+        count: 1,
+      },
+      x: 13.5,
+      y: 2.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "04665EFC3A37250E",
+      tasks: [
+        {
+          id: "3623D4738A9C1BA6",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/fighting_the_swarm",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "1D876DB488CD50C2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "04C0A71B85AE076A",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:crossbow",
+        count: 1,
+      },
+      x: 14.5,
+      y: 2.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "3365017C9B24C0A9",
+      tasks: [
+        {
+          id: "527A89A320A920C2",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/poison_warfare",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "6619D0A071DC5C77",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "30EC5297F9BA1B21",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:honey_slime_spawn_egg",
+        },
+      },
+      x: 15.5,
+      y: 2.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "72569275EDE9FA23",
+      tasks: [
+        {
+          id: "6209D79CAEDEEDB7",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/slimy_mitosis",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "026A071A3BE154FD",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "15A0A973F02EDA35",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:cave_spider_spawn_egg",
+        count: 1,
+      },
+      x: 16.5,
+      y: 2.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "0F5549B02D1B383B",
+      tasks: [
+        {
+          id: "2254BD4931101EE3",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/terror_fangs",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "60CB057DEDFA555A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "593C44E04067C7F2",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:bee_stinger",
+        },
+      },
+      x: 13.0,
+      y: 3.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "0C9C5639D76FDF65",
+      tasks: [
+        {
+          id: "0F18C9E03BDEBF98",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/back_in_action",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "74CC7CEC3B2A1AE8",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "03EEE6FEE2DE3A2A",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:poppy",
+        count: 1,
+      },
+      x: 14.0,
+      y: 3.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "64FEF31955CB158D",
+      tasks: [
+        {
+          id: "4683491305C8FD43",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/the_crazy_florist",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "58623A12B7A720C0",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4188A8C23CB31A74",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:wither_skeleton_skull",
+        count: 1,
+      },
+      x: 15.0,
+      y: 3.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "4646DCF463FD913F",
+      tasks: [
+        {
+          id: "28D5A1AC253BAB9D",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/peak_inefficiency",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "512381F971D2F2CC",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2F343662EE5D22DB",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:bee_bread",
+        },
+      },
+      x: 16.0,
+      y: 3.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "612157986673F815",
+      tasks: [
+        {
+          id: "3587E88D2DED359F",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/hungry_hungry_bees",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "70B45BF4D890319C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6094E07B60A58174",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:bee_spawn_egg",
+        count: 1,
+      },
+      x: 13.5,
+      y: 4.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "6BC0904E03683190",
+      tasks: [
+        {
+          id: "2375386D9D49BBF2",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/love_bees",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "34A1C526304DFBBC",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "014B9111B7EC1869",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:endermite_spawn_egg",
+        count: 1,
+      },
+      x: 14.5,
+      y: 4.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "00764A738DA6451C",
+      tasks: [
+        {
+          id: "6E92A4BB79968ACD",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/otherworldly_mites",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "60A3400D72C1CBA3",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0C71998255DD04F5",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:dragon_head",
+        count: 1,
+      },
+      x: 15.5,
+      y: 4.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "341DF467E3936E78",
+      tasks: [
+        {
+          id: "1AD6A148ADE3E1C5",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/the_great_dragon_slayer",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "1E9FE5C11DE71261",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "238CAE7C5DAB31D0",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+        },
+      },
+      x: 16.5,
+      y: 4.0,
+      dependencies: [
+        "5C040191740A53C8",
+      ],
+      id: "54D80939887B3F7D",
+      tasks: [
+        {
+          id: "7A9D285A959F9852",
+          type: "advancement",
+          advancement: "the_bumblezone:the_queens_desire/crazy_trader",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "38B71D6530EB8292",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "15BE177A2A2DBD83",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 3.0,
+      id: "21BFDE6AD1C0F62A",
+      tasks: [
+        {
+          id: "646B54EB48AFB6A4",
+          type: "kill",
+          entity: "the_bumblezone:variant_bee",
+          value: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "7A81EC903D6C50A2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:buzzing_briefcase",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 2.5,
+      id: "05A4496705B6C6AF",
+      tasks: [
+        {
+          id: "37C196344D9FD2C3",
+          type: "kill",
+          entity: "the_bumblezone:beehemoth",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "39B9DCC66E003756",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_bucket",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 3.5,
+      id: "61500C8F68509E5D",
+      tasks: [
+        {
+          id: "4E6F5A4B1FE8CB23",
+          type: "kill",
+          entity: "the_bumblezone:rootmin",
+          value: 5,
+        },
+      ],
+      rewards: [
+        {
+          id: "599E43679867F462",
+          type: "item",
+          item: {
+            id: "minecraft:cornflower",
+            count: 1,
+          },
+        },
+        {
+          id: "406814913C9F43CD",
+          type: "item",
+          item: {
+            id: "minecraft:poppy",
+            count: 1,
+          },
+        },
+        {
+          id: "5511BF6B3B39414A",
+          type: "item",
+          item: {
+            id: "minecraft:dandelion",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 3.0,
+      id: "454AC491FDFC3FDB",
+      tasks: [
+        {
+          id: "030FFC7C0532E7B2",
+          type: "kill",
+          entity: "the_bumblezone:honey_slime",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "70B2DF8B1166B1BB",
+          type: "item",
+          item: {
+            id: "minecraft:sugar",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 8.0,
+      id: "50150380043F97F9",
+      tasks: [
+        {
+          id: "0EE3B383AFFEFC94",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0969BFBBAB21F60C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1A56D4F6F03BB7F7",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 8.0,
+      id: "3C413D4A210A3BDE",
+      tasks: [
+        {
+          id: "4983146A58846AC6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_honey_bee_rat_faced_boy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BF0423121C38920",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3D82E4549789AA91",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 8.0,
+      id: "72917C96C322A922",
+      tasks: [
+        {
+          id: "6F80DC3CA81D680C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_la_bee_da_loca",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BF4193FE0F3F3E1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "58869FA6069967FF",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 8.0,
+      id: "351769579833FA9E",
+      tasks: [
+        {
+          id: "19FFBD14A11341D4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "132A04BBB2882B03",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "154EA9131B4DDDDC",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 8.0,
+      id: "65D993EB95726067",
+      tasks: [
+        {
+          id: "2672B31044C04726",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_bee_ware_of_the_temple",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "184653DE30E75C84",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4D3EC9F81D616EB4",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 10.0,
+      id: "339384ADC9CDB944",
+      tasks: [
+        {
+          id: "70E079B29EA71462",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_knowing_renren",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CFBC1CC5D426C62",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0F2120C6CAA2366A",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 10.0,
+      id: "29DF2E7D0402284F",
+      tasks: [
+        {
+          id: "06743689ED89FB87",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_radiance_renren",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34A1800496086108",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "283D2E0EFE259796",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 10.0,
+      id: "262B307753106817",
+      tasks: [
+        {
+          id: "5C2B75FDEC7158D4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_drowning_in_despair",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25DEC1D34DEF6D9D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "27F6C2B6CB7507BF",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 10.0,
+      id: "497FA7CA04117995",
+      tasks: [
+        {
+          id: "40EC05D5AEC06147",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_life_renren",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31148F1D53BC89D2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "2C6FEBA29F57C9C7",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 10.0,
+      id: "206918773B0BD7A0",
+      tasks: [
+        {
+          id: "53722FB06A46BD8F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:music_disc_a_last_first_last",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BFFEFD3AFB8FB2A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1407F40FDA5EB2CC",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -2.5,
+      id: "6C5D61A704DC125A",
+      tasks: [
+        {
+          id: "6CA87D071A115686",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:flower_headwear",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B64997D81D9EB84",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:dye_essence",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: 2.0,
+      id: "5443AA65C0D0C599",
+      tasks: [
+        {
+          id: "6F6B8C065FD612D7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37A9FA9C327CFE8B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bucket",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: 4.0,
+      id: "27B5D0329DD92126",
+      tasks: [
+        {
+          id: "225B60F52C033B2C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:bee_soup",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F798BFFFF4B8166",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:awkward",
+              },
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 9.0,
+      size: 1.5,
+      id: "270498437D938DD4",
+      tasks: [
+        {
+          id: "7F185FBEFC0DB7E4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:potion_candle",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "600A6B8059340AF4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
+            },
+          },
+        },
+        {
+          id: "357ABFE8C2009921",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 9.0,
+      size: 1.5,
+      id: "5E180764FBEE666B",
+      tasks: [
+        {
+          id: "0439C2D821DC116A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:crystalline_flower",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "75F89E5E7AE0EE47",
+          type: "item",
+          item: {
+            id: "minecraft:book",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "59E62B9503D75300",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 7.0,
+      id: "1207E5C3E7BD0584",
+      tasks: [
+        {
+          id: "6E4735BD0FAC24BF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:banner_pattern_bee",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "086DA9039610FAE1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "4720E731FAA6D701",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 7.0,
+      id: "2ABAE97E992BB800",
+      tasks: [
+        {
+          id: "47A90ECBC342869D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:banner_pattern_honeycombs",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6AEBEDECA506BCF7",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "62445F492832F436",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 7.0,
+      id: "13681866CE6A831C",
+      tasks: [
+        {
+          id: "317BB1713844D988",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:banner_pattern_swords",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17172B3DFA8157D9",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "7B061CF76A962EFA",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 7.0,
+      id: "74D4E51A6381DB24",
+      tasks: [
+        {
+          id: "673E0676AB36DA51",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:banner_pattern_eyes",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C07379CFA056B1B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1BE27FB805F0E193",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 11.0,
+      id: "772C65FC32AECD6B",
+      tasks: [
+        {
+          id: "7C4C6B711751422F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:banner_pattern_peace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CC23D9FDE5F3FB2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3A4BB629706EAE46",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 11.0,
+      id: "786073B57C901DB7",
+      tasks: [
+        {
+          id: "22FBDD99B064AE6D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:banner_pattern_pluses",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55F6AFCD6A2DED69",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "08ACF8282DA8EB07",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 11.0,
+      id: "29E9E361DDC8041B",
+      tasks: [
+        {
+          id: "1C1F766DF473D6D5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:banner_pattern_sun",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57721C3552435A00",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "0B83BBE74EEA191C",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 11.0,
+      id: "26988330D3E5BF95",
+      tasks: [
+        {
+          id: "690C69FC604CC125",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:banner_pattern_arrows",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0FC64AF91175B075",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "6932DAEEDDE96D34",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -8.5,
+      dependencies: [
+        "396CEB9D05700927",
+      ],
+      hide_until_deps_complete: true,
+      id: "0E32DB6B8E023764",
+      tasks: [
+        {
+          id: "1256A95F7D5C782F",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4817918CC7505E40",
+          type: "item",
+          item: {
+            id: "productivebees:centrifuge",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -5.5,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "565EBD340595EAC4",
+      tasks: [
+        {
+          id: "1884D3DA3CCC1439",
+          type: "checkmark",
+        },
+        {
+          id: "5F9F725E2AD5FD3C",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:carvable_wax_chains",
+        },
+      },
+      x: 5.0,
+      y: -2.5,
+      id: "613AC4DF39E5621D",
+      tasks: [
+        {
+          id: "496CBDC4360A8D0A",
+          type: "structure",
+          structure: "the_bumblezone:gazebuzz_cluster",
+        },
+      ],
+      rewards: [
+        {
+          id: "722CE2E59C878FD2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "301264F06ED2D407",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "the_bumblezone:honey_bucket",
+        },
+      },
+      x: 6.0,
+      y: -5.0,
+      id: "41D539DA3B3EC287",
+      tasks: [
+        {
+          id: "2348A5DCE78BEC79",
+          type: "structure",
+          structure: "the_bumblezone:goliath_honey_fountain",
+        },
+      ],
+      rewards: [
+        {
+          id: "0F701442A2E78348",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "36AD8CC6B1E029B9",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:purpur_block",
+        count: 1,
+      },
+      x: 8.0,
+      y: -5.0,
+      id: "0584073A7383E0EA",
+      tasks: [
+        {
+          id: "7DFE038F4FA5CE28",
+          type: "structure",
+          structure: "the_bumblezone:mite_fortress",
+        },
+      ],
+      rewards: [
+        {
+          id: "5F867BA081A7A561",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5A43AA1E681508BB",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:phantom_spawn_egg",
+        count: 1,
+      },
+      x: 8.0,
+      y: -4.0,
+      id: "4F144E5F70932C7D",
+      tasks: [
+        {
+          id: "20FC23E6529D8CC6",
+          type: "structure",
+          structure: "the_bumblezone:phantasm_aviary",
+        },
+      ],
+      rewards: [
+        {
+          id: "7520C8219CFFC98B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3367DAA14E771DEF",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: -0.5,
+      y: -10.0,
+      width: 11.936170212765957,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_title.png",
+      id: "416FD9C4FE8C5523",
+    },
+    {
+      x: 6.0,
+      y: -6.0,
+      width: 5.1,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_title_structures.png",
+      id: "4ADF00E248BBFB0B",
+    },
+    {
+      x: 6.0,
+      y: 1.5,
+      width: 2.7916666666666665,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_title_mobs.png",
+      id: "0CBC5A5807F9EE3B",
+    },
+    {
+      x: -7.0,
+      y: 1.0,
+      width: 2.736111111111111,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_title_tools.png",
+      id: "34AA4A36E2EE1938",
+    },
+    {
+      x: -7.0,
+      y: -5.0,
+      width: 3.2753623188405796,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_title_armor.png",
+      id: "4D339BE1EE5575D1",
+    },
+    {
+      x: -0.5,
+      y: 6.0,
+      width: 3.0941176470588236,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_title_special.png",
+      id: "27EC177A1F9A6521",
+    },
+    {
+      x: 14.5,
+      y: -6.0,
+      width: 7.243243243243244,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_title_progression.png",
+      dependency: "396CEB9D05700927",
+      id: "75A3E625AA53A9DC",
+    },
+    {
+      x: 6.0,
+      y: 5.0,
+      width: 3.5555555555555554,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_rootmin3.png",
+      id: "4212FBE0BEC2EBEF",
+    },
+    {
+      x: 9.5,
+      y: 3.0,
+      width: 2.2282608695652173,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_beehemoth.png",
+      id: "3CEAF2B00253BD58",
+    },
+    {
+      x: -4.5,
+      y: -3.0,
+      width: 1.475206611570248,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_armor2.png",
+      id: "4DA3B08A29D75108",
+    },
+    {
+      x: -9.5,
+      y: -3.0,
+      width: 1.4297872340425533,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_armor1.png",
+      id: "1FBAFAF500C152CE",
+    },
+    {
+      x: -10.0,
+      y: 3.0,
+      width: 1.3043478260869565,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_cannon2.png",
+      id: "221C5F02B5286FE4",
+    },
+    {
+      x: -10.0,
+      y: 6.0,
+      width: 1.2885906040268456,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_cannon3.png",
+      id: "22D3142D2A50A67D",
+    },
+    {
+      x: -8.0,
+      y: 6.0,
+      width: 1.9675324675324677,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_shield.png",
+      id: "7A92E496DFEDD95D",
+    },
+    {
+      x: -5.5,
+      y: 6.0,
+      width: 1.9177215189873418,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_spear.png",
+      id: "0268F404A3C1ED7D",
+    },
+    {
+      x: 18.0,
+      y: -1.0,
+      width: 4.444444444444445,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_queen.png",
+      click: "#5C040191740A53C8",
+      dependency: "5C040191740A53C8",
+      id: "6DA7B1D98AB8A114",
+    },
+    {
+      x: 11.0,
+      y: -1.0,
+      width: 4.444444444444445,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_cell.png",
+      click: "#30C12E249F7E2D52",
+      dependency: "30C12E249F7E2D52",
+      id: "784FA353C7AC7B53",
+    },
+    {
+      x: 11.0,
+      y: -4.0,
+      width: 4.444444444444445,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_cube.png",
+      click: "#46FEF3DB6A5B52A0",
+      dependency: "46FEF3DB6A5B52A0",
+      id: "1F76A6B80CBAF2FE",
+    },
+    {
+      x: 18.0,
+      y: -4.0,
+      width: 4.444444444444445,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_honitel.png",
+      click: "#4040BFCD4BE56621",
+      dependency: "4040BFCD4BE56621",
+      id: "7CBD70D4602C03FA",
+    },
+    {
+      x: 1.5,
+      y: 4.5,
+      width: 8.88,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_variants.png",
+      id: "0FA9EE7FC05FE71D",
+    },
+    {
+      x: 11.0,
+      y: -4.75,
+      width: 4.444444444444445,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      order: 1,
+      dependency: "46FEF3DB6A5B52A0",
+      id: "24D4D39CB4F472B5",
+    },
+    {
+      x: 11.0,
+      y: -3.25,
+      width: 4.444444444444445,
+      height: 0.75,
+      rotation: 180.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      order: 1,
+      dependency: "46FEF3DB6A5B52A0",
+      id: "25B930E3398EED7E",
+    },
+    {
+      x: 18.0,
+      y: -3.25,
+      width: 4.444444444444445,
+      height: 0.75,
+      rotation: 180.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      order: 1,
+      dependency: "4040BFCD4BE56621",
+      id: "38E8869B69971E69",
+    },
+    {
+      x: 18.0,
+      y: -0.25,
+      width: 4.444444444444445,
+      height: 0.75,
+      rotation: 180.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      order: 1,
+      dependency: "5C040191740A53C8",
+      id: "3C7B65CB30C6E4F4",
+    },
+    {
+      x: 11.0,
+      y: -0.25,
+      width: 4.444444444444445,
+      height: 0.75,
+      rotation: 180.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      order: 1,
+      dependency: "30C12E249F7E2D52",
+      id: "6FA27C79400EFDCF",
+    },
+    {
+      x: 18.0,
+      y: -4.75,
+      width: 4.444444444444445,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      order: 1,
+      dependency: "4040BFCD4BE56621",
+      id: "5006DF0A2B9A0E69",
+    },
+    {
+      x: 18.0,
+      y: -1.75,
+      width: 4.444444444444445,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      order: 1,
+      dependency: "5C040191740A53C8",
+      id: "5B867D79C580E4B5",
+    },
+    {
+      x: 11.0,
+      y: -1.75,
+      width: 4.444444444444445,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      order: 1,
+      dependency: "30C12E249F7E2D52",
+      id: "58B1561DD5E1CE01",
+    },
+    {
+      x: 6.0,
+      y: 4.5,
+      width: 3.55,
+      height: 0.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      id: "5481E3285E6BBA6B",
+    },
+    {
+      x: 6.0,
+      y: 5.75,
+      width: 3.55,
+      height: 0.75,
+      rotation: 180.0,
+      image: "atm:textures/questpics/bumblezone/bumble_frame.png",
+      id: "65554C74D755F35D",
+    },
+    {
+      x: -3.5,
+      y: 4.0,
+      width: 8.88,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_variants.png",
+      id: "7E711010608E543D",
+    },
+    {
+      x: 5.5,
+      y: 0.0,
+      width: 8.88,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bumblezone/bumble_variants.png",
+      id: "2CF4083D7FF6484C",
+    },
+  ],
+}

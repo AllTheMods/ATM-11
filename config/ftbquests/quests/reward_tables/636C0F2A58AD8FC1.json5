@@ -1,0 +1,100 @@
+{
+  id: "636C0F2A58AD8FC1",
+  order_index: 29,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "785F63A2CC3012FD",
+      item: {
+        id: "mysticalagriculture:inferium_essence",
+        count: 1,
+      },
+      count: 5,
+      random_bonus: 5,
+    },
+    {
+      id: "77E67777F0ACD21F",
+      item: {
+        id: "mysticalagriculture:prosperity_shard",
+        count: 1,
+      },
+      count: 5,
+      random_bonus: 5,
+    },
+    {
+      id: "2AE2F79D14DE90CD",
+      item: {
+        id: "mysticalagriculture:prosperity_seed_base",
+        count: 1,
+      },
+      random_bonus: 1,
+    },
+    {
+      id: "59B1DAC886EA69E9",
+      item: {
+        id: "mysticalagriculture:inferium_seeds",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 1,
+    },
+    {
+      id: "1B3C0DF5AB0687A3",
+      item: {
+        id: "mysticalagriculture:watering_can",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+    {
+      id: "76146BAC5BD619A7",
+      item: {
+        id: "mysticalagriculture:fertilized_essence",
+        count: 1,
+      },
+      count: 3,
+      random_bonus: 2,
+    },
+    {
+      id: "55C6DC2820CBFED8",
+      item: {
+        id: "mysticalagriculture:mystical_fertilizer",
+        count: 1,
+      },
+      random_bonus: 1,
+    },
+    {
+      id: "2543150AAF8456EE",
+      item: {
+        id: "mysticalagriculture:machine_frame",
+        count: 1,
+      },
+    },
+    {
+      id: "39179A5FD505E127",
+      item: {
+        id: "mysticalagriculture:prudentium_essence",
+        count: 1,
+      },
+    },
+    {
+      id: "11F2E7309B5B9EEB",
+      item: {
+        id: "mysticalagriculture:wand",
+        count: 1,
+      },
+    },
+    {
+      id: "0187283F98876CFB",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mysticalagriculture:unattuned_augment",
+        },
+      },
+    },
+  ],
+}

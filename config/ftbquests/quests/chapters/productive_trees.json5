@@ -1,0 +1,5611 @@
+{
+  id: "1FAAEF0B9FD05CB9",
+  group: "6614EE2378B8AFB9",
+  order_index: 5,
+  icon: {
+    id: "minecraft:oak_sapling",
+    count: 1,
+  },
+  filename: "productive_trees",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: -0.5,
+      y: -1.5,
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "0B70D40FA951E13B",
+      tasks: [
+        {
+          id: "417428B25B11FB43",
+          type: "item",
+          item: {
+            id: "productivetrees:beech_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B4AD63C8FD2C8A5",
+          type: "item",
+          item: {
+            id: "productivetrees:beech_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "7962547D718259EB",
+          type: "item",
+          item: {
+            id: "productivetrees:beechnut",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -1.5,
+      dependencies: [
+        "0B70D40FA951E13B",
+      ],
+      id: "5B114CE7192A0549",
+      tasks: [
+        {
+          id: "5CBF04AB9933B3F8",
+          type: "item",
+          item: {
+            id: "productivetrees:alder_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "16A0C8EF7603562F",
+          type: "item",
+          item: {
+            id: "productivetrees:alder_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -3.5,
+      dependencies: [
+        "5B114CE7192A0549",
+      ],
+      id: "00B7DD3AFC94B037",
+      tasks: [
+        {
+          id: "18B09C72B4EA3DC3",
+          type: "item",
+          item: {
+            id: "productivetrees:aspen_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69C965CE63D9B4DB",
+          type: "item",
+          item: {
+            id: "productivetrees:aspen_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -4.5,
+      dependencies: [
+        "00B7DD3AFC94B037",
+      ],
+      id: "268768465119632A",
+      tasks: [
+        {
+          id: "6CE5339E54F4AB6B",
+          type: "item",
+          item: {
+            id: "productivetrees:elderberry_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C3FEE55ADB6DD7A",
+          type: "item",
+          item: {
+            id: "productivetrees:elderberry_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "3BC9E294A4AA1A88",
+          type: "item",
+          item: {
+            id: "productivetrees:elderberry",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -3.0,
+      dependencies: [
+        "00B7DD3AFC94B037",
+      ],
+      id: "48B97E3C2A93BC46",
+      tasks: [
+        {
+          id: "09509A780AA7B8D5",
+          type: "item",
+          item: {
+            id: "productivetrees:hazel_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13795C627544E44F",
+          type: "item",
+          item: {
+            id: "productivetrees:hazel_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -4.0,
+      dependencies: [
+        "00B7DD3AFC94B037",
+      ],
+      id: "2CA2B3A1783B4040",
+      tasks: [
+        {
+          id: "69F31F87854CCCBE",
+          type: "item",
+          item: {
+            id: "productivetrees:rowan_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7987F0E199DE55E9",
+          type: "item",
+          item: {
+            id: "productivetrees:rowan_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "615F8CF4A1C70E29",
+          type: "item",
+          item: {
+            id: "productivetrees:rowan",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -5.0,
+      dependencies: [
+        "2CA2B3A1783B4040",
+      ],
+      id: "5160D62F07A642A7",
+      tasks: [
+        {
+          id: "41B2853FDA18166D",
+          type: "item",
+          item: {
+            id: "productivetrees:hawthorn_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "096951AEF83F9A02",
+          type: "item",
+          item: {
+            id: "productivetrees:hawthorn_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0F3958D3BC759F3D",
+          type: "item",
+          item: {
+            id: "productivetrees:haw",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -5.0,
+      dependencies: [
+        "2CA2B3A1783B4040",
+      ],
+      id: "33977CEF056F0A13",
+      tasks: [
+        {
+          id: "3553DDFE68858F16",
+          type: "item",
+          item: {
+            id: "productivetrees:holly_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11EA9F8CE3CC40CC",
+          type: "item",
+          item: {
+            id: "productivetrees:holly_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -6.0,
+      dependencies: [
+        "33977CEF056F0A13",
+      ],
+      id: "6255E2FE6DD4084A",
+      tasks: [
+        {
+          id: "4F583EB775C229C2",
+          type: "item",
+          item: {
+            id: "productivetrees:boxwood_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64F36966B8587B71",
+          type: "item",
+          item: {
+            id: "productivetrees:boxwood_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -0.5,
+      dependencies: [
+        "0B70D40FA951E13B",
+      ],
+      id: "6DAECA44E28DA9BA",
+      tasks: [
+        {
+          id: "07D58995072D4168",
+          type: "item",
+          item: {
+            id: "productivetrees:pecan_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27AF2A46196D046F",
+          type: "item",
+          item: {
+            id: "productivetrees:pecan_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0970D3ED27BB0662",
+          type: "item",
+          item: {
+            id: "productivetrees:pecan",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 11.0,
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "01B2DDD81065B4EF",
+      tasks: [
+        {
+          id: "3356029BA0C55CDD",
+          type: "item",
+          item: {
+            id: "productivetrees:cacao_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0AB58D077E4107F5",
+          type: "item",
+          item: {
+            id: "productivetrees:cacao_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -1.5,
+      dependencies: [
+        "0B70D40FA951E13B",
+      ],
+      id: "6D95CB7906C0DC84",
+      tasks: [
+        {
+          id: "0203CD92FFA200C7",
+          type: "item",
+          item: {
+            id: "productivetrees:brazil_nut_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36DDB5944ACBB1E3",
+          type: "item",
+          item: {
+            id: "productivetrees:brazil_nut_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "31396D04A961524C",
+          type: "item",
+          item: {
+            id: "productivetrees:brazil_nut",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 8.0,
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "70F7B018CD61E946",
+      tasks: [
+        {
+          id: "6AC8C0A52933CC95",
+          type: "item",
+          item: {
+            id: "productivetrees:teak_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B317881430DEC30",
+          type: "item",
+          item: {
+            id: "productivetrees:teak_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 4.5,
+      dependencies: [
+        "70F7B018CD61E946",
+      ],
+      id: "052BE1D845794702",
+      tasks: [
+        {
+          id: "687AB23F71448D3A",
+          type: "item",
+          item: {
+            id: "productivetrees:balsa_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "65503C01BC15FA42",
+          type: "item",
+          item: {
+            id: "productivetrees:balsa_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 2.5,
+      dependencies: [
+        "052BE1D845794702",
+      ],
+      id: "14F856E0D32FBB5B",
+      tasks: [
+        {
+          id: "7AE0CF993A1D80BA",
+          type: "item",
+          item: {
+            id: "productivetrees:blue_mahoe_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5547291107C0762D",
+          type: "item",
+          item: {
+            id: "productivetrees:blue_mahoe_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 9.0,
+      dependencies: [
+        "70F7B018CD61E946",
+      ],
+      id: "674A6B0EDA0D348B",
+      tasks: [
+        {
+          id: "259B1588B7B5880A",
+          type: "item",
+          item: {
+            id: "productivetrees:cashew_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "440E05DF064C26C7",
+          type: "item",
+          item: {
+            id: "productivetrees:cashew_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "467497F3C0A57BF4",
+          type: "item",
+          item: {
+            id: "productivetrees:cashew",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 7.0,
+      dependencies: [
+        "70F7B018CD61E946",
+      ],
+      id: "056E1E3B1ED14917",
+      tasks: [
+        {
+          id: "6EEE7CA38D494E1D",
+          type: "item",
+          item: {
+            id: "productivetrees:ipe_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E5DD959E152E14C",
+          type: "item",
+          item: {
+            id: "productivetrees:ipe_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 7.0,
+      dependencies: [
+        "70F7B018CD61E946",
+      ],
+      id: "0C7491BA5857AA00",
+      tasks: [
+        {
+          id: "09440FE4B847BF70",
+          type: "item",
+          item: {
+            id: "productivetrees:kapok_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36C95FD56E321BEA",
+          type: "item",
+          item: {
+            id: "productivetrees:kapok_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 6.0,
+      dependencies: [
+        "056E1E3B1ED14917",
+      ],
+      id: "7D0AE6FCB0996218",
+      tasks: [
+        {
+          id: "0191D7AC75FE3A67",
+          type: "item",
+          item: {
+            id: "productivetrees:aquilaria_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6362FCFBCBC0EE95",
+          type: "item",
+          item: {
+            id: "productivetrees:aquilaria_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 8.0,
+      shape: "hexagon",
+      dependencies: [
+        "056E1E3B1ED14917",
+        "0661E9669E639621",
+      ],
+      hide_until_deps_visible: true,
+      id: "2ACFD25B43F0499C",
+      tasks: [
+        {
+          id: "0B1DE8BCC3A5C44E",
+          type: "item",
+          item: {
+            id: "productivetrees:white_ipe_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74BB441B74E33FF7",
+          type: "item",
+          item: {
+            id: "productivetrees:white_ipe_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "663DAD1FDA6DD793",
+          type: "item",
+          item: {
+            id: "productivetrees:white_ipe_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 9.0,
+      shape: "hexagon",
+      dependencies: [
+        "2ACFD25B43F0499C",
+        "0661E9669E639621",
+      ],
+      hide_until_deps_visible: true,
+      id: "6E9782258731E444",
+      tasks: [
+        {
+          id: "34E6649E3BE1FC61",
+          type: "item",
+          item: {
+            id: "productivetrees:pink_ipe_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E395BA60A4BC821",
+          type: "item",
+          item: {
+            id: "productivetrees:pink_ipe_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "4CA40FA25908607A",
+          type: "item",
+          item: {
+            id: "productivetrees:pink_ipe_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 10.0,
+      shape: "hexagon",
+      dependencies: [
+        "6E9782258731E444",
+        "0661E9669E639621",
+      ],
+      hide_until_deps_visible: true,
+      id: "2C0984E03F308959",
+      tasks: [
+        {
+          id: "1CD4419DBC6DFE0A",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_ipe_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27FC628B368C8EF5",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_ipe_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "718654D4D58245B4",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_ipe_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 2.5,
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "08C6B7D2DAE87222",
+      tasks: [
+        {
+          id: "29D1151900469630",
+          type: "item",
+          item: {
+            id: "productivetrees:silver_lime_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68035F98AED50E65",
+          type: "item",
+          item: {
+            id: "productivetrees:silver_lime_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 0.5,
+      dependencies: [
+        "08C6B7D2DAE87222",
+      ],
+      id: "0BFAF1499415DD68",
+      tasks: [
+        {
+          id: "3ACE7CEE6920D8C7",
+          type: "item",
+          item: {
+            id: "productivetrees:wild_cherry_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F53456D50C75422",
+          type: "item",
+          item: {
+            id: "productivetrees:wild_cherry_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "26ABA267767988A5",
+          type: "item",
+          item: {
+            id: "productivetrees:wild_cherry",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 0.5,
+      dependencies: [
+        "6DAECA44E28DA9BA",
+        "0BFAF1499415DD68",
+      ],
+      id: "7EC89242980768B3",
+      tasks: [
+        {
+          id: "07EED2A68D5ED909",
+          type: "item",
+          item: {
+            id: "productivetrees:sugar_apple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "440E3F1A1A138264",
+          type: "item",
+          item: {
+            id: "productivetrees:sugar_apple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "582A079D30386A3D",
+          type: "item",
+          item: {
+            id: "productivetrees:sweetsop",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -0.5,
+      dependencies: [
+        "0BFAF1499415DD68",
+        "5B114CE7192A0549",
+      ],
+      id: "74297A72584F5D7B",
+      tasks: [
+        {
+          id: "2E75F1876DB16620",
+          type: "item",
+          item: {
+            id: "productivetrees:olive_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F149B65C5A3B227",
+          type: "item",
+          item: {
+            id: "productivetrees:olive_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "6BD91DA2B8D45710",
+          type: "item",
+          item: {
+            id: "productivetrees:olive",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 11.0,
+      dependencies: [
+        "01B2DDD81065B4EF",
+      ],
+      id: "708129CB530BAC67",
+      tasks: [
+        {
+          id: "5FADA16D4055231E",
+          type: "item",
+          item: {
+            id: "productivetrees:papaya_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64C5A5167239F47A",
+          type: "item",
+          item: {
+            id: "productivetrees:papaya_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "12AC5A642A96A6C0",
+          type: "item",
+          item: {
+            id: "productivetrees:papaya",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 11.0,
+      dependencies: [
+        "708129CB530BAC67",
+      ],
+      id: "21B8116BDADD7476",
+      tasks: [
+        {
+          id: "62E220D3878625CD",
+          type: "item",
+          item: {
+            id: "productivetrees:date_palm_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0431B9CD8D1607F3",
+          type: "item",
+          item: {
+            id: "productivetrees:date_palm_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "01550A762AA6295D",
+          type: "item",
+          item: {
+            id: "productivetrees:date",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 1.5,
+      dependencies: [
+        "08C6B7D2DAE87222",
+      ],
+      id: "3A2249D94C019F0E",
+      tasks: [
+        {
+          id: "6DC3BBB8684838CF",
+          type: "item",
+          item: {
+            id: "productivetrees:dogwood_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67A3D643CFBA170D",
+          type: "item",
+          item: {
+            id: "productivetrees:dogwood_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 1.5,
+      dependencies: [
+        "08C6B7D2DAE87222",
+      ],
+      id: "7B1693793419B769",
+      tasks: [
+        {
+          id: "71E08C2CC534D674",
+          type: "item",
+          item: {
+            id: "productivetrees:walnut_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23ABE3E00E78E143",
+          type: "item",
+          item: {
+            id: "productivetrees:walnut_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "1901EBD8281C70E8",
+          type: "item",
+          item: {
+            id: "productivetrees:walnut",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 0.5,
+      dependencies: [
+        "08C6B7D2DAE87222",
+      ],
+      id: "00DEFA26F2B896D6",
+      tasks: [
+        {
+          id: "5AEBEC8C9DA1BB87",
+          type: "item",
+          item: {
+            id: "productivetrees:white_willow_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DE37C913F12AC23",
+          type: "item",
+          item: {
+            id: "productivetrees:white_willow_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -1.5,
+      dependencies: [
+        "00DEFA26F2B896D6",
+      ],
+      id: "5A84A64CB3D3E6F5",
+      tasks: [
+        {
+          id: "6FFAE66C08972E63",
+          type: "item",
+          item: {
+            id: "productivetrees:white_poplar_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D327B505D5E5D19",
+          type: "item",
+          item: {
+            id: "productivetrees:white_poplar_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 3.0,
+      dependencies: [
+        "08C6B7D2DAE87222",
+      ],
+      id: "7D7DC3C695CD7236",
+      tasks: [
+        {
+          id: "1A382CD5F630AAAF",
+          type: "item",
+          item: {
+            id: "productivetrees:ash_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EBA2DF71D6E0544",
+          type: "item",
+          item: {
+            id: "productivetrees:ash_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 6.0,
+      dependencies: [
+        "052BE1D845794702",
+      ],
+      id: "29FA0E9664935566",
+      tasks: [
+        {
+          id: "5687CA43259A66B9",
+          type: "item",
+          item: {
+            id: "productivetrees:banana_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D8776112F2FBEB0",
+          type: "item",
+          item: {
+            id: "productivetrees:banana_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0EB3C5F1E515B2EC",
+          type: "item",
+          item: {
+            id: "productivetrees:banana",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 0.5,
+      dependencies: [
+        "7B1693793419B769",
+      ],
+      id: "5B0FF8E0B58A4150",
+      tasks: [
+        {
+          id: "7AD7B0C49A763E34",
+          type: "item",
+          item: {
+            id: "productivetrees:butternut_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F2F75EC8AF6A458",
+          type: "item",
+          item: {
+            id: "productivetrees:butternut_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "53ADF31CEA4BB810",
+          type: "item",
+          item: {
+            id: "productivetrees:butternut",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 3.0,
+      dependencies: [
+        "052BE1D845794702",
+      ],
+      id: "5DCDDC346359DF28",
+      tasks: [
+        {
+          id: "7189A0F697FB0CAF",
+          type: "item",
+          item: {
+            id: "productivetrees:cocobolo_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2954EEEF4E12818F",
+          type: "item",
+          item: {
+            id: "productivetrees:cocobolo_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -2.5,
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "3A79E24283523E58",
+      tasks: [
+        {
+          id: "5CBD13A621EDB3D9",
+          type: "item",
+          item: {
+            id: "productivetrees:european_larch_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0629ADFB8866ACEC",
+          type: "item",
+          item: {
+            id: "productivetrees:european_larch_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -5.5,
+      dependencies: [
+        "3A79E24283523E58",
+      ],
+      id: "7E7637DAD2C242CB",
+      tasks: [
+        {
+          id: "06816DC413353689",
+          type: "item",
+          item: {
+            id: "productivetrees:bull_pine_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "356A47E034D5C5E4",
+          type: "item",
+          item: {
+            id: "productivetrees:bull_pine_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -1.0,
+      dependencies: [
+        "00DEFA26F2B896D6",
+      ],
+      id: "2993EAB4850B7172",
+      tasks: [
+        {
+          id: "2E4CA9EFD36BA921",
+          type: "item",
+          item: {
+            id: "productivetrees:sour_cherry_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A033DA6FCC8594B",
+          type: "item",
+          item: {
+            id: "productivetrees:sour_cherry_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "6E69DEDD8B36C544",
+          type: "item",
+          item: {
+            id: "productivetrees:sour_cherry",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -3.5,
+      dependencies: [
+        "01F51EBFEC660549",
+      ],
+      id: "3BAEF1A3FDB818A4",
+      tasks: [
+        {
+          id: "17B965AF58E165BF",
+          type: "item",
+          item: {
+            id: "productivetrees:sugar_maple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73C63AB3E90ED23F",
+          type: "item",
+          item: {
+            id: "productivetrees:sugar_maple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 1.5,
+      dependencies: [
+        "7B1693793419B769",
+      ],
+      id: "1322907FDFF08ADA",
+      tasks: [
+        {
+          id: "73F1FAC8ACEBD6C7",
+          type: "item",
+          item: {
+            id: "productivetrees:sweet_chestnut_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02F89DBF578D24F9",
+          type: "item",
+          item: {
+            id: "productivetrees:sweet_chestnut_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0A226A4D5A190C84",
+          type: "item",
+          item: {
+            id: "productivetrees:chestnut",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -3.5,
+      dependencies: [
+        "3BAEF1A3FDB818A4",
+      ],
+      id: "1556777B07BD7C2B",
+      tasks: [
+        {
+          id: "3E9AEBA3AFE542CC",
+          type: "item",
+          item: {
+            id: "productivetrees:sweetgum_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6EB9ABA57185ECAE",
+          type: "item",
+          item: {
+            id: "productivetrees:sweetgum_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 2.0,
+      dependencies: [
+        "5DCDDC346359DF28",
+      ],
+      id: "04DEC6E210F06D65",
+      tasks: [
+        {
+          id: "285AE97FC60ABC45",
+          type: "item",
+          item: {
+            id: "productivetrees:wenge_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5361C6F29B0508E2",
+          type: "item",
+          item: {
+            id: "productivetrees:wenge_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -5.5,
+      dependencies: [
+        "7E7637DAD2C242CB",
+      ],
+      id: "526A9655A62C93F4",
+      tasks: [
+        {
+          id: "4E26F5C8CFF05E06",
+          type: "item",
+          item: {
+            id: "productivetrees:sequoia_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44533602DDD90543",
+          type: "item",
+          item: {
+            id: "productivetrees:sequoia_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -2.5,
+      hide_dependent_lines: true,
+      dependencies: [
+        "5B114CE7192A0549",
+        "3A79E24283523E58",
+      ],
+      id: "4D562F5D72038083",
+      tasks: [
+        {
+          id: "625E8F12DCB93B4F",
+          type: "item",
+          item: {
+            id: "productivetrees:balsam_fir_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31829FF057E70F6C",
+          type: "item",
+          item: {
+            id: "productivetrees:balsam_fir_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: 2.0,
+      dependencies: [
+        "04DEC6E210F06D65",
+      ],
+      id: "6D14ACECD2084456",
+      tasks: [
+        {
+          id: "045BE85A87484FCA",
+          type: "item",
+          item: {
+            id: "productivetrees:avocado_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3BDBD455EE4F4561",
+          type: "item",
+          item: {
+            id: "productivetrees:avocado_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "4FAEECB72D35CD59",
+          type: "item",
+          item: {
+            id: "productivetrees:avocado",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -6.5,
+      dependencies: [
+        "7E7637DAD2C242CB",
+        "4D562F5D72038083",
+      ],
+      id: "6497A255E427A5EB",
+      tasks: [
+        {
+          id: "0855C3A8FF782357",
+          type: "item",
+          item: {
+            id: "productivetrees:silver_fir_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "469CC3B927863924",
+          type: "item",
+          item: {
+            id: "productivetrees:silver_fir_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 3.5,
+      dependencies: [
+        "08C6B7D2DAE87222",
+        "052BE1D845794702",
+      ],
+      id: "11B1FB0AB2677902",
+      tasks: [
+        {
+          id: "118BED0D52DDEE79",
+          type: "item",
+          item: {
+            id: "productivetrees:black_locust_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "378992AADEEDF093",
+          type: "item",
+          item: {
+            id: "productivetrees:black_locust_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -7.5,
+      dependencies: [
+        "6497A255E427A5EB",
+      ],
+      id: "327587EEEF6849BE",
+      tasks: [
+        {
+          id: "4B6B58172429AD09",
+          type: "item",
+          item: {
+            id: "productivetrees:cedar_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BB4B99C69597E3E",
+          type: "item",
+          item: {
+            id: "productivetrees:cedar_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 6.5,
+      dependencies: [
+        "0C7491BA5857AA00",
+      ],
+      id: "489A811AB1CFCBA3",
+      tasks: [
+        {
+          id: "6EC029DACE333087",
+          type: "item",
+          item: {
+            id: "productivetrees:ceylon_ebony_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7AA0EF0756B6C1AC",
+          type: "item",
+          item: {
+            id: "productivetrees:ceylon_ebony_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -1.0,
+      dependencies: [
+        "2993EAB4850B7172",
+      ],
+      id: "44FEE957BD333241",
+      tasks: [
+        {
+          id: "3029FF5D0E46E5CE",
+          type: "item",
+          item: {
+            id: "productivetrees:citron_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F2F89D3BF1B0BA5",
+          type: "item",
+          item: {
+            id: "productivetrees:citron_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 5.0,
+      dependencies: [
+        "052BE1D845794702",
+      ],
+      id: "1CD5ABD827CEB3AE",
+      tasks: [
+        {
+          id: "52DBE30471155C4C",
+          type: "item",
+          item: {
+            id: "productivetrees:coconut_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3CF53562D73FE98E",
+          type: "item",
+          item: {
+            id: "productivetrees:coconut_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 1.0,
+      dependencies: [
+        "04DEC6E210F06D65",
+      ],
+      id: "419C808FE10DB496",
+      tasks: [
+        {
+          id: "73B217D7CCF8F4B5",
+          type: "item",
+          item: {
+            id: "productivetrees:grandidiers_baobab_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E54D83842663209",
+          type: "item",
+          item: {
+            id: "productivetrees:grandidiers_baobab_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "523D8CBA5B39FD54",
+          type: "item",
+          item: {
+            id: "productivetrees:baobab_fruit",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -1.5,
+      dependencies: [
+        "00B7DD3AFC94B037",
+        "00DEFA26F2B896D6",
+      ],
+      id: "6678AB58930F4B91",
+      tasks: [
+        {
+          id: "1827307F4535A415",
+          type: "item",
+          item: {
+            id: "productivetrees:great_sallow_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "318BDBBEBC316DFB",
+          type: "item",
+          item: {
+            id: "productivetrees:great_sallow_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 2.5,
+      dependencies: [
+        "6FBF112811FB707C",
+      ],
+      id: "396E7A2078F2CBC5",
+      tasks: [
+        {
+          id: "635FF9AFB239291F",
+          type: "item",
+          item: {
+            id: "productivetrees:hornbeam_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B31BF9977D3EA5A",
+          type: "item",
+          item: {
+            id: "productivetrees:hornbeam_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 3.5,
+      dependencies: [
+        "052BE1D845794702",
+      ],
+      id: "37B805E875D82A8B",
+      tasks: [
+        {
+          id: "675CEC4F0A0BF1F1",
+          type: "item",
+          item: {
+            id: "productivetrees:iroko_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FEBC47D535A47A8",
+          type: "item",
+          item: {
+            id: "productivetrees:iroko_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -1.0,
+      dependencies: [
+        "44FEE957BD333241",
+      ],
+      id: "504752A1C9EFED76",
+      tasks: [
+        {
+          id: "579EF3A6ED4246D3",
+          type: "item",
+          item: {
+            id: "productivetrees:key_lime_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7FB2B3BBE74F88C5",
+          type: "item",
+          item: {
+            id: "productivetrees:key_lime_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -6.5,
+      dependencies: [
+        "7E7637DAD2C242CB",
+      ],
+      id: "3512A883CD4E007C",
+      tasks: [
+        {
+          id: "19AC4C272F96B015",
+          type: "item",
+          item: {
+            id: "productivetrees:lawson_cypress_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3CBA3E8A48E48DB6",
+          type: "item",
+          item: {
+            id: "productivetrees:lawson_cypress_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -4.5,
+      dependencies: [
+        "7E7637DAD2C242CB",
+      ],
+      id: "77D3546953550E39",
+      tasks: [
+        {
+          id: "128A14F3E1CF0587",
+          type: "item",
+          item: {
+            id: "productivetrees:loblolly_pine_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "417CDB5DC0BE03DA",
+          type: "item",
+          item: {
+            id: "productivetrees:loblolly_pine_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -5.5,
+      dependencies: [
+        "7E7637DAD2C242CB",
+      ],
+      id: "38C236042AB5DDB9",
+      tasks: [
+        {
+          id: "1B1FDF760B4F79DD",
+          type: "item",
+          item: {
+            id: "productivetrees:western_hemlock_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61A171D718D44F89",
+          type: "item",
+          item: {
+            id: "productivetrees:western_hemlock_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -5.5,
+      dependencies: [
+        "38C236042AB5DDB9",
+      ],
+      id: "0480DF316ACF12DA",
+      tasks: [
+        {
+          id: "4417038378FAF27B",
+          type: "item",
+          item: {
+            id: "productivetrees:monkey_puzzle_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EE6C4DC2F919B08",
+          type: "item",
+          item: {
+            id: "productivetrees:monkey_puzzle_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -6.5,
+      dependencies: [
+        "3512A883CD4E007C",
+      ],
+      id: "577A5FC500E14C05",
+      tasks: [
+        {
+          id: "48B3D8E6F56A99CC",
+          type: "item",
+          item: {
+            id: "productivetrees:cork_oak_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A2AD8BFDBF2A7AA",
+          type: "item",
+          item: {
+            id: "productivetrees:cork_oak_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 1.5,
+      dependencies: [
+        "04DEC6E210F06D65",
+      ],
+      id: "684BB9D2F2AC87A6",
+      tasks: [
+        {
+          id: "4C21958305FBD389",
+          type: "item",
+          item: {
+            id: "productivetrees:socotra_dragon_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A9392A7BC1CA44B",
+          type: "item",
+          item: {
+            id: "productivetrees:socotra_dragon_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -2.5,
+      dependencies: [
+        "3A79E24283523E58",
+      ],
+      id: "5030F1D96457202E",
+      tasks: [
+        {
+          id: "5D4924241771BCC9",
+          type: "item",
+          item: {
+            id: "productivetrees:yew_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40146E1B8B7A5276",
+          type: "item",
+          item: {
+            id: "productivetrees:yew_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 3.0,
+      dependencies: [
+        "489A811AB1CFCBA3",
+      ],
+      id: "19C22C5B247F4D7D",
+      tasks: [
+        {
+          id: "17BC74D9567C3D16",
+          type: "item",
+          item: {
+            id: "productivetrees:yellow_meranti_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50A64D9346BE5B0D",
+          type: "item",
+          item: {
+            id: "productivetrees:yellow_meranti_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 6.5,
+      dependencies: [
+        "489A811AB1CFCBA3",
+      ],
+      id: "5F4AA7E7D050C327",
+      tasks: [
+        {
+          id: "62633891FFED5968",
+          type: "item",
+          item: {
+            id: "productivetrees:zebrano_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15B37E4028DE156C",
+          type: "item",
+          item: {
+            id: "productivetrees:zebrano_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 2.5,
+      dependencies: [
+        "7D7DC3C695CD7236",
+      ],
+      id: "6FBF112811FB707C",
+      tasks: [
+        {
+          id: "30428722CC64DDD8",
+          type: "item",
+          item: {
+            id: "productivetrees:whitebeam_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26C007EE4E256FA2",
+          type: "item",
+          item: {
+            id: "productivetrees:whitebeam_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -2.5,
+      dependencies: [
+        "3BAEF1A3FDB818A4",
+      ],
+      id: "5E766840DAB839A2",
+      tasks: [
+        {
+          id: "2BA9605C24AB4B1B",
+          type: "item",
+          item: {
+            id: "productivetrees:sycamore_fig_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36FC88EA9C8D8453",
+          type: "item",
+          item: {
+            id: "productivetrees:sycamore_fig_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "02FDED6615758AD0",
+          type: "item",
+          item: {
+            id: "productivetrees:fig",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 4.5,
+      dependencies: [
+        "052BE1D845794702",
+      ],
+      id: "291EE514A1602C46",
+      tasks: [
+        {
+          id: "137BAA55888F984B",
+          type: "item",
+          item: {
+            id: "productivetrees:rose_gum_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44DC2A5D7D6574AB",
+          type: "item",
+          item: {
+            id: "productivetrees:rose_gum_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 2.0,
+      dependencies: [
+        "19C22C5B247F4D7D",
+      ],
+      id: "640D6ADA17709D3A",
+      tasks: [
+        {
+          id: "7C01BEF0E7C73313",
+          type: "item",
+          item: {
+            id: "productivetrees:mahogany_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B866809200720DB",
+          type: "item",
+          item: {
+            id: "productivetrees:mahogany_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 2.0,
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "5753E0138A072A3F",
+      tasks: [
+        {
+          id: "7F9BEB394F68B72F",
+          type: "item",
+          item: {
+            id: "productivetrees:red_delicious_apple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F47538C75A490F8",
+          type: "item",
+          item: {
+            id: "productivetrees:red_delicious_apple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 3.5,
+      dependencies: [
+        "5753E0138A072A3F",
+      ],
+      id: "25F4D4A723B298A4",
+      tasks: [
+        {
+          id: "3B44484E263D4271",
+          type: "item",
+          item: {
+            id: "productivetrees:prairie_crabapple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "068F95975347444E",
+          type: "item",
+          item: {
+            id: "productivetrees:prairie_crabapple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "5B60A5BC1D64F721",
+          type: "item",
+          item: {
+            id: "productivetrees:prairie_crabapple",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -2.0,
+      dependencies: [
+        "44FEE957BD333241",
+      ],
+      id: "1D1ABA9BD978E8A1",
+      tasks: [
+        {
+          id: "22830BE837D23206",
+          type: "item",
+          item: {
+            id: "productivetrees:pomelo_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C0E8DB69AA530F6",
+          type: "item",
+          item: {
+            id: "productivetrees:pomelo_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "709C534C2021D899",
+          type: "item",
+          item: {
+            id: "productivetrees:pomelo",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 0.0,
+      dependencies: [
+        "44FEE957BD333241",
+      ],
+      id: "48BA8ACFADE3C8CE",
+      tasks: [
+        {
+          id: "0580E5B27302BBC5",
+          type: "item",
+          item: {
+            id: "productivetrees:plum_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6EFDC099C9C31E60",
+          type: "item",
+          item: {
+            id: "productivetrees:plum_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "1EE998F8766DCF79",
+          type: "item",
+          item: {
+            id: "productivetrees:plum",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 1.0,
+      dependencies: [
+        "1322907FDFF08ADA",
+        "48BA8ACFADE3C8CE",
+      ],
+      id: "4510FD92BACF00FF",
+      tasks: [
+        {
+          id: "6A09A5AF3B84FE69",
+          type: "item",
+          item: {
+            id: "productivetrees:peach_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00AE8BCCF8165421",
+          type: "item",
+          item: {
+            id: "productivetrees:peach_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "06B9130C910056A2",
+          type: "item",
+          item: {
+            id: "productivetrees:peach",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -9.0,
+      y: 1.0,
+      dependencies: [
+        "640D6ADA17709D3A",
+      ],
+      id: "2D6FDCC948DB927D",
+      tasks: [
+        {
+          id: "27BBAFA7657D439C",
+          type: "item",
+          item: {
+            id: "productivetrees:rosewood_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77B6B142D869BED6",
+          type: "item",
+          item: {
+            id: "productivetrees:rosewood_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -4.5,
+      dependencies: [
+        "77D3546953550E39",
+        "1556777B07BD7C2B",
+      ],
+      id: "2AA407EB0BF2922E",
+      tasks: [
+        {
+          id: "4FCED6BA1C1C846E",
+          type: "item",
+          item: {
+            id: "productivetrees:rubber_tree_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41CF2A031DAAA67B",
+          type: "item",
+          item: {
+            id: "productivetrees:rubber_tree_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -3.5,
+      dependencies: [
+        "3A79E24283523E58",
+      ],
+      id: "01F51EBFEC660549",
+      tasks: [
+        {
+          id: "75EA78B40903ECF6",
+          type: "item",
+          item: {
+            id: "productivetrees:red_maple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11959E42EAF9C3DB",
+          type: "item",
+          item: {
+            id: "productivetrees:red_maple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 2.5,
+      dependencies: [
+        "5753E0138A072A3F",
+      ],
+      id: "427B9C6D95885DE2",
+      tasks: [
+        {
+          id: "5255AA39714FF359",
+          type: "item",
+          item: {
+            id: "productivetrees:sand_pear_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B54F831130B160C",
+          type: "item",
+          item: {
+            id: "productivetrees:sand_pear_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "04F475D89820EF43",
+          type: "item",
+          item: {
+            id: "productivetrees:sand_pear",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: 3.0,
+      dependencies: [
+        "427B9C6D95885DE2",
+      ],
+      id: "747BA0DB44A49A4F",
+      tasks: [
+        {
+          id: "487DBE1846246ACD",
+          type: "item",
+          item: {
+            id: "productivetrees:cultivated_pear_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "114E036446C5B6FD",
+          type: "item",
+          item: {
+            id: "productivetrees:cultivated_pear_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "4C147F36BF204342",
+          type: "item",
+          item: {
+            id: "productivetrees:pear",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 0.5,
+      dependencies: [
+        "04DEC6E210F06D65",
+      ],
+      id: "1BC611E39465B026",
+      tasks: [
+        {
+          id: "09B712C4B1121A14",
+          type: "item",
+          item: {
+            id: "productivetrees:ginkgo_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "653F31D747F78BE6",
+          type: "item",
+          item: {
+            id: "productivetrees:ginkgo_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0F3DA6A3ECD4C350",
+          type: "item",
+          item: {
+            id: "productivetrees:ginkgo_nut",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 0.0,
+      dependencies: [
+        "1BC611E39465B026",
+      ],
+      id: "7DA48EDCF28DBE03",
+      tasks: [
+        {
+          id: "62F3FBBC0E3912AC",
+          type: "item",
+          item: {
+            id: "productivetrees:candlenut_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B2508BE4263F520",
+          type: "item",
+          item: {
+            id: "productivetrees:candlenut_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "4C9BB9124BD7014A",
+          type: "item",
+          item: {
+            id: "productivetrees:candlenut",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -2.5,
+      dependencies: [
+        "5E766840DAB839A2",
+        "3BAEF1A3FDB818A4",
+      ],
+      id: "0E4DA8EE961D443F",
+      tasks: [
+        {
+          id: "1D42BDFE6A29E6FE",
+          type: "item",
+          item: {
+            id: "productivetrees:breadfruit_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4857345A11429261",
+          type: "item",
+          item: {
+            id: "productivetrees:breadfruit_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "23AE6189183135AC",
+          type: "item",
+          item: {
+            id: "productivetrees:breadfruit",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 2.0,
+      dependencies: [
+        "640D6ADA17709D3A",
+      ],
+      id: "762C54C261ED5D29",
+      tasks: [
+        {
+          id: "5A8578695FAF27C6",
+          type: "item",
+          item: {
+            id: "productivetrees:brazilwood_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EE9C2B2A8FDA69A",
+          type: "item",
+          item: {
+            id: "productivetrees:brazilwood_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -2.5,
+      dependencies: [
+        "0E4DA8EE961D443F",
+      ],
+      id: "3942B5F5FD8ADF89",
+      tasks: [
+        {
+          id: "787CA715CFDC192A",
+          type: "item",
+          item: {
+            id: "productivetrees:cempedak_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B8D6B2C2FCC964F",
+          type: "item",
+          item: {
+            id: "productivetrees:cempedak_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 0.0,
+      dependencies: [
+        "48BA8ACFADE3C8CE",
+      ],
+      id: "28FB4B9DCC268404",
+      tasks: [
+        {
+          id: "0F17694AF26788AE",
+          type: "item",
+          item: {
+            id: "productivetrees:cherry_plum_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E9EF3E2F3E91D97",
+          type: "item",
+          item: {
+            id: "productivetrees:cherry_plum_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "4C6F0C48DE01944A",
+          type: "item",
+          item: {
+            id: "productivetrees:cherry_plum",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 1.0,
+      dependencies: [
+        "2D6FDCC948DB927D",
+      ],
+      id: "227BEFEF59977CC4",
+      tasks: [
+        {
+          id: "552955EBBEAAEB4F",
+          type: "item",
+          item: {
+            id: "productivetrees:cinnamon_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "721858E20686B7FB",
+          type: "item",
+          item: {
+            id: "productivetrees:cinnamon_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -1.0,
+      dependencies: [
+        "7DA48EDCF28DBE03",
+      ],
+      id: "1DFC9F33D9FD6357",
+      tasks: [
+        {
+          id: "281BD7690DEE85A7",
+          type: "item",
+          item: {
+            id: "productivetrees:copoazu_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7911E9D2B34FE0E7",
+          type: "item",
+          item: {
+            id: "productivetrees:copoazu_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "18112A6B489FE0D4",
+          type: "item",
+          item: {
+            id: "productivetrees:copoazu",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -2.0,
+      dependencies: [
+        "1DFC9F33D9FD6357",
+      ],
+      id: "054F3A0499F8A0D8",
+      tasks: [
+        {
+          id: "73215EC5BBF922EF",
+          type: "item",
+          item: {
+            id: "productivetrees:carob_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66D3976DFAA2E406",
+          type: "item",
+          item: {
+            id: "productivetrees:carob_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "137A24CF799CF13E",
+          type: "item",
+          item: {
+            id: "productivetrees:carob",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -7.5,
+      dependencies: [
+        "6497A255E427A5EB",
+      ],
+      id: "1F1B4948FCC14BB4",
+      tasks: [
+        {
+          id: "0D619D5B2870D57C",
+          type: "item",
+          item: {
+            id: "productivetrees:douglas_fir_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "400BE4540A0AC85B",
+          type: "item",
+          item: {
+            id: "productivetrees:douglas_fir_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 4.0,
+      dependencies: [
+        "7D7DC3C695CD7236",
+      ],
+      id: "2E6F761585C1FB4D",
+      tasks: [
+        {
+          id: "3236207041D5ACAB",
+          type: "item",
+          item: {
+            id: "productivetrees:elm_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "081AF6AD6711D1B4",
+          type: "item",
+          item: {
+            id: "productivetrees:elm_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -0.5,
+      dependencies: [
+        "504752A1C9EFED76",
+      ],
+      id: "1A09AF508EFAE0EC",
+      tasks: [
+        {
+          id: "77148B8A8DF4A0F7",
+          type: "item",
+          item: {
+            id: "productivetrees:finger_lime_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03BEA6910B25AAF2",
+          type: "item",
+          item: {
+            id: "productivetrees:finger_lime_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "61862F8A1B98AAD1",
+          type: "item",
+          item: {
+            id: "productivetrees:finger_lime",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 3.0,
+      dependencies: [
+        "5753E0138A072A3F",
+      ],
+      id: "7A3DD8CAD6A5692D",
+      tasks: [
+        {
+          id: "6BA88DD1B98F7CC9",
+          type: "item",
+          item: {
+            id: "productivetrees:sweet_crabapple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21D260B1E6A14467",
+          type: "item",
+          item: {
+            id: "productivetrees:sweet_crabapple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "00DD86F1725A496E",
+          type: "item",
+          item: {
+            id: "productivetrees:sweet_crabapple",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 4.0,
+      dependencies: [
+        "7A3DD8CAD6A5692D",
+      ],
+      id: "6AE0A69DB3CDBCAA",
+      tasks: [
+        {
+          id: "5DD95FCC7889C374",
+          type: "item",
+          item: {
+            id: "productivetrees:flowering_crabapple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77F10D701FD87660",
+          type: "item",
+          item: {
+            id: "productivetrees:flowering_crabapple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "406B3942ECC2D8AD",
+          type: "item",
+          item: {
+            id: "productivetrees:flowering_crabapple",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -2.0,
+      dependencies: [
+        "2993EAB4850B7172",
+      ],
+      id: "00A91BD731486644",
+      tasks: [
+        {
+          id: "4FBF45B83C8E465A",
+          type: "item",
+          item: {
+            id: "productivetrees:black_cherry_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35F46EB37A438AFC",
+          type: "item",
+          item: {
+            id: "productivetrees:black_cherry_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "25ED2E251883055A",
+          type: "item",
+          item: {
+            id: "productivetrees:black_cherry",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 1.0,
+      dependencies: [
+        "5753E0138A072A3F",
+        "48BA8ACFADE3C8CE",
+      ],
+      id: "10162AD188CB3327",
+      tasks: [
+        {
+          id: "0D6405D74991993A",
+          type: "item",
+          item: {
+            id: "productivetrees:blackthorn_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53C9ECF86D59DF45",
+          type: "item",
+          item: {
+            id: "productivetrees:blackthorn_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "58C8B2E37FFED6CE",
+          type: "item",
+          item: {
+            id: "productivetrees:sloe",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 11.0,
+      dependencies: [
+        "21B8116BDADD7476",
+      ],
+      id: "1815661333016983",
+      tasks: [
+        {
+          id: "6B49044D78145FBB",
+          type: "item",
+          item: {
+            id: "productivetrees:asai_palm_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72A4BEACB0DAF3E1",
+          type: "item",
+          item: {
+            id: "productivetrees:asai_palm_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "5E15DF0B64E4C573",
+          type: "item",
+          item: {
+            id: "productivetrees:asai_berry",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 2.0,
+      dependencies: [
+        "4510FD92BACF00FF",
+      ],
+      id: "06EA86F9F6C9DECF",
+      tasks: [
+        {
+          id: "287D207C4999817B",
+          type: "item",
+          item: {
+            id: "productivetrees:apricot_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "281D290BCEA406F1",
+          type: "item",
+          item: {
+            id: "productivetrees:apricot_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "1D36E6D742419D76",
+          type: "item",
+          item: {
+            id: "productivetrees:apricot",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 7.0,
+      dependencies: [
+        "29FA0E9664935566",
+      ],
+      id: "64A09E2E3EF16C31",
+      tasks: [
+        {
+          id: "4518C07100A94FE5",
+          type: "item",
+          item: {
+            id: "productivetrees:plantain_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F9A9FB49D3056E7",
+          type: "item",
+          item: {
+            id: "productivetrees:plantain_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "79BE2ECC38698A40",
+          type: "item",
+          item: {
+            id: "productivetrees:plantain",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: 1.5,
+      dependencies: [
+        "762C54C261ED5D29",
+      ],
+      id: "1F146FE1002643B2",
+      tasks: [
+        {
+          id: "3CC70B9C2499480A",
+          type: "item",
+          item: {
+            id: "productivetrees:pink_ivory_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64828480C1CE4F1C",
+          type: "item",
+          item: {
+            id: "productivetrees:pink_ivory_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 1.0,
+      dependencies: [
+        "640D6ADA17709D3A",
+      ],
+      id: "08DB91D079C5B715",
+      tasks: [
+        {
+          id: "2798AEA8D8CF666F",
+          type: "item",
+          item: {
+            id: "productivetrees:old_fustic_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73BE31701BADE3D2",
+          type: "item",
+          item: {
+            id: "productivetrees:old_fustic_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 1.5,
+      dependencies: [
+        "4510FD92BACF00FF",
+      ],
+      id: "15FF9D19FBC873CF",
+      tasks: [
+        {
+          id: "65B168B00C7EA982",
+          type: "item",
+          item: {
+            id: "productivetrees:nectarine_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "042AA0FFA9D75860",
+          type: "item",
+          item: {
+            id: "productivetrees:nectarine_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "69F6D6146A034A8B",
+          type: "item",
+          item: {
+            id: "productivetrees:nectarine",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: 5.5,
+      dependencies: [
+        "4E802144C6E40D43",
+      ],
+      id: "18601369F049D10D",
+      tasks: [
+        {
+          id: "0007A506C51BEFC0",
+          type: "item",
+          item: {
+            id: "productivetrees:persimmon_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2588841BB3B3B848",
+          type: "item",
+          item: {
+            id: "productivetrees:persimmon_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "1E4EC1B516F4CEE4",
+          type: "item",
+          item: {
+            id: "productivetrees:persimmon",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 5.0,
+      dependencies: [
+        "489A811AB1CFCBA3",
+      ],
+      id: "4E802144C6E40D43",
+      tasks: [
+        {
+          id: "32ECA0413A9465F2",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_crepe_myrtle_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3493A8AF305B2783",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_crepe_myrtle_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -9.0,
+      y: 6.5,
+      dependencies: [
+        "18601369F049D10D",
+      ],
+      id: "18D4BE3AF7869DE2",
+      tasks: [
+        {
+          id: "167B46DCD3FF7A34",
+          type: "item",
+          item: {
+            id: "productivetrees:myrtle_ebony_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B833742C9CD1310",
+          type: "item",
+          item: {
+            id: "productivetrees:myrtle_ebony_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "4E802144C6E40D43",
+        "0661E9669E639621",
+      ],
+      hide_until_deps_visible: false,
+      id: "14D9C071E184DE3B",
+      tasks: [
+        {
+          id: "54A4A373235685E6",
+          type: "item",
+          item: {
+            id: "productivetrees:red_crepe_myrtle_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26B0481D013F8368",
+          type: "item",
+          item: {
+            id: "productivetrees:red_crepe_myrtle_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "1E1DC8613DA42E3B",
+          type: "item",
+          item: {
+            id: "productivetrees:red_crepe_myrtle_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: 3.0,
+      shape: "hexagon",
+      dependencies: [
+        "14D9C071E184DE3B",
+        "0661E9669E639621",
+      ],
+      hide_until_deps_visible: true,
+      id: "3458F19FB41C7F0E",
+      tasks: [
+        {
+          id: "48A1360874BA29F4",
+          type: "item",
+          item: {
+            id: "productivetrees:tuscarora_crepe_myrtle_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5EB6FBED591545DC",
+          type: "item",
+          item: {
+            id: "productivetrees:tuscarora_crepe_myrtle_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "01ABE49360BCEFAA",
+          type: "item",
+          item: {
+            id: "productivetrees:tuscarora_crepe_myrtle_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -9.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "3458F19FB41C7F0E",
+        "0661E9669E639621",
+      ],
+      id: "5FD88ED4937971D7",
+      tasks: [
+        {
+          id: "6A0EBC1DFA170C53",
+          type: "item",
+          item: {
+            id: "productivetrees:moonlight_magic_crepe_myrtle_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54B092BD50A0982A",
+          type: "item",
+          item: {
+            id: "productivetrees:moonlight_magic_crepe_myrtle_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "7806BC8EB568C91F",
+          type: "item",
+          item: {
+            id: "productivetrees:moonlight_magic_crepe_myrtle_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: -2.5,
+      dependencies: [
+        "1D1ABA9BD978E8A1",
+      ],
+      id: "43265FEF45846357",
+      tasks: [
+        {
+          id: "55F90C0B9EA41DCC",
+          type: "item",
+          item: {
+            id: "productivetrees:lemon_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2657406225B75B47",
+          type: "item",
+          item: {
+            id: "productivetrees:lemon_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -1.5,
+      dependencies: [
+        "1D1ABA9BD978E8A1",
+        "504752A1C9EFED76",
+      ],
+      id: "37AD651E91FE3E20",
+      tasks: [
+        {
+          id: "0D88B6EF3611F705",
+          type: "item",
+          item: {
+            id: "productivetrees:lime_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DFEA1E37CE8166B",
+          type: "item",
+          item: {
+            id: "productivetrees:lime_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "198384360936D017",
+          type: "item",
+          item: {
+            id: "productivetrees:lime",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -5.5,
+      dependencies: [
+        "268768465119632A",
+      ],
+      id: "3BD304D851F49EC0",
+      tasks: [
+        {
+          id: "1EB473408B7516CA",
+          type: "item",
+          item: {
+            id: "productivetrees:juniper_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "062A682FA058C20E",
+          type: "item",
+          item: {
+            id: "productivetrees:juniper_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "5E441327A217D32C",
+          type: "item",
+          item: {
+            id: "productivetrees:juniper_berry",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -2.5,
+      dependencies: [
+        "3942B5F5FD8ADF89",
+      ],
+      id: "0145727E40D7F674",
+      tasks: [
+        {
+          id: "78875797E8805EF3",
+          type: "item",
+          item: {
+            id: "productivetrees:jackfruit_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52D197BDEF331DEF",
+          type: "item",
+          item: {
+            id: "productivetrees:jackfruit_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "71E870F5C4996F01",
+          type: "item",
+          item: {
+            id: "productivetrees:jackfruit",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -9.0,
+      y: 2.0,
+      dependencies: [
+        "640D6ADA17709D3A",
+      ],
+      id: "0D888A4C5EF0073E",
+      tasks: [
+        {
+          id: "6D10ED5118D4FCC2",
+          type: "item",
+          item: {
+            id: "productivetrees:greenheart_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08804C9D703F53B0",
+          type: "item",
+          item: {
+            id: "productivetrees:greenheart_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 1.0,
+      dependencies: [
+        "5753E0138A072A3F",
+      ],
+      id: "5C26EBA2F58F28F1",
+      tasks: [
+        {
+          id: "2E52B477B9254C1F",
+          type: "item",
+          item: {
+            id: "productivetrees:granny_smith_apple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03CC717CD125426E",
+          type: "item",
+          item: {
+            id: "productivetrees:granny_smith_apple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "2409A4DE2D7BC85F",
+          type: "item",
+          item: {
+            id: "productivetrees:granny_smith_apple",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: 1.0,
+      dependencies: [
+        "5C26EBA2F58F28F1",
+      ],
+      id: "75CE67D3AA75C798",
+      tasks: [
+        {
+          id: "234C16423B378D35",
+          type: "item",
+          item: {
+            id: "productivetrees:golden_delicious_apple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E1C5D228A106A23",
+          type: "item",
+          item: {
+            id: "productivetrees:golden_delicious_apple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0C5B2E3774CEC3FD",
+          type: "item",
+          item: {
+            id: "productivetrees:golden_delicious_apple",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -3.0,
+      dependencies: [
+        "00A91BD731486644",
+      ],
+      id: "298437197EA5680D",
+      tasks: [
+        {
+          id: "2B85A38C7A8AB9EA",
+          type: "item",
+          item: {
+            id: "productivetrees:coffea_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20C536083B3C4E74",
+          type: "item",
+          item: {
+            id: "productivetrees:coffea_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "290A846B343B5EB5",
+          type: "item",
+          item: {
+            id: "productivetrees:coffee_bean",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -4.0,
+      dependencies: [
+        "298437197EA5680D",
+      ],
+      id: "53BDD0459F7B1D60",
+      tasks: [
+        {
+          id: "5FFCD3A761948440",
+          type: "item",
+          item: {
+            id: "productivetrees:clove_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B454AECD67B721D",
+          type: "item",
+          item: {
+            id: "productivetrees:clove_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "5EFAED57AAA54D40",
+          type: "item",
+          item: {
+            id: "productivetrees:clove",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -4.0,
+      dependencies: [
+        "53BDD0459F7B1D60",
+      ],
+      id: "481205F0C9B08200",
+      tasks: [
+        {
+          id: "744D2E404C25A9BF",
+          type: "item",
+          item: {
+            id: "productivetrees:allspice_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CE6F44A51F50E5F",
+          type: "item",
+          item: {
+            id: "productivetrees:allspice_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "283F7645CB0CB7D3",
+          type: "item",
+          item: {
+            id: "productivetrees:allspice",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -3.0,
+      dependencies: [
+        "1D1ABA9BD978E8A1",
+      ],
+      id: "53BA0C64804ADD24",
+      tasks: [
+        {
+          id: "28B383CB80AC2EC1",
+          type: "item",
+          item: {
+            id: "productivetrees:mandarin_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61DED0418A347422",
+          type: "item",
+          item: {
+            id: "productivetrees:mandarin_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "686C8BA46D90BFC0",
+          type: "item",
+          item: {
+            id: "productivetrees:mandarin",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -4.0,
+      dependencies: [
+        "53BA0C64804ADD24",
+      ],
+      id: "399858D28294D633",
+      tasks: [
+        {
+          id: "01753DEA1C6C4E6F",
+          type: "item",
+          item: {
+            id: "productivetrees:buddhas_hand_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "281D8BECD5A84DDE",
+          type: "item",
+          item: {
+            id: "productivetrees:buddhas_hand_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "23A87718275BCD39",
+          type: "item",
+          item: {
+            id: "productivetrees:buddhas_hand",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 0.0,
+      dependencies: [
+        "75CE67D3AA75C798",
+      ],
+      id: "52B2ADE472707372",
+      tasks: [
+        {
+          id: "6607D01230F77BAF",
+          type: "item",
+          item: {
+            id: "productivetrees:beliy_naliv_apple_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E505CFF17D9438F",
+          type: "item",
+          item: {
+            id: "productivetrees:beliy_naliv_apple_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "6587B87CDDD5CADF",
+          type: "item",
+          item: {
+            id: "productivetrees:beliy_naliv_apple",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -2.5,
+      dependencies: [
+        "53BA0C64804ADD24",
+      ],
+      id: "4E8ECD407C8EA2DC",
+      tasks: [
+        {
+          id: "2A92E0DB070077AC",
+          type: "item",
+          item: {
+            id: "productivetrees:orange_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68F25662F41215FC",
+          type: "item",
+          item: {
+            id: "productivetrees:orange_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0ED957ACD249B5CD",
+          type: "item",
+          item: {
+            id: "productivetrees:orange",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -5.0,
+      dependencies: [
+        "53BDD0459F7B1D60",
+      ],
+      id: "45D1FFB263CD722D",
+      tasks: [
+        {
+          id: "607A58F88809FFB3",
+          type: "item",
+          item: {
+            id: "productivetrees:nutmeg_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C9F8E605CD1091E",
+          type: "item",
+          item: {
+            id: "productivetrees:nutmeg_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "7915BE737568CBC4",
+          type: "item",
+          item: {
+            id: "productivetrees:nutmeg",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 0.0,
+      dependencies: [
+        "2D6FDCC948DB927D",
+      ],
+      id: "0BD908937BC6E97B",
+      tasks: [
+        {
+          id: "5B37696B7E255D7F",
+          type: "item",
+          item: {
+            id: "productivetrees:logwood_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "535FB36613964A5C",
+          type: "item",
+          item: {
+            id: "productivetrees:logwood_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: -3.5,
+      dependencies: [
+        "53BA0C64804ADD24",
+      ],
+      id: "00FF2CA7BA326007",
+      tasks: [
+        {
+          id: "77CA74A69F56E9B7",
+          type: "item",
+          item: {
+            id: "productivetrees:kumquat_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E5CC3ADE57925FE",
+          type: "item",
+          item: {
+            id: "productivetrees:kumquat_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0A27CDE335224E9C",
+          type: "item",
+          item: {
+            id: "productivetrees:kumquat",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -3.5,
+      dependencies: [
+        "4E8ECD407C8EA2DC",
+      ],
+      id: "16FA120455D36B58",
+      tasks: [
+        {
+          id: "06C89923A97DDE96",
+          type: "item",
+          item: {
+            id: "productivetrees:mango_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E013C758025A2A8",
+          type: "item",
+          item: {
+            id: "productivetrees:mango_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "29DA5F4BF9A4CBEB",
+          type: "item",
+          item: {
+            id: "productivetrees:mango",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 0.0,
+      dependencies: [
+        "08DB91D079C5B715",
+      ],
+      id: "0813CEDCC201216A",
+      tasks: [
+        {
+          id: "6DA87E1219B6EEEB",
+          type: "item",
+          item: {
+            id: "productivetrees:osage_orange_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F061563D814F4EB",
+          type: "item",
+          item: {
+            id: "productivetrees:osage_orange_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "75F387F8824A85F7",
+          type: "item",
+          item: {
+            id: "productivetrees:osage_orange",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -3.5,
+      dependencies: [
+        "4E8ECD407C8EA2DC",
+      ],
+      id: "01CF1A9D9F29AFF7",
+      tasks: [
+        {
+          id: "182B6A5BE87CBE6C",
+          type: "item",
+          item: {
+            id: "productivetrees:grapefruit_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B7F964D37C1CD51",
+          type: "item",
+          item: {
+            id: "productivetrees:grapefruit_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "79C5A3176507E806",
+          type: "item",
+          item: {
+            id: "productivetrees:grapefruit",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -6.0,
+      dependencies: [
+        "33977CEF056F0A13",
+      ],
+      id: "54E7967B45B20F36",
+      tasks: [
+        {
+          id: "4B85E478FDAEB0BE",
+          type: "item",
+          item: {
+            id: "productivetrees:pomegranate_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10C015FEB4E1074B",
+          type: "item",
+          item: {
+            id: "productivetrees:pomegranate_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "4F9813E942A6CD68",
+          type: "item",
+          item: {
+            id: "productivetrees:pomegranate",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: 2.5,
+      dependencies: [
+        "762C54C261ED5D29",
+      ],
+      id: "2E89ABF1A6145184",
+      tasks: [
+        {
+          id: "35C2277A7BEAC37F",
+          type: "item",
+          item: {
+            id: "productivetrees:purpleheart_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22397DD1747B7EB7",
+          type: "item",
+          item: {
+            id: "productivetrees:purpleheart_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: -4.0,
+      dependencies: [
+        "00FF2CA7BA326007",
+      ],
+      id: "7B3920DE6306A94A",
+      tasks: [
+        {
+          id: "2EF0D52468F0E9F2",
+          type: "item",
+          item: {
+            id: "productivetrees:satsuma_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44048D7762AE8C2E",
+          type: "item",
+          item: {
+            id: "productivetrees:satsuma_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "29D27ACC58003BB6",
+          type: "item",
+          item: {
+            id: "productivetrees:satsuma",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 3.0,
+      dependencies: [
+        "762C54C261ED5D29",
+      ],
+      id: "257D8912FC58DB59",
+      tasks: [
+        {
+          id: "27516ADF76A3D41E",
+          type: "item",
+          item: {
+            id: "productivetrees:sandalwood_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1CB8C6BADA49C294",
+          type: "item",
+          item: {
+            id: "productivetrees:sandalwood_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -3.5,
+      dependencies: [
+        "481205F0C9B08200",
+      ],
+      id: "1D6FAF0E25A0D596",
+      tasks: [
+        {
+          id: "559304A328C89E08",
+          type: "item",
+          item: {
+            id: "productivetrees:star_anise_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E3753F86A7E3F05",
+          type: "item",
+          item: {
+            id: "productivetrees:star_anise_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0FB8AA3B17CAB47C",
+          type: "item",
+          item: {
+            id: "productivetrees:star_anise",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -4.5,
+      dependencies: [
+        "16FA120455D36B58",
+        "1D6FAF0E25A0D596",
+      ],
+      id: "799CC9FEEDE471B1",
+      tasks: [
+        {
+          id: "5AE6615A81E801B8",
+          type: "item",
+          item: {
+            id: "productivetrees:star_fruit_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4125B7783E5E9CA0",
+          type: "item",
+          item: {
+            id: "productivetrees:star_fruit_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "6DCAD1A563F49BA8",
+          type: "item",
+          item: {
+            id: "productivetrees:star_fruit",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 4.0,
+      dependencies: [
+        "291EE514A1602C46",
+      ],
+      id: "2DC639C39AE90272",
+      tasks: [
+        {
+          id: "1C992286099FAD6E",
+          type: "item",
+          item: {
+            id: "productivetrees:swamp_gum_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DD7349CABD17D6E",
+          type: "item",
+          item: {
+            id: "productivetrees:swamp_gum_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 0.5,
+      dependencies: [
+        "48BA8ACFADE3C8CE",
+        "7B1693793419B769",
+      ],
+      id: "23A5F5C9BC7B5CC7",
+      tasks: [
+        {
+          id: "6FE463D6E396893C",
+          type: "item",
+          item: {
+            id: "productivetrees:almond_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "382DA64154C2BD5C",
+          type: "item",
+          item: {
+            id: "productivetrees:almond_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "46F45D19BB09DC87",
+          type: "item",
+          item: {
+            id: "productivetrees:almond",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 10.0,
+      dependencies: [
+        "674A6B0EDA0D348B",
+      ],
+      id: "6E0DF05DEF48D2EB",
+      tasks: [
+        {
+          id: "2FA7AFE7BE796C3D",
+          type: "item",
+          item: {
+            id: "productivetrees:pistachio_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00AA8C4F072F0478",
+          type: "item",
+          item: {
+            id: "productivetrees:pistachio_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "487E2AE612216C5B",
+          type: "item",
+          item: {
+            id: "productivetrees:pistachio",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 5.5,
+      dependencies: [
+        "1CD5ABD827CEB3AE",
+      ],
+      id: "263FBD9ED2756190",
+      tasks: [
+        {
+          id: "102F139E84546996",
+          type: "item",
+          item: {
+            id: "productivetrees:pandanus_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2598333B2C27A696",
+          type: "item",
+          item: {
+            id: "productivetrees:pandanus_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 5.0,
+      dependencies: [
+        "263FBD9ED2756190",
+      ],
+      id: "4AFA3CB55F6C10C2",
+      tasks: [
+        {
+          id: "44E083A46C9D8ED2",
+          type: "item",
+          item: {
+            id: "productivetrees:salak_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6FCBA106334E3D4E",
+          type: "item",
+          item: {
+            id: "productivetrees:salak_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: -4.5,
+      dependencies: [
+        "00FF2CA7BA326007",
+      ],
+      id: "4676E9CD0F312C1A",
+      tasks: [
+        {
+          id: "04AB4CE794CCC02D",
+          type: "item",
+          item: {
+            id: "productivetrees:tangerine_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52EA14DE15E2E663",
+          type: "item",
+          item: {
+            id: "productivetrees:tangerine_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "43355160BA01802D",
+          type: "item",
+          item: {
+            id: "productivetrees:tangerine",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -0.5,
+      dependencies: [
+        "7EC89242980768B3",
+      ],
+      id: "70A4E2B0491634FA",
+      tasks: [
+        {
+          id: "43E3D51CC36F5D35",
+          type: "item",
+          item: {
+            id: "productivetrees:soursop_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6700870465E1E2E6",
+          type: "item",
+          item: {
+            id: "productivetrees:soursop_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "73108418AC6AE5AD",
+          type: "item",
+          item: {
+            id: "productivetrees:soursop",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 5.5,
+      dependencies: [
+        "29FA0E9664935566",
+      ],
+      id: "62991D7431A48F6D",
+      tasks: [
+        {
+          id: "0EE4E7AC38B0639D",
+          type: "item",
+          item: {
+            id: "productivetrees:red_banana_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63DE337BF4EA6056",
+          type: "item",
+          item: {
+            id: "productivetrees:red_banana_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "5E9FA99C825687A7",
+          type: "item",
+          item: {
+            id: "productivetrees:red_banana",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -4.5,
+      dependencies: [
+        "01F51EBFEC660549",
+      ],
+      id: "6280748583C62E05",
+      tasks: [
+        {
+          id: "3E6BF16CE93A98FC",
+          type: "item",
+          item: {
+            id: "productivetrees:padauk_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B8D5DF6DC3920FD",
+          type: "item",
+          item: {
+            id: "productivetrees:padauk_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -0.5,
+      shape: "hexagon",
+      dependencies: [
+        "0B70D40FA951E13B",
+        "0661E9669E639621",
+      ],
+      hide_until_deps_visible: true,
+      id: "0A467A0CFFCF1490",
+      tasks: [
+        {
+          id: "7209B38C8BD83CE9",
+          type: "item",
+          item: {
+            id: "productivetrees:copper_beech_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3ECFDFA21E8A61A0",
+          type: "item",
+          item: {
+            id: "productivetrees:copper_beech_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "34418A8E70169654",
+          type: "item",
+          item: {
+            id: "productivetrees:copper_beech_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "10162AD188CB3327",
+        "0661E9669E639621",
+      ],
+      hide_until_deps_visible: true,
+      id: "53292D808E8F5218",
+      tasks: [
+        {
+          id: "1BDCBDD339D8D687",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_blackthorn_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35DE825D91530A49",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_blackthorn_log",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "21F7F4F7627E7181",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_blackthorn_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 6.5,
+      dependencies: [
+        "289B30DAC960BFF2",
+        "22151D56616559CB",
+      ],
+      id: "71AA40CB2948A8D7",
+      tasks: [
+        {
+          id: "7EDA20C0B16A9DDC",
+          type: "item",
+          item: {
+            id: "productivetrees:water_wonder_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A32DDE7E85FE6F0",
+          type: "item",
+          item: {
+            id: "productivetrees:water_wonder_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 10.5,
+      shape: "octagon",
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "22151D56616559CB",
+      tasks: [
+        {
+          id: "6BD95DE2DB508F9A",
+          type: "item",
+          item: {
+            id: "productivetrees:blue_yonder_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "554AC9B8BD772DFF",
+          type: "item",
+          item: {
+            id: "productivetrees:blue_yonder_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 10.5,
+      shape: "octagon",
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "4281BCDCE233F65B",
+      tasks: [
+        {
+          id: "12B818631FE44C1E",
+          type: "item",
+          item: {
+            id: "productivetrees:firecracker_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D2212329039E9D0",
+          type: "item",
+          item: {
+            id: "productivetrees:firecracker_stripped_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 10.5,
+      shape: "octagon",
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "18A2F6BA778D96B1",
+      tasks: [
+        {
+          id: "47A93E5DB4B4D188",
+          type: "item",
+          item: {
+            id: "productivetrees:black_ember_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A4654D9163582B7",
+          type: "item",
+          item: {
+            id: "productivetrees:black_ember_stripped_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 10.5,
+      shape: "octagon",
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "4C3B7BAEA653587B",
+      tasks: [
+        {
+          id: "221DB11F38706D5E",
+          type: "item",
+          item: {
+            id: "productivetrees:flickering_sun_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37C536ED9B6030BD",
+          type: "item",
+          item: {
+            id: "productivetrees:flickering_sun_stripped_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 10.5,
+      shape: "octagon",
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "289B30DAC960BFF2",
+      tasks: [
+        {
+          id: "30A722AE1F6EBA8D",
+          type: "item",
+          item: {
+            id: "productivetrees:soul_tree_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A3728ABE130C54F",
+          type: "item",
+          item: {
+            id: "productivetrees:soul_tree_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 11.5,
+      shape: "octagon",
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "768C07D1B5EB1FEB",
+      tasks: [
+        {
+          id: "2255CDB846EB03CB",
+          type: "item",
+          item: {
+            id: "productivetrees:brown_amber_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "088A0EC4CCAA254F",
+          type: "item",
+          item: {
+            id: "productivetrees:brown_amber_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 9.5,
+      dependencies: [
+        "289B30DAC960BFF2",
+        "18A2F6BA778D96B1",
+      ],
+      id: "6BF6C7C04F26D8BA",
+      tasks: [
+        {
+          id: "1FA61A2EDFE0B4AE",
+          type: "item",
+          item: {
+            id: "productivetrees:cave_dweller_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07394657178EF2B5",
+          type: "item",
+          item: {
+            id: "productivetrees:cave_dweller_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 7.5,
+      dependencies: [
+        "289B30DAC960BFF2",
+        "6BF6C7C04F26D8BA",
+      ],
+      id: "1D31C515533DAD36",
+      tasks: [
+        {
+          id: "42C5F47D73F98564",
+          type: "item",
+          item: {
+            id: "productivetrees:foggy_blast_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50ABF6148AD79408",
+          type: "item",
+          item: {
+            id: "productivetrees:foggy_blast_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 9.5,
+      dependencies: [
+        "4281BCDCE233F65B",
+        "22151D56616559CB",
+      ],
+      id: "526CED9509FAA79B",
+      tasks: [
+        {
+          id: "6A2C314849DCD191",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_spiral_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "642B88239145AC3D",
+          type: "item",
+          item: {
+            id: "productivetrees:purple_spiral_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 9.5,
+      dependencies: [
+        "22151D56616559CB",
+        "4C3B7BAEA653587B",
+      ],
+      id: "74CD3FC35F245DF2",
+      tasks: [
+        {
+          id: "13AFFF175319BD76",
+          type: "item",
+          item: {
+            id: "productivetrees:rippling_willow_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26C33DA2AFBB790A",
+          type: "item",
+          item: {
+            id: "productivetrees:rippling_willow_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 7.5,
+      dependencies: [
+        "289B30DAC960BFF2",
+        "74CD3FC35F245DF2",
+      ],
+      id: "5FC92F3794004A98",
+      tasks: [
+        {
+          id: "58DD2DFEF599B4B9",
+          type: "item",
+          item: {
+            id: "productivetrees:slimy_delight_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C465EDB84AB81EB",
+          type: "item",
+          item: {
+            id: "productivetrees:slimy_delight_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 9.5,
+      dependencies: [
+        "289B30DAC960BFF2",
+        "4281BCDCE233F65B",
+      ],
+      id: "4AEB4BF7624ABA0F",
+      tasks: [
+        {
+          id: "29DFCBE93BC07E51",
+          type: "item",
+          item: {
+            id: "productivetrees:sparkle_cherry_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D8AECA7A46812A6",
+          type: "item",
+          item: {
+            id: "productivetrees:sparkle_cherry_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 8.5,
+      dependencies: [
+        "4C3B7BAEA653587B",
+        "4281BCDCE233F65B",
+      ],
+      id: "3707C3EDA1C5A0B2",
+      tasks: [
+        {
+          id: "5A93676ECFA4E0C2",
+          type: "item",
+          item: {
+            id: "productivetrees:thunder_bolt_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "299FF5212E42ED7B",
+          type: "item",
+          item: {
+            id: "productivetrees:thunder_bolt_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 8.5,
+      dependencies: [
+        "74CD3FC35F245DF2",
+        "22151D56616559CB",
+      ],
+      id: "05F428C34DD00B61",
+      tasks: [
+        {
+          id: "20220F6CD2A740CD",
+          type: "item",
+          item: {
+            id: "productivetrees:time_traveller_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F0DED6CB9644EC0",
+          type: "item",
+          item: {
+            id: "productivetrees:time_traveller_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 8.5,
+      dependencies: [
+        "526CED9509FAA79B",
+        "4AEB4BF7624ABA0F",
+      ],
+      id: "20DDAC076A2479A8",
+      tasks: [
+        {
+          id: "104FAB7AD34F6257",
+          type: "item",
+          item: {
+            id: "productivetrees:night_fuchsia_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "14C9568A4AA08A13",
+          type: "item",
+          item: {
+            id: "productivetrees:night_fuchsia_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 15.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "25D8BE0280B6E7F1",
+      tasks: [
+        {
+          id: "3D3F0DB8237E5856",
+          type: "checkmark",
+        },
+        {
+          id: "0E7EAD7D7DF5E7C3",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 14.0,
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "543F00603790AD3E",
+      tasks: [
+        {
+          id: "16391CD1A55DEA7C",
+          type: "item",
+          item: {
+            id: "productivetrees:stripper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7BA341680A73A46F",
+          type: "item",
+          item: {
+            id: "minecraft:stone_axe",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 14.0,
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      id: "76A0592F4C294545",
+      tasks: [
+        {
+          id: "01E6A96EBEF754EB",
+          type: "item",
+          item: {
+            id: "productivetrees:sawmill",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C72A695620499FC",
+          type: "item",
+          item: {
+            id: "productivetrees:sawdust",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:oak_sapling",
+        count: 1,
+      },
+      x: 6.0,
+      y: 12.5,
+      shape: "octagon",
+      hide_dependent_lines: true,
+      id: "5577F49A93ADB19C",
+      tasks: [
+        {
+          id: "6609E5E7EDE6F92B",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "and(item_tag(minecraft:saplings)mod(minecraft))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A060AC1249E4D3A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "patchouli:guide_book",
+            },
+          },
+        },
+        {
+          id: "3CC6453EEA185696",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_pollen_sieve",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 12.5,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "5577F49A93ADB19C",
+      ],
+      hide_details_until_startable: true,
+      id: "0661E9669E639621",
+      tasks: [
+        {
+          id: "79889CC26DCD7F19",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0AB06BD8FFDD7B22",
+          type: "item",
+          item: {
+            id: "minecraft:oak_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 4.5,
+      dependencies: [
+        "291EE514A1602C46",
+      ],
+      id: "4DC4FFD69B1688BF",
+      tasks: [
+        {
+          id: "2193A637936B1FCD",
+          type: "item",
+          item: {
+            id: "productivetrees:rainbow_gum_sapling",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "103BB12E39B55875",
+          type: "item",
+          item: {
+            id: "productivetrees:rainbow_gum_log",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 4.5,
+      y: 12.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/toast/tree.png",
+      click: "https://youtu.be/5kKjlCsmfcc?si=I_jZPW6TzqHpb8OD",
+      id: "16996B37EB9CEACC",
+    },
+    {
+      x: -1.5,
+      y: 0.9000000000000004,
+      width: 0.3,
+      height: 0.3,
+      rotation: 0.0,
+      image: "allthetweaks:item/atm_star",
+      id: "5168EC91D64B13E6",
+    },
+  ],
+}

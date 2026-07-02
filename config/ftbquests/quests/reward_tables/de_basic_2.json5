@@ -1,0 +1,52 @@
+{
+  id: "45E659D75FF60276",
+  order_index: 56,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "4B7238169A11CF56",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:wyvern_core",
+        },
+      },
+      count: 3,
+      weight: 2.0,
+    },
+    {
+      id: "69A4ABF83656C15E",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:draconium_ingot",
+        },
+      },
+      count: 8,
+      weight: 2.0,
+    },
+    {
+      id: "4DFBEEC56DD9588A",
+      item: {
+        id: "minecraft:nether_star",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+    {
+      id: "7090AE5EF7DD6CDA",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:wyvern_energy_core",
+        },
+      },
+      count: 2,
+    },
+  ],
+}

@@ -1,0 +1,75 @@
+{
+  id: "1DB1EEDA7B79672B",
+  order_index: 18,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "07A9FD7BE33CD749",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "railcraft:abandoned_track",
+        },
+      },
+      count: 16,
+    },
+    {
+      id: "73D3400EBE52AE97",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "railcraft:electric_track",
+        },
+      },
+      count: 16,
+    },
+    {
+      id: "17CD5B2768E13748",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "railcraft:reinforced_track",
+        },
+      },
+      count: 16,
+    },
+    {
+      id: "29FBC7626355FB89",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "railcraft:strap_iron_track",
+        },
+      },
+      count: 16,
+    },
+    {
+      id: "0295950EA7AA03A5",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "railcraft:high_speed_track",
+        },
+      },
+      count: 16,
+    },
+    {
+      id: "7B24C6D3B48F1F9C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "railcraft:high_speed_electric_track",
+        },
+      },
+      count: 16,
+    },
+  ],
+}

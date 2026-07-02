@@ -1,0 +1,72 @@
+{
+  id: "677C7D01E9C0064B",
+  order_index: 52,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "56547E13232DF034",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:digital_circuit_board",
+        },
+      },
+      count: 2,
+    },
+    {
+      id: "1EBECEE50CEDEE6C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:digital_circuit",
+        },
+      },
+    },
+    {
+      id: "3A8E549B3157345E",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:turbo_machine_casing",
+        },
+      },
+      count: 2,
+    },
+    {
+      id: "4F4E130333D8D1D5",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:turbo_upgrade",
+        },
+      },
+      count: 4,
+    },
+    {
+      id: "6DA95E180F6B3275",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:advanced_pump",
+        },
+      },
+    },
+    {
+      id: "543FB5B1661B4AA9",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:advanced_motor",
+        },
+      },
+    },
+  ],
+}

@@ -1,0 +1,1425 @@
+{
+  id: "3DEB33F78398EAD6",
+  group: "3D4E23B1100491AB",
+  order_index: 0,
+  icon: {
+    id: "pipez:wrench",
+    count: 1,
+  },
+  filename: "basic_logistics",
+  default_quest_shape: "hexagon",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: 1.0,
+      y: 1.0,
+      shape: "pentagon",
+      size: 1.5,
+      id: "2329AA0AFBEF1E13",
+      tasks: [
+        {
+          id: "43D2013855BF5F17",
+          type: "item",
+          item: {
+            id: "pipez:wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71FDE5AB12145B69",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -0.5,
+      dependencies: [
+        "2329AA0AFBEF1E13",
+      ],
+      size: 1.1,
+      id: "36836AD948F96B9F",
+      tasks: [
+        {
+          id: "04CFDEC2D4C671F2",
+          type: "item",
+          item: {
+            id: "pipez:item_pipe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22360F382F0BA4CE",
+          type: "item",
+          item: {
+            id: "pipez:item_pipe",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -0.5,
+      dependencies: [
+        "2329AA0AFBEF1E13",
+      ],
+      size: 1.1,
+      min_width: 250,
+      id: "33433A443B65D252",
+      tasks: [
+        {
+          id: "2E1254C3F9F6079C",
+          type: "item",
+          item: {
+            id: "pipez:fluid_pipe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78309F82E7E4AE69",
+          type: "item",
+          item: {
+            id: "pipez:fluid_pipe",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -0.5,
+      dependencies: [
+        "2329AA0AFBEF1E13",
+      ],
+      size: 1.1,
+      id: "53EC96FA0E7C4ED4",
+      tasks: [
+        {
+          id: "17BE12E1047A68A4",
+          type: "item",
+          item: {
+            id: "pipez:energy_pipe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BFD87108A2B3FE8",
+          type: "item",
+          item: {
+            id: "pipez:energy_pipe",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -1.5,
+      dependencies: [
+        "33433A443B65D252",
+        "36836AD948F96B9F",
+        "53EC96FA0E7C4ED4",
+      ],
+      size: 1.1,
+      id: "4FBAB3A0FBF8CE2F",
+      tasks: [
+        {
+          id: "1E0BB9A36487B272",
+          type: "item",
+          item: {
+            id: "pipez:universal_pipe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02B1975FE7F3C29A",
+          type: "item",
+          item: {
+            id: "pipez:universal_pipe",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 1.0,
+      dependencies: [
+        "2329AA0AFBEF1E13",
+      ],
+      size: 1.1,
+      id: "2F4458E9921DEB86",
+      tasks: [
+        {
+          id: "7E1C1FB56CFCADF6",
+          type: "item",
+          item: {
+            id: "pipez:gas_pipe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "51371416132329E3",
+          type: "item",
+          item: {
+            id: "pipez:gas_pipe",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "2329AA0AFBEF1E13",
+      ],
+      size: 0.9,
+      id: "2A976D41F79C34B1",
+      tasks: [
+        {
+          id: "5F9D69AF08F576AB",
+          type: "item",
+          item: {
+            id: "pipez:filter_destination_tool",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11D2714AB566A00B",
+          type: "item",
+          item: {
+            id: "pipez:advanced_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 0.5,
+      shape: "rsquare",
+      dependencies: [
+        "2329AA0AFBEF1E13",
+      ],
+      size: 0.9,
+      id: "6A962535CD68713E",
+      tasks: [
+        {
+          id: "48CF7A7622423DEA",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(pipez:basic_upgrade)item(pipez:improved_upgrade)item(pipez:advanced_upgrade)item(pipez:ultimate_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4DDD2CDC825A9BE3",
+          type: "item",
+          item: {
+            id: "pipez:advanced_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 1.0,
+      shape: "pentagon",
+      size: 1.5,
+      id: "34CFE1439262AA72",
+      tasks: [
+        {
+          id: "418E333710652BFA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:configurator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06BBE2C3833797ED",
+          type: "item",
+          item: {
+            id: "alltheores:steel_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 1.0,
+      shape: "pentagon",
+      size: 1.5,
+      id: "6E05B62A40D5A891",
+      tasks: [
+        {
+          id: "7CAEF421E14B6F2A",
+          type: "item",
+          item: {
+            id: "integrateddynamics:wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F763DED812265B7",
+          type: "item",
+          item: {
+            id: "integrateddynamics:crystalized_menril_chunk",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -0.5,
+      dependencies: [
+        "34CFE1439262AA72",
+      ],
+      size: 1.1,
+      id: "1834B5C1F8435D7A",
+      tasks: [
+        {
+          id: "5B7926B511000F1F",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:ultimate_mechanical_pipe))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "779C78573F83BFFE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_mechanical_pipe",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -0.5,
+      dependencies: [
+        "34CFE1439262AA72",
+      ],
+      size: 1.1,
+      icon_scale: 1.3,
+      id: "493D04D954E4FBA0",
+      tasks: [
+        {
+          id: "4448DE84ABA737BE",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:advanced_universal_cable)item(mekanism:elite_universal_cable)item(mekanism:ultimate_universal_cable))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E44439DE3A2B59C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_universal_cable",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -0.5,
+      dependencies: [
+        "34CFE1439262AA72",
+      ],
+      size: 1.1,
+      id: "30DE4F5BC3EDB555",
+      tasks: [
+        {
+          id: "337725ECA2C04090",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_logistical_transporter)item(mekanism:advanced_logistical_transporter)item(mekanism:elite_logistical_transporter)item(mekanism:ultimate_logistical_transporter))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67D4792D7C7FF358",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_logistical_transporter",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -1.5,
+      dependencies: [
+        "34CFE1439262AA72",
+      ],
+      size: 1.1,
+      icon_scale: 1.3,
+      id: "316B513FE568EF57",
+      tasks: [
+        {
+          id: "79E961F671475850",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_thermodynamic_conductor)item(mekanism:advanced_thermodynamic_conductor)item(mekanism:elite_thermodynamic_conductor)item(mekanism:ultimate_thermodynamic_conductor))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E64DF44CA2F9908",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_thermodynamic_conductor",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -1.5,
+      dependencies: [
+        "34CFE1439262AA72",
+      ],
+      size: 1.1,
+      icon_scale: 1.3,
+      id: "4BC2D7FCDD792DBA",
+      tasks: [
+        {
+          id: "2BA7FC10243AA011",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_pressurized_tube)item(mekanism:advanced_pressurized_tube)item(mekanism:elite_pressurized_tube)item(mekanism:ultimate_pressurized_tube))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3217F5BBC9DAF0EC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:advanced_pressurized_tube",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "6E05B62A40D5A891",
+      ],
+      icon_scale: 1.5,
+      id: "6112956E19017D2D",
+      tasks: [
+        {
+          id: "5F7BDDC673BAA500",
+          type: "item",
+          item: {
+            id: "integrateddynamics:cable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "673E97D0F77771B4",
+          type: "item",
+          item: {
+            id: "integrateddynamics:cable",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 3.0,
+      shape: "gear",
+      size: 2.0,
+      id: "6CD7D99AA102A5C3",
+      tasks: [
+        {
+          id: "48A30B08A090BD75",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/wrench)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BC324F4449F0732",
+          type: "item",
+          item: {
+            id: "minecraft:chest",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "6E05B62A40D5A891",
+      ],
+      size: 0.9,
+      id: "03C40D6A5D722543",
+      tasks: [
+        {
+          id: "5789E685C4B54C1B",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "112EF88F5897BC33",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable_transformer_input",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -1.0,
+      dependencies: [
+        "6112956E19017D2D",
+        "03C40D6A5D722543",
+      ],
+      size: 1.1,
+      icon_scale: 1.5,
+      id: "6F152402756DA35E",
+      tasks: [
+        {
+          id: "6479D685217CC64D",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_importer_item",
+            count: 1,
+          },
+        },
+        {
+          id: "7A8D6779B7C6B99D",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_interface_item",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "510F6E6940CEFB39",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_interface_item",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "47F3BA6276A2EA34",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_importer_item",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -1.0,
+      dependencies: [
+        "6112956E19017D2D",
+        "03C40D6A5D722543",
+      ],
+      size: 1.1,
+      icon_scale: 1.5,
+      id: "034F2CDF0830254B",
+      tasks: [
+        {
+          id: "38AB1D04DBB036B9",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_importer_fluid",
+            count: 1,
+          },
+        },
+        {
+          id: "1E13BEB52F3D087C",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_interface_fluid",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44416071DD70A203",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_interface_fluid",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "7F9CF03DD0B1E2D3",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_importer_fluid",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -1.0,
+      dependencies: [
+        "6112956E19017D2D",
+        "03C40D6A5D722543",
+      ],
+      size: 1.1,
+      icon_scale: 1.5,
+      id: "76CECFB244F39F18",
+      tasks: [
+        {
+          id: "4618703B49BDB077",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_importer_energy",
+            count: 1,
+          },
+        },
+        {
+          id: "11F2F4CB9E93471A",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_interface_energy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47C5525DAF15361A",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_interface_energy",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "7792BBAEC038F0C6",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_importer_energy",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 6.5,
+      shape: "octagon",
+      size: 1.5,
+      id: "5F1218CF8EFC607B",
+      tasks: [
+        {
+          id: "652F3AA1A8877897",
+          type: "item",
+          item: {
+            id: "laserio:logic_chip",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D27118147D79F00",
+          type: "item",
+          item: {
+            id: "laserio:logic_chip",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 5.0,
+      shape: "pentagon",
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      size: 1.5,
+      id: "7BC8F50A89A3BE1A",
+      tasks: [
+        {
+          id: "0D82B98F49ECDE84",
+          type: "item",
+          item: {
+            id: "laserio:laser_wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4665F92118ECF273",
+          type: "item",
+          item: {
+            id: "laserio:laser_node",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 6.5,
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      icon_scale: 2.0,
+      id: "5C0F6B1C93A52113",
+      tasks: [
+        {
+          id: "132F43079A756548",
+          type: "item",
+          item: {
+            id: "laserio:laser_node",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1CDCDE301AFE1521",
+          type: "item",
+          item: {
+            id: "laserio:laser_node",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 6.5,
+      shape: "square",
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      icon_scale: 1.5,
+      id: "47A2BEFB11F4D581",
+      tasks: [
+        {
+          id: "1D0BCF8F310F9F31",
+          type: "item",
+          item: {
+            id: "laserio:filter_basic",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1D06FA229ABEDA31",
+          type: "item",
+          item: {
+            id: "laserio:logic_chip",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 8.0,
+      shape: "rsquare",
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      icon_scale: 1.5,
+      id: "4C41FD926F31180B",
+      tasks: [
+        {
+          id: "3E4FC405FD55ED51",
+          type: "item",
+          item: {
+            id: "laserio:card_item",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "19AE8583E62E2168",
+          type: "item",
+          item: {
+            id: "laserio:card_item",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 8.0,
+      shape: "rsquare",
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      icon_scale: 1.5,
+      id: "1C70D739CE464E25",
+      tasks: [
+        {
+          id: "65A892F50FB762AA",
+          type: "item",
+          item: {
+            id: "laserio:card_fluid",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "48537D0800E28E28",
+          type: "item",
+          item: {
+            id: "laserio:card_fluid",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 8.0,
+      shape: "rsquare",
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      icon_scale: 1.5,
+      id: "52F85CED20C8B1E9",
+      tasks: [
+        {
+          id: "346CFB97F9BFCFC2",
+          type: "item",
+          item: {
+            id: "laserio:card_energy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28B75342412D614B",
+          type: "item",
+          item: {
+            id: "laserio:card_energy",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 8.0,
+      shape: "rsquare",
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      icon_scale: 1.5,
+      id: "47768B1FFD57D56E",
+      tasks: [
+        {
+          id: "333634D36B6549F5",
+          type: "item",
+          item: {
+            id: "laserio:card_redstone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "778135590CF0FE97",
+          type: "item",
+          item: {
+            id: "laserio:card_redstone",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 8.0,
+      shape: "rsquare",
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      icon_scale: 1.5,
+      id: "6718043D0F2D1830",
+      tasks: [
+        {
+          id: "2AF56D68641E98D1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "laserio:card_chemical",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1544B9F2E4E4E378",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "laserio:card_chemical",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 9.0,
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      optional: true,
+      id: "617695A9CA45D88F",
+      tasks: [
+        {
+          id: "035E7A7567049C78",
+          type: "item",
+          item: {
+            id: "laserio:card_holder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "713279F21DD21446",
+          type: "item",
+          item: {
+            id: "laserio:logic_chip",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 9.0,
+      shape: "hexagon",
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      optional: true,
+      id: "308935C85364B04D",
+      tasks: [
+        {
+          id: "4637853BB5E04D77",
+          type: "item",
+          item: {
+            id: "laserio:card_cloner",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71AB05CB39E60E9B",
+          type: "item",
+          item: {
+            id: "laserio:logic_chip",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 6.5,
+      dependencies: [
+        "5C0F6B1C93A52113",
+      ],
+      icon_scale: 1.5,
+      optional: true,
+      id: "7EE27C3908008E20",
+      tasks: [
+        {
+          id: "09AA5520AC0CCC24",
+          type: "item",
+          item: {
+            id: "laserio:laser_connector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4839A441EAD03919",
+          type: "item",
+          item: {
+            id: "laserio:laser_connector",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 6.5,
+      shape: "square",
+      dependencies: [
+        "47A2BEFB11F4D581",
+      ],
+      icon_scale: 1.5,
+      id: "06767BA0AFE8C1EE",
+      tasks: [
+        {
+          id: "298C94E654593532",
+          type: "item",
+          item: {
+            id: "laserio:filter_count",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7CD74A2417E9F801",
+          type: "item",
+          item: {
+            id: "laserio:logic_chip",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 7.5,
+      shape: "square",
+      dependencies: [
+        "47A2BEFB11F4D581",
+      ],
+      icon_scale: 1.5,
+      id: "3065EA195D0A36BA",
+      tasks: [
+        {
+          id: "0BF7D47F1BF18EA5",
+          type: "item",
+          item: {
+            id: "laserio:filter_tag",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "018435A9D4B7DA05",
+          type: "item",
+          item: {
+            id: "laserio:logic_chip",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 5.5,
+      shape: "square",
+      dependencies: [
+        "47A2BEFB11F4D581",
+      ],
+      icon_scale: 1.5,
+      id: "2A6900E87DE8BAE0",
+      tasks: [
+        {
+          id: "1D8C41C20C557A21",
+          type: "item",
+          item: {
+            id: "laserio:filter_mod",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36921E4FDCF84830",
+          type: "item",
+          item: {
+            id: "laserio:logic_chip",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 9.0,
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      optional: true,
+      id: "046C417B2ADF3AA7",
+      tasks: [
+        {
+          id: "5983560F1C762FAC",
+          type: "item",
+          item: {
+            id: "laserio:overclocker_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28A66D357ACC9E3E",
+          type: "item",
+          item: {
+            id: "laserio:overclocker_card",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 9.0,
+      dependencies: [
+        "5F1218CF8EFC607B",
+      ],
+      optional: true,
+      id: "0BB562FB44B0AAA7",
+      tasks: [
+        {
+          id: "6EF656AC41CC4D7E",
+          type: "item",
+          item: {
+            id: "laserio:overclocker_node",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47DD8A893C7F9E35",
+          type: "item",
+          item: {
+            id: "laserio:overclocker_node",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 5.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "230582AAFC0A1632",
+      tasks: [
+        {
+          id: "4CCB830CFDD43B5E",
+          type: "checkmark",
+        },
+        {
+          id: "5E4B74F97BDED243",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 5.5,
+      size: 1.5,
+      id: "6CD60A9D88227005",
+      tasks: [
+        {
+          id: "31B1E33F92D967D2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "mod(transfer_labels)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CB69F170CB4080D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "transfer_labels:label_accessor",
+            },
+          },
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 1.0,
+      y: 3.0,
+      width: 5.3300970873786415,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/logistics/basic.png",
+      id: "6835D41B038BBA65",
+    },
+    {
+      x: 10.0,
+      y: 3.0,
+      width: 8.941747572815533,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/logistics/logistics.png",
+      id: "2F367A9777108D9F",
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      width: 3.4761904761904763,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/logistics/pipez.png",
+      id: "2FC37FB4A228838E",
+    },
+    {
+      x: 10.0,
+      y: -3.0,
+      width: 5.642857142857143,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/logistics/mekanism.png",
+      id: "161D77426D5E1515",
+    },
+    {
+      x: 4.5,
+      y: -2.5,
+      width: 6.755813953488372,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/logistics/integrated-.png",
+      id: "4EE340E44E8D683E",
+    },
+    {
+      x: 4.5,
+      y: 10.5,
+      width: 7.232142857142857,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/logistics/laserio.png",
+      id: "12ECB539DD60556A",
+    },
+    {
+      x: -3.5,
+      y: -0.5,
+      width: 4.461077844311378,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/logistics/pipez_item.png",
+      id: "5DC2BB49F569B821",
+    },
+    {
+      x: -2.5,
+      y: -0.5,
+      width: 4.578313253012048,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/logistics/pipez_fluid.png",
+      id: "6A77250117502A70",
+    },
+    {
+      x: -1.5,
+      y: -0.5,
+      width: 4.578313253012048,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/logistics/pipez_energy.png",
+      id: "77724A1B41C8AC64",
+    },
+    {
+      x: 12.0,
+      y: -0.5,
+      width: 4.75,
+      height: 0.9,
+      rotation: 90.0,
+      image: "atm:textures/questpics/logistics/meka_transporter.png",
+      id: "7E01FFDF812B135B",
+    },
+    {
+      x: 10.0,
+      y: -0.5,
+      width: 4.75,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/logistics/meka_cable.png",
+      id: "6A3885B7BC2C0F53",
+    },
+    {
+      x: 11.0,
+      y: -0.5,
+      width: 4.75,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/logistics/meka_pipe.png",
+      id: "40EA482620AB79F1",
+    },
+  ],
+}

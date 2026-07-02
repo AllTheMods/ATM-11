@@ -1,0 +1,117 @@
+{
+  id: "73E94318B401E916",
+  order_index: 36,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "275D2F1338790327",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:machine_frame_advanced",
+        },
+      },
+      weight: 0.5,
+    },
+    {
+      id: "2746C04DA535D90A",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:machine_frame_supreme",
+        },
+      },
+      weight: 0.1,
+    },
+    {
+      id: "75DA167D2EDFEAEC",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:ether_gas_bucket",
+        },
+      },
+      weight: 0.4,
+    },
+    {
+      id: "652EE2A0A639BDB0",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:laser_drill",
+        },
+      },
+      weight: 0.7,
+    },
+    {
+      id: "40223CA1CE2B60F3",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:fluid_laser_base",
+        },
+      },
+      weight: 0.2,
+    },
+    {
+      id: "34ED146671BA7093",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:ore_laser_base",
+        },
+      },
+      weight: 0.3,
+    },
+    {
+      id: "692A0B818459B79C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:plastic",
+        },
+      },
+      count: 16,
+      random_bonus: 16,
+    },
+    {
+      id: "733BC9ABA7984E09",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:processing_addon_tier_2",
+        },
+      },
+    },
+    {
+      id: "49B2AC5A497CE05C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:speed_addon_tier_2",
+        },
+      },
+    },
+    {
+      id: "0734E07D8CB4D20A",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "industrialforegoing:efficiency_addon_tier_2",
+        },
+      },
+    },
+  ],
+}

@@ -1,0 +1,885 @@
+{
+  id: "69299302373C4CBC",
+  group: "3D4E23B1100491AB",
+  order_index: 1,
+  icon: {
+    id: "integrateddynamics:crystalized_menril_chunk",
+    count: 1,
+  },
+  filename: "integrated_dynamics",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "integrateddynamics:on_the_dynamics_of_integration",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      size: 1.5,
+      id: "499CF9F39CED8899",
+      tasks: [
+        {
+          id: "5DD862CF56AF7BF9",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(integrateddynamics:menril_logs)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "018A4DD71F3796A9",
+          type: "item",
+          item: {
+            id: "integrateddynamics:on_the_dynamics_of_integration",
+            count: 1,
+          },
+        },
+        {
+          id: "10AF74A595D53CCD",
+          type: "item",
+          item: {
+            id: "integrateddynamics:menril_planks",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 0.0,
+      dependencies: [
+        "62B4A37CFDECA679",
+      ],
+      id: "72F57D77C3FB366D",
+      tasks: [
+        {
+          id: "4126D0DCE63BDB5C",
+          type: "item",
+          item: {
+            id: "integrateddynamics:crystalized_menril_chunk",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "6A13440CF769DD3E",
+          type: "item",
+          item: {
+            id: "integrateddynamics:crystalized_menril_chunk",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -1.5,
+      dependencies: [
+        "72F57D77C3FB366D",
+      ],
+      id: "4A05C037C0EE40BD",
+      tasks: [
+        {
+          id: "6B66A1F27CB47748",
+          type: "item",
+          item: {
+            id: "integrateddynamics:cable",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "0E83C7E353FF4B78",
+          type: "item",
+          item: {
+            id: "integrateddynamics:cable",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -2.5,
+      dependencies: [
+        "4A05C037C0EE40BD",
+      ],
+      id: "79C1105A84B8BF8F",
+      tasks: [
+        {
+          id: "5BEC0340898370FE",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1063C780C779608E",
+          type: "item",
+          item: {
+            id: "integrateddynamics:cable",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 0.0,
+      dependencies: [
+        "72F57D77C3FB366D",
+      ],
+      id: "450EDE68EC992A5A",
+      tasks: [
+        {
+          id: "1C045BB5FAFCF4D3",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(integratedtunnels:part_interface_energy)item(integratedtunnels:part_interface_item)item(integratedtunnels:part_interface_fluid))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "150F3B4FF9980CE6",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -2.5,
+      dependencies: [
+        "79C1105A84B8BF8F",
+      ],
+      id: "3BC94B0B922C0708",
+      tasks: [
+        {
+          id: "609FBA95C685FD1F",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable_transformer_input",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F913C9BA7C09363",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "6CFF5E70310C3732",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -2.5,
+      dependencies: [
+        "79C1105A84B8BF8F",
+      ],
+      id: "6D9FA4DF842C1010",
+      tasks: [
+        {
+          id: "712E74999429B0C7",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable_transformer_output",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "637924335C98377D",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "3CBAA9779740993D",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -1.5,
+      dependencies: [
+        "3BC94B0B922C0708",
+      ],
+      id: "73EA326304C01C3B",
+      tasks: [
+        {
+          id: "166BA23E49F6DCD6",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(integratedtunnels:part_importer_energy)item(integratedtunnels:part_importer_world_energy)item(integratedtunnels:part_importer_item)item(integratedtunnels:part_importer_world_item)item(integratedtunnels:part_importer_fluid)item(integratedtunnels:part_importer_world_fluid)item(integratedtunnels:part_importer_world_block))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "24DB616AF22B42A3",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable_transformer_input",
+            count: 1,
+          },
+        },
+        {
+          id: "1339341272B4F06F",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -1.5,
+      dependencies: [
+        "6D9FA4DF842C1010",
+      ],
+      id: "33F4A7613764A016",
+      tasks: [
+        {
+          id: "1C7C0F345759111C",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(integratedtunnels:part_exporter_energy)item(integratedtunnels:part_exporter_world_energy)item(integratedtunnels:part_exporter_item)item(integratedtunnels:part_exporter_world_item)item(integratedtunnels:part_exporter_fluid)item(integratedtunnels:part_exporter_world_fluid)item(integratedtunnels:part_exporter_world_block))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "413284683C730102",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable_transformer_output",
+            count: 1,
+          },
+        },
+        {
+          id: "52A93969E61DC345",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "integrateddynamics:textures/aspect/read/double/thaumcraft/auravis.png",
+        },
+      },
+      x: 8.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "73EA326304C01C3B",
+        "33F4A7613764A016",
+        "450EDE68EC992A5A",
+      ],
+      size: 1.25,
+      icon_scale: 1.5,
+      min_width: 250,
+      id: "65FA86357BC60573",
+      tasks: [
+        {
+          id: "22CCBBC66D509404",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "26900F1A685A8E3B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 0.0,
+      dependencies: [
+        "65FA86357BC60573",
+      ],
+      id: "4D4152032F0410D2",
+      tasks: [
+        {
+          id: "0492C88FD6C2C1E6",
+          type: "item",
+          item: {
+            id: "integrateddynamics:logic_programmer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D4D80272C8F78A2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: 0.0,
+      shape: "gear",
+      dependencies: [
+        "4D4152032F0410D2",
+      ],
+      id: "1568CBFA09827137",
+      tasks: [
+        {
+          id: "1BC958FE85153B09",
+          type: "item",
+          item: {
+            id: "integrateddynamics:portable_logic_programmer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BD952A89D38A1D2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: 1.5,
+      shape: "diamond",
+      dependencies: [
+        "65FA86357BC60573",
+      ],
+      min_width: 300,
+      id: "1B5C86AE05678420",
+      tasks: [
+        {
+          id: "2656ACB55A33D4FE",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "048EB61CD42A8828",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 1.5,
+      shape: "diamond",
+      dependencies: [
+        "65FA86357BC60573",
+      ],
+      min_width: 275,
+      id: "437F4945AFBE0825",
+      tasks: [
+        {
+          id: "4209A06A392362DB",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "646AB81EC6E7D941",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 1.5,
+      shape: "rsquare",
+      dependencies: [
+        "4D4152032F0410D2",
+      ],
+      id: "65D89991A45BC042",
+      tasks: [
+        {
+          id: "0A7BC7D8BD823DB9",
+          type: "item",
+          item: {
+            id: "integratedcrafting:part_interface_crafting",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60BFE25EBD248820",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -1.875,
+      shape: "pentagon",
+      dependencies: [
+        "4D4152032F0410D2",
+      ],
+      size: 1.25,
+      id: "60D9F04E91171D16",
+      tasks: [
+        {
+          id: "2CA5519E203FC702",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variablestore",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6836AA1F24679B61",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: 1.5,
+      dependencies: [
+        "65D89991A45BC042",
+      ],
+      id: "56BF647EA84FFF7E",
+      tasks: [
+        {
+          id: "034B95CEED32EF7A",
+          type: "item",
+          item: {
+            id: "integratedterminals:part_terminal_crafting_job",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "597E89B007537360",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 1.5,
+      dependencies: [
+        "72F57D77C3FB366D",
+      ],
+      id: "6D75CF34957ECCD9",
+      tasks: [
+        {
+          id: "6A96E9CE15682919",
+          type: "item",
+          item: {
+            id: "integrateddynamics:energy_battery",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "133303BF34CDA8D6",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 3.0,
+      dependencies: [
+        "6D75CF34957ECCD9",
+      ],
+      optional: true,
+      id: "4D62C62B523C69EC",
+      tasks: [
+        {
+          id: "4F213D9104A40A2F",
+          type: "item",
+          item: {
+            id: "integrateddynamics:coal_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7BFEAC6B0C972150",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 0.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "6ABDBE41880CFDA9",
+      tasks: [
+        {
+          id: "267CE316E1F8FA83",
+          type: "checkmark",
+        },
+        {
+          id: "238B5BA2FAE9785B",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 3.0,
+      dependencies: [
+        "6C9191DA4B1039D6",
+      ],
+      hide_until_deps_complete: true,
+      optional: true,
+      id: "232A06C9FF0EE7B2",
+      tasks: [
+        {
+          id: "578E01FF81FBBCD4",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:menril_seeds",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DE9B8EFA21DFD7A",
+          type: "item",
+          item: {
+            id: "integrateddynamics:menril_berries",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 1.5,
+      dependencies: [
+        "499CF9F39CED8899",
+      ],
+      id: "6C9191DA4B1039D6",
+      tasks: [
+        {
+          id: "4F14D12A09B1DB9A",
+          type: "item",
+          item: {
+            id: "integrateddynamics:menril_berries",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "784A72017E3B07CB",
+          type: "item",
+          item: {
+            id: "integrateddynamics:menril_berries",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 1.25,
+      dependencies: [
+        "72F57D77C3FB366D",
+      ],
+      hide_until_deps_complete: true,
+      optional: true,
+      id: "3C9539083BCC145C",
+      tasks: [
+        {
+          id: "12B13952DDA1AE17",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:menril",
+            },
+          },
+          match_components: "fuzzy",
+        },
+      ],
+      rewards: [
+        {
+          id: "1A364CB191BA7A08",
+          type: "item",
+          item: {
+            id: "integrateddynamics:crystalized_menril_chunk",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -1.25,
+      dependencies: [
+        "72F57D77C3FB366D",
+      ],
+      id: "2F37E284BB83BFF6",
+      tasks: [
+        {
+          id: "421C2FD01A943D82",
+          type: "item",
+          item: {
+            id: "integrateddynamics:wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "12E4A99946F82701",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 0.0,
+      dependencies: [
+        "499CF9F39CED8899",
+      ],
+      id: "68498ADEF9765F81",
+      tasks: [
+        {
+          id: "44129D0F27FEC1A2",
+          type: "item",
+          item: {
+            id: "integrateddynamics:squeezer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57B18A95627F2454",
+          type: "item",
+          item: {
+            id: "integrateddynamics:menril_log",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 0.0,
+      dependencies: [
+        "68498ADEF9765F81",
+      ],
+      id: "62B4A37CFDECA679",
+      tasks: [
+        {
+          id: "31BA29F5BF4A2558",
+          type: "item",
+          item: {
+            id: "integrateddynamics:drying_basin",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70E3124CBB79CF84",
+          type: "item",
+          item: {
+            id: "integrateddynamics:bucket_menril_resin",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 1.5,
+      dependencies: [
+        "6D75CF34957ECCD9",
+        "68498ADEF9765F81",
+      ],
+      optional: true,
+      id: "44DA091B53473723",
+      tasks: [
+        {
+          id: "3DB5746BB13F45CF",
+          type: "item",
+          item: {
+            id: "integrateddynamics:mechanical_squeezer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05344703532750CD",
+          type: "item",
+          item: {
+            id: "integrateddynamics:energy_battery",
+            count: 1,
+            components: {
+              "cyclopscore:energy_storage": 0,
+            },
+          },
+        },
+        {
+          id: "67BF9D99C5E9E345",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 1.5,
+      dependencies: [
+        "6D75CF34957ECCD9",
+        "62B4A37CFDECA679",
+      ],
+      optional: true,
+      id: "7413BB136EF9D6C5",
+      tasks: [
+        {
+          id: "495BA4D861D10BF9",
+          type: "item",
+          item: {
+            id: "integrateddynamics:mechanical_drying_basin",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F6A2DA3103CDA6F",
+          type: "item",
+          item: {
+            id: "integrateddynamics:energy_battery",
+            count: 1,
+            components: {
+              "cyclopscore:energy_storage": 0,
+            },
+          },
+        },
+        {
+          id: "0574B7872E158AF7",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 1.5,
+      y: -2.5,
+      width: 6.0,
+      height: 6.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/id_title.png",
+      id: "4292197923460366",
+    },
+    {
+      x: 6.0,
+      y: -3.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "integrateddynamics:item/labeller",
+      id: "639E759C49369D4B",
+    },
+    {
+      x: 12.0,
+      y: 2.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "integratedterminals:part/terminal_storage",
+      id: "4CA7954D2688EA15",
+    },
+    {
+      x: 10.5,
+      y: 2.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "integratedcrafting:part/interface_crafting",
+      id: "5DDCED44FAF58E1F",
+    },
+  ],
+}

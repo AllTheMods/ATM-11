@@ -1,0 +1,5122 @@
+{
+  id: "100C477F4E63F20A",
+  group: "2B51AC12041E3F89",
+  order_index: 0,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "create:large_cogwheel",
+    },
+  },
+  filename: "create",
+  default_quest_shape: "gear",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "create:large_cogwheel",
+        },
+      },
+      x: -6.0,
+      y: 0.0,
+      shape: "gear",
+      size: 3.0,
+      id: "57A7A5C79389A96A",
+      tasks: [
+        {
+          id: "2811A593A759354C",
+          type: "item",
+          item: {
+            id: "minecraft:andesite",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D046DD10C7BF023",
+          type: "item",
+          item: {
+            id: "minecraft:andesite",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 0.0,
+      dependencies: [
+        "57A7A5C79389A96A",
+      ],
+      size: 1.75,
+      id: "0F16498769DFB3B0",
+      tasks: [
+        {
+          id: "5D2B9139C49F5ABA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_alloy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CAE7A515FD1C1E3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_alloy",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -1.5,
+      dependencies: [
+        "0F16498769DFB3B0",
+      ],
+      size: 1.25,
+      id: "5B36DE3826F26963",
+      tasks: [
+        {
+          id: "2F89C6C2CD322B51",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1621253C23713864",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 2.5,
+      dependencies: [
+        "3AF2BC9A0E298882",
+      ],
+      size: 1.0,
+      id: "1E9B2D814F50A265",
+      tasks: [
+        {
+          id: "1A4B96C7C821174E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:encased_fan",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2017022896227E37",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:nozzle",
+            },
+          },
+        },
+        {
+          id: "1A32D78593348223",
+          type: "item",
+          item: {
+            id: "minecraft:lava_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "658ED6BA0E970F55",
+          type: "item",
+          item: {
+            id: "minecraft:soul_campfire",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -3.5,
+      dependencies: [
+        "5B36DE3826F26963",
+      ],
+      size: 1.0,
+      id: "4285510271B5223D",
+      tasks: [
+        {
+          id: "1840DB80F48921E2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:gearbox",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A020B3C91D8D54D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "406C01345716CBD5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:vertical_gearbox",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -5.5,
+      dependencies: [
+        "5B36DE3826F26963",
+      ],
+      size: 1.0,
+      id: "2BB3DB19D5EFC7E2",
+      tasks: [
+        {
+          id: "54F14BE619292D1D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:clutch",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "146727EDF1CC1DCE",
+          type: "item",
+          item: {
+            id: "minecraft:lever",
+            count: 1,
+          },
+        },
+        {
+          id: "093CDB303D4B14FA",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 12,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -4.0,
+      dependencies: [
+        "5B36DE3826F26963",
+      ],
+      size: 1.0,
+      id: "67A46ED73E488CEE",
+      tasks: [
+        {
+          id: "0CE491535E6FA50B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:gearshift",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0325B949F60B5BF6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "06328830A4E1AEEA",
+          type: "item",
+          item: {
+            id: "minecraft:lever",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -4.0,
+      dependencies: [
+        "5B36DE3826F26963",
+      ],
+      size: 1.0,
+      id: "7F8E50FA436DB4E6",
+      tasks: [
+        {
+          id: "1674E46511507301",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:encased_chain_drive",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04ABEC94A63D8ECB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:encased_chain_drive",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -5.0,
+      dependencies: [
+        "7F8E50FA436DB4E6",
+      ],
+      size: 1.0,
+      id: "54EC1C7FC1DA9107",
+      tasks: [
+        {
+          id: "115F81D0A661F71F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:adjustable_chain_gearshift",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "355762A8CDB2C760",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:adjustable_chain_gearshift",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "1137CF0E7AEC1292",
+          type: "item",
+          item: {
+            id: "minecraft:repeater",
+            count: 1,
+          },
+        },
+        {
+          id: "18C7648654035F2D",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 0.0,
+      dependencies: [
+        "3AF2BC9A0E298882",
+      ],
+      size: 1.0,
+      id: "2D41B04C75FA02BC",
+      tasks: [
+        {
+          id: "52136CB29F02E923",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_press",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "610838401D4F678F",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 9,
+        },
+        {
+          id: "09E768487864E792",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 0.5,
+      dependencies: [
+        "3AF2BC9A0E298882",
+      ],
+      size: 1.0,
+      id: "5DC892BA79EB52EC",
+      tasks: [
+        {
+          id: "057EDA1FF37AE35E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_mixer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "038091F0375F6FE0",
+          type: "item",
+          item: {
+            id: "minecraft:glowstone_dust",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "48D6C66433669F3A",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "36C6F7F0AB2D307F",
+          type: "item",
+          item: {
+            id: "minecraft:nether_wart",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -2.0,
+      dependencies: [
+        "483892F0A0F75B97",
+        "13AEBC331F29BC3D",
+      ],
+      id: "75CBB5BD8C1DFEA1",
+      tasks: [
+        {
+          id: "56DBF4356117F26A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:basin",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06C90B0C9C145554",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:basin",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 2.5,
+      size: 1.0,
+      id: "1B182A30604655E2",
+      tasks: [
+        {
+          id: "50FED4EED98A8648",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:blaze_burner",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C09478CFD735F25",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:empty_blaze_burner",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "136AD9A388A452B6",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 5.0,
+      dependencies: [
+        "47897D827C50629D",
+        "69EE22CB4FF1E591",
+      ],
+      id: "45EC31812FB9934D",
+      tasks: [
+        {
+          id: "0BD1BA7949BB5855",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(create:mechanical_piston)item(create:sticky_mechanical_piston))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CC36E16938C2F45",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:piston_extension_pole",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "1334697C86460E28",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -0.5,
+      dependencies: [
+        "3C892B33758B7BA6",
+        "3AF2BC9A0E298882",
+      ],
+      id: "29917E6196649F5D",
+      tasks: [
+        {
+          id: "6A5BBAA13F1730F2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:speedometer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6062E984D4970F79",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -1.5,
+      dependencies: [
+        "3C892B33758B7BA6",
+        "3AF2BC9A0E298882",
+      ],
+      id: "48BE7DAC5082044D",
+      tasks: [
+        {
+          id: "10CB6FCDDD3E38D4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:stressometer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52CD679063F42DC6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: 5.0,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      id: "09936F8FCEA72C5C",
+      tasks: [
+        {
+          id: "15BA4109324B4A44",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cart_assembler",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F5ED102AA9D1403",
+          type: "item",
+          item: {
+            id: "minecraft:minecart",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "7CA9D425515CDD7F",
+          type: "item",
+          item: {
+            id: "minecraft:lever",
+            count: 1,
+          },
+        },
+        {
+          id: "1D523F00D6606AEB",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -11.0,
+      y: 4.0,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      id: "51EA6B1452883AB2",
+      tasks: [
+        {
+          id: "4A80AC1DE4002191",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:linear_chassis",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "564DDD7BC9A1799D",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -10.0,
+      y: 4.0,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      id: "459BA85E48B343AE",
+      tasks: [
+        {
+          id: "3598B8EDD5834F92",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:radial_chassis",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A498EE947EBB402",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:radial_chassis",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "7740823BEEE24274",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.75,
+      y: -5.25,
+      dependencies: [
+        "6893D537716AA748",
+      ],
+      size: 1.25,
+      id: "76CBFA38D021AC95",
+      tasks: [
+        {
+          id: "05ABADBC52C4AE83",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:windmill_bearing",
+            },
+          },
+        },
+        {
+          id: "457DF1E07998FF57",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:white_sail",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54E00385EDA3738D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:white_sail",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "4CD6E8BE32A9576B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:super_glue",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -10.75,
+      y: 6.25,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      size: 1.25,
+      id: "3029E1E133B91ED8",
+      tasks: [
+        {
+          id: "072131C19C185896",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_drill",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10C1AABCE521AAE0",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ore",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "391CC35CDB05A3E9",
+          type: "item",
+          item: {
+            id: "minecraft:stone",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -10.75,
+      y: 7.5,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      size: 1.25,
+      id: "72DCE154E1714890",
+      tasks: [
+        {
+          id: "36C1D75275CE2AAB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_saw",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FD0BAEBBF485E3A",
+          type: "item",
+          item: {
+            id: "minecraft:oak_sapling",
+            count: 1,
+          },
+          count: 6,
+        },
+        {
+          id: "422A0D0D0F2F1BBD",
+          type: "item",
+          item: {
+            id: "minecraft:stone",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "360E636F541EEF8F",
+          type: "item",
+          item: {
+            id: "minecraft:deepslate",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 1.5,
+      dependencies: [
+        "3AF2BC9A0E298882",
+      ],
+      size: 1.0,
+      id: "3314FBC4FEAE1D08",
+      tasks: [
+        {
+          id: "79D2F12337D1F637",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:deployer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70C8068C74B1E455",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_alloy",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "5137BD4686A299BF",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "19E74CBA0D778614",
+          type: "item",
+          item: {
+            id: "alltheores:brass_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "0F8CF197299F671A",
+          type: "item",
+          item: {
+            id: "minecraft:stripped_oak_log",
+            count: 1,
+          },
+          count: 9,
+        },
+      ],
+    },
+    {
+      x: -12.0,
+      y: 7.5,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      size: 1.25,
+      id: "4C31649D721F76B5",
+      tasks: [
+        {
+          id: "1357FF84B9B133C4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_harvester",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "378982C7D723B979",
+          type: "item",
+          item: {
+            id: "minecraft:wheat_seeds",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "3F23215EF76C416F",
+          type: "item",
+          item: {
+            id: "minecraft:carrot",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "7CD9930DFBE1D662",
+          type: "item",
+          item: {
+            id: "minecraft:potato",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -12.0,
+      y: 6.25,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      size: 1.25,
+      id: "0759CA52EECF3B49",
+      tasks: [
+        {
+          id: "7B9B459AAB9F6483",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_plough",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41A117768C073535",
+          type: "item",
+          item: {
+            id: "minecraft:dirt",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "2B72AF25BC0235BE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "supplementaries:bamboo_spikes",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 1.5,
+      dependencies: [
+        "7242F591DA474B37",
+      ],
+      size: 1.25,
+      id: "3F663416E824720C",
+      tasks: [
+        {
+          id: "7FE62F264B4FA5DE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:copper_casing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3EABDEEFFF0E5136",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:copper_casing",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 4.0,
+      dependencies: [
+        "1712C3B3CF158843",
+        "3C99017FD32B6DE2",
+      ],
+      size: 1.0,
+      id: "3F2C1A81C17D2D67",
+      tasks: [
+        {
+          id: "3EC06DE78E520CC9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_arm",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5254A6CF0D4B65C2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_arm",
+            },
+          },
+        },
+        {
+          id: "35E82D80BF6DAC2C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:depot",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -3.5,
+      dependencies: [
+        "13AEBC331F29BC3D",
+      ],
+      id: "47A6769B6BF1A46D",
+      tasks: [
+        {
+          id: "5CB1191F8F7BBAA4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_funnel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F33218151FDCD42",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_funnel",
+            },
+          },
+        },
+        {
+          id: "0C8F194085619E97",
+          type: "item",
+          item: {
+            id: "minecraft:chest",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -3.5,
+      dependencies: [
+        "13AEBC331F29BC3D",
+      ],
+      id: "495B0CC178B4CFA9",
+      tasks: [
+        {
+          id: "1C5B4D14826937BB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:brass_funnel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "331D3649E985F102",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:brass_funnel",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "3A97A0C4344DAB58",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:belt_connector",
+            },
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -4.5,
+      dependencies: [
+        "13AEBC331F29BC3D",
+      ],
+      id: "7C8CDD259495A31A",
+      tasks: [
+        {
+          id: "07162DA2FD7B0E05",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_tunnel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D1BD7641AD9E475",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_tunnel",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "2E397D10A0E0B0E1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:belt_connector",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -4.5,
+      dependencies: [
+        "13AEBC331F29BC3D",
+      ],
+      id: "78656C89EEE80DB5",
+      tasks: [
+        {
+          id: "688E14A6938EBEF7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:brass_tunnel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A2F60DAA68DED70",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:brass_tunnel",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "6072B811856D9FD2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:belt_connector",
+            },
+          },
+          count: 9,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -4.5,
+      dependencies: [
+        "13AEBC331F29BC3D",
+      ],
+      id: "3D2A03EB2B91E9C1",
+      tasks: [
+        {
+          id: "105F8859D59964C4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:chute",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70761789AFFA17D6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:chute",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: 1.5,
+      shape: "circle",
+      dependencies: [
+        "1C2309DB4B890E71",
+      ],
+      size: 0.8,
+      id: "4C77ABCD41383F32",
+      tasks: [
+        {
+          id: "2E9A4E9BFFC10819",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:blaze_cake",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F9F433502164B14",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:blaze_cake",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 3.0,
+      dependencies: [
+        "3C99017FD32B6DE2",
+      ],
+      size: 1.0,
+      id: "4194397DFD0199C2",
+      tasks: [
+        {
+          id: "65C6E83AF17405E0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_crafter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "354DD4DBB3D3B370",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_crafter",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 6.0,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      id: "75B14A09FE39EDDA",
+      tasks: [
+        {
+          id: "7DA78C3A582368E2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:gantry_carriage",
+            },
+          },
+        },
+        {
+          id: "04117B84F76D9424",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:gantry_shaft",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4547D728AECB2BAD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:gantry_shaft",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "4A7A51A04BA79BD0",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -5.5,
+      dependencies: [
+        "3D2A03EB2B91E9C1",
+      ],
+      id: "7EEEEDD5FF31ACD3",
+      tasks: [
+        {
+          id: "37EE09651ED58F6F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:smart_chute",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F381F3BC6CCB933",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:chute",
+            },
+          },
+          count: 7,
+        },
+        {
+          id: "4E0886F4C1D3AEBE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:belt_connector",
+            },
+          },
+          count: 7,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 4.5,
+      dependencies: [
+        "57A7A5C79389A96A",
+      ],
+      id: "0CF69DBA9573A7B3",
+      tasks: [
+        {
+          id: "0FB1E9BD14FE8EF8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:schematic_table",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 4.5,
+      dependencies: [
+        "0CF69DBA9573A7B3",
+      ],
+      id: "7D67058592EE5958",
+      tasks: [
+        {
+          id: "5D989C876E9B8AA5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:schematicannon",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 6.5,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      id: "24E658BA47367A44",
+      tasks: [
+        {
+          id: "0674C07C7DE332A9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:rope_pulley",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F39434CC2AD4F54",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_casing",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "074EB25B22B1EB95",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 1.0,
+      dependencies: [
+        "3F663416E824720C",
+      ],
+      id: "1C2309DB4B890E71",
+      tasks: [
+        {
+          id: "6772D04457414991",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:spout",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B998E1BCA2C205B",
+          type: "item",
+          item: {
+            id: "minecraft:bucket",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "557592F3F7E48DEE",
+          type: "item",
+          item: {
+            id: "minecraft:glass_bottle",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "2DA79B0EF076EF10",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:blaze_cake_base",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 2.0,
+      dependencies: [
+        "3F663416E824720C",
+      ],
+      id: "77382D4114E901CB",
+      tasks: [
+        {
+          id: "739701B00C0F8A7B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:hose_pulley",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01D0FDE95459A29E",
+          type: "item",
+          item: {
+            id: "minecraft:water_bucket",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "0AB8C249639CF4A8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_pump",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 5.5,
+      dependencies: [
+        "0F16498769DFB3B0",
+      ],
+      id: "47897D827C50629D",
+      tasks: [
+        {
+          id: "473DA14538E1B94C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:piston_extension_pole",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DD3B4DCCCD14B41",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:piston_extension_pole",
+            },
+          },
+        },
+        {
+          id: "5CF1681CDA23B6FA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_casing",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "069CC8FFADEBAEB1",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 2.0,
+      dependencies: [
+        "3F663416E824720C",
+        "69EE22CB4FF1E591",
+      ],
+      id: "71B1B53A03A16296",
+      tasks: [
+        {
+          id: "339D26EDFBB54047",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:portable_fluid_interface",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "583659BEC64DAF4B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:portable_fluid_interface",
+            },
+          },
+        },
+        {
+          id: "1C70FDA5F03C7458",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_tank",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -3.0,
+      dependencies: [
+        "57A7A5C79389A96A",
+      ],
+      size: 1.75,
+      id: "13AEBC331F29BC3D",
+      tasks: [
+        {
+          id: "4D2A907287515990",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:belt_connector",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47D9D2803A87B983",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:belt_connector",
+            },
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -2.5,
+      dependencies: [
+        "5B36DE3826F26963",
+      ],
+      id: "6893D537716AA748",
+      tasks: [
+        {
+          id: "727CBE88631AC9E4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(create:cogwheel)item(create:large_cogwheel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "648140111985DBAF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cogwheel",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "7D562FF19D89768C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -1.5,
+      dependencies: [
+        "6893D537716AA748",
+      ],
+      size: 1.0,
+      id: "3C892B33758B7BA6",
+      tasks: [
+        {
+          id: "29DE74DC576F8E8E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:large_cogwheel",
+            },
+          },
+        },
+        {
+          id: "7AEAA5C19B8E99FE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cogwheel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72B53965D4ACC7A7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:large_cogwheel",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "79BD088985DE3953",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cogwheel",
+            },
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 1.5,
+      dependencies: [
+        "0F16498769DFB3B0",
+      ],
+      size: 1.25,
+      id: "3AF2BC9A0E298882",
+      tasks: [
+        {
+          id: "4DB5C078BAAE3DA8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_casing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3158A4A10E35CDD6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_casing",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -5.25,
+      dependencies: [
+        "6893D537716AA748",
+      ],
+      size: 1.25,
+      id: "5DD6631F5996BA71",
+      tasks: [
+        {
+          id: "6F72D8976359CFF9",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(create:water_wheel)item(create:large_water_wheel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F09D6AB5F77AC20",
+          type: "item",
+          item: {
+            id: "minecraft:water_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "0B184B0A4EBA68A2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:water_wheel",
+            },
+          },
+        },
+        {
+          id: "1E588D491E16F002",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:large_water_wheel",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 1.75,
+      y: -4.0,
+      dependencies: [
+        "6893D537716AA748",
+      ],
+      size: 1.25,
+      id: "3697AAF8F281B247",
+      tasks: [
+        {
+          id: "2EA23383998757C6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:steam_engine",
+            },
+          },
+        },
+        {
+          id: "4217AB92313F0F89",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_tank",
+            },
+          },
+        },
+        {
+          id: "192706A02A293A1C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69979E0C6222937D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_tank",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "1D66E3A7C2EC0BB6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_pump",
+            },
+          },
+        },
+        {
+          id: "4785A605A7C28F1E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_pipe",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -4.0,
+      dependencies: [
+        "6893D537716AA748",
+      ],
+      size: 1.25,
+      id: "72C7698072BF0F1D",
+      tasks: [
+        {
+          id: "19BDD977AAB17921",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:hand_crank",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CEB7FFA15C1FB45",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cogwheel",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -4.5,
+      dependencies: [
+        "13AEBC331F29BC3D",
+      ],
+      id: "2AEA51044AD44BE8",
+      tasks: [
+        {
+          id: "0ED3D3C01401174F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:depot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2292B7D583E7691B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:depot",
+            },
+          },
+        },
+        {
+          id: "240D93D7EB1F3F4C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:belt_connector",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -5.5,
+      dependencies: [
+        "2AEA51044AD44BE8",
+      ],
+      id: "476C7317510198D9",
+      tasks: [
+        {
+          id: "285D52D05D2FAB67",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:weighted_ejector",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B0BC41FA736CA69",
+          type: "item",
+          item: {
+            id: "minecraft:snowball",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "19B2A9D7A170252A",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "08B7CE21827BBE7A",
+          type: "item",
+          item: {
+            id: "minecraft:fire_charge",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -1.5,
+      dependencies: [
+        "7242F591DA474B37",
+      ],
+      size: 1.25,
+      id: "483892F0A0F75B97",
+      tasks: [
+        {
+          id: "6A8E6B5193CFE2F8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_pipe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2ACCE5174D530B92",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_pipe",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 0.0,
+      dependencies: [
+        "57A7A5C79389A96A",
+      ],
+      size: 1.75,
+      id: "7242F591DA474B37",
+      tasks: [
+        {
+          id: "4555EA054687BD5F",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07B7AFADD4C305C1",
+          type: "item",
+          item: {
+            id: "minecraft:copper_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 3.0,
+      dependencies: [
+        "3AF2BC9A0E298882",
+      ],
+      size: 1.0,
+      id: "3F02EF19112D23BE",
+      tasks: [
+        {
+          id: "16290ED370A07DB7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:crushing_wheel",
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "78B4E4CF151B0D2A",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_ore",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "5D84ECA438010CD0",
+          type: "item",
+          item: {
+            id: "minecraft:iron_horse_armor",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 1.5,
+      dependencies: [
+        "3AF2BC9A0E298882",
+      ],
+      size: 1.0,
+      id: "64FF7118E29931C0",
+      tasks: [
+        {
+          id: "3FB9C700C44055D8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:millstone",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0A1AFE2F65D22FAB",
+          type: "item",
+          item: {
+            id: "minecraft:cornflower",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "7E82072D19474A5D",
+          type: "item",
+          item: {
+            id: "minecraft:poppy",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "395FDD7718E22427",
+          type: "item",
+          item: {
+            id: "minecraft:dandelion",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "20967A9FA654B338",
+          type: "item",
+          item: {
+            id: "minecraft:netherrack",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -2.5,
+      dependencies: [
+        "483892F0A0F75B97",
+      ],
+      id: "133CA315A1443A49",
+      tasks: [
+        {
+          id: "6F30903EC2869067",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_pump",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FD28408692EF09D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_pipe",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -5.25,
+      y: 2.5,
+      dependencies: [
+        "57A7A5C79389A96A",
+      ],
+      size: 1.25,
+      id: "127F9EAC7C305BF5",
+      tasks: [
+        {
+          id: "071EEBBD3156659F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:wrench",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A60BC64C84F1B7B",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "0F9ABDDEE7EDDD93",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cogwheel",
+            },
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -6.75,
+      y: 2.5,
+      dependencies: [
+        "57A7A5C79389A96A",
+      ],
+      size: 1.25,
+      id: "38CB5044AB3F859B",
+      tasks: [
+        {
+          id: "555663447A444CEB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:super_glue",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "563B5BD80D96CE1F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:super_glue",
+            },
+          },
+        },
+        {
+          id: "143DC750488B65E8",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 3.5,
+      dependencies: [
+        "57A7A5C79389A96A",
+      ],
+      size: 1.25,
+      id: "72537968598AB884",
+      tasks: [
+        {
+          id: "07A2AF62AF5D458D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:goggles",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0DE8CB9ADFB8D16C",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "0908F47FF9EC24E7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:speedometer",
+            },
+          },
+        },
+        {
+          id: "1D513D1A0443F561",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:stressometer",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 4.0,
+      hide_dependent_lines: true,
+      dependencies: [
+        "3AF2BC9A0E298882",
+        "38CB5044AB3F859B",
+      ],
+      size: 1.75,
+      id: "69EE22CB4FF1E591",
+      tasks: [
+        {
+          id: "4CA1C8CE2BDB5E06",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:super_glue",
+            },
+          },
+        },
+        {
+          id: "26E43D08FEE0F980",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_casing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64072254135767F4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_casing",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "2E06F148D316A400",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cogwheel",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -2.0,
+      dependencies: [
+        "483892F0A0F75B97",
+      ],
+      id: "087F6C09CB5B2D1A",
+      tasks: [
+        {
+          id: "57EEEFD7BCA8A133",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:smart_fluid_pipe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "583613FAC2726BB3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_tank",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -1.0,
+      dependencies: [
+        "483892F0A0F75B97",
+      ],
+      id: "50DBB87E53017E60",
+      tasks: [
+        {
+          id: "535B15BCA9532614",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_valve",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54BED7D1F85E2F7D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:copper_valve_handle",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 2.0,
+      dependencies: [
+        "5DC892BA79EB52EC",
+        "1B182A30604655E2",
+      ],
+      size: 1.0,
+      id: "3C99017FD32B6DE2",
+      tasks: [
+        {
+          id: "44C61BA9848C4FFC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:brass_casing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "783F3F33B293858B",
+          type: "item",
+          item: {
+            id: "alltheores:brass_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 3.5,
+      dependencies: [
+        "3314FBC4FEAE1D08",
+      ],
+      size: 1.0,
+      id: "1712C3B3CF158843",
+      tasks: [
+        {
+          id: "296486F2E32D8B40",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:precision_mechanism",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "528F5D56147835B2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:precision_mechanism",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -5.0,
+      dependencies: [
+        "67A46ED73E488CEE",
+      ],
+      size: 1.0,
+      id: "1BA11428DF7541AD",
+      tasks: [
+        {
+          id: "49375288DCE07FCD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:sequenced_gearshift",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "541074BAC656553A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:brass_casing",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "0F716D1D8964AD3F",
+          type: "item",
+          item: {
+            id: "minecraft:lever",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 5.0,
+      dependencies: [
+        "3C99017FD32B6DE2",
+      ],
+      size: 1.25,
+      id: "4EE10B8E194F5CA9",
+      tasks: [
+        {
+          id: "6E05725C7CE526E4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:railway_casing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FA69107DDFCE2EF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:railway_casing",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -4.5,
+      dependencies: [
+        "5B36DE3826F26963",
+      ],
+      size: 1.0,
+      id: "09E34E1F9C751458",
+      tasks: [
+        {
+          id: "4F6AD36CAEB5CB61",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:vertical_gearbox",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74DC935BC3AA1BD3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "3D245BA66A17BA92",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:gearbox",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -10.0,
+      y: 0.0,
+      dependencies: [
+        "7242F591DA474B37",
+      ],
+      id: "3A4C62865C7CC862",
+      tasks: [
+        {
+          id: "24D4BB049FB1FCFE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_tank",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1AFC47050A4F0D74",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_tank",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 2.5,
+      dependencies: [
+        "3F663416E824720C",
+      ],
+      id: "39A7619B4C5592BE",
+      tasks: [
+        {
+          id: "59F4EFCCDB445D31",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:item_drain",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "727528AFAC25F78B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_bucket",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "6C3E1E23C4D1A9E1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:fluid_tank",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 5.0,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      id: "078C5B50CDC174CB",
+      tasks: [
+        {
+          id: "59AA248E950BBD8F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_bearing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E9DE54630FF3313",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:mechanical_bearing",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "635ABD7527316E45",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:shaft",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "173BBF6F4698B28B",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 7.0,
+      dependencies: [
+        "69EE22CB4FF1E591",
+      ],
+      id: "18914FDF9CF9EEA8",
+      tasks: [
+        {
+          id: "01A42217C280329E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:clockwork_bearing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "420799927625D4D8",
+          type: "item",
+          item: {
+            id: "minecraft:clock",
+            count: 1,
+          },
+        },
+        {
+          id: "3624F09EB0786ECD",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 5.5,
+      dependencies: [
+        "3314FBC4FEAE1D08",
+      ],
+      id: "5979DE0E2BA3DAE5",
+      tasks: [
+        {
+          id: "051D4768F84DC286",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:track",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0DCC3B5FD11A6134",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:track",
+            },
+          },
+          count: 32,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 5.5,
+      dependencies: [
+        "4EE10B8E194F5CA9",
+        "5979DE0E2BA3DAE5",
+      ],
+      id: "77BE3D9D274F72F1",
+      tasks: [
+        {
+          id: "3DB476E2DADD7187",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:track_station",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46FE91D2334886DB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:track_station",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "71BDFD8DD9A3E18D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:track",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 7.0,
+      dependencies: [
+        "5979DE0E2BA3DAE5",
+        "77BE3D9D274F72F1",
+      ],
+      size: 1.5,
+      id: "3FBCBBEBB78B83FC",
+      tasks: [
+        {
+          id: "2B3FD4FFEE151284",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:controls",
+            },
+          },
+        },
+        {
+          id: "0763F3E94EEAA348",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:super_glue",
+            },
+          },
+        },
+        {
+          id: "1711FECCA86EE974",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:railway_casing",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40C2C8C5B9760FF1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:railway_casing",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "22E5C85C7775B1DB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:controls",
+            },
+          },
+        },
+        {
+          id: "28D5F07B6A35B022",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:flywheel",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 8.0,
+      dependencies: [
+        "3FBCBBEBB78B83FC",
+      ],
+      id: "30AC43222FF9B18A",
+      tasks: [
+        {
+          id: "6A7CA672A7CD8588",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:track_signal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FF513C3B3D3FF22",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:nixie_tube",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "71D6356D4EEE383D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:red_seat",
+            },
+          },
+        },
+        {
+          id: "63738842A3A0257D",
+          type: "item",
+          item: {
+            id: "minecraft:lead",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 8.0,
+      dependencies: [
+        "3FBCBBEBB78B83FC",
+      ],
+      id: "5134C81D96C55375",
+      tasks: [
+        {
+          id: "4D074A7242534E62",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:track_observer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "353282D45EE9273B",
+          type: "item",
+          item: {
+            id: "minecraft:repeater",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "20E571541F18612D",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 12,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 8.5,
+      dependencies: [
+        "3FBCBBEBB78B83FC",
+      ],
+      id: "2D96965317D3CFEC",
+      tasks: [
+        {
+          id: "12A80F0E076ABA12",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:schedule",
+            },
+          },
+        },
+        {
+          id: "21C5C92ABD91D795",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(create:seats))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C10DE58B9365242",
+          type: "item",
+          item: {
+            id: "minecraft:lead",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "78F2FDB30706AAA9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:schedule",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 7.0,
+      dependencies: [
+        "3FBCBBEBB78B83FC",
+      ],
+      id: "7F0F7111552F95A9",
+      tasks: [
+        {
+          id: "6D655D196188B795",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:controls",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03C8EA7C3AD5F831",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:track_station",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 7.0,
+      dependencies: [
+        "3FBCBBEBB78B83FC",
+      ],
+      id: "12274935C3D20C74",
+      tasks: [
+        {
+          id: "0E7E55664641FDB0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:super_glue",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "65E6594B42245128",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:train_door",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "54DCBF76E47335D3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:train_trapdoor",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "23ADF464AA864FC5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:flywheel",
+            },
+          },
+        },
+        {
+          id: "73DDE4C590D52937",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cogwheel",
+            },
+          },
+          count: 8,
+        },
+        {
+          id: "7C63D6E5CF6484F6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:large_cogwheel",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -6.0,
+      dependencies: [
+        "13AEBC331F29BC3D",
+      ],
+      size: 1.25,
+      id: "2C2958E38293717E",
+      tasks: [
+        {
+          id: "224EF2C8FDC1A36B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cardboard",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "75789E7CD771A056",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cardboard",
+            },
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -8.0,
+      dependencies: [
+        "16B0C1F7B951C19D",
+      ],
+      id: "737DC37E4310090C",
+      tasks: [
+        {
+          id: "34FA8A7CBB0916FA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:chain_conveyor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "551C3DEAAA5F1596",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:chain_conveyor",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "1C2665418F42659E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "minecraft:chain",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -8.0,
+      dependencies: [
+        "737DC37E4310090C",
+      ],
+      id: "3B3B38B17CF5D81C",
+      tasks: [
+        {
+          id: "6D64992492B29865",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:package_frogport",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72B587616874EB16",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:package_frogport",
+            },
+          },
+        },
+        {
+          id: "76A45B958A7AB271",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cardboard_package_10x8",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -7.0,
+      dependencies: [
+        "16B0C1F7B951C19D",
+      ],
+      id: "57A18F2E51952EB8",
+      tasks: [
+        {
+          id: "194776374F591632",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(create:postboxes))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37724FCE10D31F94",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:railway_casing",
+            },
+          },
+          count: 3,
+        },
+        {
+          id: "1F464A41D499FCBE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:track_station",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -8.0,
+      dependencies: [
+        "16B0C1F7B951C19D",
+      ],
+      id: "6353A39CBEE599A0",
+      tasks: [
+        {
+          id: "093E2488096FEF3B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:stock_link",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BB660C3F484EF5E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:stock_link",
+            },
+          },
+        },
+        {
+          id: "1198E0EB9BFF9955",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:packager",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "4B2BDD4F1E4882AE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:item_vault",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -8.0,
+      dependencies: [
+        "6353A39CBEE599A0",
+      ],
+      id: "754B8F1FBCD983C5",
+      tasks: [
+        {
+          id: "198175B0102703E4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:stock_ticker",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E1B1EB030102CBA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:stock_ticker",
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "2D35E59A0BA45C56",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:item_vault",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "7DE039CBA4528518",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:brass_funnel",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -7.5,
+      dependencies: [
+        "2C2958E38293717E",
+      ],
+      id: "672F9CF5B0E626F1",
+      tasks: [
+        {
+          id: "7C863DD10448129C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:packager",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68E92E63B3552943",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:packager",
+            },
+          },
+        },
+        {
+          id: "060AC68E6549CEEF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:repackager",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -8.5,
+      dependencies: [
+        "672F9CF5B0E626F1",
+      ],
+      size: 1.25,
+      id: "16B0C1F7B951C19D",
+      tasks: [
+        {
+          id: "3AB6845819FF686F",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(create:packages))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E26E2BE66E19CA9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:cardboard_package_10x12",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -4.5,
+      dependencies: [
+        "13AEBC331F29BC3D",
+      ],
+      id: "0A4962728C98DAD9",
+      tasks: [
+        {
+          id: "6A24CA805665DA18",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:item_vault",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D1CEF0A7D6B2C0F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:item_vault",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -7.0,
+      dependencies: [
+        "6353A39CBEE599A0",
+        "754B8F1FBCD983C5",
+      ],
+      id: "64860340A5BEBAB9",
+      tasks: [
+        {
+          id: "45140DDB8CE40AC4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(create:table_cloths))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F6AB3B781D9B508",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:andesite_scaffolding",
+            },
+          },
+        },
+        {
+          id: "287EA1FCC5049E21",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "create:stock_ticker",
+            },
+          },
+        },
+        {
+          id: "0F58A1820E3BA035",
+          type: "item",
+          item: {
+            id: "minecraft:lead",
+            count: 1,
+          },
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: -4.5,
+      y: 7.5,
+      width: 6.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_title.png",
+      order: 1,
+      id: "6F9C90E86694967E",
+    },
+    {
+      x: -0.5,
+      y: -7.0,
+      width: 5.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_title_power.png",
+      order: 1,
+      id: "57CE22C30525A0D6",
+    },
+    {
+      x: -3.0,
+      y: 4.5,
+      width: 4.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/create/create_title_machines.png",
+      order: 1,
+      id: "7B7C84423ACA4D06",
+    },
+    {
+      x: -6.0,
+      y: 5.5,
+      width: 2.5,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_title_tool.png",
+      order: 1,
+      id: "24FB39B0C7E8C70D",
+    },
+    {
+      x: -13.0,
+      y: 6.0,
+      width: 5.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/create/create_title_contrapt.png",
+      order: 1,
+      id: "79440DFBDB75E6EF",
+    },
+    {
+      x: -12.5,
+      y: 0.0,
+      width: 6.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/create/create_title_fluid.png",
+      order: 1,
+      id: "245916F5A613F0C2",
+    },
+    {
+      x: -6.0,
+      y: -9.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_title_item.png",
+      order: 1,
+      id: "426E26BF35AFD021",
+    },
+    {
+      x: -10.5,
+      y: 8.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_title_contrapt.png",
+      order: 1,
+      id: "7F07BCD94E95E94C",
+    },
+    {
+      x: 1.5,
+      y: 1.5,
+      width: 4.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/create/create_title_machines.png",
+      order: 1,
+      id: "117483B7A0A9BE3E",
+    },
+    {
+      x: 3.0,
+      y: -2.5,
+      width: 5.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_title_power.png",
+      order: 1,
+      id: "3E40E018A0D34AE8",
+    },
+    {
+      x: -6.0,
+      y: 0.0,
+      width: 4.0,
+      height: 4.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "200AFD416485004C",
+    },
+    {
+      x: -3.5,
+      y: 0.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "3ECDCC84AF2A8701",
+    },
+    {
+      x: -2.0,
+      y: -1.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "5F8519198523AC9F",
+    },
+    {
+      x: -2.0,
+      y: 1.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "7F93739B28A18B8C",
+    },
+    {
+      x: -8.5,
+      y: 0.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "6A8E10EC5AAB8F2C",
+    },
+    {
+      x: -9.5,
+      y: 1.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "0F839FC27AE501F1",
+    },
+    {
+      x: -9.5,
+      y: -1.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "116D0FF6B265B8DE",
+    },
+    {
+      x: -8.5,
+      y: 4.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "231D5FE8590465B4",
+    },
+    {
+      x: -6.75,
+      y: 2.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "0F23895B18244CA1",
+    },
+    {
+      x: -5.25,
+      y: 2.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "46F23871AE4C6729",
+    },
+    {
+      x: -6.0,
+      y: 3.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "4939E77E6491C738",
+    },
+    {
+      x: -10.75,
+      y: 7.5,
+      width: 1.75,
+      height: 1.75,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "2D60669F0E32242F",
+    },
+    {
+      x: -12.0,
+      y: 6.25,
+      width: 1.75,
+      height: 1.75,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "128862067E054E63",
+    },
+    {
+      x: -10.75,
+      y: 6.25,
+      width: 1.75,
+      height: 1.75,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "7C675BE6FD92E357",
+    },
+    {
+      x: -12.0,
+      y: 7.5,
+      width: 1.75,
+      height: 1.75,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "127C88C4AC10A9FF",
+    },
+    {
+      x: 1.75,
+      y: -4.0,
+      width: 1.75,
+      height: 1.75,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "6B33FCF5F2C6DC61",
+    },
+    {
+      x: 0.5,
+      y: -5.25,
+      width: 1.75,
+      height: 1.75,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "4FE9236E5C3B03AC",
+    },
+    {
+      x: 0.5,
+      y: -4.0,
+      width: 1.75,
+      height: 1.75,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "3E4714AD2EEA05B7",
+    },
+    {
+      x: 1.75,
+      y: -5.25,
+      width: 1.75,
+      height: 1.75,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "1B6F1F42D9325019",
+    },
+    {
+      x: -6.0,
+      y: -3.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "278545508F2CA78D",
+    },
+    {
+      x: -5.5,
+      y: 4.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "7F7D4E48D1B59926",
+    },
+    {
+      x: -6.5,
+      y: 4.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "0F809E0D2AE00590",
+    },
+    {
+      x: -2.0,
+      y: 3.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "21327EABEECABC82",
+    },
+    {
+      x: -3.0,
+      y: 2.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "311CED69CCD8E5B2",
+    },
+    {
+      x: -3.5,
+      y: 1.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "75F00720BD2A3C20",
+    },
+    {
+      x: -1.0,
+      y: 2.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "3B653F8B921037B6",
+    },
+    {
+      x: -0.5,
+      y: 1.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "0C2228B8F44F77BD",
+    },
+    {
+      x: -1.0,
+      y: 0.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "60E18431F08B297A",
+    },
+    {
+      x: -2.0,
+      y: 0.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "13D6DA86D48B5587",
+    },
+    {
+      x: -1.0,
+      y: 3.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "2FD0E794E2A34BF9",
+    },
+    {
+      x: 0.0,
+      y: 4.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "3289BB14D5926878",
+    },
+    {
+      x: 1.0,
+      y: 3.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "618EB01938276D5A",
+    },
+    {
+      x: 0.5,
+      y: 2.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "634BBE77259CCBE9",
+    },
+    {
+      x: -1.0,
+      y: -2.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "73BA24D8C158D510",
+    },
+    {
+      x: 0.0,
+      y: -1.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "702F227086C487E3",
+    },
+    {
+      x: 0.0,
+      y: -0.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "5325DD76AFC93EEC",
+    },
+    {
+      x: 1.0,
+      y: -1.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "39994CE7C8CEDD0A",
+    },
+    {
+      x: -2.0,
+      y: -3.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "41F08707FF411518",
+    },
+    {
+      x: -2.0,
+      y: -4.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "2F0235B82389FD49",
+    },
+    {
+      x: -3.0,
+      y: -5.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "2E0C8495073FD8CB",
+    },
+    {
+      x: -3.0,
+      y: -4.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "5A4C1DF7A3CAC8F2",
+    },
+    {
+      x: -2.0,
+      y: -5.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "01DABD5405FA15F2",
+    },
+    {
+      x: -1.0,
+      y: -4.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "3A950EC467894C79",
+    },
+    {
+      x: -1.0,
+      y: -5.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "5BCD1C9F7A4FA295",
+    },
+    {
+      x: -4.0,
+      y: -4.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "6F2AFC4A48DC14F5",
+    },
+    {
+      x: -4.5,
+      y: -3.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "6D31D96ABDB0071D",
+    },
+    {
+      x: -4.5,
+      y: -5.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "27FB3F2EDBE3B78F",
+    },
+    {
+      x: -5.0,
+      y: -4.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "32A4127A6F3E8C24",
+    },
+    {
+      x: -6.0,
+      y: -4.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "4472B362F9040D69",
+    },
+    {
+      x: -8.0,
+      y: -4.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "12A2DFAA798AE805",
+    },
+    {
+      x: -7.5,
+      y: -5.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "489EAFD5105E1919",
+    },
+    {
+      x: -7.5,
+      y: -3.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "7E43F185B1D87907",
+    },
+    {
+      x: -8.5,
+      y: -2.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "5AC2713E65AD7E90",
+    },
+    {
+      x: -9.5,
+      y: -2.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "2333D0C50B9989AF",
+    },
+    {
+      x: -10.5,
+      y: -2.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "63E37C55341C11D9",
+    },
+    {
+      x: -10.0,
+      y: 0.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "321783ADD320EF55",
+    },
+    {
+      x: -10.5,
+      y: -1.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "23341CF8CC0A60FC",
+    },
+    {
+      x: -8.5,
+      y: 2.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "74C5307EE2CE06CB",
+    },
+    {
+      x: -9.5,
+      y: 2.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "0FB6E08F44F9977F",
+    },
+    {
+      x: -10.5,
+      y: 2.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "768C5C1EEB53A405",
+    },
+    {
+      x: -10.5,
+      y: 1.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "65E4D755B6A59015",
+    },
+    {
+      x: -11.5,
+      y: 1.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "1F68BB9E910B66F0",
+    },
+    {
+      x: -8.5,
+      y: 6.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "69851D9BD6B6692E",
+    },
+    {
+      x: -9.5,
+      y: 6.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "236EE5767B72C7BE",
+    },
+    {
+      x: -8.5,
+      y: 5.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "53DD0B3B5204D097",
+    },
+    {
+      x: -9.5,
+      y: 5.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "43E91DF02089BA4D",
+    },
+    {
+      x: -9.5,
+      y: 7.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "3CD0C605FE626BF4",
+    },
+    {
+      x: -11.5,
+      y: 5.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "5F90F7A3F9210BEB",
+    },
+    {
+      x: -10.0,
+      y: 4.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "2545F1CD97EAD8EF",
+    },
+    {
+      x: -10.5,
+      y: 5.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "2B907B8E04EC7824",
+    },
+    {
+      x: -11.0,
+      y: 4.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "707C5A4C70D2CDFF",
+    },
+    {
+      x: -6.0,
+      y: 5.5,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "4E5B9E5929191FEE",
+    },
+    {
+      x: -3.0,
+      y: 4.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "7ABB50EA135B7E66",
+    },
+    {
+      x: 1.5,
+      y: 1.5,
+      width: 5.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "1226CFCD0AA664D8",
+    },
+    {
+      x: 3.0,
+      y: -2.5,
+      width: 5.5,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "73A905C55C1D2B75",
+    },
+    {
+      x: -0.5,
+      y: -7.0,
+      width: 5.5,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "5D88A8CEE0AA497D",
+    },
+    {
+      x: -6.0,
+      y: -9.5,
+      width: 6.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "6DEAE04C5FDC61B0",
+    },
+    {
+      x: -10.5,
+      y: 8.5,
+      width: 6.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "140E684110869628",
+    },
+    {
+      x: -13.0,
+      y: 6.0,
+      width: 6.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "0E7242E3FED3633D",
+    },
+    {
+      x: -12.5,
+      y: 0.0,
+      width: 7.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "6A30BBDD8225F328",
+    },
+    {
+      x: -4.5,
+      y: 7.5,
+      width: 7.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "35550CFA20D88E28",
+    },
+    {
+      x: 2.0,
+      y: 5.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "12DC32507CE654E0",
+    },
+    {
+      x: 2.5,
+      y: 7.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "3B2E2A9AD80FB5C6",
+    },
+    {
+      x: 2.0,
+      y: 8.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "1400F498EE34B0C1",
+    },
+    {
+      x: 1.0,
+      y: 8.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "19934FFC62689DDF",
+    },
+    {
+      x: 0.0,
+      y: 8.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "6601D4A7C20DCCB8",
+    },
+    {
+      x: -0.5,
+      y: 7.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "494945A468AC0742",
+    },
+    {
+      x: 0.0,
+      y: 5.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "1FF80BB755DD9ED5",
+    },
+    {
+      x: 1.0,
+      y: 5.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "75F8C72E45C99867",
+    },
+    {
+      x: 1.0,
+      y: 7.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "03B8AC11DCBD97CE",
+    },
+    {
+      x: 3.5,
+      y: 7.0,
+      width: 3.25,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "6E4CA5C8112FAF95",
+    },
+    {
+      x: 3.5,
+      y: 7.0,
+      width: 2.5,
+      height: 1.0,
+      rotation: 90.0,
+      image: "atm:textures/questpics/create/create_title_trains.png",
+      order: 1,
+      id: "3A396FC503B95F04",
+    },
+    {
+      x: 1.0,
+      y: 9.5,
+      width: 2.5,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_title_trains.png",
+      order: 1,
+      id: "2060D295326614F3",
+    },
+    {
+      x: 1.0,
+      y: 9.5,
+      width: 3.25,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "71E2FD7E56794DD3",
+    },
+    {
+      x: -7.0,
+      y: -4.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "0819807274CB605E",
+    },
+    {
+      x: -6.0,
+      y: -7.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "6C58CE3F8F534CFE",
+    },
+    {
+      x: -5.0,
+      y: -8.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "0A004433295D5E6A",
+    },
+    {
+      x: -4.0,
+      y: -7.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "06AC62A0FAE84FD7",
+    },
+    {
+      x: -4.0,
+      y: -8.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "63EC840B0E6DA7A6",
+    },
+    {
+      x: -8.0,
+      y: -7.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "7FEE0ED260FF2B4F",
+    },
+    {
+      x: -7.0,
+      y: -8.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "59A85F5C9FB2C79B",
+    },
+    {
+      x: -8.0,
+      y: -8.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 22.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "201F6D42C8A45C65",
+    },
+    {
+      x: -9.5,
+      y: -6.0,
+      width: 6.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/create/create_background_title.png",
+      id: "010EC42A0AE48646",
+    },
+    {
+      x: -9.5,
+      y: -6.0,
+      width: 5.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "atm:textures/questpics/create/create_title_item.png",
+      order: 1,
+      id: "0A226AA2D1FDA338",
+    },
+    {
+      x: -6.0,
+      y: -6.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "1AAE88461F014904",
+    },
+    {
+      x: -6.0,
+      y: -8.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 20.0,
+      image: "atm:textures/questpics/create/create_cog.png",
+      id: "7A9A2D9E33239E9A",
+    },
+  ],
+}

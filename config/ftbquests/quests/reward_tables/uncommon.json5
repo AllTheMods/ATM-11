@@ -1,0 +1,393 @@
+{
+  id: "3A3BDBA4E9AD13C4",
+  order_index: 4,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "01F2BD48DEFF1924",
+      item: {
+        id: "modularrouters:distributor_module",
+        count: 1,
+      },
+    },
+    {
+      id: "0E2E787D5574EB32",
+      item: {
+        id: "modularrouters:energy_distributor_module",
+        count: 1,
+      },
+    },
+    {
+      id: "284CF6D89102139A",
+      item: {
+        id: "modularrouters:puller_module_2",
+        count: 1,
+      },
+    },
+    {
+      id: "4A7A9B595C82C89C",
+      item: {
+        id: "modularrouters:speed_upgrade",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+    },
+    {
+      id: "311549F4802AED6F",
+      item: {
+        id: "pipez:advanced_upgrade",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 3.0,
+    },
+    {
+      id: "41B8E73CF883EF82",
+      item: {
+        id: "pipez:universal_pipe",
+        count: 1,
+      },
+      count: 8,
+      random_bonus: 16,
+      weight: 10.0,
+    },
+    {
+      id: "3C49601F199E6602",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:advanced_tier_installer",
+        },
+      },
+    },
+    {
+      id: "14E3E72B0DD5CA88",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:basic_energy_cube",
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2D0F2AD339A4F466",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanismgenerators:wind_generator",
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "699A72490DE8D9A5",
+      item: {
+        id: "minecraft:netherite_ingot",
+        count: 1,
+      },
+    },
+    {
+      id: "4D14D65B3F3F0D08",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "functionalstorage:gold_upgrade",
+        },
+      },
+      weight: 2.0,
+    },
+    {
+      id: "2B0D8F8D205E3F81",
+      item: {
+        id: "minecraft:diamond",
+        count: 1,
+      },
+      count: 3,
+      random_bonus: 3,
+      weight: 10.0,
+    },
+    {
+      id: "32BAEEE4ACB57996",
+      item: {
+        id: "minecraft:iron_ingot",
+        count: 1,
+      },
+      count: 8,
+      random_bonus: 8,
+      weight: 20.0,
+    },
+    {
+      id: "60B7C75153D8AC9D",
+      item: {
+        id: "minecraft:gold_ingot",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 15.0,
+    },
+    {
+      id: "6C557BD8F0FA6220",
+      item: {
+        id: "minecraft:lapis_lazuli",
+        count: 1,
+      },
+      count: 16,
+      random_bonus: 8,
+      weight: 20.0,
+    },
+    {
+      id: "72C376EBD9D94DE3",
+      item: {
+        id: "minecraft:iron_block",
+        count: 1,
+      },
+      weight: 15.0,
+    },
+    {
+      id: "7C24F600B1940246",
+      item: {
+        id: "minecraft:diamond_block",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "1F170F8E85D80EC9",
+      item: {
+        id: "minecraft:gold_block",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "60F792CE1A150FF1",
+      item: {
+        id: "minecraft:redstone_block",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 20.0,
+    },
+    {
+      id: "6F49F5F6C53F8EFE",
+      item: {
+        id: "minecraft:emerald_block",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "377C4C910FB962A6",
+      item: {
+        id: "minecraft:netherite_scrap",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 5.0,
+    },
+    {
+      id: "1410390E48481965",
+      item: {
+        id: "minecraft:netherite_ingot",
+        count: 1,
+      },
+    },
+    {
+      id: "6209F14601C0ABC8",
+      item: {
+        id: "minecraft:lava_bucket",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "15B4E0216FDCF998",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanismgenerators:wind_generator",
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "7139124A4D3A9A15",
+      item: {
+        id: "powah:solar_panel_basic",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "5B4BCF01D3BDF180",
+      item: {
+        id: "powah:thermo_generator_basic",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5A3DD47596C81893",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanismgenerators:gas_burning_generator",
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5E6A9820088B9C68",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "functionalstorage:compacting_drawer",
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "25E90078E7511C00",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "functionalstorage:storage_controller",
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3E2C50BD2583841D",
+      item: {
+        id: "minecraft:ender_pearl",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 10.0,
+    },
+    {
+      id: "59E27E00F267BEF7",
+      item: {
+        id: "minecraft:ender_eye",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 5.0,
+    },
+    {
+      id: "18BACB8F2B64D764",
+      item: {
+        id: "minecraft:quartz",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 10.0,
+    },
+    {
+      id: "49E9E3F93212560B",
+      item: {
+        id: "ae2:silicon",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 8,
+      weight: 15.0,
+    },
+    {
+      id: "64CB2AC31D6DE53A",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "functionalstorage:oak_1",
+        },
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 10.0,
+    },
+    {
+      id: "27AA5AFCF44F582B",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "functionalstorage:void_upgrade",
+        },
+      },
+      random_bonus: 2,
+      weight: 10.0,
+    },
+    {
+      id: "3603B3D0952F4C54",
+      item: {
+        id: "minecraft:saddle",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "40AC5B6F46229D95",
+      item: {
+        id: "minecraft:name_tag",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "7EBF160D6C65FE08",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "ironfurnaces:gold_furnace",
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "06EA012FC8782A4A",
+      item: {
+        id: "minecraft:wither_skeleton_skull",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "5102BE3B38E122DC",
+      item: {
+        id: "productivelib:upgrade_simulator",
+        count: 1,
+      },
+    },
+    {
+      id: "73064A3A4E00D8EA",
+      item: {
+        id: "productivelib:upgrade_time",
+        count: 1,
+      },
+    },
+    {
+      id: "45DBE03B8D8EFBE1",
+      item: {
+        id: "productivelib:upgrade_child",
+        count: 1,
+      },
+    },
+  ],
+}

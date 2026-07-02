@@ -1,0 +1,123 @@
+{
+  id: "43C220CBD5447FE6",
+  order_index: 25,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "067E5DD3D06BD01E",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:unassembled_pcb",
+        },
+      },
+    },
+    {
+      id: "715845EFB1CFCEA8",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:printed_circuit_board",
+        },
+      },
+      weight: 0.5,
+    },
+    {
+      id: "4D222252EF30746F",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:failed_pcb",
+        },
+      },
+    },
+    {
+      id: "6CD2EB0E23E6437C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:micromissiles",
+        },
+      },
+      weight: 0.5,
+    },
+    {
+      id: "6FEF6CD16C260A22",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:drone",
+        },
+      },
+    },
+    {
+      id: "1EA68313E5FF643A",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:drone_interface",
+        },
+      },
+    },
+    {
+      id: "042EE0A2FD991BC0",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:programmer",
+        },
+      },
+    },
+    {
+      id: "5429B6014612B1FB",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:security_station",
+        },
+      },
+    },
+    {
+      id: "721A62F5EF4E9634",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:smart_chest",
+        },
+      },
+    },
+    {
+      id: "13ECDAF952881997",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:smart_chest_kit",
+        },
+      },
+    },
+    {
+      id: "33241F1050EEA385",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "pneumaticcraft:programming_puzzle",
+        },
+      },
+      count: 4,
+      random_bonus: 4,
+    },
+  ],
+}

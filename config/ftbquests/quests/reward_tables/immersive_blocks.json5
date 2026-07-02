@@ -1,0 +1,86 @@
+{
+  id: "2A2E3EFEF58354A9",
+  order_index: 47,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "76497EC1B81C2C4A",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:rs_engineering",
+        },
+      },
+      count: 3,
+    },
+    {
+      id: "4C4A0B146C460E4C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:heavy_engineering",
+        },
+      },
+      count: 3,
+    },
+    {
+      id: "3C9F07C5987D8971",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:light_engineering",
+        },
+      },
+      count: 5,
+    },
+    {
+      id: "1BD7D7C066494969",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:radiator",
+        },
+      },
+      count: 2,
+    },
+    {
+      id: "498A44654F9C9BFF",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:generator",
+        },
+      },
+      count: 2,
+    },
+    {
+      id: "5B94E32677B90F64",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:sheetmetal_iron",
+        },
+      },
+      count: 6,
+    },
+    {
+      id: "51513E7CE3B3DFEC",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "immersiveengineering:steel_scaffolding_standard",
+        },
+      },
+      count: 8,
+    },
+  ],
+}

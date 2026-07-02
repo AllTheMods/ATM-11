@@ -1,0 +1,65 @@
+{
+  id: "4E550B6FE754E446",
+  order_index: 14,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "0331C3BA241F3B89",
+      item: {
+        id: "powah:capacitor_niotic",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 10.0,
+    },
+    {
+      id: "17ADB4575FAE7F40",
+      item: {
+        id: "powah:crystal_niotic",
+        count: 1,
+      },
+      weight: 25.0,
+    },
+    {
+      id: "6540A566536CCAB3",
+      item: {
+        id: "powah:energy_cell_niotic",
+        count: 1,
+      },
+    },
+    {
+      id: "4B5FB5D876C2B720",
+      item: {
+        id: "powah:energy_cable_niotic",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 10.0,
+    },
+    {
+      id: "38BEBD2707542E88",
+      item: {
+        id: "powah:energizing_rod_niotic",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "3570ED76CF536EF6",
+      item: {
+        id: "powah:solar_panel_niotic",
+        count: 1,
+      },
+    },
+    {
+      id: "0611CBEDA9FA0BC7",
+      item: {
+        id: "powah:niotic_crystal_block",
+        count: 1,
+      },
+    },
+  ],
+}

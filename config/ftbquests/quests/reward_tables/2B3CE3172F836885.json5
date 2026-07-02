@@ -1,0 +1,84 @@
+{
+  id: "2B3CE3172F836885",
+  order_index: 55,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "38BA3FFABB75312F",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:processing_unit",
+        },
+      },
+    },
+    {
+      id: "30D5E44FADF67E13",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:highly_advanced_machine_hull",
+        },
+      },
+      count: 2,
+    },
+    {
+      id: "375462F102A41A53",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:quantum_machine_hull",
+        },
+      },
+    },
+    {
+      id: "76022C1CF09F11A3",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:highly_advanced_upgrade",
+        },
+      },
+      count: 4,
+    },
+    {
+      id: "69DA5BB736A24D31",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:superconductor_ingot",
+        },
+      },
+      count: 8,
+    },
+    {
+      id: "7F59A4F0DE5DED7B",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:carbon_plate",
+        },
+      },
+      count: 4,
+    },
+    {
+      id: "3A6824593C027E87",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:plutonium_battery",
+        },
+      },
+      count: 2,
+    },
+  ],
+}

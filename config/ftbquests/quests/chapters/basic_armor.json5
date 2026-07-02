@@ -1,0 +1,5757 @@
+{
+  id: "4791C8461B1B4D5F",
+  group: "15E5B587D291A4AA",
+  order_index: 2,
+  icon: {
+    id: "minecraft:diamond_chestplate",
+    count: 1,
+  },
+  disable_toast: true,
+  filename: "basic_armor",
+  default_quest_shape: "rsquare",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: -11.0,
+      y: -6.0,
+      size: 1.5,
+      optional: true,
+      id: "28408BFAA54E4FC6",
+      tasks: [
+        {
+          id: "13D240DA839AE0F9",
+          type: "item",
+          item: {
+            id: "minecraft:leather_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "2A1D9DE362310D7E",
+          type: "item",
+          item: {
+            id: "minecraft:leather_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "537CABE8F876E65A",
+          type: "item",
+          item: {
+            id: "minecraft:leather_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "102E085F5F52E04E",
+          type: "item",
+          item: {
+            id: "minecraft:leather_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36352741729C8BB1",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -6.0,
+      size: 1.5,
+      optional: true,
+      id: "004D61425172324F",
+      tasks: [
+        {
+          id: "70B760551AA03D3A",
+          type: "item",
+          item: {
+            id: "minecraft:chainmail_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "318E7C9C3687A8A4",
+          type: "item",
+          item: {
+            id: "minecraft:chainmail_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "68AE0BD86BB15078",
+          type: "item",
+          item: {
+            id: "minecraft:chainmail_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "20BC17BCC5E270A6",
+          type: "item",
+          item: {
+            id: "minecraft:chainmail_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23560CB63D3F2CEC",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -6.0,
+      size: 1.5,
+      optional: true,
+      id: "17A68C4E9E9EA2B7",
+      tasks: [
+        {
+          id: "16C93EF866796293",
+          type: "item",
+          item: {
+            id: "minecraft:golden_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "28EABAF0B91E94AE",
+          type: "item",
+          item: {
+            id: "minecraft:golden_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "4A1F24FD39340472",
+          type: "item",
+          item: {
+            id: "minecraft:golden_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "474E1537C5CA7FB7",
+          type: "item",
+          item: {
+            id: "minecraft:golden_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50A986CD3E5354C9",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -6.0,
+      size: 1.5,
+      id: "497D222F74A52DF5",
+      tasks: [
+        {
+          id: "55D98C63A1A01713",
+          type: "item",
+          item: {
+            id: "minecraft:iron_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "042B93D43308564F",
+          type: "item",
+          item: {
+            id: "minecraft:iron_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "2F56ECC8DBC90C01",
+          type: "item",
+          item: {
+            id: "minecraft:iron_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "4C72CA4823807604",
+          type: "item",
+          item: {
+            id: "minecraft:iron_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78BA19D5C2159D39",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -6.0,
+      size: 1.5,
+      id: "5DDC15AAFD2CAF47",
+      tasks: [
+        {
+          id: "79CC596EB3BF6A64",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "49459B4370DD8D1A",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "3F04107B4D2907E0",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "4F6FDB5872FD9E61",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59A000198E8EB727",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -6.0,
+      size: 1.5,
+      id: "074EC1E636CD6605",
+      tasks: [
+        {
+          id: "1CEBDEF56E616268",
+          type: "item",
+          item: {
+            id: "minecraft:netherite_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "598F10A1A92CF940",
+          type: "item",
+          item: {
+            id: "minecraft:netherite_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "7CF2C1BC8A233FF6",
+          type: "item",
+          item: {
+            id: "minecraft:netherite_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "10C12B9DBDE7A276",
+          type: "item",
+          item: {
+            id: "minecraft:netherite_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E4CD9334B00EE28",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: -6.0,
+      size: 1.5,
+      id: "6C5F9D0D447EFB9C",
+      tasks: [
+        {
+          id: "485A730DE8F14ED2",
+          type: "item",
+          item: {
+            id: "allthemodium:allthemodium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "40BA815C8EBDBF52",
+          type: "item",
+          item: {
+            id: "allthemodium:allthemodium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "6EE5CFC7DE5D4EEC",
+          type: "item",
+          item: {
+            id: "allthemodium:allthemodium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "5450DE14A7DD78C1",
+          type: "item",
+          item: {
+            id: "allthemodium:allthemodium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62CBFF16F19B5524",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 17.0,
+      y: -6.0,
+      size: 1.5,
+      id: "72DDA413D73E3235",
+      tasks: [
+        {
+          id: "442FE9663B8FF829",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "05B698EA2EB3FAA8",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "51CE27E9AD619ED5",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "7FCA70B3AAF3F240",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "773D1DB54112EA9A",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 20.0,
+      y: -6.0,
+      size: 1.5,
+      id: "6F76DA3BBAE8337B",
+      tasks: [
+        {
+          id: "7CD6C256DAF3E3A9",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "4F679747224416F0",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "487DE07443C3AA3A",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "05B1D60F9768B6B8",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0EB92D1CD0BC01CE",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: -7.5,
+      optional: true,
+      id: "2296CE4418AE62D4",
+      tasks: [
+        {
+          id: "05662301FC3F5154",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:allthemodium_hat",
+            },
+          },
+        },
+        {
+          id: "42669094C4CAFC19",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:allthemodium_robes",
+            },
+          },
+        },
+        {
+          id: "3E96C759E87A2269",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:allthemodium_leggings",
+            },
+          },
+        },
+        {
+          id: "7B7E7462C6C5EAE8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:allthemodium_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63696BEBE4C0810A",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: -7.5,
+      optional: true,
+      id: "5BA84F6282D9CAF1",
+      tasks: [
+        {
+          id: "4D08F450221DD06D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:allthemodium_mage_helmet",
+            },
+          },
+        },
+        {
+          id: "3F5264FBC0C2A15A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:allthemodium_mage_chestplate",
+            },
+          },
+        },
+        {
+          id: "2C04C6896A3E35D8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:allthemodium_mage_leggings",
+            },
+          },
+        },
+        {
+          id: "722BE826B52EB937",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:allthemodium_mage_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10A19B7282DDE348",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 17.5,
+      y: -7.5,
+      optional: true,
+      id: "52AFABA08674B6A8",
+      tasks: [
+        {
+          id: "1DAC2089E3A2263A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:vibranium_hat",
+            },
+          },
+        },
+        {
+          id: "73AF1DB3BA015BBE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:vibranium_robes",
+            },
+          },
+        },
+        {
+          id: "6CF11902454FDEC4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:vibranium_leggings",
+            },
+          },
+        },
+        {
+          id: "04A3AC29410EA9F0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:vibranium_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E4CCA507C51D2BB",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 16.5,
+      y: -7.5,
+      optional: true,
+      id: "4DD66E31859EA593",
+      tasks: [
+        {
+          id: "2BD7C64FF209C548",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:vibranium_mage_helmet",
+            },
+          },
+        },
+        {
+          id: "59782B7048223902",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:vibranium_mage_chestplate",
+            },
+          },
+        },
+        {
+          id: "05E6E8D502E5B76F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:vibranium_mage_leggings",
+            },
+          },
+        },
+        {
+          id: "40A84D5058069AEF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:vibranium_mage_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "655A41CF09D93D96",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: 20.5,
+      y: -7.5,
+      optional: true,
+      id: "3512F47DADC07EAE",
+      tasks: [
+        {
+          id: "2D6AA5F05788EB95",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:unobtainium_hat",
+            },
+          },
+        },
+        {
+          id: "79243FE18C8982F4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:unobtainium_robes",
+            },
+          },
+        },
+        {
+          id: "16BCB25306D6D89F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:unobtainium_leggings",
+            },
+          },
+        },
+        {
+          id: "5C2F88EC268ECFA7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthearcanistgear:unobtainium_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F3C606CA5B00052",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -7.5,
+      optional: true,
+      id: "24FDA15A7ACDF021",
+      tasks: [
+        {
+          id: "45A8020E82609E2B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:unobtainium_mage_helmet",
+            },
+          },
+        },
+        {
+          id: "663CEEE412B08F35",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:unobtainium_mage_chestplate",
+            },
+          },
+        },
+        {
+          id: "643488B9D59882CD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:unobtainium_mage_leggings",
+            },
+          },
+        },
+        {
+          id: "336D60DB74905889",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "allthewizardgear:unobtainium_mage_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5EF163313A36DE52",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: -6.5,
+      optional: true,
+      id: "3416DB9F58D8AA2C",
+      tasks: [
+        {
+          id: "5C3D57C3DC6389D6",
+          type: "item",
+          item: {
+            id: "aquaculture:neptunium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "36A182140F11F8DA",
+          type: "item",
+          item: {
+            id: "aquaculture:neptunium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "447F6633FCB0F52F",
+          type: "item",
+          item: {
+            id: "aquaculture:neptunium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "37A54B1EAC7AC3EC",
+          type: "item",
+          item: {
+            id: "aquaculture:neptunium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52F86E32FB5B4D9A",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -7.5,
+      optional: true,
+      id: "79D3055DE0EEA6B0",
+      tasks: [
+        {
+          id: "5B07EAC499E6606E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:fire_hat",
+            },
+          },
+        },
+        {
+          id: "28F2672B30CA47AA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:fire_robes",
+            },
+          },
+        },
+        {
+          id: "1C6CC766D7658E7B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:fire_leggings",
+            },
+          },
+        },
+        {
+          id: "1D4CCDF3F8A5184D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:fire_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "100A55B8348F2A83",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -10.5,
+      optional: true,
+      id: "3D72E3E53E7306FA",
+      tasks: [
+        {
+          id: "47DF094A91017999",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyromancer_helmet",
+            },
+          },
+        },
+        {
+          id: "062EF3FD2019D7B0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyromancer_chestplate",
+            },
+          },
+        },
+        {
+          id: "30D52235BCC4F3F0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyromancer_leggings",
+            },
+          },
+        },
+        {
+          id: "39800B70B41A6DB8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pyromancer_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10E0793A466BDD6E",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -7.5,
+      optional: true,
+      id: "7C1D407CF67786F6",
+      tasks: [
+        {
+          id: "131D25B9CE04FE07",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:air_hat",
+            },
+          },
+        },
+        {
+          id: "22DE8A478AAFB274",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:air_robes",
+            },
+          },
+        },
+        {
+          id: "6F9A5DC52DFC8243",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:air_leggings",
+            },
+          },
+        },
+        {
+          id: "6CCAD1CD25C7243D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:air_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0859AFCB9EAC0E43",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -8.5,
+      optional: true,
+      id: "2E0F82F7E1B74033",
+      tasks: [
+        {
+          id: "5A32B9F15B542CDF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:earth_hat",
+            },
+          },
+        },
+        {
+          id: "56515B17D2A6E9C6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:earth_robes",
+            },
+          },
+        },
+        {
+          id: "33377EB9FB433A3A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:earth_leggings",
+            },
+          },
+        },
+        {
+          id: "1D84D6E4184ABC9A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:earth_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2388CDFF8B8AC666",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -8.5,
+      optional: true,
+      id: "2EAA6BE598C83F24",
+      tasks: [
+        {
+          id: "2A96E7235569C522",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:aqua_hat",
+            },
+          },
+        },
+        {
+          id: "6AE188B1AC59CB0B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:aqua_robes",
+            },
+          },
+        },
+        {
+          id: "319116B8D73FE420",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:aqua_leggings",
+            },
+          },
+        },
+        {
+          id: "6DA7509D33B44F01",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_elemental:aqua_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "09E5B2698831764E",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -7.0,
+      y: -4.5,
+      optional: true,
+      id: "19F58E291A543228",
+      tasks: [
+        {
+          id: "0DC02CF560E9CAC9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:sorcerer_hood",
+            },
+          },
+        },
+        {
+          id: "2A9783D63B17A26D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:sorcerer_robes",
+            },
+          },
+        },
+        {
+          id: "0C0FF4C09FB5A063",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:sorcerer_leggings",
+            },
+          },
+        },
+        {
+          id: "432723521C2D00D7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:sorcerer_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EE0B09B89C1162B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -9.5,
+      optional: true,
+      id: "0ABB2264CBB82470",
+      tasks: [
+        {
+          id: "0D3FD3E0CAA1F9E3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:arcanist_hood",
+            },
+          },
+        },
+        {
+          id: "0B87556E53C8FF14",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:arcanist_robes",
+            },
+          },
+        },
+        {
+          id: "076C751559F490C7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:arcanist_leggings",
+            },
+          },
+        },
+        {
+          id: "54849AAF0228C5BE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:arcanist_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "036505A7FAEC492E",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -4.5,
+      optional: true,
+      id: "0E2515424291BB59",
+      tasks: [
+        {
+          id: "2751FA805F188BE5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:battlemage_hood",
+            },
+          },
+        },
+        {
+          id: "27A38CE1BE7B26E3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:battlemage_robes",
+            },
+          },
+        },
+        {
+          id: "402A5596AE85BF68",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:battlemage_leggings",
+            },
+          },
+        },
+        {
+          id: "72661B7CD2C88A27",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "ars_nouveau:battlemage_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3933AC708CAD3298",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: -4.5,
+      optional: true,
+      id: "15978093237448FE",
+      tasks: [
+        {
+          id: "5253033DA8CE3231",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_helmet",
+            },
+          },
+        },
+        {
+          id: "19593491D5674D55",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_chestplate",
+            },
+          },
+        },
+        {
+          id: "3D34C6B3C8E5929B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_leggings",
+            },
+          },
+        },
+        {
+          id: "27CA0D688A595E6C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "deeperdarker:warden_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2EB4E8B9ACDDE25D",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -6.0,
+      optional: true,
+      id: "3260EDAD3A619479",
+      tasks: [
+        {
+          id: "7DF76CCA946FFB62",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:aethersent_hood",
+            },
+          },
+        },
+        {
+          id: "03946DC5ADBBC657",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:aethersent_cape",
+            },
+          },
+        },
+        {
+          id: "207706D3F119081D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:aethersent_bottoms",
+            },
+          },
+        },
+        {
+          id: "215D467B16C305A7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:aethersent_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "48A31F437A38BFAC",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -6.0,
+      optional: true,
+      id: "50429F57480F44DA",
+      tasks: [
+        {
+          id: "494C61837E233B58",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:thermal_springstone_helmet",
+            },
+          },
+        },
+        {
+          id: "2AD58BF2916FC968",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:thermal_springstone_chestplate",
+            },
+          },
+        },
+        {
+          id: "6D3E07BB6D334BED",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:thermal_springstone_leggings",
+            },
+          },
+        },
+        {
+          id: "4FD071335DA99132",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:thermal_springstone_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07AE0FA43B5464D6",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -6.5,
+      optional: true,
+      id: "4664AFCFB5618CEB",
+      tasks: [
+        {
+          id: "479E31348A23690C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:glacite_helmet",
+            },
+          },
+        },
+        {
+          id: "2E5D2CBF1D3BFD88",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:glacite_chestplate",
+            },
+          },
+        },
+        {
+          id: "0467A83E14EF5D20",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:glacite_leggings",
+            },
+          },
+        },
+        {
+          id: "52211CFC06C84C16",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:glacite_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CE50AF5B49F283F",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -2.5,
+      optional: true,
+      id: "459BB5B4CDB21773",
+      tasks: [
+        {
+          id: "7FE454AB1A3D8C04",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:swamp_silver_helmet",
+            },
+          },
+        },
+        {
+          id: "336F743A90D79EA5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:swamp_silver_chestplate",
+            },
+          },
+        },
+        {
+          id: "4FD31875EE131079",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:swamp_silver_leggings",
+            },
+          },
+        },
+        {
+          id: "0B2D12F2EEAE26B5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:swamp_silver_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37A6CE8F11A87914",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -6.0,
+      optional: true,
+      id: "50B127137AA9E660",
+      tasks: [
+        {
+          id: "2ACCBA73F15785AE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "everythingcopper:copper_helmet",
+            },
+          },
+        },
+        {
+          id: "140EC910C2EAD46F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "everythingcopper:copper_chestplate",
+            },
+          },
+        },
+        {
+          id: "6EB023B3AEF61518",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "everythingcopper:copper_leggings",
+            },
+          },
+        },
+        {
+          id: "5EE73B206A8A3021",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "everythingcopper:copper_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "732895E499080E61",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -9.5,
+      optional: true,
+      id: "24A7B2902E7430A1",
+      tasks: [
+        {
+          id: "24D87A372567FCE5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:wandering_magician_helmet",
+            },
+          },
+        },
+        {
+          id: "1DC839ADD66136D4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:wandering_magician_chestplate",
+            },
+          },
+        },
+        {
+          id: "30D1AA84C7A507C5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:wandering_magician_leggings",
+            },
+          },
+        },
+        {
+          id: "1EE367799BA96BF9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:wandering_magician_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46D6F81E1F8C91C8",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -4.5,
+      optional: true,
+      id: "654F5C84114A31A1",
+      tasks: [
+        {
+          id: "41EA09E06CA055F4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pumpkin_helmet",
+            },
+          },
+        },
+        {
+          id: "192AB69CEB7585A4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pumpkin_chestplate",
+            },
+          },
+        },
+        {
+          id: "624F1E893AE9E7E9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pumpkin_leggings",
+            },
+          },
+        },
+        {
+          id: "592BAD316F3275BF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:pumpkin_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "232D3C9CDA8A8944",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -4.5,
+      optional: true,
+      id: "66B5A8D259E12BF5",
+      tasks: [
+        {
+          id: "77750FD86270FD2F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:netherite_mage_helmet",
+            },
+          },
+        },
+        {
+          id: "5A62FAE7C177B00E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:netherite_mage_chestplate",
+            },
+          },
+        },
+        {
+          id: "1563E7EABDFF4AF3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:netherite_mage_leggings",
+            },
+          },
+        },
+        {
+          id: "60002EF1B3828A05",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:netherite_mage_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BA3A3DB5FF29E5C",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -8.5,
+      optional: true,
+      id: "215C9C2B2240FAA1",
+      tasks: [
+        {
+          id: "19C6AB13CA7B79D6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:electromancer_helmet",
+            },
+          },
+        },
+        {
+          id: "02141BE579678A73",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:electromancer_chestplate",
+            },
+          },
+        },
+        {
+          id: "5E24224627FD14BE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:electromancer_leggings",
+            },
+          },
+        },
+        {
+          id: "41B2A38EB633090B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:electromancer_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B27511472F98844",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -9.5,
+      optional: true,
+      id: "260C7F3C1F51221D",
+      tasks: [
+        {
+          id: "7440B07C1B9B8878",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:archevoker_helmet",
+            },
+          },
+        },
+        {
+          id: "194F0DF3CF09C5A8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:archevoker_chestplate",
+            },
+          },
+        },
+        {
+          id: "6E776182DF373FB6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:archevoker_leggings",
+            },
+          },
+        },
+        {
+          id: "72CF875930777373",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:archevoker_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23F126EE59BC4AFB",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -7.5,
+      optional: true,
+      id: "0ED11FCF6298CE85",
+      tasks: [
+        {
+          id: "02E57646DF78E34C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cultist_helmet",
+            },
+          },
+        },
+        {
+          id: "043F4965A3A81288",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cultist_chestplate",
+            },
+          },
+        },
+        {
+          id: "28DFCADF477E951A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cultist_leggings",
+            },
+          },
+        },
+        {
+          id: "04833184DFA37ECB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cultist_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7467F8BA4AB076EC",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -9.5,
+      optional: true,
+      id: "686EB173C94301C0",
+      tasks: [
+        {
+          id: "5BEB57C486C83646",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cryomancer_helmet",
+            },
+          },
+        },
+        {
+          id: "61A97A4CF2FF73D9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cryomancer_chestplate",
+            },
+          },
+        },
+        {
+          id: "7597ECA447168044",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cryomancer_leggings",
+            },
+          },
+        },
+        {
+          id: "576C0C99938F5617",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:cryomancer_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CB148F27099AF74",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -8.5,
+      optional: true,
+      id: "361EF9E4973E3522",
+      tasks: [
+        {
+          id: "7B6BAE0AE29B6223",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:shadowwalker_helmet",
+            },
+          },
+        },
+        {
+          id: "586127E4A562D8E7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:shadowwalker_chestplate",
+            },
+          },
+        },
+        {
+          id: "79251A3ECFB8CA10",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:shadowwalker_leggings",
+            },
+          },
+        },
+        {
+          id: "139D64351967F934",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:shadowwalker_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31506E8ED06D12D3",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -10.5,
+      optional: true,
+      id: "4B65100885AE762D",
+      tasks: [
+        {
+          id: "1DA0C43C492FD239",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:priest_helmet",
+            },
+          },
+        },
+        {
+          id: "525E12185BAAE9ED",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:priest_chestplate",
+            },
+          },
+        },
+        {
+          id: "5470DD5088DD6113",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:priest_leggings",
+            },
+          },
+        },
+        {
+          id: "419CDF2962616ECD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:priest_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42C7B31048CF3470",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -7.5,
+      optional: true,
+      id: "5391385A75535EC8",
+      tasks: [
+        {
+          id: "386728EAA038889C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:plagued_helmet",
+            },
+          },
+        },
+        {
+          id: "2F423CAB3674EBE5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:plagued_chestplate",
+            },
+          },
+        },
+        {
+          id: "5069388A910BC404",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:plagued_leggings",
+            },
+          },
+        },
+        {
+          id: "5DDBF3D33B9E5050",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "irons_spellbooks:plagued_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54BF0B8C750AC15A",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -4.5,
+      optional: true,
+      id: "10AA2B20D86747F7",
+      tasks: [
+        {
+          id: "429ABBB335060B56",
+          type: "item",
+          item: {
+            id: "justdirethings:ferricore_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "4E440D58176EF222",
+          type: "item",
+          item: {
+            id: "justdirethings:ferricore_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "7744445D4789FA18",
+          type: "item",
+          item: {
+            id: "justdirethings:ferricore_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "647165407914811B",
+          type: "item",
+          item: {
+            id: "justdirethings:ferricore_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "48ED09009D69EF9D",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -4.5,
+      optional: true,
+      id: "1A8440C0048EEB02",
+      tasks: [
+        {
+          id: "27BB1E6E9B5FCE51",
+          type: "item",
+          item: {
+            id: "justdirethings:blazegold_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "7A55423154C9934C",
+          type: "item",
+          item: {
+            id: "justdirethings:blazegold_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "22DC02662BE956B9",
+          type: "item",
+          item: {
+            id: "justdirethings:blazegold_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "33CF932F65042258",
+          type: "item",
+          item: {
+            id: "justdirethings:blazegold_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B06D1CF3D21210D",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -5.5,
+      optional: true,
+      id: "7B500E0577BDFF8F",
+      tasks: [
+        {
+          id: "436D86DBBB5AAABE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:bronze_helmet",
+            },
+          },
+        },
+        {
+          id: "6D9FECCEE43C2CB0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:bronze_chestplate",
+            },
+          },
+        },
+        {
+          id: "5C73824CCD316E64",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:bronze_leggings",
+            },
+          },
+        },
+        {
+          id: "595619646691B1BE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:bronze_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E098447CDFFED2D",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -6.0,
+      optional: true,
+      id: "65A529C8238E89F1",
+      tasks: [
+        {
+          id: "4B0B4C53DEB8A376",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:lapis_lazuli_helmet",
+            },
+          },
+        },
+        {
+          id: "2F9748321AFC6681",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:lapis_lazuli_chestplate",
+            },
+          },
+        },
+        {
+          id: "66BB9F4D1615A4B9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:lapis_lazuli_leggings",
+            },
+          },
+        },
+        {
+          id: "501A405AAD40748E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:lapis_lazuli_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "007605B69AE469F4",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -5.5,
+      optional: true,
+      id: "71C552678A0F649F",
+      tasks: [
+        {
+          id: "1839646B0B81353C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:osmium_helmet",
+            },
+          },
+        },
+        {
+          id: "1AFBFF15FD296C70",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:osmium_chestplate",
+            },
+          },
+        },
+        {
+          id: "29C039C02578FEB2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:osmium_leggings",
+            },
+          },
+        },
+        {
+          id: "62F1B71ACCB69230",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:osmium_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17FF8F329CEA32E7",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -2.5,
+      optional: true,
+      id: "5865951E4F81C91F",
+      tasks: [
+        {
+          id: "65F5575F68CF4171",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:refined_glowstone_helmet",
+            },
+          },
+        },
+        {
+          id: "041FD3677DD4276E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:refined_glowstone_chestplate",
+            },
+          },
+        },
+        {
+          id: "69E870991EFFE815",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:refined_glowstone_leggings",
+            },
+          },
+        },
+        {
+          id: "0219E38BCBC6C616",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:refined_glowstone_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A865F025EBDE00E",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 15.5,
+      y: -6.5,
+      optional: true,
+      id: "7FABB77A60E7962C",
+      tasks: [
+        {
+          id: "75711D82EFA04346",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:refined_obsidian_helmet",
+            },
+          },
+        },
+        {
+          id: "4CA3255601BE7255",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:refined_obsidian_chestplate",
+            },
+          },
+        },
+        {
+          id: "307DFA9A7C916D7B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:refined_obsidian_leggings",
+            },
+          },
+        },
+        {
+          id: "6C59F1DC9176C105",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:refined_obsidian_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B3545231F7B9EF5",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -7.5,
+      optional: true,
+      id: "3ABE7074E500494D",
+      tasks: [
+        {
+          id: "2F8DB1CE194868CA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:steel_helmet",
+            },
+          },
+        },
+        {
+          id: "5B7E367FC534CFEB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:steel_chestplate",
+            },
+          },
+        },
+        {
+          id: "0A4AB0F3F8E5CA97",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:steel_leggings",
+            },
+          },
+        },
+        {
+          id: "4B182CB9719780A1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanismtools:steel_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00764DBB880597CD",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: 24.0,
+      y: -6.0,
+      size: 1.5,
+      optional: true,
+      id: "3403D7502F7BC897",
+      tasks: [
+        {
+          id: "2EE6EF6F3016B050",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:quantum_helmet",
+            },
+          },
+        },
+        {
+          id: "6693F8A2AE3002CE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:quantum_chestplate",
+            },
+          },
+        },
+        {
+          id: "5AC9B88DE39494F1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:quantum_leggings",
+            },
+          },
+        },
+        {
+          id: "41E743C112F4A0E3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:quantum_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "324ADE86F3B1C9DA",
+          type: "xp_levels",
+          xp_levels: 100,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -6.5,
+      optional: true,
+      id: "13517D17E6BF015F",
+      tasks: [
+        {
+          id: "7A5BBA1D6A79CB59",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "1E6EFB4C151206F8",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "55752364700F6852",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "0B5E2A236E49931A",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06B3BF837BE057D7",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -6.0,
+      optional: true,
+      id: "52B61FB01D7C12A4",
+      tasks: [
+        {
+          id: "0A2F167A592A03FF",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:prudentium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "455EEB95203AB2C1",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:prudentium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "1816E845DFB00FB2",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:prudentium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "070788ED4A385CD1",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:prudentium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36AD1914953921C3",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: -6.5,
+      optional: true,
+      id: "2A4FE9644F3B9DC1",
+      tasks: [
+        {
+          id: "3FAA14639818B283",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:tertium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "3DA810FD85216C14",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:tertium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "52A86202A4632CE2",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:tertium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "683E8599462F64EF",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:tertium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "38792235C0B19983",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 14.0,
+      y: -5.5,
+      optional: true,
+      id: "1D27EE427ECFD6CE",
+      tasks: [
+        {
+          id: "265F4E8E38DF5F51",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:imperium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "430E26841A51369D",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:imperium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "0781B36B78C4D3AF",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:imperium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "251DF4A14A8ABE99",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:imperium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3AD1450F6E5CB2F5",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 15.0,
+      y: -5.5,
+      optional: true,
+      id: "5064D5F99E2C69C8",
+      tasks: [
+        {
+          id: "3077436311A21FAC",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:supremium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "07C88671CD328819",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:supremium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "3668A4099BA73F59",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:supremium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "17633E850CE9123B",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:supremium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "380CA604F26FFE13",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: -6.0,
+      optional: true,
+      id: "4A9CB8778D37049F",
+      tasks: [
+        {
+          id: "3278FDF6FE5CB147",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:awakened_supremium_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "0655305833BE4784",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:awakened_supremium_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "371874FEFCA1DEBF",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:awakened_supremium_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "5D625B465A9A369C",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:awakened_supremium_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BC4D1F9C0EC1D8B",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -3.5,
+      optional: true,
+      id: "6ED2CDD01659FD10",
+      tasks: [
+        {
+          id: "10B65DF825ACC0E7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "pneumaticcraft:compressed_iron_helmet",
+            },
+          },
+        },
+        {
+          id: "576227D79B7D383D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "pneumaticcraft:compressed_iron_chestplate",
+            },
+          },
+        },
+        {
+          id: "1F8EDC8EC7DE17E0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "pneumaticcraft:compressed_iron_leggings",
+            },
+          },
+        },
+        {
+          id: "4671FA2855861C13",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "pneumaticcraft:compressed_iron_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FF3A339551E94A7",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -3.5,
+      optional: true,
+      id: "21B96130EA516B82",
+      tasks: [
+        {
+          id: "4465B6869AE17E55",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "pneumaticcraft:pneumatic_helmet",
+            },
+          },
+        },
+        {
+          id: "2B43CB444C83837B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "pneumaticcraft:pneumatic_chestplate",
+            },
+          },
+        },
+        {
+          id: "04B22B466FEC9D56",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "pneumaticcraft:pneumatic_leggings",
+            },
+          },
+        },
+        {
+          id: "69BF0D085629B116",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "pneumaticcraft:pneumatic_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F662D05711FE1AF",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -7.0,
+      optional: true,
+      id: "1EBF234015B26F15",
+      tasks: [
+        {
+          id: "5FB19785080A4904",
+          type: "item",
+          item: {
+            id: "rootsclassic:sylvan_hood",
+            count: 1,
+          },
+        },
+        {
+          id: "2D2427E7A590734F",
+          type: "item",
+          item: {
+            id: "rootsclassic:sylvan_robe",
+            count: 1,
+          },
+        },
+        {
+          id: "557BE9E399731173",
+          type: "item",
+          item: {
+            id: "rootsclassic:sylvan_tunic",
+            count: 1,
+          },
+        },
+        {
+          id: "022599B0FF8D1597",
+          type: "item",
+          item: {
+            id: "rootsclassic:sylvan_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0DEA7D60BA751F08",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -5.5,
+      optional: true,
+      id: "3A2047CC0F59C6CC",
+      tasks: [
+        {
+          id: "3698FCC4A3A87382",
+          type: "item",
+          item: {
+            id: "rootsclassic:wildwood_mask",
+            count: 1,
+          },
+        },
+        {
+          id: "7170D3B3A46FAC4D",
+          type: "item",
+          item: {
+            id: "rootsclassic:wildwood_plate",
+            count: 1,
+          },
+        },
+        {
+          id: "419052A580B4D089",
+          type: "item",
+          item: {
+            id: "rootsclassic:wildwood_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "5B34C5665F2858A6",
+          type: "item",
+          item: {
+            id: "rootsclassic:wildwood_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2DFE9FFE59C3B04A",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -5.5,
+      optional: true,
+      id: "7ADE27F9398D97F1",
+      tasks: [
+        {
+          id: "637DE372710E834F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:stingless_bee_helmet_1",
+            },
+          },
+        },
+        {
+          id: "352F02C4B73AC059",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:bumble_bee_chestplate_1",
+            },
+          },
+        },
+        {
+          id: "167D64624D3692D4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_bee_leggings_1",
+            },
+          },
+        },
+        {
+          id: "2884F2E2286B3036",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:carpenter_bee_boots_1",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E075A470A4E1016",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -6.5,
+      optional: true,
+      id: "1366B946928C873B",
+      tasks: [
+        {
+          id: "654B7DF441CF97EF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:stingless_bee_helmet_2",
+            },
+          },
+        },
+        {
+          id: "33218F1E54E61FA6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:bumble_bee_chestplate_2",
+            },
+          },
+        },
+        {
+          id: "73024C9AF01257EE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:honey_bee_leggings_2",
+            },
+          },
+        },
+        {
+          id: "739380A366C05388",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "the_bumblezone:carpenter_bee_boots_2",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D0F2C046E6231B9",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -5.0,
+      optional: true,
+      id: "2FA0F5B348322095",
+      tasks: [
+        {
+          id: "65B6D89D73C42E81",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:cloggrum_helmet",
+            },
+          },
+        },
+        {
+          id: "49F0C22C1F43E84F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:cloggrum_chestplate",
+            },
+          },
+        },
+        {
+          id: "656DF00F5087470A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:cloggrum_leggings",
+            },
+          },
+        },
+        {
+          id: "4C157C52273F16F6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:cloggrum_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2EC7D323677F9F38",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -6.5,
+      optional: true,
+      id: "041ED280691BB05D",
+      tasks: [
+        {
+          id: "189633E7DD6664EE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:froststeel_helmet",
+            },
+          },
+        },
+        {
+          id: "601F7D58993725F0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:froststeel_chestplate",
+            },
+          },
+        },
+        {
+          id: "079DA6A522BD5B47",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:froststeel_leggings",
+            },
+          },
+        },
+        {
+          id: "3826121820166039",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:froststeel_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26A3B5550B7A2512",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -8.5,
+      optional: true,
+      id: "2C387BFA6EE6FDB7",
+      tasks: [
+        {
+          id: "21B19769C255A094",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:utherium_helmet",
+            },
+          },
+        },
+        {
+          id: "7307464D421DBAD4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:utherium_chestplate",
+            },
+          },
+        },
+        {
+          id: "4D54B098B28CECAD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:utherium_leggings",
+            },
+          },
+        },
+        {
+          id: "5AB9F40994EBBD76",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:utherium_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "510FCE59A2EA5868",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 1.5,
+      shape: "hexagon",
+      optional: true,
+      id: "338BD467EBE6EE1F",
+      tasks: [
+        {
+          id: "1C029B0215BD806D",
+          type: "item",
+          item: {
+            id: "minecraft:sentry_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E06BD35091AD5E2",
+          type: "item",
+          item: {
+            id: "minecraft:sentry_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 1.5,
+      shape: "hexagon",
+      optional: true,
+      id: "1245126B4338C019",
+      tasks: [
+        {
+          id: "111C7D7EB9F0AB30",
+          type: "item",
+          item: {
+            id: "minecraft:vex_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "582AA50F1F3A40C5",
+          type: "item",
+          item: {
+            id: "minecraft:vex_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 1.5,
+      shape: "hexagon",
+      optional: true,
+      id: "243008D4DCD789D0",
+      tasks: [
+        {
+          id: "64BDFC1B8E7C6BC2",
+          type: "item",
+          item: {
+            id: "minecraft:wild_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42CB2AE8692AFC15",
+          type: "item",
+          item: {
+            id: "minecraft:wild_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 2.5,
+      shape: "hexagon",
+      optional: true,
+      id: "3AE0198177A8E91B",
+      tasks: [
+        {
+          id: "33B4B2E11DEF74E2",
+          type: "item",
+          item: {
+            id: "minecraft:coast_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21F2E6AD4371C6B7",
+          type: "item",
+          item: {
+            id: "minecraft:coast_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 4.5,
+      shape: "hexagon",
+      optional: true,
+      id: "39796D8EE440F318",
+      tasks: [
+        {
+          id: "3256974258346754",
+          type: "item",
+          item: {
+            id: "minecraft:dune_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A25DDB9105E1DDA",
+          type: "item",
+          item: {
+            id: "minecraft:dune_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 2.5,
+      shape: "hexagon",
+      optional: true,
+      id: "62161BDE9AAAA4BF",
+      tasks: [
+        {
+          id: "7AF021834FEC9592",
+          type: "item",
+          item: {
+            id: "minecraft:wayfinder_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31A40D8B17901C38",
+          type: "item",
+          item: {
+            id: "minecraft:wayfinder_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 2.5,
+      shape: "hexagon",
+      optional: true,
+      id: "1E3E688B3B52C4D2",
+      tasks: [
+        {
+          id: "15F5244A4215F3EF",
+          type: "item",
+          item: {
+            id: "minecraft:raiser_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "012DE46CBAA9D907",
+          type: "item",
+          item: {
+            id: "minecraft:raiser_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 2.5,
+      shape: "hexagon",
+      optional: true,
+      id: "1CC627D3FB348C89",
+      tasks: [
+        {
+          id: "78EB3B59C1A91FEB",
+          type: "item",
+          item: {
+            id: "minecraft:shaper_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D956750E8F40299",
+          type: "item",
+          item: {
+            id: "minecraft:shaper_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 2.5,
+      shape: "hexagon",
+      optional: true,
+      id: "4B9C54DA5CB6D5C9",
+      tasks: [
+        {
+          id: "5DBBB93EDD80E741",
+          type: "item",
+          item: {
+            id: "minecraft:host_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "323D89211C33B329",
+          type: "item",
+          item: {
+            id: "minecraft:host_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 4.5,
+      shape: "hexagon",
+      optional: true,
+      id: "65E733AACBE62EDB",
+      tasks: [
+        {
+          id: "724B902D63F0D471",
+          type: "item",
+          item: {
+            id: "minecraft:ward_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1596D052C9E24B90",
+          type: "item",
+          item: {
+            id: "minecraft:ward_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 4.5,
+      shape: "hexagon",
+      optional: true,
+      id: "76CDF08465700AA2",
+      tasks: [
+        {
+          id: "1BA0343D87EA3239",
+          type: "item",
+          item: {
+            id: "minecraft:silence_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7826AAD9CE0A99D1",
+          type: "item",
+          item: {
+            id: "minecraft:silence_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 3.5,
+      shape: "hexagon",
+      optional: true,
+      id: "66C21934DAFFAC7F",
+      tasks: [
+        {
+          id: "431BF9E461342FFC",
+          type: "item",
+          item: {
+            id: "minecraft:tide_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "579B7635418E51C3",
+          type: "item",
+          item: {
+            id: "minecraft:tide_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: 3.5,
+      shape: "hexagon",
+      optional: true,
+      id: "5C83D5CDD980FD9A",
+      tasks: [
+        {
+          id: "166C7B8641947318",
+          type: "item",
+          item: {
+            id: "minecraft:snout_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6645F6A1B6A9CBD8",
+          type: "item",
+          item: {
+            id: "minecraft:snout_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 3.5,
+      shape: "hexagon",
+      optional: true,
+      id: "0F1D6F4729CC38F3",
+      tasks: [
+        {
+          id: "145DA8E241411C05",
+          type: "item",
+          item: {
+            id: "minecraft:rib_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F8F9603F9C319E3",
+          type: "item",
+          item: {
+            id: "minecraft:rib_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 3.5,
+      shape: "hexagon",
+      optional: true,
+      id: "68DABFFB6B3E1A57",
+      tasks: [
+        {
+          id: "6515A5B7CE3527BD",
+          type: "item",
+          item: {
+            id: "minecraft:eye_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "198163E77C7593DE",
+          type: "item",
+          item: {
+            id: "minecraft:eye_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 3.5,
+      shape: "hexagon",
+      optional: true,
+      id: "351159C55159C316",
+      tasks: [
+        {
+          id: "577EECFDCD8E0424",
+          type: "item",
+          item: {
+            id: "minecraft:spire_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F5EB18768FA2483",
+          type: "item",
+          item: {
+            id: "minecraft:spire_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 1.5,
+      shape: "hexagon",
+      optional: true,
+      id: "3EA3A6414AB8A39C",
+      tasks: [
+        {
+          id: "02562B17AE7C182B",
+          type: "item",
+          item: {
+            id: "minecraft:flow_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0142A76E3FBA4F21",
+          type: "item",
+          item: {
+            id: "minecraft:flow_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 1.5,
+      shape: "hexagon",
+      optional: true,
+      id: "729DCB919A92B735",
+      tasks: [
+        {
+          id: "4AC8693A533753FD",
+          type: "item",
+          item: {
+            id: "minecraft:bolt_armor_trim_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C3AD44ABA1726A0",
+          type: "item",
+          item: {
+            id: "minecraft:bolt_armor_trim_smithing_template",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 4.5,
+      shape: "hexagon",
+      optional: true,
+      id: "361C9D90617E6D38",
+      tasks: [
+        {
+          id: "0A0D098A38CAB990",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:keeper_armor_trim_smithing_template",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3EBF08632A102810",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:keeper_armor_trim_smithing_template",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 4.5,
+      shape: "hexagon",
+      optional: true,
+      id: "3F0CD2C03CD7D730",
+      tasks: [
+        {
+          id: "5A6306A622D2BFF6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:forge_armor_trim_smithing_template",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D457AD19A78B00B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:forge_armor_trim_smithing_template",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 1.5,
+      shape: "circle",
+      id: "1FC7ABEAB5018E79",
+      tasks: [
+        {
+          id: "426BED88B406A44B",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7924BB8EEB78DE0D",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 1.5,
+      shape: "circle",
+      id: "3AA836E8EDB52097",
+      tasks: [
+        {
+          id: "0197CC61699DBE7D",
+          type: "item",
+          item: {
+            id: "minecraft:lapis_lazuli",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "358E378F267AFB26",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 3.5,
+      shape: "circle",
+      id: "4DF683461225690F",
+      tasks: [
+        {
+          id: "7C3D8A97769BBBE3",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "371FBF809ACA40B9",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: 3.5,
+      shape: "circle",
+      id: "3685B52446DEC809",
+      tasks: [
+        {
+          id: "16BC496604F56E3B",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B7302E781A6AC1B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 3.5,
+      shape: "circle",
+      id: "211FD55DEB635A98",
+      tasks: [
+        {
+          id: "14ACE78261F4EE35",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56D78BABD9B9E1ED",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 13.0,
+      y: 2.5,
+      shape: "circle",
+      id: "1D91E37BFD8CC911",
+      tasks: [
+        {
+          id: "4795ADB0596D26DA",
+          type: "item",
+          item: {
+            id: "minecraft:emerald",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3413D696818CAB11",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: 2.5,
+      shape: "circle",
+      id: "6B671CB07D046BEC",
+      tasks: [
+        {
+          id: "290255C654A57980",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2399FCE4B2CC24CB",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: 3.5,
+      shape: "circle",
+      id: "1EABF2E7AE7B8F22",
+      tasks: [
+        {
+          id: "39E3DA5BA041E2A4",
+          type: "item",
+          item: {
+            id: "minecraft:netherite_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01C3DA9AFAB946FA",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: 1.5,
+      shape: "circle",
+      id: "3FCEF8FF45E51608",
+      tasks: [
+        {
+          id: "05FD7D9C29619813",
+          type: "item",
+          item: {
+            id: "minecraft:quartz",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B0D743AA8171F56",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: 1.5,
+      shape: "circle",
+      id: "452DC5EB02D592B8",
+      tasks: [
+        {
+          id: "4C45690D5EBCAB90",
+          type: "item",
+          item: {
+            id: "minecraft:amethyst_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CBD336F657D5F0A",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 16.5,
+      y: 1.5,
+      shape: "circle",
+      optional: true,
+      id: "72D578686C47B154",
+      tasks: [
+        {
+          id: "1FC1155134A6CD18",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:red_starlight_crystal_shard",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45E17580CCFB2497",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 17.5,
+      y: 1.5,
+      shape: "circle",
+      optional: true,
+      id: "2D93888313B03029",
+      tasks: [
+        {
+          id: "7604AD27B50D8665",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:blue_starlight_crystal_shard",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55341BA803F79B74",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: 1.5,
+      shape: "circle",
+      optional: true,
+      id: "333682022948E2F3",
+      tasks: [
+        {
+          id: "611F7B6AE18204B5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:thioquartz_shard",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34749D2D82463B89",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 17.5,
+      y: 3.5,
+      shape: "circle",
+      optional: true,
+      id: "7B76EC62E3F7E12C",
+      tasks: [
+        {
+          id: "0A585E6868ED8B8E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:aethersent_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C1ADF1B6F1BBF24",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: 3.5,
+      shape: "circle",
+      optional: true,
+      id: "672AC964851832EB",
+      tasks: [
+        {
+          id: "53E8D3055F57BC80",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:swamp_silver_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3EB06C0957B5895E",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: 3.5,
+      shape: "circle",
+      optional: true,
+      id: "6A21228B0511FF85",
+      tasks: [
+        {
+          id: "32B8B7FDC67AEB9D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:thermal_springstone_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BF87630A60C28C2",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: 1.5,
+      shape: "circle",
+      optional: true,
+      id: "42AAEC41F2BC2474",
+      tasks: [
+        {
+          id: "0370427C9119331B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:glacite_shard",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37AA71D404447956",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 16.5,
+      y: 3.5,
+      shape: "circle",
+      optional: true,
+      id: "756628F4B7F79446",
+      tasks: [
+        {
+          id: "5B674D7133C6F38D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:amaramber_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "048122844E56B6AE",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 17.0,
+      y: 2.5,
+      shape: "circle",
+      optional: true,
+      id: "05B5E640F1B68A28",
+      tasks: [
+        {
+          id: "766133F757184296",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:golem_steel_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1795D00DE70B3AFB",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 19.0,
+      y: 2.5,
+      shape: "circle",
+      optional: true,
+      id: "3B4511E7DC788AB3",
+      tasks: [
+        {
+          id: "2252C19CFA6C4B9D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "eternal_starlight:tenacious_petal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "196F0DEA920C3DEF",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 15.0,
+      y: 1.5,
+      shape: "circle",
+      id: "5E7CCDE9229A646A",
+      tasks: [
+        {
+          id: "4D675C59655C5C01",
+          type: "item",
+          item: {
+            id: "allthemodium:allthemodium_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "310ECB2230AF4056",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 15.0,
+      y: 2.5,
+      shape: "circle",
+      id: "5A9C646718EE92C2",
+      tasks: [
+        {
+          id: "4332D30704E8C7D4",
+          type: "item",
+          item: {
+            id: "allthemodium:vibranium_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "091009E654CC423B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 15.0,
+      y: 3.5,
+      shape: "circle",
+      id: "7279700A93E8630B",
+      tasks: [
+        {
+          id: "267C104C69119E89",
+          type: "item",
+          item: {
+            id: "allthemodium:unobtainium_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06A35FC505F91DEE",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "788A7A2F1F438B64",
+      tasks: [
+        {
+          id: "200F417B329F2586",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:cloggrum_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B741FFAF7C388C6",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 11.0,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "16359196D49A6223",
+      tasks: [
+        {
+          id: "32CD4AA3FA13CBB4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:froststeel_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D97F33159684397",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 12.0,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "690DB8BEF80617E5",
+      tasks: [
+        {
+          id: "48C6DAD18B86BEDF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:utherium_crystal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "138C34CB09ADBCD7",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 13.0,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "498483750C18FCD6",
+      tasks: [
+        {
+          id: "75AB9C1D5AA5C780",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:regalium_crystal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "147A9580A29898D9",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 14.0,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "5E6D7C1D7957DD4D",
+      tasks: [
+        {
+          id: "73A2C0F292A8F705",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "undergarden:forgotten_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13FE36915E4BD1FB",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 22.0,
+      y: -6.75,
+      size: 1.5,
+      optional: true,
+      id: "1C27C74722A19FC1",
+      tasks: [
+        {
+          id: "5E5BB51E9BFAECA7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:mekasuit_helmet",
+            },
+          },
+        },
+        {
+          id: "65CB753515B752BB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:mekasuit_bodyarmor",
+            },
+          },
+        },
+        {
+          id: "4900B2531D78CCE1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:mekasuit_pants",
+            },
+          },
+        },
+        {
+          id: "0D8A0F6AAACD4490",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:mekasuit_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E5F0AC6B137FDC9",
+          type: "xp_levels",
+          xp_levels: 30,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 3.0,
+      shape: "gear",
+      size: 4.0,
+      id: "7F11ABFB2E21B7E4",
+      tasks: [
+        {
+          id: "230929CC1A1BAD32",
+          type: "item",
+          item: {
+            id: "minecraft:smithing_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C3FA8D31787F963",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 6.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "04B31A600004F7CB",
+      tasks: [
+        {
+          id: "4BDF268861CA744F",
+          type: "checkmark",
+        },
+        {
+          id: "57895147416291FE",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -7.0,
+      optional: true,
+      id: "3215A3D706CECCEF",
+      tasks: [
+        {
+          id: "431707BC9C3528DD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:ironwood_helmet",
+            },
+          },
+        },
+        {
+          id: "10BC689D545D1870",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:ironwood_chestplate",
+            },
+          },
+        },
+        {
+          id: "4B7B84ACD17773A8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:ironwood_leggings",
+            },
+          },
+        },
+        {
+          id: "64C439E8FC1D3708",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:ironwood_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2655900FB6DB26FA",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -3.5,
+      optional: true,
+      id: "30A61E1A1EFA81E6",
+      tasks: [
+        {
+          id: "46EFEFF32FE4D730",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:steeleaf_helmet",
+            },
+          },
+        },
+        {
+          id: "581DC07847EC3A7C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:steeleaf_chestplate",
+            },
+          },
+        },
+        {
+          id: "4D93B214C0C68B93",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:steeleaf_leggings",
+            },
+          },
+        },
+        {
+          id: "7FADF4F1520D26CC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:steeleaf_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F9F8371C9D24218",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -3.5,
+      optional: true,
+      id: "6F335B4F3FD660E7",
+      tasks: [
+        {
+          id: "6E0AC216105E53DA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:knightmetal_helmet",
+            },
+          },
+        },
+        {
+          id: "61AB232FA7BBD09F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:knightmetal_chestplate",
+            },
+          },
+        },
+        {
+          id: "33AC6DA0DD5FC353",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:knightmetal_leggings",
+            },
+          },
+        },
+        {
+          id: "2E3A4DCAECC2A880",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:knightmetal_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6AE9D2B7704F7336",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: -4.5,
+      optional: true,
+      id: "3061B67330367CE2",
+      tasks: [
+        {
+          id: "6F9146859A9AFF8C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:fiery_helmet",
+            },
+          },
+        },
+        {
+          id: "684F701B235D4A13",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:fiery_chestplate",
+            },
+          },
+        },
+        {
+          id: "38E7F992C422761A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:fiery_leggings",
+            },
+          },
+        },
+        {
+          id: "6A4D7A78B26A0089",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:fiery_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55931ECD588C9370",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -5.0,
+      optional: true,
+      id: "1452D9CF827782B5",
+      tasks: [
+        {
+          id: "3BB5D2F9EA4E7874",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:arctic_helmet",
+            },
+          },
+        },
+        {
+          id: "1F5A503E6527E499",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:arctic_chestplate",
+            },
+          },
+        },
+        {
+          id: "20263C2E79446597",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:arctic_leggings",
+            },
+          },
+        },
+        {
+          id: "4CD08502735C9562",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:arctic_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47565BBADF21BA9B",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -3.5,
+      optional: true,
+      id: "52A29269A23F85B3",
+      tasks: [
+        {
+          id: "47B5191FB3FE8DCD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:yeti_helmet",
+            },
+          },
+        },
+        {
+          id: "1D124E1EF54CC9B4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:yeti_chestplate",
+            },
+          },
+        },
+        {
+          id: "1BA0C9EE6D4F05A1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:yeti_leggings",
+            },
+          },
+        },
+        {
+          id: "26C64FF965BB659E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:yeti_boots",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C50351F5E0BF263",
+          type: "xp_levels",
+          xp_levels: 4,
+        },
+      ],
+    },
+    {
+      x: 22.0,
+      y: -5.25,
+      size: 1.5,
+      optional: true,
+      id: "34D14B807A2DAC0F",
+      tasks: [
+        {
+          id: "727964D51499ECB2",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "0900CB4ED4965457",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "1189063326965BEE",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "22BC32353519A498",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0ECF71F2441B23CC",
+          type: "xp_levels",
+          xp_levels: 30,
+        },
+      ],
+    },
+    {
+      x: 15.5,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "055CCAE237DF3EEF",
+      tasks: [
+        {
+          id: "6133812BF2F62EF3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:ironwood_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "064E42C1B9071700",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 16.5,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "140DF670162C68DA",
+      tasks: [
+        {
+          id: "06302CB7FBC72D06",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:steeleaf_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "14C8352B1E7C3418",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 17.5,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "7FBC64E6408D8D7F",
+      tasks: [
+        {
+          id: "2B404A77CDDD71EE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:knightmetal_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E9583CD06EC948F",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 18.5,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "1D23F53C585185B7",
+      tasks: [
+        {
+          id: "4794D3FEBA6435C5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:naga_scale",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "222725DE91F338D4",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "606775701551F3EE",
+      tasks: [
+        {
+          id: "39B2A759F44C2BEB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:carminite",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B82F99AE345FD70",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 20.5,
+      y: 4.75,
+      shape: "circle",
+      optional: true,
+      id: "7F8B6D5F360D985A",
+      tasks: [
+        {
+          id: "7E77D2F303071514",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "twilightforest:fiery_ingot",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22A7F806F656779A",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 4.0,
+      y: -0.5,
+      width: 13.30952380952381,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_title.png",
+      id: "3185293AFA22C00F",
+    },
+    {
+      x: -3.5,
+      y: 6.0,
+      width: 9.982142857142858,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_trims.png",
+      id: "632D1D2E60576554",
+    },
+    {
+      x: 15.5,
+      y: 6.0,
+      width: 9.5,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_colors.png",
+      id: "5A32B81E5D181063",
+    },
+    {
+      x: -10.5,
+      y: -7.5,
+      width: 0.8059701492537313,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_7.png",
+      id: "53E08DF6DB73335B",
+    },
+    {
+      x: 0.5,
+      y: -10.5,
+      width: 1.4029850746268657,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_15.png",
+      id: "414807D68EBAB6D3",
+    },
+    {
+      x: 6.5,
+      y: -11.5,
+      width: 1.4029850746268657,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_20.png",
+      id: "50860739F9464AF1",
+    },
+    {
+      x: 12.5,
+      y: -8.5,
+      width: 1.4029850746268657,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_24.png",
+      id: "71434BCD7E5EAB15",
+    },
+    {
+      x: 17.5,
+      y: -8.5,
+      width: 1.4029850746268657,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_32.png",
+      id: "2CBE5D62257CB734",
+    },
+    {
+      x: 20.5,
+      y: -8.5,
+      width: 2.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_40.png",
+      id: "6A2A245064916A05",
+    },
+    {
+      x: -11.5,
+      y: -7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/hud/armor_full.png",
+      id: "2F80838C1CCDC116",
+    },
+    {
+      x: -0.5,
+      y: -10.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/hud/armor_full.png",
+      id: "6F72B6C1118B28DD",
+    },
+    {
+      x: 5.5,
+      y: -11.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/hud/armor_full.png",
+      id: "0E757DE6412296F9",
+    },
+    {
+      x: 11.5,
+      y: -8.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/hud/armor_full.png",
+      id: "53ECDD1B45FCB402",
+    },
+    {
+      x: 16.5,
+      y: -8.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/hud/armor_full.png",
+      id: "20A3DC3CB46F60C2",
+    },
+    {
+      x: 19.25,
+      y: -8.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/hud/armor_full.png",
+      id: "1ED1D0DEB9130EA2",
+    },
+    {
+      x: -6.5,
+      y: -7.5,
+      width: 1.3880597014925373,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_11.png",
+      id: "533243C5BBF3E498",
+    },
+    {
+      x: -7.5,
+      y: -7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/hud/armor_full.png",
+      id: "088ED8CCCAAB1B54",
+    },
+    {
+      x: -3.0,
+      y: -0.5,
+      width: 1.859621451104101,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_redstone.png",
+      id: "46D3335DD324213E",
+    },
+    {
+      x: -6.0,
+      y: -0.5,
+      width: 1.9309791332263242,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_bolt.png",
+      id: "458DAF5AB63F58C5",
+    },
+    {
+      x: -4.5,
+      y: -0.5,
+      width: 1.7999999999999998,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_dune.png",
+      id: "1C2023426F3D9500",
+    },
+    {
+      x: 10.5,
+      y: -0.5,
+      width: 1.859621451104101,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_redstone.png",
+      id: "4C9BDCC011807010",
+    },
+    {
+      x: 12.0,
+      y: -0.5,
+      width: 1.735159817351598,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_copper.png",
+      id: "26A5F981232AAA61",
+    },
+    {
+      x: 15.0,
+      y: -0.5,
+      width: 1.8205928237129485,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_emerald.png",
+      id: "6E464A6D0B09DC2E",
+    },
+    {
+      x: 16.5,
+      y: -0.5,
+      width: 1.7999999999999998,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_blue.png",
+      id: "01F5BB10B6E578CC",
+    },
+    {
+      x: 18.0,
+      y: -0.5,
+      width: 1.828125,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_unobtainium.png",
+      id: "04600F7402A8CCC0",
+    },
+    {
+      x: 19.5,
+      y: -0.5,
+      width: 1.7279635258358663,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_netherite.png",
+      id: "414A5DD51A1825BA",
+    },
+    {
+      x: 21.0,
+      y: -0.5,
+      width: 1.8177570093457944,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_quartz.png",
+      id: "02438FEC66ECDF2B",
+    },
+    {
+      x: 13.5,
+      y: -0.5,
+      width: 1.9340836012861735,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/basicarmor/armor_regalium.png",
+      id: "2AC77589C34C89E4",
+    },
+  ],
+}

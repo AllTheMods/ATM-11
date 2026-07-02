@@ -1,0 +1,1647 @@
+{
+  id: "0AB4F9AED808DE48",
+  group: "3D4E23B1100491AB",
+  order_index: 2,
+  icon: {
+    id: "modularrouters:modular_router",
+    count: 1,
+  },
+  filename: "modular_router",
+  default_quest_shape: "square",
+  default_hide_dependency_lines: true,
+  progression_mode: "flexible",
+  quests: [
+    {
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      size: 2.0,
+      id: "63E4529AF8894018",
+      tasks: [
+        {
+          id: "08D4CEAE1B60A8C4",
+          type: "item",
+          item: {
+            id: "modularrouters:modular_router",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4100927F60249CD2",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 2.5,
+      dependencies: [
+        "63E4529AF8894018",
+      ],
+      size: 1.0,
+      icon_scale: 1.6,
+      id: "233C7CAA573D6045",
+      tasks: [
+        {
+          id: "3B06163129B8276F",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E463F41C3F9F434",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -3.5,
+      dependencies: [
+        "63E4529AF8894018",
+      ],
+      size: 1.0,
+      icon_scale: 1.6,
+      id: "75FE0B514448865B",
+      tasks: [
+        {
+          id: "012EA4B7B434EC45",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43E28DEED4445B5D",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -3.5,
+      dependencies: [
+        "63E4529AF8894018",
+      ],
+      size: 1.0,
+      icon_scale: 1.6,
+      id: "6648BC7D14233006",
+      tasks: [
+        {
+          id: "06D427AC0C2C34A2",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B18FA07F532A5B6",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -3.5,
+      dependencies: [
+        "75FE0B514448865B",
+      ],
+      id: "20D4568857887D38",
+      tasks: [
+        {
+          id: "23EBEF198A2C8DB6",
+          type: "item",
+          item: {
+            id: "modularrouters:blast_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67B59A005496AF95",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -2.5,
+      dependencies: [
+        "75FE0B514448865B",
+      ],
+      id: "09E25B1CD6CABD5A",
+      tasks: [
+        {
+          id: "766CBD152FEDF577",
+          type: "item",
+          item: {
+            id: "modularrouters:camouflage_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A90A9FB7F039AE0",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -1.5,
+      dependencies: [
+        "75FE0B514448865B",
+      ],
+      id: "1069244EB72F64CA",
+      tasks: [
+        {
+          id: "1D52EFEDE64C4A40",
+          type: "item",
+          item: {
+            id: "modularrouters:energy_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A93A6C81F908D5F",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -1.5,
+      dependencies: [
+        "75FE0B514448865B",
+      ],
+      id: "4FA5192164E4A427",
+      tasks: [
+        {
+          id: "30B31BFD457C85FB",
+          type: "item",
+          item: {
+            id: "modularrouters:fluid_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2DAF8FC58615592C",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -2.5,
+      dependencies: [
+        "75FE0B514448865B",
+      ],
+      id: "2447208F1DC74FFE",
+      tasks: [
+        {
+          id: "423F8BB90E4EAF61",
+          type: "item",
+          item: {
+            id: "modularrouters:muffler_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "691B6EAFF4712617",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -2.5,
+      dependencies: [
+        "75FE0B514448865B",
+      ],
+      id: "10672B5991E5FC34",
+      tasks: [
+        {
+          id: "7A44262F9ADCBF27",
+          type: "item",
+          item: {
+            id: "modularrouters:security_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CEECD21ED98315E",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -3.5,
+      dependencies: [
+        "75FE0B514448865B",
+      ],
+      id: "309B6B8368E535A0",
+      tasks: [
+        {
+          id: "2D6601DF1C229C1F",
+          type: "item",
+          item: {
+            id: "modularrouters:speed_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36F172F588DB8847",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -3.5,
+      dependencies: [
+        "75FE0B514448865B",
+      ],
+      id: "4CC963F5AECF285A",
+      tasks: [
+        {
+          id: "4D0FC01C8A201175",
+          type: "item",
+          item: {
+            id: "modularrouters:stack_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35AAFCB0899E5587",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -0.5,
+      dependencies: [
+        "75FE0B514448865B",
+      ],
+      id: "553C44F85E508DE3",
+      tasks: [
+        {
+          id: "6AAF612711A3A7AA",
+          type: "item",
+          item: {
+            id: "modularrouters:sync_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54C3ABFCF1716CA5",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_upgrade",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -0.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "0CE236731DF15DFF",
+      tasks: [
+        {
+          id: "7324614BF105A6CC",
+          type: "item",
+          item: {
+            id: "modularrouters:fast_pickup_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2EEBA8AC6795159F",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -0.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "76062D375E4CC8DD",
+      tasks: [
+        {
+          id: "6E394B94A54824DE",
+          type: "item",
+          item: {
+            id: "modularrouters:filter_round_robin_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57F328DE7702602B",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -3.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "2DD5F0693780B10A",
+      tasks: [
+        {
+          id: "5536050510B029C8",
+          type: "item",
+          item: {
+            id: "modularrouters:mimic_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A9D64240C49D62D",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -0.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "674F28BCA2E4A3C8",
+      tasks: [
+        {
+          id: "2835082179389E8E",
+          type: "item",
+          item: {
+            id: "modularrouters:regulator_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "474C8D97713CAB94",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -1.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "177396B9C4F9B3E2",
+      tasks: [
+        {
+          id: "6F6DAB4EA217843B",
+          type: "item",
+          item: {
+            id: "modularrouters:pickup_delay_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0494C547C8F4852A",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -1.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "5560F303C452E110",
+      tasks: [
+        {
+          id: "26F317C784B8EB41",
+          type: "item",
+          item: {
+            id: "modularrouters:pushing_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72A300745B1BAD82",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -2.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "1A806C1A54B26EB5",
+      tasks: [
+        {
+          id: "522EAFFE3BB0AEED",
+          type: "item",
+          item: {
+            id: "modularrouters:range_down_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1AFD453B64517C1D",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -2.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "4EAFE7B240AF0A4D",
+      tasks: [
+        {
+          id: "61990DF29765904E",
+          type: "item",
+          item: {
+            id: "modularrouters:range_up_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0AA5D556A6981D2D",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -1.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "3025081DA6D2B398",
+      tasks: [
+        {
+          id: "6988516896A11B77",
+          type: "item",
+          item: {
+            id: "modularrouters:redstone_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79EAE6180557E5A9",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -3.5,
+      dependencies: [
+        "6648BC7D14233006",
+        "4CC963F5AECF285A",
+      ],
+      id: "5FB29F3F4DF17765",
+      tasks: [
+        {
+          id: "0F4A2E8C9A3BCEB2",
+          type: "item",
+          item: {
+            id: "modularrouters:stack_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E374921446DDBC7",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -2.5,
+      dependencies: [
+        "6648BC7D14233006",
+      ],
+      id: "6B747129A85AA768",
+      tasks: [
+        {
+          id: "69A9229F1A9CC4AA",
+          type: "item",
+          item: {
+            id: "modularrouters:xp_vacuum_augment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44FB4D5F8088B6B0",
+          type: "item",
+          item: {
+            id: "modularrouters:augment_core",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 5.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "71A1FD0772453B51",
+      tasks: [
+        {
+          id: "08229003D4BAB8B9",
+          type: "item",
+          item: {
+            id: "modularrouters:activator_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "161A8E3E464D8E92",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 4.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "53B58FC3958750E7",
+      tasks: [
+        {
+          id: "22FF211D541738D9",
+          type: "item",
+          item: {
+            id: "modularrouters:breaker_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43B563A65E8D362C",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 2.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "01C5D8357D8B0D62",
+      tasks: [
+        {
+          id: "35176C32CFAE3BB7",
+          type: "item",
+          item: {
+            id: "modularrouters:detector_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03A278F3604FAB61",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 4.5,
+      dependencies: [
+        "233C7CAA573D6045",
+        "38954551309F42A7",
+      ],
+      id: "326C63F7DC713E71",
+      tasks: [
+        {
+          id: "11838D5D25FA3EDD",
+          type: "item",
+          item: {
+            id: "modularrouters:distributor_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E04C738333A4846",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 6.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "7F8DEDD0A54D1E11",
+      tasks: [
+        {
+          id: "4E2834A0DF0E3577",
+          type: "item",
+          item: {
+            id: "modularrouters:dropper_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A0049B7F81796AB",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 6.5,
+      dependencies: [
+        "326C63F7DC713E71",
+        "346B9339E3D66478",
+      ],
+      id: "2B60D123123A5E8E",
+      tasks: [
+        {
+          id: "2DB6B64AB076D1E2",
+          type: "item",
+          item: {
+            id: "modularrouters:energy_distributor_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "180857D9ED9ABC22",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 5.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "346B9339E3D66478",
+      tasks: [
+        {
+          id: "12C3BA50791B4CB8",
+          type: "item",
+          item: {
+            id: "modularrouters:energy_output_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21B90CA08ACC8A4F",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 2.5,
+      dependencies: [
+        "233C7CAA573D6045",
+        "53B58FC3958750E7",
+        "36DED7099E80ED51",
+      ],
+      id: "40788326E791845D",
+      tasks: [
+        {
+          id: "4EC73A189243D253",
+          type: "item",
+          item: {
+            id: "modularrouters:extruder_module_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41DB69BCD3E6419E",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 3.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "00E1F1279F97557B",
+      tasks: [
+        {
+          id: "001795B7BF11F948",
+          type: "item",
+          item: {
+            id: "modularrouters:extruder_module_2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5FE8CB5E9F5649EB",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 6.5,
+      dependencies: [
+        "7F8DEDD0A54D1E11",
+      ],
+      id: "3C54C36CE97A48DC",
+      tasks: [
+        {
+          id: "6C0562A6317BB343",
+          type: "item",
+          item: {
+            id: "modularrouters:flinger_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5757B94578F9920F",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 4.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "247DAE5B4E1AC7F1",
+      tasks: [
+        {
+          id: "48DE8F4C4D2661A1",
+          type: "item",
+          item: {
+            id: "modularrouters:fluid_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B695D87AA33273C",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 5.5,
+      dependencies: [
+        "247DAE5B4E1AC7F1",
+      ],
+      id: "73D60868024FF907",
+      tasks: [
+        {
+          id: "1FF3F8B78EF0DCB2",
+          type: "item",
+          item: {
+            id: "modularrouters:fluid_module_2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "189184BA4C1A13E7",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 3.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "36DED7099E80ED51",
+      tasks: [
+        {
+          id: "76E678E73AEEEC59",
+          type: "item",
+          item: {
+            id: "modularrouters:placer_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "088882B53F8B0CBB",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 5.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "0DC8B68CDF945348",
+      tasks: [
+        {
+          id: "6BD3CA765D912D6B",
+          type: "item",
+          item: {
+            id: "modularrouters:player_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F3C5DD0694B1E1A",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 6.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "1AA81C41431FD145",
+      tasks: [
+        {
+          id: "419242F445660844",
+          type: "item",
+          item: {
+            id: "modularrouters:puller_module_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C14105CC4A4E01D",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 6.5,
+      dependencies: [
+        "1AA81C41431FD145",
+      ],
+      id: "475E1B94A61B9EB0",
+      tasks: [
+        {
+          id: "36A18CBAE804CE6B",
+          type: "item",
+          item: {
+            id: "modularrouters:puller_module_2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D86B1835F9D422F",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 3.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "6063F4B7BE4D394C",
+      tasks: [
+        {
+          id: "7AD327057658EE62",
+          type: "item",
+          item: {
+            id: "modularrouters:sender_module_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B7F8E2761AE6D4D",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 3.5,
+      dependencies: [
+        "6063F4B7BE4D394C",
+      ],
+      id: "38954551309F42A7",
+      tasks: [
+        {
+          id: "36B1EBB1CE94001B",
+          type: "item",
+          item: {
+            id: "modularrouters:sender_module_2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C035E94B0139C57",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 3.5,
+      dependencies: [
+        "38954551309F42A7",
+      ],
+      id: "2405663C033CBDF1",
+      tasks: [
+        {
+          id: "724A52B910305B55",
+          type: "item",
+          item: {
+            id: "modularrouters:sender_module_3",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E6116F9A969F345",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 5.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "417B88FEB1B8F44E",
+      tasks: [
+        {
+          id: "0FFBCEC7273ED2C3",
+          type: "item",
+          item: {
+            id: "modularrouters:vacuum_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "647D161F1B234A44",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 4.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "185074907753AE77",
+      tasks: [
+        {
+          id: "3B2EF593E573C2B8",
+          type: "item",
+          item: {
+            id: "modularrouters:void_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21C32588D339B8FF",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "modularrouters:creative_module",
+        count: 1,
+      },
+      x: 0.0,
+      y: 4.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "71FDF8CD953E46FC",
+      tasks: [
+        {
+          id: "41EEE559F6402D81",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "166D6D4C252D5E89",
+          type: "item",
+          item: {
+            id: "modularrouters:blank_module",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 7.5,
+      dependencies: [
+        "233C7CAA573D6045",
+      ],
+      id: "143AE6889BDA9EF5",
+      tasks: [
+        {
+          id: "3057A10D6D3A75D2",
+          type: "item",
+          item: {
+            id: "modularrouters:bulk_item_filter",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 7.5,
+      dependencies: [
+        "143AE6889BDA9EF5",
+      ],
+      id: "4A03A671757B2EBF",
+      tasks: [
+        {
+          id: "107FE3495FC5C0E7",
+          type: "item",
+          item: {
+            id: "modularrouters:inspection_filter",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 7.5,
+      dependencies: [
+        "143AE6889BDA9EF5",
+      ],
+      id: "6E5954C257726F86",
+      tasks: [
+        {
+          id: "5BBF911BE5066A17",
+          type: "item",
+          item: {
+            id: "modularrouters:mod_filter",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 7.5,
+      dependencies: [
+        "143AE6889BDA9EF5",
+      ],
+      id: "72A71E1D6D8996FD",
+      tasks: [
+        {
+          id: "6E646B9915327365",
+          type: "item",
+          item: {
+            id: "modularrouters:regex_filter",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 7.5,
+      dependencies: [
+        "143AE6889BDA9EF5",
+      ],
+      id: "37F2BE3C2BAF7C2D",
+      tasks: [
+        {
+          id: "7264131AC34825C1",
+          type: "item",
+          item: {
+            id: "modularrouters:tag_filter",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 3.2500000000000004,
+      y: 2.6,
+      shape: "rsquare",
+      dependencies: [
+        "63E4529AF8894018",
+      ],
+      size: 1.3,
+      id: "53A5F5E49EA8D5AF",
+      tasks: [
+        {
+          id: "69CFBD2DF15EBA0D",
+          type: "item",
+          item: {
+            id: "modularrouters:vacuum_module",
+            count: 1,
+          },
+        },
+        {
+          id: "4DF12505FADDD7CC",
+          type: "item",
+          item: {
+            id: "modularrouters:void_module",
+            count: 1,
+          },
+        },
+        {
+          id: "631388151555159B",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(modularrouters:sender_module_1)item(modularrouters:sender_module_2)item(modularrouters:sender_module_3))",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -3.2500000000000004,
+      y: 2.6,
+      shape: "rsquare",
+      dependencies: [
+        "63E4529AF8894018",
+      ],
+      size: 1.3,
+      id: "067AB3E4C4492F0D",
+      tasks: [
+        {
+          id: "57087F48FE77A610",
+          type: "item",
+          item: {
+            id: "modularrouters:breaker_module",
+            count: 1,
+          },
+        },
+        {
+          id: "3EEBE2CA2BFBB571",
+          type: "item",
+          item: {
+            id: "modularrouters:placer_module",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      shape: "rsquare",
+      dependencies: [
+        "63E4529AF8894018",
+      ],
+      size: 1.3,
+      id: "0D5691403AEC25A8",
+      tasks: [
+        {
+          id: "4BC6CEDE3846216D",
+          type: "item",
+          item: {
+            id: "modularrouters:activator_module",
+            count: 1,
+          },
+        },
+        {
+          id: "7B42B98FBD1C3654",
+          type: "item",
+          item: {
+            id: "modularrouters:vacuum_module",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 1.5,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "2BB5769119BA2472",
+      tasks: [
+        {
+          id: "3007461CFCC0A013",
+          type: "checkmark",
+        },
+        {
+          id: "76EEAE9313F68334",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "modularrouters:block/modular_router_front_active",
+      id: "0FDD4C8FBB4A77E6",
+    },
+    {
+      x: -3.5,
+      y: -2.0,
+      width: 5.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "modularrouters:item/augment_core",
+      id: "13DBDF8C37DC5044",
+    },
+    {
+      x: 3.0,
+      y: -2.0,
+      width: 5.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "modularrouters:item/upgrade/upgrade_layer1",
+      id: "125FE12BE1E03378",
+    },
+    {
+      x: 3.0,
+      y: -2.0,
+      width: 5.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "modularrouters:item/upgrade/upgrade_layer0",
+      id: "2BD54D34BDD08CDF",
+    },
+    {
+      x: 0.0,
+      y: 5.0,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "modularrouters:item/module/module_layer1",
+      id: "45D6B53B995D9101",
+    },
+    {
+      x: 0.0,
+      y: 5.0,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "modularrouters:item/module/module_layer0",
+      id: "60C7E1549894EAA6",
+    },
+    {
+      x: 1.5,
+      y: 1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "modularrouters:block/modular_router_front_active",
+      id: "075F56BF977C4C31",
+    },
+    {
+      x: -1.5,
+      y: 1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "modularrouters:block/modular_router_front_active",
+      id: "38D34A082E899FCA",
+    },
+    {
+      x: 0.0,
+      y: -6.5,
+      width: 8.130252100840336,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/router/router_title.png",
+      id: "63404DBBA8B3C541",
+    },
+  ],
+}

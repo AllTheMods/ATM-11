@@ -1,0 +1,187 @@
+{
+  id: "5B00676D79306EA2",
+  group: "",
+  order_index: 1,
+  icon: {
+    id: "ftbquests:book",
+    count: 1,
+  },
+  filename: "welcome",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      icon: {
+        id: "allthetweaks:atm_star",
+        count: 1,
+      },
+      x: 0.0,
+      y: -0.49642857142856656,
+      shape: "pentagon",
+      size: 3.0,
+      icon_scale: 0.9,
+      id: "3BC0A50886A3222B",
+      tasks: [
+        {
+          id: "33218EFDD498E9DB",
+          type: "dimension",
+          dimension: "minecraft:overworld",
+        },
+      ],
+      rewards: [
+        {
+          id: "4956CB79E44FB523",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:book",
+        count: 1,
+      },
+      x: 2.5,
+      y: -0.5,
+      shape: "rsquare",
+      size: 1.5,
+      min_width: 250,
+      id: "3708A4780ACEB34E",
+      tasks: [
+        {
+          id: "52BB142F044075B4",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4A56DF6E0204666C",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftbteams:textures/settings.png",
+        },
+      },
+      x: -2.5,
+      y: -0.5,
+      shape: "rsquare",
+      size: 1.5,
+      min_width: 350,
+      id: "7658C1C663394E85",
+      tasks: [
+        {
+          id: "10A16F89D4AD238D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5007C73E170C4FF6",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftbchunks:textures/waypoint_home.png",
+        },
+      },
+      x: 4.5,
+      y: -0.5,
+      size: 1.5,
+      id: "0C93D7A607AB8B83",
+      tasks: [
+        {
+          id: "103C42C743E2A2DB",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1B044C35466AFAEF",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftbteams:textures/teams.png",
+        },
+      },
+      x: -4.5,
+      y: -0.5,
+      size: 1.5,
+      id: "5AC1BE754210429E",
+      tasks: [
+        {
+          id: "4F13A02FB0055A62",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "101D2FD24AB845AC",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 4.5,
+      optional: true,
+      invisible: true,
+      id: "49EDAA2F57D3BF1D",
+      tasks: [
+        {
+          id: "2C816285392535F0",
+          type: "checkmark",
+        },
+        {
+          id: "201F519941A2C7F4",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -4.5,
+      width: 5.0,
+      height: 5.0,
+      rotation: 8.0,
+      image: "atm:textures/logo.png",
+      corner: true,
+      id: "647A637CA86F4B42",
+    },
+    {
+      x: 0.0,
+      y: 1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 180.0,
+      image: "ftbchunks:textures/waypoint_default.png",
+      click: "https://discord.gg/allthemods",
+      id: "70A6DE951A7B3BE2",
+    },
+  ],
+}

@@ -1,0 +1,118 @@
+{
+  id: "5F919CCD30D9E7F6",
+  order_index: 51,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "079FD1914F60EC8C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:electronic_circuit_board",
+        },
+      },
+      count: 2,
+    },
+    {
+      id: "6DC74DA40023B45D",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:electronic_circuit",
+        },
+      },
+      weight: 0.8,
+    },
+    {
+      id: "647ADEC18F140711",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:cupronickel_cable",
+        },
+      },
+      count: 8,
+    },
+    {
+      id: "2867FB75ED1C7466",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:advanced_machine_hull",
+        },
+      },
+    },
+    {
+      id: "7E297C0C605B7362",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:advanced_item_input_hatch",
+        },
+      },
+      weight: 0.8,
+    },
+    {
+      id: "7CBD7AB96E61EEB6",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:advanced_item_output_hatch",
+        },
+      },
+      weight: 0.8,
+    },
+    {
+      id: "5889A1BDCA29F78C",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:advanced_fluid_output_hatch",
+        },
+      },
+      weight: 0.8,
+    },
+    {
+      id: "42F1FFC638B65C6B",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:advanced_fluid_input_hatch",
+        },
+      },
+      weight: 0.8,
+    },
+    {
+      id: "36EF5EAA4A3CA01A",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:silicon_ingot",
+        },
+      },
+      count: 8,
+    },
+    {
+      id: "76BACE71BA3102C5",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:monazite_dust",
+        },
+      },
+      count: 32,
+    },
+  ],
+}

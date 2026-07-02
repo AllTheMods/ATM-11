@@ -1,0 +1,116 @@
+{
+  id: "00E1FAFD0EF07752",
+  order_index: 49,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "679FBBB8A1AA1C64",
+      item: {
+        id: "alltheores:bronze_ingot",
+        count: 1,
+      },
+      count: 16,
+    },
+    {
+      id: "4A0CCCBC8F14FFAA",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:bronze_machine_casing",
+        },
+      },
+      count: 2,
+      weight: 0.8,
+    },
+    {
+      id: "7BAD2739267092D9",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:bronze_tank",
+        },
+      },
+    },
+    {
+      id: "01F7562CC328ECC7",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:coke",
+        },
+      },
+      count: 16,
+      weight: 0.8,
+    },
+    {
+      id: "6FE6E02A2CFD7AB4",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:coke",
+        },
+      },
+      count: 8,
+      weight: 0.9,
+    },
+    {
+      id: "7249DABDD93110F8",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:bronze_rotor",
+        },
+      },
+      count: 4,
+      weight: 0.6,
+    },
+    {
+      id: "18B534E28E8FF741",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:bronze_curved_plate",
+        },
+      },
+      count: 4,
+      weight: 0.6,
+    },
+    {
+      id: "688E20D8ECBDAC8E",
+      item: {
+        id: "minecraft:gunpowder",
+        count: 1,
+      },
+      count: 32,
+    },
+    {
+      id: "2A23274756CAD168",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:fluid_pipe",
+        },
+      },
+      count: 12,
+      weight: 0.9,
+    },
+    {
+      id: "7167E7F866124A9D",
+      item: {
+        id: "alltheores:steel_ingot",
+        count: 1,
+      },
+      count: 8,
+      weight: 0.7,
+    },
+  ],
+}

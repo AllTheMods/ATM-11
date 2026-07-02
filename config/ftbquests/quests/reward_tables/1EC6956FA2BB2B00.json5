@@ -1,0 +1,124 @@
+{
+  id: "1EC6956FA2BB2B00",
+  order_index: 38,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "599962C71292E318",
+      item: {
+        id: "minecraft:chest",
+        count: 1,
+      },
+      count: 3,
+      random_bonus: 2,
+      weight: 1.5,
+    },
+    {
+      id: "3DC9B3685E4C8492",
+      item: {
+        id: "minecraft:barrel",
+        count: 1,
+      },
+      count: 3,
+      random_bonus: 2,
+      weight: 1.5,
+    },
+    {
+      id: "64AFAC5396968DF8",
+      item: {
+        id: "minecraft:ender_chest",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 0.75,
+    },
+    {
+      id: "26DFB8860811B338",
+      item: {
+        id: "sophisticatedstorage:upgrade_base",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "49B02DB1CBAE715B",
+      item: {
+        id: "sophisticatedbackpacks:upgrade_base",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "035791A1CC2639D4",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "functionalstorage:oak_1",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+    },
+    {
+      id: "09AEBD67369F6FF7",
+      item: {
+        id: "minecraft:chest_minecart",
+        count: 1,
+      },
+    },
+    {
+      id: "7C2FF93221715446",
+      item: {
+        id: "minecraft:hopper",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 1.5,
+    },
+    {
+      id: "185EB7E09EAFBB69",
+      item: {
+        id: "sophisticatedstorage:packing_tape",
+        count: 1,
+      },
+    },
+    {
+      id: "3AA1435E1D7007F8",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "trashcans:item_trash_can",
+        },
+      },
+    },
+    {
+      id: "02BA8DC1689E6AB0",
+      item: {
+        id: "minecraft:oak_chest_boat",
+        count: 1,
+      },
+    },
+    {
+      id: "63CA60C3120B6956",
+      item: {
+        id: "sophisticatedstorage:chest",
+        count: 1,
+        components: {
+          "sophisticatedstorage:wood_type": "oak",
+        },
+      },
+      count: 2,
+      random_bonus: 1,
+      weight: 1.5,
+    },
+  ],
+}

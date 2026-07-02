@@ -1,0 +1,4568 @@
+{
+  id: "0B826D13BAD43EEB",
+  group: "2B51AC12041E3F89",
+  order_index: 1,
+  icon: {
+    id: "ftbquests:missing_item",
+    count: 1,
+    components: {
+      "ftbquests:missing_item": "draconicevolution:awakened_core",
+    },
+  },
+  filename: "draconic_evolution",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      x: 17.25,
+      y: -12.0,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "574E5806D1A98FE5",
+      tasks: [
+        {
+          id: "1D76A5C236FC8717",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconium_energy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A1B214896CADF59",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -12.0,
+      shape: "square",
+      dependencies: [
+        "574E5806D1A98FE5",
+      ],
+      size: 0.75,
+      id: "120B403D56EE5C79",
+      tasks: [
+        {
+          id: "10764264F36D3ED8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_energy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6AC58363EDEC7B2A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -12.0,
+      shape: "square",
+      dependencies: [
+        "120B403D56EE5C79",
+      ],
+      size: 0.75,
+      id: "5021D159A5EC2315",
+      tasks: [
+        {
+          id: "30574D39064813B9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_energy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01AF0C1D9B9EB1E0",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -12.0,
+      shape: "square",
+      dependencies: [
+        "5021D159A5EC2315",
+      ],
+      size: 0.75,
+      id: "54F78C9A945CF0E7",
+      tasks: [
+        {
+          id: "7EEBD2FBBE9762E8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_energy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A2728A923F439CD",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 17.25,
+      y: -10.5,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "7C54581562D2EA75",
+      tasks: [
+        {
+          id: "02D424E19C5B49D3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconium_speed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BB6811D3AF64A43",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -10.5,
+      shape: "square",
+      dependencies: [
+        "7C54581562D2EA75",
+      ],
+      size: 0.75,
+      id: "2AA08313F927981E",
+      tasks: [
+        {
+          id: "2E73CED80A975B02",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_speed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41BA34EC0065F8A8",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -10.5,
+      shape: "square",
+      dependencies: [
+        "2AA08313F927981E",
+      ],
+      size: 0.75,
+      id: "28AF8DD34412CBAA",
+      tasks: [
+        {
+          id: "2335FC0A8CDCE48C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_speed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34CBBBF2D6236D77",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -10.5,
+      shape: "square",
+      dependencies: [
+        "28AF8DD34412CBAA",
+      ],
+      size: 0.75,
+      id: "2A5C5B44E9643A5D",
+      tasks: [
+        {
+          id: "77F5E176FDD21534",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_speed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0108EA0A77EAD8AA",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -0.75,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "4CD2ADD3601B8191",
+      tasks: [
+        {
+          id: "4DB67015C52358FC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_shield_recovery",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "549DB2B92186656C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -0.75,
+      shape: "square",
+      dependencies: [
+        "4CD2ADD3601B8191",
+      ],
+      size: 0.75,
+      id: "594BBD31461F212D",
+      tasks: [
+        {
+          id: "56B97A32636D2195",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_shield_recovery",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FE573139A791AE8",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -0.75,
+      shape: "square",
+      dependencies: [
+        "594BBD31461F212D",
+      ],
+      size: 0.75,
+      id: "0AE8B51D63327EC3",
+      tasks: [
+        {
+          id: "2727668096263E0F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_shield_recovery",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A73D88E2CF02062",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -2.25,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "37CC51B689CB8A40",
+      tasks: [
+        {
+          id: "43159CD00B790742",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_shield_capacity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "389CD1FD2E15FCE4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -2.25,
+      shape: "square",
+      dependencies: [
+        "37CC51B689CB8A40",
+      ],
+      size: 0.75,
+      id: "76064465104B1C28",
+      tasks: [
+        {
+          id: "701E53B2A54779D9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_shield_capacity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "013043A10A13DD74",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -2.25,
+      shape: "square",
+      dependencies: [
+        "76064465104B1C28",
+      ],
+      size: 0.75,
+      id: "4A3A5684302C8627",
+      tasks: [
+        {
+          id: "2FA9F37D667C5CCD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_shield_capacity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25AA36E7E9137AF5",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -1.5,
+      shape: "square",
+      dependencies: [
+        "37CC51B689CB8A40",
+      ],
+      size: 0.75,
+      id: "3CB8F5F1D33C8F9F",
+      tasks: [
+        {
+          id: "2CD48906720862D1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_large_shield_capacity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "545A6DF1312F86BF",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -1.5,
+      shape: "square",
+      dependencies: [
+        "3CB8F5F1D33C8F9F",
+        "76064465104B1C28",
+      ],
+      size: 0.75,
+      id: "4F6A9F1AEFD535F5",
+      tasks: [
+        {
+          id: "501BB3832EEE40E1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_large_shield_capacity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06691905C6FA5052",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -1.5,
+      shape: "square",
+      dependencies: [
+        "4F6A9F1AEFD535F5",
+        "4A3A5684302C8627",
+      ],
+      size: 0.75,
+      id: "7081E9BF44EFBCB0",
+      tasks: [
+        {
+          id: "74CF4D2E4CBD3637",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_large_shield_capacity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66BEFEE65CB095EB",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -3.0,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+        "37CC51B689CB8A40",
+      ],
+      size: 0.75,
+      id: "16FF2219F110F50A",
+      tasks: [
+        {
+          id: "33FAF1015478CB17",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_undying",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6ABAA8806E74DFBA",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -3.0,
+      shape: "square",
+      dependencies: [
+        "16FF2219F110F50A",
+        "76064465104B1C28",
+      ],
+      size: 0.75,
+      id: "542AD6FD1927C3E6",
+      tasks: [
+        {
+          id: "20B4C158C9DD7EA2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_undying",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53EBC8782D6FE00F",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -3.0,
+      shape: "square",
+      dependencies: [
+        "542AD6FD1927C3E6",
+        "4A3A5684302C8627",
+      ],
+      size: 0.75,
+      id: "52EA9793A7100E75",
+      tasks: [
+        {
+          id: "309835FD9511F154",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_undying",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A483E34ADE96759",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 17.25,
+      y: -6.0,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "7143CE930D08F160",
+      tasks: [
+        {
+          id: "3322B804D048BF30",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconium_aoe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "290B7A9895407C81",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -6.0,
+      shape: "square",
+      dependencies: [
+        "7143CE930D08F160",
+      ],
+      size: 0.75,
+      id: "165030137EF59299",
+      tasks: [
+        {
+          id: "4F825AF56523DA5E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_aoe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43400A673B6F46D0",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -6.0,
+      shape: "square",
+      dependencies: [
+        "165030137EF59299",
+      ],
+      size: 0.75,
+      id: "655BE42CD5BB9D82",
+      tasks: [
+        {
+          id: "2ACB040E880AA278",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_aoe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "034E3DC99536CD11",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -6.0,
+      shape: "square",
+      dependencies: [
+        "655BE42CD5BB9D82",
+      ],
+      size: 0.75,
+      id: "33D2901594655A77",
+      tasks: [
+        {
+          id: "22158164E32379BE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_aoe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C07185ABA183179",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "1A53B6544782442E",
+      tasks: [
+        {
+          id: "51EA851DDB2779B9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_shield_control",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C5FDC9D75A55BDE",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "1A53B6544782442E",
+      ],
+      size: 0.75,
+      id: "2158A566C2F54AA9",
+      tasks: [
+        {
+          id: "568B97C70C8462DD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_shield_control",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3FA8512E8EE880E9",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "2158A566C2F54AA9",
+      ],
+      size: 0.75,
+      id: "0E487EACA837EA9B",
+      tasks: [
+        {
+          id: "1FC237D67BA936FA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_shield_control",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08F5AD5442F36A79",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -6.0,
+      shape: "diamond",
+      dependencies: [
+        "5C2CF51D28F84CBE",
+      ],
+      size: 1.3,
+      id: "6B8F2E05429C185F",
+      tasks: [
+        {
+          id: "0D221A5709E45811",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "5x draconicevolution:chaos_shard",
+            },
+          },
+          count: 5,
+        },
+      ],
+      rewards: [
+        {
+          id: "559928E5B60D764F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaos_shard",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -12.0,
+      shape: "rsquare",
+      size: 1.5,
+      id: "45EE60207C466D6C",
+      tasks: [
+        {
+          id: "2D70A09F9ACCE52B",
+          type: "dimension",
+          dimension: "minecraft:the_end",
+        },
+      ],
+      rewards: [
+        {
+          id: "20A35C6F29F30427",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:mob_soul",
+        },
+      },
+      x: 0.5,
+      y: -10.0,
+      shape: "square",
+      dependencies: [
+        "45EE60207C466D6C",
+      ],
+      id: "106D08542AAFA166",
+      tasks: [
+        {
+          id: "6A516E772C246DFE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:infused_obsidian",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F1E69A5F6F19013",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -12.0,
+      dependencies: [
+        "45EE60207C466D6C",
+      ],
+      optional: true,
+      id: "0000A88BB40B2149",
+      tasks: [
+        {
+          id: "6EAC5BBFAA0184BC",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "334B1BFA0DE0D94B",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:mob_soul",
+        },
+      },
+      x: 0.5,
+      y: -8.0,
+      shape: "rsquare",
+      dependencies: [
+        "106D08542AAFA166",
+      ],
+      size: 1.3,
+      icon_scale: 2.0,
+      id: "5C2CF51D28F84CBE",
+      tasks: [
+        {
+          id: "3AFB2998606E4212",
+          type: "kill",
+          entity: "draconicevolution:draconic_guardian",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "60E48A4C376F2739",
+          type: "xp_levels",
+          xp_levels: 20,
+        },
+        {
+          id: "282B4FD146E06EE4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "62CE93FB0A7817BF",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "3D0F7E5B7E5F012B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 1.5,
+      shape: "square",
+      id: "7F757CD6F8C57733",
+      tasks: [
+        {
+          id: "7433809103907ECE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "720F8AFF5D480BCA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 0.5,
+      shape: "square",
+      dependencies: [
+        "7F757CD6F8C57733",
+        "5443E15E226DFC86",
+        "421954D7D46FAAD6",
+      ],
+      id: "389655CD41C7A691",
+      tasks: [
+        {
+          id: "13DD9FFA114EF17D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -0.5,
+      shape: "square",
+      dependencies: [
+        "389655CD41C7A691",
+      ],
+      id: "35767977FB9E0B1B",
+      tasks: [
+        {
+          id: "0EFC269472493100",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "21075B38EDF2D46C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 6,
+        },
+      ],
+      rewards: [
+        {
+          id: "0984BF62D5AC6568",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 0.5,
+      shape: "square",
+      dependencies: [
+        "35767977FB9E0B1B",
+      ],
+      id: "713D3B3954E58C4A",
+      tasks: [
+        {
+          id: "28EA4F8DA9D5D693",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "7584789C7AD709E6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 26,
+        },
+      ],
+      rewards: [
+        {
+          id: "0E9FBDF13E433F68",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 5,
+        },
+        {
+          id: "12DAC8DCDD2475FB",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "713D3B3954E58C4A",
+      ],
+      id: "1F7D147C9AF6A4FC",
+      tasks: [
+        {
+          id: "5F67C42E49748528",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "2D8913A86D59AEB4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 54,
+        },
+        {
+          id: "36AD2A449FE452E8",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 26,
+        },
+      ],
+      rewards: [
+        {
+          id: "2BED49CA22B91087",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 7,
+        },
+        {
+          id: "44EDE2F2A5297FA6",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 2.5,
+      shape: "square",
+      dependencies: [
+        "0817FD6E45C127E8",
+      ],
+      id: "131AA933D59D3017",
+      tasks: [
+        {
+          id: "55B1860918629DA2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 36,
+        },
+        {
+          id: "13CAFA40CDF003B5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 90,
+        },
+        {
+          id: "5E2F12A4A10B340F",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 80,
+        },
+      ],
+      rewards: [
+        {
+          id: "3B6EFCC1BA08CCE2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 30,
+        },
+        {
+          id: "50696F2DBA7CC770",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 15,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 2.5,
+      shape: "square",
+      dependencies: [
+        "131AA933D59D3017",
+      ],
+      id: "2DB2A4A1182FE0BB",
+      tasks: [
+        {
+          id: "6D79259DB6ABE2DA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 36,
+        },
+        {
+          id: "28819FFDA0827620",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 150,
+        },
+        {
+          id: "31103B425588A4DF",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 178,
+        },
+      ],
+      rewards: [
+        {
+          id: "03709589AC562EFD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 35,
+        },
+        {
+          id: "3BCBEFBD8F3CCB95",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 30,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 0.5,
+      shape: "square",
+      dependencies: [
+        "3B4CEE8A8CE0D6CB",
+      ],
+      id: "04BF68E4554D69AA",
+      tasks: [
+        {
+          id: "4B1B2DCF8BB90B8B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 36,
+        },
+        {
+          id: "046C14338B30DFCD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 786,
+        },
+        {
+          id: "19BAF6A931B40F5D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:awakened_draconium_block",
+            },
+          },
+          count: 378,
+        },
+      ],
+      rewards: [
+        {
+          id: "0D01EDA8EB654EB8",
+          type: "xp_levels",
+          xp_levels: 100,
+        },
+        {
+          id: "054E3891B12269F7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:ultimate_energy_cube",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "7F757CD6F8C57733",
+      ],
+      id: "5443E15E226DFC86",
+      tasks: [
+        {
+          id: "3D670D4469917BF1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_pylon",
+            },
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "37CC840573CA6E05",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "2DB2A4A1182FE0BB",
+      ],
+      id: "3B4CEE8A8CE0D6CB",
+      tasks: [
+        {
+          id: "5A9E0E8A579C863F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 36,
+        },
+        {
+          id: "1B67C959C7F2AAE7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 210,
+        },
+        {
+          id: "1AFB7D87A71F862A",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 328,
+        },
+      ],
+      rewards: [
+        {
+          id: "779B84A12F802685",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:awakened_draconium_block",
+            },
+          },
+          count: 30,
+        },
+        {
+          id: "7DC5F09AA916DE83",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+          count: 50,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "3765485408041FC6",
+      tasks: [
+        {
+          id: "58CEA0A63FEF1406",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_pickaxe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "125C0E00B1DABC77",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -3.0,
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "166D2A191871F80E",
+      tasks: [
+        {
+          id: "39CE823346207A21",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_pickaxe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7FC47CD14C5A5DFC",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -1.5,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      id: "69396F87A09FBD85",
+      tasks: [
+        {
+          id: "2F1C35191E6C5B60",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_pickaxe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "573A47B0679D1378",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "10690FDB9E892250",
+      tasks: [
+        {
+          id: "2910D9CDBCF9AE24",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_sword",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33E8F7B53AF7FBC7",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -3.0,
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "710C7FEFAA6C0979",
+      tasks: [
+        {
+          id: "1BF799C8898716E4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_sword",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "508AB15EF1FD7E67",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -1.5,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      id: "39AF9B1A996DA949",
+      tasks: [
+        {
+          id: "0AFD95B14EA35FEB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_sword",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2276BB717D82DDA9",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "3235FBD9CE21D5EE",
+      tasks: [
+        {
+          id: "407EEF67B575361C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_shovel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C8BA7504D7D8C1E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: -3.0,
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "46C816844C513D5D",
+      tasks: [
+        {
+          id: "57516D08A532A6D9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_shovel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E7BA1AF6FFFAC20",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: -1.5,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      id: "052E261F934AB439",
+      tasks: [
+        {
+          id: "2C3BC16D36192BC5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_shovel",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EAE86065324E051",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: -3.0,
+      dependencies: [
+        "46C816844C513D5D",
+        "166D2A191871F80E",
+        "710C7FEFAA6C0979",
+        "5ADFC45B03BAB852",
+      ],
+      id: "22D383BAEF8A2B39",
+      tasks: [
+        {
+          id: "5B309CC849575BAB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2EFEABA2178F69CD",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: -1.5,
+      dependencies: [
+        "052E261F934AB439",
+        "69396F87A09FBD85",
+        "39AF9B1A996DA949",
+        "763EB5C911D7E78C",
+      ],
+      id: "12469CC0CCFBA1C5",
+      tasks: [
+        {
+          id: "5D5E2B91237B0A83",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_staff",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2864579B74DDB579",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 15.75,
+      y: -9.0,
+      shape: "square",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      size: 1.5,
+      icon_scale: 2.0,
+      id: "4EFFE300EC781C3E",
+      tasks: [
+        {
+          id: "526113C0A6FEE835",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:module_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "098743FB755EF67D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:module_core",
+            },
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      size: 1.0,
+      id: "0AE930BA037DC565",
+      tasks: [
+        {
+          id: "4E218D4579DA19CA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_bow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "438E73859975B84E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -3.0,
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "43C2B07AB25C708E",
+      tasks: [
+        {
+          id: "6BBAE543089547D9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_bow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "758E5E513DAA1D6E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -1.5,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      id: "7EB97C0DDE60DED4",
+      tasks: [
+        {
+          id: "26BE6BA90399F55D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_bow",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66E6E3D9A6D53B39",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 17.25,
+      y: 2.25,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "40F34EBE09DA7752",
+      tasks: [
+        {
+          id: "7DC8BE92D6D7DBCC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconium_auto_feed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41EFF8AB501D6815",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 17.25,
+      y: -4.5,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "1C8210712349A2E3",
+      tasks: [
+        {
+          id: "1ED5F0AA6588F503",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconium_damage",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46C67A58E57778D1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -4.5,
+      shape: "square",
+      dependencies: [
+        "1C8210712349A2E3",
+      ],
+      size: 0.75,
+      id: "1E41A5071854DEC8",
+      tasks: [
+        {
+          id: "56370732D830D093",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_damage",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C38DC7CD9C0786C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -4.5,
+      shape: "square",
+      dependencies: [
+        "1E41A5071854DEC8",
+      ],
+      size: 0.75,
+      id: "7B9F5EEC76FDD0D4",
+      tasks: [
+        {
+          id: "0746EC1EA680B78D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_damage",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02954B819D1738ED",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -4.5,
+      shape: "square",
+      dependencies: [
+        "7B9F5EEC76FDD0D4",
+      ],
+      size: 0.75,
+      id: "04695DA1BD3BF1B2",
+      tasks: [
+        {
+          id: "33FC8252185CB8ED",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_damage",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79679B41B462574B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:wyvern_capacitor",
+        },
+      },
+      x: 6.0,
+      y: -12.5,
+      shape: "gear",
+      size: 2.5,
+      id: "26DF1427AC3966DE",
+      tasks: [
+        {
+          id: "76BCC3C288514737",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "6x draconicevolution:draconium_dust",
+            },
+          },
+          count: 6,
+        },
+      ],
+      rewards: [
+        {
+          id: "2E37C878B24D6913",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_ingot",
+            },
+          },
+          count: 12,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -9.0,
+      dependencies: [
+        "26DF1427AC3966DE",
+      ],
+      id: "12BDE512C734D19A",
+      tasks: [
+        {
+          id: "1177AB4D5588F257",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "680CD324CBA643BA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_core",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -7.5,
+      shape: "hexagon",
+      dependencies: [
+        "12BDE512C734D19A",
+      ],
+      size: 1.5,
+      id: "4B7840F1A8CF1378",
+      tasks: [
+        {
+          id: "4F50EF2523C3878B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:crafting_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "644DD7D6B57612E7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_core",
+            },
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -6.0,
+      shape: "rsquare",
+      dependencies: [
+        "4B7840F1A8CF1378",
+      ],
+      size: 1.25,
+      id: "1D3E2363CFD4C5E0",
+      tasks: [
+        {
+          id: "3D86285F124928F8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:basic_crafting_injector",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3480AB7F7CCB595D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -4.5,
+      shape: "rsquare",
+      dependencies: [
+        "1D3E2363CFD4C5E0",
+      ],
+      size: 1.25,
+      id: "51CF09EC333DB1A3",
+      tasks: [
+        {
+          id: "3B5336539F8701BD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_crafting_injector",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "09D389B16F321F3C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -3.0,
+      shape: "rsquare",
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      size: 1.25,
+      id: "5ADFC45B03BAB852",
+      tasks: [
+        {
+          id: "456AE9FF8794BBD4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:awakened_crafting_injector",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61B2C0ECEAC859F2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -1.5,
+      shape: "rsquare",
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      size: 1.25,
+      id: "763EB5C911D7E78C",
+      tasks: [
+        {
+          id: "2F8AF8AE6F59B5CE",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_crafting_injector",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42006DAC1EC5B749",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -6.0,
+      shape: "hexagon",
+      dependencies: [
+        "1D3E2363CFD4C5E0",
+      ],
+      id: "285656AF1F870AF8",
+      tasks: [
+        {
+          id: "56308DFC57B1249E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_chest",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "538CE96BF841A65B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "41BD497108CA109F",
+      tasks: [
+        {
+          id: "471F944E1DA4FCBC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:awakened_draconium_block",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "083432516AC49C29",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "2B6D71DAF72EAFA4",
+      tasks: [
+        {
+          id: "15CE4B82B5863A8B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_capacitor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "760AB3C32B47092D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "4AB564420C48579B",
+      tasks: [
+        {
+          id: "03D8669E761BA583",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_chestpiece",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E77C63492DDAABE",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "5E0D78B7B2CF1729",
+      tasks: [
+        {
+          id: "414D0C56813D9BBB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:awakened_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71CB585D324CD8BB",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -3.0,
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "75F0405FFAB9C080",
+      tasks: [
+        {
+          id: "12DC5DD555FB3DEF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2BB4430C85BAF1FE",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: -3.0,
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "4E27182763DA83DC",
+      tasks: [
+        {
+          id: "42F81219DD85E34F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_chestpiece",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "676CA444E828631E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: -1.5,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      id: "01612963DBBAC9A1",
+      tasks: [
+        {
+          id: "002993328BED5A60",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_chestpiece",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "063B16BF2ED952B0",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -1.5,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      id: "36DAFC3FECC67406",
+      tasks: [
+        {
+          id: "49A3CC960C35F9C9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_capacitor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77F92CFA2217F16F",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -3.0,
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "6DBD81BA83B1D0A5",
+      tasks: [
+        {
+          id: "73F4047BAB9D0B77",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_capacitor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41DF0B8AD669EB13",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -6.0,
+      shape: "diamond",
+      dependencies: [
+        "1D3E2363CFD4C5E0",
+      ],
+      id: "2E74B5149D4BD0A0",
+      tasks: [
+        {
+          id: "1E33B6AC90BEE300",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:basic_relay_crystal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3213FB4F8DF45B42",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -3.0,
+      shape: "diamond",
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "36F123B2A6B52A01",
+      tasks: [
+        {
+          id: "165C17055E69492C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_relay_crystal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4586E0C268BBFE01",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "715F9F7107374299",
+      tasks: [
+        {
+          id: "2C3AA490328FAE8C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_relay_crystal",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0DC3F6778A331AF4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: 2.25,
+      shape: "square",
+      dependencies: [
+        "0252B8F77A038D17",
+      ],
+      size: 0.75,
+      id: "5E671F1F370DDE43",
+      tasks: [
+        {
+          id: "527E10E9550048CA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_auto_feed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79379DEBB9CB1DC8",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: 2.25,
+      shape: "square",
+      dependencies: [
+        "40F34EBE09DA7752",
+      ],
+      size: 0.75,
+      id: "0252B8F77A038D17",
+      tasks: [
+        {
+          id: "4782C7D803835881",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_auto_feed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CD43FE49565A25C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 17.25,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "6B0CD6732BE0E819",
+      tasks: [
+        {
+          id: "310DD2EEBEF0EBA9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconium_jump",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D22F77DD119FBA5",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "6B0CD6732BE0E819",
+      ],
+      size: 0.75,
+      id: "529123A789D790E3",
+      tasks: [
+        {
+          id: "1671F1293B373AF3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_jump",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EC3DF861C5060E2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "529123A789D790E3",
+      ],
+      size: 0.75,
+      id: "79FC674836B6340E",
+      tasks: [
+        {
+          id: "05ABF37F8E1DE264",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_jump",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E41EF73BB548E61",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "79FC674836B6340E",
+      ],
+      size: 0.75,
+      id: "50013DD7370F8EDB",
+      tasks: [
+        {
+          id: "0B88252BE82CF5C6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_jump",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0481395E6E3404C4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "7F757CD6F8C57733",
+      ],
+      id: "421954D7D46FAAD6",
+      tasks: [
+        {
+          id: "64A54A26814AC387",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44747E919A1A6161",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconium_block",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 2.5,
+      shape: "square",
+      dependencies: [
+        "1F7D147C9AF6A4FC",
+      ],
+      id: "2D9AF97C03C5AEC7",
+      tasks: [
+        {
+          id: "48C475EE944E4AC6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "9x draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 9,
+        },
+      ],
+      rewards: [
+        {
+          id: "59EA83789B61F7C8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_core_stabilizer",
+            },
+          },
+          count: 9,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 3.5,
+      shape: "square",
+      dependencies: [
+        "2D9AF97C03C5AEC7",
+      ],
+      optional: true,
+      id: "0817FD6E45C127E8",
+      tasks: [
+        {
+          id: "1185E056FCB6918C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x draconicevolution:energy_pylon",
+            },
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "22AD062EB66F018E",
+          type: "item",
+          item: {
+            id: "minecraft:glass",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "5CA458A3C6DE4B78",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_io_crystal",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 1.5,
+      shape: "gear",
+      dependencies: [
+        "12BDE512C734D19A",
+      ],
+      size: 2.0,
+      id: "7A4ABFCD12202A91",
+      tasks: [
+        {
+          id: "1EA0384F407273BA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:crystal_binder",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "507859BC7C414057",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 2.0,
+      dependencies: [
+        "6616A62426ED4D15",
+        "69986817D58AC8BE",
+      ],
+      size: 1.5,
+      icon_scale: 2.0,
+      min_width: 300,
+      id: "5BC6CC3C09F512A7",
+      tasks: [
+        {
+          id: "4DCBC4B5CD5C7016",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:reactor_core",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B61E2E794F3E809",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:awakened_draconium_block",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 0.5,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      icon_scale: 1.5,
+      id: "69986817D58AC8BE",
+      tasks: [
+        {
+          id: "2184F68F4DDA4834",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "4x draconicevolution:reactor_stabilizer",
+            },
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "5B495025B19F24D7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:awakened_draconium_block",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 3.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      icon_scale: 1.5,
+      id: "6616A62426ED4D15",
+      tasks: [
+        {
+          id: "3A62FA10AC96760C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:reactor_injector",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B0DB77929F4EFFD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:awakened_draconium_block",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 1.5,
+      dependencies: [
+        "5BC6CC3C09F512A7",
+      ],
+      id: "129E09C03E40BA57",
+      tasks: [
+        {
+          id: "47941C447E669A0E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "8x draconicevolution:awakened_draconium_block",
+            },
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "01BEDB40AA9A03A7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:awakened_draconium_block",
+            },
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 2.5,
+      dependencies: [
+        "5BC6CC3C09F512A7",
+      ],
+      id: "6601ACCDDF6CA5FF",
+      tasks: [
+        {
+          id: "5E453CAF75E1370A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:flux_gate",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4338F529190DC56C",
+          type: "item",
+          item: {
+            id: "minecraft:lever",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: 2.0,
+      dependencies: [
+        "129E09C03E40BA57",
+        "6601ACCDDF6CA5FF",
+      ],
+      id: "7D159D333B2AC57E",
+      tasks: [
+        {
+          id: "61CCAD2018478894",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2CC933DAF73F7D73",
+          type: "xp_levels",
+          xp_levels: 20,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: 0.75,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "5E8D527DE9D7DD46",
+      tasks: [
+        {
+          id: "57DC917AF757F1A0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_flight",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B0CD51089B460A7",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -7.5,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "1830412AB77E9526",
+      tasks: [
+        {
+          id: "3F28B3211730AFB9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_proj_accuracy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "003B079C83E81567",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -9.75,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "7D7E4C31DFE59E29",
+      tasks: [
+        {
+          id: "2DF91C91574F18A1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_proj_damage",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7789A9C74ACC2E2A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -8.25,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "78FBB0C88182040E",
+      tasks: [
+        {
+          id: "2771CA29BA10C3F7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_proj_penetration",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "597C37DF492A2679",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -9.0,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "61419D230687CBB5",
+      tasks: [
+        {
+          id: "4EFCDD3427D5CAE8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_proj_velocity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FC38A0F49D5C24E",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -3.75,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "607337D8AA20FA18",
+      tasks: [
+        {
+          id: "3143C632F79A604C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_tree_harvest",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "178F59F4B878E2E7",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: 0.75,
+      shape: "square",
+      dependencies: [
+        "5E8D527DE9D7DD46",
+      ],
+      size: 0.75,
+      id: "3FD19A001899D8C6",
+      tasks: [
+        {
+          id: "4BCB651847D1D6B1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_flight",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "098CB8A67E47A53B",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -7.5,
+      shape: "square",
+      dependencies: [
+        "1830412AB77E9526",
+      ],
+      size: 0.75,
+      id: "38AD547C36BDF4C4",
+      tasks: [
+        {
+          id: "59BD7F05AA2944EB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_proj_accuracy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54E0B6A9050D7A60",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -9.75,
+      shape: "square",
+      dependencies: [
+        "7D7E4C31DFE59E29",
+      ],
+      size: 0.75,
+      id: "4903BDC389C73082",
+      tasks: [
+        {
+          id: "32BB5E044BAE4F77",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_proj_damage",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32F7414782748A64",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -8.25,
+      shape: "square",
+      dependencies: [
+        "78FBB0C88182040E",
+      ],
+      size: 0.75,
+      id: "070F8045CC14B50D",
+      tasks: [
+        {
+          id: "03D37837BCDC5FCB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_proj_penetration",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72A360B0CA04CDDA",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -9.0,
+      shape: "square",
+      dependencies: [
+        "61419D230687CBB5",
+      ],
+      size: 0.75,
+      id: "0499A372F55D04C8",
+      tasks: [
+        {
+          id: "6B2CD2E18A26E55C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_proj_velocity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2ECF4A9BD8F36C07",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -3.75,
+      shape: "square",
+      dependencies: [
+        "607337D8AA20FA18",
+      ],
+      size: 0.75,
+      id: "3DF794EBCAA7AE1A",
+      tasks: [
+        {
+          id: "2971418598EED7C8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_tree_harvest",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67D726BECA1955E3",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: 0.75,
+      shape: "square",
+      dependencies: [
+        "3FD19A001899D8C6",
+      ],
+      size: 0.75,
+      id: "236C936FE3BA8396",
+      tasks: [
+        {
+          id: "1D27F6BC00BA4375",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_flight",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "284F087C3382A6AF",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -7.5,
+      shape: "square",
+      dependencies: [
+        "38AD547C36BDF4C4",
+      ],
+      size: 0.75,
+      id: "35A674E2C6F66673",
+      tasks: [
+        {
+          id: "53E64B7B94EBE42A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_proj_accuracy",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23CBDEAE42B4DDC6",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -9.0,
+      shape: "square",
+      dependencies: [
+        "0499A372F55D04C8",
+      ],
+      size: 0.75,
+      id: "10E4ADA1D0063EB7",
+      tasks: [
+        {
+          id: "7E5AFCCDE171EEA5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_proj_velocity",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "560394B2D8706345",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -9.75,
+      shape: "square",
+      dependencies: [
+        "4903BDC389C73082",
+      ],
+      size: 0.75,
+      id: "52C301DF1776E0D8",
+      tasks: [
+        {
+          id: "45C1EEF97BCF5A10",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_proj_damage",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0FABAC1744F97143",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -8.25,
+      shape: "square",
+      dependencies: [
+        "070F8045CC14B50D",
+      ],
+      size: 0.75,
+      id: "154D9EA863FD2A32",
+      tasks: [
+        {
+          id: "23F6AD87539D4BE0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_proj_penetration",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "228BA2D039C606C8",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -3.75,
+      shape: "square",
+      dependencies: [
+        "3DF794EBCAA7AE1A",
+      ],
+      size: 0.75,
+      id: "7496B2380A23FDC6",
+      tasks: [
+        {
+          id: "77FC8AB08FF5339C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_tree_harvest",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40C862693B920C84",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: 2.5,
+      shape: "pentagon",
+      dependencies: [
+        "7A4ABFCD12202A91",
+      ],
+      id: "295EB6CFEC029AE2",
+      tasks: [
+        {
+          id: "748F42CFD74B7147",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:energy_transfuser",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7968898E0EF56026",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_relay_crystal",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 2.5,
+      shape: "pentagon",
+      dependencies: [
+        "7A4ABFCD12202A91",
+      ],
+      id: "5D87088E8D71DB9B",
+      tasks: [
+        {
+          id: "664130FB28E419EF",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(draconicevolution:basic_io_crystal)item(draconicevolution:draconic_io_crystal)item(draconicevolution:wyvern_io_crystal))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7980CC45AFED67D6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:crystal_binder",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "164BBBD98163F64C",
+      tasks: [
+        {
+          id: "4679901448A62578",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_hoe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "510C577B7A82333D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -4.5,
+      dependencies: [
+        "51CF09EC333DB1A3",
+      ],
+      id: "30F97EB743B0A07F",
+      tasks: [
+        {
+          id: "4C3121ED2A5CEDAD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:wyvern_axe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "705181BDA592FBF9",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -3.0,
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "5895B7FA5497BD68",
+      tasks: [
+        {
+          id: "4C963CB81FC120C0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_axe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25901FCB86B61111",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: -3.0,
+      dependencies: [
+        "5ADFC45B03BAB852",
+      ],
+      id: "34D3F6D54F5B26C2",
+      tasks: [
+        {
+          id: "04B28A210F54A390",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:draconic_hoe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A343FA37FD4C127",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -1.5,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      id: "3BE3B54B4A681668",
+      tasks: [
+        {
+          id: "26477C55298CBA27",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_axe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20CCF663FFB8B1D2",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: -1.5,
+      dependencies: [
+        "763EB5C911D7E78C",
+      ],
+      id: "52C3F61D678B00F5",
+      tasks: [
+        {
+          id: "22CE82B2A8B1584A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:chaotic_hoe",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3200568E991D54ED",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -11.25,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "20D8DA523E900A52",
+      tasks: [
+        {
+          id: "6263FF7F49AAC2E5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_energy_link",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C570D8951F25581",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -11.25,
+      shape: "square",
+      dependencies: [
+        "20D8DA523E900A52",
+      ],
+      size: 0.75,
+      id: "4B9FF9E972B0E530",
+      tasks: [
+        {
+          id: "7634D5C19B7C8904",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_energy_link",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "701701C03EDFC5BE",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -11.25,
+      shape: "square",
+      dependencies: [
+        "4B9FF9E972B0E530",
+      ],
+      size: 0.75,
+      id: "4638F21544D6D337",
+      tasks: [
+        {
+          id: "64938488390AE717",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_energy_link",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "341BFB320FE17E57",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -6.75,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "376D154F27A00BCD",
+      tasks: [
+        {
+          id: "6C567B271F8A7871",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_proj_grav_comp",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "637FC27A8552410D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -6.75,
+      shape: "square",
+      dependencies: [
+        "376D154F27A00BCD",
+      ],
+      size: 0.75,
+      id: "265D0DB0E8CED73B",
+      tasks: [
+        {
+          id: "53D181AA185BE944",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_proj_grav_comp",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "494957D3FE4F7318",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 19.5,
+      y: -6.75,
+      shape: "square",
+      dependencies: [
+        "265D0DB0E8CED73B",
+      ],
+      size: 0.75,
+      id: "7EB1C1AE52A0027F",
+      tasks: [
+        {
+          id: "0FE2A541A688C114",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_chaotic_proj_grav_comp",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "021B5047554D81B0",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 21.0,
+      y: -9.0,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "60C27206F1414DD6",
+      tasks: [
+        {
+          id: "7D162713642FEC01",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_proj_anti_immune",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CDF154E0CA633EA",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 21.0,
+      y: -7.5,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "4ABEF61DADBD0640",
+      tasks: [
+        {
+          id: "344FA029990B58A7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_auto_fire",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7CAE8975EFD8FBA3",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.0,
+      y: -5.25,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "731A70C25C2C7281",
+      tasks: [
+        {
+          id: "2871F9FB5BF04B78",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_ender_collection",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A925BB3A71AC024",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 18.75,
+      y: -5.25,
+      shape: "square",
+      dependencies: [
+        "731A70C25C2C7281",
+      ],
+      size: 0.75,
+      id: "74C715F8F24B8BAE",
+      tasks: [
+        {
+          id: "5A39B70F8A227ECB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_draconic_ender_collection",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0DC5355FBB92DB50",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 21.0,
+      y: -5.25,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "79886D63280DBBF3",
+      tasks: [
+        {
+          id: "14816C5D68A251CF",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_junk_filter",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D8EC629BA6F70CC",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 21.0,
+      y: 0.75,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "2AAE61752728EA8D",
+      tasks: [
+        {
+          id: "42F5BB7FAEE85979",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_mining_stability",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01AD0176C25009E1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 21.0,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "4AAADEC52D16461A",
+      tasks: [
+        {
+          id: "77F6D4559C370B83",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_hill_step",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B72EE99A62E3862",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 21.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "39865681B03CABAA",
+      tasks: [
+        {
+          id: "6ECA086766BF1840",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_aqua_adapt",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "014FBFC2864E0441",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 21.0,
+      y: -0.75,
+      shape: "square",
+      dependencies: [
+        "4EFFE300EC781C3E",
+      ],
+      size: 0.75,
+      id: "32EBB3D53AA91E09",
+      tasks: [
+        {
+          id: "24DF3AAA0346AA18",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "draconicevolution:item_wyvern_night_vision",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58052130D410273C",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      disable_toast: true,
+      x: 8.0,
+      y: -12.5,
+      shape: "octagon",
+      hide_until_deps_visible: true,
+      optional: true,
+      can_repeat: false,
+      invisible: true,
+      hide_details_until_startable: true,
+      id: "366431661CC43A6E",
+      tasks: [
+        {
+          id: "2AE8A0F6A6C2D453",
+          type: "checkmark",
+          disable_toast: true,
+        },
+        {
+          id: "1EFD3D7C04F9682A",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 6.5,
+      y: -15.5,
+      width: 8.019230769230768,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/draconic/draconic_title.png",
+      id: "334CA19C6288C956",
+    },
+    {
+      x: -4.0,
+      y: -0.5,
+      width: 2.0089285714285716,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/draconic/draconic_core_1on.png",
+      id: "0D372D05938111AE",
+    },
+    {
+      x: -4.0,
+      y: 3.5,
+      width: 5.038167938931297,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/draconic/draconic_core_8on.png",
+      id: "69107D29DC002780",
+    },
+    {
+      x: 6.0,
+      y: 4.5,
+      width: 4.1257142857142854,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/draconic/draconic_energy.png",
+      id: "04BBF52A653D2B13",
+    },
+    {
+      x: 13.0,
+      y: 8.0,
+      width: 11.26126126126126,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/draconic/draconic_reactor_off_down.png",
+      id: "7759394B5720221A",
+    },
+    {
+      x: 11.5,
+      y: -7.5,
+      width: 9.072463768115941,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/draconic/draconic_fusion.png",
+      id: "5626E86E43411227",
+    },
+  ],
+}

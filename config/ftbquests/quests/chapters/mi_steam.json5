@@ -1,0 +1,1146 @@
+{
+  id: "0D990A1D1E088701",
+  group: "6700DB960E16A321",
+  order_index: 0,
+  icon: {
+    id: "alltheores:bronze_ingot",
+    count: 1,
+  },
+  filename: "mi_steam",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "5CCF92238B23EDC9",
+      tasks: [
+        {
+          id: "1F44E7BEA2D191E5",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37C90FAC7748AF50",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:guidebook",
+            },
+          },
+        },
+        {
+          id: "37E4611817E3B7D1",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:wrench",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -2.5,
+      dependencies: [
+        "5CCF92238B23EDC9",
+      ],
+      id: "0DAF5D42694EA8C9",
+      tasks: [
+        {
+          id: "4913DFA8F77207F9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:forge_hammer",
+            },
+          },
+        },
+        {
+          id: "5BD4D6622B8FBB6A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(modern_industrialization:iron_hammer)item(modern_industrialization:steel_hammer)item(modern_industrialization:diamond_hammer)item(modern_industrialization:netherite_hammer))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40BF5AF6FADBBBA0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:diamond_hammer",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -2.5,
+      shape: "diamond",
+      dependencies: [
+        "0DAF5D42694EA8C9",
+      ],
+      hide_until_deps_visible: true,
+      hide_until_deps_complete: true,
+      size: 1.2,
+      optional: true,
+      id: "5E191081662C2F1A",
+      tasks: [
+        {
+          id: "198A217D6A4C951C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "08855CA6673C7770",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:forge_hammer",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -2.5,
+      dependencies: [
+        "0DAF5D42694EA8C9",
+      ],
+      id: "12FB3990CA1653A4",
+      tasks: [
+        {
+          id: "7A541C630E16839D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steam_mining_drill",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E51468CE539980A",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -4.0,
+      dependencies: [
+        "0DAF5D42694EA8C9",
+      ],
+      id: "1036837C9AD3F301",
+      tasks: [
+        {
+          id: "7F822A21A9F71A4F",
+          type: "item",
+          item: {
+            id: "alltheores:copper_dust",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "6B5419247C691C42",
+          type: "item",
+          item: {
+            id: "alltheores:copper_dust",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -4.0,
+      dependencies: [
+        "0DAF5D42694EA8C9",
+      ],
+      id: "253822C64BBBB1EB",
+      tasks: [
+        {
+          id: "0F842F82A0D203C1",
+          type: "item",
+          item: {
+            id: "alltheores:tin_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5060C110C4FD3F4F",
+          type: "item",
+          item: {
+            id: "alltheores:tin_dust",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "alltheores:bronze_ingot",
+        count: 1,
+      },
+      x: 0.0,
+      y: -6.0,
+      shape: "gear",
+      dependencies: [
+        "1036837C9AD3F301",
+        "253822C64BBBB1EB",
+      ],
+      size: 2.0,
+      id: "7282DCB1547CEB63",
+      tasks: [
+        {
+          id: "3757D2DF38EEC39F",
+          type: "item",
+          item: {
+            id: "alltheores:bronze_dust",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "3596B5DFD4C878AC",
+          type: "item",
+          item: {
+            id: "alltheores:bronze_block",
+            count: 1,
+          },
+        },
+        {
+          id: "40684FC7BA6403A9",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -8.5,
+      dependencies: [
+        "7282DCB1547CEB63",
+      ],
+      id: "55C6BBC996B51838",
+      tasks: [
+        {
+          id: "7CDFA2DF8667BD85",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_boiler",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D28453C6312376C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_machine_casing",
+            },
+          },
+        },
+        {
+          id: "3B94CCE4CBCD6CE9",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -11.0,
+      dependencies: [
+        "55C6BBC996B51838",
+      ],
+      id: "478C1AF86610A8B7",
+      tasks: [
+        {
+          id: "0CB084DA0B1B2E48",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_compressor",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4973E4A10306688C",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -10.5,
+      dependencies: [
+        "55C6BBC996B51838",
+      ],
+      id: "1C9D3FC67D58AC02",
+      tasks: [
+        {
+          id: "12BEB18A4CA48B36",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_mixer",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53E6C6A0AB451EFA",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -10.5,
+      dependencies: [
+        "55C6BBC996B51838",
+      ],
+      id: "164EA8EE10CA1583",
+      tasks: [
+        {
+          id: "285046A3D174393D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_macerator",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A2C6EA78B1C22F9",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -9.5,
+      dependencies: [
+        "55C6BBC996B51838",
+      ],
+      id: "41877F44CD3D1EDB",
+      tasks: [
+        {
+          id: "33B52D134132DB23",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_furnace",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "150116EBDCA75D39",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -9.5,
+      dependencies: [
+        "55C6BBC996B51838",
+      ],
+      id: "12F9705ACB8FB300",
+      tasks: [
+        {
+          id: "437D9992275B9E20",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_cutting_machine",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0A3ABF3CE10C8B00",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "modern_industrialization:coke_oven",
+        },
+      },
+      x: 1.5,
+      y: -12.5,
+      dependencies: [
+        "55C6BBC996B51838",
+      ],
+      id: "1E4E462928F2A71C",
+      tasks: [
+        {
+          id: "486E11E2AD353FD0",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:coke_oven",
+            },
+          },
+        },
+        {
+          id: "3D336BF6B98BCDBD",
+          type: "item",
+          item: {
+            id: "minecraft:bricks",
+            count: 1,
+          },
+          count: 21,
+        },
+        {
+          id: "0CC101856C2C6399",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_fluid_input_hatch",
+            },
+          },
+        },
+        {
+          id: "3EE95FD706DAD4A3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_item_input_hatch",
+            },
+          },
+        },
+        {
+          id: "105F6B42CA309428",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_fluid_output_hatch",
+            },
+          },
+        },
+        {
+          id: "7D0BD51347B59B4F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_item_output_hatch",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F86C2D39776CF40",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:coke_block",
+            },
+          },
+        },
+        {
+          id: "57173CEBE0597980",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -12.5,
+      dependencies: [
+        "55C6BBC996B51838",
+      ],
+      id: "68EAB0248989FC97",
+      tasks: [
+        {
+          id: "169FF4EED4E2E34B",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steam_blast_furnace",
+            },
+          },
+        },
+        {
+          id: "2B7B934A14B803B3",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "31x modern_industrialization:fire_clay_bricks",
+            },
+          },
+          count: 31,
+        },
+        {
+          id: "44DD7B8E4667FB3A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_fluid_input_hatch",
+            },
+          },
+        },
+        {
+          id: "7334D68F82919C0D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_item_input_hatch",
+            },
+          },
+        },
+        {
+          id: "122031BE006EFAB9",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_fluid_output_hatch",
+            },
+          },
+        },
+        {
+          id: "38D189126455CEAB",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_item_output_hatch",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F7A5830B1C8E206",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:synthetic_oil_bucket",
+            },
+          },
+        },
+        {
+          id: "1F2CFCEE039F27D6",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -12.5,
+      dependencies: [
+        "478C1AF86610A8B7",
+      ],
+      id: "458BFDB636F8B495",
+      tasks: [
+        {
+          id: "41A02B5E032E1A20",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:uncooked_steel_dust",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C338E5AFCB458C0",
+          type: "item",
+          item: {
+            id: "alltheores:steel_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -14.5,
+      dependencies: [
+        "68EAB0248989FC97",
+        "458BFDB636F8B495",
+        "1E4E462928F2A71C",
+      ],
+      id: "25EE7E0119010291",
+      tasks: [
+        {
+          id: "2027616929A4AA39",
+          type: "item",
+          item: {
+            id: "alltheores:steel_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "457F5C011A6C86A5",
+          type: "item",
+          item: {
+            id: "alltheores:steel_ingot",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "7D34384492E93D24",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -12.5,
+      shape: "diamond",
+      dependencies: [
+        "68EAB0248989FC97",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.2,
+      optional: true,
+      id: "3AA4D1B60E4E71A5",
+      tasks: [
+        {
+          id: "45C5CAC94406DF41",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -16.0,
+      dependencies: [
+        "25EE7E0119010291",
+      ],
+      id: "700F346E3361E9AF",
+      tasks: [
+        {
+          id: "512084F430CB5FC4",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steel_upgrade",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3AA8725E10DC956E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steel_upgrade",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -16.0,
+      dependencies: [
+        "25EE7E0119010291",
+      ],
+      id: "7493CDDE7861709C",
+      tasks: [
+        {
+          id: "32CDFEB60A73F4BA",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steel_machine_casing",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -20.5,
+      dependencies: [
+        "7A873E48E38B5C0E",
+      ],
+      id: "357DDE894EB512F7",
+      tasks: [
+        {
+          id: "28147BDF199A9F16",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steel_wiremill",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56182A536E5ED1D2",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:copper_wire",
+            },
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -17.5,
+      dependencies: [
+        "7493CDDE7861709C",
+        "700F346E3361E9AF",
+      ],
+      id: "7A873E48E38B5C0E",
+      tasks: [
+        {
+          id: "31BE41B971794377",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -19.0,
+      dependencies: [
+        "7A873E48E38B5C0E",
+      ],
+      id: "4E69C6ABFE467C25",
+      tasks: [
+        {
+          id: "5000AFEC5249B03E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "extended_industrialization:steel_alloy_smelter",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -20.0,
+      dependencies: [
+        "7A873E48E38B5C0E",
+      ],
+      id: "088CA7B6D4899846",
+      tasks: [
+        {
+          id: "01AB9F57167DAF26",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steel_packer",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -20.0,
+      dependencies: [
+        "7A873E48E38B5C0E",
+      ],
+      id: "7D220876E8FF7AED",
+      tasks: [
+        {
+          id: "34A7B0BCC713355F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steel_unpacker",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -19.0,
+      dependencies: [
+        "7A873E48E38B5C0E",
+      ],
+      id: "21A4FE1741E4E78C",
+      tasks: [
+        {
+          id: "11CF48CE2756F8B8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steam_quarry",
+            },
+          },
+        },
+        {
+          id: "25EE6F30DA423797",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "13x modern_industrialization:steel_machine_casing",
+            },
+          },
+          count: 13,
+        },
+        {
+          id: "67C59F34ACE258CD",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "6x modern_industrialization:steel_machine_casing_pipe",
+            },
+          },
+          count: 6,
+        },
+        {
+          id: "0E56A483E60FDAC6",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steel_item_input_hatch",
+            },
+          },
+        },
+        {
+          id: "6C0D703F6A481F7F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steel_fluid_input_hatch",
+            },
+          },
+        },
+        {
+          id: "64B77F0C38325F95",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steel_item_output_hatch",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "201294FAE07C04F5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:bronze_drill",
+            },
+          },
+          count: 32,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -22.0,
+      dependencies: [
+        "357DDE894EB512F7",
+      ],
+      id: "48F77A0BE1F33B29",
+      tasks: [
+        {
+          id: "2F7F83C7B8505EB5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:copper_wire",
+            },
+          },
+        },
+        {
+          id: "2079CE6ECA9A972D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:copper_fine_wire",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -22.0,
+      hide_dependency_lines: false,
+      dependencies: [
+        "357DDE894EB512F7",
+      ],
+      id: "589DFDB8FB7211AA",
+      tasks: [
+        {
+          id: "071487AAFBB38D16",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:rubber_sheet",
+            },
+          },
+        },
+        {
+          id: "29F80FAAF4D1B86A",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:analog_circuit_board",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -22.0,
+      hide_dependency_lines: false,
+      dependencies: [
+        "357DDE894EB512F7",
+      ],
+      id: "23708582B1064C9D",
+      tasks: [
+        {
+          id: "366FD0ECE4AE729E",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:resistor",
+            },
+          },
+        },
+        {
+          id: "2AE621CDF8970E64",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:capacitor",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -25.0,
+      shape: "hexagon",
+      dependencies: [
+        "48F77A0BE1F33B29",
+        "23708582B1064C9D",
+        "589DFDB8FB7211AA",
+      ],
+      size: 2.0,
+      id: "24285F25F9563B02",
+      tasks: [
+        {
+          id: "7FCEE038C02EC2AC",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:analog_circuit",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "535F03A0FF3E263D",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:analog_circuit",
+            },
+          },
+          count: 4,
+        },
+        {
+          id: "46DE1B4DFC90E91E",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 2.0,
+      y: -14.0,
+      width: 6.0,
+      height: 6.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/modernindustrialization/coke_oven.png",
+      id: "048B5F6625D5F8E1",
+    },
+    {
+      x: -2.0,
+      y: -14.0,
+      width: 4.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/modernindustrialization/steam_blast_furnace.png",
+      id: "28A5FFA3C919764B",
+    },
+  ],
+}

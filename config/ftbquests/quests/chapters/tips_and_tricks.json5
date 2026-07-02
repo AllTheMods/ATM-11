@@ -1,0 +1,795 @@
+{
+  id: "1BE666F01EFFC00D",
+  group: "",
+  order_index: 3,
+  icon: {
+    id: "minecraft:recovery_compass",
+    count: 1,
+  },
+  filename: "tips_and_tricks",
+  default_quest_shape: "diamond",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      x: 1.5,
+      y: 3.0,
+      id: "722978AC0C1B2649",
+      tasks: [
+        {
+          id: "6855AE257D62AA37",
+          type: "item",
+          item: {
+            id: "cookingforblockheads:sink",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "145F9B3A17676EAA",
+          type: "item",
+          item: {
+            id: "pipez:fluid_pipe",
+            count: 1,
+          },
+        },
+        {
+          id: "1159FE6CDF262C46",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 2.5,
+      shape: "diamond",
+      id: "7EC8814940C4C3D7",
+      tasks: [
+        {
+          id: "30C938C85BED7956",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "shrink:shrinking_device",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BCF264E89365C5D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "105CF4B42684C297",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 1.0,
+      id: "378C95C18798D413",
+      tasks: [
+        {
+          id: "7FD9A02EA29669F6",
+          type: "item",
+          item: {
+            id: "toolbelt:belt",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40BCE4D56FE98018",
+          type: "item",
+          item: {
+            id: "toolbelt:pouch",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "4E495FC797AED7A4",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 5.0,
+      shape: "circle",
+      hide_dependency_lines: true,
+      dependencies: [
+        "722978AC0C1B2649",
+        "7EC8814940C4C3D7",
+        "378C95C18798D413",
+        "3B4BF42C55C8BBBF",
+        "637981B64BBE0D92",
+        "0E9CE6241CDBC420",
+        "32ECD93A8F2FAB8F",
+        "47043AF7D1FABC43",
+        "51538F4DCE24E3E7",
+        "6E17595887A051C2",
+        "01EC5DB1A4A25B0B",
+        "69F7A0DE8D70AC44",
+        "2837E05AD0B67189",
+        "70B6C9409AE69284",
+        "5EE945A1185E8336",
+        "7A514E27E1A7FE32",
+        "219AA017149C36E2",
+        "0790D3BB481162A6",
+        "030DCC13171C3E16",
+      ],
+      size: 1.25,
+      id: "0F8F37D7E12078F5",
+      tasks: [
+        {
+          id: "42DA8E971B27ACED",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4B75B944FD221D3F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "0C856BBB1679A7DD",
+      tasks: [
+        {
+          id: "3DC008A578A93CCF",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5FA6EA3609ABF6BE",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 3.0,
+      id: "70B6C9409AE69284",
+      tasks: [
+        {
+          id: "58E3131A3EA2661E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(naturescompass:naturescompass)item(explorerscompass:explorerscompass))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "262AC9191FD415A3",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "727954DC34582543",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 2.0,
+      id: "0790D3BB481162A6",
+      tasks: [
+        {
+          id: "6038387EA35404CD",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(mod(crafting_on_a_stick))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F7684F76C15123A",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "79453E57C95043BD",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 2.5,
+      shape: "diamond",
+      id: "28E60192912BEBAD",
+      tasks: [
+        {
+          id: "157C28027F8EEFFE",
+          type: "item",
+          item: {
+            id: "easy_villagers:villager",
+            count: 1,
+            components: {
+              "easy_villagers:villager": {
+              },
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7CCFFBC576CC4D3E",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "00E8AD05DE1012D8",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 2.5,
+      shape: "diamond",
+      id: "7A514E27E1A7FE32",
+      tasks: [
+        {
+          id: "47A1F59A538E3C4B",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D44B1DE7B009082",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "44FE2E9B40EF0EE1",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 2.5,
+      shape: "diamond",
+      id: "5EE945A1185E8336",
+      tasks: [
+        {
+          id: "3B1F1A7CAC8B7BC7",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3650502ECF1ACC45",
+          type: "loot",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "43F516E0BB34B39A",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 1.5,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "0152938EE5651409",
+      tasks: [
+        {
+          id: "4AEB792F6A939B3A",
+          type: "checkmark",
+        },
+        {
+          id: "6A965CD027BF762F",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "utilitarian:white_trapped_soliciting_carpet",
+        count: 1,
+      },
+      x: 1.0,
+      y: 2.5,
+      id: "219AA017149C36E2",
+      tasks: [
+        {
+          id: "0D5203048B6E068C",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:bee_queen/dedicated_trade_tags/modded/utilitarian_trapped_soliciting_carpets)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "127E7D75FED16CC1",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5D49D26FB7E63F55",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 2.5,
+      id: "3B4BF42C55C8BBBF",
+      tasks: [
+        {
+          id: "091A3EB6AB0FF2D5",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "simplemagnets:basicmagnet",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50ADC1136A3A00BD",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1E63E6B512FFCFD2",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 4.0,
+      id: "32ECD93A8F2FAB8F",
+      tasks: [
+        {
+          id: "2EA9242315E51EDA",
+          type: "item",
+          item: {
+            id: "ironjetpacks:jetpack",
+            count: 1,
+            components: {
+              "ironjetpacks:jetpack_id": "ironjetpacks:wood",
+              "minecraft:attribute_modifiers": [
+                {
+                  type: "minecraft:armor",
+                  id: "ironjetpacks:armor.jetpack",
+                  amount: 1.0,
+                  operation: "add_value",
+                  slot: "chest",
+                },
+                {
+                  type: "minecraft:armor_toughness",
+                  id: "ironjetpacks:armor.jetpack",
+                  amount: 0.0,
+                  operation: "add_value",
+                  slot: "chest",
+                },
+              ],
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E4447BBFFFE970F",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "12BED4D8DA2BCE0A",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: 2.5,
+      id: "51538F4DCE24E3E7",
+      tasks: [
+        {
+          id: "6A1E21A5F5AE29A8",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "multipiston:multipistonblock",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A5A4DD01955CC6D",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "608E5E2EB389DDA0",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 1.0,
+      id: "0E9CE6241CDBC420",
+      tasks: [
+        {
+          id: "29447742E3F8B090",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "rangedpumps:pump",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CDEC4584B2F8285",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "51AF28BA3AAE9725",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 4.0,
+      id: "47043AF7D1FABC43",
+      tasks: [
+        {
+          id: "279AB1DAAFD60C52",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(disenchanting_table:disenchanting_table)item(draconicevolution:disenchanter)item(tombstone:book_of_disenchantment)item(actuallyadditions:lens_of_disenchanting)item(apothic_enchanting:scrap_tome)item(apothic_enchanting:improved_scrap_tome)item(apothic_enchanting:extraction_tome)item(minecraft:anvil)item(industrialforegoing:enchantment_extractor)item(evilcraft:purifier)item(evilcraft:blook))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "680C6093F4B4E150",
+          type: "item",
+          item: {
+            id: "minecraft:book",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "5D6D1881953027DC",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "5BA3AF7836CA9E14",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 2.0,
+      id: "637981B64BBE0D92",
+      tasks: [
+        {
+          id: "1DFE7CC129B8B13A",
+          type: "item",
+          item: {
+            id: "charginggadgets:charging_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "346B64D599131B3F",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mekanism:basic_energy_cube",
+            },
+          },
+        },
+        {
+          id: "30658ECCE91B8F84",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "68E88ABAFD1D5807",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 3.5,
+      dependencies: [
+        "28E60192912BEBAD",
+      ],
+      hide_until_deps_complete: true,
+      min_width: 300,
+      id: "6E17595887A051C2",
+      tasks: [
+        {
+          id: "6E44925E265DC7E2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(modern_industrialization:forge_hammer)item(ae2:charger)item(actuallyadditions:coffee_machine)item(ars_nouveau:arcane_core)item(biomeswevegone:foragers_table)item(railcraft:manual_rolling_machine)item(railcraft:powered_rolling_machine)item(immersiveengineering:craftingtable)item(immersiveengineering:workbench)item(immersiveengineering:circuit_table)item(immersiveengineering:turntable)item(minecraft:white_banner)item(pneumaticcraft:charging_station)item(sawmill:sawmill)item_tag(productivebees:advanced_beehives))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41BC2E08BA4E2BC7",
+          type: "item",
+          item: {
+            id: "easy_villagers:villager",
+            count: 1,
+            components: {
+              "easy_villagers:villager": {
+              },
+            },
+          },
+          count: 2,
+        },
+        {
+          id: "3D882840678CDAD4",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "54539646780D2270",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 3.5,
+      id: "01EC5DB1A4A25B0B",
+      tasks: [
+        {
+          id: "4410E4942D7C15E9",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item(gateways:gate_pearl)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "521785B7BFC658D2",
+          type: "item",
+          item: {
+            id: "gateways:gate_pearl",
+            count: 1,
+            components: {
+              "gateways:gateway": "gateways:basic/enderman",
+            },
+          },
+        },
+        {
+          id: "3C93E099D1A2D2FA",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 3.5,
+      id: "69F7A0DE8D70AC44",
+      tasks: [
+        {
+          id: "1667AB546C55A285",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:steam_mining_drill",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "180FE1902B5E7DE7",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "modern_industrialization:coke",
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "0CF3F96157750B1C",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mob_grinding_utils:mob_swab",
+        },
+      },
+      x: 2.5,
+      y: 3.0,
+      id: "2837E05AD0B67189",
+      tasks: [
+        {
+          id: "62D780CE710CC05C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mob_grinding_utils:mob_swab",
+            },
+          },
+        },
+        {
+          id: "605E66D5A025D45C",
+          type: "item",
+          item: {
+            id: "ftbquests:missing_item",
+            count: 1,
+            components: {
+              "ftbquests:missing_item": "mob_grinding_utils:gm_chicken_feed",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D0397294B7C5937",
+          type: "random",
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "1F5114FCB7AD1D34",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "minecraft:textures/gui/sprites/toast/movement_keys.png",
+        },
+      },
+      x: -2.5,
+      y: 3.0,
+      id: "030DCC13171C3E16",
+      tasks: [
+        {
+          id: "19E660235EADB8AA",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "76C648C872A99C5C",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -2.0,
+      width: 12.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/tips_and_tricks.png",
+      id: "6F3584218FA49851",
+    },
+  ],
+}

@@ -1,0 +1,159 @@
+{
+  id: "67D8094B10FAA687",
+  order_index: 37,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "36D7F7EAA664E068",
+      item: {
+        id: "evilcraft:dark_gem",
+        count: 1,
+      },
+      count: 3,
+      random_bonus: 2,
+      weight: 100.0,
+    },
+    {
+      id: "3B95647871409D05",
+      item: {
+        id: "evilcraft:dark_power_gem",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 50.0,
+    },
+    {
+      id: "66997B00AC444579",
+      item: {
+        id: "evilcraft:hardened_blood",
+        count: 1,
+      },
+      weight: 50.0,
+    },
+    {
+      id: "1AD3E9E42272CA4C",
+      item: {
+        id: "evilcraft:hardened_blood_shard",
+        count: 1,
+      },
+      count: 3,
+      random_bonus: 3,
+      weight: 50.0,
+    },
+    {
+      id: "55AA34B763E0D931",
+      item: {
+        id: "evilcraft:blood_extractor",
+        count: 1,
+      },
+      weight: 25.0,
+    },
+    {
+      id: "719BC084358F2785",
+      item: {
+        id: "evilcraft:dark_tank",
+        count: 1,
+      },
+      weight: 25.0,
+    },
+    {
+      id: "58BEB7F406C87A51",
+      item: {
+        id: "evilcraft:blook",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 25.0,
+    },
+    {
+      id: "36AB7707748FD02A",
+      item: {
+        id: "evilcraft:potentia_sphere",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 25.0,
+    },
+    {
+      id: "54B484E18FF0F0A1",
+      item: {
+        id: "evilcraft:dark_gem_crushed",
+        count: 1,
+      },
+      count: 3,
+      random_bonus: 3,
+      weight: 100.0,
+    },
+    {
+      id: "21996A55A970D3C1",
+      item: {
+        id: "evilcraft:box_of_eternal_closure",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "33E09DDB34972471",
+      item: {
+        id: "evilcraft:bowl_of_promises_dusted",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "0C218526E6FEEFB7",
+      item: {
+        id: "evilcraft:condensed_blood",
+        count: 1,
+      },
+      count: 5,
+      random_bonus: 5,
+      weight: 75.0,
+    },
+    {
+      id: "4F930E1D54D97730",
+      item: {
+        id: "evilcraft:blood_infusion_core",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "536D00B1FB6E7BE0",
+      item: {
+        id: "evilcraft:vengeance_essence",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "30AC966B5CD17774",
+      item: {
+        id: "evilcraft:vengeance_pickaxe",
+        count: 1,
+      },
+      weight: 7.5,
+    },
+    {
+      id: "553957DFACEBC614",
+      item: {
+        id: "evilcraft:vein_sword",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "43DB23B46305E29B",
+      item: {
+        id: "evilcraft:weather_container",
+        count: 1,
+        components: {
+          "evilcraft:weather_container_type": "EMPTY",
+        },
+      },
+      weight: 50.0,
+    },
+  ],
+}

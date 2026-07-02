@@ -1,0 +1,56 @@
+{
+  id: "17BF0466A6A4DA01",
+  order_index: 58,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "6B856A9F7C397B56",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:chaotic_core",
+        },
+      },
+      count: 3,
+      weight: 2.0,
+    },
+    {
+      id: "6C718EF121541875",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:medium_chaos_frag",
+        },
+      },
+      count: 3,
+      weight: 0.5,
+    },
+    {
+      id: "362BDC2B039A5CB4",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:awakened_draconium_block",
+        },
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "6C9D761F89B5D55F",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "draconicevolution:chaotic_energy_core",
+        },
+      },
+      count: 2,
+    },
+  ],
+}

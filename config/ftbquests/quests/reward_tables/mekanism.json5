@@ -1,0 +1,69 @@
+{
+  id: "63E11953DD289422",
+  order_index: 1,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "03342204522FB922",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:alloy_infused",
+        },
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 4.0,
+    },
+    {
+      id: "3CFE3D9740DC6D12",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:basic_control_circuit",
+        },
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 4.0,
+    },
+    {
+      id: "2D6298DD9CCBAC35",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:alloy_reinforced",
+        },
+      },
+      random_bonus: 1,
+      weight: 2.0,
+    },
+    {
+      id: "63AD8CBB2EDAF73D",
+      item: {
+        id: "ftbquests:missing_item",
+        count: 1,
+        components: {
+          "ftbquests:missing_item": "mekanism:advanced_control_circuit",
+        },
+      },
+      random_bonus: 1,
+      weight: 2.0,
+    },
+    {
+      id: "2719955565B2D283",
+      item: {
+        id: "alltheores:osmium_ingot",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 2,
+      weight: 4.0,
+    },
+  ],
+}

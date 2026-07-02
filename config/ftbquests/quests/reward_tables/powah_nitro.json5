@@ -1,0 +1,59 @@
+{
+  id: "13DF975BE0A23373",
+  order_index: 17,
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "23FA9385D0BD8DF6",
+      item: {
+        id: "powah:capacitor_nitro",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 10.0,
+    },
+    {
+      id: "54BEE1097551E125",
+      item: {
+        id: "powah:crystal_nitro",
+        count: 1,
+      },
+      random_bonus: 3,
+      weight: 25.0,
+    },
+    {
+      id: "2B4AC2B8BD994C80",
+      item: {
+        id: "powah:energizing_rod_nitro",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "64F282817AD3E167",
+      item: {
+        id: "powah:energy_cable_nitro",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 10.0,
+    },
+    {
+      id: "76C6A00ED8DF37CD",
+      item: {
+        id: "powah:nitro_crystal_block",
+        count: 1,
+      },
+    },
+    {
+      id: "0006D0EE68D55B39",
+      item: {
+        id: "powah:solar_panel_nitro",
+        count: 1,
+      },
+    },
+  ],
+}
