@@ -5,7 +5,7 @@ ItemEvents.modifyTooltips((allthemods) => {
   // AllTheModium
 
   allthemods.add(
-    ["allthemodium:allthemodium_ore"],
+    ["allthemodium:allthemodium_ore", "allthemodium:deepslate_allthemodium_ore"],
     [
       Text.of("§7Needs at least Netherite to be mined"),
       Text.of("§6Found in the Deep Dark Biome and will always spawn air exposed"),

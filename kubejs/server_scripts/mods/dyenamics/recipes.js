@@ -24,22 +24,25 @@ if (Platform.isLoaded("dyenamics")) {
     ]
     dyenamicdyes.forEach((name) => {
       let material = `dyenamics:${name}_dye`
-
-      allthemods
-        .shapeless(Item.of(material, 3), [`occultism:otherflower`, material])
-        .id(`allthemods:crafting/otherflower_to_${name}_dye`)
-      allthemods.recipes.modern_industrialization
-        .mixer(2, 200)
-        .itemIn(material, 0)
-        .fluidIn(`25x modern_industrialization:benzene`)
-        .itemOut(material)
-        .id(`allthemods:modern_industrialization/dyes/${name}/mixer/benzene`)
-      allthemods.recipes.modern_industrialization
-        .mixer(2, 200)
-        .itemIn(material, 0)
-        .fluidIn(`100x modern_industrialization:synthetic_oil`)
-        .itemOut(material)
-        .id(`allthemods:modern_industrialization/dyes/${name}/mixer/synthetic_oil`)
+	  if (Platform.isLoaded("occultism")) {
+		  allthemods
+			.shapeless(Item.of(material, 4), [`occultism:otherflower`, material])
+			.id(`allthemods:crafting/otherflower_to_${name}_dye`)
+	  }
+	  if (Platform.isLoaded("modern_industrialization")) {
+		  allthemods.recipes.modern_industrialization
+			.mixer(2, 200)
+			.itemIn(material, 0)
+			.fluidIn(`25x modern_industrialization:benzene`)
+			.itemOut(material)
+			.id(`allthemods:modern_industrialization/dyes/${name}/mixer/benzene`)
+		  allthemods.recipes.modern_industrialization
+			.mixer(2, 200)
+			.itemIn(material, 0)
+			.fluidIn(`100x modern_industrialization:synthetic_oil`)
+			.itemOut(material)
+			.id(`allthemods:modern_industrialization/dyes/${name}/mixer/synthetic_oil`)
+	  }
     })
   })
 }
