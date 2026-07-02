@@ -3,12 +3,8 @@
   group: "15E5B587D291A4AA",
   order_index: 0,
   icon: {
-    id: "apotheosis:gem",
+    id: "apotheosis:godforged_pearl",
     count: 1,
-    components: {
-      "apotheosis:gem": "apotheosis:core/solar",
-      "apotheosis:purity": "perfect",
-    },
   },
   filename: "apotheosis_gear",
   default_quest_shape: "",
@@ -181,11 +177,8 @@
           id: "713EFE882A8DF739",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:mysterious_scrap_metal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:common_material",
-            },
           },
         },
       ],
@@ -194,11 +187,8 @@
           id: "734AF3AF18C1890F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:mysterious_scrap_metal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:common_material",
-            },
           },
           count: 16,
         },
@@ -222,11 +212,8 @@
           id: "366192B3D26A0B5A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:timeworn_fabric",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:uncommon_material",
-            },
           },
         },
       ],
@@ -235,11 +222,8 @@
           id: "2FEBD23E24089BAE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:timeworn_fabric",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:uncommon_material",
-            },
           },
           count: 8,
         },
@@ -263,11 +247,8 @@
           id: "3CC05E350375C00A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:luminous_crystal_shard",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:rare_material",
-            },
           },
         },
       ],
@@ -276,11 +257,8 @@
           id: "32124AADFAD26DF4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:luminous_crystal_shard",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:rare_material",
-            },
           },
           count: 4,
         },
@@ -304,11 +282,8 @@
           id: "140462D246ACBAFF",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:godforged_pearl",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:mythic_material",
-            },
           },
         },
       ],
@@ -317,11 +292,8 @@
           id: "6BDC8A3A55BD907A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:godforged_pearl",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:mythic_material",
-            },
           },
         },
         {
@@ -344,11 +316,8 @@
           id: "2A1FC2E2E0C01055",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:arcane_sands",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:epic_material",
-            },
           },
         },
       ],
@@ -357,11 +326,8 @@
           id: "7E90610981FEDD4B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:arcane_sands",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:epic_material",
-            },
           },
           count: 2,
         },
@@ -489,11 +455,8 @@
           id: "0FFC5C1C4FCD346B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:godforged_pearl",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:mythic_material",
-            },
           },
           count: 3,
         },
@@ -563,11 +526,8 @@
           id: "06CEFE411A827E19",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:timeworn_fabric",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:uncommon_material",
-            },
           },
           count: 3,
         },
@@ -612,11 +572,8 @@
           id: "3679713EC367113C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:arcane_sands",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:epic_material",
-            },
           },
           count: 3,
         },
@@ -670,11 +627,8 @@
           id: "7E139757E921E73C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:godforged_pearl",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:mythic_material",
-            },
           },
           count: 2,
         },
@@ -767,11 +721,8 @@
           id: "2162B90127FA6656",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:mysterious_scrap_metal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:common_material",
-            },
           },
           count: 5,
         },
@@ -786,9 +737,6 @@
       x: -2.0,
       y: 2.0,
       shape: "octagon",
-      dependencies: [
-        "45647395169978ED",
-      ],
       size: 1.5,
       id: "196312DF0D2E2CB6",
       tasks: [
@@ -832,11 +780,8 @@
           id: "26BBE771B757D17C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:timeworn_fabric",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:uncommon_material",
-            },
           },
           count: 5,
         },
@@ -872,11 +817,8 @@
           id: "61C1A8AB063D4A75",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:luminous_crystal_shard",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:rare_material",
-            },
           },
           count: 5,
         },
@@ -912,11 +854,8 @@
           id: "5809483F636CDDB0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:arcane_sands",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:epic_material",
-            },
           },
           count: 5,
         },
@@ -953,11 +892,8 @@
           id: "287189F44A37E215",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:godforged_pearl",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:mythic_material",
-            },
           },
         },
         {
@@ -1036,11 +972,8 @@
           id: "46F82C45D5B1394B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:timeworn_fabric",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:uncommon_material",
-            },
           },
           count: 2,
         },
@@ -1097,11 +1030,8 @@
           id: "62B800A1111A79A9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "apotheosis:godforged_pearl",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "apotheosis:mythic_material",
-            },
           },
           count: 32,
         },
