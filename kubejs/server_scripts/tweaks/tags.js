@@ -38,6 +38,17 @@ ServerEvents.tags("block", (allthemods) => {
   allthemods.add("c:storage_blocks/saltpeter", "kubejs:saltpeter_block")
   allthemods.add("c:storage_blocks/niter", "#c:storage_blocks/saltpeter")
   allthemods.add("c:storage_blocks", "#c:storage_blocks/niter")
+  // Crystalline Infusion Altar Materials
+  allthemods.add("occultism:pentacle_materials", [
+	"occultism:sacrificial_bowl",
+	"occultism:otherstone_pedestal",
+	"neovitae:air_ritual_stone",
+	"neovitae:dusk_ritual_stone",
+	"neovitae:fire_ritual_stone",
+	"neovitae:water_ritual_stone",
+	"neovitae:master_ritual_stone",
+	"minecraft:soul_lantern"
+	])
 })
 
 ServerEvents.tags("fluid", (allthemods) => {
@@ -129,6 +140,18 @@ ServerEvents.tags("item", (allthemods) => {
 
   // Trial Vault Repeatability for Decrepit Keys
   allthemods.add("repeatable_trial_vaults:can_reset_trial_vaults", "irons_spellbooks:decrepit_key")
+  
+  // Crystalline Infusion Altar Materials
+  allthemods.add("occultism:pentacle_materials", [
+	"occultism:sacrificial_bowl",
+	"occultism:otherstone_pedestal",
+	"neovitae:air_ritual_stone",
+	"neovitae:dusk_ritual_stone",
+	"neovitae:fire_ritual_stone",
+	"neovitae:water_ritual_stone",
+	"neovitae:master_ritual_stone",
+	"minecraft:soul_lantern"
+  ])
 })
 
 ServerEvents.tags("entity_type", (allthemods) => {
