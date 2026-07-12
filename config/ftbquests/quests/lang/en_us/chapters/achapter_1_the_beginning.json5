@@ -1,0 +1,194 @@
+{
+  "quest.5159B6673D6D5ACE.title": "&d&lEnder Dragon",
+  "quest.39BC6F9F9EBBC22B.quest_desc": [
+    "&eBastion Remnants&r are &0Blackstone&r Structures in &c&lThe Nether&r. \\n\\nThey're full of &dPiglins&r! &dPiglins&r are Neutral Mobs obsessed with &eGold&r. But they're extremely easy to piss off. \\n\\nThey will Attack if 1. You aren't wearing &eGold Armor&r 2. You Break any &eGold Blocks&r 3. You open any Chests 4. You Attack and/or Kill any &dPiglins&r. \\n\\nWearing &eGold&r will let you walk among them unless you do something else to upset them. \\n\\nYou can Drop &eGold&r and they'll pick it up. If they're pacified they'll Drop Items in return. If they're upset, they're momentarily forget about it. \\n\\nThere's also &dPiglin Brutes&r. These are much tougher and angrier &dPiglins&r, they'll Attack regardless of &eGold&r and no you can't Hit back without getting the other &dPiglins&r Hostile.",
+  ],
+  "quest.7D10D15B94C63DE4.quest_desc": [
+    "&dMagic Mods&r are just Mods that take... a different approach. \\n\\nSome cast Spells, some do Rituals, some do a little bit of everything! \\n\\nMost of them have their unique prices to get new Items, Blocks and Machines, or upgrades to Items we already have. \\n&4&lEvilCraft&r gives us a bunch of Machines all that are powered with &4Blood&r. It starts with &0Dark Gems&r and has a Questline. \\n\\n&c&lReliquary&r is like &6&lArtifacts&r, just we Loot most Items from Mobs that we use to Craft new Items! There's a huge range of Items from Guns, to Charms, to more. It doesn't have a Quest, you'll just need to follow Recipes from Loot Drops. \\n\\n&6&lForbidden \\& Arcanus&r focuses on an Altar Multiblock that we feed to use different Rituals. This one uses mostly the &bArcane Crystal&r and has a Questline.",
+  ],
+  "quest.0FD16AD855DAD5BD.quest_desc": [
+    "The first Tool you'll need is the &6Wooden Pickaxe&r. \\n\\nNow we can finally Mine &7Stone&r! \\n\\nLot's of Blocks require a specific Pickaxe Tier to Drop Blocks when you Mine them. All &7Stone Blocks&r, &7Ores&r, and Blocks made of the former, need Pickaxes to Drop Items. \\n\\nThe better the Pickaxe the more it can Mine, and you can see what Pickaxe is required to Mine the Block on the top of your Screen when viewing the Block. \\nIf there's a &4Red X&r you can't Mine it, if its a &aGreen Checkmark&r then you can!",
+  ],
+  "quest.3D58FE63B568C776.quest_desc": [
+    "&4Nether Fortresses&r are Structures found in &c&lThe Nether&r. \\n\\nThey're shaped like castles and bridges made of &4Nether Brick&r. They have Chests and &4Netherwart&r inside of them. \\n\\nThey're also Spawn plenty of Mobs in and around them: &0Wither Skeletons&r, &cBlazes&r, sometimes regular Skeletons, and Zombified Piglins.",
+  ],
+  "quest.6EB05138B989CAD9.quest_desc": [
+    "Now that we can Mine &7Ores&r... where are they? \\n\\n&7Ores&r Spawn mainly Underground especially in Caves. Some like &0Coal&r and &7Iron&r can also be found in &7Stony Biomes&r like Mountains. \\n\\nEach &7Ore&r has different Spawn Rates per Y Level. &7Iron&r Spawns all over, &0Coal&r mainly above &8Deepslate&r, and &bDiamond&r is almost only below &8Deepslate&r. \\n\\nOnce you Mine an &7Ore&r you'll get &7Raw Ore&r which can be Smelt into an Ingot.",
+  ],
+  "quest.616352EBF422192F.title": "Better Storage on the go",
+  "quest.25133422CC46ADC4.title": "&6&lExploration",
+  "quest.34A822487EEF2A2A.title": "To &d&lThe End&r",
+  "quest.3D58FE63B568C776.title": "&4Nether Fortress",
+  "quest.0AE25EC6B6089F3B.quest_desc": [
+    "With 10 &5Obsidian&r we can make a &cNether Portal&r. \\n\\nYou can skip the Corners, just place 2 &5Obsidian&r Blocks, skip one for the corners, then place 3 &5Obsidian&r Blocks stacked a Block above the others, then above the first Blocks place another 2 Blocks to complete the rectangle frame. \\n\\nOnce its ready, just Light it on Fire, usually with Flint and Steel and the Portal will activate. \\n\\nJust Walk on through and you'll enter... &c&lThe Nether&r!",
+  ],
+  "task.2E797D3AB714E29A.title": "Chests/Barrels",
+  "quest.3DBDF0350DC69A70.title": "Punch a &2Tree",
+  "quest.08405A885ACDADFC.title": "Storage on the go",
+  "quest.57B726C4B7E418EC.title": "&8&lThe Wither",
+  "quest.6A58B95BF0F26496.quest_desc": [
+    "With our &6Wooden Pickaxe&r we can Mine &7Stone&r to get &7Cobblestone&r. \\n\\nThis allows us to make &7Stone Tools&r which will allow us to Mine even more Blocks! \\n\\nWe can also Craft a &7Furnace&r which can Smelt Items. Smelting will Cook Food, Smelt &7Ores&r, and change Blocks into new ones. \\n\\n&7Furnaces&r need Fuel to work though: &6Wood&r, &0Coal&r, heck even Carpets work as Fuel! \\n\\nI recommend grabbing 17 &7Cobblestone&r so you can Craft a &7Furnace&r, a Sword, a Pickaxe, and an Axe.",
+  ],
+  "quest.34A822487EEF2A2A.quest_desc": [
+    "With our &cBlaze Rods&r we can make &cBlaze Powder&r. Combine that &cBlaze Powder&r with an &5Ender Pearl&r and we'll get an &aEye of Ender&r. \\n\\nToss the &aEye of Ender&r and it'll point you to a Stronghold. \\n\\nStrongholds are Underground Structures made of &7Stone Bricks&r which hold the &dEnder Portal&r. \\n\\nIf you fill all 12 Frames of the &dEnder Portal&r with &aEyes of Ender&r, the &dPortal&r will activate and you can jump through into &d&lThe End&r.",
+  ],
+  "quest.291CE1BF9B5AE191.quest_desc": [
+    "&2Farming&r in Modded is strange, we have very simple cozy &2Farming&r to get more Food Items to Cook and Eat. \\n\\nWe also have simple ways of &2Auto Farming&r different Items and then we get Mods that will allow us to &2Farm&r pretty much everything! \\n\\nAll of it starts pretty normal though, usually with &2Seeds&r and a Hoe.",
+  ],
+  "quest.6F7230B34D1D5A6B.quest_desc": [
+    "We'll get a ton of Items in &2&lMinecraft&r. &6Wood&f, &7Ores&r, Tools, Blocks to Build, pretty Flowers, Food, everything! \\n\\nSo, we'll need a safe place to keep them. \\n\\n&6Chests&r are a good way of Holding Items. Or &6Barrels&r, I'm not picky.",
+  ],
+  "task.11C8CBF9FFFDA374.title": "Furnace Generators",
+  "quest.2D01012FE7F9BA61.quest_desc": [
+    "These &dMagic Mods&r bring a focus to a unique way of Farming Items. \\n\\n&4&lNeo Vitae&r is a Ritual Mod that uses EV (basically &4Blood&r) as a price. It gives new Items, Potions and Charms, and even a whole Dimension to explore! There isn't a Quest for it. \\n\\n&b&lOccultism&r uses Rituals to summon Demons to do our bidding. Most require getting into the Occult by finding and Crafting Items we need to make Books to Bind to Demons. There is a Questline for &b&lOccultism&r! \\n\\n&6&lTheurgy&r is an overlooked Farming Mod. It breaks down Items into Salts, Mercuries, and Sulfurs and uses different Machines to Build them back up. Either into new Items, or more of the old one! Yes, there's a Quest for it too!",
+  ],
+  "quest.6EB05138B989CAD9.title": "Straight to the &lIron Age",
+  "quest.2063337BB2DEAB00.quest_desc": [
+    "&cBlazes&r Spawn from Spawners in the &4Nether Fortress&r Structures. \\n\\nThey are flying &cfirey&r nuisances with 10 &4Hearts&r. \\n\\nThey'll shoot bursts of 3 &cFireballs&r at you to Attack. \\n\\nWhen Killed they'll Drop &cBlaze Rods&r.",
+  ],
+  "quest.7F902A5A03FD65F8.quest_desc": [
+    "Need a specific Biome? Why not use a Compass? \\n\\nNo, not a normal Compass, a &2Nature's Compass&r! \\n\\nThe &2Nature's Compass&r can Locate any Biome within a 10,000k Block Radius. If one is found, it will point in its direction.",
+  ],
+  "quest.291CE1BF9B5AE191.title": "&2&lFarming",
+  "quest.3B61DE4CB34F6BC9.quest_desc": [
+    "Rarely any in &c&lThe Nether&r you can find &cAncient Debris&r. \\n\\nThese can only be Mined with a &bDiamond Pickaxe&r or better. Spoiler alert, there's better than &bDiamond&r. \\n\\nOnce Broken they'll Drop &cAncient Debris&r which can be Smelt into &cAncient Scraps&r. \\n\\nYou'll have to combine 4 &cAncient Scraps&r with 4 &eGold Ingots&r to make 1 &cNetherite Ingot&r.",
+  ],
+  "quest.616352EBF422192F.quest_desc": [
+    "&6Backpacks&r give us an even greater way of Storing Items on the run. \\n\\n&6Backpacks&r have more Space, can be worn on your Back, and can be Opened normally. They can even be placed down like a &6Chest&r by Shift Right Clicking with them. \\n\\nThat's not even everything yet, they can also be upgraded to hold more Items, hold Liquids, or even play music like &5Jukeboxes&r!",
+  ],
+  "quest.61A023EFBA1B5329.title": "The actual Best Tools (&2&lVanilla&r)",
+  "task.06C463863834B551.title": "Silicon",
+  "quest.0FD16AD855DAD5BD.title": "Time to &9&lMine",
+  "quest.209D4047831CBB0C.title": "&7Pale Gardens",
+  "quest.5159B6673D6D5ACE.quest_desc": [
+    "&d&lThe End&r, a barren and desolate Dimension. Here we Spawn next to the main Island, the home of the &d&lEnder Dragon&r. \\n\\nThe &d&lEnder Dragon&r has 200 &4Hearts&r and she will Regenerate from the &dEnd Crystals&r on top of each &5Obsidian Pillar&r. Blow them up so she can't Heal anymore! \\n\\nShe has 2 modes: flying and perching. \\n\\nWhen she's flying she'll Fly around the Island and constantly Shoot &dEnder Fireballs&r at you. When they Hit Blocks or you, they'll deal an AOE Damage. This is when you spam Arrows at her. \\n\\nWhen she's perching she'll hover directly above the &0Exit Portal&r, the &0Bedrock Nest&r. This time she can't be hurt by Projectiles, they'll just bounce off. You'll need to Hit her with Swords, Axes, Maces, or Spears. She might also shoot &dDragon's Breath&r at you. This will Damage you when you're in it, but you can also use an Empty Bottle in it to capture &dDragon's Breath&r! \\n\\nOnce Slain she'll Drop a ton of &aExperience Orbs&r, the &0Exit Portal&r will open up, and the &dDragon Egg&r will Spawn above the &0Portal&r.",
+  ],
+  "quest.079D573AAE2A6427.title": "&9&lSilent Gear",
+  "quest.0AE25EC6B6089F3B.title": "&l&cThe Nether",
+  "task.0902A7980CF0E950.title": "Armor",
+  "task.42B937CF3D490BEB.title": "Tech Mods",
+  "quest.4FB923DD4EBCC1BA.quest_desc": [
+    "&0Wither Skeletons&r Spawn in &4Nether Fortresses&r. \\n\\nThey have 10 &4Hearts&r and are 3 Blocks Tall which can exploited to help Kill them. \\n\\nThey have a &7Stone Sword&r which they use to Hit you. If they Hit you they'll Effect you with &0Wither&r. \\n\\nThe &0Wither&r Effect is exactly like &aPoison&r but stronger and instead of leaving you on Half a &4Heart&r it will just Kill you. \\n&0Wither Skeletons&r Drop &0Coal&r, Bones, and rarely their &0Skulls&r.",
+  ],
+  "quest.4B5C2541410CBDD6.title": "&6&lProductive Mods",
+  "quest.612FE1CBA627D9AB.title": "Players bestfriend",
+  "quest.2D50702DCC000821.quest_desc": [
+    "Okay well with Mods we are going to get a lot more Items so we'll need a lot more Storage. \\n\\nLet's upgrade our &6Chests&f/&6Barrels&r by using &6&lSophisticated Storage&r. \\n\\nAdding a &7Lever&r to our Recipe we can make &6Chests&f/&6Barrels&r that can be upgraded to Hold more Items.",
+  ],
+  "quest.7D10D15B94C63DE4.title": "&dMagic Mods",
+  "quest.05437E6D19E6DD11.quest_desc": [
+    "&4Combat&r is a big part of &2&lMinecraft&r. Lot's of things want to Kill you and there's even more you'll want to Kill! \\n\\nSwords and Axes are our main Weapons but there's plenty more like Maces and now Spears. As well as Ranged Weapons like Bows and Crossbows. \\n\\nYou can see the &4Damage&r a Weapon does at full swing when viewing it in your Inventory. The Stone Sword does 5 &4Damage&r, which is 2.5 &4Hearts&r. \\n\\nEach Weapon has an Attack Speed though. This is how quickly they can Attack at max &4Damage&r. If you swing too early it'll do less &4Damage&r.",
+  ],
+  "quest.7940639D3049C68F.title": "The &8Creaking",
+  "quest.6A58B95BF0F26496.title": "&7&lStone Age",
+  "task.33BA49A7B9E9A04E.title": "Upgraded Chests/Barrels",
+  "quest.079D573AAE2A6427.quest_desc": [
+    "The few Tools &2&lMinecraft&r gives you ain't enough? \\n\\nYou want more Tools with more customizable options for each individual Stat? \\n\\nThen &9&lSilent Gear&r is what you're looking for! \\n\\nStart out with &9Blueprints&r (or &7Templates&r) and you can use Ingots and Items to construct different Tool Parts. Combine them to make special Tools. \\n\\nSome even give different Effects like &5Fortune&r or &cFire Aspect&r!",
+  ],
+  "quest.022A6E8097B12FC9.quest_desc": [
+    "&6Exploring&r you can find &6&lArtifacts&r in &6Chests&r or from &4Mimics&r. \\n\\n&6&lArtifacts&r can be worn (or equipped) to do different things. \\n\\nFrom giving Potion Effects like &aNight Vision&r or &cFire Resistance&r, to scaring off &2Creepers&r, to even an Infinite Food Source. \\n\\nWhat can't &6&lArtifacts&r do?",
+  ],
+  "quest.30FF357C14F1B966.quest_desc": [
+    "A new addition to &2&lMinecraft&r from the Baby Drop. \\n\\nOkay, I'm not calling it that that sounds awful. \\n\\nThe Baby Animal Drop... not much better. \\nThe Baby Animal Update! There, much better! \\n\\nThe &eGolden Dandelion&r can be used on a Baby Mob to keep them as a Baby forever! Or until you use another &eGolden Dandelion&r on them then they'll Grow like normal. \\n\\nThe Baby Animal Update gave us new Textures for most Baby Animals, so this helps us appreciate it for more than 5 minutes.",
+  ],
+  "quest.6785CE36478EEFF8.title": "Farming for Food",
+  "quest.1326E3016B881BFD.quest_desc": [
+    "With our &bDiamond Pickaxe&r we can Mine &5Obsidian&r (and &cAncient Debris&r but that's not our focus right now). \\n\\nWhen &9Water&r flows over a &cLava Source&r the &cLava&r will turn into &5Obsidian&r.",
+  ],
+  "quest.07420CD49A1758A3.quest_desc": [
+    "Not many &6Exploration&r Mods are updated yet but good ol' &b&lAether&r is still here! \\n\\nWait, this isn't ol' &b&lAether&r... this is &b&lAether 2&r, the sequel to ol' &b&lAether&r. \\n\\nStill the same way of getting there though. Make a 2x3 Frame of &eGlowstone&r, just like a &cNether Portal&r, and place &9Water&r in it to activate the Portal.",
+  ],
+  "quest.08405A885ACDADFC.quest_desc": [
+    "&6Chests&r only work when we're at Home, a place to Drop off a dozen Items, so how can we keep more Items in our Inventory on the run? \\n\\nWith &6Bundles&r it's a breeze! \\n\\n&6Bundles&r can store a max of 64 Items, that can mean 1 Stack of 1 Item, or 64 separate different Items. \\n\\nIn your Inventory just Drag and Click Items into the &6Bundle&r to put them in it. If you want them out, Hold the Bundle and Right Click to Drop an Item.",
+  ],
+  "quest.05437E6D19E6DD11.title": "&4&lCombat",
+  "quest.57B726C4B7E418EC.quest_desc": [
+    "&0&lThe Wither&r is a Boss that we have to Build? \\n\\nPlace down a T shape with 4 &7Soul Sand&r, then put the 3 &0Wither Skeleton Skulls&r on the top layer of &7Soul Sand&r to Spawn &0&lThe Wither&r! \\n\\n&0&lThe Wither&r will spawn and immediately start Regenerating Health to 300 &4Hearts&r. Then, he'll start Flying around Shooting &0Wither Skulls&r at every Mob or Player near. \\n\\n&0Wither Skulls&r will explode and give the &0Wither&r Effect to anything they Hit. If he Kills a Mob, they'll Drop a &0Wither Rose&r. \\n\\nOnce he's down to 150 &4Hearts&r he'll become invunerable to Projectiles and will need to be finished with a Melee Weapon! \\n\\nOn Death he'll Drop a &bNether Star&r.",
+  ],
+  "quest.6D949DB7FAD4A5B8.quest_desc": [
+    "There's a few ways of getting Dried Ghast: look near Fossils in &7Soul Sand Valleys&r, Craft one, or Barter for it. Easiest is near Fossils. \\n\\nYou can take the Dried Ghast into the &2&lOverworld&r and place it down in &9Water&r. \\nSlowly it will soak up the &9Water&r and become a Happy Ghast! They'll start out as Babies and can be Fed Snowballs to Grow bigger. \\n\\nOnce Adults you can put a &6Harness&r on them and then you can use them to Fly and Hover around!",
+  ],
+  "quest.47FA810348A7F46D.title": "&6Copper Golem",
+  "quest.25133422CC46ADC4.quest_desc": [
+    "&6Exploration&r is arguably one of the most fun activities in &2&lMinecraft&r. Atleast its my favorite! \\n\\nModded only adds to it! More places to go and things to see. \\n\\nWalk out of your Base, take a stroll, you might like what you find!",
+  ],
+  "quest.1326E3016B881BFD.title": "Best Tools around",
+  "quest.612FE1CBA627D9AB.quest_desc": [
+    "Now we're getting somewhere! \\n\\n&bDiamonds&r make the 2nd best &2&lVanilla&r Gear. \\n\\nMost importantly, with a &bDiamond Pickaxe&r is the highest Pickaxe Tier in &2&lVanilla&r.",
+  ],
+  "quest.7940639D3049C68F.quest_desc": [
+    "The &8Creaking&r is unlike any other Mob in &2&lMinecraft&r. \\n\\nThey'll Spawn in the &7Pale Gardens&r and will chase you down unless you stare at them. If they get close enough and you aren't looking at them they'll try and Kill you. \\n\\nThe &8Creaking&r isn't Killed like normal Mobs, they are actually invincible. To stop them you need to find and Mine a &8Creaking Heart&r. \\n\\n&8Creaking Hearts&r Spawn in &7Pale Oak Trees&r. If you Hit a &8Creaking&r, &6Resin&r will Spawn near the &8Heart&r to help locate it. \\n\\n&6Resin&r isn't used for much... yet. Besides really decoration.",
+  ],
+  "quest.19F799ABFAE801D3.quest_desc": [
+    "The &3Deep Dark&r is a rare underground Biome. \\n\\nIts infested with &3Sculk&r. The entire Biome is alive and responds to Sounds via &3Sculk Sensors&r. \\n\\n&3Sculk Sensors&r will set off &3Sculk Shriekers&r if they hear Sounds. &3Sculk Shriekers&r act like Alarms and if they go off 3 times in a row they'll summon the &9&lWarden&r. \\n\\nThe &9&lWarden&r is the strongest Mob in &2&lMinecraft&r. He has 500 &4Hearts&r and can easily Kill Players in full &cNetherite&r in a few Hits. \\n\\nThankfully he has a weakness: he's blind. He relies solely on hearing (and smell). He can hear Sounds you make like Footsteps, placing or breaking Blocks, and opening Chests. He'll also be alerted to &3Sculk Shriekrs&r or &3Sensors&r. \\n\\nYou can try cheesing him by towering 23 Blocks above him and just spamming Arrows. 23 Blocks is out of range of his &bSonic Blast&r. Yeah, he has a &bSonic Blast&r that goes through Blocks. ",
+  ],
+  "quest.6785CE36478EEFF8.quest_desc": [
+    "Don't worry, not every &2Farming Mod&r is as terrifying and complex as &2&lMystical Agriculture&r or &6&lProductive Bees&r. \\n\\nWe have a lot of simple ones that just add more Fruit, Veggies, ETC. to Farm and Eat. Like &d&lCroptopia&r and &a&lProductive Farming&r. \\n\\nThere's also a few Mods to help make making Food easier like &c&lCooking for Blockheads&r. \\n\\nDon't forget, this is your Instance of &6&lATM11&r, no one can tell you how to play. If you want to ignore the &6&lATM Star&r and just &2Farm&r then you do it! ",
+  ],
+  "quest.6CA3111E5B9FE80B.quest_desc": [
+    "&5&lApotheosis&r must hate lots of &2&lVanilla&r Mechanics because they change and add a ton! \\n\\nNow with 1.26 both &5&lApotheosis&r Adventure Module and Enchanting Module work hand in hand. \\n\\nThe Adventure Module focuses on upgrading Gears using &6Affixes&r and Gems. The Enchanting Module gives us different &6Bookshelves&r and Blocks to change the Levels of &5Enchantment Tables&r individually. \\n\\nNow the World Tiers from the Adventure Module also gates some &6Shelves&r and Blocks in the Enchanting Module.",
+  ],
+  "quest.271F9053B9EFAAEF.quest_desc": [
+    "&bTech &fand &bMachine Mods&r are a big selling point of Kitchen Sink Packs... but not many are updated right now. \\n\\nRight now we have &c&lEnergized Power&r, &3&lJust Dire Things&r, and &a&lEnderIO&r. \\n\\n&c&lEnergized Power&r and &a&lEnderIO&r are both very usual Tech Mods. Get &cEnergy&r, make Machines, use Machines. Neither of these have Quests. \\n\\n&3&lJust Dire Things&r is unique as it uses Goo. Goo converts Blocks into Crystals, and Crystals can be made into Machines and Tools. Thankfully this one does have a Quest.",
+  ],
+  "quest.6CA3111E5B9FE80B.title": "&5&lApotheosis",
+  "quest.39BC6F9F9EBBC22B.title": "&eBastion Remnants",
+  "quest.79DD4CCCECC3F974.quest_desc": [
+    "The Early Bird gets the Worm! \\n\\nWell with Modpacks that's kinda different. There's pros and cons. \\n\\nLess Mods are updated, more bugs and crashes, and not many Quests either. \\n\\nBut we do get to experience the progress ourselves plus less stuff means you won't have to worry about choice overload! \\n\\nNow you're here, welcome to &6&lATM11&r!",
+  ],
+  "quest.2063337BB2DEAB00.title": "&cBlazes",
+  "quest.61A023EFBA1B5329.quest_desc": [
+    "&cNetherite&r is the actual best Gear in &2&lVanilla&r. It is a direct upgrade to &bDiamond&r metaphorically and literally. \\n\\nTo make it we need to Craft a &cNetherite Ingot&r and find a &cNetherite Smithing Template&r in &eBastion Remnant&r Chests. \\n\\nThen, in a Smithing Table combine the &cSmithing Template&r, &cIngot&r, and the &bDiamond&r Gear you want upgraded to &cNetherite&r. \\n\\nIt'll keep all &5Enchants&r as well!",
+  ],
+  "quest.2D01012FE7F9BA61.title": "&dMagical &2Farming",
+  "task.186750FA47DB5CDC.title": "Hoes",
+  "quest.79DD4CCCECC3F974.title": "Welcome Early Birds",
+  "task.7E20EB2E5AAC47B2.title": "Magic Mods",
+  "task.474A58052C41F7CD.title": "Magical Farming",
+  "quest.3DBDF0350DC69A70.quest_desc": [
+    "Like all &2&lMinecraft&r starts, punch that &2Tree&r. \\n\\nYou Mine Blocks by Holding Left Click. \\n\\n&6Logs&r will Drop and can be used in your Inventory to Craft &6Planks&r and a &6Crafting Table&r. \\n\\n&6Crafting Tables&r give us 3x3 Crafting, some Recipes can only be Crafted on a &6Crafting Table&r.",
+  ],
+  "quest.1B3BBE40ABE68E69.quest_desc": [
+    "If we want to store Millions of Items then no &6Chest&r will work, no matter how many Upgrades they have. \\n\\nIf we want Autocrafting, a simple Storage Search, and more... then, we're going to need the big guns! \\n\\n&l&bApplied Energistics 2&r and &a&lRefined Storage 2&r are THE 2 Storage Mods. \\n\\nThankfully they both have their own Questlines so I don't have to pretend to understand how to use them!",
+  ],
+  "quest.4FB923DD4EBCC1BA.title": "&8Wither Skeletons",
+  "quest.7F902A5A03FD65F8.title": "Locate any Biome",
+  "quest.13B84D532D8B9FD7.title": "&2&lMystical Agriculture",
+  "quest.644437A0DF39915F.quest_desc": [
+    "With &bDiamonds&r, &5Obsidian&r, and a &6Book&r we can make an &5Enchanting Table&r. \\n\\n&5Enchanting Tables&r will use &9Lapis&r and &aExperience&r to place &5Enchants&r on Gear. &5Enchants&r upgrade Gear, either giving more Drops, giving more Durability, or even setting things on &cFire&r! \\n\\nThe &5Enchants&r that you can get are set by the &5Enchanting Table's&r Level, which is set by &6Bookshelves&r. \\n\\nBut we also have &5&lApotheosis&r which adds to the mix of it.",
+  ],
+  "quest.06BF382F23E5C51F.quest_desc": [
+    "Armor is pretty necessary for Survival. \\n\\nArmor when worn gives Armor Points. Armor Points negate a certain amount of &4Damage&r. The more Points, the less &4Damage&r you take. \\n\\nThere's also Armor Toughness which comes from &bDiamond&r and&c Netherite Armor&r. \\n\\nArmor Toughness acts as a buffer. If the &4Damage&r you would take is below a certain threshold it will be negated. There's a specific formula for it but I'm not putting all of that in here.",
+  ],
+  "quest.1B3BBE40ABE68E69.title": "Greatest form of Storage",
+  "quest.3FE25E22AFBC52E1.quest_desc": [
+    "&cEnergy&r is a big part of &bTech Mods&r, even including &b&lAE2&r and &a&lRS2&r. \\n\\nThe simplest &cGenerators&r are &cFurnace Generators&r. These use the same Fuel as &7Furnaces&r to Generate &cEnergy&r. \\n\\nThe main &cEnergy&r most use is FE, Forge Energy. Some Mods like &b&lAE2&r use their own form of &cEnergy&r. Lots of times they can use the same &cEnergy&r, just at a different conversion. Other times they'll be Blocks to translate &cEnergy&r. \\n\\nOnce we get more Mods updated we'll have more options for Generators but right now its mostly &0&lPowah&r. A Mod focused solely on developing &cEnergy&r.",
+  ],
+  "quest.13B84D532D8B9FD7.quest_desc": [
+    "Ever want to Grow almost every single Item? You like Watering an &7Iron Plant&r? Or a &9Squid Plant&r? \\n\\nThen you need &2&lMystical Agriculture&r! \\n\\n&2&lMystical Agriculture&r uses Essence to make and Grow Seeds of... everything. Each uses &aInferium&r and its upgraded versions as a price. The better the Item you want to grow, the more difficult it is to Craft a Seed. \\n\\nEach Seed will give you Essence which can be Crafted back into the original Item.",
+  ],
+  "quest.47FA810348A7F46D.quest_desc": [
+    "&6Copper Golems&r are here! No, they don't Fight Mobs, they organize instead. \\n\\nJust place a &6Jack O' Lantern&r above a &6Copper Block&r and it will form a &6Copper Chest&r with a &6Copper Golem&r above it. \\n\\nThe way the &6Copper Golem&r works is that they will take Items out from the &6Copper Chest&r and bring them to nearby Chests with the same Items. \\n\\nFree auto sorters!",
+  ],
+  "quest.6D949DB7FAD4A5B8.title": "Happy Ghast",
+  "quest.022A6E8097B12FC9.title": "&6&lArtifacts",
+  "task.7AD8269107F61422.title": "Logs",
+  "quest.644437A0DF39915F.title": "&5&lEnchanting",
+  "quest.3B61DE4CB34F6BC9.title": "Finding/making &cNetherite",
+  "quest.61A023EFBA1B5329.quest_subtitle": "Netherite",
+  "quest.30FF357C14F1B966.title": "&eGolden Dandelion",
+  "quest.271F9053B9EFAAEF.title": "&l&bTechnology Mods",
+  "quest.19F799ABFAE801D3.title": "&9&lWarden",
+  "quest.0732A9CF767688F9.quest_desc": [
+    "Spears are the newest Weapon in &2&lMinecraft&r. \\n\\nYou can Left Click to pathetically Hit Mobs or we can Hold Right Click to use the Spear as intended. \\n\\nWhen you Hold Right Click you'll keep the Spear pointed in front of you, then when you get enough velocity you'll deal &4Damage&r to Mobs in front of you. \\n\\nThe more Speed the more &4Damage&r. Like the Mace just this one is in a different direction!",
+  ],
+  "quest.209D4047831CBB0C.quest_desc": [
+    "The &7Pale Garden&r is a new Biome, everything is very &7Gray&r and desaturated here. \\n\\nHere we can find a new Wood Type, &6Eyeblossoms&r, and the &8Creaking&r. \\n\\nWhat exactly is the &8Creaking&r?",
+  ],
+  "quest.07420CD49A1758A3.title": "&b&lThe Aether 2",
+  "quest.3FE25E22AFBC52E1.title": "&c&lEnergy Production",
+  "task.750E2B70F5B6F48C.title": "Spears",
+  "quest.4B5C2541410CBDD6.quest_desc": [
+    "&6&lProductive Bees&r gives us hundreds of different &6Bees&r that we can Breed and use to get &6Honey Comb&r which can be processed to make Items. \\n\\nIt gets quite complicated when it comes to Upgrades, Bee Genes, and just trying to follow the Breeding Charts. \\n\\nYou'll start by Farming normal &6Bees&r and hunting for &6Solitary Bees&r out in the Wild in order to Breed. \\n\\n&2&lProductive Trees&r is a Mod that is reliant on &6&lProductive Bees&r. \\n\\n&2&lTrees&r uses &6Bees&r to cross Breed &2Trees&r to make new &2Trees&r. Different &2Trees&r give different Wood Types to Build with and even Fruit to Eat! \\n\\n&a&lProductive Farming&r also uses &6Bees&r to Cross Breed different &aCrops&r. There's a whole family tree of them that we can find! The other &aCrops&r can be found in the Wild and from Seeds.",
+  ],
+}
