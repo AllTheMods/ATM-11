@@ -40,10 +40,10 @@
       ],
     },
     {
-      x: 3.0,
-      y: 0.0,
+      x: 6.5,
+      y: 1.5,
       dependencies: [
-        "310969B8FE0A94DE",
+        "17C87EB8ED8A27AB",
       ],
       id: "0F89BFD4A3F63A48",
       tasks: [
@@ -51,7 +51,7 @@
           id: "5F16431DBEAF97B0",
           type: "item",
           item: {
-            id: "minecraft:soul_lantern",
+            id: "apotheosis:ignore_light_spawner_rune",
             count: 1,
           },
         },
@@ -65,60 +65,10 @@
       ],
     },
     {
-      x: 1.2789115646258438,
-      y: 1.5391156462584945,
+      x: 10.0,
+      y: 1.0,
       dependencies: [
-        "310969B8FE0A94DE",
-      ],
-      id: "6A497B063CF32A5C",
-      tasks: [
-        {
-          id: "426CC475B062FC85",
-          type: "item",
-          item: {
-            id: "minecraft:fermented_spider_eye",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "18F0BE2E4B2B4397",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 2.5,
-      y: -2.0,
-      dependencies: [
-        "310969B8FE0A94DE",
-      ],
-      id: "4D07B0A4A2E77CDA",
-      tasks: [
-        {
-          id: "4DA7AE7F61B1FC05",
-          type: "item",
-          item: {
-            id: "minecraft:ghast_tear",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "566C4A01820C2F6B",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 2.5,
-      y: 2.0,
-      dependencies: [
-        "310969B8FE0A94DE",
+        "503AC506720FC59E",
       ],
       id: "42D7C8CD8E6F5CD7",
       tasks: [
@@ -126,24 +76,24 @@
           id: "7CA847C78EB1B215",
           type: "item",
           item: {
-            id: "minecraft:chorus_fruit",
+            id: "apotheosis:no_ai_spawner_rune",
             count: 1,
           },
         },
       ],
       rewards: [
         {
-          id: "71978F2E1C75EF8B",
-          type: "xp",
-          xp: 50,
+          id: "128641939B3FA8EF",
+          type: "xp_levels",
+          xp_levels: 5,
         },
       ],
     },
     {
-      x: 3.5,
-      y: 2.5,
+      x: 4.5,
+      y: 1.5,
       dependencies: [
-        "310969B8FE0A94DE",
+        "17C87EB8ED8A27AB",
       ],
       id: "6F71FD826C29C31A",
       tasks: [
@@ -151,7 +101,7 @@
           id: "65FF566B862C7211",
           type: "item",
           item: {
-            id: "minecraft:turtle_egg",
+            id: "apotheosis:youthful_spawner_rune",
             count: 1,
           },
         },
@@ -165,10 +115,10 @@
       ],
     },
     {
-      x: 4.5,
-      y: 2.5,
+      x: 5.5,
+      y: 1.5,
       dependencies: [
-        "310969B8FE0A94DE",
+        "17C87EB8ED8A27AB",
       ],
       id: "186593EBCE3FE8D8",
       tasks: [
@@ -176,7 +126,7 @@
           id: "5E1D4330184C7E38",
           type: "item",
           item: {
-            id: "minecraft:piston",
+            id: "apotheosis:spawn_range_spawner_rune",
             count: 1,
           },
         },
@@ -190,10 +140,10 @@
       ],
     },
     {
-      x: 4.0,
-      y: 0.0,
+      x: 3.0,
+      y: -1.5,
       dependencies: [
-        "310969B8FE0A94DE",
+        "17C87EB8ED8A27AB",
       ],
       id: "0E02CE4469FCA4C9",
       tasks: [
@@ -201,7 +151,7 @@
           id: "39E60F2CA2EFAB9E",
           type: "item",
           item: {
-            id: "minecraft:comparator",
+            id: "apotheosis:redstone_control_spawner_rune",
             count: 1,
           },
         },
@@ -215,85 +165,10 @@
       ],
     },
     {
-      x: 1.3401360544217624,
-      y: -1.5221088435374206,
+      x: 9.0,
+      y: 1.0,
       dependencies: [
-        "310969B8FE0A94DE",
-      ],
-      id: "3E2A411FF5B4B0E7",
-      tasks: [
-        {
-          id: "75FE61AB74C39108",
-          type: "item",
-          item: {
-            id: "minecraft:prismarine_crystals",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "1205A3C839D5D2EF",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 3.5,
-      y: -2.5,
-      dependencies: [
-        "310969B8FE0A94DE",
-      ],
-      id: "7A9AE63998BB41FF",
-      tasks: [
-        {
-          id: "5E1EDF7E617E5853",
-          type: "item",
-          item: {
-            id: "minecraft:sugar",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "4230733A1148BBFB",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 4.5,
-      y: -2.5,
-      dependencies: [
-        "310969B8FE0A94DE",
-      ],
-      id: "0D6D45DBA64E612D",
-      tasks: [
-        {
-          id: "1FA39F402B7D0B8B",
-          type: "item",
-          item: {
-            id: "minecraft:clock",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "6F81C9F5C5F88260",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 5.0,
-      y: 0.0,
-      dependencies: [
-        "310969B8FE0A94DE",
+        "503AC506720FC59E",
       ],
       id: "30EB438C66324213",
       tasks: [
@@ -301,24 +176,24 @@
           id: "211FBEB0E4FF1FD6",
           type: "item",
           item: {
-            id: "minecraft:nether_star",
+            id: "apotheosis:ignore_players_spawner_rune",
             count: 1,
           },
         },
       ],
       rewards: [
         {
-          id: "5CD7F608A939A8A5",
-          type: "xp",
-          xp: 50,
+          id: "3E940F1FB4ECEFBD",
+          type: "xp_levels",
+          xp_levels: 5,
         },
       ],
     },
     {
-      x: 6.0,
-      y: 0.0,
+      x: 10.0,
+      y: -1.0,
       dependencies: [
-        "310969B8FE0A94DE",
+        "503AC506720FC59E",
       ],
       id: "40096ED0B04C3EC5",
       tasks: [
@@ -326,24 +201,24 @@
           id: "74B1D74F1C52D05C",
           type: "item",
           item: {
-            id: "minecraft:conduit",
+            id: "apotheosis:ignore_conditions_spawner_rune",
             count: 1,
           },
         },
       ],
       rewards: [
         {
-          id: "69BB96AEB6965CAE",
-          type: "xp",
-          xp: 50,
+          id: "11C5CB149DA93733",
+          type: "xp_levels",
+          xp_levels: 5,
         },
       ],
     },
     {
       x: 4.0,
-      y: -1.0,
+      y: -1.5,
       dependencies: [
-        "310969B8FE0A94DE",
+        "17C87EB8ED8A27AB",
       ],
       id: "167E1474644C9908",
       tasks: [
@@ -365,42 +240,10 @@
       ],
     },
     {
-      icon: {
-        id: "minecraft:white_wool",
-        count: 1,
-      },
-      x: 4.0,
-      y: 1.0,
+      x: 9.0,
+      y: -1.0,
       dependencies: [
-        "310969B8FE0A94DE",
-      ],
-      id: "1AD87CB3226ED224",
-      tasks: [
-        {
-          id: "39702880D9133E3E",
-          type: "item",
-          item: {
-            id: "ftbfiltersystem:smart_filter",
-            count: 1,
-            components: {
-              "ftbfiltersystem:filter": "item_tag(minecraft:wool)",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "0A858F4F23CCCED8",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 0.054421768707477725,
-      y: -1.277210884353746,
-      dependencies: [
-        "310969B8FE0A94DE",
+        "503AC506720FC59E",
       ],
       id: "18E0F5A78F696FA3",
       tasks: [
@@ -408,24 +251,24 @@
           id: "457F2333F0FC4029",
           type: "item",
           item: {
-            id: "minecraft:echo_shard",
+            id: "apotheosis:echoing_spawner_rune",
             count: 1,
           },
         },
       ],
       rewards: [
         {
-          id: "1F04ED28FED7CE25",
-          type: "xp",
-          xp: 50,
+          id: "5BDACBE0CEBE254A",
+          type: "xp_levels",
+          xp_levels: 5,
         },
       ],
     },
     {
-      x: -1.0,
-      y: 1.0,
+      x: 3.2006802721088476,
+      y: 1.5,
       dependencies: [
-        "310969B8FE0A94DE",
+        "17C87EB8ED8A27AB",
       ],
       dependency_requirement: "one_completed",
       id: "7F6B66566C211735",
@@ -434,7 +277,7 @@
           id: "703ACE135A88F2DB",
           type: "item",
           item: {
-            id: "minecraft:pointed_dripstone",
+            id: "apotheosis:initial_health_spawner_rune",
             count: 1,
           },
         },
@@ -448,10 +291,10 @@
       ],
     },
     {
-      x: -0.7006802721088476,
-      y: 0.008503401360542284,
+      x: 2.0,
+      y: 1.5,
       dependencies: [
-        "310969B8FE0A94DE",
+        "17C87EB8ED8A27AB",
       ],
       id: "4F7F8F4ED1CA0550",
       tasks: [
@@ -459,7 +302,7 @@
           id: "227F63C049BD3C6E",
           type: "item",
           item: {
-            id: "minecraft:campfire",
+            id: "apotheosis:burning_spawner_rune",
             count: 1,
           },
         },
@@ -525,7 +368,7 @@
             id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbfiltersystem:filter": "or(component(fuzzy:{\\\"minecraft:stored_enchantments\\\":{levels:{\\\"apothic_spawners:capturing\\\":1}}})component(fuzzy:{\\\"minecraft:stored_enchantments\\\":{levels:{\\\"apothic_spawners:capturing\\\":2}}})component(fuzzy:{\\\"minecraft:stored_enchantments\\\":{levels:{\\\"apothic_spawners:capturing\\\":3}}})component(fuzzy:{\\\"minecraft:stored_enchantments\\\":{levels:{\\\"apothic_spawners:capturing\\\":4}}})component(fuzzy:{\\\"minecraft:stored_enchantments\\\":{levels:{\\\"apothic_spawners:capturing\\\":5}}})component(fuzzy:{\\\"minecraft:stored_enchantments\\\":{levels:{\\\"apothic_spawners:capturing\\\":6}}})component(fuzzy:{\\\"minecraft:stored_enchantments\\\":{levels:{\\\"apothic_spawners:capturing\\\":7}}}))item(minecraft:enchanted_book)",
+              "ftbfiltersystem:filter": "item(minecraft:enchanted_book)or(component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":1}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":2}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":3}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":4}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":5}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":6}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":7}}))",
             },
           },
         },
@@ -546,12 +389,14 @@
           "ftbquests:missing_item": "mob_grinding_utils:mob_swab",
         },
       },
-      x: -1.5,
-      y: 4.0,
+      x: 1.5,
+      y: 3.5,
       shape: "rsquare",
       dependencies: [
         "78E94C386B1E7359",
       ],
+      optional: true,
+      invisible: true,
       id: "2D8A7065F8CDDDDD",
       tasks: [
         {
@@ -687,11 +532,13 @@
       ],
     },
     {
-      x: 7.0,
-      y: 0.0,
+      x: -1.0,
+      y: -1.0,
       dependencies: [
         "310969B8FE0A94DE",
       ],
+      optional: true,
+      invisible: true,
       id: "1102B27CBF564127",
       tasks: [
         {
@@ -716,10 +563,12 @@
     },
     {
       x: -0.5,
-      y: 7.0,
+      y: 8.0,
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      optional: true,
+      invisible: true,
       id: "52FAF122466FDDC9",
       tasks: [
         {
@@ -754,6 +603,8 @@
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      optional: true,
+      invisible: true,
       id: "6D68D9941049E806",
       tasks: [
         {
@@ -789,6 +640,8 @@
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      optional: true,
+      invisible: true,
       id: "39E822440E7D2E04",
       tasks: [
         {
@@ -842,7 +695,7 @@
     },
     {
       x: -0.5,
-      y: 8.0,
+      y: 7.0,
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
@@ -875,6 +728,8 @@
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      optional: true,
+      invisible: true,
       id: "72AE56D34834D28E",
       tasks: [
         {
@@ -896,6 +751,8 @@
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      optional: true,
+      invisible: true,
       id: "21C2458FED19363C",
       tasks: [
         {
@@ -919,8 +776,8 @@
       ],
     },
     {
-      x: 1.5,
-      y: 3.5,
+      x: -1.5,
+      y: 4.0,
       dependencies: [
         "78E94C386B1E7359",
       ],
@@ -940,6 +797,228 @@
           id: "4BAB5A158ADC1B51",
           type: "xp_levels",
           xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 0.0,
+      dependencies: [
+        "310969B8FE0A94DE",
+      ],
+      id: "321C15EBBE2D3D30",
+      tasks: [
+        {
+          id: "262D81991CB885B3",
+          type: "item",
+          item: {
+            id: "apotheosis:spawner_chain",
+            count: 1,
+          },
+        },
+        {
+          id: "449574D591A36201",
+          type: "item",
+          item: {
+            id: "minecraft:tnt",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "14C221AC1D9BA621",
+          type: "item",
+          item: {
+            id: "apotheosis:spawner_chain",
+            count: 1,
+          },
+          count: 64,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: 0.0,
+      dependencies: [
+        "321C15EBBE2D3D30",
+      ],
+      size: 1.25,
+      id: "17C87EB8ED8A27AB",
+      tasks: [
+        {
+          id: "28D30A983F0E4E13",
+          type: "item",
+          item: {
+            id: "apotheosis:spawner_rune",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32F1CC46FEC03FE3",
+          type: "item",
+          item: {
+            id: "apotheosis:spawner_rune",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -1.5,
+      dependencies: [
+        "17C87EB8ED8A27AB",
+      ],
+      id: "00C26068B55F4FD9",
+      tasks: [
+        {
+          id: "2FC5A74B43B9CA85",
+          type: "item",
+          item: {
+            id: "apotheosis:silent_spawner_rune",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "09A42D9CF07224A9",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -2.5,
+      dependencies: [
+        "17C87EB8ED8A27AB",
+      ],
+      id: "3F1430ADB648102F",
+      tasks: [
+        {
+          id: "36B1DF7B054D803A",
+          type: "item",
+          item: {
+            id: "apotheosis:frontier_spawner_upgrade_rune",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D66827934F17D92",
+          type: "xp_levels",
+          xp_levels: 50,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -2.5,
+      dependencies: [
+        "17C87EB8ED8A27AB",
+      ],
+      id: "17410BE15A81DD96",
+      tasks: [
+        {
+          id: "602E67E4865AF1C5",
+          type: "item",
+          item: {
+            id: "apotheosis:ascent_spawner_upgrade_rune",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "39962F3D8EB1C56B",
+          type: "xp_levels",
+          xp_levels: 100,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 0.0,
+      dependencies: [
+        "17C87EB8ED8A27AB",
+      ],
+      size: 1.25,
+      id: "503AC506720FC59E",
+      tasks: [
+        {
+          id: "74EAE4DBD6EBDACC",
+          type: "item",
+          item: {
+            id: "apotheosis:infused_spawner_rune",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "18AFADB086E3227A",
+          type: "item",
+          item: {
+            id: "apotheosis:infused_spawner_rune",
+            count: 1,
+          },
+          count: 7,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 0.0,
+      dependencies: [
+        "503AC506720FC59E",
+      ],
+      id: "7AC6A958936636D9",
+      tasks: [
+        {
+          id: "3B2FCF1513B78FD5",
+          type: "item",
+          item: {
+            id: "apotheosis:summit_spawner_upgrade_rune",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "166B2BFDA8F79138",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 0.0,
+      dependencies: [
+        "503AC506720FC59E",
+      ],
+      id: "0E90577AC72749C4",
+      tasks: [
+        {
+          id: "7C104CB6B4153203",
+          type: "item",
+          item: {
+            id: "apotheosis:pinnacle_spawner_upgrade_rune",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D3C30C0F6D5EAEF",
+          type: "xp_levels",
+          xp_levels: 10,
         },
       ],
     },
