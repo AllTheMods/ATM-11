@@ -14,7 +14,7 @@
   "quest.003AA945CACCD641.title": "Bee Of the Depths",
   "quest.3AF30E1EC163E2E3.title": "Sapphire Bee",
   "quest.17989643018D00C1.quest_desc": [
-    "Do Hives annoy you when they drip? If so, you're in luck because there's an easy solution.\\\\n\\\\nYou can place a &eSponge&r in the Bottle slot of an Advanced Hive to stop it from dripping.",
+    "Do Hives annoy you when they drip? If so, you're in luck because there's an easy solution.\n\nYou can place a &eSponge&r in the Bottle slot of an Advanced Hive to stop it from dripping.",
   ],
   "quest.0B2210804594E7B8.title": "Arcane Essence Bee",
   "quest.677D0E27CAD7B145.quest_subtitle": "Feed Ether Gas Bucket to a Pink Slimy Bee",
@@ -101,7 +101,7 @@
   "quest.71667FFC8011525C.quest_subtitle": "Magmatic + Leafcutter",
   "quest.614937A2F5823F3E.title": "Magmatic Bee",
   "quest.1B79F794EDAA810A.quest_desc": [
-    "The Breeding Chamber can be used to breed two bees with each other, automatically. It is capable of self breeding, as well as breeding 2 types of bees to make a third type (Example: Ashy Mining + Crystalline -> Iron). If this would result in a conflict (Continuing off of the earlier example, Ashy Mining + Crystalline -> Aluminium), take out one of the bees, then put it back in.\\\\n\\\\nProvide breeding items in each slot (usually flowers, hold SHIFT on a bee cage holding a certain bee type to see what breeding item it uses (Draconic Bees use 2 Draconic Dust for example)) and some bee cages.\\\\n\\\\nJust...don't do...whatever it takes to get the F.Bee.I. to go after you. I will ensure you get added to the Hall of Shame if they DO come after you.",
+    "The Breeding Chamber can be used to breed two bees with each other, automatically. It is capable of self breeding, as well as breeding 2 types of bees to make a third type (Example: Ashy Mining + Crystalline -> Iron). If this would result in a conflict (Continuing off of the earlier example, Ashy Mining + Crystalline -> Aluminium), take out one of the bees, then put it back in.\n\nProvide breeding items in each slot (usually flowers, hold SHIFT on a bee cage holding a certain bee type to see what breeding item it uses (Draconic Bees use 2 Draconic Dust for example)) and some bee cages.\n\nJust...don't do...whatever it takes to get the F.Bee.I. to go after you. I will ensure you get added to the Hall of Shame if they DO come after you.",
   ],
   "quest.06044B4452A6B720.quest_desc": [
     "When placed in a Desert biome, the Sand Nest will attract either the Chocolate or Ashy Mining Bee.",
@@ -168,7 +168,7 @@
   "quest.109AD73F016D576B.title": "Your First Beehive",
   "quest.532F3E6868A29037.quest_subtitle": "Sonic everything but Bees",
   "quest.2182492BCC1B33D8.quest_desc": [
-    "When installed in a Hive, it gives a 5% chance for a new baby Bee to be spawned every time honey is delivered.\\\\n\\\\nWhen placed in a Catcher, it only allows the catcher to catch baby Bees.\\\\n\\\\nYou can stack these for a greater chance.",
+    "When installed in a Hive, it gives a 5% chance for a new baby Bee to be spawned every time honey is delivered.\n\nWhen placed in a Catcher, it only allows the catcher to catch baby Bees.\n\nYou can stack these for a greater chance.",
   ],
   "quest.26FB7A789981BD3C.title": "Graphite Bee",
   "quest.3466C70EB256026B.title": "Fire Essence Bee",
@@ -207,7 +207,7 @@
   "quest.2E0275C21D3F0DA3.quest_subtitle": "Wyvern Fusion Crafting",
   "quest.1ACB3EDBCB732514.quest_subtitle": "Feed a Block of Monazite to a Sulfur Bee",
   "quest.5A9B2246E33065A5.quest_desc": [
-    "Affects the amount of combs you receive whenever a bee produces honeycombs. There are 4 levels of this: &aNormal&r, &9Medium&r, &dHigh&r, &cVery High&r. &cVery High&r is what we are after.\\\\n\\\\nIt is found on KamikazBee and BeeBee. BeeBee can naturally be found in The Other, and is an EXTREMELY lethal bee. If you'd rather not risk dealing with an exceptionally lethal bee, you can also rely on KamikazBees.\\\\n\\\\nTo get a KamikazBee, you need a Bee Nest Helmet. Get attacked by mobs (or shoot yourself with an arrow) while wearing the helmet for a 30% chance of having a KamikazBee emerge. It is quite fast, and will sting the aggressor (unless it's you), so better catch it quickly or use the Catcher.",
+    "Affects the amount of combs you receive whenever a bee produces honeycombs. There are 4 levels of this: &aNormal&r, &9Medium&r, &dHigh&r, &cVery High&r. &cVery High&r is what we are after.\n\nIt is found on KamikazBee and BeeBee. BeeBee can naturally be found in The Other, and is an EXTREMELY lethal bee. If you'd rather not risk dealing with an exceptionally lethal bee, you can also rely on KamikazBees.\n\nTo get a KamikazBee, you need a Bee Nest Helmet. Get attacked by mobs (or shoot yourself with an arrow) while wearing the helmet for a 30% chance of having a KamikazBee emerge. It is quite fast, and will sting the aggressor (unless it's you), so better catch it quickly or use the Catcher.",
   ],
   "quest.6DC826659699E638.quest_subtitle": "Collide a Redstone Bee Spawn Egg with an Electrum Bee Spawn Egg",
   "quest.2E51F09F6D9E5EF8.quest_desc": [
@@ -215,7 +215,7 @@
   ],
   "quest.41FD145B911BD625.title": "Iesnium Bee",
   "quest.1404BB8956D5F8C7.quest_desc": [
-    "Affects the ability of a bee to work under harsh weather conditions. There are 3 levels of this: &aNone&r, &dRain&r, &cAny&r. &cAny&r is what we are after. You could leash the bee to a fence during a thunderstorm if you wanted to, but come on, that's just cruel.\\\\n\\\\nI offer you an easier solution. Fishing. That's right, you can fish for bees. Water or Prismarine Bees naturally come with the ability to tolerate any weather conditions. We can make use of this!",
+    "Affects the ability of a bee to work under harsh weather conditions. There are 3 levels of this: &aNone&r, &dRain&r, &cAny&r. &cAny&r is what we are after. You could leash the bee to a fence during a thunderstorm if you wanted to, but come on, that's just cruel.\n\nI offer you an easier solution. Fishing. That's right, you can fish for bees. Water or Prismarine Bees naturally come with the ability to tolerate any weather conditions. We can make use of this!",
   ],
   "quest.309059DEDEE7AECD.quest_subtitle": "Feed a Collector Bee a Shulker Shell",
   "quest.614937A2F5823F3E.quest_subtitle": "Spawned using a Nether Brick Nest in the Nether",
@@ -230,7 +230,7 @@
   "quest.79CA2F401982C04F.quest_subtitle": "Feed an Arcanus Bee a Rune Block",
   "task.65D52E6A67DD11EB.title": "Centrifuges",
   "quest.30A238E87F013CBB.quest_desc": [
-    "Bees have varying traits that can affect how they work, when they work, their aggression, and their likelihood to lose their stinger when they attack you. In these quests I will be going over the way to get the best traits possible, as well as how to use them.\\\\n\\\\nTo get these Gene Samples, check out the Bottler quest, which is a dependency of this one. To actually apply these Gene Samples to your bees, you will need to combine them with a Honey Treat in a crafting grid. All traits, except for Type, you can apply to your bees by feeding them the Honey Treat. Type works differently, and must instead be used with the Incubator to make a Spawn Egg of the respective bee.",
+    "Bees have varying traits that can affect how they work, when they work, their aggression, and their likelihood to lose their stinger when they attack you. In these quests I will be going over the way to get the best traits possible, as well as how to use them.\n\nTo get these Gene Samples, check out the Bottler quest, which is a dependency of this one. To actually apply these Gene Samples to your bees, you will need to combine them with a Honey Treat in a crafting grid. All traits, except for Type, you can apply to your bees by feeding them the Honey Treat. Type works differently, and must instead be used with the Incubator to make a Spawn Egg of the respective bee.",
   ],
   "quest.2A559D527BC88DEC.title": "Sky Steel Bee",
   "quest.73C70B15582958A5.quest_subtitle": "Any Overworld Biome",
@@ -372,16 +372,16 @@
   "quest.2FE088899C1AF39B.quest_subtitle": "Made in Alloy Smelter",
   "quest.00A17728A387B426.quest_subtitle": "Can be used in any Overworld biome",
   "quest.7C169A4A39F37FAC.quest_desc": [
-    "With the vanilla Beehive, we'll use this to craft an &eAdvanced Beehive&r. It can be Oak or any kind of wood.\\\\n\\\\nBees will fly in and out of these, and drop off Honeycombs in the inventory. You can also insert glass bottles to get Honey Bottles.\\\\n\\\\nWe'll need a lot of Honeycomb for treats!",
+    "With the vanilla Beehive, we'll use this to craft an &eAdvanced Beehive&r. It can be Oak or any kind of wood.\n\nBees will fly in and out of these, and drop off Honeycombs in the inventory. You can also insert glass bottles to get Honey Bottles.\n\nWe'll need a lot of Honeycomb for treats!",
   ],
   "quest.5D71589555637DB0.title": "Anglesite Bee",
   "quest.1B79F794EDAA810A.quest_subtitle": "Making Babies 2: Electric Beegaloo",
   "quest.6E4C3B87FABE9EFA.quest_subtitle": "Molten Bronze over Copper/Tin Bee Spawn Egg",
   "quest.06B6786122F3DAF9.quest_desc": [
-    "Affects the time of day a bee can work. There are 3 levels of this: &aDiurnal&r, &dNocturnal&r, &cMetaturnal&r. &aDiurnal&r bees can only work during daytime, &dNocturnal&r bees can only work during nighttime, &cMetaturnal&r bees can work at any time of the day. &cMetaturnal&r is what we're after. BeeBee naturally has the &cMetaturnal&r trait. As mentioned in the &a&lProductivity&r quest, this bee is found in The Other, and is a particularly lethal one.\\\\n\\\\nIf you'd rather not deal with that lethal bee, there's another option. We will need to leash some bees to a fence during nighttime to make them &dNocturnal&r, then leaving those bees out on a fence during daytime to make them &cMetaturnal&r. We can skip one of these steps with a Ghostly Bee or Shroombees, which are naturally &dNocturnal&r.",
+    "Affects the time of day a bee can work. There are 3 levels of this: &aDiurnal&r, &dNocturnal&r, &cMetaturnal&r. &aDiurnal&r bees can only work during daytime, &dNocturnal&r bees can only work during nighttime, &cMetaturnal&r bees can work at any time of the day. &cMetaturnal&r is what we're after. BeeBee naturally has the &cMetaturnal&r trait. As mentioned in the &a&lProductivity&r quest, this bee is found in The Other, and is a particularly lethal one.\n\nIf you'd rather not deal with that lethal bee, there's another option. We will need to leash some bees to a fence during nighttime to make them &dNocturnal&r, then leaving those bees out on a fence during daytime to make them &cMetaturnal&r. We can skip one of these steps with a Ghostly Bee or Shroombees, which are naturally &dNocturnal&r.",
   ],
   "quest.196E55B64667AE35.quest_desc": [
-    "You can place Bee Flowers on Feeding Slabs that are placed in front of Hives, as shown in the image below.\\\\n",
+    "You can place Bee Flowers on Feeding Slabs that are placed in front of Hives, as shown in the image below.\n",
     "{image:atm:textures/questpics/bees/feeder.png width:175 height:100 align:center fit:true}",
   ],
   "quest.2C29683DA28A8D47.quest_subtitle": "Made in Reprocessor",
@@ -402,6 +402,7 @@
   "quest.16987C41D4F5BA47.title": "Copper Alloy Bee",
   "quest.3155E4212045BC8E.quest_subtitle": "Lures a Draconic Bee in the End",
   "quest.35EAB77C195E594E.title": "Amethyst Bee",
+  "quest.77C830AA5A5DB44E.title": "NOT HERE YET",
   "quest.4897C7BB3139C6C6.quest_subtitle": "Lumber + Rancher",
   "quest.0072C4F028C327CB.title": "BlazBee",
   "quest.309059DEDEE7AECD.quest_desc": [
@@ -422,7 +423,7 @@
   "quest.437DB2CE10D33A08.title": "Glowing Bee",
   "quest.29A71E780923874E.quest_subtitle": "Nomad + Reed",
   "quest.500BEAD94C97DF96.quest_desc": [
-    "Can be placed in a hive or centrifuge.\\\\n\\\\nWhen in a hive, it decreases the amount of time bees spend in the hive by 20%.\\\\n\\\\nWhen placed in a Centrifuge, it increases the processing speed.\\\\n\\\\nThese do stack.",
+    "Can be placed in a hive or centrifuge.\n\nWhen in a hive, it decreases the amount of time bees spend in the hive by 20%.\n\nWhen placed in a Centrifuge, it increases the processing speed.\n\nThese do stack.",
   ],
   "quest.68CE30097BADE20E.quest_desc": [
     "Right-clicking on a Nest of the type you are looking for will point you in the direction of another!",
@@ -449,7 +450,7 @@
   "quest.52B22C07818981D0.title": "Constantan Bee",
   "quest.70FB4088084018D3.quest_subtitle": "Made in Reprocessor",
   "quest.00A17728A387B426.quest_desc": [
-    "Wood Nests are used to lure Carpenter Bees and the Blue Banded Bee.\\\\n\\\\nDark Oak Nests lures 3 different bees.\\\\n\\\\nThese can be placed in any Overworld Biome.",
+    "Wood Nests are used to lure Carpenter Bees and the Blue Banded Bee.\n\nDark Oak Nests lures 3 different bees.\n\nThese can be placed in any Overworld Biome.",
   ],
   "task.471F062B01D0DDA1.title": "Quarry Bee",
   "quest.3D7480E4F9063E93.title": "Rancher Bee",
@@ -488,7 +489,7 @@
     "&9Important Note&r: Certain Bees will only live in Nests and will not go into Advanced Hives. If they don't produce Honeycomb, they need to live in a Nest instead.",
   ],
   "quest.109AD73F016D576B.quest_desc": [
-    "Using the vanilla method, go ahead and make yourself a &9Beehive&r to have your own little setup!\\\\n\\\\nThese can hold 3 Bees each, but we won't be using it for long...\\\\n\\\\nBees will only create Honey and Honeycombs if they have the right flowers. Vanilla bees can use any flower, but most bees in the mod will require a specific block! Make sure to check JEI for more info.",
+    "Using the vanilla method, go ahead and make yourself a &9Beehive&r to have your own little setup!\n\nThese can hold 3 Bees each, but we won't be using it for long...\n\nBees will only create Honey and Honeycombs if they have the right flowers. Vanilla bees can use any flower, but most bees in the mod will require a specific block! Make sure to check JEI for more info.",
   ],
   "quest.176ACC61DC206E55.title": "Crimson Shroombee",
   "quest.79110ACAAC8412EA.quest_subtitle": "Infusion Crafting",
@@ -506,7 +507,7 @@
   "quest.2DFFEB29B6CBFD99.quest_subtitle": "Iron + Blue Banded",
   "quest.6BFF78D4218DF1F2.quest_subtitle": "Crafted in Hephaestus Forge",
   "quest.532F3E6868A29037.quest_desc": [
-    "Think of the previous Upgrade: Speed, now think of it making things even faster! \\\\n\\\\nThese Upgrades can be used in the Machines to make them work 40% faster! \\\\nYes, their effects stack. \\\\n\\\\nNo, they can not be used in Hives, that's what Productivity is for!",
+    "Think of the previous Upgrade: Speed, now think of it making things even faster! \n\nThese Upgrades can be used in the Machines to make them work 40% faster! \nYes, their effects stack. \n\nNo, they can not be used in Hives, that's what Productivity is for!",
   ],
   "quest.5894A9DB9C379E91.title": "Prudentium Bee",
   "quest.419DD6FE84B91749.quest_subtitle": "The Gene Combiner and Chest",
@@ -621,7 +622,6 @@
   "task.3ABFFD6FFEB2E8F4.title": "Gene Samples",
   "quest.24846776077B52C3.title": "Supremium Bee",
   "quest.30A238E87F013CBB.title": "Gene Samples",
-  "quest.198EDBAC1D6E2339.quest_subtitle": "Prevents Bees from Teleporting in a Hive",
   "quest.3DB5874FA93FDA50.quest_subtitle": "Electrolyze 3 Emerald Bee Spawn Eggs into a Beryllium Bee Spawn Egg",
   "quest.1A0672C7509271B3.title": "Fluorite Bee",
   "quest.26B3AE1E77A84BCB.quest_desc": [
@@ -645,15 +645,12 @@
   "task.429FA8057B666565.title": "Lapis Comb",
   "quest.003AA945CACCD641.quest_subtitle": "Made with an Offering Table",
   "quest.16987C41D4F5BA47.quest_subtitle": "Made in Alloy Smelter",
-  "quest.198EDBAC1D6E2339.quest_desc": [
-    "You'll need these for Ender Bees.",
-  ],
   "quest.70C878DB6AE413B2.quest_subtitle": "Magmatic + Coal",
   "quest.7941938014E97A30.quest_desc": [
-    "Have you ever wanted to fly on a bee?\\\\n\\\\nBumble Bees naturally spawn in the world, and they can be used as mounts!\\\\n\\\\nMake yourself a &6Treat on a Stick&r, slap a saddle on a Bumble Bee, and take to the skies!",
+    "Have you ever wanted to fly on a bee?\n\nBumble Bees naturally spawn in the world, and they can be used as mounts!\n\nMake yourself a &6Treat on a Stick&r, slap a saddle on a Bumble Bee, and take to the skies!",
   ],
   "quest.33A0E06FE5CFD8F3.quest_desc": [
-    "The &9Centrifuge&r is used to process Combs from Bees into useful items and honey! While you can definitely just use a regular &9Centrifuge&r in the beginning, getting a &6Powered Centrifuge&r soon after is a must. This is a faster Centrifuge that runs off of power!\\\\n\\\\nIf you're looking for the best way to process your Combs, the &cHeated Centrifuge&r is even faster and processes &aComb Blocks&r instead of Combs!\\\\n\\\\nThese can all be made faster by using Speed Upgrades.",
+    "The &9Centrifuge&r is used to process Combs from Bees into useful items and honey! While you can definitely just use a regular &9Centrifuge&r in the beginning, getting a &6Powered Centrifuge&r soon after is a must. This is a faster Centrifuge that runs off of power!\n\nIf you're looking for the best way to process your Combs, the &cHeated Centrifuge&r is even faster and processes &aComb Blocks&r instead of Combs!\n\nThese can all be made faster by using Speed Upgrades.",
   ],
   "quest.010A970FC91BD617.quest_subtitle": "Made in Alloy Smelter",
   "task.6D4F62833424ADC0.title": "Iron Comb",
@@ -667,12 +664,12 @@
   "quest.728189EE56E5CAF7.quest_subtitle": "Made in Alloy Smelter",
   "quest.39A19138C501B16F.title": "Slimy Bee",
   "quest.7B5A0BFD47D96BDE.quest_desc": [
-    "Used to catch bees that are flying around it.\\\\n\\\\nYou can use a Filter Upgrade to filter out which bees you want to catch, as well as a BaBee Upgrade to only catch baby bees.",
+    "Used to catch bees that are flying around it.\n\nYou can use a Filter Upgrade to filter out which bees you want to catch, as well as a BaBee Upgrade to only catch baby bees.",
   ],
   "quest.26FB7A789981BD3C.quest_subtitle": "Feed a Graphite Block to a Coal Bee",
   "quest.150FB369BEFFCBBF.quest_subtitle": "Molten Lumium over Silver/Tin Bee Spawn Egg",
   "quest.3E301F3EEC8C763A.quest_desc": [
-    "This can be used to speed up the growth rate of baby Bees, or to create new Spawn Eggs.\\\\n\\\\nPlace a caged baby Bee with 20 Honey Treats to turn it into an adult.\\\\n\\\\nTo create Spawn Eggs, you'll need to combine the gene of the bee you want with a honey treat, then use that honey treat in this machine with an egg to create the new spawn egg.\\\\n\\\\nGenes can be combined for a maximum of 100% purity, which will give you a 100% chance to convert an Egg to a Bee Spawn Egg.",
+    "This can be used to speed up the growth rate of baby Bees, or to create new Spawn Eggs.\n\nPlace a caged baby Bee with 20 Honey Treats to turn it into an adult.\n\nTo create Spawn Eggs, you'll need to combine the gene of the bee you want with a honey treat, then use that honey treat in this machine with an egg to create the new spawn egg.\n\nGenes can be combined for a maximum of 100% purity, which will give you a 100% chance to convert an Egg to a Bee Spawn Egg.",
     "{@pagebreak}",
     "You can even apply genes to a bee without taking it out of its cage with this. Put a Honey Treat with the gene samples of your choice into the incubator along with a bee cage holding the bee you want to apply genes to.",
   ],
@@ -685,13 +682,13 @@
   "quest.2AEC294578952BFD.quest_subtitle": "Lapis + Skeletal",
   "task.6887F86C8673DAF6.title": "Reed Bee",
   "quest.0A11725B41AB45F6.quest_desc": [
-    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\\\n\\\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\\\n\\\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
+    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \n\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \n\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
   ],
   "task.4203F7ED807F3D30.title": "Skeletal Comb",
   "quest.7FD3C1784F32F2AF.title": "Chaos Bee",
   "quest.37367101B3DAA70F.quest_subtitle": "Spawns from a Dirt Nest",
   "quest.128A14A3842325FE.quest_desc": [
-    "When installed into an Advanced Beehive, bees no longer physically exit the hive. A trip to their flower block will be simulated.\\\\n\\\\nMake sure to put its required flower block or a Feeding Slab in front of the hive containing the required flower blocks or items for the bee in the hive. To see how to set it up correctly, check the Feeding Slab quest.\\\\n\\\\nI highly recommend getting this so your bees don't disappear and to be able to more easily put in/take out bees from the hive.",
+    "When installed into an Advanced Beehive, bees no longer physically exit the hive. A trip to their flower block will be simulated.\n\nMake sure to put its required flower block or a Feeding Slab in front of the hive containing the required flower blocks or items for the bee in the hive. To see how to set it up correctly, check the Feeding Slab quest.\n\nI highly recommend getting this so your bees don't disappear and to be able to more easily put in/take out bees from the hive.",
   ],
   "quest.6E819CCD57B15D54.quest_desc": [
     "Using a Foundry, pour &#4CE688Molten Vibranium&r over an &#F2EB2EAllthemodium Bee Spawn Egg&r.",
@@ -707,7 +704,7 @@
   "quest.114D668C691A2BDF.title": "Iron Bee",
   "quest.0D97CDE92F3B1A83.quest_subtitle": "Molten enderium over lead/diamond/platinum bee egg",
   "quest.6F978C4D561F35EC.quest_desc": [
-    "The Bottler has two uses: Bottling honey and squshing bees for genes.\\\\n\\\\nTo get genes from bees, place a piston above the Bottler with a block of space between them.\\\\n\\\\nPlace the bee on top of the Bottler, and activate the piston to squish the bee into genes. The resulting squished bottle can be then placed in a Centrifuge.\\\\n\\\\nNote: Make sure to have bottles in the Bottler.",
+    "The Bottler has two uses: Bottling honey and squshing bees for genes.\n\nTo get genes from bees, place a piston above the Bottler with a block of space between them.\n\nPlace the bee on top of the Bottler, and activate the piston to squish the bee into genes. The resulting squished bottle can be then placed in a Centrifuge.\n\nNote: Make sure to have bottles in the Bottler.",
     "{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1}",
   ],
   "quest.1D995548A159F291.quest_subtitle": "Feed a Soulium Dagger to a Ghostly Bee",
@@ -735,7 +732,7 @@
   "task.4471A530B55D4140.title": "Osmium Comb",
   "quest.010A970FC91BD617.title": "Soularium Bee",
   "quest.32FDC5FFA000DAF8.quest_desc": [
-    "Proud of the Bees you have?\\\\n\\\\nWanna put them into a jar to show it off?\\\\n\\\\nPlace a Bee Jar down and use a Pipe or Hopper to insert the caged Bee into the jar.",
+    "Proud of the Bees you have?\n\nWanna put them into a jar to show it off?\n\nPlace a Bee Jar down and use a Pipe or Hopper to insert the caged Bee into the jar.",
   ],
   "quest.17419401147B5C02.quest_subtitle": "The Bees and the Bees",
   "quest.399882F3C51DD282.title": "Withered Bee",
@@ -749,7 +746,7 @@
   "quest.728189EE56E5CAF7.title": "Redstone Alloy Bee",
   "quest.18F948FF9FE015FB.title": "CreeBee",
   "quest.13AA91D39A2CABF2.quest_desc": [
-    "Welcome to &6Productive Bees&r!\\\\n\\\\nTo get started with the mod, you'll first need to find some Honeycombs and Honey Bottles! Find yourself a Beehive, and let the bees do their work for a little. Shearing it when it is full will give you honeycombs, and glass bottles will give you Honey Bottles!\\\\n\\\\n&9Important Note&r: With the bee quests requiring combs, the recipes will not be shown. Make sure to look them up in JEI if you need them!",
+    "Welcome to &6Productive Bees&r!\n\nTo get started with the mod, you'll first need to find some Honeycombs and Honey Bottles! Find yourself a Beehive, and let the bees do their work for a little. Shearing it when it is full will give you honeycombs, and glass bottles will give you Honey Bottles!\n\n&9Important Note&r: With the bee quests requiring combs, the recipes will not be shown. Make sure to look them up in JEI if you need them!",
   ],
   "quest.7E57964F6AD5B060.title": "Tea Bee",
   "quest.2FE088899C1AF39B.title": "Dark Steel Bee",

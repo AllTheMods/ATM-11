@@ -1,5 +1,5 @@
 {
-  "quest.686B25F2E9D8CC97.quest_subtitle": "\\\"This is Halloween\\\"",
+  "quest.686B25F2E9D8CC97.quest_subtitle": "\"This is Halloween\"",
   "quest.311F43D48B9C26FF.title": "&dObsidian Generator",
   "quest.661C072E48F8D41F.quest_desc": [
     "&6Copper&r is one if not the most common Ore you can find, so why not use a bunch of spare &6Copper&r to upgrade your furnace!",
@@ -19,7 +19,7 @@
     "Crafting 8 of the same Generators together with an Echo Shard combines them into 1 massive Generator! Works the same as 8 regular generators but only takes up the space of 1.",
   ],
   "quest.2748ACEAB96A5F60.quest_desc": [
-    "Iron Furnaces (Don't be confused with each of the titles with &lIron Furnaces&r being the mod name and an Item name) work even faster than Normal and Copper Furnaces. They take 160 Ticks to work, or 8 seconds.\\\\n\\\\nThese can be crafted from either a normal Furnace or &6Copper Furnace&r! And they can be made into either a &7Silver Furnace&r or &eGold Furnace&r.",
+    "Iron Furnaces (Don't be confused with each of the titles with &lIron Furnaces&r being the mod name and an Item name) work even faster than Normal and Copper Furnaces. They take 160 Ticks to work, or 8 seconds.\n\nThese can be crafted from either a normal Furnace or &6Copper Furnace&r! And they can be made into either a &7Silver Furnace&r or &eGold Furnace&r.",
   ],
   "quest.33436ED0D9F128BD.quest_desc": [
     "&4Augment&r: Smoking transforms your Iron Furnace into an Iron Smoker. Now it will only smoke Food items but twice as fast! Like &4Augment&r: Blasting this one also stacks with other upgrades!",
@@ -27,13 +27,13 @@
   "quest.076A648E3E3245C9.title": "&aEmerald Generator",
   "quest.39605F1FEB1A5A1C.title": "AllRightsReserved",
   "quest.39605F1FEB1A5A1C.quest_desc": [
-    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\\\n\\\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\\\n\\\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
+    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \n\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \n\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
   ],
   "quest.686B25F2E9D8CC97.quest_desc": [
     "At the time of writing this it's the end of July so I've got about 3 months until Halloween. But it's never to early to start getting Spooky! Just like Spirit Halloween we can get Spooky 3 months before it actually starts. This time by Right Clicking a Furnace with the Spook-alator! Once it's time to start getting ready for Thanksgiving Shift Right Click them to Un-Spook-Alate!",
   ],
   "quest.61F265D9A5713A4D.quest_desc": [
-    "Each upgrade upgrades everything, from the amount it makes to how much it can hold to what it can transfer to other blocks! \\\\n \\\\nYou'll need a &6Copper Generator&r to make an Iron Generator, sorry &6Copper&r haters.",
+    "Each upgrade upgrades everything, from the amount it makes to how much it can hold to what it can transfer to other blocks! \n \nYou'll need a &6Copper Generator&r to make an Iron Generator, sorry &6Copper&r haters.",
   ],
   "quest.0AD2B11565B484E7.title": "&zRainbow Plating",
   "quest.553220A2CD7CAFE4.quest_desc": [
@@ -46,7 +46,7 @@
   ],
   "quest.2748ACEAB96A5F60.title": "&fIron Furnace",
   "quest.2354BC5330350DF6.quest_desc": [
-    "If &aEmeralds&r aren't your thing the &3Crystal Furnace&r might be what you want! \\\\n \\\\nWorks the same as an &aEmerald Furnace&r at 40 Tick. \\\\n \\\\nMade with a &bDiamond Furnace&r and can be made into an &dObsidian Furnace&r. \\\\n \\\\n(No you can't see the Items smelting inside it, it's just transparent)",
+    "If &aEmeralds&r aren't your thing the &3Crystal Furnace&r might be what you want! \n \nWorks the same as an &aEmerald Furnace&r at 40 Tick. \n \nMade with a &bDiamond Furnace&r and can be made into an &dObsidian Furnace&r. \n \n(No you can't see the Items smelting inside it, it's just transparent)",
   ],
   "quest.61847F47CCA225D9.title": "Silver Furnace",
   "quest.40DB6E3DE87F16EF.quest_desc": [
@@ -59,7 +59,7 @@
     "&lGenerator's Galore&r and &lIron Furnaces&r are two different but also similar mods. Both start with the legendary Furnace!",
   ],
   "quest.61847F47CCA225D9.quest_desc": [
-    "Following the same pattern, these ones smelt at 140 Ticks or 7 Seconds.\\\\n\\\\nThey can be crafted with &6Copper&r or Iron Furnaces and can be used to craft a &eGold Furnace&r.",
+    "Following the same pattern, these ones smelt at 140 Ticks or 7 Seconds.\n\nThey can be crafted with &6Copper&r or Iron Furnaces and can be used to craft a &eGold Furnace&r.",
   ],
   "quest.076A648E3E3245C9.quest_desc": [
     "Very fast Rate of making Energy from Fuel which makes it the very efficient. Only problem is it can't be upgraded anymore. Still uses normal Furnace Fuel.",
@@ -81,11 +81,11 @@
   ],
   "quest.553220A2CD7CAFE4.quest_subtitle": "All Wrapped up",
   "quest.79C4CF8D7312FC28.quest_desc": [
-    "The best Vanilla gets! &5Netherite&r! Don't worry you won't need Smithing Template for it, just a lotta &5Netherite&r. \\\\n \\\\nIt smelts an item every 5 Ticks which means 4 Items Smelted every Second. Yes it's no longer S.P.S. (Seconds per Smelt) it's now S.P.S. (Smelts per Seconds). \\\\n \\\\nCrafted from &dObsidian Furnace&r... wait this isn't the final Furnace?",
+    "The best Vanilla gets! &5Netherite&r! Don't worry you won't need Smithing Template for it, just a lotta &5Netherite&r. \n \nIt smelts an item every 5 Ticks which means 4 Items Smelted every Second. Yes it's no longer S.P.S. (Seconds per Smelt) it's now S.P.S. (Smelts per Seconds). \n \nCrafted from &dObsidian Furnace&r... wait this isn't the final Furnace?",
   ],
   "quest.73FF01D830A669AA.title": "&4Augment&r: Blasting",
   "quest.21EA29A8C7F950CE.quest_desc": [
-    "&bDiamonds&r the staple of &2Minecraft&r, and of upgraded Furnaces apparently...\\\\n \\\\nThese work even faster only taking 80 Ticks or 4 Seconds to smelt items. That's even faster than a Blast Furnace! \\\\n \\\\nThese are only crafted by &eGold Furnaces&r and can be crafted into &3Crystal&r or &aEmerald Furnaces&r.",
+    "&bDiamonds&r the staple of &2Minecraft&r, and of upgraded Furnaces apparently...\n \nThese work even faster only taking 80 Ticks or 4 Seconds to smelt items. That's even faster than a Blast Furnace! \n \nThese are only crafted by &eGold Furnaces&r and can be crafted into &3Crystal&r or &aEmerald Furnaces&r.",
   ],
   "quest.538821E23E39BE97.quest_desc": [
     "&2Augment&r: Fuel Efficiency is for all you Earth-Loving, Tree-Hugging, Captain Planet Embracing, Hippies. The Furnace consumes half of the amount of Fuel at the cost of half the time. Coal will not Smelt 8 items but rather 16!",
@@ -103,7 +103,7 @@
     "The &6Allthemodium Furnace&r is pretty much the same as the Netherite Furnace. You will need this to craft the &3Vibranium Furnace&r.",
   ],
   "quest.420FE84DEE12CCE0.quest_desc": [
-    "The &eGold Furnace&r is better than the Iron ones with a Cooktime of 120 Ticks.\\\\n\\\\nIt can be crafted with &7Silver&r or Iron Furnace and is crafted into a &bDiamond one&r!",
+    "The &eGold Furnace&r is better than the Iron ones with a Cooktime of 120 Ticks.\n\nIt can be crafted with &7Silver&r or Iron Furnace and is crafted into a &bDiamond one&r!",
   ],
   "quest.1C73E60FC70408D4.quest_desc": [
     "Finally a unique Generator! Culinary is the name for the art of Food. These Generators don't take Coal, Lava, or even logs, they take Food. Anything with Food Points can be used to make Energy, the amount it makes is based off the amount of Food Points the Food consists of. Steak will give more Energy than a Carrot.",
@@ -132,7 +132,7 @@
     "There's so many useless &5Enchantments&r out there, why not get some Energy out of them! The &bEnchantment Generator&r uses &5Enchanted Books&r to make Energy. The Level and Rarity of &5Enchanted Books&r changes the amount of Energy you get from them.",
   ],
   "quest.618F1434757C8E69.quest_desc": [
-    "&lGenerator's Galore&r adds very simple Generators. The most basic ones act like Furnaces with &3Augment&r: Generator. They'll take Fuel and make it into Energy! \\\\n \\\\nYes you have to start with &6Copper Generator&r.",
+    "&lGenerator's Galore&r adds very simple Generators. The most basic ones act like Furnaces with &3Augment&r: Generator. They'll take Fuel and make it into Energy! \n \nYes you have to start with &6Copper Generator&r.",
   ],
   "quest.2EE8FCB63A338BC4.title": "&zRainbow Furnace",
   "quest.757B14D08A9A03C4.quest_desc": [
@@ -146,6 +146,7 @@
     "You blew up the &zRainbow Furnace&r?!?! Just lit TNT right next to it? Are you mad? That took so many Furnaces and resources and you just blew it up!!! Did you atleast get something good from it? &zRainbow Coal&r? Coal that lasts a very long time? Actually that's pretty worth it.",
   ],
   "quest.618F1434757C8E69.title": "&6Copper Generator&r",
+  "quest.3876FDC471FC460B.title": "NOT HERE YET",
   "quest.28FEB4C11AD1AE7C.quest_desc": [
     "&bDiamonds&r are usually expensive... for Vanilla, but this is modded you'll have enough for atleast 1 &bDiamond Generator&r. Still uses normal Furnace Fuel.",
   ],
@@ -203,7 +204,7 @@
   ],
   "quest.661C072E48F8D41F.title": "&6Copper Furnace",
   "quest.711DDD55CEC439E5.quest_desc": [
-    "The &aEmerald Furnace&r, I wonder if Villagers will trade for it? \\\\n \\\\nIt works at 40 Ticks or only 2 Seconds to smelt! Blink and you might miss it. \\\\n \\\\nThese are crafted by &bDiamond Furnace&r and can be made into an &dObsidian Furnace&r.",
+    "The &aEmerald Furnace&r, I wonder if Villagers will trade for it? \n \nIt works at 40 Ticks or only 2 Seconds to smelt! Blink and you might miss it. \n \nThese are crafted by &bDiamond Furnace&r and can be made into an &dObsidian Furnace&r.",
   ],
   "quest.7F67849DE9F700D8.title": "&2Augment&r: Speed",
 }

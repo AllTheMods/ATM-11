@@ -19,7 +19,7 @@
   "quest.06A7A3FC8634D2DA.quest_subtitle": "Tier: &c5",
   "quest.75D09040185B0E40.quest_subtitle": "Tier: &a2",
   "quest.3BB3AA6C29285837.quest_desc": [
-    "Buffs:\\\\n\\\\n - Absorption II (3:00)\\\\n - Speed II (3:00)",
+    "Buffs:\n\n - Absorption II (3:00)\n - Speed II (3:00)",
   ],
   "quest.6235B9923BE0AAEB.title": "&bEnchanter",
   "quest.27A0BCE75F198A82.quest_subtitle": "Tier: &e1",
@@ -60,7 +60,7 @@
   "quest.1E0F92F07FDD162E.quest_subtitle": "I'm all about that (Seed) Base",
   "quest.52BB58D470560219.title": "&6Awakened Supremium Growth Accelerator",
   "quest.7DFF18CFEB0B8DBE.quest_desc": [
-    "You'll want to start growing &aInferium&r as soon as you can!\\\\n\\\\nWhile not required for growing these seeds, you can also create &eEssence Farmland&r that will increase the growth speed of the seeds (especially Inferium Seeds). However, certain seeds will require certain farmlands to be planted on.",
+    "You'll want to start growing &aInferium&r as soon as you can!\n\nWhile not required for growing these seeds, you can also create &eEssence Farmland&r that will increase the growth speed of the seeds (especially Inferium Seeds). However, certain seeds will require certain farmlands to be planted on.",
   ],
   "quest.66B503EB65475B98.quest_subtitle": "Tier: &63",
   "quest.217DB12EA32E1724.title": "&bInfusion Crystal",
@@ -71,13 +71,13 @@
     "The &4Master Infusion Crystal&r works the same as the Infusion Crystal but it never breaks.",
   ],
   "quest.4EF5DE3FBA2A7AE3.quest_desc": [
-    "Starting with Inferium Essence, you can create ingots to make both Essence &9Tools&r and &9Armor&r.\\\\n\\\\nEssence tools can be upgraded to higher tiers, and just like the Armor, they can be &5Augmented&r in the &3Tinkering Table&r.",
+    "Starting with Inferium Essence, you can create ingots to make both Essence &9Tools&r and &9Armor&r.\n\nEssence tools can be upgraded to higher tiers, and just like the Armor, they can be &5Augmented&r in the &3Tinkering Table&r.",
   ],
   "quest.6D0A876D4E4D35AB.quest_subtitle": "Tier: &5Creative",
   "quest.4D8B82FBA0FFD49E.quest_subtitle": "Tier: &63",
   "quest.7580037DB8ADEB3C.quest_subtitle": "Tier: &a2",
   "quest.5F6ACDE014A61F46.quest_desc": [
-    "Buffs:\\\\n\\\\n - Absorption II (3:00)\\\\n - Speed II (3:00)\\\\n - Resistance II (3:00)",
+    "Buffs:\n\n - Absorption II (3:00)\n - Speed II (3:00)\n - Resistance II (3:00)",
   ],
   "quest.4EB7245727EE1EF9.quest_subtitle": "Tier: &63",
   "quest.202B1F54D3F06DAB.quest_subtitle": "Tier: &56",
@@ -108,7 +108,7 @@
   "quest.5EE485880EA9FACF.quest_subtitle": "Tier: &63",
   "quest.54735C5FCD2077B3.title": "&aMystical Agriculture!",
   "quest.31BAC57972148E1F.quest_subtitle": "Tier: &a2",
-  "quest.21A90474590FCDB8.title": "\\\"Furnace\\\"",
+  "quest.21A90474590FCDB8.title": "\"Furnace\"",
   "quest.07564DBB023EE2A6.quest_subtitle": "Tier: &b4",
   "quest.1CF8263756EE8F2A.title": "&5Cognizant Dust&r",
   "quest.25D84D82DBADA0DB.quest_subtitle": "Tier: &b4",
@@ -122,7 +122,7 @@
   "quest.7BC289DEF023FEAA.quest_subtitle": "Tier: &63",
   "quest.408D8B1CFBA22BAF.title": "&0Witherproof Blocks",
   "quest.212EF8601746C500.quest_desc": [
-    "Buffs:\\\\n\\\\n - Absorption II (3:00)\\\\n - Speed II (3:00)\\\\n - Resistance II (3:00)\\\\n - Regeneration II (3:00)",
+    "Buffs:\n\n - Absorption II (3:00)\n - Speed II (3:00)\n - Resistance II (3:00)\n - Regeneration II (3:00)",
   ],
   "quest.1636F3F12E92CAEA.quest_desc": [
     "To use a Watering Can you'll need to fill it with Water by right-clicking on a Water source block. Once it's filled with Water you can hold right-click on a crop to water the crops within the Watering Can's AOE.",
@@ -137,7 +137,7 @@
   "quest.06EAA74E0A10CBB6.title": "&9Imperium Growth Accelerator",
   "quest.7DFF18CFEB0B8DBE.title": "&aInferium Farmland",
   "quest.1C4ABF4518638A82.quest_desc": [
-    "Buffs:\\\\n\\\\n - Absorption II (3:00)\\\\n - Speed II (3:00)\\\\n - Resistance II (3:00)\\\\n - Regeneration II (3:00)\\\\n - Strength II (3:00)",
+    "Buffs:\n\n - Absorption II (3:00)\n - Speed II (3:00)\n - Resistance II (3:00)\n - Regeneration II (3:00)\n - Strength II (3:00)",
   ],
   "quest.3339445194568D77.title": "&2Prudentium Tools",
   "quest.7D43016926E77150.title": "&9Imperium Armor&r",
@@ -187,7 +187,7 @@
   "quest.0591CAFD665CE151.quest_subtitle": "Tier: &b4",
   "quest.67DBE6C59C0D9D1B.quest_subtitle": "Tier: &c5",
   "quest.0B37355262121DD5.quest_desc": [
-    "The &aInfusion Altar&r is how you make all of the seeds. Place down the Altar first and it'll show you where to place the Pedestals after.\\\\n\\\\nIn order for the Infusing to start, the Alter requires a &4Redstone signal&r.",
+    "The &aInfusion Altar&r is how you make all of the seeds. Place down the Altar first and it'll show you where to place the Pedestals after.\n\nIn order for the Infusing to start, the Alter requires a &4Redstone signal&r.",
   ],
   "quest.5A17C762CDB680B5.quest_subtitle": "Tier: &63",
   "quest.1F88C697817A7680.title": "&aInferium Apple",
@@ -202,11 +202,11 @@
   "quest.48BF71269DEA1AB1.title": "&4Supremium Farmland",
   "quest.22D0C3F454F5E8F1.quest_subtitle": "Tier: &b4",
   "quest.2A7E3F2CD335EAD0.quest_desc": [
-    "To start your journey making &aEssence Gear&r, you'll need to make the Inferium Armor first.\\\\n\\\\nThis gear can be upgraded to higher tiers, just like the Essences. You can also &9Augment&r them with the &bTinkering Table&r!",
+    "To start your journey making &aEssence Gear&r, you'll need to make the Inferium Armor first.\n\nThis gear can be upgraded to higher tiers, just like the Essences. You can also &9Augment&r them with the &bTinkering Table&r!",
   ],
   "quest.56B58CAFCB707565.quest_subtitle": "Tier: &63",
   "quest.217DB12EA32E1724.quest_desc": [
-    "The &bInfusion Crystal&r is need in order to \\\"tier up\\\" seeds. For example if you combine the crystal with 4 Inferium Essence you will get 1 Prudentium Essence.\\\\n\\\\nLater on you will be able to craft an Infusion Crystal that doesn't break.",
+    "The &bInfusion Crystal&r is need in order to \"tier up\" seeds. For example if you combine the crystal with 4 Inferium Essence you will get 1 Prudentium Essence.\n\nLater on you will be able to craft an Infusion Crystal that doesn't break.",
   ],
   "quest.6501A410F1543C70.title": "&dMystical Fertilizer",
   "quest.7AD9DF3FFCB03495.quest_subtitle": "Tier: &a2",
@@ -237,7 +237,7 @@
   "quest.04B6E31120663EB2.quest_subtitle": "Tier: &a2",
   "quest.787E714014EC2C02.quest_subtitle": "Tier: &63",
   "quest.1CC4F8570A7A99EB.quest_desc": [
-    "&dEssence&r is the starting point for all of your growing needs in Mystical Agriculture.\\\\n\\\\n&eInferium Essence&r is the base tier of all essences. You can get this from mining, killing mobs, or by making seeds to grow them! \\\\n\\\\nTo make the bigger and better essences, you'll need to make an &9Infusion Crystal&r. ",
+    "&dEssence&r is the starting point for all of your growing needs in Mystical Agriculture.\n\n&eInferium Essence&r is the base tier of all essences. You can get this from mining, killing mobs, or by making seeds to grow them! \n\nTo make the bigger and better essences, you'll need to make an &9Infusion Crystal&r. ",
   ],
   "quest.6950FC974624C6AA.quest_subtitle": "Tier: &63",
   "quest.2AFBE48DA832FF02.quest_subtitle": "Tier: &c5",
@@ -285,7 +285,7 @@
   "task.323D34AF775A642B.title": "Sickles",
   "quest.5BC4250E4C9F803C.title": "&9Imperium Farmland",
   "quest.1F7591DB6D8EC1E7.quest_desc": [
-    "Buffs:\\\\n\\\\n - Absorption II (3:00)\\\\n - Speed II (3:00)\\\\n - Resistance II (3:00)\\\\n - Regeneration II (3:00)\\\\n - Strength II (3:00)\\\\n - Haste II (3:00)",
+    "Buffs:\n\n - Absorption II (3:00)\n - Speed II (3:00)\n - Resistance II (3:00)\n - Regeneration II (3:00)\n - Strength II (3:00)\n - Haste II (3:00)",
   ],
   "quest.7655E1C6C5E5469F.quest_subtitle": "Range: &a18&r Blocks",
   "quest.754500BB7FD8C413.quest_subtitle": "Tier: &b4",
@@ -324,18 +324,18 @@
   "quest.75560045ED084900.title": "Creating Mob Seeds",
   "quest.01C169A7FA424F6E.quest_subtitle": "Tier: &a2",
   "quest.1F88C697817A7680.quest_desc": [
-    "Buffs:\\\\n\\\\n - Absorption II (3:00)",
+    "Buffs:\n\n - Absorption II (3:00)",
   ],
   "quest.224CE21E56703F6E.title": "&2Wand",
   "quest.21A90474590FCDB8.quest_desc": [
-    "The \\\"Furnace\\\" is an upgraded version of a vanilla Furnace that can be upgraded for faster speed and better efficiency.",
+    "The \"Furnace\" is an upgraded version of a vanilla Furnace that can be upgraded for faster speed and better efficiency.",
   ],
   "quest.077B2D62FA7650FB.title": "&cTertium Growth Accelerator",
   "task.2DA0BD7B2834A560.title": "Witherproof Blocks",
   "quest.5703EDAFCF9E7719.quest_subtitle": "Tier: &63",
   "quest.2581B7D8E6C6E510.quest_subtitle": "Tier: &63",
   "quest.33D23C65E7274A8F.quest_desc": [
-    "To awaken your Supremium Essence, you'll need to create a new Altar and 4 new Pedestals, as well as 4 &cEssence Vessels&r.\\\\n\\\\nThe Essence Vessels will require the starter Element Essences to fill: Fire, Water, Earth, and Air.",
+    "To awaken your Supremium Essence, you'll need to create a new Altar and 4 new Pedestals, as well as 4 &cEssence Vessels&r.\n\nThe Essence Vessels will require the starter Element Essences to fill: Fire, Water, Earth, and Air.",
   ],
   "quest.7CFA92CC48D1E7E3.quest_subtitle": "Tier: &c5",
   "quest.2DDA04088C8220D2.quest_desc": [
@@ -349,7 +349,7 @@
   ],
   "quest.2B0553F307A024F7.quest_subtitle": "Tier: &c5",
   "quest.23C36E4B5DCEBFDD.quest_desc": [
-    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\\\n\\\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\\\n\\\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
+    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\n\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\n\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
   ],
   "quest.31A370550BD592B6.quest_subtitle": "Tier: &56",
   "quest.1CF8263756EE8F2A.quest_desc": [
