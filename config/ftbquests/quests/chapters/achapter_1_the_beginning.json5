@@ -9,6 +9,7 @@
   filename: "achapter_1_the_beginning",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
+  progression_mode: "flexible",
   quests: [
     {
       x: 0.0,
