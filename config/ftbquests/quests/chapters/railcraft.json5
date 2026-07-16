@@ -1,7 +1,7 @@
 {
   id: "2FB24A5A597459FC",
   group: "2B51AC12041E3F89",
-  order_index: 10,
+  order_index: 9,
   icon: {
     id: "ftbquests:missing_item",
     count: 1,
@@ -10,6 +10,7 @@
     },
   },
   filename: "railcraft",
+  always_invisible: true,
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   autofocus_id: "3E75AFE3482834C5",
@@ -18,6 +19,9 @@
       x: 0.0,
       y: 0.0,
       shape: "gear",
+      dependencies: [
+        "21C04A356533F955",
+      ],
       size: 2.0,
       id: "3E75AFE3482834C5",
       tasks: [
@@ -60,6 +64,7 @@
       shape: "circle",
       dependencies: [
         "3E75AFE3482834C5",
+        "21C04A356533F955",
       ],
       id: "31094CC16E710040",
       tasks: [
@@ -96,6 +101,7 @@
       shape: "circle",
       dependencies: [
         "3E75AFE3482834C5",
+        "21C04A356533F955",
       ],
       id: "64C105E1E2F97900",
       tasks: [
@@ -125,6 +131,7 @@
       shape: "circle",
       dependencies: [
         "3E75AFE3482834C5",
+        "21C04A356533F955",
       ],
       size: 1.3,
       id: "035C52EF63AD23A7",
@@ -155,6 +162,7 @@
       shape: "circle",
       dependencies: [
         "3E75AFE3482834C5",
+        "21C04A356533F955",
       ],
       size: 1.3,
       id: "068294A7C21DE550",
@@ -185,6 +193,7 @@
       shape: "octagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
+        "21C04A356533F955",
       ],
       id: "5128B119DFFF0C4C",
       tasks: [
@@ -222,6 +231,7 @@
       y: 3.5,
       dependencies: [
         "3E75AFE3482834C5",
+        "21C04A356533F955",
       ],
       size: 1.3,
       id: "55D7CD0FA8F1AE48",
@@ -250,6 +260,9 @@
     {
       x: -1.5,
       y: -3.0,
+      dependencies: [
+        "21C04A356533F955",
+      ],
       optional: true,
       invisible: true,
       id: "6E7C4228CD2B6BB9",
@@ -280,6 +293,7 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
+        "21C04A356533F955",
       ],
       id: "425E375A9EC127EB",
       tasks: [
@@ -321,6 +335,7 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
+        "21C04A356533F955",
       ],
       id: "75DD345164EE5CD9",
       tasks: [
@@ -362,6 +377,7 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
+        "21C04A356533F955",
       ],
       id: "2A30595DC6DDBFF7",
       tasks: [
@@ -403,6 +419,7 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
+        "21C04A356533F955",
       ],
       id: "4A44623D8A307473",
       tasks: [
@@ -444,6 +461,7 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
+        "21C04A356533F955",
       ],
       id: "5180CDD196518F64",
       tasks: [
@@ -485,6 +503,7 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
+        "21C04A356533F955",
       ],
       id: "5820EDEF71340A1A",
       tasks: [
@@ -526,6 +545,7 @@
       shape: "rsquare",
       dependencies: [
         "64C105E1E2F97900",
+        "21C04A356533F955",
       ],
       id: "1698565EBB68DC85",
       tasks: [
@@ -555,6 +575,7 @@
       shape: "rsquare",
       dependencies: [
         "64C105E1E2F97900",
+        "21C04A356533F955",
       ],
       id: "5E750DB2244A67A1",
       tasks: [
@@ -584,6 +605,7 @@
       shape: "rsquare",
       dependencies: [
         "64C105E1E2F97900",
+        "21C04A356533F955",
       ],
       id: "170118E3C3C072E5",
       tasks: [
@@ -613,6 +635,7 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
+        "21C04A356533F955",
       ],
       id: "283AB56F81EF03A5",
       tasks: [
@@ -650,6 +673,7 @@
       dependencies: [
         "283AB56F81EF03A5",
         "2A30595DC6DDBFF7",
+        "21C04A356533F955",
       ],
       id: "3E8C2E7769DFBF35",
       tasks: [
@@ -689,6 +713,7 @@
       y: 3.5,
       dependencies: [
         "55D7CD0FA8F1AE48",
+        "21C04A356533F955",
       ],
       id: "2AB0FA084739827A",
       tasks: [
@@ -724,6 +749,7 @@
       shape: "octagon",
       dependencies: [
         "2AB0FA084739827A",
+        "21C04A356533F955",
       ],
       id: "6C14D1B60124C2B2",
       tasks: [
@@ -761,6 +787,7 @@
       y: 5.0,
       dependencies: [
         "55D7CD0FA8F1AE48",
+        "21C04A356533F955",
       ],
       id: "7F4B734CFB0F0306",
       tasks: [
@@ -789,6 +816,7 @@
       y: 5.0,
       dependencies: [
         "55D7CD0FA8F1AE48",
+        "21C04A356533F955",
       ],
       id: "08457BEED799E600",
       tasks: [
@@ -818,6 +846,7 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
+        "21C04A356533F955",
       ],
       id: "2D00F85379A4D591",
       tasks: [
@@ -855,6 +884,7 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
+        "21C04A356533F955",
       ],
       id: "54F2CB52D3A7BA87",
       tasks: [
@@ -892,6 +922,7 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
+        "21C04A356533F955",
       ],
       id: "17F7964611D893BE",
       tasks: [
@@ -929,6 +960,7 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
+        "21C04A356533F955",
       ],
       id: "365D4B1DC953D406",
       tasks: [
@@ -966,6 +998,7 @@
       shape: "hexagon",
       dependencies: [
         "365D4B1DC953D406",
+        "21C04A356533F955",
       ],
       id: "4071BBBE12CACD2D",
       tasks: [
@@ -1006,6 +1039,7 @@
       shape: "hexagon",
       dependencies: [
         "17F7964611D893BE",
+        "21C04A356533F955",
       ],
       id: "7F187E291C3D5BA7",
       tasks: [
@@ -1046,6 +1080,7 @@
       shape: "hexagon",
       dependencies: [
         "54F2CB52D3A7BA87",
+        "21C04A356533F955",
       ],
       id: "53594EBA9F7BA840",
       tasks: [
@@ -1083,6 +1118,7 @@
       shape: "hexagon",
       dependencies: [
         "2D00F85379A4D591",
+        "21C04A356533F955",
       ],
       id: "104049993CC62E7F",
       tasks: [
@@ -1122,6 +1158,7 @@
         "170118E3C3C072E5",
         "1698565EBB68DC85",
         "5E750DB2244A67A1",
+        "21C04A356533F955",
       ],
       id: "541D270451DA4320",
       tasks: [
@@ -1151,6 +1188,7 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
+        "21C04A356533F955",
       ],
       id: "249E5C6893387E15",
       tasks: [
@@ -1185,6 +1223,7 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
+        "21C04A356533F955",
       ],
       id: "677C5D35DADA4A42",
       tasks: [
@@ -1219,6 +1258,7 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
+        "21C04A356533F955",
       ],
       id: "6DB65926EE6D6C2E",
       tasks: [
@@ -1253,6 +1293,7 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
+        "21C04A356533F955",
       ],
       id: "2869AB982799CF0C",
       tasks: [
@@ -1287,6 +1328,7 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
+        "21C04A356533F955",
       ],
       id: "6C163E005351FF6D",
       tasks: [
@@ -1321,6 +1363,7 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
+        "21C04A356533F955",
       ],
       id: "609CA1ACFA981BD5",
       tasks: [
@@ -1355,6 +1398,7 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
+        "21C04A356533F955",
       ],
       id: "184F98BE0F6710E2",
       tasks: [
@@ -1389,6 +1433,7 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
+        "21C04A356533F955",
       ],
       id: "032B654201E71618",
       tasks: [
@@ -1423,6 +1468,7 @@
       shape: "square",
       dependencies: [
         "175D943160C10646",
+        "21C04A356533F955",
       ],
       id: "38451B61E3FC075B",
       tasks: [
@@ -1457,6 +1503,7 @@
       shape: "square",
       dependencies: [
         "175D943160C10646",
+        "21C04A356533F955",
       ],
       id: "0A43FD0B5C76C1C5",
       tasks: [
@@ -1488,6 +1535,9 @@
     {
       x: 9.0,
       y: 1.0,
+      dependencies: [
+        "21C04A356533F955",
+      ],
       size: 1.3,
       id: "175D943160C10646",
       tasks: [
@@ -1514,6 +1564,7 @@
       shape: "square",
       dependencies: [
         "175D943160C10646",
+        "21C04A356533F955",
       ],
       id: "020E6AF37A0421C8",
       tasks: [
@@ -1550,6 +1601,7 @@
       shape: "square",
       dependencies: [
         "175D943160C10646",
+        "21C04A356533F955",
       ],
       id: "21693C4DE6531D73",
       tasks: [
@@ -1584,6 +1636,7 @@
       shape: "hexagon",
       dependencies: [
         "175D943160C10646",
+        "21C04A356533F955",
       ],
       id: "7D40B80DBBC4E160",
       tasks: [
@@ -1613,6 +1666,7 @@
       shape: "hexagon",
       dependencies: [
         "7D40B80DBBC4E160",
+        "21C04A356533F955",
       ],
       id: "78D8F40AA9568511",
       tasks: [
@@ -1647,6 +1701,7 @@
       shape: "hexagon",
       dependencies: [
         "175D943160C10646",
+        "21C04A356533F955",
       ],
       id: "475E307844E3AF7F",
       tasks: [
@@ -1690,6 +1745,7 @@
       shape: "square",
       dependencies: [
         "475E307844E3AF7F",
+        "21C04A356533F955",
       ],
       id: "008D186B4E0ED14F",
       tasks: [
@@ -1723,6 +1779,7 @@
       y: -1.5,
       dependencies: [
         "475E307844E3AF7F",
+        "21C04A356533F955",
       ],
       id: "61C93ABE07742DCD",
       tasks: [
@@ -1755,6 +1812,9 @@
     {
       x: 0.0,
       y: -1.5,
+      dependencies: [
+        "21C04A356533F955",
+      ],
       icon_scale: 2.0,
       id: "50A286C268F38E09",
       tasks: [
@@ -1775,6 +1835,9 @@
       x: 2.0,
       y: -1.0,
       shape: "circle",
+      dependencies: [
+        "21C04A356533F955",
+      ],
       optional: true,
       invisible: true,
       id: "5F458D79D43D8842",
@@ -1785,6 +1848,18 @@
         },
         {
           id: "7BB13793B38DFC2C",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -1.0,
+      invisible: true,
+      id: "21C04A356533F955",
+      tasks: [
+        {
+          id: "1B9420C5FC5A1D03",
           type: "checkmark",
         },
       ],

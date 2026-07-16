@@ -1,7 +1,7 @@
 {
   id: "5B00676D79306EA2",
   group: "",
-  order_index: 1,
+  order_index: 0,
   icon: {
     id: "ftbquests:book",
     count: 1,

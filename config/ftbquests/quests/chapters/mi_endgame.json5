@@ -10,6 +10,7 @@
     },
   },
   filename: "mi_endgame",
+  always_invisible: true,
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   quests: [
@@ -21,6 +22,7 @@
         "1E22A0D5F4B2EB0D",
         "3B99290BE63F2968",
         "53C167AF34694F8F",
+        "56B37F407E7EE5AC",
       ],
       id: "147D30AA048AF5A4",
       tasks: [
@@ -52,6 +54,7 @@
         "510F3F8E9A8DCA48",
         "54C852CA6E056589",
         "14FE1D917BB694D3",
+        "56B37F407E7EE5AC",
       ],
       id: "680558C196158B4E",
       tasks: [
@@ -82,6 +85,7 @@
         "0802EF4A1CDD2E54",
         "1E22A0D5F4B2EB0D",
         "10F62AD7BAEEB90F",
+        "56B37F407E7EE5AC",
       ],
       id: "47D67363670A9977",
       tasks: [
@@ -113,6 +117,7 @@
         "47D67363670A9977",
         "147D30AA048AF5A4",
         "680558C196158B4E",
+        "56B37F407E7EE5AC",
       ],
       size: 2.0,
       id: "5A3B00649A13C719",
@@ -142,6 +147,7 @@
       y: 1.0,
       dependencies: [
         "744E620B7DEBB483",
+        "56B37F407E7EE5AC",
       ],
       id: "1E22A0D5F4B2EB0D",
       tasks: [
@@ -163,6 +169,7 @@
       y: 1.0,
       dependencies: [
         "162807D14C173CB4",
+        "56B37F407E7EE5AC",
       ],
       id: "510F3F8E9A8DCA48",
       tasks: [
@@ -184,6 +191,7 @@
       y: 1.0,
       dependencies: [
         "732DA855AFF62907",
+        "56B37F407E7EE5AC",
       ],
       id: "3B99290BE63F2968",
       tasks: [
@@ -206,6 +214,7 @@
       y: 2.5,
       dependencies: [
         "162807D14C173CB4",
+        "56B37F407E7EE5AC",
       ],
       id: "732DA855AFF62907",
       tasks: [
@@ -227,6 +236,7 @@
       y: 1.0,
       dependencies: [
         "27826D74ADC73556",
+        "56B37F407E7EE5AC",
       ],
       id: "53C167AF34694F8F",
       tasks: [
@@ -248,6 +258,7 @@
       y: 2.5,
       dependencies: [
         "3891F8D4201E6BFD",
+        "56B37F407E7EE5AC",
       ],
       id: "27826D74ADC73556",
       tasks: [
@@ -269,6 +280,7 @@
       y: 1.0,
       dependencies: [
         "3003598CE8B1FAAA",
+        "56B37F407E7EE5AC",
       ],
       id: "10F62AD7BAEEB90F",
       tasks: [
@@ -291,6 +303,7 @@
       y: 1.0,
       dependencies: [
         "3FE489E6B1FAC24B",
+        "56B37F407E7EE5AC",
       ],
       id: "54C852CA6E056589",
       tasks: [
@@ -314,6 +327,7 @@
       dependencies: [
         "1CA7231C3DDDCE64",
         "71E860876814D732",
+        "56B37F407E7EE5AC",
       ],
       id: "0899C2C970E6026F",
       tasks: [
@@ -342,6 +356,7 @@
       y: -7.0,
       dependencies: [
         "2A95F4F998835B43",
+        "56B37F407E7EE5AC",
       ],
       id: "1CA7231C3DDDCE64",
       tasks: [
@@ -363,6 +378,7 @@
       y: -5.0,
       dependencies: [
         "78EC7D19BE24FE06",
+        "56B37F407E7EE5AC",
       ],
       id: "71E860876814D732",
       tasks: [
@@ -400,6 +416,7 @@
       dependencies: [
         "5A3B00649A13C719",
         "0899C2C970E6026F",
+        "56B37F407E7EE5AC",
       ],
       id: "0AE83A6CC21F96D4",
       tasks: [
@@ -415,6 +432,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "53C167AF34694F8F",
+        "56B37F407E7EE5AC",
       ],
       id: "14FE1D917BB694D3",
       tasks: [
@@ -437,6 +455,7 @@
       y: -3.5,
       dependencies: [
         "5A3B00649A13C719",
+        "56B37F407E7EE5AC",
       ],
       id: "0C1E3E59329FD25F",
       tasks: [
@@ -466,6 +485,7 @@
       dependencies: [
         "0AE83A6CC21F96D4",
         "29FE6A62CF626807",
+        "56B37F407E7EE5AC",
       ],
       id: "4F780343E3FFA43E",
       tasks: [
@@ -499,6 +519,7 @@
       y: -6.0,
       dependencies: [
         "50F97171D25CD2EE",
+        "56B37F407E7EE5AC",
       ],
       id: "29FE6A62CF626807",
       tasks: [
@@ -521,6 +542,7 @@
       y: -11.5,
       dependencies: [
         "4F780343E3FFA43E",
+        "56B37F407E7EE5AC",
       ],
       id: "3AB0822F02350DA3",
       tasks: [
@@ -542,6 +564,7 @@
       y: -10.5,
       dependencies: [
         "4F780343E3FFA43E",
+        "56B37F407E7EE5AC",
       ],
       id: "351E3FEED64603BA",
       tasks: [
@@ -563,6 +586,7 @@
       y: -10.5,
       dependencies: [
         "4F780343E3FFA43E",
+        "56B37F407E7EE5AC",
       ],
       id: "3D446C54236EEC51",
       tasks: [
@@ -584,6 +608,7 @@
       y: -9.5,
       dependencies: [
         "4F780343E3FFA43E",
+        "56B37F407E7EE5AC",
       ],
       id: "015AAAA23F6937D6",
       tasks: [
@@ -605,6 +630,7 @@
       y: -9.5,
       dependencies: [
         "4F780343E3FFA43E",
+        "56B37F407E7EE5AC",
       ],
       id: "5597C78D81DC7F15",
       tasks: [
@@ -618,6 +644,18 @@
               "ftbquests:missing_item": "modern_industrialization:quantum_leggings",
             },
           },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: 2.5,
+      invisible: true,
+      id: "56B37F407E7EE5AC",
+      tasks: [
+        {
+          id: "77C178A21489882D",
+          type: "checkmark",
         },
       ],
     },

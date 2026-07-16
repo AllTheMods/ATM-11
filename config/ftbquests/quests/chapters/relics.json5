@@ -10,6 +10,7 @@
     },
   },
   filename: "relics",
+  always_invisible: true,
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   autofocus_id: "64141B720662B652",
@@ -25,6 +26,9 @@
       x: 0.0,
       y: 0.0,
       shape: "gear",
+      dependencies: [
+        "71C8B49C63184861",
+      ],
       size: 2.0,
       icon_scale: 1.1,
       id: "64141B720662B652",
@@ -50,6 +54,7 @@
       shape: "rsquare",
       dependencies: [
         "2B08B19B35EEBCBA",
+        "71C8B49C63184861",
       ],
       id: "54822638CC243004",
       tasks: [
@@ -98,6 +103,7 @@
       shape: "rsquare",
       dependencies: [
         "2B08B19B35EEBCBA",
+        "71C8B49C63184861",
       ],
       id: "5EB87CE5F6DEFAAA",
       tasks: [
@@ -143,6 +149,7 @@
       shape: "rsquare",
       dependencies: [
         "730130CCF1CF5119",
+        "71C8B49C63184861",
       ],
       id: "6B40AF49F505A551",
       tasks: [
@@ -179,6 +186,7 @@
       shape: "rsquare",
       dependencies: [
         "730130CCF1CF5119",
+        "71C8B49C63184861",
       ],
       id: "12449D23295CF9ED",
       tasks: [
@@ -223,6 +231,7 @@
       shape: "rsquare",
       dependencies: [
         "730130CCF1CF5119",
+        "71C8B49C63184861",
       ],
       id: "3BD73FEAE853D350",
       tasks: [
@@ -268,6 +277,7 @@
       shape: "rsquare",
       dependencies: [
         "2B08B19B35EEBCBA",
+        "71C8B49C63184861",
       ],
       id: "395668FBCB6537AF",
       tasks: [
@@ -313,6 +323,7 @@
       shape: "rsquare",
       dependencies: [
         "5D82340E9BED9C79",
+        "71C8B49C63184861",
       ],
       id: "1E2A9446594638E2",
       tasks: [
@@ -358,6 +369,7 @@
       shape: "rsquare",
       dependencies: [
         "5D82340E9BED9C79",
+        "71C8B49C63184861",
       ],
       id: "60CECAAE2D43EC6E",
       tasks: [
@@ -410,6 +422,7 @@
       shape: "rsquare",
       dependencies: [
         "5D82340E9BED9C79",
+        "71C8B49C63184861",
       ],
       id: "18DB8C875F2331B2",
       tasks: [
@@ -455,6 +468,7 @@
       shape: "rsquare",
       dependencies: [
         "730130CCF1CF5119",
+        "71C8B49C63184861",
       ],
       id: "7F2D696AC9F4C4E4",
       tasks: [
@@ -500,6 +514,7 @@
       shape: "rsquare",
       dependencies: [
         "730130CCF1CF5119",
+        "71C8B49C63184861",
       ],
       id: "3E8BA5E075ABD136",
       tasks: [
@@ -536,6 +551,7 @@
       shape: "rsquare",
       dependencies: [
         "2B08B19B35EEBCBA",
+        "71C8B49C63184861",
       ],
       id: "40AB457E37919ABE",
       tasks: [
@@ -588,6 +604,7 @@
       shape: "rsquare",
       dependencies: [
         "5D82340E9BED9C79",
+        "71C8B49C63184861",
       ],
       id: "7C3F65B5DAC7E57B",
       tasks: [
@@ -624,6 +641,7 @@
       shape: "rsquare",
       dependencies: [
         "730130CCF1CF5119",
+        "71C8B49C63184861",
       ],
       id: "677A701E06422CF3",
       tasks: [
@@ -660,6 +678,7 @@
       shape: "rsquare",
       dependencies: [
         "730130CCF1CF5119",
+        "71C8B49C63184861",
       ],
       id: "748A01B5607C475B",
       tasks: [
@@ -696,6 +715,7 @@
       shape: "rsquare",
       dependencies: [
         "730130CCF1CF5119",
+        "71C8B49C63184861",
       ],
       id: "21BEE9867796933A",
       tasks: [
@@ -745,6 +765,7 @@
       shape: "hexagon",
       dependencies: [
         "64141B720662B652",
+        "71C8B49C63184861",
       ],
       icon_scale: 2.0,
       id: "730130CCF1CF5119",
@@ -781,6 +802,7 @@
       shape: "hexagon",
       dependencies: [
         "64141B720662B652",
+        "71C8B49C63184861",
       ],
       icon_scale: 2.0,
       id: "2B08B19B35EEBCBA",
@@ -817,6 +839,7 @@
       shape: "hexagon",
       dependencies: [
         "64141B720662B652",
+        "71C8B49C63184861",
       ],
       icon_scale: 2.0,
       id: "5D82340E9BED9C79",
@@ -847,6 +870,9 @@
       x: 0.0,
       y: 2.0,
       shape: "circle",
+      dependencies: [
+        "71C8B49C63184861",
+      ],
       optional: true,
       invisible: true,
       id: "3E99F4CD379DE9D7",
@@ -867,6 +893,7 @@
       shape: "rsquare",
       dependencies: [
         "5EB87CE5F6DEFAAA",
+        "71C8B49C63184861",
       ],
       id: "4BADD8A0FD85DB33",
       tasks: [
@@ -903,6 +930,18 @@
             count: 1,
           },
           count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 3.0,
+      invisible: true,
+      id: "71C8B49C63184861",
+      tasks: [
+        {
+          id: "239F19D9DFF3A3D9",
+          type: "checkmark",
         },
       ],
     },

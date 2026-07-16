@@ -342,7 +342,9 @@
       dependencies: [
         "201EE3566D4D3123",
         "71E4FD61787DE299",
+        "2243901F7758C7F6",
       ],
+      invisible: true,
       id: "162D2286A69D6E07",
       tasks: [
         {
@@ -375,7 +377,9 @@
       dependencies: [
         "201EE3566D4D3123",
         "71E4FD61787DE299",
+        "2243901F7758C7F6",
       ],
+      invisible: true,
       id: "272CF280BAE6870E",
       tasks: [
         {
@@ -527,7 +531,9 @@
       dependencies: [
         "3F8D515D7B81B0E3",
         "4A079D40C0AF6BC3",
+        "2243901F7758C7F6",
       ],
+      invisible: true,
       id: "1FE47F03B5DF492D",
       tasks: [
         {
@@ -560,7 +566,9 @@
       dependencies: [
         "201EE3566D4D3123",
         "71E4FD61787DE299",
+        "2243901F7758C7F6",
       ],
+      invisible: true,
       id: "5A26738AC904DC39",
       tasks: [
         {
@@ -583,7 +591,9 @@
       dependencies: [
         "3F8D515D7B81B0E3",
         "4A079D40C0AF6BC3",
+        "2243901F7758C7F6",
       ],
+      invisible: true,
       id: "558FF21A6BCFE6E8",
       tasks: [
         {
@@ -616,7 +626,9 @@
       dependencies: [
         "3F8D515D7B81B0E3",
         "4A079D40C0AF6BC3",
+        "2243901F7758C7F6",
       ],
+      invisible: true,
       id: "5FA68047A3C05E80",
       tasks: [
         {
@@ -757,7 +769,9 @@
       dependencies: [
         "226B8B60AF864FEF",
         "144BB025516E0994",
+        "2243901F7758C7F6",
       ],
+      invisible: true,
       id: "795A860668072830",
       tasks: [
         {
@@ -790,7 +804,9 @@
       dependencies: [
         "226B8B60AF864FEF",
         "144BB025516E0994",
+        "2243901F7758C7F6",
       ],
+      invisible: true,
       id: "39B6D9FD21419776",
       tasks: [
         {
@@ -908,7 +924,9 @@
       dependencies: [
         "226B8B60AF864FEF",
         "144BB025516E0994",
+        "2243901F7758C7F6",
       ],
+      invisible: true,
       id: "77AD61FCA9BC9AFB",
       tasks: [
         {
@@ -1122,6 +1140,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "4B2146C9527C54E7",
+        "2243901F7758C7F6",
       ],
       size: 1.3,
       id: "762581CAE5F5DDC1",
@@ -1187,6 +1206,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "4B2146C9527C54E7",
+        "2243901F7758C7F6",
       ],
       size: 1.3,
       id: "15DC6770B112EE69",
@@ -1564,6 +1584,7 @@
         "66039B738CF0718A",
         "2CF6EA138B53CE1B",
         "766EEB89C6DF3575",
+        "2243901F7758C7F6",
       ],
       id: "2D8026E10FBA7A72",
       tasks: [
@@ -1717,6 +1738,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "4B2146C9527C54E7",
+        "2243901F7758C7F6",
       ],
       size: 1.3,
       id: "7CC96CE9901F25BB",
@@ -1782,6 +1804,7 @@
       shape: "circle",
       dependencies: [
         "6D738730B371B152",
+        "2243901F7758C7F6",
       ],
       hide_until_deps_complete: true,
       id: "18FAD56CDE05646A",
@@ -1802,6 +1825,18 @@
               "ftbquests:missing_item": "minecraft:potion",
             },
           },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 1.5,
+      invisible: true,
+      id: "2243901F7758C7F6",
+      tasks: [
+        {
+          id: "19DB72EF83B08884",
+          type: "checkmark",
         },
       ],
     },

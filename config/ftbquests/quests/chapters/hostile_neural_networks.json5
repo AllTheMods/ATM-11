@@ -10,9 +10,9 @@
     },
   },
   filename: "hostile_neural_networks",
+  always_invisible: true,
   default_quest_shape: "square",
   default_hide_dependency_lines: true,
-  progression_mode: "flexible",
   quests: [
     {
       icon: {
@@ -25,6 +25,9 @@
       x: 0.0,
       y: 0.0,
       shape: "gear",
+      dependencies: [
+        "59DEBBF8AE2F4C40",
+      ],
       size: 2.0,
       id: "37EBB8E0D6E5F821",
       tasks: [
@@ -52,6 +55,7 @@
       hide_dependency_lines: false,
       dependencies: [
         "37EBB8E0D6E5F821",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       id: "3E3CBDCEAB0FF28F",
@@ -83,6 +87,7 @@
       hide_dependency_lines: false,
       dependencies: [
         "37EBB8E0D6E5F821",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       id: "58C2ABED43B2EA61",
@@ -122,6 +127,7 @@
       dependencies: [
         "3E3CBDCEAB0FF28F",
         "58C2ABED43B2EA61",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       min_width: 300,
@@ -173,6 +179,7 @@
       dependencies: [
         "58C2ABED43B2EA61",
         "3E3CBDCEAB0FF28F",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       id: "34CD54347E9821B5",
@@ -204,6 +211,7 @@
       hide_dependency_lines: false,
       dependencies: [
         "104EBBC08B4733F5",
+        "59DEBBF8AE2F4C40",
       ],
       id: "2559201BCF5D497C",
       tasks: [
@@ -246,6 +254,7 @@
       hide_dependency_lines: false,
       dependencies: [
         "104EBBC08B4733F5",
+        "59DEBBF8AE2F4C40",
       ],
       id: "10E8BC20D406D9FB",
       tasks: [
@@ -288,6 +297,7 @@
       hide_dependency_lines: false,
       dependencies: [
         "104EBBC08B4733F5",
+        "59DEBBF8AE2F4C40",
       ],
       id: "5A23107C363A209E",
       tasks: [
@@ -328,6 +338,7 @@
       y: 9.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -371,6 +382,7 @@
       y: 8.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -414,6 +426,7 @@
       y: 14.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -457,6 +470,7 @@
       y: 10.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -502,6 +516,7 @@
       hide_dependency_lines: false,
       dependencies: [
         "104EBBC08B4733F5",
+        "59DEBBF8AE2F4C40",
       ],
       size: 1.5,
       id: "14B3542ECB59869C",
@@ -532,6 +547,7 @@
       shape: "diamond",
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       size: 1.5,
       id: "5905241071D1960A",
@@ -574,6 +590,7 @@
       y: 8.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -617,6 +634,7 @@
       y: 12.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -660,6 +678,7 @@
       y: 9.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -703,6 +722,7 @@
       y: 10.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -746,6 +766,7 @@
       y: 8.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -789,6 +810,7 @@
       y: 12.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       id: "6B945A5B293C0153",
@@ -831,6 +853,7 @@
       y: 10.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -874,6 +897,7 @@
       y: 10.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -917,6 +941,7 @@
       y: 12.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -960,6 +985,7 @@
       y: 11.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1003,6 +1029,7 @@
       y: 12.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1046,6 +1073,7 @@
       y: 14.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1089,6 +1117,7 @@
       y: 13.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1132,6 +1161,7 @@
       y: 13.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1175,6 +1205,7 @@
       y: 13.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1218,6 +1249,7 @@
       y: 15.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1261,6 +1293,7 @@
       y: 13.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1304,6 +1337,7 @@
       y: 13.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1347,6 +1381,7 @@
       y: 14.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       id: "54E7ABFDFAA024E5",
@@ -1389,6 +1424,7 @@
       y: 8.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1432,6 +1468,7 @@
       y: 10.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1475,6 +1512,7 @@
       y: 13.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       id: "1D4D3CC361892A9E",
@@ -1517,6 +1555,7 @@
       y: 11.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1560,6 +1599,7 @@
       y: 15.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1603,6 +1643,7 @@
       y: 8.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1646,6 +1687,7 @@
       y: 10.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1689,6 +1731,7 @@
       y: 12.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1732,6 +1775,7 @@
       y: 11.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1775,6 +1819,7 @@
       y: 11.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1818,6 +1863,7 @@
       y: 13.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1861,6 +1907,7 @@
       y: 11.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1904,6 +1951,7 @@
       y: 11.5,
       dependencies: [
         "14B3542ECB59869C",
+        "59DEBBF8AE2F4C40",
       ],
       hide_until_deps_visible: false,
       optional: true,
@@ -1946,6 +1994,9 @@
       x: 0.0,
       y: -1.5,
       shape: "circle",
+      dependencies: [
+        "59DEBBF8AE2F4C40",
+      ],
       optional: true,
       invisible: true,
       id: "12AE2856444996F6",
@@ -1967,6 +2018,7 @@
       hide_dependency_lines: false,
       dependencies: [
         "104EBBC08B4733F5",
+        "59DEBBF8AE2F4C40",
       ],
       id: "14F7F256DA863280",
       tasks: [
@@ -2009,6 +2061,7 @@
       hide_dependency_lines: false,
       dependencies: [
         "104EBBC08B4733F5",
+        "59DEBBF8AE2F4C40",
       ],
       id: "4092E914B24C52A7",
       tasks: [
@@ -2041,6 +2094,18 @@
           id: "05386991D44196E2",
           type: "xp",
           xp: 50,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: 7.0,
+      invisible: true,
+      id: "59DEBBF8AE2F4C40",
+      tasks: [
+        {
+          id: "1BDA5D8CB516E5CF",
+          type: "checkmark",
         },
       ],
     },
