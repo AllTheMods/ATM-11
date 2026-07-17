@@ -1,0 +1,464 @@
+{
+  id: "4D13E185C0A57681",
+  group: "3D4E23B1100491AB",
+  order_index: 1,
+  icon: {
+    id: "routers:exporter",
+    count: 1,
+  },
+  filename: "bbl_routers",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      x: 0.0,
+      y: 0.0,
+      id: "0A497EC17534D248",
+      tasks: [
+        {
+          id: "47649F304F9404B8",
+          type: "item",
+          item: {
+            id: "routers:connector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52EC148299689645",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -1.5,
+      dependencies: [
+        "0A497EC17534D248",
+      ],
+      id: "548676DCD1E09A7F",
+      tasks: [
+        {
+          id: "3A1DBAF7579EDD65",
+          type: "item",
+          item: {
+            id: "routers:exporter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37FB0030E5833F2E",
+          type: "item",
+          item: {
+            id: "routers:exporter",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -1.5,
+      dependencies: [
+        "0A497EC17534D248",
+      ],
+      id: "401A518B2D1BDB9A",
+      tasks: [
+        {
+          id: "50F339947C02AEDB",
+          type: "item",
+          item: {
+            id: "routers:importer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "076B56F714771AF1",
+          type: "item",
+          item: {
+            id: "routers:importer",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      dependencies: [
+        "401A518B2D1BDB9A",
+        "548676DCD1E09A7F",
+      ],
+      id: "68ABBA8CB99AF6A1",
+      tasks: [
+        {
+          id: "368EEAEC5B950F4D",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 2.0,
+      dependencies: [
+        "0A497EC17534D248",
+      ],
+      id: "33A1316FD66C6428",
+      tasks: [
+        {
+          id: "7ECFB3665B40F251",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 2.0,
+      dependencies: [
+        "33A1316FD66C6428",
+      ],
+      id: "3584DE12E1D7D14F",
+      tasks: [
+        {
+          id: "54B734DDDD076711",
+          type: "item",
+          item: {
+            id: "routers:mod_filter",
+            count: 1,
+          },
+        },
+        {
+          id: "6A6507C81B164E18",
+          type: "item",
+          item: {
+            id: "routers:tag_filter",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 2.0,
+      dependencies: [
+        "33A1316FD66C6428",
+      ],
+      id: "7742D896461A4632",
+      tasks: [
+        {
+          id: "5ACA0693AF20ECC2",
+          type: "item",
+          item: {
+            id: "routers:round_robin_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 3.5,
+      dependencies: [
+        "33A1316FD66C6428",
+      ],
+      id: "5312BD7BDC054E48",
+      tasks: [
+        {
+          id: "4590A03DDF139573",
+          type: "item",
+          item: {
+            id: "routers:item_upgrade_1",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 3.5,
+      dependencies: [
+        "33A1316FD66C6428",
+      ],
+      id: "6420E8B38993D8E3",
+      tasks: [
+        {
+          id: "0603AF399A01FB19",
+          type: "item",
+          item: {
+            id: "routers:rf_upgrade_1",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 3.5,
+      dependencies: [
+        "33A1316FD66C6428",
+      ],
+      id: "671141CF874D89A4",
+      tasks: [
+        {
+          id: "39A973E5A277B7C9",
+          type: "item",
+          item: {
+            id: "routers:fluid_upgrade_1",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 3.5,
+      dependencies: [
+        "33A1316FD66C6428",
+      ],
+      id: "3E14842D5F454F98",
+      tasks: [
+        {
+          id: "5AE867AF93427BF5",
+          type: "item",
+          item: {
+            id: "routers:speed_upgrade_1",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 4.5,
+      dependencies: [
+        "5312BD7BDC054E48",
+      ],
+      id: "716ED63BF94E65BF",
+      tasks: [
+        {
+          id: "79DA37D4A2BCBBB7",
+          type: "item",
+          item: {
+            id: "routers:item_upgrade_2",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 5.5,
+      dependencies: [
+        "5312BD7BDC054E48",
+      ],
+      id: "0415F31DFC3EC148",
+      tasks: [
+        {
+          id: "768373F52F9DD93B",
+          type: "item",
+          item: {
+            id: "routers:item_upgrade_3",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: 6.5,
+      dependencies: [
+        "5312BD7BDC054E48",
+      ],
+      id: "686AA89E63B818A3",
+      tasks: [
+        {
+          id: "4898E9A26A8ADC3D",
+          type: "item",
+          item: {
+            id: "routers:item_upgrade_4",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 4.5,
+      dependencies: [
+        "6420E8B38993D8E3",
+      ],
+      id: "75BCFE47A7DA3CF3",
+      tasks: [
+        {
+          id: "40C5274ADB3CDB0A",
+          type: "item",
+          item: {
+            id: "routers:rf_upgrade_2",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 5.5,
+      dependencies: [
+        "6420E8B38993D8E3",
+      ],
+      id: "4399C6E8EE3480FD",
+      tasks: [
+        {
+          id: "35E76F1E19027095",
+          type: "item",
+          item: {
+            id: "routers:rf_upgrade_3",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 6.5,
+      dependencies: [
+        "6420E8B38993D8E3",
+      ],
+      id: "24D5C94909116BAD",
+      tasks: [
+        {
+          id: "53C3DE800EBD0E45",
+          type: "item",
+          item: {
+            id: "routers:rf_upgrade_4",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 4.5,
+      dependencies: [
+        "671141CF874D89A4",
+      ],
+      id: "69D24ADE4229D8D9",
+      tasks: [
+        {
+          id: "3DAAF81808369771",
+          type: "item",
+          item: {
+            id: "routers:fluid_upgrade_2",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 5.5,
+      dependencies: [
+        "671141CF874D89A4",
+      ],
+      id: "5895182DC41F36C6",
+      tasks: [
+        {
+          id: "3D17C75157CC4189",
+          type: "item",
+          item: {
+            id: "routers:fluid_upgrade_3",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 6.5,
+      dependencies: [
+        "671141CF874D89A4",
+      ],
+      id: "50542715004E2485",
+      tasks: [
+        {
+          id: "773FB2D28737189B",
+          type: "item",
+          item: {
+            id: "routers:fluid_upgrade_4",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 4.5,
+      dependencies: [
+        "3E14842D5F454F98",
+      ],
+      id: "48CA31275987B588",
+      tasks: [
+        {
+          id: "29976866C8DD46B5",
+          type: "item",
+          item: {
+            id: "routers:speed_upgrade_2",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 5.5,
+      dependencies: [
+        "3E14842D5F454F98",
+      ],
+      id: "0853ED7AB114B715",
+      tasks: [
+        {
+          id: "0A484CD0AE38BF2F",
+          type: "item",
+          item: {
+            id: "routers:speed_upgrade_3",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: 6.5,
+      dependencies: [
+        "3E14842D5F454F98",
+      ],
+      id: "633B8E4F16C2C3E9",
+      tasks: [
+        {
+          id: "1B11D5E52EF7C07A",
+          type: "item",
+          item: {
+            id: "routers:speed_upgrade_4",
+            count: 1,
+          },
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+  ],
+}

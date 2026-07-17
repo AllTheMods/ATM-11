@@ -1,0 +1,5258 @@
+{
+  id: "69787DE8D64CBDF0",
+  group: "6614EE2378B8AFB9",
+  order_index: 5,
+  icon: {
+    id: "productivefarming:feeding_trough",
+    count: 1,
+  },
+  filename: "productive_farming",
+  default_quest_shape: "rsquare",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  autofocus_id: "3CBF4D703AA17199",
+  quests: [
+    {
+      x: -0.5,
+      y: -0.5,
+      shape: "pentagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "3CBF4D703AA17199",
+      ],
+      size: 2.5,
+      id: "699F91BC5CA58FE2",
+      tasks: [
+        {
+          id: "1EB9A8F57E597547",
+          type: "item",
+          item: {
+            id: "minecraft:composter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C3FF598B0E08CF9",
+          type: "item",
+          item: {
+            id: "minecraft:composter",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "608218E0A4E52F33",
+          type: "item",
+          item: {
+            id: "minecraft:emerald",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -9.0,
+      shape: "circle",
+      dependencies: [
+        "3CBF4D703AA17199",
+      ],
+      size: 1.5,
+      id: "540F3CA118762DDB",
+      tasks: [
+        {
+          id: "55951D07BB8AA181",
+          type: "item",
+          item: {
+            id: "productivefarming:feeding_trough",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4079A7D16E020A5F",
+          type: "item",
+          item: {
+            id: "minecraft:wheat",
+            count: 1,
+          },
+          count: 32,
+        },
+        {
+          id: "157EC231DB4FE5A5",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -9.0,
+      shape: "circle",
+      dependencies: [
+        "3CBF4D703AA17199",
+      ],
+      size: 1.5,
+      id: "46932B57EF21D346",
+      tasks: [
+        {
+          id: "2C4B0A3A92D7772C",
+          type: "item",
+          item: {
+            id: "productivefarming:watering_trough",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "557B97557B674CEB",
+          type: "item",
+          item: {
+            id: "minecraft:water_bucket",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "5FC54920B80D0CEC",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -4.5,
+      shape: "gear",
+      size: 4.0,
+      id: "3CBF4D703AA17199",
+      tasks: [
+        {
+          id: "774A3D949E44C19D",
+          type: "item",
+          item: {
+            id: "minecraft:dirt",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DE06D9E32594EDC",
+          type: "item",
+          item: {
+            id: "minecraft:dirt",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "148E5D53DAA5997C",
+          type: "item",
+          item: {
+            id: "minecraft:bone_meal",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -10.0,
+      shape: "heart",
+      dependencies: [
+        "3CBF4D703AA17199",
+      ],
+      size: 2.0,
+      id: "2AFB12E742596864",
+      tasks: [
+        {
+          id: "4087EA31E9535475",
+          type: "item",
+          item: {
+            id: "productivefarming:farm_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C3E5B366DE918AD",
+          type: "item",
+          item: {
+            id: "minecraft:farmland",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "45A9261FF85D3C64",
+          type: "item",
+          item: {
+            id: "farmingforblockheads:green_fertilizer",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -4.5,
+      shape: "pentagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "3CBF4D703AA17199",
+      ],
+      size: 2.5,
+      id: "06B197EB778C17AC",
+      tasks: [
+        {
+          id: "201BA178A8BA67AB",
+          type: "item",
+          item: {
+            id: "minecraft:honeycomb",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5365E32D30C1786B",
+          type: "item",
+          item: {
+            id: "minecraft:honeycomb",
+            count: 1,
+          },
+          count: 9,
+        },
+        {
+          id: "6DEE3B6E3888E213",
+          type: "item",
+          item: {
+            id: "productivebees:sturdy_bee_cage",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -6.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "4B2754CD11FFE247",
+      tasks: [
+        {
+          id: "55650016F40355E9",
+          type: "item",
+          item: {
+            id: "productivefarming:amaryllis",
+            count: 1,
+            components: {
+              "productivefarming:color": -6280166,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6FD9CD5DAA9B1337",
+          type: "item",
+          item: {
+            id: "productivefarming:amaryllis",
+            count: 1,
+            components: {
+              "productivefarming:color": -6280166,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -6.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "01B7B66FAAAAEAE5",
+      tasks: [
+        {
+          id: "513D4AD96C3C1E9F",
+          type: "item",
+          item: {
+            id: "productivefarming:anemone",
+            count: 1,
+            components: {
+              "productivefarming:color": -986902,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "458E0729843B5F07",
+          type: "item",
+          item: {
+            id: "productivefarming:anemone",
+            count: 1,
+            components: {
+              "productivefarming:color": -986902,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -6.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "15474BAF1997CD27",
+      tasks: [
+        {
+          id: "6A5B75847D7D6B7A",
+          type: "item",
+          item: {
+            id: "productivefarming:balloon_flower",
+            count: 1,
+            components: {
+              "productivefarming:color": -9805884,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "667666F677FA4560",
+          type: "item",
+          item: {
+            id: "productivefarming:balloon_flower",
+            count: 1,
+            components: {
+              "productivefarming:color": -9805884,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -6.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "6C31A50068FBA0EE",
+      tasks: [
+        {
+          id: "49D3386A17BA2788",
+          type: "item",
+          item: {
+            id: "productivefarming:black_bearded_iris",
+            count: 1,
+            components: {
+              "productivefarming:color": -12828090,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6FE3A390E12C6BBB",
+          type: "item",
+          item: {
+            id: "productivefarming:black_bearded_iris",
+            count: 1,
+            components: {
+              "productivefarming:color": -12828090,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -5.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "439705A42B6DC4D1",
+      tasks: [
+        {
+          id: "789817044F8D95AA",
+          type: "item",
+          item: {
+            id: "productivefarming:cattail",
+            count: 1,
+            components: {
+              "productivefarming:color": -9020355,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08E127C1E556C4F9",
+          type: "item",
+          item: {
+            id: "productivefarming:cattail",
+            count: 1,
+            components: {
+              "productivefarming:color": -9020355,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -5.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "53CD2E3D27601F3F",
+      tasks: [
+        {
+          id: "6E2793336257BC3F",
+          type: "item",
+          item: {
+            id: "productivefarming:cape_leadwort",
+            count: 1,
+            components: {
+              "productivefarming:color": -6370845,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D0A87B0CBBE9BE9",
+          type: "item",
+          item: {
+            id: "productivefarming:cape_leadwort",
+            count: 1,
+            components: {
+              "productivefarming:color": -6370845,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -5.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "512A525B513DA118",
+      tasks: [
+        {
+          id: "1064F9727E01FB68",
+          type: "item",
+          item: {
+            id: "productivefarming:chrysanthemum",
+            count: 1,
+            components: {
+              "productivefarming:color": -2145632,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3737FD44C8248EFA",
+          type: "item",
+          item: {
+            id: "productivefarming:chrysanthemum",
+            count: 1,
+            components: {
+              "productivefarming:color": -2145632,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -5.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "6AF7427DCA9D66D2",
+      tasks: [
+        {
+          id: "37DD7DA97188AEEE",
+          type: "item",
+          item: {
+            id: "productivefarming:dahlia",
+            count: 1,
+            components: {
+              "productivefarming:color": -13750738,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0459BE99304D7799",
+          type: "item",
+          item: {
+            id: "productivefarming:dahlia",
+            count: 1,
+            components: {
+              "productivefarming:color": -13750738,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -5.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "2F1B74D45E50A079",
+      tasks: [
+        {
+          id: "14B27C664C70EE6A",
+          type: "item",
+          item: {
+            id: "productivefarming:great_lobelia",
+            count: 1,
+            components: {
+              "productivefarming:color": -11112997,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52C5D1134132CD3B",
+          type: "item",
+          item: {
+            id: "productivefarming:great_lobelia",
+            count: 1,
+            components: {
+              "productivefarming:color": -11112997,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -4.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "523AD3D448DE58A6",
+      tasks: [
+        {
+          id: "594E5E482C33E88D",
+          type: "item",
+          item: {
+            id: "productivefarming:hellebore",
+            count: 1,
+            components: {
+              "productivefarming:color": -12692910,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A1B54DA95B0E7CF",
+          type: "item",
+          item: {
+            id: "productivefarming:hellebore",
+            count: 1,
+            components: {
+              "productivefarming:color": -12692910,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -4.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "7514CF65A077985E",
+      tasks: [
+        {
+          id: "4A8E97A60CD7B1AB",
+          type: "item",
+          item: {
+            id: "productivefarming:himalayan_poppy",
+            count: 1,
+            components: {
+              "productivefarming:color": -10693394,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "452C6EBA49500DEB",
+          type: "item",
+          item: {
+            id: "productivefarming:himalayan_poppy",
+            count: 1,
+            components: {
+              "productivefarming:color": -10693394,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: -4.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "60521AAE8BAA32C5",
+      tasks: [
+        {
+          id: "775A8F8F5199309C",
+          type: "item",
+          item: {
+            id: "productivefarming:hydrangea",
+            count: 1,
+            components: {
+              "productivefarming:color": -156234,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0EE43733733A4950",
+          type: "item",
+          item: {
+            id: "productivefarming:hydrangea",
+            count: 1,
+            components: {
+              "productivefarming:color": -156234,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: -4.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "7EF3DB8B5258FA34",
+      tasks: [
+        {
+          id: "64F8D2B212D1B811",
+          type: "item",
+          item: {
+            id: "productivefarming:motherwort",
+            count: 1,
+            components: {
+              "productivefarming:color": -4363143,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "136E36AE26B8BEDE",
+          type: "item",
+          item: {
+            id: "productivefarming:motherwort",
+            count: 1,
+            components: {
+              "productivefarming:color": -4363143,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -3.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "2DB404AA2832F81D",
+      tasks: [
+        {
+          id: "7C9DC220E35D42B0",
+          type: "item",
+          item: {
+            id: "productivefarming:sea_holly",
+            count: 1,
+            components: {
+              "productivefarming:color": -12560955,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50B11F16D820A611",
+          type: "item",
+          item: {
+            id: "productivefarming:sea_holly",
+            count: 1,
+            components: {
+              "productivefarming:color": -12560955,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -3.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "42AE629EBAA3AA94",
+      tasks: [
+        {
+          id: "07F317C404BBE8B7",
+          type: "item",
+          item: {
+            id: "productivefarming:skullcap",
+            count: 1,
+            components: {
+              "productivefarming:color": -8631649,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "799F3FB7F93308CA",
+          type: "item",
+          item: {
+            id: "productivefarming:skullcap",
+            count: 1,
+            components: {
+              "productivefarming:color": -8631649,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: -3.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "5854DA8F791AD71F",
+      tasks: [
+        {
+          id: "4F50B3A3805C5DE7",
+          type: "item",
+          item: {
+            id: "productivefarming:stinging_nettle",
+            count: 1,
+            components: {
+              "productivefarming:color": -11700945,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7AB6729720D70341",
+          type: "item",
+          item: {
+            id: "productivefarming:stinging_nettle",
+            count: 1,
+            components: {
+              "productivefarming:color": -11700945,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: -3.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "739C0DB291B1563C",
+      tasks: [
+        {
+          id: "6CA1869A73C42541",
+          type: "item",
+          item: {
+            id: "productivefarming:valerian_root",
+            count: 1,
+            components: {
+              "productivefarming:color": -267019,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B06BB60390658C3",
+          type: "item",
+          item: {
+            id: "productivefarming:valerian_root",
+            count: 1,
+            components: {
+              "productivefarming:color": -267019,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: -3.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "6479A38086A43E49",
+      tasks: [
+        {
+          id: "20B80213D1FEE4ED",
+          type: "item",
+          item: {
+            id: "productivefarming:zinnia",
+            count: 1,
+            components: {
+              "productivefarming:color": -3497984,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "302650B3BDAF5E94",
+          type: "item",
+          item: {
+            id: "productivefarming:zinnia",
+            count: 1,
+            components: {
+              "productivefarming:color": -3497984,
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 16.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "743E6D3BC306059F",
+      tasks: [
+        {
+          id: "6BECACE8D8683356",
+          type: "item",
+          item: {
+            id: "productivefarming:arrowroot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1475F88F394BB47F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "661489455FA28131",
+      tasks: [
+        {
+          id: "045AB9B6E74376F5",
+          type: "item",
+          item: {
+            id: "productivefarming:arugula",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27B1890BC003E621",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -12.0,
+      shape: "diamond",
+      dependencies: [
+        "2AFB12E742596864",
+      ],
+      size: 1.25,
+      id: "2CFD0DF119CC5E85",
+      tasks: [
+        {
+          id: "0A074866CCBD8FD5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(productivefarming:farm_wall_blocks))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01953C9433344344",
+          type: "xp_levels",
+          xp_levels: 5,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "488BC7224CAC720C",
+      tasks: [
+        {
+          id: "1FE4FA7E2F462E89",
+          type: "item",
+          item: {
+            id: "productivefarming:green_bell_pepper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5AFE9CB4D9349AF4",
+          type: "item",
+          item: {
+            id: "productivefarming:green_bell_pepper",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "4B04538743786A5B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 13.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "0E96B2A9B7FD39CD",
+      tasks: [
+        {
+          id: "7B3E5BD77ABC382E",
+          type: "item",
+          item: {
+            id: "productivefarming:yellow_bell_pepper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3ECD32CF26553A20",
+          type: "item",
+          item: {
+            id: "productivefarming:yellow_bell_pepper",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "374AC69E3343E72D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "18A9E8789E1B560F",
+      tasks: [
+        {
+          id: "0BFED205AD158B62",
+          type: "item",
+          item: {
+            id: "productivefarming:red_bell_pepper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46A07EE2DE9C5379",
+          type: "item",
+          item: {
+            id: "productivefarming:red_bell_pepper",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "70490D0F7040C373",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -6.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "18A9E8789E1B560F",
+        "0E96B2A9B7FD39CD",
+      ],
+      id: "167554E0A562B60A",
+      tasks: [
+        {
+          id: "0C0C86821646AC03",
+          type: "item",
+          item: {
+            id: "productivefarming:orange_bell_pepper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5621559271C7C60E",
+          type: "item",
+          item: {
+            id: "productivefarming:orange_bell_pepper",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -6.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "167554E0A562B60A",
+        "488BC7224CAC720C",
+      ],
+      id: "095024BF19ABA326",
+      tasks: [
+        {
+          id: "10A4F0F3614E7E87",
+          type: "item",
+          item: {
+            id: "productivefarming:black_bell_pepper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C99B871EF03650D",
+          type: "item",
+          item: {
+            id: "productivefarming:black_bell_pepper",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -6.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "095024BF19ABA326",
+        "18A9E8789E1B560F",
+      ],
+      id: "2117CE8C21A9EE98",
+      tasks: [
+        {
+          id: "5686FA744B5C1B73",
+          type: "item",
+          item: {
+            id: "productivefarming:purple_bell_pepper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30BA86FE42BA5B90",
+          type: "item",
+          item: {
+            id: "productivefarming:purple_bell_pepper",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -6.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "167554E0A562B60A",
+        "0E96B2A9B7FD39CD",
+      ],
+      id: "3E57854E27545581",
+      tasks: [
+        {
+          id: "4910BB7C5A951095",
+          type: "item",
+          item: {
+            id: "productivefarming:white_bell_pepper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42FDCF43CB2CB2F0",
+          type: "item",
+          item: {
+            id: "productivefarming:white_bell_pepper",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3A06ED9FD9414921",
+      tasks: [
+        {
+          id: "77ECF55D64C8665C",
+          type: "item",
+          item: {
+            id: "productivefarming:black_beans",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "215AF6CD604FA70F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "0532788AB5562421",
+      tasks: [
+        {
+          id: "7DA96E1536099D6B",
+          type: "item",
+          item: {
+            id: "productivefarming:bok_choy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4489AA6DF8B9640B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "7309778B7BA2F31A",
+      tasks: [
+        {
+          id: "7D8FC676B4F2C7A1",
+          type: "item",
+          item: {
+            id: "productivefarming:broccoli",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2898EA69B87E50B6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "4957ECB0017449AD",
+      tasks: [
+        {
+          id: "674D5560BD3F4EAE",
+          type: "item",
+          item: {
+            id: "productivefarming:brussels_sprout",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07C8D47A7FC33B90",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "0E7AE348FD9E70BC",
+      tasks: [
+        {
+          id: "049CF658535F8E52",
+          type: "item",
+          item: {
+            id: "productivefarming:burdock_root",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C8A6AD50AB8C184",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "02AD953945B2B062",
+      tasks: [
+        {
+          id: "22A32A34C820FED7",
+          type: "item",
+          item: {
+            id: "productivefarming:butterhead_lettuce",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02CEE32112B5949A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "6F45A3F3B2F2ECD3",
+      tasks: [
+        {
+          id: "6B9196710E35F72D",
+          type: "item",
+          item: {
+            id: "productivefarming:cabbage",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45797E0C93F7F004",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "66FD1B8568005500",
+      tasks: [
+        {
+          id: "59F4D788274FF61C",
+          type: "item",
+          item: {
+            id: "productivefarming:catnip",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "288F1E83D444016C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "5F49566CE2C5D4AF",
+      tasks: [
+        {
+          id: "3207FF6F61E849E7",
+          type: "item",
+          item: {
+            id: "productivefarming:cauliflower",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "313C6733C2D9B477",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "67C4A03CB1A4EA68",
+      tasks: [
+        {
+          id: "2CAD8F61B55E452E",
+          type: "item",
+          item: {
+            id: "productivefarming:caraway",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "520291C357FF8034",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "5E2D9236AF13C76E",
+      tasks: [
+        {
+          id: "7F4E066192D02FAB",
+          type: "item",
+          item: {
+            id: "productivefarming:celery",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "068062A655857A8E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "2F97FC9D0FBF013B",
+      tasks: [
+        {
+          id: "7748C82BDB41298A",
+          type: "item",
+          item: {
+            id: "productivefarming:chard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60906E55FE978A0C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3F1EAEC76C57EA5C",
+      tasks: [
+        {
+          id: "37B190E97A2162A3",
+          type: "item",
+          item: {
+            id: "productivefarming:chamomile",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CB25488C8F5B372",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "4295D48AD1DB112E",
+      tasks: [
+        {
+          id: "0AA15695A9EB8E6C",
+          type: "item",
+          item: {
+            id: "productivefarming:chili_pepper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B2B498A808B051C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "700407F322EDE537",
+      tasks: [
+        {
+          id: "654E4FF89B4B7E92",
+          type: "item",
+          item: {
+            id: "productivefarming:collard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "378E4648410CF304",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 10.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "614529A080AB3706",
+      tasks: [
+        {
+          id: "0BB96CC4C9F4D1E1",
+          type: "item",
+          item: {
+            id: "productivefarming:daikon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "082ADB784F3DA7BC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "7716B6724F2C29F9",
+      tasks: [
+        {
+          id: "2E6219FC27F43BA3",
+          type: "item",
+          item: {
+            id: "productivefarming:eddoe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08D42D33D5449C5F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "37A1D33A530C9672",
+      tasks: [
+        {
+          id: "61B315DC613513EA",
+          type: "item",
+          item: {
+            id: "productivefarming:eggplant",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46FB6F53EB656ADA",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "31A1F2E6B26E4EA3",
+      tasks: [
+        {
+          id: "3E8F1AE08E56B788",
+          type: "item",
+          item: {
+            id: "productivefarming:endive",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0723CC360CA60EA1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 12.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "44D917576BCC0690",
+      tasks: [
+        {
+          id: "2DFAA6DC620172E0",
+          type: "item",
+          item: {
+            id: "productivefarming:flax",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "378E92A195366D0B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "33F635B79E417DD5",
+      tasks: [
+        {
+          id: "7A500BD3EDA2C473",
+          type: "item",
+          item: {
+            id: "productivefarming:garlic",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10614A38EB62A020",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "67E25D6D769F55E3",
+      tasks: [
+        {
+          id: "6C2A0BF87FEE852B",
+          type: "item",
+          item: {
+            id: "productivefarming:iceberg_lettuce",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5EB211EB19840FEF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "606FBF86E9DF5D73",
+      tasks: [
+        {
+          id: "350A53D23CB07832",
+          type: "item",
+          item: {
+            id: "productivefarming:jalapeno",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00E0BF095B4D631D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 11.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "40F736A4227FC114",
+      tasks: [
+        {
+          id: "280ECBE9FF035972",
+          type: "item",
+          item: {
+            id: "productivefarming:kale",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CB8E1A142B2B657",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "15833BC4049791FE",
+      tasks: [
+        {
+          id: "0D6BB26A7287206C",
+          type: "item",
+          item: {
+            id: "productivefarming:kidney_beans",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0981F485DDFDD063",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 12.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "2EC387349A922E19",
+      tasks: [
+        {
+          id: "5EC4D4FB14C7E3B7",
+          type: "item",
+          item: {
+            id: "productivefarming:kohlrabi",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A12F0B9A8E03BD0",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "1D1A05D15BF1EC90",
+      tasks: [
+        {
+          id: "432496ED526CC2D2",
+          type: "item",
+          item: {
+            id: "productivefarming:leek",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BC83C23B5DA0CA1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "085E2045C5782A66",
+      tasks: [
+        {
+          id: "0202D7FFD6A51ED4",
+          type: "item",
+          item: {
+            id: "productivefarming:lima_beans",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7595E4FEF0665F39",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "6549D58D8A03A278",
+      tasks: [
+        {
+          id: "1F43E5E6F766A857",
+          type: "item",
+          item: {
+            id: "productivefarming:onion",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6207F00B037810E5",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 11.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "48186695CE811ADA",
+      tasks: [
+        {
+          id: "55305478C9A3554D",
+          type: "item",
+          item: {
+            id: "productivefarming:parsnip",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B3959F3A1375552",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 11.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "53DA1029B69AAAF9",
+      tasks: [
+        {
+          id: "4BE6342283D27C19",
+          type: "item",
+          item: {
+            id: "productivefarming:peas",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4367148C26266FF2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 12.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "0BF7AF93D5F8C3F7",
+      tasks: [
+        {
+          id: "78CEED702E0E2581",
+          type: "item",
+          item: {
+            id: "productivefarming:pinto_beans",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A5499F3F418B0FB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 12.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "28C74050E865F689",
+      tasks: [
+        {
+          id: "220503554618B682",
+          type: "item",
+          item: {
+            id: "productivefarming:pineapple",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BAAFE8770E77D49",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 14.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "27F43C37D2C73A6F",
+      tasks: [
+        {
+          id: "460B43C85A808553",
+          type: "item",
+          item: {
+            id: "productivefarming:radish",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6488353311A8D151",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -12.5,
+      y: 14.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "71B44CD18BAB2EF3",
+      tasks: [
+        {
+          id: "1CBCE97D20AA611F",
+          type: "item",
+          item: {
+            id: "productivefarming:rhubarb",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F9F40CB8513BC73",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "2927AE1A71C04061",
+      tasks: [
+        {
+          id: "646C64C963A76938",
+          type: "item",
+          item: {
+            id: "productivefarming:romain_lettuce",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CDB219BC9D5CF2B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 15.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "22E9867BC27CCF4B",
+      tasks: [
+        {
+          id: "371658A8EC17218F",
+          type: "item",
+          item: {
+            id: "productivefarming:rutabaga",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7360E06B1BB9C463",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 10.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "44091D3FFD80F796",
+      tasks: [
+        {
+          id: "04E772A0C30382BA",
+          type: "item",
+          item: {
+            id: "productivefarming:salsify",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F9CFA42862097A8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 13.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "16257C40CD3DD27D",
+      tasks: [
+        {
+          id: "76A62C0C77E99B4F",
+          type: "item",
+          item: {
+            id: "productivefarming:soy_bean",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6EEB4656EAF60CED",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "19C6AF7529A5764B",
+      tasks: [
+        {
+          id: "0F8FDCDE33B44EF6",
+          type: "item",
+          item: {
+            id: "productivefarming:spinach",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1D7EEAA0185C0C59",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 14.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "45F7F33612C09E4F",
+      tasks: [
+        {
+          id: "24E628F4DF26751D",
+          type: "item",
+          item: {
+            id: "productivefarming:strawberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3ED3821A59A91F56",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "2FDD5F361619F7F2",
+      tasks: [
+        {
+          id: "3E815D89479F4E08",
+          type: "item",
+          item: {
+            id: "productivefarming:sugar_beet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2BE70842657E7F7C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 11.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "06251BEFD56AA794",
+      tasks: [
+        {
+          id: "32074ABE94BF74F6",
+          type: "item",
+          item: {
+            id: "productivefarming:sweet_marjoram",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "764BBAED1479C819",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 16.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "006D919F9AC5764C",
+      tasks: [
+        {
+          id: "1B869E2D5826D029",
+          type: "item",
+          item: {
+            id: "productivefarming:turnip",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E27DF4FC2D849A4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "34FB7F5E16752D15",
+      tasks: [
+        {
+          id: "3D3E8CF650E0A55B",
+          type: "item",
+          item: {
+            id: "productivefarming:ulluco",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2244F22473BB1D0B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 17.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "1809380C7F3C4339",
+      tasks: [
+        {
+          id: "64F33A4C36A66062",
+          type: "item",
+          item: {
+            id: "productivefarming:wasabi",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CEE40E0352D6DBE",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: 16.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "42EB689090A2F0B8",
+      tasks: [
+        {
+          id: "7EBC09BCC8DB82B7",
+          type: "item",
+          item: {
+            id: "productivefarming:blue_borage",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60221F14A32B8ABC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 10.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "68D2F63B82CF85D1",
+      tasks: [
+        {
+          id: "00F261282C532BB7",
+          type: "item",
+          item: {
+            id: "productivefarming:peanuts",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "283DB3AD00E9ECD3",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "65881DC6862ECD57",
+      tasks: [
+        {
+          id: "308E4CEAF54EB271",
+          type: "item",
+          item: {
+            id: "productivefarming:ginger",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "48AC9501BBEDFCB4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "08AC15DE9018D6E8",
+      tasks: [
+        {
+          id: "01B41A0A3418F124",
+          type: "item",
+          item: {
+            id: "productivefarming:green_bean",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F87B0E96A3B5403",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3B13D5E305BBB065",
+      tasks: [
+        {
+          id: "09A714977F48070A",
+          type: "item",
+          item: {
+            id: "productivefarming:spring_onion",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "612CF18F287B5327",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "6F4204EBFC73C29D",
+      tasks: [
+        {
+          id: "2A78439036A94518",
+          type: "item",
+          item: {
+            id: "productivefarming:sweet_potato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "126C547F2B33F33B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "49E2550CE500C54B",
+      tasks: [
+        {
+          id: "62A2AE02D27E6916",
+          type: "item",
+          item: {
+            id: "productivefarming:lentils",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7090BDB522347318",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "1B773125157E81BE",
+      tasks: [
+        {
+          id: "0838923463ABF192",
+          type: "item",
+          item: {
+            id: "productivefarming:chickpeas",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1798C64A4BC7BE9B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 13.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "6FE42ED149F0401A",
+      tasks: [
+        {
+          id: "6F9447942D8A01AE",
+          type: "item",
+          item: {
+            id: "productivefarming:mustard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D7B9C952316BE9B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 16.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "2577C929F7795ADE",
+      tasks: [
+        {
+          id: "356CA52AB542CF2E",
+          type: "item",
+          item: {
+            id: "productivefarming:tea",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C35DC5700A57781",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 15.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "61B81987ADD608F9",
+      tasks: [
+        {
+          id: "65129EB079C7848F",
+          type: "item",
+          item: {
+            id: "productivefarming:wintergreen",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43B85244237AECF1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -12.5,
+      y: 12.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3DFF4FD8962507AB",
+      tasks: [
+        {
+          id: "4F4E21F79D685E0D",
+          type: "item",
+          item: {
+            id: "productivefarming:hops",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F88EA79835AA2CB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "27929BDD6F2E4EF2",
+      tasks: [
+        {
+          id: "061E0C4EDEC9401E",
+          type: "item",
+          item: {
+            id: "productivefarming:rice",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41B30BE8E6EB0CB6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "004991ED9332A498",
+      tasks: [
+        {
+          id: "2FDC67D6D21E4FEB",
+          type: "item",
+          item: {
+            id: "productivefarming:oats",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03BFEF7AE9D35F30",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "6102886D74160C21",
+      tasks: [
+        {
+          id: "5B3F3BB237D3722A",
+          type: "item",
+          item: {
+            id: "productivefarming:barley",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69E6683FFDB97580",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "4E67920DB6395B39",
+      tasks: [
+        {
+          id: "018A2AB40089EEAB",
+          type: "item",
+          item: {
+            id: "productivefarming:rye",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B1AD911430AAD7A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "6CEEA396FED5E47D",
+      tasks: [
+        {
+          id: "6131CDEC48C0A0C3",
+          type: "item",
+          item: {
+            id: "productivefarming:teff",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D93EB7ADEE37D9D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "7D525E7342778110",
+      tasks: [
+        {
+          id: "42235CCBF9FC4FFE",
+          type: "item",
+          item: {
+            id: "productivefarming:amaranth",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6AEFC5BCD5802D58",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "7B2FDDD9E5F4B396",
+      tasks: [
+        {
+          id: "702E8C4D5548A407",
+          type: "item",
+          item: {
+            id: "productivefarming:sorghum",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03C38D6D174CF761",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "00EF897FADE2C583",
+      tasks: [
+        {
+          id: "709D54494CA85459",
+          type: "item",
+          item: {
+            id: "productivefarming:quinoa",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62C79B52596B88DF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -15.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "594EEDBAD9875144",
+      tasks: [
+        {
+          id: "02CCD6FAD0F32958",
+          type: "item",
+          item: {
+            id: "productivefarming:agave",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E563BEB8505C253",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "434091D02EE15334",
+      tasks: [
+        {
+          id: "070394A11CA26AE7",
+          type: "item",
+          item: {
+            id: "productivefarming:ferula",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A906CFFD1E5A09C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "45DA40E4D0D94F10",
+      tasks: [
+        {
+          id: "100476D2F7168215",
+          type: "item",
+          item: {
+            id: "productivefarming:cardamon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A087ACE138BF772",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 10.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "1B8D5E0FB874D324",
+      tasks: [
+        {
+          id: "1088384BBD54C8DC",
+          type: "item",
+          item: {
+            id: "productivefarming:cassava",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F2358BDCF460EF8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 16.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "6760D0DEFA6B0F90",
+      tasks: [
+        {
+          id: "4C0270C3C3644133",
+          type: "item",
+          item: {
+            id: "productivefarming:pitaya",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "473B2F3AB180D524",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "5E50D01838FD2F28",
+      tasks: [
+        {
+          id: "7391FF8A9798B622",
+          type: "item",
+          item: {
+            id: "productivefarming:monstera_deliciosa",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6AE20CB1C3AFE7FD",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 11.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "0C2B359C6CEF4387",
+      tasks: [
+        {
+          id: "791D940800FCC060",
+          type: "item",
+          item: {
+            id: "productivefarming:tobacco",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E27281E5BEEB15C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: 14.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "1094D962B400BE6A",
+      tasks: [
+        {
+          id: "4716D8F1E357278C",
+          type: "item",
+          item: {
+            id: "productivefarming:black_pepper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F4357738A8E3A2C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -13.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "79FDF678B56D0C62",
+      tasks: [
+        {
+          id: "3B3DEBE4C678DCA6",
+          type: "item",
+          item: {
+            id: "productivefarming:jute",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A451D7AFA49B34F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -13.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3A095C484ACEA6C5",
+      tasks: [
+        {
+          id: "69A9FEC070D15DFE",
+          type: "item",
+          item: {
+            id: "productivefarming:cotton",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "51F99618BC029C20",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 12.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3F5EF01D7CCCD0E5",
+      tasks: [
+        {
+          id: "779DF266D62AD5CA",
+          type: "item",
+          item: {
+            id: "productivefarming:turmeric",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79CA0D0D6641CE4F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -3.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "3111C0CA63A82E7A",
+        "0C9EAA80B4AF1F5A",
+      ],
+      id: "1699BD1B8B348B7C",
+      tasks: [
+        {
+          id: "0967863D73CA76E3",
+          type: "item",
+          item: {
+            id: "productivefarming:black_aztec_corn",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DD7F7302ACA1B31",
+          type: "item",
+          item: {
+            id: "productivefarming:black_aztec_corn",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -3.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "0C9EAA80B4AF1F5A",
+      ],
+      id: "3111C0CA63A82E7A",
+      tasks: [
+        {
+          id: "7BCBF93A9D8D1825",
+          type: "item",
+          item: {
+            id: "productivefarming:blue_jade_corn",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C7C29229986387D",
+          type: "item",
+          item: {
+            id: "productivefarming:blue_jade_corn",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -3.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "1699BD1B8B348B7C",
+        "0D04BCF5940E2AF1",
+      ],
+      id: "126CCC6B187C0B18",
+      tasks: [
+        {
+          id: "55FE63B04BC327FD",
+          type: "item",
+          item: {
+            id: "productivefarming:rainbow_corn",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "76C815CA0D65E3BC",
+          type: "item",
+          item: {
+            id: "productivefarming:rainbow_corn",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -3.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "3111C0CA63A82E7A",
+        "1699BD1B8B348B7C",
+      ],
+      id: "0D04BCF5940E2AF1",
+      tasks: [
+        {
+          id: "29EEFFF9E2F9377B",
+          type: "item",
+          item: {
+            id: "productivefarming:sugar_pearl_corn",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "013A8F537A0E21D2",
+          type: "item",
+          item: {
+            id: "productivefarming:sugar_pearl_corn",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 8.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "0C9EAA80B4AF1F5A",
+      tasks: [
+        {
+          id: "4394FC413F6DBE60",
+          type: "item",
+          item: {
+            id: "productivefarming:yellow_dent_corn",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "320EBC0CD2D71781",
+          type: "item",
+          item: {
+            id: "productivefarming:yellow_dent_corn",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "272F8C8110FD1F78",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 12.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "7EF58B9013CAA882",
+      tasks: [
+        {
+          id: "652BEB9C2DC417BE",
+          type: "item",
+          item: {
+            id: "productivefarming:tomatillo",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63850CCB4D4A37BB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 10.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "5DF6DAF8B02AA99A",
+      tasks: [
+        {
+          id: "30E073F64B0DED37",
+          type: "item",
+          item: {
+            id: "productivefarming:huckleberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "716C01864B16FC79",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 10.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "18BB4D402AE19932",
+      tasks: [
+        {
+          id: "2D2255F0E6CF4688",
+          type: "item",
+          item: {
+            id: "productivefarming:roma_tomato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B829F9CFF06FD36",
+          type: "item",
+          item: {
+            id: "productivefarming:roma_tomato",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "44CDA1C698F42A30",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -13.5,
+      y: -2.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "18BB4D402AE19932",
+      ],
+      id: "5B21A7A5ED1DDABB",
+      tasks: [
+        {
+          id: "1F81E4B8E6D1C441",
+          type: "item",
+          item: {
+            id: "productivefarming:beefsteak_tomato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04545BEFAAE9FEF8",
+          type: "item",
+          item: {
+            id: "productivefarming:beefsteak_tomato",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: -2.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "5B21A7A5ED1DDABB",
+        "18BB4D402AE19932",
+      ],
+      id: "7264CC40170E461A",
+      tasks: [
+        {
+          id: "2B63CD27415C04A3",
+          type: "item",
+          item: {
+            id: "productivefarming:black_beauty_tomato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E7DEECA37A6AA45",
+          type: "item",
+          item: {
+            id: "productivefarming:black_beauty_tomato",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: -2.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "5B21A7A5ED1DDABB",
+        "18BB4D402AE19932",
+      ],
+      id: "48323FABB7E3D31E",
+      tasks: [
+        {
+          id: "523C7CB6CF5A007E",
+          type: "item",
+          item: {
+            id: "productivefarming:blue_beauty_tomato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BD9DF679C826EB3",
+          type: "item",
+          item: {
+            id: "productivefarming:blue_beauty_tomato",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -12.5,
+      y: -2.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "5B21A7A5ED1DDABB",
+        "18BB4D402AE19932",
+      ],
+      id: "5969AEE09A61EC16",
+      tasks: [
+        {
+          id: "66885317E4E8ED82",
+          type: "item",
+          item: {
+            id: "productivefarming:white_wonder_tomato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25624216913F1FA5",
+          type: "item",
+          item: {
+            id: "productivefarming:white_wonder_tomato",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "44816DC131B9E5AC",
+      tasks: [
+        {
+          id: "461C6DBD798BBAC7",
+          type: "item",
+          item: {
+            id: "productivefarming:cherry_tomato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61EFE05F10C83A0F",
+          type: "item",
+          item: {
+            id: "productivefarming:cherry_tomato",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "1D8E903C0029840B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -2.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "44816DC131B9E5AC",
+      ],
+      id: "223F47BDD763F306",
+      tasks: [
+        {
+          id: "2E2B808C081AA514",
+          type: "item",
+          item: {
+            id: "productivefarming:chocolate_pear_tomato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B550BE86D471715",
+          type: "item",
+          item: {
+            id: "productivefarming:chocolate_pear_tomato",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -2.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "44816DC131B9E5AC",
+        "223F47BDD763F306",
+      ],
+      id: "33C3C334981AF72E",
+      tasks: [
+        {
+          id: "7DEBD4C3524AA9BE",
+          type: "item",
+          item: {
+            id: "productivefarming:yellow_pear_tomato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72215B7FA5C6D11B",
+          type: "item",
+          item: {
+            id: "productivefarming:yellow_pear_tomato",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -2.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "33C3C334981AF72E",
+        "223F47BDD763F306",
+      ],
+      id: "2BFC97460B4B49F1",
+      tasks: [
+        {
+          id: "69A5410EED10C3A7",
+          type: "item",
+          item: {
+            id: "productivefarming:sungold_tomato",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53DA9B052AE72481",
+          type: "item",
+          item: {
+            id: "productivefarming:sungold_tomato",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -10.5,
+      y: 14.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "6CE06139AC6A5F8C",
+      tasks: [
+        {
+          id: "39DE52FAFD14F8DE",
+          type: "item",
+          item: {
+            id: "productivefarming:sea_buckthorn",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "476F7FA1B7E7329F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "16D383AB7AA0BBEE",
+      tasks: [
+        {
+          id: "0113F28381914750",
+          type: "item",
+          item: {
+            id: "productivefarming:konjac",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "059BCA25C68DC37F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -13.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "16BB8880B76B467C",
+      tasks: [
+        {
+          id: "70D2BB22A2F8F8B3",
+          type: "item",
+          item: {
+            id: "productivefarming:okra",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68167EDF89C6E80B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -15.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "1062D1D105E52B64",
+      tasks: [
+        {
+          id: "7653720AB47836F3",
+          type: "item",
+          item: {
+            id: "productivefarming:asparagus",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "091386AF8EF37793",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "10AB734D4C39AF00",
+      tasks: [
+        {
+          id: "159557C0503D6FA5",
+          type: "item",
+          item: {
+            id: "productivefarming:artichoke",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E03331BDA0FAEBC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "7C26F1B51BFB744D",
+      tasks: [
+        {
+          id: "27D58707AF89A97B",
+          type: "item",
+          item: {
+            id: "productivefarming:malanga",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64716FB7DC290262",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 12.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "425EB7F863877EE5",
+      tasks: [
+        {
+          id: "7D196BD658B58503",
+          type: "item",
+          item: {
+            id: "productivefarming:yam",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "740A4B7F25C938E6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 14.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "2C3E024BE1FC6B89",
+      tasks: [
+        {
+          id: "5C91633B9846CE68",
+          type: "item",
+          item: {
+            id: "productivefarming:water_chestnut",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E790565FA566AB2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: 18.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "09C31E71C56A3844",
+      tasks: [
+        {
+          id: "0ACFD153FA2D6A91",
+          type: "item",
+          item: {
+            id: "productivefarming:watercress",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1563E1EC4757A37F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.5,
+      y: 14.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "4269C3D8EE27C335",
+      tasks: [
+        {
+          id: "7F7166E253F6CCEC",
+          type: "item",
+          item: {
+            id: "productivefarming:water_caltrop",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "12198E8F600FB18F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 14.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "2DC69E401C7674FD",
+      tasks: [
+        {
+          id: "789B905297BE958D",
+          type: "item",
+          item: {
+            id: "productivefarming:kiwi",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B0FEFC2DBC48424",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 16.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "71956E96D28E5D36",
+      tasks: [
+        {
+          id: "42433B90DBEFD7CA",
+          type: "item",
+          item: {
+            id: "productivefarming:vanilla",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FA1C531D2F3AFD5",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "2A1A9B81AE3567AD",
+      tasks: [
+        {
+          id: "52DC2D1E464C8F10",
+          type: "item",
+          item: {
+            id: "productivefarming:goji_berry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "335632598939261B",
+          type: "item",
+          item: {
+            id: "productivefarming:goji_berry",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "0AE09A9A3B02A602",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "75FC6BCC7D863A1E",
+      tasks: [
+        {
+          id: "60F4CDF1CA953257",
+          type: "item",
+          item: {
+            id: "productivefarming:butternut_squash",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1634D8EADCD71C76",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3158123E18E8CDCF",
+      tasks: [
+        {
+          id: "1AA3F420CE9309F0",
+          type: "item",
+          item: {
+            id: "productivefarming:spoon_gourd",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BBC2E56966D8934",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "34FC88A6E80601A3",
+      tasks: [
+        {
+          id: "2D0F44471D4E6864",
+          type: "item",
+          item: {
+            id: "productivefarming:luffa",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "49DC61CB60AA351A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "0F34995B66BD08D9",
+      tasks: [
+        {
+          id: "2E6F620CB0558AA0",
+          type: "item",
+          item: {
+            id: "productivefarming:cucumber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26E30C2EA7AC5A98",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3B63745D37ED3776",
+      tasks: [
+        {
+          id: "3955F54F39180F73",
+          type: "item",
+          item: {
+            id: "productivefarming:zucchini",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "653E00F7F775A480",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -12.5,
+      y: 10.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "2B0FF97ABB5DB434",
+      tasks: [
+        {
+          id: "6520D1DE78BF86E0",
+          type: "item",
+          item: {
+            id: "productivefarming:akebia",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7586E11074B7C543",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: 16.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "68487BA63EE8F984",
+      tasks: [
+        {
+          id: "24FEEA4DAF04D97E",
+          type: "item",
+          item: {
+            id: "productivefarming:sarsaparilla",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E5AC4D810ABCB1D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "3C52E482EFA3C76E",
+      tasks: [
+        {
+          id: "012D7FD2DDB98B8D",
+          type: "item",
+          item: {
+            id: "productivefarming:red_grape",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4107986BFF130D36",
+          type: "item",
+          item: {
+            id: "productivefarming:red_grape",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "36F1CE5B6E9541D2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 14.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "665F5D34A6282117",
+      tasks: [
+        {
+          id: "417C229CE397161D",
+          type: "item",
+          item: {
+            id: "productivefarming:green_grape",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43894E9B65F218B9",
+          type: "item",
+          item: {
+            id: "productivefarming:green_grape",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "33A1C33F26C26DDB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -4.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "665F5D34A6282117",
+        "3C52E482EFA3C76E",
+      ],
+      id: "507821D8F9C064CF",
+      tasks: [
+        {
+          id: "1C8756FD749E3E5B",
+          type: "item",
+          item: {
+            id: "productivefarming:concord_grape",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "514CCAE9C78F1FFF",
+          type: "item",
+          item: {
+            id: "productivefarming:concord_grape",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -4.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "665F5D34A6282117",
+        "507821D8F9C064CF",
+      ],
+      id: "66D27708343F9DB4",
+      tasks: [
+        {
+          id: "10A9438AA53125F3",
+          type: "item",
+          item: {
+            id: "productivefarming:cotton_candy_grape",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B154743AAF8A681",
+          type: "item",
+          item: {
+            id: "productivefarming:cotton_candy_grape",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "4D3E6CE8EC847333",
+      tasks: [
+        {
+          id: "6F6A077D95666A85",
+          type: "item",
+          item: {
+            id: "productivefarming:cantaloupe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "29755FC1B718A728",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "2312425FC103F2E9",
+      tasks: [
+        {
+          id: "2A1A071D99BEF2CD",
+          type: "item",
+          item: {
+            id: "productivefarming:honeydew_melon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2649AF2F7DCD08EB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "7627553A8B1628F8",
+      tasks: [
+        {
+          id: "10989BC8DCE2CFF3",
+          type: "item",
+          item: {
+            id: "productivefarming:basil",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C88737FCE368358",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -11.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "5BE18880A10DCDAD",
+      tasks: [
+        {
+          id: "1D78D636A13C41C1",
+          type: "item",
+          item: {
+            id: "productivefarming:chives",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2225422960C2488B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "383EDBE9AAAF4C99",
+      tasks: [
+        {
+          id: "7A8C54CE48B0EAF9",
+          type: "item",
+          item: {
+            id: "productivefarming:coriander",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17D544A643A2E740",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "38626EB57134E11A",
+      tasks: [
+        {
+          id: "5CA88840C46C3322",
+          type: "item",
+          item: {
+            id: "productivefarming:cumin",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "521B593F99D20647",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "0A8FEF00C7851D52",
+      tasks: [
+        {
+          id: "08CF22802370B244",
+          type: "item",
+          item: {
+            id: "productivefarming:dill",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B39A410677A990B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "06B8334A1D169EB5",
+      tasks: [
+        {
+          id: "45D090A780043715",
+          type: "item",
+          item: {
+            id: "productivefarming:fat_hen",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D89E1BC6159FB20",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3BB39CC4E8F40B67",
+      tasks: [
+        {
+          id: "0AAC96AC78D942B3",
+          type: "item",
+          item: {
+            id: "productivefarming:fenugreek",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "065DD7FFE1F37DFF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 10.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "31F23E311AD8C9F9",
+      tasks: [
+        {
+          id: "60BB06C7B4732003",
+          type: "item",
+          item: {
+            id: "productivefarming:spearmint",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7832ACF52E7F1866",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "3AE0814362561FA8",
+      tasks: [
+        {
+          id: "7DAD6BB9155E8257",
+          type: "item",
+          item: {
+            id: "productivefarming:peppermint",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "169B5AEDD59184E4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 13.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "52143ADB3A510150",
+      tasks: [
+        {
+          id: "27AD9185CF64B7E9",
+          type: "item",
+          item: {
+            id: "productivefarming:watermint",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E625364782D0398",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "68F0484EB332E2F5",
+      tasks: [
+        {
+          id: "4632BD66ECDBBD54",
+          type: "item",
+          item: {
+            id: "productivefarming:lemon_balm",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35E46648484F0541",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "244B10862943A802",
+      tasks: [
+        {
+          id: "3C9C6DFB6886696A",
+          type: "item",
+          item: {
+            id: "productivefarming:lemongrass",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "586311AF8BC2ABD5",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "5083AE28ED3EE97C",
+      tasks: [
+        {
+          id: "21216C452D9D4328",
+          type: "item",
+          item: {
+            id: "productivefarming:oregano",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FC6EEB278981904",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 10.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "467F32EDD2951144",
+      tasks: [
+        {
+          id: "2E8B5B82944C2AED",
+          type: "item",
+          item: {
+            id: "productivefarming:parsley",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1BCC81FFED44440D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "4C13A2F6D8BE749B",
+      tasks: [
+        {
+          id: "412F6B0E893AD541",
+          type: "item",
+          item: {
+            id: "productivefarming:rosemary",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C5AE9305140FBA6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "08534CB3EA1E2670",
+      tasks: [
+        {
+          id: "1DD6A6A94E4B3482",
+          type: "item",
+          item: {
+            id: "productivefarming:sage",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CE43C385DA7A49E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 12.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "358FCA5464C0A132",
+      tasks: [
+        {
+          id: "4B33EF34C008B0F5",
+          type: "item",
+          item: {
+            id: "productivefarming:thyme",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5FBE17ED9BE00B24",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 11.5,
+      y: 16.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "71E30F7C5B3D6595",
+      tasks: [
+        {
+          id: "708D237DFCCC6D15",
+          type: "item",
+          item: {
+            id: "productivefarming:ostrich_fiddlehead",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37B35B844544040E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -12.5,
+      y: 16.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "469DF9203DB2F46C",
+      tasks: [
+        {
+          id: "43EBE372ECE8639C",
+          type: "item",
+          item: {
+            id: "productivefarming:kadsura",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54F718B59A69116B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 3.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "022C6F8E8516BC0B",
+      tasks: [
+        {
+          id: "73C6771DAB56DDEE",
+          type: "item",
+          item: {
+            id: "productivefarming:blackberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B6EBC2E85016DF9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 4.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "495F17EDD9CE3843",
+      tasks: [
+        {
+          id: "34955A260577EEC6",
+          type: "item",
+          item: {
+            id: "productivefarming:blackcurrant",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B88818F6C91484D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 5.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "629D4B425C439F78",
+      tasks: [
+        {
+          id: "681914151D447E13",
+          type: "item",
+          item: {
+            id: "productivefarming:blueberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F97ADB47580964D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 6.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "7282F70B546941EE",
+      tasks: [
+        {
+          id: "6AAA03E025252FB8",
+          type: "item",
+          item: {
+            id: "productivefarming:boysenberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "158943185132E348",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 7.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "0147AE15B3658678",
+      tasks: [
+        {
+          id: "342B782F6D81825A",
+          type: "item",
+          item: {
+            id: "productivefarming:cloudberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C9CC119E89C97AB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 8.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "0AE453D7E4C05510",
+      tasks: [
+        {
+          id: "16CE37C5B00302B4",
+          type: "item",
+          item: {
+            id: "productivefarming:cranberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7CD95A537CB33348",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -5.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "2BFC97460B4B49F1",
+        "4FB3047EBF555455",
+      ],
+      id: "158978D35BDA805D",
+      tasks: [
+        {
+          id: "1A7EC25823114FA6",
+          type: "item",
+          item: {
+            id: "productivefarming:golden_raspberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D63087FC082D463",
+          type: "item",
+          item: {
+            id: "productivefarming:golden_raspberry",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 9.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "753B9A80C2DA7D9D",
+      tasks: [
+        {
+          id: "78480C67F34E41E8",
+          type: "item",
+          item: {
+            id: "productivefarming:gooseberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7AB4B2325BD2261A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 11.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "29E73FC397BB48E3",
+      tasks: [
+        {
+          id: "472691CFF82D632E",
+          type: "item",
+          item: {
+            id: "productivefarming:lingoberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F90CDF62F707447",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -5.5,
+      dependencies: [
+        "06B197EB778C17AC",
+        "2A1A9B81AE3567AD",
+        "158978D35BDA805D",
+      ],
+      id: "44DA8B6C651B3456",
+      tasks: [
+        {
+          id: "439452C80A2A4D60",
+          type: "item",
+          item: {
+            id: "productivefarming:miracle_berry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33FCDFAE63BB66A7",
+          type: "item",
+          item: {
+            id: "productivefarming:miracle_berry",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "02E491AB848E8CA8",
+          type: "item",
+          item: {
+            id: "productivetrees:lemon",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 12.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      id: "4FB3047EBF555455",
+      tasks: [
+        {
+          id: "7CC88654E25AD91E",
+          type: "item",
+          item: {
+            id: "productivefarming:raspberry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "545669D5B48909BB",
+          type: "item",
+          item: {
+            id: "productivefarming:raspberry",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "41D01528C17DEBFC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 13.5,
+      dependencies: [
+        "699F91BC5CA58FE2",
+      ],
+      optional: true,
+      id: "54A6760733ECD174",
+      tasks: [
+        {
+          id: "355322A9004E3220",
+          type: "item",
+          item: {
+            id: "productivefarming:redcurrant",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33326DB29A1D9946",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: -0.5,
+      y: 2.0,
+      width: 5.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/pro_farming/farm_title_crops.png",
+      id: "4305F47ABABAE35D",
+    },
+    {
+      x: 9.0,
+      y: -1.5,
+      width: 7.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/pro_farming/farm_title_flowers.png",
+      id: "3385B48BB963BBC0",
+    },
+    {
+      x: -0.5,
+      y: -7.5,
+      width: 8.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/pro_farming/farm_title_farm.png",
+      id: "0C7AD75789E60C4C",
+    },
+    {
+      x: -10.0,
+      y: -1.0,
+      width: 6.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/pro_farming/farm_title_mutants.png",
+      id: "1C360DA55FC8B910",
+    },
+    {
+      x: -6.5,
+      y: -11.5,
+      width: 11.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/pro_farming/farm_title_1.png",
+      id: "523E568F6E0F38AB",
+    },
+    {
+      x: 4.5,
+      y: -11.25,
+      width: 9.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/pro_farming/farm_title_2.png",
+      id: "654DBF829ADF7804",
+    },
+  ],
+}
