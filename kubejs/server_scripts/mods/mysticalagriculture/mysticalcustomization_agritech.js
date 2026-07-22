@@ -1,4 +1,4 @@
-if (Platform.isLoaded("mysticalagriculture")) {
+if (Platform.isLoaded("mysticalagriculture") && Platform.isLoaded("agritechevolved")) {
 
     ServerEvents.recipes(event => {
         
