@@ -735,7 +735,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 7a00bd71-c35d-4375-81a0-53ce36163f79-1756766248870
-  [executable_action_instance:a3609b20-75e7-4212-bed8-a09131d732f4-1756767123775][action_type:openlink] = https://github.com/AllTheMods/ATM-10/issues
+  [executable_action_instance:a3609b20-75e7-4212-bed8-a09131d732f4-1756767123775][action_type:openlink] = https://github.com/AllTheMods/ATM-11/issues
   [executable_block:7a00bd71-c35d-4375-81a0-53ce36163f79-1756766248870][type:generic] = [executables:a3609b20-75e7-4212-bed8-a09131d732f4-1756767123775;]
   backgroundnormal = [source:local]/config/fancymenu/assets/github_gray.png
   backgroundhovered = [source:local]/config/fancymenu/assets/github_color.png
