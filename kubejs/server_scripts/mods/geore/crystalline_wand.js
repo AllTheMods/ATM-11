@@ -138,7 +138,7 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.custom({
       type: "occultism:ritual",
-      activation_item: Ingredient.of('constructionstick:iron_stick[constructionstick:unbreakable=true,unbreakable={}]'),
+      activation_item: Item.of('constructionstick:iron_stick[constructionstick:unbreakable=true,unbreakable={}]').asIngredient(),
       duration: 100,
       ingredients: [
         'kubejs:allthemodium_catalyst',
