@@ -77,7 +77,7 @@ ServerEvents.recipes(allthemods => {
         ],
         options: [
           {
-            show_in_jei: false,
+            show_in_jei: true,
             only_visual_recipe: false
           }
         ]
@@ -129,7 +129,7 @@ ServerEvents.recipes(allthemods => {
         ],
         options: [
           {
-            show_in_jei: false,
+            show_in_jei: true,
             only_visual_recipe: false
           }
         ]
