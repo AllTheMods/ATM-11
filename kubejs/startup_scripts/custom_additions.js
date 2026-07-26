@@ -100,6 +100,9 @@ StartupEvents.registry("item", (allthemods) => {
     allthemods.create(`${mat}_catalyst`).texture(`geore:item/${mat}_shard`).glow(true)
   }
 
+  allthemods.create('crystalline_wand').displayName('Imperfect Crystalline Resonance Wand').unstackable()
+  allthemods.create('perfected_crystalline_wand').glow(true).displayName('Perfected Crystalline Resonance Wand').texture('kubejs:item/crystalline_wand').unstackable()
+
   if (Platform.isLoaded("iceandfire")) {
     allthemods
       .create("fire_eye")
