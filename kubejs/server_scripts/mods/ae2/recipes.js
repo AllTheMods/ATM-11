@@ -209,6 +209,22 @@ if (Platform.isLoaded("ae2")) {
       })
       .id("extendedae:slicing/universal_press")
     }
+	
+	// Meteorite Divination Rod recipe, to serve as the Ars Dowsing Rod's spiritual successor for finding meteorites
+	if (Platform.isLoaded("occultism")) {
+		allthemods
+			.custom({
+				"type": "ae2:charger",
+				"ingredient": "occultism:divination_rod",
+				"result": {
+					"components": {
+						"occultism:divination_linked_block": "ae2:mysterious_cube",
+						"custom_name": "Meteorite Divination Rod"
+					},
+					"id": "occultism:divination_rod"
+				}
+		}).id("allthemods:ae2/charger/meteorite_divination_rod")
+	}
   })
 }
 
