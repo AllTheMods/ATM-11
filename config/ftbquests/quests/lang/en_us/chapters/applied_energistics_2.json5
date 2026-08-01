@@ -40,7 +40,7 @@
   ],
   "quest.4E8A05C3BFA80540.title": "The Storage",
   "quest.51236544BFEF487B.quest_desc": [
-    "It is time to find &eMeteorites&f that contain &bSky Stone&f. These can be either on the surface or underground, and contain a &bMysterious Cube&f in its center.\n\nThis cube contains all of the different &ePresses&f used in the Inscriber to make AE2's special crafting components.\n\nThe easiest way to locate a meteorite is by crafting a &eMeteorite Compass&r by placing a compass inside of a Charger.",
+    "It is time to find &eMeteorites&f that contain &bSky Stone&f. They are found buried underground, typically near the surface, and contain a &bMysterious Cube&f in its center.\\n\\nThis cube contains all of the different &ePresses&f used in the Inscriber to make AE2's special crafting components.\\n\\nThe easiest way to locate a meteorite is by crafting a &eMeteorite Compass&r by placing a compass inside of a Charger.",
   ],
   "quest.5233A447BAA4593C.quest_desc": [
     "The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves.",
@@ -239,6 +239,9 @@
   "quest.1B686954D34A0F23.quest_subtitle": "Does exactly what you'd expect",
   "quest.5CD8D169181C7339.title": "The... Weapons?",
   "task.61D93B13D496547D.title": "Fluid Storage",
+  "quest.79212D77089BFED9.quest_desc": [
+    "Using a &9Meteorite Divination Rod&r from &dOccultism&r (obtainable by placing a regular &9Divination Rod&r into a Charger) will help you find the exact location of a &eMeteorite&r once you've used the &eMeteorite Compass&r to find its general location.",
+  ],
   "quest.5C22E3103544B120.title": "Basic Cabling",
   "quest.1710B3D05215A71E.quest_subtitle": "Cut out the middleman",
   "quest.5F56892CD904C40F.quest_subtitle": "x4^4",
