@@ -9,7 +9,6 @@
   filename: "tips_and_tricks",
   default_quest_shape: "diamond",
   default_hide_dependency_lines: false,
-  progression_mode: "flexible",
   quests: [
     {
       x: 1.5,
@@ -45,6 +44,9 @@
       x: -1.0,
       y: 2.5,
       shape: "diamond",
+      dependencies: [
+        "7DBB7A7665164D61",
+      ],
       id: "7EC8814940C4C3D7",
       tasks: [
         {
@@ -292,6 +294,9 @@
       x: 2.0,
       y: 2.5,
       shape: "diamond",
+      dependencies: [
+        "7DBB7A7665164D61",
+      ],
       id: "5EE945A1185E8336",
       tasks: [
         {
@@ -374,6 +379,9 @@
     {
       x: -3.0,
       y: 2.5,
+      dependencies: [
+        "7DBB7A7665164D61",
+      ],
       id: "3B4BF42C55C8BBBF",
       tasks: [
         {
@@ -450,6 +458,9 @@
     {
       x: 3.0,
       y: 2.5,
+      dependencies: [
+        "7DBB7A7665164D61",
+      ],
       id: "51538F4DCE24E3E7",
       tasks: [
         {
@@ -480,6 +491,9 @@
     {
       x: 1.5,
       y: 1.0,
+      dependencies: [
+        "7DBB7A7665164D61",
+      ],
       id: "0E9CE6241CDBC420",
       tasks: [
         {
@@ -510,6 +524,9 @@
     {
       x: 1.5,
       y: 4.0,
+      dependencies: [
+        "7DBB7A7665164D61",
+      ],
       id: "47043AF7D1FABC43",
       tasks: [
         {
@@ -589,6 +606,7 @@
       y: 3.5,
       dependencies: [
         "28E60192912BEBAD",
+        "7DBB7A7665164D61",
       ],
       hide_until_deps_complete: true,
       min_width: 300,
@@ -671,6 +689,9 @@
     {
       x: -2.0,
       y: 3.5,
+      dependencies: [
+        "7DBB7A7665164D61",
+      ],
       id: "69F7A0DE8D70AC44",
       tasks: [
         {
@@ -715,6 +736,9 @@
       },
       x: 2.5,
       y: 3.0,
+      dependencies: [
+        "7DBB7A7665164D61",
+      ],
       id: "2837E05AD0B67189",
       tasks: [
         {
@@ -775,6 +799,18 @@
           id: "76C648C872A99C5C",
           type: "xp",
           xp: 10,
+        },
+      ],
+    },
+    {
+      x: -4.0,
+      y: -0.5,
+      invisible: true,
+      id: "7DBB7A7665164D61",
+      tasks: [
+        {
+          id: "4040E4066C5A665E",
+          type: "checkmark",
         },
       ],
     },

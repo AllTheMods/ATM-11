@@ -7,9 +7,9 @@
     count: 1,
   },
   filename: "basic_tools",
+  always_invisible: true,
   default_quest_shape: "diamond",
   default_hide_dependency_lines: false,
-  progression_mode: "flexible",
   autofocus_id: "5151CDD8FCDE7A07",
   quests: [
     {
@@ -17,6 +17,7 @@
       y: -2.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       id: "57F47BA495B27F83",
       tasks: [
@@ -50,6 +51,7 @@
       y: -2.5,
       dependencies: [
         "57F47BA495B27F83",
+        "492541735EBE6B0C",
       ],
       id: "3917DECAEF56A06A",
       tasks: [
@@ -83,6 +85,7 @@
       y: -3.0,
       dependencies: [
         "3917DECAEF56A06A",
+        "492541735EBE6B0C",
       ],
       id: "6601450C63FEEE61",
       tasks: [
@@ -112,6 +115,7 @@
       y: -3.5,
       dependencies: [
         "6601450C63FEEE61",
+        "492541735EBE6B0C",
       ],
       id: "17FE0C7748DD65CA",
       tasks: [
@@ -145,6 +149,7 @@
       y: -4.0,
       dependencies: [
         "17FE0C7748DD65CA",
+        "492541735EBE6B0C",
       ],
       id: "03E05018D64DDEE1",
       tasks: [
@@ -178,6 +183,7 @@
       y: -4.5,
       dependencies: [
         "03E05018D64DDEE1",
+        "492541735EBE6B0C",
       ],
       id: "09733948CBCB3FB9",
       tasks: [
@@ -206,6 +212,7 @@
       y: -2.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "2EE4E88FC814AFA4",
@@ -232,6 +239,7 @@
       y: -2.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "2E6D11A5F5626A6C",
@@ -258,6 +266,7 @@
       y: -3.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "70ED849A2EB44DEE",
@@ -284,6 +293,7 @@
       y: -3.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "29A05589E96C0569",
@@ -310,6 +320,7 @@
       y: -4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "299F56B753286D0C",
@@ -336,6 +347,7 @@
       y: -4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "512396B331108BAF",
@@ -365,6 +377,7 @@
       y: -3.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "51DBE688ED630DB1",
@@ -394,6 +407,7 @@
       y: -4.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "58DDD32F849940A0",
@@ -423,6 +437,7 @@
       y: -3.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "3B88D58B11B5DC78",
@@ -452,6 +467,9 @@
       y: 0.0,
       shape: "gear",
       hide_dependent_lines: true,
+      dependencies: [
+        "492541735EBE6B0C",
+      ],
       size: 2.0,
       id: "5151CDD8FCDE7A07",
       tasks: [
@@ -487,6 +505,7 @@
       y: 2.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "0583862ED0114442",
@@ -513,6 +532,7 @@
       y: 3.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "54D3D6806C1F33F3",
@@ -539,6 +559,7 @@
       y: 4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "2B9AF0D6ED8BA628",
@@ -565,6 +586,7 @@
       y: 5.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "55A9EB63F4964FCF",
@@ -591,6 +613,7 @@
       y: 6.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "36A3ECD4F6CA2732",
@@ -617,6 +640,7 @@
       y: -2.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "3BF1900346772703",
@@ -643,6 +667,7 @@
       y: 4.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "077A214422FEFF02",
@@ -669,6 +694,7 @@
       y: 6.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "2664388EBA1E8F90",
@@ -698,6 +724,7 @@
       y: 6.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "7F076FC4F2187692",
@@ -724,6 +751,7 @@
       y: 5.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "7CFEE836C68B3903",
@@ -753,6 +781,7 @@
       y: 7.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "7EDF2CC08FC774F9",
@@ -779,6 +808,7 @@
       y: 8.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "680ECE3D8DCDC515",
@@ -805,6 +835,7 @@
       y: 9.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "4DCEC4B97E24B6F1",
@@ -831,6 +862,7 @@
       y: 10.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "2007EF64F0406090",
@@ -857,6 +889,7 @@
       y: 10.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "5A6670364ADE0858",
@@ -883,6 +916,7 @@
       y: 9.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "47AED7219704EB3E",
@@ -909,6 +943,7 @@
       y: 11.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "744AC6BD82FC2DEE",
@@ -935,6 +970,7 @@
       y: 5.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "7BCE96070C36D547",
@@ -961,6 +997,7 @@
       y: 11.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "4C8C56F960D92E9D",
@@ -987,6 +1024,7 @@
       y: 2.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "6EE68EEFE388CF8A",
@@ -1013,6 +1051,7 @@
       y: -4.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "609D03E335CF32E2",
@@ -1042,6 +1081,7 @@
       y: 3.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "4745488579AAF603",
@@ -1071,6 +1111,7 @@
       y: 12.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "2A6753C806D2AF8D",
@@ -1100,6 +1141,7 @@
       y: -3.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "1D3F11194EA3BB73",
@@ -1129,6 +1171,7 @@
       y: -3.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "64EED65F80A91D9E",
@@ -1158,6 +1201,7 @@
       y: -3.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "275D97BF0CE9DCD4",
@@ -1187,6 +1231,7 @@
       y: -3.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "01046CFBD7411AA6",
@@ -1216,6 +1261,7 @@
       y: -3.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "01EE2526B43B6502",
@@ -1245,6 +1291,7 @@
       y: -2.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "79EF24E396779B9F",
@@ -1274,6 +1321,7 @@
       y: -4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "7EC7E12C0880F8F5",
@@ -1303,6 +1351,7 @@
       y: -4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "1756F81ACFC56C58",
@@ -1332,6 +1381,7 @@
       y: -3.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "5A2908437EC43AC6",
@@ -1361,6 +1411,7 @@
       y: -3.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "2DB53A77C3CD90F1",
@@ -1390,6 +1441,7 @@
       y: -3.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "5CD65553EF60029B",
@@ -1419,6 +1471,7 @@
       y: 4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "3B542DC05240242C",
@@ -1448,6 +1501,7 @@
       y: 2.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "37B055397B21D936",
@@ -1477,6 +1531,7 @@
       y: 4.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "161878AB4236C58B",
@@ -1503,6 +1558,7 @@
       y: 5.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "6EFA73A4D01F0052",
@@ -1536,6 +1592,7 @@
       y: 6.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "36B9D5A99E1AA85C",
@@ -1569,6 +1626,7 @@
       y: 6.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "252169A6EB4DD75B",
@@ -1595,6 +1653,7 @@
       y: 4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "149BD1A9F82FA19A",
@@ -1624,6 +1683,7 @@
       y: 3.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "480FA9FE57743B66",
@@ -1653,6 +1713,7 @@
       y: 8.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "7338CA23B27B2AF8",
@@ -1682,6 +1743,7 @@
       y: 5.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "79E30114ED8870EE",
@@ -1711,6 +1773,7 @@
       y: 12.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "268F6E67AA79A7BD",
@@ -1737,6 +1800,7 @@
       y: 4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "579DA82672BF632C",
@@ -1766,6 +1830,7 @@
       y: 4.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "784D6D11C4F41215",
@@ -1795,6 +1860,7 @@
       y: 7.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "106C552DDD95543C",
@@ -1824,6 +1890,7 @@
       y: 5.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "56970D44D4C9015A",
@@ -1853,6 +1920,7 @@
       y: 6.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "464DDEAF167BD0D5",
@@ -1882,6 +1950,7 @@
       y: 2.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "3CD307DDD6A5F5A3",
@@ -1911,6 +1980,7 @@
       y: 4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "122282C288EAD366",
@@ -1939,6 +2009,9 @@
       x: 0.0,
       y: -1.5,
       shape: "circle",
+      dependencies: [
+        "492541735EBE6B0C",
+      ],
       optional: true,
       invisible: true,
       id: "16AAC61729C44881",
@@ -1958,6 +2031,7 @@
       y: 5.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "7CA60DC31447E57A",
@@ -1987,6 +2061,7 @@
       y: 6.5,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "5D46EEC88D662443",
@@ -2016,6 +2091,7 @@
       y: -4.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "7B1818D2C5C2BB18",
@@ -2045,6 +2121,7 @@
       y: 3.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "41C661E8630D0146",
@@ -2074,6 +2151,7 @@
       y: 8.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "70DB76D3E7704E2C",
@@ -2100,6 +2178,7 @@
       y: 5.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "6552E301C370D203",
@@ -2126,6 +2205,7 @@
       y: 7.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "791A981914CE345F",
@@ -2155,6 +2235,7 @@
       y: 7.0,
       dependencies: [
         "5151CDD8FCDE7A07",
+        "492541735EBE6B0C",
       ],
       optional: true,
       id: "4CE6EB54B12EF6C5",
@@ -2176,6 +2257,18 @@
           id: "6C627E5DF83EE644",
           type: "xp",
           xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: 0.0,
+      invisible: true,
+      id: "492541735EBE6B0C",
+      tasks: [
+        {
+          id: "74B066D8107274F3",
+          type: "checkmark",
         },
       ],
     },

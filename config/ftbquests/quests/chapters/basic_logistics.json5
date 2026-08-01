@@ -258,6 +258,9 @@
       x: 8.0,
       y: 1.0,
       shape: "pentagon",
+      dependencies: [
+        "6BB47AD40D1BC376",
+      ],
       size: 1.5,
       id: "34CFE1439262AA72",
       tasks: [
@@ -855,7 +858,7 @@
       ],
     },
     {
-      x: 4.5,
+      x: 4.0,
       y: 8.0,
       shape: "rsquare",
       dependencies: [
@@ -886,7 +889,7 @@
       ],
     },
     {
-      x: 3.5,
+      x: 3.0,
       y: 8.0,
       shape: "rsquare",
       dependencies: [
@@ -917,7 +920,7 @@
       ],
     },
     {
-      x: 5.5,
+      x: 5.0,
       y: 8.0,
       shape: "rsquare",
       dependencies: [
@@ -948,7 +951,7 @@
       ],
     },
     {
-      x: 6.5,
+      x: 6.0,
       y: 8.0,
       shape: "rsquare",
       dependencies: [
@@ -973,43 +976,6 @@
           item: {
             id: "laserio:card_redstone",
             count: 1,
-          },
-          count: 2,
-        },
-      ],
-    },
-    {
-      x: 2.5,
-      y: 8.0,
-      shape: "rsquare",
-      dependencies: [
-        "5F1218CF8EFC607B",
-      ],
-      icon_scale: 1.5,
-      id: "6718043D0F2D1830",
-      tasks: [
-        {
-          id: "2AF56D68641E98D1",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "laserio:card_chemical",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "1544B9F2E4E4E378",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "laserio:card_chemical",
-            },
           },
           count: 2,
         },
@@ -1280,6 +1246,9 @@
     {
       x: 10.0,
       y: 5.5,
+      dependencies: [
+        "6BB47AD40D1BC376",
+      ],
       size: 1.5,
       id: "6CD60A9D88227005",
       tasks: [
@@ -1306,6 +1275,18 @@
               "ftbquests:missing_item": "transfer_labels:label_accessor",
             },
           },
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 5.0,
+      invisible: true,
+      id: "6BB47AD40D1BC376",
+      tasks: [
+        {
+          id: "412699A02B650DB2",
+          type: "checkmark",
         },
       ],
     },

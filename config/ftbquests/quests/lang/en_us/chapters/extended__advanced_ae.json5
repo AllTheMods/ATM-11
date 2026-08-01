@@ -1,6 +1,6 @@
 {
   "quest.7E35ED5B30697722.quest_desc": [
-    "Ever wanted the ultimate Quantum Computer setup? Well, here's a setup for you, focused on maximizing co-processing threads.\\\\n\\\\n218 Quantum Computer Structural Glass, 123 Quantum Computer Accelerators, 1 Quantum Computer Core, and 1 Quantum Computer Multi-Threader are what we need. This gives us a total of 8928 co-processing threads. Note that I did not include any storage here besides the core, as the 256M crafting storage from the core is plenty enough already. The Data Entangler quest is optional for a reason.\\\\n\\\\nGet 200 Q.C. Structural Glass and 100 Q.C. Accelerators, and I'll give you the rest, because I'm just as generous as the Apothic Enchanting chapter.",
+    "Ever wanted the ultimate Quantum Computer setup? Well, here's a setup for you, focused on maximizing co-processing threads.\n\n218 Quantum Computer Structural Glass, 123 Quantum Computer Accelerators, 1 Quantum Computer Core, and 1 Quantum Computer Multi-Threader are what we need. This gives us a total of 8928 co-processing threads. Note that I did not include any storage here besides the core, as the 256M crafting storage from the core is plenty enough already. The Data Entangler quest is optional for a reason.\n\nGet 200 Q.C. Structural Glass and 100 Q.C. Accelerators, and I'll give you the rest, because I'm just as generous as the Apothic Enchanting chapter.",
   ],
   "quest.5E610C059737628B.quest_subtitle": "Up to +3 Step Height",
   "quest.6559C57A1A476489.quest_subtitle": "+5 Attack Speed",
@@ -8,7 +8,7 @@
   "quest.34FBD04361657724.quest_subtitle": "not to be confused with time crystals",
   "task.1854DDA036C8A2BA.title": "Entro Seeds/Combs",
   "quest.6033ABA2088BA70C.quest_subtitle": "No Flight Drift",
-  "quest.3972EE0ECB215843.title": "Extended \\\\& Advanced AE",
+  "quest.3972EE0ECB215843.title": "Extended \\& Advanced AE",
   "quest.4AC3EA41234BC5F0.quest_subtitle": "+20 Max HP",
   "quest.27FC0C092EE00532.quest_subtitle": "not to be confused with the me caner",
   "quest.14FC9E4A3C80C0AE.title": "Reaction Efficency: The Reaction Chamber",
@@ -136,7 +136,7 @@
   "quest.2E61219FC0BAB675.quest_subtitle": "Up to +5 Reach",
   "quest.3B3F1DE1AF6EBC1E.quest_subtitle": "+10 Strength",
   "quest.78215D704E6095B0.quest_desc": [
-    "You think &5&lMekanism&r and &l&7Modern Industrialization&r can have all the fun with their end game armor sets? \\\\n\\\\nThis &5Quantum Armor&r has default stats similar to &cNetherite Armor&r but, like the &aMekaSuit&r it can use Energy as a shield. \\\\nIt also has upgrades which can be installed to make you even more powerful! Like Flight, Night Vision, and even the ability to recharge. \\\\n\\\\nBut the best part is that it can Linked to your Storage System! Then, you can automatically take Energy out from it and take out any Item from it no matter where you are. \\\\n\\\\nFurthermore, wearing the full set can prevent &aRadiation&r from killing you.",
+    "You think &5&lMekanism&r and &l&7Modern Industrialization&r can have all the fun with their end game armor sets? \n\nThis &5Quantum Armor&r has default stats similar to &cNetherite Armor&r but, like the &aMekaSuit&r it can use Energy as a shield. \nIt also has upgrades which can be installed to make you even more powerful! Like Flight, Night Vision, and even the ability to recharge. \n\nBut the best part is that it can Linked to your Storage System! Then, you can automatically take Energy out from it and take out any Item from it no matter where you are. \n\nFurthermore, wearing the full set can prevent &aRadiation&r from killing you.",
   ],
   "quest.48357A7486125C52.quest_desc": [
     "Tired of the slow speed of the Inscriber?",
@@ -240,7 +240,7 @@
   ],
   "quest.3916B48D7F294932.title": "Branches of Connections: The Wireless Hub",
   "quest.1A815711703E4A24.quest_desc": [
-    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\\\n\\\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\\\n\\\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
+    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\n\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\n\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
   ],
   "quest.0E06F323BF8C1D73.title": "Automating Entro Crystals",
   "task.13FF4A021BBF1451.title": "Infinity Cells",

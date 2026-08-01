@@ -20,7 +20,7 @@
   grid_scale: 0.5,
   pause_game: false,
   lock_message: "",
-  progression_mode: "flexible",
+  progression_mode: "linear",
   detection_delay: 60,
   show_lock_icons: true,
   drop_book_on_death: false,

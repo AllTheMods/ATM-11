@@ -3,15 +3,13 @@
   group: "15E5B587D291A4AA",
   order_index: 1,
   icon: {
-    id: "ftbquests:missing_item",
+    id: "artifacts:umbrella",
     count: 1,
-    components: {
-      "ftbquests:missing_item": "artifacts:umbrella",
-    },
   },
   filename: "artifacts",
   default_quest_shape: "diamond",
   default_hide_dependency_lines: false,
+  progression_mode: "flexible",
   quests: [
     {
       x: 2.0,
@@ -46,11 +44,8 @@
           id: "7D3BB67D10EA5245",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:rooted_boots",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:rooted_boots",
-            },
           },
         },
       ],
@@ -72,11 +67,8 @@
           id: "302D0A2C7FE07D17",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:flippers",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:flippers",
-            },
           },
         },
       ],
@@ -99,11 +91,8 @@
           id: "4323420D7FF4F583",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:steadfast_spikes",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:steadfast_spikes",
-            },
           },
         },
       ],
@@ -125,11 +114,8 @@
           id: "268319B4D86AF1FA",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:snowshoes",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:snowshoes",
-            },
           },
         },
       ],
@@ -151,11 +137,8 @@
           id: "7DABA35BECFBE1E2",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:running_shoes",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:running_shoes",
-            },
           },
         },
       ],
@@ -177,11 +160,8 @@
           id: "294D97F3514A382B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:kitty_slippers",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:kitty_slippers",
-            },
           },
         },
       ],
@@ -203,11 +183,8 @@
           id: "42875442667F74F9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:bunny_hoppers",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:bunny_hoppers",
-            },
           },
         },
       ],
@@ -252,11 +229,8 @@
           id: "48632D9698EB1A29",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:withered_bracelet",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:withered_bracelet",
-            },
           },
         },
       ],
@@ -278,11 +252,8 @@
           id: "3324A34D10894F27",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:pickaxe_heater",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:pickaxe_heater",
-            },
           },
         },
       ],
@@ -303,11 +274,8 @@
           id: "749900AF5B497E65",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:onion_ring",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:onion_ring",
-            },
           },
         },
       ],
@@ -328,11 +296,8 @@
           id: "2F5269ABA03B3701",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:golden_hook",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:golden_hook",
-            },
           },
         },
       ],
@@ -353,11 +318,8 @@
           id: "308C57B7ACB795F0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:vampiric_glove",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:vampiric_glove",
-            },
           },
         },
       ],
@@ -379,11 +341,8 @@
           id: "078D36F0A6A3F09C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:pocket_piston",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:pocket_piston",
-            },
           },
         },
       ],
@@ -404,11 +363,8 @@
           id: "2C689F171E77768E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:fire_gauntlet",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:fire_gauntlet",
-            },
           },
         },
       ],
@@ -430,11 +386,8 @@
           id: "58EBE55746C50688",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:power_glove",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:power_glove",
-            },
           },
         },
       ],
@@ -456,11 +409,8 @@
           id: "01D07B21B85FB2B8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:feral_claws",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:feral_claws",
-            },
           },
         },
       ],
@@ -481,11 +431,8 @@
           id: "29454B0A459EAA52",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:digging_claws",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:digging_claws",
-            },
           },
         },
       ],
@@ -507,11 +454,8 @@
           id: "14A300B4DC9C8542",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:warp_drive",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:warp_drive",
-            },
           },
         },
       ],
@@ -533,11 +477,8 @@
           id: "47974C878B90D0DC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:chorus_totem",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:chorus_totem",
-            },
           },
         },
       ],
@@ -559,11 +500,8 @@
           id: "744D283E79F6357A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:helium_flamingo",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:helium_flamingo",
-            },
           },
         },
       ],
@@ -585,11 +523,8 @@
           id: "54E784C8438E430A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:crystal_heart",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:crystal_heart",
-            },
           },
         },
       ],
@@ -611,11 +546,8 @@
           id: "6D34B89C0FD0BA2B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:antidote_vessel",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:antidote_vessel",
-            },
           },
         },
       ],
@@ -637,11 +569,8 @@
           id: "1762FBFEF8647F60",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:universal_attractor",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:universal_attractor",
-            },
           },
         },
       ],
@@ -663,11 +592,8 @@
           id: "32245E61C3910041",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:obsidian_skull",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:obsidian_skull",
-            },
           },
         },
       ],
@@ -689,11 +615,8 @@
           id: "3FF51BD0B49B2F93",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:cloud_in_a_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:cloud_in_a_bottle",
-            },
           },
         },
       ],
@@ -715,11 +638,8 @@
           id: "1F3F6A98B1A8D03E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:charm_of_shrinking",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:charm_of_shrinking",
-            },
           },
         },
       ],
@@ -741,11 +661,8 @@
           id: "28FC7C19E2A3E1B9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:charm_of_sinking",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:charm_of_sinking",
-            },
           },
         },
       ],
@@ -767,11 +684,8 @@
           id: "0562A0A5A57E8DD8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:thorn_pendant",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:thorn_pendant",
-            },
           },
         },
       ],
@@ -793,11 +707,8 @@
           id: "609310B07E907A4F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:flame_pendant",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:flame_pendant",
-            },
           },
         },
       ],
@@ -819,11 +730,8 @@
           id: "62EB681EEB76FCDB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:shock_pendant",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:shock_pendant",
-            },
           },
         },
       ],
@@ -845,11 +753,8 @@
           id: "7CC5ED6BF577834C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:panic_necklace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:panic_necklace",
-            },
           },
         },
       ],
@@ -871,11 +776,8 @@
           id: "5AA765DFA49DA1C9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:cross_necklace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:cross_necklace",
-            },
           },
         },
       ],
@@ -897,11 +799,8 @@
           id: "07DB486C6CAF2E13",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:lucky_scarf",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:lucky_scarf",
-            },
           },
         },
       ],
@@ -923,11 +822,8 @@
           id: "3244560CD2EE978D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:scarf_of_invisibility",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:scarf_of_invisibility",
-            },
           },
         },
       ],
@@ -949,11 +845,8 @@
           id: "7E2317305BD5F842",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:anglers_hat",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:anglers_hat",
-            },
           },
         },
       ],
@@ -975,11 +868,8 @@
           id: "7EC988A7F600F860",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:cowboy_hat",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:cowboy_hat",
-            },
           },
         },
       ],
@@ -1001,11 +891,8 @@
           id: "1F1665E13DA82D42",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:superstitious_hat",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:superstitious_hat",
-            },
           },
         },
       ],
@@ -1027,11 +914,8 @@
           id: "6B7D97464175DAD6",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:villager_hat",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:villager_hat",
-            },
           },
         },
       ],
@@ -1053,11 +937,8 @@
           id: "187EE75FF4C074B4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:night_vision_goggles",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:night_vision_goggles",
-            },
           },
         },
       ],
@@ -1079,11 +960,8 @@
           id: "4E77B753AADEF6A8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:snorkel",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:snorkel",
-            },
           },
         },
       ],
@@ -1105,11 +983,8 @@
           id: "485807A0B369A8F7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:novelty_drinking_hat",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:novelty_drinking_hat",
-            },
           },
         },
       ],
@@ -1131,11 +1006,8 @@
           id: "5D461DEF3DEDCA4A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:plastic_drinking_hat",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:plastic_drinking_hat",
-            },
           },
         },
       ],
@@ -1157,11 +1029,8 @@
           id: "1572258C18AF7CED",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:whoopee_cushion",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:whoopee_cushion",
-            },
           },
         },
       ],
@@ -1232,11 +1101,8 @@
           id: "17A1084B7A6C0540",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "artifacts:umbrella",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "artifacts:umbrella",
-            },
           },
         },
       ],

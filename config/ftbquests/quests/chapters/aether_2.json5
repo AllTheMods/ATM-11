@@ -1,0 +1,3709 @@
+{
+  id: "2F7606A5942D110C",
+  group: "5A4775CCD6D26C80",
+  order_index: 0,
+  icon: {
+    id: "aether_ii:aether_portal_frame",
+    count: 1,
+  },
+  filename: "aether_2",
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      icon: {
+        id: "aether_ii:aether_portal_frame",
+        count: 1,
+      },
+      x: 0.0,
+      y: 2.0,
+      shape: "gear",
+      size: 1.1,
+      id: "78C86403B4F8D382",
+      tasks: [
+        {
+          id: "79DC0BD9EE7602AF",
+          type: "item",
+          item: {
+            id: "minecraft:glowstone",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "37E105200FAC419D",
+          type: "item",
+          item: {
+            id: "minecraft:water_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56F9D191E6BA6FB0",
+          type: "item",
+          item: {
+            id: "aether_ii:aether_portal_frame",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:aether_grass_block",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "octagon",
+      hide_dependency_lines: false,
+      dependencies: [
+        "78C86403B4F8D382",
+      ],
+      size: 2.0,
+      id: "374A1C2A2655F4CC",
+      tasks: [
+        {
+          id: "7945F7E724FBFA2E",
+          type: "dimension",
+          dimension: "aether_ii:aether_holy_isles",
+        },
+      ],
+      rewards: [
+        {
+          id: "705329060EFC4337",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:leaping",
+              },
+            },
+          },
+        },
+        {
+          id: "4E2C3BADB8356204",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_slow_falling",
+              },
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      size: 1.0,
+      id: "00EF3C7136FD03E6",
+      tasks: [
+        {
+          id: "60DF4E1631D6D752",
+          type: "item",
+          item: {
+            id: "aether_ii:skyroot_log",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B0902B46155EB4A",
+          type: "item",
+          item: {
+            id: "aether_ii:skyroot_sapling",
+            count: 1,
+          },
+        },
+        {
+          id: "2A28EEEEB5F48E41",
+          type: "item",
+          item: {
+            id: "aether_ii:skyplane_sapling",
+            count: 1,
+          },
+        },
+        {
+          id: "0BDF8F5C66ED254E",
+          type: "item",
+          item: {
+            id: "aether_ii:skybirch_sapling",
+            count: 1,
+          },
+        },
+        {
+          id: "036EB5707F3A0E56",
+          type: "item",
+          item: {
+            id: "aether_ii:skypine_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      size: 1.0,
+      id: "6C19B3FE5D203A39",
+      tasks: [
+        {
+          id: "3E38F748F6D120F6",
+          type: "item",
+          item: {
+            id: "aether_ii:greatroot_log",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "289E252FCB8C4463",
+          type: "item",
+          item: {
+            id: "aether_ii:greatroot_sapling",
+            count: 1,
+          },
+        },
+        {
+          id: "19A457DC9B62517C",
+          type: "item",
+          item: {
+            id: "aether_ii:greatoak_sapling",
+            count: 1,
+          },
+        },
+        {
+          id: "75F50322C7F93A53",
+          type: "item",
+          item: {
+            id: "aether_ii:greatboa_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      size: 1.0,
+      id: "17E3418B05ACBC98",
+      tasks: [
+        {
+          id: "29BAF838E2330047",
+          type: "item",
+          item: {
+            id: "aether_ii:wisproot_log",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00DA55DE045F9D52",
+          type: "item",
+          item: {
+            id: "aether_ii:wisproot_sapling",
+            count: 1,
+          },
+        },
+        {
+          id: "5EA36AF86918CB00",
+          type: "item",
+          item: {
+            id: "aether_ii:wisptop_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      size: 1.0,
+      id: "6394BDC543E694A4",
+      tasks: [
+        {
+          id: "2313C098A78F3510",
+          type: "item",
+          item: {
+            id: "aether_ii:amberoot_log",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "16FC4680951E2B1A",
+          type: "item",
+          item: {
+            id: "aether_ii:amberoot_sapling",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -3.0,
+      shape: "rsquare",
+      dependencies: [
+        "6394BDC543E694A4",
+        "00EF3C7136FD03E6",
+        "17E3418B05ACBC98",
+        "6C19B3FE5D203A39",
+      ],
+      id: "30BD1DF4FC9295C6",
+      tasks: [
+        {
+          id: "59AA791E647B89D4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:skyroot_shovel)item(aether_ii:skyroot_pickaxe)item(aether_ii:skyroot_axe)item(aether_ii:skyroot_trowel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F0A7EF108ECC84A",
+          type: "item",
+          item: {
+            id: "aether_ii:skyroot_stick",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -3.0,
+      shape: "rsquare",
+      dependencies: [
+        "6394BDC543E694A4",
+        "00EF3C7136FD03E6",
+        "17E3418B05ACBC98",
+        "6C19B3FE5D203A39",
+      ],
+      id: "2655C88A18B11FD3",
+      tasks: [
+        {
+          id: "617623A9414688EF",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:skyroot_shortsword)item(aether_ii:skyroot_pike)item(aether_ii:skyroot_hammer)item(aether_ii:skyroot_shield)item(aether_ii:skyroot_crossbow))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B31943060092BF1",
+          type: "item",
+          item: {
+            id: "aether_ii:skyroot_stick",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -5.5,
+      shape: "rsquare",
+      dependencies: [
+        "4FC5998BF14AE49B",
+      ],
+      id: "6B31BC88C23EA226",
+      tasks: [
+        {
+          id: "6C96DBDEC5828E2F",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:holystone_shovel)item(aether_ii:holystone_pickaxe)item(aether_ii:holystone_axe)item(aether_ii:holystone_trowel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54FCC174CE59635E",
+          type: "item",
+          item: {
+            id: "aether_ii:holystone",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -3.0,
+      shape: "rsquare",
+      dependencies: [
+        "6394BDC543E694A4",
+        "00EF3C7136FD03E6",
+        "17E3418B05ACBC98",
+        "6C19B3FE5D203A39",
+      ],
+      optional: true,
+      id: "5C54B79F14701A64",
+      tasks: [
+        {
+          id: "5388D32F15CBF88B",
+          type: "item",
+          item: {
+            id: "aether_ii:skyroot_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4521920F5D5C664F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -8.5,
+      y: -5.5,
+      shape: "rsquare",
+      dependencies: [
+        "4FC5998BF14AE49B",
+      ],
+      id: "1317CD842F94846B",
+      tasks: [
+        {
+          id: "3917C2C41CAFC863",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:holystone_shortsword)item(aether_ii:holystone_pike)item(aether_ii:holystone_hammer)item(aether_ii:holystone_crossbow))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60195BB8A9B969B2",
+          type: "item",
+          item: {
+            id: "aether_ii:holystone",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -6.5,
+      y: -8.0,
+      shape: "rsquare",
+      dependencies: [
+        "143F8EBC63E8CF55",
+      ],
+      id: "3AD1DECD6F51C798",
+      tasks: [
+        {
+          id: "4368C270985DC08A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:zanite_shovel)item(aether_ii:zanite_pickaxe)item(aether_ii:zanite_axe)item(aether_ii:zanite_trowel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1D14EC3B62B3048C",
+          type: "item",
+          item: {
+            id: "aether_ii:zanite_gemstone",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -4.5,
+      y: -8.0,
+      shape: "rsquare",
+      dependencies: [
+        "143F8EBC63E8CF55",
+      ],
+      id: "005A7AB14968944A",
+      tasks: [
+        {
+          id: "493F974425B8E108",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:zanite_shortsword)item(aether_ii:zanite_pike)item(aether_ii:zanite_hammer)item(aether_ii:zanite_shield)item(aether_ii:zanite_crossbow))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A225BE09FDE0C35",
+          type: "item",
+          item: {
+            id: "aether_ii:zanite_gemstone",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -9.0,
+      shape: "rsquare",
+      dependencies: [
+        "143F8EBC63E8CF55",
+      ],
+      id: "2AA07E948346C417",
+      tasks: [
+        {
+          id: "4D373B157400C4CD",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:zanite_helmet)item(aether_ii:zanite_chestplate)item(aether_ii:zanite_leggings)item(aether_ii:zanite_boots)item(aether_ii:zanite_gloves))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D4DB1FA67AFF1B2",
+          type: "item",
+          item: {
+            id: "aether_ii:zanite_gemstone",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -9.0,
+      shape: "rsquare",
+      dependencies: [
+        "143F8EBC63E8CF55",
+      ],
+      optional: true,
+      id: "49DD74087C22E277",
+      tasks: [
+        {
+          id: "1313A5E074CE32F2",
+          type: "item",
+          item: {
+            id: "aether_ii:zanite_shears",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61C4B400A64F912B",
+          type: "item",
+          item: {
+            id: "aether_ii:zanite_gemstone",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -9.5,
+      y: -10.5,
+      shape: "rsquare",
+      dependencies: [
+        "1476DDE2F101CAAA",
+      ],
+      id: "3BEB52D15F5C73E7",
+      tasks: [
+        {
+          id: "5B962568DDA5C248",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:arkenium_shovel)item(aether_ii:arkenium_pickaxe)item(aether_ii:arkenium_axe)item(aether_ii:arkenium_trowel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BA2E3EB408AEA15",
+          type: "item",
+          item: {
+            id: "aether_ii:arkenium_plate",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -10.5,
+      shape: "rsquare",
+      dependencies: [
+        "1476DDE2F101CAAA",
+      ],
+      id: "114292CEA3215D05",
+      tasks: [
+        {
+          id: "1284B7909AD4C9E8",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:arkenium_shortsword)item(aether_ii:arkenium_pike)item(aether_ii:arkenium_hammer)item(aether_ii:arkenium_shield)item(aether_ii:arkenium_crossbow))",
+            },
+          },
+        },
+      ],
+    },
+    {
+      x: -9.0,
+      y: -11.5,
+      shape: "rsquare",
+      dependencies: [
+        "1476DDE2F101CAAA",
+      ],
+      id: "56A92496BB026E4A",
+      tasks: [
+        {
+          id: "01B947C689FCD1A7",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:arkenium_helmet)item(aether_ii:arkenium_chestplate)item(aether_ii:arkenium_leggings)item(aether_ii:arkenium_boots)item(aether_ii:arkenium_gloves))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C59044C0875095A",
+          type: "item",
+          item: {
+            id: "aether_ii:arkenium_plate",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -13.0,
+      shape: "rsquare",
+      dependencies: [
+        "78EA49E5C10CF29C",
+      ],
+      id: "2C8684AA92B889E8",
+      tasks: [
+        {
+          id: "0D64F53517C9E3A2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:gravitite_shovel)item(aether_ii:gravitite_pickaxe)item(aether_ii:gravitite_axe)item(aether_ii:gravitite_trowel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "708E9339F910BA40",
+          type: "item",
+          item: {
+            id: "aether_ii:gravitite_plate",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -5.0,
+      y: -13.0,
+      shape: "rsquare",
+      dependencies: [
+        "78EA49E5C10CF29C",
+      ],
+      id: "34DE7709A677E64B",
+      tasks: [
+        {
+          id: "716C471E84F291D2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:gravitite_shortsword)item(aether_ii:gravitite_pike)item(aether_ii:gravitite_hammer)item(aether_ii:gravitite_shield)item(aether_ii:gravitite_crossbow))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "591C01C2371D922E",
+          type: "item",
+          item: {
+            id: "aether_ii:gravitite_plate",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -14.0,
+      shape: "rsquare",
+      dependencies: [
+        "78EA49E5C10CF29C",
+      ],
+      id: "039A41862695ACD8",
+      tasks: [
+        {
+          id: "3EA12E79DC12277C",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:gravitite_helmet)item(aether_ii:gravitite_chestplate)item(aether_ii:gravitite_leggings)item(aether_ii:gravitite_boots)item(aether_ii:gravitite_gloves))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0FEE2014167F8A51",
+          type: "item",
+          item: {
+            id: "aether_ii:gravitite_plate",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: -6.5,
+      shape: "rsquare",
+      dependencies: [
+        "0D5E07DA734A72FC",
+        "78C6DA6586A53604",
+      ],
+      optional: true,
+      id: "341C538D1407C731",
+      tasks: [
+        {
+          id: "65E36ECFB834C9D7",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:cold_aercloud_glider)item(aether_ii:golden_aercloud_glider)item(aether_ii:blue_aercloud_glider)item(aether_ii:purple_aercloud_glider))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "19457FB68BDD6DA6",
+          type: "item",
+          item: {
+            id: "aether_ii:cold_aercloud",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "6B089567F3C532BA",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -5.5,
+      shape: "square",
+      id: "0D5E07DA734A72FC",
+      tasks: [
+        {
+          id: "7A561765EB6BBAE1",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:cold_aercloud)item(aether_ii:golden_aercloud)item(aether_ii:storm_aercloud))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "685F4ED95869426D",
+          type: "item",
+          item: {
+            id: "aether_ii:cold_aercloud",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "697E11F5ABD89D5D",
+          type: "item",
+          item: {
+            id: "aether_ii:golden_aercloud",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "3646197186E06D4E",
+          type: "item",
+          item: {
+            id: "aether_ii:storm_aercloud",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -5.5,
+      shape: "square",
+      id: "78C6DA6586A53604",
+      tasks: [
+        {
+          id: "30D3CC46C74DA2CD",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:blue_aercloud)item(aether_ii:purple_aercloud)item(aether_ii:green_aercloud))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D3FB0060D0C44BC",
+          type: "item",
+          item: {
+            id: "aether_ii:blue_aercloud",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "0ECD492D69872318",
+          type: "item",
+          item: {
+            id: "aether_ii:green_aercloud",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "67727686B5641D33",
+          type: "item",
+          item: {
+            id: "aether_ii:purple_aercloud",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -3.5,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "7F7ED7E88024F174",
+      tasks: [
+        {
+          id: "47AC4F62243FE3AF",
+          type: "kill",
+          entity: "aether_ii:phyg",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "08E71AB3E313F2B1",
+          type: "item",
+          item: {
+            id: "aether_ii:raw_taegore_meat",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -3.5,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "4505FE5F66B88BBE",
+      tasks: [
+        {
+          id: "5F06EFAA6DA00643",
+          type: "kill",
+          entity: "aether_ii:flying_cow",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "0730AAA49AF43E19",
+          type: "item",
+          item: {
+            id: "aether_ii:burrukai_rib_cut",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -4.5,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "361056AE9756BF18",
+      tasks: [
+        {
+          id: "49A6532D79D0159C",
+          type: "kill",
+          entity: "aether_ii:sheepuff",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "2A8F02E36F861352",
+          type: "item",
+          item: {
+            id: "aether_ii:kirrid_loin",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -3.5,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      optional: true,
+      id: "7362F6744A2285A7",
+      tasks: [
+        {
+          id: "4A03E5A9858DEE87",
+          type: "kill",
+          entity: "aether_ii:aerbunny",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "4D3161A0A3420C71",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -4.5,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      optional: true,
+      id: "5C9D61CE2E5CD3CE",
+      tasks: [
+        {
+          id: "6FB956DC42B9E304",
+          type: "kill",
+          entity: "aether_ii:aerwhale",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "2670F6C6062C7D25",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -4.5,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "323FFEC533D59DD0",
+      tasks: [
+        {
+          id: "74E4A1D7CB6D0BDA",
+          type: "item",
+          item: {
+            id: "aether_ii:cloudwool",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E7BE4935F11B895",
+          type: "item",
+          item: {
+            id: "aether_ii:cloudwool",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "4CDCB27DF89AF15F",
+          type: "item",
+          item: {
+            id: "aether_ii:kirrid_loin",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -5.5,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "4255B04D58B13D1E",
+      tasks: [
+        {
+          id: "69C50DCD9368060D",
+          type: "item",
+          item: {
+            id: "aether_ii:beast_pelt",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27AF9BB7BE10DB58",
+          type: "item",
+          item: {
+            id: "aether_ii:beast_pelt",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "71232521085D4410",
+          type: "item",
+          item: {
+            id: "aether_ii:raw_taegore_meat",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -4.5,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "68755B04AED4A19F",
+      tasks: [
+        {
+          id: "78F4D328C92DC181",
+          type: "item",
+          item: {
+            id: "aether_ii:burrukai_plate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B621AC843E4E66E",
+          type: "item",
+          item: {
+            id: "aether_ii:burrukai_plate",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "1B275D0042176A3C",
+          type: "item",
+          item: {
+            id: "aether_ii:burrukai_rib_cut",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -9.0,
+      y: -6.5,
+      shape: "rsquare",
+      dependencies: [
+        "68755B04AED4A19F",
+      ],
+      optional: true,
+      id: "03482A7A8010BBB9",
+      tasks: [
+        {
+          id: "111EAB7403B8BF43",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:burrukai_plate_helmet)item(aether_ii:burrukai_plate_chestplate)item(aether_ii:burrukai_plate_leggings)item(aether_ii:burrukai_plate_boots)item(aether_ii:burrukai_plate_gloves))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "12DC9737BC5B1E05",
+          type: "item",
+          item: {
+            id: "aether_ii:burrukai_plate",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -6.5,
+      shape: "rsquare",
+      dependencies: [
+        "68755B04AED4A19F",
+      ],
+      optional: true,
+      id: "5E666EFB83CDEB0E",
+      tasks: [
+        {
+          id: "7A0BD2AABCC28C1A",
+          type: "item",
+          item: {
+            id: "aether_ii:burrukai_plate_shield",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68130145902323CD",
+          type: "item",
+          item: {
+            id: "aether_ii:burrukai_plate",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 6.5,
+      y: -10.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "2F4624C8681758D2",
+      tasks: [
+        {
+          id: "341B18E5348F15DC",
+          type: "kill",
+          entity: "aether_ii:cockatrice",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "6853A8FFDE7C923B",
+          type: "item",
+          item: {
+            id: "aether_ii:cockatrice_feather",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -9.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "37C5266720652696",
+      tasks: [
+        {
+          id: "46B65B5F38D00E99",
+          type: "kill",
+          entity: "aether_ii:tempest",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "715414705EF45BD9",
+          type: "item",
+          item: {
+            id: "aether_ii:storm_aercloud",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -8.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "63A834E40BF90E14",
+      tasks: [
+        {
+          id: "0584B517434DC607",
+          type: "kill",
+          entity: "aether_ii:zephyr",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "2B5BEF2A1A6925E3",
+          type: "item",
+          item: {
+            id: "aether_ii:cold_aercloud",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -9.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "2E6D1418F8B30844",
+      tasks: [
+        {
+          id: "6C2DC5B3907A91BF",
+          type: "kill",
+          entity: "aether_ii:blue_swet",
+          value: 1,
+        },
+        {
+          id: "47D6AC5A0130B752",
+          type: "kill",
+          entity: "aether_ii:golden_swet",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5047620455F86947",
+          type: "item",
+          item: {
+            id: "aether_ii:swet_gel",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "5B0A45794E0753A9",
+          type: "item",
+          item: {
+            id: "aether_ii:swet_sugar",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -8.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "34BE6C8AB80817AB",
+      tasks: [
+        {
+          id: "7BC4D452E22ADE90",
+          type: "kill",
+          entity: "aether_ii:aechor_plant",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "112E5ED03FFD27E5",
+          type: "item",
+          item: {
+            id: "aether_ii:aechor_petal",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -8.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "16C0536FFB90668A",
+      tasks: [
+        {
+          id: "1941E95215249C0E",
+          type: "kill",
+          entity: "aether_ii:carrion_sprout",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "6BD529A8DBE2822D",
+          type: "item",
+          item: {
+            id: "aether_ii:wyndberry",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 7.0,
+      y: -9.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "415AF3FA5F73F155",
+      tasks: [
+        {
+          id: "1A2F26F6682152FD",
+          type: "kill",
+          entity: "aether_ii:skephid",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5453AD74E5F32D5D",
+          type: "item",
+          item: {
+            id: "aether_ii:cloudtwine",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 7.5,
+      y: -10.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "1587C4C3BDAB50C6",
+      tasks: [
+        {
+          id: "1D6633D1FC2A2812",
+          type: "kill",
+          entity: "aether_ii:arkenium_taluton",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5ED44E42E9EE916A",
+          type: "item",
+          item: {
+            id: "aether_ii:holystone",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 8.0,
+      y: -9.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "64789CF858BCA9D2",
+      tasks: [
+        {
+          id: "1A9F269A0B03967A",
+          type: "kill",
+          entity: "aether_ii:gravitite_taluton",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "4792B8F2F26CFC2D",
+          type: "item",
+          item: {
+            id: "aether_ii:holystone",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -13.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "2E4D32863106F785",
+      tasks: [
+        {
+          id: "5C4E7C0997373A2E",
+          type: "kill",
+          entity: "aether_ii:moa",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "2B668ED0EE22E483",
+          type: "item",
+          item: {
+            id: "aether_ii:moa_feather",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -12.5,
+      dependencies: [
+        "5D51DA2ADA9D2A52",
+      ],
+      id: "452A97AA78D368C2",
+      tasks: [
+        {
+          id: "57CC3BD9357C5E7C",
+          type: "kill",
+          entity: "aether_ii:detonation_sentry",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "4CF771253331A3A8",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:long_regeneration",
+              },
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -12.0,
+      dependencies: [
+        "5D51DA2ADA9D2A52",
+      ],
+      id: "1CF12FED1C03F66D",
+      tasks: [
+        {
+          id: "23DF8298B252E974",
+          type: "kill",
+          entity: "aether_ii:sentry_golem",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "56D12A2FB63BEFE5",
+          type: "item",
+          item: {
+            id: "minecraft:potion",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:strength",
+              },
+            },
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -14.5,
+      dependencies: [
+        "5D51DA2ADA9D2A52",
+      ],
+      size: 1.5,
+      id: "2CAA538587D78A8F",
+      tasks: [
+        {
+          id: "61C1D06616160F80",
+          type: "kill",
+          entity: "aether_ii:slider",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "306A66D11EDB3B37",
+          type: "item",
+          item: {
+            id: "aether_ii:sentry_servo",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "16317F3DD6F5EF1A",
+          type: "item",
+          item: {
+            id: "aether_ii:neptune_scale",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "13F0AF920B2B6405",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:enchanted_aether_grass_block",
+        count: 1,
+      },
+      x: 5.5,
+      y: 1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "482CCCEA90EDA3CA",
+      tasks: [
+        {
+          id: "2CE9D24A56228046",
+          type: "biome",
+          biome: "aether_ii:battleground_wastes",
+        },
+      ],
+      rewards: [
+        {
+          id: "2DD572D97EE14CBF",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "492A48E2FF92308B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:ambrelinn_moss_block",
+        count: 1,
+      },
+      x: 6.5,
+      y: 1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "511696C81C8E2711",
+      tasks: [
+        {
+          id: "5C91A3F9BD5D0D1C",
+          type: "biome",
+          biome: "aether_ii:contaminated_jungle",
+        },
+      ],
+      rewards: [
+        {
+          id: "4E84EC72433C0F0F",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "5DBDA906D4128C04",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:skypine_sapling",
+        count: 1,
+      },
+      x: 2.5,
+      y: 0.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "758D8D7E2CFD7930",
+      tasks: [
+        {
+          id: "358C2617B5370944",
+          type: "biome",
+          biome: "aether_ii:enduring_woodland",
+        },
+      ],
+      rewards: [
+        {
+          id: "340520AF3C07C511",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "043F66B4EBF43191",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:aether_grass_block",
+        count: 1,
+      },
+      x: 3.5,
+      y: -1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "2BF80B73358D0246",
+      tasks: [
+        {
+          id: "19A8E8C4FD83751F",
+          type: "biome",
+          biome: "aether_ii:flourishing_field",
+        },
+      ],
+      rewards: [
+        {
+          id: "5A5B6B7015B9AFDD",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "51BA193834E97B22",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:arctic_snow_block",
+        count: 1,
+      },
+      x: 3.5,
+      y: 0.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "00C211DA0CEC0038",
+      tasks: [
+        {
+          id: "01FB22A6E8821EE7",
+          type: "biome",
+          biome: "aether_ii:frigid_sierra",
+        },
+      ],
+      rewards: [
+        {
+          id: "51B13A8D3D15BBB6",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "052AC9E2A435F10D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:fragile_arctic_ice",
+        count: 1,
+      },
+      x: 4.5,
+      y: 0.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "5F229A0A52DF68CC",
+      tasks: [
+        {
+          id: "6304C4C9549C5991",
+          type: "biome",
+          biome: "aether_ii:frozen_lakes",
+        },
+      ],
+      rewards: [
+        {
+          id: "6673A01869E9B41C",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "32111B6A30D90F99",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:ferrosite_mud",
+        count: 1,
+      },
+      x: 6.5,
+      y: -1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "56697C07427A48AE",
+      tasks: [
+        {
+          id: "063F65DEB4D930EA",
+          type: "biome",
+          biome: "aether_ii:glistening_swamp",
+        },
+      ],
+      rewards: [
+        {
+          id: "5C0238218FE8687A",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "34F652B03B00FD34",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:ichorite",
+        count: 1,
+      },
+      x: 6.5,
+      y: 0.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "24842B5F76063992",
+      tasks: [
+        {
+          id: "5034E8E9F6EE2522",
+          type: "biome",
+          biome: "aether_ii:hestveil_caverns",
+        },
+      ],
+      rewards: [
+        {
+          id: "05F9D8BC50CD95A1",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "74DD04BC007DE519",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:ferrosite_sand",
+        count: 1,
+      },
+      x: 2.5,
+      y: 1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "0BEF0E35658DF079",
+      tasks: [
+        {
+          id: "4C28801D3D7A79E7",
+          type: "biome",
+          biome: "aether_ii:magnetic_scar",
+        },
+      ],
+      rewards: [
+        {
+          id: "10169843B5A3382E",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "5AB6186EB872BB5B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:arctic_packed_ice",
+        count: 1,
+      },
+      x: 5.5,
+      y: 0.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "681258611298BE3E",
+      tasks: [
+        {
+          id: "27DB07C00D3F05AD",
+          type: "biome",
+          biome: "aether_ii:sheer_tundra",
+        },
+      ],
+      rewards: [
+        {
+          id: "17C5EA5D2BAADA36",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "6ACFE42C45F0CBBB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:skyroot_water_bucket",
+        count: 1,
+      },
+      x: 4.5,
+      y: -1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "7ACFEA5D36C4E8FF",
+      tasks: [
+        {
+          id: "0E16A8249E13A2C3",
+          type: "biome",
+          biome: "aether_ii:shimmering_basin",
+        },
+      ],
+      rewards: [
+        {
+          id: "5CF9EE2E96E83AEC",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "5CF3349BA447D36F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:skybirch_sapling",
+        count: 1,
+      },
+      x: 4.5,
+      y: 1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "3FC5FF405CAAF1EF",
+      tasks: [
+        {
+          id: "5C68CD162ABE46E8",
+          type: "biome",
+          biome: "aether_ii:turquoise_forest",
+        },
+      ],
+      rewards: [
+        {
+          id: "2C60B9B54E644291",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "39B8DD13409A009B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:greatoak_sapling",
+        count: 1,
+      },
+      x: 2.5,
+      y: -1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "0DC12365A642E371",
+      tasks: [
+        {
+          id: "50967F5117E6C1C5",
+          type: "biome",
+          biome: "aether_ii:shrouded_forest",
+        },
+      ],
+      rewards: [
+        {
+          id: "6EF71C961360B664",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "7F8247633EB46748",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:skyroot_sapling",
+        count: 1,
+      },
+      x: 5.5,
+      y: -1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "21F92193BD6CABC4",
+      tasks: [
+        {
+          id: "5513BD042FB91093",
+          type: "biome",
+          biome: "aether_ii:verdant_woods",
+        },
+      ],
+      rewards: [
+        {
+          id: "2C634D7A79C32E4F",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "41341484D2DA218E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:wisptop_sapling",
+        count: 1,
+      },
+      x: 3.5,
+      y: 1.0,
+      shape: "octagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "5FF84939068D9AC9",
+      tasks: [
+        {
+          id: "2D0C7AD070AC9A04",
+          type: "biome",
+          biome: "aether_ii:violet_highwoods",
+        },
+      ],
+      rewards: [
+        {
+          id: "4A989DF1B8EB4140",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "5AE77B7D3D182B2A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:ferrosite",
+        count: 1,
+      },
+      x: -5.5,
+      y: -1.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "4FD47E9A9E34DD19",
+      tasks: [
+        {
+          id: "11EA22DC038D71E2",
+          type: "structure",
+          structure: "aether_ii:ancient_henge",
+        },
+      ],
+      rewards: [
+        {
+          id: "6C20C220D1C1CB89",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "347CFD5570032211",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:woven_skyroot_sticks",
+        count: 1,
+      },
+      x: -4.5,
+      y: -1.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "1FB709FA3139065C",
+      tasks: [
+        {
+          id: "5B114047077453F5",
+          type: "structure",
+          structure: "aether_ii:animal_den",
+        },
+      ],
+      rewards: [
+        {
+          id: "12C56223FC28F689",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "73A7D8D2B87A2057",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:agiosite_bricks",
+        count: 1,
+      },
+      x: -3.5,
+      y: -1.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "79EFB4F41F736CDB",
+      tasks: [
+        {
+          id: "01AF425BE0E731FF",
+          type: "structure",
+          structure: "aether_ii:brexallen_ruins",
+        },
+      ],
+      rewards: [
+        {
+          id: "0E16A7E4A93DA37D",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "5EE73B286BBDDBB3",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:sentry_bricks",
+        count: 1,
+      },
+      x: 0.0,
+      y: -11.5,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      size: 1.25,
+      id: "5D51DA2ADA9D2A52",
+      tasks: [
+        {
+          id: "53D80EE8F76150E8",
+          type: "structure",
+          structure: "aether_ii:sentry_ruins",
+        },
+      ],
+      rewards: [
+        {
+          id: "2510A183495B3BD9",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:white_cloudwool",
+        count: 1,
+      },
+      x: -2.5,
+      y: -1.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "44A90483E4A1B776",
+      tasks: [
+        {
+          id: "622F170D63B9FF48",
+          type: "structure",
+          structure: "aether_ii:camp_arctic",
+        },
+        {
+          id: "50485CFD29AAFFEB",
+          type: "structure",
+          structure: "aether_ii:camp_highfields",
+        },
+        {
+          id: "10F9F70D2950DA76",
+          type: "structure",
+          structure: "aether_ii:camp_magnetic",
+        },
+      ],
+      rewards: [
+        {
+          id: "52733247D7547C87",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "11A0FC2BD0974037",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:holystone_bookshelf",
+        count: 1,
+      },
+      x: -5.5,
+      y: 0.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "6B1DC0E2AB39B771",
+      tasks: [
+        {
+          id: "28B87FC718D4A57B",
+          type: "structure",
+          structure: "aether_ii:irradiated_bunker_remnants",
+        },
+      ],
+      rewards: [
+        {
+          id: "5BCBFFF323DD5DFF",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "34217BF0CF795BD4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:holystone_bricks",
+        count: 1,
+      },
+      x: -4.5,
+      y: 0.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "11099F13C54468FC",
+      tasks: [
+        {
+          id: "0955CB3111B3D45F",
+          type: "structure",
+          structure: "aether_ii:irradiated_settlement_remnants",
+        },
+      ],
+      rewards: [
+        {
+          id: "051FB2756E3E4707",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "59E46EDC445A2AEA",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:outpost_campfire",
+        count: 1,
+      },
+      x: -3.5,
+      y: 0.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "59059329118899B6",
+      tasks: [
+        {
+          id: "631E9DBFB23F28F9",
+          type: "structure",
+          structure: "aether_ii:outpost",
+        },
+      ],
+      rewards: [
+        {
+          id: "08D9EEE25E0EED0D",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "11D7A65F56015E44",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:skyroot_floorboards",
+        count: 1,
+      },
+      x: -2.5,
+      y: 0.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "0767311BD24CDA28",
+      tasks: [
+        {
+          id: "3F74AC7A645AAF15",
+          type: "structure",
+          structure: "aether_ii:undercloud_mineshaft",
+        },
+      ],
+      rewards: [
+        {
+          id: "42D75E5973740BA2",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "4B55FEB820B64D6B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:faded_holystone_bricks",
+        count: 1,
+      },
+      x: -5.5,
+      y: 1.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "5DBD7B1F8A8B9BE5",
+      tasks: [
+        {
+          id: "07AD172CFF6D5EC1",
+          type: "structure",
+          structure: "aether_ii:veradexian_aqueduct",
+        },
+      ],
+      rewards: [
+        {
+          id: "7ED855245E86D698",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "589EF2D41BBAA48E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:skyroot_bookshelf",
+        count: 1,
+      },
+      x: -4.5,
+      y: 1.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "29E42E388252BA90",
+      tasks: [
+        {
+          id: "2FF5DA7008F101D0",
+          type: "structure",
+          structure: "aether_ii:veradexian_library_arctic",
+        },
+        {
+          id: "654E181A918E4E94",
+          type: "structure",
+          structure: "aether_ii:veradexian_library_temperate",
+        },
+      ],
+      rewards: [
+        {
+          id: "042F1E87C2EE9136",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "1382D07BE0CFC17A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:ichorite_bricks",
+        count: 1,
+      },
+      x: -3.5,
+      y: 1.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "0C6C92917A0A102A",
+      tasks: [
+        {
+          id: "42C3FEDC87794337",
+          type: "structure",
+          structure: "aether_ii:veradexian_ruins_arctic",
+        },
+        {
+          id: "13CB304C224FAB5E",
+          type: "structure",
+          structure: "aether_ii:veradexian_ruins_temperate",
+        },
+      ],
+      rewards: [
+        {
+          id: "604A9379336448C8",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "49BD32E651052998",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "aether_ii:skyroot_beam",
+        count: 1,
+      },
+      x: -2.5,
+      y: 1.0,
+      shape: "pentagon",
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "3E3759DCD27F3FA5",
+      tasks: [
+        {
+          id: "4E0530B4F31E40AE",
+          type: "structure",
+          structure: "aether_ii:watchtower",
+        },
+      ],
+      rewards: [
+        {
+          id: "66443AC58A6FC4E5",
+          type: "item",
+          item: {
+            id: "aether_ii:guidebook_page",
+            count: 1,
+          },
+        },
+        {
+          id: "6DB0594B67480B4B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -6.0,
+      shape: "diamond",
+      dependencies: [
+        "30BD1DF4FC9295C6",
+      ],
+      size: 1.25,
+      id: "4FC5998BF14AE49B",
+      tasks: [
+        {
+          id: "240A51BD42760B64",
+          type: "item",
+          item: {
+            id: "aether_ii:holystone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DC4999B2F1CEB10",
+          type: "item",
+          item: {
+            id: "aether_ii:holystone",
+            count: 1,
+          },
+          count: 12,
+        },
+      ],
+    },
+    {
+      x: -3.0,
+      y: -8.5,
+      shape: "diamond",
+      dependencies: [
+        "6B31BC88C23EA226",
+      ],
+      size: 1.25,
+      id: "143F8EBC63E8CF55",
+      tasks: [
+        {
+          id: "5D1C7F8770CE7222",
+          type: "item",
+          item: {
+            id: "aether_ii:zanite_gemstone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BFBD998BF8AB116",
+          type: "item",
+          item: {
+            id: "aether_ii:zanite_gemstone",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: -11.0,
+      shape: "diamond",
+      dependencies: [
+        "05BBD1755C58B2FE",
+        "3AD1DECD6F51C798",
+      ],
+      size: 1.25,
+      id: "1476DDE2F101CAAA",
+      tasks: [
+        {
+          id: "50E49061A9C3A85A",
+          type: "item",
+          item: {
+            id: "aether_ii:arkenium_plate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33AC92B4FF07534D",
+          type: "item",
+          item: {
+            id: "aether_ii:arkenium_plate",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -13.5,
+      shape: "diamond",
+      dependencies: [
+        "05BBD1755C58B2FE",
+        "3BEB52D15F5C73E7",
+      ],
+      size: 1.25,
+      id: "78EA49E5C10CF29C",
+      tasks: [
+        {
+          id: "4C429020C97FB8C1",
+          type: "item",
+          item: {
+            id: "aether_ii:gravitite_plate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E922B44C3CD096F",
+          type: "item",
+          item: {
+            id: "aether_ii:gravitite_plate",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -5.5,
+      shape: "diamond",
+      dependencies: [
+        "6B31BC88C23EA226",
+      ],
+      id: "4BDFADF0E8A49DF3",
+      tasks: [
+        {
+          id: "5461689A8B34D42A",
+          type: "item",
+          item: {
+            id: "aether_ii:ambrosium_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FF1421F48C590D0",
+          type: "item",
+          item: {
+            id: "aether_ii:ambrosium_shard",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -5.5,
+      shape: "diamond",
+      dependencies: [
+        "6394BDC543E694A4",
+      ],
+      id: "0A99E6F4FD4004E1",
+      tasks: [
+        {
+          id: "2DA425504C8985D0",
+          type: "item",
+          item: {
+            id: "aether_ii:golden_amber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CCFCE2D023757C8",
+          type: "item",
+          item: {
+            id: "aether_ii:golden_amber",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -8.0,
+      shape: "hexagon",
+      dependencies: [
+        "4BDFADF0E8A49DF3",
+        "143F8EBC63E8CF55",
+      ],
+      id: "05BBD1755C58B2FE",
+      tasks: [
+        {
+          id: "705CED5CF6BACA88",
+          type: "item",
+          item: {
+            id: "aether_ii:altar",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "771B796F2B393B13",
+          type: "item",
+          item: {
+            id: "aether_ii:ambrosium_shard",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "736CD5EB2F3F9C3F",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -8.0,
+      shape: "hexagon",
+      dependencies: [
+        "1476DDE2F101CAAA",
+      ],
+      id: "30410136040EFB34",
+      tasks: [
+        {
+          id: "7BF58D5AF2590A73",
+          type: "item",
+          item: {
+            id: "aether_ii:artisans_bench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68E08D1B519B8A52",
+          type: "item",
+          item: {
+            id: "aether_ii:holystone",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "5DB0AE4C6279B83A",
+          type: "item",
+          item: {
+            id: "aether_ii:undershale",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "559ED1FBF3A62032",
+          type: "item",
+          item: {
+            id: "aether_ii:icestone",
+            count: 1,
+          },
+          count: 10,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -9.0,
+      shape: "hexagon",
+      dependencies: [
+        "1476DDE2F101CAAA",
+      ],
+      id: "018DECB2E84B415C",
+      tasks: [
+        {
+          id: "2BF401D2BC0C206E",
+          type: "item",
+          item: {
+            id: "aether_ii:arkenium_forge",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23970EFCA0D37BD0",
+          type: "item",
+          item: {
+            id: "aether_ii:arkenium_plate",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "798CC9BA24983867",
+          type: "item",
+          item: {
+            id: "aether_ii:corrobonite_crystal",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "574ED32065870544",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -9.0,
+      shape: "hexagon",
+      dependencies: [
+        "1476DDE2F101CAAA",
+      ],
+      id: "1D6BC1BB86F5B22C",
+      tasks: [
+        {
+          id: "4ED11497C31164AC",
+          type: "item",
+          item: {
+            id: "aether_ii:alkahest_purifier",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DA78B66F594BED3",
+          type: "item",
+          item: {
+            id: "aether_ii:arkenium_alkahest_canister",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "2D5A56DA14D898CA",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -12.0,
+      dependencies: [
+        "5D51DA2ADA9D2A52",
+      ],
+      id: "19DB1FFF6A1BD363",
+      tasks: [
+        {
+          id: "1ABDAC77FE865F5C",
+          type: "kill",
+          entity: "aether_ii:mimic",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "70522640E7A5A970",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:grass_block",
+        count: 1,
+      },
+      x: 0.0,
+      y: -2.0,
+      shape: "octagon",
+      hide_dependency_lines: false,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "73A5FBE84B28CDC8",
+      tasks: [
+        {
+          id: "17A71603BEE7EDB6",
+          type: "dimension",
+          dimension: "minecraft:overworld",
+        },
+      ],
+      rewards: [
+        {
+          id: "69A428705EDF4BA6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -8.0,
+      shape: "hexagon",
+      dependencies: [
+        "0A99E6F4FD4004E1",
+      ],
+      id: "020025A8178CBD40",
+      tasks: [
+        {
+          id: "7F405F3517E0D182",
+          type: "item",
+          item: {
+            id: "aether_ii:amber_hourglass",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6794AB5AB4951E25",
+          type: "item",
+          item: {
+            id: "aether_ii:golden_amber",
+            count: 1,
+          },
+          count: 6,
+        },
+        {
+          id: "7642C7523C3D0F4B",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -6.5,
+      hide_dependency_lines: false,
+      dependencies: [
+        "0A99E6F4FD4004E1",
+      ],
+      id: "2ABC7BE1CCAF266D",
+      tasks: [
+        {
+          id: "0D3898B7903B42DE",
+          type: "item",
+          item: {
+            id: "aether_ii:music_player",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3257465656C7A1BD",
+          type: "item",
+          item: {
+            id: "aether_ii:engraved_disc_ascending_dawn",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -7.5,
+      y: -5.5,
+      shape: "square",
+      dependencies: [
+        "4FC5998BF14AE49B",
+        "30BD1DF4FC9295C6",
+      ],
+      optional: true,
+      id: "1C5ECF0F3DC18C8F",
+      tasks: [
+        {
+          id: "14C6D7E8EFD356A9",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:undershale)item(aether_ii:ichorite)item(aether_ii:agiosite)item(aether_ii:icestone))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25AAA0E76EB95373",
+          type: "item",
+          item: {
+            id: "aether_ii:undershale",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "32D3E5B1F10731D4",
+          type: "item",
+          item: {
+            id: "aether_ii:ichorite",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "76E9723FD42ADD23",
+          type: "item",
+          item: {
+            id: "aether_ii:agiosite",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "45A27F1D9E76CA89",
+          type: "item",
+          item: {
+            id: "aether_ii:icestone",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -6.5,
+      shape: "rsquare",
+      dependencies: [
+        "0D5E07DA734A72FC",
+      ],
+      optional: true,
+      id: "3BF9BA9B00155828",
+      tasks: [
+        {
+          id: "58745F3BE3283D1D",
+          type: "item",
+          item: {
+            id: "aether_ii:cloud_skiff",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CF20BB8AFFFD2FB",
+          type: "item",
+          item: {
+            id: "aether_ii:cold_aercloud",
+            count: 1,
+          },
+          count: 5,
+        },
+        {
+          id: "70FDC6EF7EFA8249",
+          type: "xp",
+          xp: 1,
+        },
+      ],
+    },
+    {
+      x: -8.0,
+      y: -11.5,
+      shape: "rsquare",
+      dependencies: [
+        "1476DDE2F101CAAA",
+      ],
+      id: "1215C8E73624FD13",
+      tasks: [
+        {
+          id: "416EB90561C934CD",
+          type: "item",
+          item: {
+            id: "aether_ii:arkenium_canister",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "648D7D86442DC067",
+          type: "item",
+          item: {
+            id: "aether_ii:arkenium_canister",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -17.5,
+      shape: "rsquare",
+      dependencies: [
+        "2CAA538587D78A8F",
+      ],
+      id: "322884B25C85E0E8",
+      tasks: [
+        {
+          id: "01AB1FA5D0D16996",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:neptune_helmet)item(aether_ii:neptune_chestplate)item(aether_ii:neptune_leggings)item(aether_ii:neptune_boots)item(aether_ii:neptune_gloves))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45BEB3BFB297FF7D",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -17.5,
+      shape: "rsquare",
+      dependencies: [
+        "2CAA538587D78A8F",
+      ],
+      id: "1695C7865B356711",
+      tasks: [
+        {
+          id: "7A02608722495889",
+          type: "item",
+          item: {
+            id: "aether_ii:hammer_of_demolition",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54509A949DB1BF1F",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -18.5,
+      shape: "rsquare",
+      dependencies: [
+        "2CAA538587D78A8F",
+      ],
+      id: "359589D7D28D47E8",
+      tasks: [
+        {
+          id: "4308CEF9D5858A04",
+          type: "item",
+          item: {
+            id: "aether_ii:kinetic_thrusters",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43E5C76DCABE1095",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -17.5,
+      shape: "rsquare",
+      dependencies: [
+        "2CAA538587D78A8F",
+      ],
+      id: "6AF942CA0323094C",
+      tasks: [
+        {
+          id: "47CBBF185A73F244",
+          type: "item",
+          item: {
+            id: "aether_ii:sentry_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "276540B2672FE306",
+          type: "xp_levels",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      x: 5.0,
+      y: -12.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      optional: true,
+      id: "0DAF268353274ECA",
+      tasks: [
+        {
+          id: "1AC0E40F80EA0641",
+          type: "kill",
+          entity: "aether_ii:glitterwing",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "29203CD423C5D66A",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: -12.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "4FAAD7AF09199D36",
+      tasks: [
+        {
+          id: "663D1864BCDE4795",
+          type: "kill",
+          entity: "aether_ii:shroudwing",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "0E0DCEE0BEBA518E",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 4.0,
+      y: -12.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "6A24BD1F4DC6709C",
+      tasks: [
+        {
+          id: "162C86711805196E",
+          type: "kill",
+          entity: "aether_ii:skyroot_lizard",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "191762D2C0AEDFAB",
+          type: "item",
+          item: {
+            id: "aether_ii:skyroot_lizard_on_a_stick",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 3.0,
+      y: -12.0,
+      dependencies: [
+        "374A1C2A2655F4CC",
+      ],
+      id: "7FEF461922BAAD02",
+      tasks: [
+        {
+          id: "61B5BB653BDBC0A5",
+          type: "kill",
+          entity: "aether_ii:prismallard",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "08B824F398BA5AEE",
+          type: "item",
+          item: {
+            id: "aether_ii:prismallard_feather",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: -13.0,
+      hide_dependency_lines: false,
+      dependencies: [
+        "2E4D32863106F785",
+      ],
+      id: "3554892518642473",
+      tasks: [
+        {
+          id: "627683E9FB260342",
+          type: "item",
+          item: {
+            id: "aether_ii:woven_skyroot_sticks",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E68E72D18B3F2DE",
+          type: "item",
+          item: {
+            id: "aether_ii:moa_saddle",
+            count: 1,
+          },
+        },
+        {
+          id: "26B911732FB8E7E3",
+          type: "item",
+          item: {
+            id: "aether_ii:moa_saddlebag",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -5.5,
+      y: -4.0,
+      shape: "rsquare",
+      dependencies: [
+        "4255B04D58B13D1E",
+      ],
+      optional: true,
+      id: "46C43D3D613500D9",
+      tasks: [
+        {
+          id: "78B590BE89B2CA51",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(aether_ii:beast_pelt_helmet)item(aether_ii:beast_pelt_chestplate)item(aether_ii:beast_pelt_leggings)item(aether_ii:beast_pelt_boots)item(aether_ii:beast_pelt_gloves))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2878D0C403F88B4C",
+          type: "item",
+          item: {
+            id: "aether_ii:beast_pelt",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "069E40C71D8E43A2",
+      tasks: [
+        {
+          id: "05327C8D3374AA66",
+          type: "checkmark",
+        },
+        {
+          id: "05B95D82FF2AF700",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: -5.5,
+      y: -3.5,
+      width: 4.5,
+      height: 3.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud1.png",
+      order: 1,
+      id: "69E8F530D9B6FC7C",
+    },
+    {
+      x: -8.5,
+      y: -11.0,
+      width: 5.0,
+      height: 3.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud2.png",
+      order: 1,
+      id: "4F625B8DB8145C3D",
+    },
+    {
+      x: -5.5,
+      y: -8.5,
+      width: 5.0,
+      height: 3.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud2.png",
+      order: 1,
+      id: "04166A80ECA34E21",
+    },
+    {
+      x: -8.5,
+      y: -6.0,
+      width: 5.0,
+      height: 3.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud2.png",
+      order: 1,
+      id: "764083DF90D3CE25",
+    },
+    {
+      x: -1.5,
+      y: -6.0,
+      width: 5.0,
+      height: 3.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud2.png",
+      order: 1,
+      id: "54221C70180B47F7",
+    },
+    {
+      x: 0.0,
+      y: -8.5,
+      width: 5.0,
+      height: 3.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud2.png",
+      order: 1,
+      id: "5BDA5F7E5B4DDEB5",
+    },
+    {
+      x: 0.0,
+      y: -12.0,
+      width: 4.5,
+      height: 3.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud3.png",
+      order: 1,
+      id: "5DE88E73FE349F1A",
+    },
+    {
+      x: 5.5,
+      y: -4.5,
+      width: 7.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud4.png",
+      order: 1,
+      id: "2C7CBBEC271FA684",
+    },
+    {
+      x: 4.5,
+      y: -12.5,
+      width: 6.0,
+      height: 3.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud2.png",
+      order: 1,
+      id: "3BA368AA410254D9",
+    },
+    {
+      x: 0.0,
+      y: -18.0,
+      width: 4.5,
+      height: 3.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud3.png",
+      order: 1,
+      id: "2F4ADD3D9B419431",
+    },
+    {
+      x: 6.0,
+      y: -9.0,
+      width: 7.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud4.png",
+      order: 1,
+      id: "3057B9EA0681E4C7",
+    },
+    {
+      x: 11.0,
+      y: -8.5,
+      width: 4.0,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_mobs.png",
+      order: 1,
+      id: "15945F36E10B6E83",
+    },
+    {
+      x: 4.5,
+      y: 2.0,
+      width: 3.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_biomes.png",
+      order: 1,
+      id: "10378652428766C5",
+    },
+    {
+      x: 0.0,
+      y: -16.0,
+      width: 6.0,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_slider.png",
+      order: 1,
+      id: "410B3EC8DDA30072",
+    },
+    {
+      x: -11.0,
+      y: -8.5,
+      width: 4.0,
+      height: 1.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_tools.png",
+      order: 1,
+      id: "515809FC9A110A14",
+    },
+    {
+      x: -4.0,
+      y: 2.0,
+      width: 4.5,
+      height: 1.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_structure.png",
+      order: 1,
+      id: "325C04C18445B802",
+    },
+    {
+      x: -6.0,
+      y: -6.0,
+      width: 2.0,
+      height: 1.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud1.png",
+      order: 1,
+      id: "7AEE232215977844",
+    },
+    {
+      x: -3.0,
+      y: -8.5,
+      width: 2.0,
+      height: 1.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud1.png",
+      order: 1,
+      id: "1EFC1A0CFB30300B",
+    },
+    {
+      x: -6.0,
+      y: -11.0,
+      width: 2.0,
+      height: 1.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud1.png",
+      order: 1,
+      id: "1619DD0330497856",
+    },
+    {
+      x: -3.5,
+      y: -13.5,
+      width: 2.0,
+      height: 1.75,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud1.png",
+      order: 1,
+      id: "494251188DAB4B48",
+    },
+    {
+      x: 2.0,
+      y: -6.0,
+      width: 3.0,
+      height: 2.5,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud5.png",
+      id: "3FD7D864DDB3B82F",
+    },
+    {
+      x: -5.5,
+      y: -13.5,
+      width: 3.5,
+      height: 3.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_cloud5.png",
+      order: 1,
+      id: "0D2E815D3E569A1C",
+    },
+    {
+      x: 0.0,
+      y: 3.5,
+      width: 10.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aether/aether_title.png",
+      id: "748FB962F46BC359",
+    },
+  ],
+}

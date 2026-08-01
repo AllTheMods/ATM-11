@@ -10,6 +10,7 @@
     },
   },
   filename: "ice__fire",
+  always_invisible: true,
   default_quest_shape: "circle",
   default_hide_dependency_lines: false,
   quests: [

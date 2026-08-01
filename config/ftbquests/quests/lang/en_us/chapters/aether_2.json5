@@ -1,0 +1,438 @@
+{
+  "quest.3AD1DECD6F51C798.title": "&5Zanite Tools",
+  "quest.79EFB4F41F736CDB.title": "Brexallen Ruins",
+  "quest.5D51DA2ADA9D2A52.quest_desc": [
+    "&8Sentry Ruins&r are pretty bashful above the ground. All you'll see is the staircase down to the labyrinth. \\n\\nDown there you'll find longing hallways full of Traps, &8Sentries&r, and Chests. \\n\\nKeep venturing and you can come across the Boss Room where &8&lThe Slider&r sits dormant.",
+  ],
+  "quest.59059329118899B6.title": "Outposts",
+  "quest.374A1C2A2655F4CC.quest_desc": [
+    "Welcome to the &e&lAether&r... &e&l2&r. \\n\\nThis Dimension has been changed and updated! And this definitely isn't the last time it will be. \\n\\nNew Biomes, Structures, Blocks, Tools, Mobs! \\n\\nGo and find everything new.",
+  ],
+  "quest.34DE7709A677E64B.quest_desc": [
+    "&dGravitite Weapons&r will increase the mass of the Mob that they Hit. Basically they'll fall like an ACME Anvil. Or &2&lMinecraft&r Anvil. \\n\\nCheck out &2Skyroot Weapons&r to get details on the different Weapon types. \\n\\nThe &dCrossbow&r will Shoot directly where you are Aiming without Falling. \\n\\n&dGravitite Weapons&r can also be Upgraded in an Arkenium Forge.",
+  ],
+  "quest.00C211DA0CEC0038.title": "Frigid Sierra",
+  "quest.56697C07427A48AE.title": "Glistening Swamps",
+  "quest.2E4D32863106F785.title": "&bMoas",
+  "quest.1587C4C3BDAB50C6.title": "&8Arkenium Taluton",
+  "task.3EA12E79DC12277C.title": "Gravitite Armor",
+  "quest.758D8D7E2CFD7930.quest_desc": [
+    "Enduring Woodlands are giant snowy Forests. \\n\\nIn these you'll find &dSkypine&r, &9Greatboa&r, and &6Amberoot Trees&r. \\n\\nThese are Arctic Biomes.",
+  ],
+  "quest.0767311BD24CDA28.quest_desc": [
+    "Hmm... Undercloud Mineshaft... I wonder where we might find one? \\n\\nThese are just like normal Mineshafts, just in the &e&lAether&r! \\n\\nThat's it.",
+    "{image:atm:textures/questpics/aether/aether_mineshaft.png width:200 height:100 align:center}",
+  ],
+  "quest.7362F6744A2285A7.title": "&bAerbunny",
+  "quest.5F229A0A52DF68CC.title": "Frozen Lakes",
+  "quest.5C54B79F14701A64.quest_desc": [
+    "We don't have Iron here, to Carry Liquids we'll need a &2Skyroot Bucket&r!",
+  ],
+  "quest.0767311BD24CDA28.title": "Undercloud Mineshaft",
+  "quest.56A92496BB026E4A.quest_desc": [
+    "Arkenium Armor has 15 Armor Points and 4 Armor Toughness. \\n\\nEach Piece can be Upgraded with the Arkenium Forge.",
+  ],
+  "quest.7F7ED7E88024F174.title": "&dPhyg",
+  "quest.63A834E40BF90E14.title": "Zephyr",
+  "quest.511696C81C8E2711.quest_desc": [
+    "The Contaminated Jungle used to be a gorgeous Enchanted forest, but Radiation is slowly creeping in ruining it. \\n\\nHere you'll find Irradiated &2Skyroot Trees&r, Enchanted Grass, and lots of Ambrelinn Moss. \\n\\nNo Mobs will spawn here because of the Radiation.",
+  ],
+  "quest.6B1DC0E2AB39B771.quest_desc": [
+    "Bunkers will Spawn exposed in &eIrradiated Biomes&r. \\n\\nThe Bunker will have Bookshelves and &eAmbrosium Blocks&r.",
+    "{image:atm:textures/questpics/aether/aether_bunker.png width:200 height:100 align:center}",
+  ],
+  "quest.37C5266720652696.title": "&8Tempest",
+  "quest.6B1DC0E2AB39B771.title": "Irradiated Bunker Remnants",
+  "quest.114292CEA3215D05.quest_desc": [
+    "Arkenium Weapons can be Upgraded through the Arkenium Forge, including the Crossbow. \\n\\nNot the Shield though... \\n\\nTo learn more about the Weapon Types, check out &2Skyroot Weapons&r.",
+  ],
+  "task.14C6D7E8EFD356A9.title": "Aether Stones",
+  "quest.0A99E6F4FD4004E1.quest_desc": [
+    "&6Golden Amber&r comes from &6Amberoot Trees&r. In Deposits that can be Mined or Stripped to Drop the &6Amber&r. \\n\\n&6Amber&r is used in a ton of Recipes from Darts, to a &6Music Player&r, to even an &6Hourglass&r? \\n\\nThese can't be super important... can they?",
+  ],
+  "quest.5DBD7B1F8A8B9BE5.quest_desc": [
+    "Around Shimmering Basins or Glistening Swamps we can find Veradexian Aqueducts. \\n\\nThese can have &eVeradexian Vases&r spawn around them.",
+    "{image:atm:textures/questpics/aether/aether_aqueduct.png width:200 height:100 align:center}",
+  ],
+  "quest.03482A7A8010BBB9.title": "&9Burrukai Armor",
+  "quest.34DE7709A677E64B.title": "&dGravitite Weapons",
+  "quest.4FD47E9A9E34DD19.quest_desc": [
+    "The Ancient Henge is giant archway Structures made of various &7Stones&r. \\n\\nYou can find Loot in Vases around them!",
+    "{image:atm:textures/questpics/aether/aether_henge.png width:200 height:100 align:center}",
+  ],
+  "quest.018DECB2E84B415C.quest_desc": [
+    "Arkenium Forge can be used to Upgrade Arkenium and &dGravitite&r Weapons, Tools, and Armor. \\n\\nPlace the Gear in the Forge and you can change its name, or Upgrade it. \\n\\nUpgrading requires a cost, either Arkenium or &aCorrobonite Crystal&r. Changing names doesn't. \\n\\nThe better the Tier the pricier but better they are. Like giving us Charm Slots! Once we unlock those we can add Charms by tossing them into the Forge with the Item.",
+  ],
+  "quest.1695C7865B356711.quest_desc": [
+    "The &bHammer of Demolition&r is what &bSentry Golems&r use. \\n\\nThey can be used like a normal Hammer just pounding things. \\n\\nOr you can Shift Right Click to Shoot an Explosive Projectile!",
+  ],
+  "quest.49DD74087C22E277.quest_desc": [
+    "Normal Shears but &5Purple&r.",
+  ],
+  "quest.24842B5F76063992.title": "Hestveil Caverns",
+  "quest.415AF3FA5F73F155.title": "&6Skephid",
+  "quest.323FFEC533D59DD0.quest_desc": [
+    "&7Kirrids&r are Goat like Mobs bouncing around in the &e&lAether&r. \\n\\nThey have 8 &4Hearts&r and will Drop Cloudwool and &7Kirrid Meat&r on Death. \\n\\nLike Sheepuffs you can Dye and Shear their Wool. \\n\\nThey look different from Highfields, Arctic, and Magnet Biomes. \\n\\nHighfields have &6Gold Horns&r and &6Legs&r with &7Grey Skin&r. Arctic have &8Brown Horns&r and Legs with White Skin. Magnet have &bBlue Horns&r and &bLegs&r with &7Grey Skin&r.",
+  ],
+  "quest.3554892518642473.title": "Taming &bMoas",
+  "quest.4255B04D58B13D1E.title": "&3Taegores",
+  "quest.46C43D3D613500D9.title": "&bBeast Pelt Set",
+  "quest.2CAA538587D78A8F.title": "&l&8The Slider",
+  "quest.2E4D32863106F785.quest_desc": [
+    "&bMoas&r Spawn in their Nests now protecting their &bEggs&r. \\n\\nThey're Neutral until you Hit them or try taking their &bEgg&r. \\n\\nThey have 17 and half &4Hearts&r and will nip at you. They don't Drop anything. \\n\\nTheir &bEgg&r is the only thing we care about, that's the only way to Tame them.",
+  ],
+  "quest.452A97AA78D368C2.title": "&7Detonation Sentry",
+  "quest.7ACFEA5D36C4E8FF.quest_desc": [
+    "Shimmering Basins are our best bet at finding &9Water&r in the &e&lAether&r. \\n\\nThese are big floating Lakes. Also one of the only places to find &dPrismallards&r. \\nTechnically a Highfields Biome.",
+  ],
+  "quest.1476DDE2F101CAAA.quest_desc": [
+    "Arkenium is Mined from Ores with atleast a &5Zanite&r or Iron Pickaxe. \\n\\nExcept it Drops an Inert Arkenium? \\n\\nIn order to make our Arkenium more useful we'll need to &5Enchant&r it in an &5Altar&r with 3 &eAmbrosium Shards&r.",
+  ],
+  "quest.3BF9BA9B00155828.quest_desc": [
+    "The Cloud Skiff is the &e&lAether's&r version of a Boat. \\n\\nExcept we don't have much Water to Sail... so let's Sail Clouds! \\n\\nYes! You heard that right, the Cloud Skiff will smoothly glide across the Aeroclouds.",
+  ],
+  "quest.37C5266720652696.quest_desc": [
+    "&8Tempest&r like to Hide in Aeroclouds down where its dark. \\n\\nThey have 14 &4Hearts&r and will Attack with Fireballs similar to the &d&lEnder Dragon's&r. These Fireballs will Explode and leave a residue which will Damage you. \\n\\nThey will Fly away and dissapear into a &8Black Smoke&r when they feel they're unsafe. \\n\\n&8Tempest&r will Drop &5Storm Aeroclouds&r when Killed.",
+  ],
+  "quest.361056AE9756BF18.quest_desc": [
+    "Sheepuffs don't Glide or Float, but they... Puff? \\n\\nYou can Shear and Dye their Wool. They can even Puff up their Wool, adding an extra layer you can Shear twice! \\n\\nThey have 4 &4Hearts&r and on Death will Drop their Wool and &7Kirrid Meat&r.",
+  ],
+  "quest.5E666EFB83CDEB0E.title": "&9Burrukai Plate Shield",
+  "task.01AB1FA5D0D16996.title": "Neptune Armor",
+  "quest.5FF84939068D9AC9.title": "Violet Highwoods",
+  "quest.2AA07E948346C417.title": "&5Zanite Armor",
+  "quest.78C86403B4F8D382.quest_desc": [
+    "With 10 &eGlowstone&r we can make a similar frame to the &cNether Portal&r. 2 Blocks on top and bottom, 3 on the sides, skipping the corners. \\n\\nThen, simply place &9Water&r into the &eGlowstone&r Frame and our &eAether Portal&r will activate.",
+  ],
+  "quest.44A90483E4A1B776.quest_desc": [
+    "Camps are Structures found in most Biomes. \\n\\nThey come in 3 different forms depending on the Biome they Spawn in. \\n\\nAll are similar though: tents, wells, pathways, and campfires!",
+    "{image:atm:textures/questpics/aether/aether_camp.png width:200 height:100 align:center}",
+  ],
+  "quest.1D6BC1BB86F5B22C.title": "&aAlkahest Purifier",
+  "task.493F974425B8E108.title": "Zanite Weapons",
+  "quest.73A5FBE84B28CDC8.quest_desc": [
+    "To leave the &e&lAether&r there's 2 very simple ways. \\n\\n1. The &ePortal&r. \\n\\n2. Falling. \\n\\nIf you fall low enough you'll return back to the &2&lOverworld&r... just very high in the Sky in the &2&lOverworld&r. \\n\\nHope you brought something to break your fall.",
+  ],
+  "quest.6394BDC543E694A4.quest_desc": [
+    "&6Amberoot Trees&r only come in one type. \\n\\nThey have &6Golden Leaves&r. \\n\\nWithin the Logs you might find &6Amber Deposits&r which will give &6Golden Amber&r when you Mine or Strip the Block. \\n\\n&6Amberoot Planks&r are similar to Oak just more &6Orange&r.",
+  ],
+  "quest.7362F6744A2285A7.quest_desc": [
+    "&bAerbunnies&r won't Drop anything on Death, they aren't worth Killing. \\n\\nThey're more for just looking at, watching them bounce and float around is pretty funny!",
+  ],
+  "quest.5C9D61CE2E5CD3CE.quest_desc": [
+    "&bAerwhales&r are giant Flying Friendly Mobs. \\n\\nThey have 10 &4Hearts&r but don't Drop anything. \\n\\nUnless you want to stop their melodies...",
+  ],
+  "quest.00EF3C7136FD03E6.quest_desc": [
+    "&2Skyroot&r come from 4 different Trees, &2Skyroot&r, &9Skyplane&r, &bSkybirch&r, and &dSkypine&r. \\n\\n&2Skyroot&r has &2Green Leaves&r. \\n\\n&9Skyplane&r has &9Blue Leaves&r. \\n\\n&bSkybirch&r has &bLight Blue Leaves&r. \\n\\nAnd &dSkypine&r has &dPink Leaves&r. \\n\\n&2Skyroot Planks&r are a &2Dark Green&r.",
+  ],
+  "quest.3BEB52D15F5C73E7.quest_desc": [
+    "Arkenium Tools don't have a similar ability like the other Aether Tools. Instead, they're able to be Upgraded from the Arkenium Forge. \\n\\nTrowels will be needed to Kill certain Plant Mobs.",
+  ],
+  "quest.020025A8178CBD40.quest_desc": [
+    "The &6Hourglass&r works as an &e&lAether&r Uncrafter and Restorer. \\n\\nFossilized Items can be brought back to working condition and Items can be broken down into their Materials. \\n\\nThankfully it only works with &e&lAether&r Objects so it's not broken! \\n\\nIt uses &6Golden Amber&r as Fuel.",
+  ],
+  "quest.30BD1DF4FC9295C6.title": "&2Skyroot Tools",
+  "task.1284B7909AD4C9E8.title": "Arkenium Weapons",
+  "task.3917C2C41CAFC863.title": "Holystone Weapons",
+  "quest.21F92193BD6CABC4.quest_desc": [
+    "Verdant Woods are very Green Forests. \\n\\nThey're mostly made of &2Skyroot Trees&r but will also have some &9Skyplane&r, &bWisproot&r, &dGreatoak&r, and &6Amberoot Trees&r. \\n\\nThis is a Highfields Biome.",
+  ],
+  "quest.2CAA538587D78A8F.quest_desc": [
+    "&8&lThe Slider&r is currently the only Boss available. \\n\\nHe has 350 &4Hearts&r and can only be Damaged with a Pickaxe. \\n\\nHe'll move in straight lines to hit you. Pretty easy to avoid if you're 3D. \\n\\nWhen he hits the Ground he'll Break Blocks and summon a dozen &7Detonation Sentries&r to Attack you. \\n\\nOnce brought below 100 &4Hearts&r his Eye and Symbol will turn &4Red&r and he'll Attack and Move much faster. \\n\\nAfter you Kill him a Secret Chest will open up, here will be special Loot you can only find from Killing &8&lThe Slider&r.",
+  ],
+  "quest.7FEF461922BAAD02.title": "&dPrismallard",
+  "quest.3E3759DCD27F3FA5.quest_desc": [
+    "It's a Tower with Loot on top. \\n\\nGood view from up here!",
+    "{image:atm:textures/questpics/aether/aether_tower.png width:200 height:100 align:center}",
+  ],
+  "quest.482CCCEA90EDA3CA.title": "Battleground Wastes",
+  "quest.4505FE5F66B88BBE.quest_desc": [
+    "&6Flying Cows&r have Wings which allow them to Glide. \\n\\nThey have 5 &4Hearts&r and will Drop &9Burrukai Rib Cuts&r on Death.",
+  ],
+  "quest.5FF84939068D9AC9.quest_desc": [
+    "Violet Highwoods are very Purple. \\n\\nThey're entirely made of &5Wisptop Trees&r and &6Amberoot Trees&r. \\n\\nThis is a Magnetic Biome.",
+  ],
+  "quest.6B31BC88C23EA226.quest_desc": [
+    "&7Holystone Tools&r will Drop &eAmbrosium Shards&r when used on specific Blocks. \\n\\nAxes on Logs, Pickaxes on Stone, and Shovels on Dirt. \\n\\nWe'll also need the &7Holystone Pickaxe&r to Mine &5Zanite Ore&r. \\n\\nTrowels will be needed to Kill certain Plant Mobs.",
+  ],
+  "quest.3FC5FF405CAAF1EF.quest_desc": [
+    "Turquoise Forests are our Light Blue Forests. \\n\\nThey have &bSkybirch&r and &2Greatroot Trees&r. \\n\\nIt is another Magnetic Biome.",
+  ],
+  "quest.7ACFEA5D36C4E8FF.title": "Shimmering Basin",
+  "task.6C96DBDEC5828E2F.title": "Holystone Tools",
+  "quest.44A90483E4A1B776.title": "Camps",
+  "quest.64789CF858BCA9D2.quest_desc": [
+    "&dGravitite Talutons&r are floating Golems in the underground of the &e&lAether&r. \\n\\nThey have 16 &4Hearts&r. \\n\\nThey'll summon a spiral of Rocks to throw at you. \\n\\nThey'll rarely Drop &7Holystone&r.",
+  ],
+  "quest.0BEF0E35658DF079.title": "Magnetic Scar",
+  "quest.1CF12FED1C03F66D.title": "&bSentry Golem",
+  "quest.361056AE9756BF18.title": "Sheepuff",
+  "quest.17E3418B05ACBC98.quest_desc": [
+    "&bWisproot&r comes from &bWisproot&r and &5Wisptop Trees&r. \\n\\n&5Wisptop Trees&r have &5Purple Leaves&r. \\n\\n&bWisproot Trees&r have &bBlue Leaves&r. \\n\\n&bWisproot Planks&r and Blocks are a light desaturated &aGreen&r. Between Birch and Pale Oak.",
+  ],
+  "quest.5E666EFB83CDEB0E.quest_desc": [
+    "No &7Holystone Shield&r, instead we got &9Burrukai Shields&r. \\n\\nIt's better than &2Skyroot Shield&r, but still not the best.",
+  ],
+  "quest.6C19B3FE5D203A39.quest_desc": [
+    "&dGreatroot Logs&r come from &2Greatroot&r, &dGreatoak&r, and &9Greatboa Trees&r. \\n\\n&2Greatroot&r has &2Green Leaves&r. \\n\\n&dGreatoak&r has &dPink Leaves&r. \\n\\n&9Greatboa&r has a &9Dark Blue&r/&5Purple Leaves&r. \\n\\nAll of these need a 2x2 of Saplings to Grow. \\n\\n&dGreatroot Planks&r are a Dark Brown similar to Dark Oak and Spruce.",
+  ],
+  "quest.68755B04AED4A19F.quest_desc": [
+    "&9Burrukai&r are big Moose like Mobs. \\n\\nEach have 13 &4Hearts&r and 6 Armor Points. \\n\\n&9Burrukai&r aren't Passive, they're Neutral. If you Hit them they'll start Charging at you. Like Goats do for fun! \\nOnce Killed they're Drop &9Burrukai Plates&r, &9Burrukai Rib Cuts&r, and &bBeast Pelt&r. \\n\\nThey spawn differently in Highfield, Arctic, and Magnet Biomes. \\n\\nHighfield have &9Blue Skin&r and &0Black Plates&r. Arctic have &5Purple Skin&r and &7Silver Plates&r. Magnet have &8Brown Skin&5 with &7Grey Plates&r.",
+  ],
+  "quest.19DB1FFF6A1BD363.title": "&4Mimic",
+  "quest.5DBD7B1F8A8B9BE5.title": "Veradexian Aqueducts",
+  "quest.00C211DA0CEC0038.quest_desc": [
+    "The Frigid Sierra are mountains covered in Deep Arctic Snow. \\n\\nYou can find &dSkypines&r on them. \\n\\nAlso an Arctic Biome.",
+  ],
+  "quest.64789CF858BCA9D2.title": "&dGravitite Taluton",
+  "quest.6B31BC88C23EA226.title": "&7Holystone Tools",
+  "quest.1CF12FED1C03F66D.quest_desc": [
+    "&bSentry Golems&r Spawn within &8Sentry Ruins&r. \\n\\nThey have 17 and a Half &4Hearts&r, plus they hold a &bHammer of Demolition&r. \\n\\nThey don't Drop anything interesting either...",
+  ],
+  "quest.30410136040EFB34.quest_desc": [
+    "Fancy Stonecutter.",
+  ],
+  "quest.29E42E388252BA90.title": "Veradexian Library",
+  "quest.03482A7A8010BBB9.quest_desc": [
+    "We don't have &7Holystone Armor&r but we have &9Burrukai Armor&r. \\n\\n&9Burrukai Armor&r has a total of 12 Armor Points, with added Stun Resistance when we have the full set on. \\n\\nIncluding the &9Plate Guards&r.",
+  ],
+  "quest.1317CD842F94846B.quest_desc": [
+    "&7Holystone Weapons&r will Drop &eAmbrosium Shards&r when Hurting Mobs. \\n\\nCheckout the &2Skyroot Weapons&r for more details on the Weapon types. \\n\\nThe &7Holystone Crossbow&r will Shoot out 3 Arrows in line, like the Mulitshot Enchantment when Shifting.",
+  ],
+  "quest.5F229A0A52DF68CC.quest_desc": [
+    "A perfect Ice rink made of Arctic Ice and Arctic Packed Ice. \\n\\nThis is an Arctic Biome.",
+  ],
+  "quest.511696C81C8E2711.title": "Contaminated Jungle",
+  "quest.2F4624C8681758D2.quest_desc": [
+    "&5Cockatrice&r Spawn anywhere its dark, including the Surface at Night. \\n\\nThey have 16 &4Hearts&r and will Drop their &5Feather&r when Killed. \\n\\n&5Cockatrice&r will slash away at you if you're near. If you're farther they'll Shoot... &5Feathers&r? Arrows? Something at you.",
+  ],
+  "task.05327C8D3374AA66.title": "AllRightsReserved",
+  "task.0D64F53517C9E3A2.title": "Gravitite Tools",
+  "quest.2C8684AA92B889E8.quest_desc": [
+    "&dGravitite Tools&r are literally Magical! \\n\\nShift Right Clicking on a Block will cause it to float up toward you. Then, it'll Fly around you until you either Left Click it to shoot it out like a Fireball. Or Right Click to Place it where it is at. \\n\\nEach &dTool&r can only do this with their certain Blocks though: Shovels with Dirt, Pickaxes with Stone, Axes with Wood. \\n\\n&dGravitite Tools&r can also be Upgraded in an Arkenium Forge. \\n\\nTrowels are needed to Kill certain Plant Mobs. ",
+  ],
+  "quest.2ABC7BE1CCAF266D.quest_desc": [
+    "The &6Music Player&r is how we can listen to &e&lAether&r Discs on the go. \\n\\nIn your Inventory either Click the &6Music Player&r over the Disc or vice versa and it'll put the Disc into the &6Player&r. \\n\\nThen, when Holding the &6Music Player&r in your Hand, Right Click to start playing the Music. \\n\\nTo take the Disc out, use Right Click in your Inventory while Holding the &6Music Player&r over an Empty Slot.",
+  ],
+  "task.01B947C689FCD1A7.title": "Arkenium Armor",
+  "quest.29E42E388252BA90.quest_desc": [
+    "Veradexian Libraries Spawn in Arctic and Highfield Biomes, sorry Magnets fans! \\n\\nThe top of the Structure doesn't offer much, just Vases. But clearing below uncovers a much grander area... \\n\\nA huge Library full of Shelves, Chests, and Vases.",
+    "{image:atm:textures/questpics/aether/aether_library.png width:200 height:100 align:center}",
+  ],
+  "quest.069E40C71D8E43A2.quest_desc": [
+    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. ",
+    "",
+    "As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. ",
+    "",
+    "This quest is intentionally hidden, if you're seeing this, you're in editing mode.",
+  ],
+  "quest.17E3418B05ACBC98.title": "&bWisproot Trees",
+  "quest.323FFEC533D59DD0.title": "&7Kirrids",
+  "quest.039A41862695ACD8.quest_desc": [
+    "&dGravitite Armor&r has 20 Armor Points and 8 Armor Toughness. \\n\\nWhen you wear all 4 Pieces of &dGravitite Armor&r plus the &dGravitite Plate Guards&r, you'll be able to Double Jump! \\n\\n&dGravitite Armor&r can be Upgraded in an Arkenium Forge.",
+  ],
+  "quest.005A7AB14968944A.title": "&5Zanite Weapons",
+  "quest.4505FE5F66B88BBE.title": "&6Flying Cow",
+  "quest.2ABC7BE1CCAF266D.title": "&6Music Player",
+  "quest.452A97AA78D368C2.quest_desc": [
+    "&7Detonation Sentries&r Spawn from &7Sentry Spawners&r. \\n\\nThese little guys have 7 &4Hearts&r and will try to Kill you by Exploding. \\n\\nThey don't Drop anything on Death.",
+  ],
+  "quest.0D5E07DA734A72FC.quest_desc": [
+    "Aeroclouds are a unique Block to the &e&lAether&r. \\n\\nAll of these don't have set abilities, instead they're mostly for Decoration or Crafting. \\n\\nWell... all of these Block Fall Damage but so do all Aeroclouds!",
+  ],
+  "quest.00EF3C7136FD03E6.title": "&2Skyroot Trees",
+  "quest.63A834E40BF90E14.quest_desc": [
+    "Zephyrs are angry Clouds. \\n\\nThey'll Shoot what is basically Breeze Balls at you. \\n\\nThey have 6 &4Hearts&r and will Drop Aeroclouds on Death.",
+  ],
+  "quest.2C8684AA92B889E8.title": "&dGravitite Tools",
+  "quest.3AD1DECD6F51C798.quest_desc": [
+    "&5Zanite Tools&r are similar to Iron but they start off Slower. \\n\\nStart off slower? \\n\\n&5Zanite Tools&r will take more time to Mine Blocks, until they lose Durability. The more Durability they lose, the faster they Mine. \\n\\nTrowels are needed to Kill certain Plant Mobs.",
+  ],
+  "quest.30BD1DF4FC9295C6.quest_desc": [
+    "&2Skyroot Tools&r are the Wooden Tools of the &e&lAether&r. \\n\\nThey have low Durability, very slow to Break Blocks, but atleast each Tool has Fortune! \\n\\n&2Skyroot Pickaxe&r will Drop more Ores, &2Trowels&r will Drop more Crops, and &2Shovels&r will Drop more Dirt. \\n\\nTrowels are needed for Killing Plant Mobs.",
+  ],
+  "quest.11099F13C54468FC.quest_desc": [
+    "Another Structure in Irradiated Biomes, the Irradiated Settlement Remnants. \\n\\nThese are a little more boring than Bunkers, but they have Chests atleast!",
+    "{image:atm:textures/questpics/aether/aether_settlement.png width:200 height:100 align:center}",
+  ],
+  "quest.2BF80B73358D0246.quest_desc": [
+    "Flourishing Fields are Plains Biomes. \\n\\nNo Trees besides a few rogue &2Skyroots&r, just Flowers all around! \\n\\nThese are Highfields Biomes.",
+  ],
+  "quest.6AF942CA0323094C.title": "&7Sentry Boots",
+  "quest.19DB1FFF6A1BD363.quest_desc": [
+    "Some &8Sentry Crates&r are actually &4Mimics&r! \\n\\n&4Mimics&r have 16 &4Hearts&r and will Bite you. \\nThese guys don't Drop anything either?!?! What am I doing wrong?",
+  ],
+  "quest.7F7ED7E88024F174.quest_desc": [
+    "When &dPigs&r Fly! \\n\\nDo&d Phygs&r count? Well, they don't really Fly they more so Glide. \\n\\nThey have 5 &4Hearts&r and Drop &3Taegore Meat&r on Death.",
+  ],
+  "quest.79EFB4F41F736CDB.quest_desc": [
+    "&5Brexallen Ruins&r are ancient Structures buried underground. \\n\\nHere we'll find some Chests that can Spawn with Fossilized Items. You'll need a &6Hourglass&r to Restore them. \\n\\nPlus &5Brexallen Vases&r for even more Loot!",
+    "{image:atm:textures/questpics/aether/aether_brexruin.png width:200 height:100 align:center}",
+  ],
+  "quest.46C43D3D613500D9.quest_desc": [
+    "&bBeast Pelts&r are the Leather of the &e&lAether&r. \\n\\nJust like Leather we can make Armor out of it! You'll get 7 Armor Points out of the entire set. \\n\\nWhen wearing all pieces of it Taegores won't be afraid of you.",
+  ],
+  "task.4368C270985DC08A.title": "Zanite Tools",
+  "quest.681258611298BE3E.title": "Sheer Tundra",
+  "quest.1695C7865B356711.title": "&bHammer of Demolition",
+  "quest.6A24BD1F4DC6709C.quest_desc": [
+    "&2Skyroot Lizards&r spawn in different Forest Biomes. \\n\\nThey have 2 &4Hearts&r but won't Drop anything. \\n\\nTo get some use out of them you'll need a &2Skyroot Stick&r. Just Hit them with it and you'll get a &2Skyroot Lizard on a Stick&r.",
+  ],
+  "quest.5C9D61CE2E5CD3CE.title": "&bAerwhale",
+  "quest.4BDFADF0E8A49DF3.title": "&eAmbrosium Shard",
+  "quest.341C538D1407C731.quest_desc": [
+    "Gliders are helpful for Flying around in the &e&lAether&r. \\n\\nRight Click with the Glider and you'll Hold it out. It acts like an Elytra... just not as good. \\n\\n&bBlue Gliders&r will boost you into the Air when you first use it, this will cause a cooldown though. \\n\\n&5Purple Gliders&r will shoot you forward when you use them. Also with a cooldown.",
+  ],
+  "quest.1D6BC1BB86F5B22C.quest_desc": [
+    "&aAlkahest Purifiers&r will use Arkenium Canisters full of &aAlkahest&r to \"fix\" &4Irradiated Items&r. \\n\\nYou'll need 4 Alkahest Canisters to purify one &4Irradiated Item&r. \\n\\nEach Item will become the regular version and will give a certain amount of &4Irradiated Dust&r which we can use to &4Irradiate&r Blocks and Items. \\n\\n&4Irradiated Armor&r, &4Weapons&r, &4Tools&r, and &4Items&r will become a random Item.",
+  ],
+  "quest.05BBD1755C58B2FE.quest_desc": [
+    "The &5Altar&r will &5Enchant&r Items will &eAmbrosium&r. \\n\\nVery helpful in a few cases like: making Arkenium and &dGravitite&r usable, Repairing Items, giving more uses to Items, and Upgrading Food Items. \\n\\nYeah, you're going to need the &5Altar&r for progressing.",
+  ],
+  "quest.2E6D1418F8B30844.title": "&bBlue &fand &eGolden Swets",
+  "quest.482CCCEA90EDA3CA.quest_desc": [
+    "Battlegrounds used to be an Enchanted Plains Biome, but Radiation has broken it down. \\n\\nHere you'll find what used to be healthy &9Skyplane&r, &2Skyroot&r, and &bWisproot Trees&r. \\n\\nNo Mobs though, thank the Radiation for that!",
+  ],
+  "quest.4255B04D58B13D1E.quest_desc": [
+    "&3Taegores&r are Bore like Mobs. \\n\\nThey have 9 &4Hearts&r and Drop &3Taegore Meat&r and &bBeast Pelt&r on Death. \\n\\nThey will sniff out Items like Sniffers do but they can be pretty skittish though so don't Sprint near them. \\n\\nThey spawn differently in Highfield, Arctic, and Magnet Biomes. \\n\\nHighfield have &3Blue Skin&r and &eGold parts&r? Arctic have &7Grey Skin&r with &7Silver parts&r? Magnet have &bLight Blue Skin&r with &6Bronze parts&r?",
+  ],
+  "quest.2655C88A18B11FD3.title": "&2Skyroot Weapons",
+  "quest.3FC5FF405CAAF1EF.title": "Turquoise Forests",
+  "quest.0DC12365A642E371.quest_desc": [
+    "Another Forest Biome! \\n\\nThis one containing &2Skyroot&r, &9Skyplane&r, &bWisproot&r, and &dGreatoak&r. \\n\\nAnother Highfields Biome! I think?",
+  ],
+  "quest.039A41862695ACD8.title": "&dGravitite Armor",
+  "quest.143F8EBC63E8CF55.quest_desc": [
+    "&5Zanite&r is a Gem we can find Ore for all around the &e&lAether&r. \\n\\nYou'll need atleast a &7Stone&r or &7Holystone Pickaxe&r to Mine it. It is the &e&lAether&r equivalent to &7Iron&r. ",
+  ],
+  "quest.758D8D7E2CFD7930.title": "Enduring Woodlands",
+  "quest.78EA49E5C10CF29C.title": "&dGravitite Plates",
+  "quest.11099F13C54468FC.title": "Irradiated Settlement Remnants",
+  "task.78B590BE89B2CA51.title": "Beast Pelt Set",
+  "quest.4FD47E9A9E34DD19.title": "Ancient Henge",
+  "task.65E36ECFB834C9D7.title": "Gliders",
+  "quest.0DAF268353274ECA.title": "&9Glitterwing",
+  "quest.359589D7D28D47E8.title": "&3Kentic Thrusters",
+  "quest.6A24BD1F4DC6709C.title": "&2Skyroot Lizard",
+  "quest.2F4624C8681758D2.title": "&5Cockatrice",
+  "quest.1FB709FA3139065C.title": "Animal Den",
+  "quest.0DAF268353274ECA.quest_desc": [
+    "&9Glitterwings&r are pretty Butterflies. \\n\\nThey have 3 &4Hearts&r and don't Drop anything. \\n\\nThey come in many different variations and you'll find them mostly in Flourishing Fields.",
+  ],
+  "quest.2BF80B73358D0246.title": "Flourishing Fields",
+  "quest.359589D7D28D47E8.quest_desc": [
+    "&3Kinetic Thrusters&r will give a Speed Boost and basically Auto-Jump.",
+  ],
+  "quest.05BBD1755C58B2FE.title": "&5Altar",
+  "quest.56697C07427A48AE.quest_desc": [
+    "Glistening Swamps are wet Biomes like the Shimmering Basin. \\n\\nThese have Ferrosite Mud instead of Quick Soil though. Along with &2Greatroot Trees&r and Magnetic Shrooms. \\n\\nWe can also find Bugs here.",
+  ],
+  "quest.2AA07E948346C417.quest_desc": [
+    "&5Zanite Armor&r gives 15 Armor Points total. \\n\\nWhen you wear all 5 Pieces (including &5Plate Guards&r) you'll get a Speed Effect. \\n\\n&5Plate Guards&r will do this on their own as well, just to a lesser value.",
+  ],
+  "quest.16C0536FFB90668A.title": "&3Carrion Sprout",
+  "quest.49DD74087C22E277.title": "&5Zanite Shears",
+  "quest.34BE6C8AB80817AB.quest_desc": [
+    "&dAechor Plants&r are Hostile Plants in the Aether. You'll need a Trowel to Deal Damage to them. \\n\\nThey have 5 &4Hearts&r and will Shoot out Arrows in a circle around them. \\n\\nOnce dug up you'll get an &dAechor Petal&r and &dAechor Cutting&r.",
+  ],
+  "task.05B95D82FF2AF700.title": "AllRightsReserved",
+  "quest.4FC5998BF14AE49B.title": "&7Holystone",
+  "quest.322884B25C85E0E8.title": "&9Neptune Armor",
+  "quest.7FEF461922BAAD02.quest_desc": [
+    "&dPrismallards&r are pretty Birds that spawn in Shimmering Basins. \\n\\nThey have 2 &4Hearts&r and will Drop their &dFeather&r and &dMeat&r on Death.",
+  ],
+  "quest.0A99E6F4FD4004E1.title": "&6Golden Amber",
+  "quest.5C54B79F14701A64.title": "&2Skyroot Bucket",
+  "quest.415AF3FA5F73F155.quest_desc": [
+    "&6Skephids&r are &e&lAether's&r Arachnids. \\n\\nThey Spawn underground in the Dark and have 8 &4Hearts&r. \\n\\nThey don't deal any Damage but they can hit you with their Webs which will give a Webbed Effect. \\n\\nThis Effect will Slow you down and make it harder to Jump. The more times you get Hit the worse it gets. \\n\\nOnce the bug is squished they'll Drop &7Cloudtwine&r.",
+  ],
+  "quest.020025A8178CBD40.title": "&6Amber Hourglass",
+  "quest.0DC12365A642E371.title": "Shrouded Forest",
+  "quest.4FC5998BF14AE49B.quest_desc": [
+    "&7Holystone&r is found everywhere in the &e&lAether&r. \\n\\nIt's just the &e&lAether&r version of &7Stone&r. \\nYou'll need atleast a &2Wooden Pickaxe&r to Break it.",
+  ],
+  "task.4D373B157400C4CD.title": "Zanite Armor",
+  "task.5B962568DDA5C248.title": "Arkenium Tools",
+  "quest.6394BDC543E694A4.title": "&6Amberoot Trees",
+  "quest.73A5FBE84B28CDC8.title": "There's no place like Home",
+  "task.617623A9414688EF.title": "Skyroot Weapons",
+  "quest.1587C4C3BDAB50C6.quest_desc": [
+    "&0Arkenium Talutons&r spawn in the Dark underground. \\n\\nThese are &0Black&r and &7Grey Golems&r with 17 &4Hearts&r. \\n\\nThey'll Attack by Hitting you repeatedly. When you Kill them they'll Drop &7Holystone&r.",
+  ],
+  "quest.1C5ECF0F3DC18C8F.quest_desc": [
+    "The Aether now has new Stones! \\n\\nExcept Icestone, that's been here. Icestone Spawns in Cold Biomes and will Freeze certain Liquids that touch it. \\n\\nUndershale, Ichorite, and Agiosite are just decorative like Diorite, Granite, and Andesite.",
+  ],
+  "quest.34BE6C8AB80817AB.title": "&dAechor Plant",
+  "quest.374A1C2A2655F4CC.title": "&e&lAether 2",
+  "quest.68755B04AED4A19F.title": "&9Burrukai",
+  "task.59AA791E647B89D4.title": "Skyroot Tools",
+  "quest.143F8EBC63E8CF55.title": "&5Zanite Gems",
+  "task.716C471E84F291D2.title": "Gravitite Weapons",
+  "quest.59059329118899B6.quest_desc": [
+    "Outposts are decent sized Structures found in the &e&lAether&r. \\n\\nThe only important Block is the Outpost Campfire, you can Interact with them to set a possible Spawnpoint.",
+    "{image:atm:textures/questpics/aether/aether_outpost.png width:200 height:100 align:center}",
+  ],
+  "quest.005A7AB14968944A.quest_desc": [
+    "When brand new, &5Zanite Weapons&r aren't too tough. But the more Durability they lose, the more Damage they'll deal. \\n\\nCheckout &2Skyroot Weapons&r for more details on the new Weapon types. \\n\\nThe Crossbow doesn't do anything new, but atleast we have a Shield again!",
+  ],
+  "task.7A561765EB6BBAE1.title": "Aeroclouds",
+  "quest.2655C88A18B11FD3.quest_desc": [
+    "There's quite a few &2Skyroot Weapons&r now. \\n\\nEach of the Melee Weapons will grant a small Level of Looting because they're made of &2Skyroot&r. \\n\\nThe Sword will do a Slash Attack. The Pike will Pierce which can Hit Mobs behind the one being Hit. The Hammer will deal Impact Damage which does a bit of Damage to Mobs close to the Mob Hit and will Knock them back. \\n\\nDifferent Mobs take more or less Damage from each Damage type (Slash, Pierce, and Impact) check out the Guidebook to find out more. \\n\\nWe also have the &2Crossbow&r which when we Shift it will Shoot out 2 Arrows at once! \\n\\nPlus the &2Shield&r, it's not the best at Blocking Damage but it is only &2Skyroot&r.",
+  ],
+  "quest.6C19B3FE5D203A39.title": "&dGreatroot Trees",
+  "quest.5D51DA2ADA9D2A52.title": "&8Sentry Ruins",
+  "quest.4FAAD7AF09199D36.title": "&eShroudwing",
+  "task.111EAB7403B8BF43.title": "Burrukai Armor",
+  "quest.78C6DA6586A53604.quest_desc": [
+    "These Aeroclouds are special and will interact with you differently than the others. \\n\\n&bBlue Aeroclouds&r will bounce you high in the Sky! Like Slime! \\n\\n&aGreen&r will do the opposite, it will throw you below it. Avoid &aGreen Aeroclouds&r. \\n\\n&5Purple&r will move you in the way the Wind is blowing. Look at the Particles to figure out the direction.",
+  ],
+  "quest.681258611298BE3E.quest_desc": [
+    "The Sheer Tundra is like if you took a Plains Biome and sprinkled some Snow on it. \\n\\nYou'll find Arctic Ice and &dSkypines&r around here. \\n\\nThis is definitely an Arctic Biome.",
+  ],
+  "quest.24842B5F76063992.quest_desc": [
+    "Hestveil Caverns spawn underground. \\n\\nHere you'll find Pools of &aAlkahest&r. \\n\\nDon't Swim in it!",
+  ],
+  "quest.21F92193BD6CABC4.title": "Verdant Woods",
+  "quest.2E6D1418F8B30844.quest_desc": [
+    "&bSwets&r are Hostile Mobs that Spawn anywhere in the &e&lAether&r. Both are bouncey Cubes. \\n\\nBoth &bSwets&r have 8 &4Hearts&r. \\n\\n&bBlue Swets&r will jump and latch on to you. Then, they'll slowly drain your Hunger. \\n\\nThey won't do any Damage, just fatten themselves up on your saturation. \\n\\n&eGolden Swets&r do the same exact thing just slightly quicker. \\n\\nBoth Drop &bSwet Sugar&r and &bSwet Gel&r. ",
+  ],
+  "quest.1215C8E73624FD13.quest_desc": [
+    "Arkenium Canisters can be used to Hold either &aAlkahest&r or &7Hestveil&r. \\n\\nBoth are Gasses we can find within the &e&lAether&r. \\n\\n&7Hestveil&r works as Furnace Fuel. \\n\\n&aAlkahest&r works with the &aAlkahest Purifier&r to cure &4Irradiated Items&f and &4Blocks&r.",
+  ],
+  "quest.0BEF0E35658DF079.quest_desc": [
+    "The Magnetic Scar is the Magnetic version of the Plains Biome. \\n\\nThey're pretty boring... \\n\\nI think they might be a Magnetic Biome.",
+  ],
+  "quest.322884B25C85E0E8.quest_desc": [
+    "&9Neptune Armor&r has 15 Armor Points and 4 Armor Toughness. Similar to &5Zanite&r! \\n\\nWhen wearing all pieces (including the &9Plate Guards&r) you'll be granted the ability to Walk on &9Water&r.",
+  ],
+  "task.30D3CC46C74DA2CD.title": "Special Aeroclouds",
+  "quest.0C6C92917A0A102A.title": "Veradexian Ruins",
+  "quest.1FB709FA3139065C.quest_desc": [
+    "Animal Dens are tiny homes made of &2Woven Skyroot Sticks&r. \\n\\nThere'll be an Animal Stash full of Food and Drops you can Loot.",
+  ],
+  "quest.1317CD842F94846B.title": "&7Holystone Weapons",
+  "quest.3E3759DCD27F3FA5.title": "Watchtowers",
+  "quest.78EA49E5C10CF29C.quest_desc": [
+    "&dGravitite&r is the best Ingot we can find in the &e&lAether&r. It'll need Arkenium or &bDiamond Pickaxe&r to Mine. \\n\\nJust like Arkenium it'll start out as Inert, you'll need to &5Enchant&r it in an &5Altar&r. \\n\\nThis time it'll need 4 &eAmbrosium Shards&r.",
+  ],
+  "quest.16C0536FFB90668A.quest_desc": [
+    "&3Carrion Sprouts&r act like little Pressure Plate Traps. \\n\\nWhen you step on them when they're open, they'll trap you and deal Damage. \\nThey have 4 &4Hearts&r but can only be Damaged from a Trowel. \\n\\nOnce weeded out, they'll Drop &3Wyndberries&r and &3Carrion Cutting&r.",
+  ],
+  "quest.4BDFADF0E8A49DF3.quest_desc": [
+    "&eAmbrosium&r is the &0Coal&r of the &e&lAether&r. \\n\\nIt can be used to make Light Sources like Torches and Lanterns. \\n\\nThey can also be used to &5Enchant&r things. Like Fuel in the &5Altar&r, or just being used on &2Grass&r.",
+  ],
+  "quest.0C6C92917A0A102A.quest_desc": [
+    "Veradexian Ruins also spawn in Arctic and Highfield Biomes. \\n\\nLike the Library Structures they spawn with Vases. \\n\\nUnlike Library Structures, there's no cool basement...",
+    "{image:atm:textures/questpics/aether/aether_asomethingruin.png width:200 height:100 align:center}",
+  ],
+  "quest.78C86403B4F8D382.title": "&eAether Portal",
+  "quest.3554892518642473.quest_desc": [
+    "Okay we Egg-napped now how do we make our baby... I'm going to rephrase that. \\n\\nTo Hatch our &bEgg&r place it on a Block of &2Woven Skyroot Sticks&r. Don't reuse the &bMoa's Nest&r, that's just cruel. \\n\\nOver time it'll shake and give off particles before Hatching a &bBaby Moa&r. \\n\\nTo Grow the Baby will need &bMoa Feed&r which is Crafted from &dAechor Petals&r (Drops from &dAechor Plants&r) and &2Skyroot Pinecones&r (which come from any Tree in the &e&lAether&r). \\n\\nOnce fully grown you can put a Saddle on them to Ride them and equip other Items. Like Saddlebags which will give Storage.",
+  ],
+  "quest.6AF942CA0323094C.quest_desc": [
+    "&7Sentry Boots&r will stop Knockback and resist a ton of Fall Damage (not all).",
+  ],
+  "quest.4FAAD7AF09199D36.quest_desc": [
+    "&eShroudwings&r are some sorta Bug that spawn usually near Glistening Swamps. \\n\\nThey have 3 &4Hearts&r and come in a variety of Colors.",
+  ],
+}

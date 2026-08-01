@@ -9,7 +9,6 @@
   filename: "refined_storage",
   default_quest_shape: "diamond",
   default_hide_dependency_lines: false,
-  progression_mode: "flexible",
   quests: [
     {
       icon: {
@@ -2030,6 +2029,7 @@
       y: -2.5,
       dependencies: [
         "6B04FC81351CD1AB",
+        "34EF755F3B46CD13",
       ],
       hide_until_deps_complete: true,
       id: "5CAC395680027354",
@@ -2069,6 +2069,7 @@
       y: 1.0,
       dependencies: [
         "7604D8B3C9FCCFD9",
+        "34EF755F3B46CD13",
       ],
       id: "0945EC53626F58E6",
       tasks: [
@@ -2288,6 +2289,18 @@
           id: "360090EAFFA816F5",
           type: "random",
           exclude_from_claim_all: true,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 1.0,
+      invisible: true,
+      id: "34EF755F3B46CD13",
+      tasks: [
+        {
+          id: "72260FADFEFE0095",
+          type: "checkmark",
         },
       ],
     },

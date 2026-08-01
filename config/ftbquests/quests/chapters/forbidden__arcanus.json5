@@ -3,10 +3,12 @@
   group: "02FE661031A105D8",
   order_index: 3,
   icon: {
-    id: "ftbquests:missing_item",
+    id: "forbidden_arcanus:hephaestus_forge",
     count: 1,
     components: {
-      "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_1",
+      "minecraft:block_state": {
+        forge_tier: "1",
+      },
     },
   },
   filename: "forbidden__arcanus",
@@ -15,10 +17,12 @@
   quests: [
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "forbidden_arcanus:hephaestus_forge",
         count: 1,
         components: {
-          "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_1",
+          "minecraft:block_state": {
+            forge_tier: "1",
+          },
         },
       },
       x: 2.5,
@@ -463,10 +467,14 @@
           id: "6D21710E315BC55A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:blood_test_tube",
             count: 1,
             components: {
-              "ftbquests:missing_item": "mob_grinding_utils:spikes",
+              "forbidden_arcanus:essence_storage": {
+                type: "blood",
+                amount: 3000,
+                limit: 3000,
+              },
             },
           },
         },
@@ -485,11 +493,8 @@
           id: "659DCADAC821ECB7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:condensed_experience",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
-            },
           },
         },
       ],
@@ -498,11 +503,8 @@
           id: "6D9CC88499D544BC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:condensed_experience",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
-            },
           },
           count: 2,
         },
@@ -523,18 +525,17 @@
       id: "185DBBDD252CBA0C",
       tasks: [
         {
-          id: "39FEA97553B2367A",
-          type: "observation",
-          icon: {
-            id: "ftbquests:missing_item",
+          id: "506EE07D0282F208",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:hephaestus_forge",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_1",
+              "minecraft:block_state": {
+                forge_tier: "1",
+              },
             },
           },
-          timer: 0,
-          observation_type: "block",
-          to_observe: "forbidden_arcanus:hephaestus_forge_tier_1",
         },
       ],
       rewards: [
@@ -542,10 +543,14 @@
           id: "5887F69034646D2E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:blood_test_tube",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+              "forbidden_arcanus:essence_storage": {
+                type: "blood",
+                amount: 3000,
+                limit: 3000,
+              },
             },
           },
         },
@@ -571,11 +576,8 @@
           id: "028B4921077EBC5A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:condensed_experience",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
-            },
           },
           count: 5,
         },
@@ -593,18 +595,17 @@
       id: "050CD33E92601651",
       tasks: [
         {
-          id: "7F1B7BC6D0BE42BB",
-          type: "observation",
-          icon: {
-            id: "ftbquests:missing_item",
+          id: "313300B60A3C95D4",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:hephaestus_forge",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_2",
+              "minecraft:block_state": {
+                forge_tier: "2",
+              },
             },
           },
-          timer: 0,
-          observation_type: "block",
-          to_observe: "forbidden_arcanus:hephaestus_forge_tier_2",
         },
       ],
       rewards: [
@@ -621,10 +622,14 @@
           id: "117961562D453208",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:blood_test_tube",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+              "forbidden_arcanus:essence_storage": {
+                type: "blood",
+                amount: 3000,
+                limit: 3000,
+              },
             },
           },
         },
@@ -641,11 +646,8 @@
           id: "460FECA4973A1F25",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:condensed_experience",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
-            },
           },
           count: 5,
         },
@@ -782,18 +784,17 @@
       id: "46567ED894E9883C",
       tasks: [
         {
-          id: "114F4D54018B45EE",
-          type: "observation",
-          icon: {
-            id: "ftbquests:missing_item",
+          id: "1E17A774ACBFDB72",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:hephaestus_forge",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_3",
+              "minecraft:block_state": {
+                forge_tier: "3",
+              },
             },
           },
-          timer: 0,
-          observation_type: "block",
-          to_observe: "forbidden_arcanus:hephaestus_forge_tier_3",
         },
       ],
       rewards: [
@@ -810,10 +811,14 @@
           id: "1116758FF1868EEB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:blood_test_tube",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+              "forbidden_arcanus:essence_storage": {
+                type: "blood",
+                amount: 3000,
+                limit: 3000,
+              },
             },
           },
           count: 2,
@@ -831,11 +836,8 @@
           id: "2E8E7B0E6243FD22",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:condensed_experience",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
-            },
           },
           count: 10,
         },
@@ -892,11 +894,8 @@
           id: "0F027FED60D85419",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:condensed_experience",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
-            },
           },
           count: 10,
         },
@@ -972,18 +971,17 @@
       id: "6BA2BC09E23B34A9",
       tasks: [
         {
-          id: "6C4DA123838166A7",
-          type: "observation",
-          icon: {
-            id: "ftbquests:missing_item",
+          id: "336D8A49CA0CDBE1",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:hephaestus_forge",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_4",
+              "minecraft:block_state": {
+                forge_tier: "4",
+              },
             },
           },
-          timer: 0,
-          observation_type: "block",
-          to_observe: "forbidden_arcanus:hephaestus_forge_tier_4",
         },
       ],
       rewards: [
@@ -1000,10 +998,14 @@
           id: "14126A365CECF184",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:blood_test_tube",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+              "forbidden_arcanus:essence_storage": {
+                type: "blood",
+                amount: 3000,
+                limit: 3000,
+              },
             },
           },
           count: 3,
@@ -1021,11 +1023,8 @@
           id: "4850F9B9A12B1EF5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:condensed_experience",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
-            },
           },
           count: 15,
         },
@@ -1102,18 +1101,17 @@
       id: "15849165CA8C00F9",
       tasks: [
         {
-          id: "7878654529FB7236",
-          type: "observation",
-          icon: {
-            id: "ftbquests:missing_item",
+          id: "58CC4131BF3DF799",
+          type: "item",
+          item: {
+            id: "forbidden_arcanus:hephaestus_forge",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_5",
+              "minecraft:block_state": {
+                forge_tier: "5",
+              },
             },
           },
-          timer: 0,
-          observation_type: "block",
-          to_observe: "forbidden_arcanus:hephaestus_forge_tier_5",
         },
       ],
       rewards: [
@@ -1130,10 +1128,14 @@
           id: "7BA2DABC81C2F572",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:blood_test_tube",
             count: 1,
             components: {
-              "ftbquests:missing_item": "forbidden_arcanus:blood_test_tube",
+              "forbidden_arcanus:essence_storage": {
+                type: "blood",
+                amount: 3000,
+                limit: 3000,
+              },
             },
           },
           count: 4,
@@ -1151,24 +1153,10 @@
           id: "6BF3392D003B3882",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:condensed_experience",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "forbidden_arcanus:xpetrified_orb",
-            },
           },
           count: 20,
-        },
-        {
-          id: "2959A3E2AC7AD0FA",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "industrialization_overdrive:terminal",
-            },
-          },
         },
       ],
     },
@@ -1301,11 +1289,8 @@
           id: "3CE3D28560E57A92",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "forbidden_arcanus:ecto_blaster",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "forbidden_arcanus:soul_extractor",
-            },
           },
         },
       ],
@@ -1834,6 +1819,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "15849165CA8C00F9",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_complete: true,
       size: 1.3,
@@ -1893,6 +1879,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "15849165CA8C00F9",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_complete: true,
       size: 1.5,
@@ -1942,6 +1929,7 @@
       shape: "hexagon",
       dependencies: [
         "3227846235A60B58",
+        "5A0029385B94C43C",
       ],
       size: 1.3,
       id: "3C5A5432E6B1EF9E",
@@ -1992,6 +1980,7 @@
       shape: "hexagon",
       dependencies: [
         "00F2C4A528873A6B",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_visible: true,
       size: 1.5,
@@ -2106,6 +2095,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "15849165CA8C00F9",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_complete: true,
       size: 1.3,
@@ -2148,6 +2138,7 @@
       shape: "hexagon",
       dependencies: [
         "3227846235A60B58",
+        "5A0029385B94C43C",
       ],
       size: 1.3,
       id: "0C25F73C0E0FB22A",
@@ -2175,6 +2166,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "15849165CA8C00F9",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_complete: true,
       id: "0BCC79C1D002F532",
@@ -2221,6 +2213,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "15849165CA8C00F9",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_complete: true,
       id: "1D94F59F13667DCF",
@@ -2255,6 +2248,7 @@
         "1D94F59F13667DCF",
         "3DF1435A15515DA9",
         "798B592E956AD28C",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_visible: true,
       size: 1.3,
@@ -2288,6 +2282,7 @@
         "798B592E956AD28C",
         "12256A90B1CE3F90",
         "0BCC79C1D002F532",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_visible: true,
       size: 1.3,
@@ -2319,6 +2314,7 @@
       y: 0.5,
       dependencies: [
         "3C5A5432E6B1EF9E",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_visible: true,
       size: 1.3,
@@ -2350,6 +2346,7 @@
       y: 0.5,
       dependencies: [
         "0C25F73C0E0FB22A",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_visible: true,
       size: 1.3,
@@ -2386,6 +2383,7 @@
         "67258590FA14BE44",
         "0DC0E236C8213050",
         "0447551EF7FB171B",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_visible: true,
       size: 2.0,
@@ -2417,6 +2415,7 @@
       shape: "gear",
       dependencies: [
         "0D61473D7A09CD48",
+        "5A0029385B94C43C",
       ],
       size: 1.3,
       id: "3B5DEB942752B3BF",
@@ -2462,6 +2461,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "15849165CA8C00F9",
+        "5A0029385B94C43C",
       ],
       hide_until_deps_complete: true,
       size: 1.3,
@@ -2502,6 +2502,18 @@
             },
           },
           count: 3,
+        },
+      ],
+    },
+    {
+      x: 25.0,
+      y: 2.0,
+      invisible: true,
+      id: "5A0029385B94C43C",
+      tasks: [
+        {
+          id: "28B62048D9D2DDAF",
+          type: "checkmark",
         },
       ],
     },

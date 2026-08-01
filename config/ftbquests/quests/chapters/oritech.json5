@@ -10,12 +10,16 @@
     },
   },
   filename: "oritech",
+  always_invisible: true,
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   quests: [
     {
       x: 0.5,
       y: 0.0,
+      dependencies: [
+        "4A19FA0912FE38B5",
+      ],
       size: 1.5,
       id: "0C9F9196CA49FF8D",
       tasks: [
@@ -42,6 +46,7 @@
       y: 2.0,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       id: "46EFCAE81C09368A",
       tasks: [
@@ -78,6 +83,7 @@
       dependencies: [
         "0C9F9196CA49FF8D",
         "58819CE09A648A43",
+        "4A19FA0912FE38B5",
       ],
       id: "6134991F25B25B42",
       tasks: [
@@ -113,6 +119,7 @@
       y: 2.0,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       id: "58819CE09A648A43",
       tasks: [
@@ -154,6 +161,7 @@
       y: 0.0,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       id: "418E0A23EC74F320",
       tasks: [
@@ -188,6 +196,7 @@
       y: -2.0,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       id: "5F8363EC8F4499B6",
       tasks: [
@@ -235,6 +244,7 @@
       dependencies: [
         "6134991F25B25B42",
         "5F8363EC8F4499B6",
+        "4A19FA0912FE38B5",
       ],
       id: "35BC118040E7428F",
       tasks: [
@@ -281,6 +291,7 @@
       y: 2.0,
       dependencies: [
         "35BC118040E7428F",
+        "4A19FA0912FE38B5",
       ],
       optional: true,
       id: "01C0DC225CB25A0C",
@@ -303,6 +314,7 @@
       y: 0.0,
       dependencies: [
         "35BC118040E7428F",
+        "4A19FA0912FE38B5",
       ],
       id: "5189D72ED3808DC6",
       tasks: [
@@ -325,6 +337,7 @@
       y: -2.0,
       dependencies: [
         "6134991F25B25B42",
+        "4A19FA0912FE38B5",
       ],
       id: "1F139091C1B4E50B",
       tasks: [
@@ -348,6 +361,7 @@
       dependencies: [
         "5189D72ED3808DC6",
         "1F139091C1B4E50B",
+        "4A19FA0912FE38B5",
       ],
       id: "7084E47579D62B52",
       tasks: [
@@ -369,6 +383,7 @@
       y: -2.0,
       dependencies: [
         "418E0A23EC74F320",
+        "4A19FA0912FE38B5",
       ],
       id: "1B2BD489D5173B40",
       tasks: [
@@ -390,6 +405,7 @@
       y: -2.0,
       dependencies: [
         "5F8363EC8F4499B6",
+        "4A19FA0912FE38B5",
       ],
       id: "55DCCC4035B8BB2A",
       tasks: [
@@ -414,6 +430,7 @@
         "55DCCC4035B8BB2A",
         "1B2BD489D5173B40",
         "7084E47579D62B52",
+        "4A19FA0912FE38B5",
       ],
       size: 1.5,
       id: "0EC0F93FA4B4BE49",
@@ -449,6 +466,7 @@
       y: -4.5,
       dependencies: [
         "6134991F25B25B42",
+        "4A19FA0912FE38B5",
       ],
       id: "3EB34CC8A3B0DB3C",
       tasks: [
@@ -471,6 +489,7 @@
       y: -6.5,
       dependencies: [
         "0EC0F93FA4B4BE49",
+        "4A19FA0912FE38B5",
       ],
       id: "290C1416EA2B5DF2",
       tasks: [
@@ -493,6 +512,7 @@
       y: -6.5,
       dependencies: [
         "290C1416EA2B5DF2",
+        "4A19FA0912FE38B5",
       ],
       id: "38F4448F9603FE68",
       tasks: [
@@ -515,6 +535,7 @@
       y: -8.5,
       dependencies: [
         "38F4448F9603FE68",
+        "4A19FA0912FE38B5",
       ],
       id: "49D03933633D6A45",
       tasks: [
@@ -537,6 +558,7 @@
       y: -8.5,
       dependencies: [
         "49D03933633D6A45",
+        "4A19FA0912FE38B5",
       ],
       id: "53880926982968FD",
       tasks: [
@@ -567,6 +589,7 @@
       dependencies: [
         "3EB34CC8A3B0DB3C",
         "53880926982968FD",
+        "4A19FA0912FE38B5",
       ],
       size: 3.0,
       id: "1D9A00C81C2A97F0",
@@ -596,6 +619,7 @@
       y: 3.5,
       dependencies: [
         "3FF39D583134AA8D",
+        "4A19FA0912FE38B5",
       ],
       id: "2A69272FD3C57924",
       tasks: [
@@ -624,6 +648,7 @@
       y: 3.5,
       dependencies: [
         "2A69272FD3C57924",
+        "4A19FA0912FE38B5",
       ],
       id: "4ED29ACF4A699E1B",
       tasks: [
@@ -652,6 +677,7 @@
       y: 3.5,
       dependencies: [
         "4ED29ACF4A699E1B",
+        "4A19FA0912FE38B5",
       ],
       id: "6EBFA16D212A7B22",
       tasks: [
@@ -680,6 +706,7 @@
       y: 3.5,
       dependencies: [
         "6EBFA16D212A7B22",
+        "4A19FA0912FE38B5",
       ],
       id: "114EACA9B32B32FB",
       tasks: [
@@ -708,6 +735,7 @@
       y: 2.0,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       id: "334AB2ED426108C7",
       tasks: [
@@ -744,6 +772,7 @@
       dependencies: [
         "334AB2ED426108C7",
         "418E0A23EC74F320",
+        "4A19FA0912FE38B5",
       ],
       id: "724D8421684A5161",
       tasks: [
@@ -766,6 +795,7 @@
       y: 2.0,
       dependencies: [
         "334AB2ED426108C7",
+        "4A19FA0912FE38B5",
       ],
       id: "175509632CBF8631",
       tasks: [
@@ -787,6 +817,7 @@
       y: 0.0,
       dependencies: [
         "418E0A23EC74F320",
+        "4A19FA0912FE38B5",
       ],
       id: "310FA9380CB3E0BB",
       tasks: [
@@ -809,6 +840,7 @@
       dependencies: [
         "175509632CBF8631",
         "310FA9380CB3E0BB",
+        "4A19FA0912FE38B5",
       ],
       id: "3DD27DED791C6A0B",
       tasks: [
@@ -837,6 +869,7 @@
       y: 2.0,
       dependencies: [
         "35BC118040E7428F",
+        "4A19FA0912FE38B5",
       ],
       id: "50243E5CF1B156ED",
       tasks: [
@@ -873,6 +906,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "5E9AF8BB2C67DCCE",
@@ -943,6 +977,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "7D2F41DD9774DDA7",
@@ -1018,6 +1053,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "208F759905CF7744",
@@ -1054,6 +1090,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "53D5A6F210DF199C",
@@ -1100,6 +1137,7 @@
       hide_dependent_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "124CD4B8876B81F6",
@@ -1148,6 +1186,7 @@
       hide_dependent_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "6539582429A70EE8",
@@ -1179,6 +1218,7 @@
       hide_dependent_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "7937DE650CABC1FF",
@@ -1213,6 +1253,7 @@
       hide_dependent_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "161EDD68FF1A7F1B",
@@ -1250,6 +1291,7 @@
       hide_dependent_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "02315D55EB638E3C",
@@ -1288,6 +1330,7 @@
       hide_dependent_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "1630CFBFB562C43B",
@@ -1312,6 +1355,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "24310BEACE75749D",
@@ -1327,6 +1371,7 @@
       y: -1.0,
       dependencies: [
         "24310BEACE75749D",
+        "4A19FA0912FE38B5",
       ],
       id: "70FAD4013FA8A14A",
       tasks: [
@@ -1348,6 +1393,7 @@
       y: 0.5,
       dependencies: [
         "24310BEACE75749D",
+        "4A19FA0912FE38B5",
       ],
       id: "1831B35A3239B583",
       tasks: [
@@ -1369,6 +1415,7 @@
       y: 2.0,
       dependencies: [
         "24310BEACE75749D",
+        "4A19FA0912FE38B5",
       ],
       id: "6FFD0301AC8C83ED",
       tasks: [
@@ -1391,6 +1438,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "24310BEACE75749D",
+        "4A19FA0912FE38B5",
       ],
       id: "72E7AE66F2A7C4C4",
       tasks: [
@@ -1413,6 +1461,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "24310BEACE75749D",
+        "4A19FA0912FE38B5",
       ],
       id: "11A4C57600E692EC",
       tasks: [
@@ -1435,6 +1484,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "24310BEACE75749D",
+        "4A19FA0912FE38B5",
       ],
       id: "4CFA7EE8174E3FD8",
       tasks: [
@@ -1457,6 +1507,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "5932B5AD48F6AB74",
@@ -1479,6 +1530,7 @@
       y: 0.5,
       dependencies: [
         "24310BEACE75749D",
+        "4A19FA0912FE38B5",
       ],
       size: 1.3,
       id: "7032AC2B9066CC39",
@@ -1508,6 +1560,7 @@
       y: -1.5,
       dependencies: [
         "418E0A23EC74F320",
+        "4A19FA0912FE38B5",
       ],
       id: "1DBF1D4061518B0B",
       tasks: [
@@ -1522,6 +1575,7 @@
       y: -3.0,
       dependencies: [
         "1DBF1D4061518B0B",
+        "4A19FA0912FE38B5",
       ],
       id: "74AD63F738A5441F",
       tasks: [
@@ -1568,6 +1622,7 @@
       y: -4.5,
       dependencies: [
         "74AD63F738A5441F",
+        "4A19FA0912FE38B5",
       ],
       id: "4EAD06B0B3AD7D6E",
       tasks: [
@@ -1596,6 +1651,7 @@
       y: -6.0,
       dependencies: [
         "4EAD06B0B3AD7D6E",
+        "4A19FA0912FE38B5",
       ],
       id: "7CBAD1047B087803",
       tasks: [
@@ -1624,6 +1680,7 @@
       y: -8.0,
       dependencies: [
         "7CBAD1047B087803",
+        "4A19FA0912FE38B5",
       ],
       id: "4F89C04CEBF812F9",
       tasks: [
@@ -1654,6 +1711,7 @@
       hide_dependency_lines: true,
       dependencies: [
         "0C9F9196CA49FF8D",
+        "4A19FA0912FE38B5",
       ],
       size: 2.0,
       id: "4B5EBB46A1E58D53",
@@ -1676,6 +1734,7 @@
       y: 3.5,
       dependencies: [
         "46EFCAE81C09368A",
+        "4A19FA0912FE38B5",
       ],
       id: "3FF39D583134AA8D",
       tasks: [
@@ -1689,6 +1748,18 @@
               "ftbquests:missing_item": "oritech:machine_core_2",
             },
           },
+        },
+      ],
+    },
+    {
+      x: -3.5,
+      y: -6.5,
+      invisible: true,
+      id: "4A19FA0912FE38B5",
+      tasks: [
+        {
+          id: "3AD2B84CDFD7F730",
+          type: "checkmark",
         },
       ],
     },

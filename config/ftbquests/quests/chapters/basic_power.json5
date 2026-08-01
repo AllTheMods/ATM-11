@@ -12,7 +12,6 @@
   filename: "basic_power",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
-  progression_mode: "flexible",
   quests: [
     {
       x: 0.0,
@@ -73,6 +72,7 @@
       hide_dependency_lines: false,
       dependencies: [
         "42D173B9FF8D16E4",
+        "6AC8B243B15A311B",
       ],
       id: "48DC9E8E9D21A2FA",
       tasks: [
@@ -107,6 +107,7 @@
       shape: "rsquare",
       dependencies: [
         "42D173B9FF8D16E4",
+        "6AC8B243B15A311B",
       ],
       id: "11D09E918015355C",
       tasks: [
@@ -141,6 +142,7 @@
       shape: "rsquare",
       dependencies: [
         "42D173B9FF8D16E4",
+        "6AC8B243B15A311B",
       ],
       id: "0BB367839D28607D",
       tasks: [
@@ -245,6 +247,7 @@
       shape: "rsquare",
       dependencies: [
         "1F81EA5E45424308",
+        "6AC8B243B15A311B",
       ],
       id: "5C47935A3B2877FF",
       tasks: [
@@ -293,6 +296,7 @@
       shape: "hexagon",
       dependencies: [
         "4AB0DD227471FDBF",
+        "6AC8B243B15A311B",
       ],
       size: 1.5,
       id: "1F81EA5E45424308",
@@ -320,6 +324,7 @@
       shape: "rsquare",
       dependencies: [
         "1F81EA5E45424308",
+        "6AC8B243B15A311B",
       ],
       id: "7FE969CB4B419FC6",
       tasks: [
@@ -392,6 +397,7 @@
       shape: "rsquare",
       dependencies: [
         "76EA017B12E8F01B",
+        "6AC8B243B15A311B",
       ],
       id: "477B411F84342EEA",
       tasks: [
@@ -433,6 +439,7 @@
       shape: "rsquare",
       dependencies: [
         "76EA017B12E8F01B",
+        "6AC8B243B15A311B",
       ],
       id: "05B6DB75AEC01187",
       tasks: [
@@ -533,6 +540,7 @@
       shape: "rsquare",
       dependencies: [
         "5E41363F9AE243F3",
+        "6AC8B243B15A311B",
       ],
       min_width: 300,
       id: "0AEC181F5E21A299",
@@ -661,6 +669,7 @@
       shape: "gear",
       dependencies: [
         "477B411F84342EEA",
+        "6AC8B243B15A311B",
       ],
       size: 1.5,
       min_width: 250,
@@ -703,6 +712,7 @@
       shape: "pentagon",
       dependencies: [
         "1F81EA5E45424308",
+        "6AC8B243B15A311B",
       ],
       size: 1.25,
       min_width: 300,
@@ -754,6 +764,7 @@
       y: 3.5,
       dependencies: [
         "35CC898E0E49FE58",
+        "6AC8B243B15A311B",
       ],
       id: "1BE26A00A420DAE3",
       tasks: [
@@ -807,6 +818,7 @@
       y: 4.5,
       dependencies: [
         "1BE26A00A420DAE3",
+        "6AC8B243B15A311B",
       ],
       id: "5F078A574A783B02",
       tasks: [
@@ -882,6 +894,7 @@
       shape: "diamond",
       dependencies: [
         "36DEA17CBB696CC7",
+        "6AC8B243B15A311B",
       ],
       id: "56B6ABF3D6EA0D84",
       tasks: [
@@ -924,6 +937,7 @@
       shape: "diamond",
       dependencies: [
         "36DEA17CBB696CC7",
+        "6AC8B243B15A311B",
       ],
       id: "79AD74A863EA43CB",
       tasks: [
@@ -1002,6 +1016,7 @@
       shape: "diamond",
       dependencies: [
         "36DEA17CBB696CC7",
+        "6AC8B243B15A311B",
       ],
       min_width: 300,
       id: "27A4FA38992448A0",
@@ -1092,6 +1107,7 @@
       shape: "rsquare",
       dependencies: [
         "3BDB94F17765EE77",
+        "6AC8B243B15A311B",
       ],
       id: "0BB42C5861B22D32",
       tasks: [
@@ -1132,6 +1148,7 @@
       shape: "rsquare",
       dependencies: [
         "3BDB94F17765EE77",
+        "6AC8B243B15A311B",
       ],
       id: "43D83CFA824B0A70",
       tasks: [
@@ -1173,6 +1190,7 @@
       y: 6.0,
       dependencies: [
         "3BDB94F17765EE77",
+        "6AC8B243B15A311B",
       ],
       id: "2D4749DF9642F334",
       tasks: [
@@ -1213,6 +1231,7 @@
       shape: "rsquare",
       dependencies: [
         "76EA017B12E8F01B",
+        "6AC8B243B15A311B",
       ],
       id: "677D0C23D53A77CA",
       tasks: [
@@ -1247,6 +1266,7 @@
       shape: "diamond",
       dependencies: [
         "35CC898E0E49FE58",
+        "6AC8B243B15A311B",
       ],
       hide_until_deps_complete: true,
       optional: true,
@@ -1293,6 +1313,18 @@
           id: "00E3D3B0B266F9FE",
           type: "xp",
           xp: 100,
+        },
+      ],
+    },
+    {
+      x: -2.0,
+      y: 0.0,
+      invisible: true,
+      id: "6AC8B243B15A311B",
+      tasks: [
+        {
+          id: "0209198822776683",
+          type: "checkmark",
         },
       ],
     },

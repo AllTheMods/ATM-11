@@ -3,6 +3,7 @@
   "quest.7282DCB1547CEB63.quest_desc": [
     "&#ED9553Bronze&r will act as the building block of the &7&nSteam Age&r. Cooking this dust will get you the &#ED9553Bronze Ingots&r we'll further use.",
   ],
+  "quest.06F02863E2F74144.title": "NOT HERE YET",
   "quest.253822C64BBBB1EB.quest_desc": [
     "The &#6E6D6DForge Hammer&r will allow you to easily crush &#9AD5EDTin&r Ingots or Ore forms into its Dusts.",
   ],
@@ -38,7 +39,7 @@
   "quest.12FB3990CA1653A4.quest_desc": [
     "The &#DBA15ASteam Drill&r will be your best friend for early game mining. It is able to do a &53 by 3&r mining area as well as have a &#EEF768toggle-able silk touch&r.",
     "",
-    "You can toggle &53 by 3&r mining by pressing the keybind \\\"Toggle 3x3 Mining\\\" which is default set to &7'Y'&r.",
+    "You can toggle &53 by 3&r mining by pressing the keybind \"Toggle 3x3 Mining\" which is default set to &7'Y'&r.",
     "",
     "&#EEF768Silk Touch&r can be toggled by &7Sneak Right-Clicking&r the Steam Drill",
     "",

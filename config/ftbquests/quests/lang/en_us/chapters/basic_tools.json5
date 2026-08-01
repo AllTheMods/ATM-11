@@ -41,14 +41,14 @@
   "quest.36B9D5A99E1AA85C.quest_subtitle": "&f8 &cAttack Damage",
   "quest.252169A6EB4DD75B.quest_subtitle": "&f9 &cAttack Damage",
   "quest.16AAC61729C44881.quest_desc": [
-    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\\\n\\\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\\\n\\\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
+    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\n\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\n\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
   ],
   "quest.7EDF2CC08FC774F9.quest_subtitle": "&f10 &cAttack Damage",
   "task.68667F586AF5D058.title": "Just Dire Things Diamond Pickaxes",
   "quest.122282C288EAD366.quest_subtitle": "&f6 &cAttack Damage",
   "task.7EA0E7DF4C5C4858.title": "AE2 Pickaxes",
   "quest.7B1818D2C5C2BB18.quest_desc": [
-    "The Soulstrider's Pickaxe can be used to \\\"vein-mine\\\" chunks of ore.",
+    "The Soulstrider's Pickaxe can be used to \"vein-mine\" chunks of ore.",
   ],
   "quest.79EF24E396779B9F.quest_subtitle": "Tier: &f2",
   "quest.4DCEC4B97E24B6F1.quest_subtitle": "&f17 &cAttack Damage",
@@ -71,9 +71,10 @@
   "quest.744AC6BD82FC2DEE.quest_subtitle": "&f36 &cAttack Damage",
   "quest.3B542DC05240242C.quest_subtitle": "&f6 &cAttack Damage",
   "quest.5151CDD8FCDE7A07.quest_desc": [
-    "Welcome to Basic Tools!\\\\n\\\\nEver get a tool you've never seen or heard of and wanted to know where it lies among other tools? Then these quests are perfect for you!\\\\n\\\\n(The swords are sorted by base damage, swords that can be upgraded or used to get more damage are not included).\\\\n\\\\nThe quests for all the pickaxes and swords are OPTIONAL!",
+    "Welcome to Basic Tools!\n\nEver get a tool you've never seen or heard of and wanted to know where it lies among other tools? Then these quests are perfect for you!\n\n(The swords are sorted by base damage, swords that can be upgraded or used to get more damage are not included).\n\nThe quests for all the pickaxes and swords are OPTIONAL!",
   ],
   "quest.791A981914CE345F.quest_subtitle": "&f10 &cAttack Damage",
+  "quest.492541735EBE6B0C.title": "NOT HERE YET",
   "quest.6601450C63FEEE61.quest_desc": [
     "&bTier 3&r is Iron Pickaxe level, it mines most ores like Diamond, Emerald, and Gold.",
   ],

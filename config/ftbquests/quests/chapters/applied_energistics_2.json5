@@ -12,7 +12,6 @@
   filename: "applied_energistics_2",
   default_quest_shape: "rsquare",
   default_hide_dependency_lines: false,
-  progression_mode: "flexible",
   quests: [
     {
       icon: {
@@ -486,18 +485,6 @@
       id: "4E8A05C3BFA80540",
       tasks: [
         {
-          id: "74AA3FA06B3574A8",
-          type: "item",
-          optional_task: true,
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "ae2:chest",
-            },
-          },
-        },
-        {
           id: "58C4DF6CFBDF8577",
           type: "item",
           item: {
@@ -851,6 +838,7 @@
       dependencies: [
         "2C4616CD2EBB58C6",
         "5F56892CD904C40F",
+        "286AC3AA3D4A72BA",
       ],
       size: 1.5,
       id: "460A8F17F3ED6CAF",
@@ -886,6 +874,7 @@
       shape: "diamond",
       dependencies: [
         "460A8F17F3ED6CAF",
+        "286AC3AA3D4A72BA",
       ],
       id: "25DBA00422301EDC",
       tasks: [
@@ -920,6 +909,7 @@
       shape: "diamond",
       dependencies: [
         "25DBA00422301EDC",
+        "286AC3AA3D4A72BA",
       ],
       id: "0E809747193ED3A9",
       tasks: [
@@ -954,6 +944,7 @@
       shape: "diamond",
       dependencies: [
         "0E809747193ED3A9",
+        "286AC3AA3D4A72BA",
       ],
       id: "3CE3D9245F8EC005",
       tasks: [
@@ -988,6 +979,7 @@
       shape: "diamond",
       dependencies: [
         "3CE3D9245F8EC005",
+        "286AC3AA3D4A72BA",
       ],
       id: "51A57E142C686C8F",
       tasks: [
@@ -2433,6 +2425,7 @@
       y: 0.5,
       dependencies: [
         "361CCBD353D6FF34",
+        "286AC3AA3D4A72BA",
       ],
       id: "0F03E75CF79BADD7",
       tasks: [
@@ -2467,6 +2460,7 @@
       dependencies: [
         "0B218DD73FE8D985",
         "16299B9AE87257DC",
+        "286AC3AA3D4A72BA",
       ],
       id: "4B76FE0348DB0E45",
       tasks: [
@@ -2563,6 +2557,18 @@
       tasks: [
         {
           id: "2923D1E2BEAF94B0",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 13.5,
+      y: 8.0,
+      invisible: true,
+      id: "286AC3AA3D4A72BA",
+      tasks: [
+        {
+          id: "73A0AE462F0AE9AE",
           type: "checkmark",
         },
       ],

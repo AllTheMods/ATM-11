@@ -9,6 +9,7 @@
   filename: "integrated_dynamics",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
+  progression_mode: "flexible",
   quests: [
     {
       icon: {
@@ -791,9 +792,6 @@
           item: {
             id: "integrateddynamics:energy_battery",
             count: 1,
-            components: {
-              "cyclopscore:energy_storage": 0,
-            },
           },
         },
         {
@@ -829,9 +827,6 @@
           item: {
             id: "integrateddynamics:energy_battery",
             count: 1,
-            components: {
-              "cyclopscore:energy_storage": 0,
-            },
           },
         },
         {

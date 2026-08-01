@@ -35,6 +35,7 @@
   "quest.50F97171D25CD2EE.quest_desc": [
     "&#6EDDFFTurbo Upgrades&r add &#FFEB6E512EU/t&r of capacity per upgrade.",
   ],
+  "quest.32D3818F3455F152.title": "NOT HERE YET",
   "quest.7AF6C95816E82861.quest_desc": [
     "&#5B75D4Chemically Reacting&r the &#8F49C4Deuterium&r with &#AABBFAOxygen&r will give us &#9C51DBHeavy Water&r. This can be put back into the &#45BF56Reactor&r.",
   ],
@@ -78,7 +79,7 @@
   "quest.66E78F599CD50579.quest_desc": [
     "The &#49C472Nuclear Reactor&r allows you to process for higher end resources. We will be using it to generate &#8F49C4Deuterium&r and &#EB5266Tritium&r.",
     "",
-    "This resource list will help you build a \\\"Large\\\" Reactor. Any smaller size is not recommended due to its speed and efficiency.",
+    "This resource list will help you build a \"Large\" Reactor. Any smaller size is not recommended due to its speed and efficiency.",
     "{@pagebreak}",
     "The details of making an efficient reactor are far too complicated to be provided here. I will provide you with the best designs possible here though.",
     "",

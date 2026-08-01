@@ -9,7 +9,7 @@
   "quest.2ACFD25B43F0499C.quest_subtitle": "Ipe + Luck",
   "quest.15FF9D19FBC873CF.quest_subtitle": "Plum + Peach",
   "quest.76A0592F4C294545.quest_desc": [
-    "The Sawmill cuts Logs into Sawdust and more Planks than you would get from crafting. Sawdust can be used to make Paper.\\\\n\\\\n - Fustic Logs will also give you Fustic.\\\\n - Brazilwood Logs and Logwood Logs will also give you Haematoxylin.",
+    "The Sawmill cuts Logs into Sawdust and more Planks than you would get from crafting. Sawdust can be used to make Paper.\n\n - Fustic Logs will also give you Fustic.\n - Brazilwood Logs and Logwood Logs will also give you Haematoxylin.",
   ],
   "quest.0480DF316ACF12DA.quest_subtitle": "Western Hemlock + Jungle",
   "quest.6255E2FE6DD4084A.quest_subtitle": "Holly + Alder",
@@ -64,7 +64,7 @@
   "quest.4D562F5D72038083.quest_subtitle": "Alder + European Larch",
   "quest.054F3A0499F8A0D8.quest_subtitle": "Sweet Chestnut + Capoazu",
   "quest.25D8BE0280B6E7F1.quest_desc": [
-    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\\\n\\\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\\\n\\\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
+    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \n\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \n\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
   ],
   "quest.29FA0E9664935566.quest_subtitle": "Balsa + Cacao",
   "quest.7D7DC3C695CD7236.quest_subtitle": "Silver Lime + Spruce",
@@ -82,7 +82,7 @@
   "quest.77D3546953550E39.quest_subtitle": "Bull Pine + Spruce",
   "quest.75CE67D3AA75C798.quest_subtitle": "Red Delicious Apple + Granny Smith Apple",
   "quest.5577F49A93ADB19C.quest_desc": [
-    "&lProductive Trees&r is a sister Mod to &lProductive Bees&r.\\\\n\\\\nIn order to get the different Trees you will need Pollinated Leaves. To get Pollinated Leaves you need Pollen. For Pollen you need Bees.\\\\n\\\\nBees flowering near the Trees will automatically Pollinate Leaves, or you can use a Pollen Sieve Upgrade in the Hive to get and use Pollen yourself! Have one on the house!",
+    "&lProductive Trees&r is a sister Mod to &lProductive Bees&r.\n\nIn order to get the different Trees you will need Pollinated Leaves. To get Pollinated Leaves you need Pollen. For Pollen you need Bees.\n\nBees flowering near the Trees will automatically Pollinate Leaves, or you can use a Pollen Sieve Upgrade in the Hive to get and use Pollen yourself! Have one on the house!",
   ],
   "quest.4C3B7BAEA653587B.quest_desc": [
     "These can be found in chests inside Desert Pyramids.",
@@ -187,7 +187,7 @@
   "quest.052BE1D845794702.quest_subtitle": "Teak + Acacia",
   "quest.45D1FFB263CD722D.quest_subtitle": "Teak + Clove",
   "quest.0661E9669E639621.quest_desc": [
-    "Some saplings can't be pollinated. These saplings have a random chance to grow into another tree.\\\\n\\\\nFor example if you want to get a &4Red Crepe Myrtle Sapling&r, first grow a Purple Crepe Myrtle Sapling. You will have a chance to get a &4Red Crepe Myrtle Tree&r from that.\\\\n\\\\nThe chance of mutation is low so keep growing the tree again and again.",
+    "Some saplings can't be pollinated. These saplings have a random chance to grow into another tree.\n\nFor example if you want to get a &4Red Crepe Myrtle Sapling&r, first grow a Purple Crepe Myrtle Sapling. You will have a chance to get a &4Red Crepe Myrtle Tree&r from that.\n\nThe chance of mutation is low so keep growing the tree again and again.",
   ],
   "quest.20DDAC076A2479A8.quest_subtitle": "Purple Spiral + Sparkle Cherry",
   "quest.70F7B018CD61E946.quest_subtitle": "Dark Oak + Jungle",
