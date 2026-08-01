@@ -634,7 +634,6 @@
       shape: "octagon",
       dependencies: [
         "2063337BB2DEAB00",
-        "5159B6673D6D5ACE",
       ],
       size: 1.2,
       id: "34A822487EEF2A2A",
@@ -673,6 +672,9 @@
       x: 0.0,
       y: 17.5,
       shape: "gear",
+      dependencies: [
+        "34A822487EEF2A2A",
+      ],
       size: 1.5,
       id: "5159B6673D6D5ACE",
       tasks: [
