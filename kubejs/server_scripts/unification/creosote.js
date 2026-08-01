@@ -88,7 +88,7 @@ ServerEvents.recipes((allthemods) => {
       .id("modern_industrialization:vanilla_recipes/assembler/rail")
   }
 
-  if (Platform.isLoaded("oritech")) {
+  if (Platform.isLoaded("oritech") && Platform.isLoaded("immersiveengineering")) {
     allthemods
       .custom({
         "neoforge:conditions": [
@@ -97,18 +97,17 @@ ServerEvents.recipes((allthemods) => {
             modid: "immersiveengineering"
           }
         ],
-        type: "oritech:centrifuge_fluid",
+        type: "oritech:machine_recipe",
+        recipeType: "oritech:centrifuge_fluid",
         fluidInput: {
           amount: 125,
-          fluid: "#c:creosote"
+          ingredient: "#c:creosote"
         },
         fluidOutputs: [],
-        ingredients: [
-          {
-            tag: "minecraft:planks"
-          }
+        itemInputs: [
+          "#minecraft:planks"
         ],
-        results: [
+        itemResults: [
           {
             count: 1,
             id: "immersiveengineering:treated_wood_horizontal"

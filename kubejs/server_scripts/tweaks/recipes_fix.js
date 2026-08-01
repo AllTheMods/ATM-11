@@ -25,7 +25,7 @@ ServerEvents.generateData("after_mods", (allthemods) => {
       "count": 1
     }
   }
-  
+
   allthemods.json("mysticalagriculture:recipe/essence/appliedenergistics2/engineering_press.json", json)
 
   json = {
@@ -54,7 +54,7 @@ ServerEvents.generateData("after_mods", (allthemods) => {
       "count": 1
     }
   }
-  
+
   allthemods.json("mysticalagriculture:recipe/essence/appliedenergistics2/logic_press.json", json)
 
   json = {
@@ -126,4 +126,70 @@ ServerEvents.generateData("after_mods", (allthemods) => {
 
   allthemods.json("productivebees:recipe/forbidden_arcanus/clibano_combustion/deorum_bee.json", json)
 
+  json = {
+    "neoforge:conditions": [
+      {
+        "type": "neoforge:mod_loaded",
+        "modid": "patchouli"
+      }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "laserio:logic_chip",
+      "minecraft:book"
+    ],
+    "result": {
+      "id": "patchouli:guide_book",
+      "components": {
+        "patchouli:book": "laserio:laseriobook"
+      }
+    }
+  }
+
+  allthemods.json("laserio:recipe/my_book_recipe_shapeless.json", json)
+
+  json = {
+    "neoforge:conditions": [
+      {
+        "type": "productivebees:bee_exists",
+        "bee": "productivebees:oritech/uranite_crystal"
+      },
+      {
+        "type": "neoforge:mod_loaded",
+        "modid": "oritech"
+      }
+    ],
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+      "neoforge:ingredient_type": "productivebees:component",
+      "components": {
+        "productivebees:bee_type": "productivebees:oritech/uranite_crystal"
+      },
+      "items": "productivebees:configurable_honeycomb"
+    },
+    "outputs": [
+      {
+        "chance": 0.75,
+        "item": "oritech:uranite_crystal"
+      }
+    ]
+  }
+
+  allthemods.json("productivebees:recipe/centrifuge/oritech/honeycomb_uranite_crystal.json", json)
+
+  // TODO: Temp remove
+  let jsonDisable = {"neoforge:conditions": [{"type": "neoforge:never"}]}
+
+  if (Platform.getInfo("advanced_ae").version == "26.1.5") { // bump if needed
+	  let recipes = [
+		"advanced_ae:recipe/wt_combine_crafting",
+		"advanced_ae:recipe/wt_combine_encoding",
+		"advanced_ae:recipe/wt_combine_access",
+		"advanced_ae:recipe/wt_upgrade_quantum_crafter_terminal",
+	  ]
+	  recipes.forEach(recipe => {
+		allthemods.json(recipe + ".json", jsonDisable)
+	  })
+  }
+  
 })

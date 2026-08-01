@@ -135,6 +135,8 @@ StartupEvents.registry("item", (allthemods) => {
   // if (!Platform.isLoaded('modular_machinery_reborn')) {
   //     allthemods.create('modularium').color(0xe64200).texture('minecraft:item/iron_ingot')
   // }
+
+  allthemods.create('occultism:ritual_dummy/meteoric_infusion').texture('occultism:item/ritual_dummy_craft').displayName('Ritual: Meteoric Infusion')
 })
 
 let $Stopwatch = Java.loadClass("com.google.common.base.Stopwatch")
@@ -241,13 +243,21 @@ StartupEvents.registry("fluid", (allthemods) => {
   allthemods.create("liquid_aureal", "thin").tint(0x7abaff).displayName("Liquid Aureal").noBlock()
 })
 
-StartupEvents.modifyCreativeTab("ironfurnaces:ironfurnaces_tab", (allthemods) => {
-  allthemods.add("ironfurnaces:allthemodium_furnace")
-  allthemods.add("ironfurnaces:vibranium_furnace")
-  allthemods.add("ironfurnaces:unobtainium_furnace")
-  allthemods.add("ironfurnaces:upgrade_allthemodium")
-  allthemods.add("ironfurnaces:upgrade_vibranium")
-  allthemods.add("ironfurnaces:upgrade_unobtainium")
+// StartupEvents.modifyCreativeTab("ironfurnaces:ironfurnaces_tab", (allthemods) => {
+//   allthemods.add("ironfurnaces:allthemodium_furnace")
+//   allthemods.add("ironfurnaces:vibranium_furnace")
+//   allthemods.add("ironfurnaces:unobtainium_furnace")
+//   allthemods.add("ironfurnaces:upgrade_allthemodium")
+//   allthemods.add("ironfurnaces:upgrade_vibranium")
+//   allthemods.add("ironfurnaces:upgrade_unobtainium")
+// })
+
+StartupEvents.postInit((allthemods) => {
+  let $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries")
+  
+  $BuiltInRegistries.BLOCK.addAlias("forbidden_arcanus:obsidiansteel_block", "forbidden_arcanus:stygian_steel_block")
+  $BuiltInRegistries.ITEM.addAlias("forbidden_arcanus:obsidiansteel_block", "forbidden_arcanus:stygian_steel_block")
+  $BuiltInRegistries.ITEM.addAlias("forbidden_arcanus:obsidiansteel_ingot", "forbidden_arcanus:stygian_steel_ingot")
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods.
