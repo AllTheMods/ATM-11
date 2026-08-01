@@ -47,8 +47,16 @@ ServerEvents.tags("block", (allthemods) => {
 	"neovitae:fire_ritual_stone",
 	"neovitae:water_ritual_stone",
 	"neovitae:master_ritual_stone",
-	"minecraft:soul_lantern"
-	])
+	"minecraft:soul_lantern",
+	"ae2:controller",
+    "ae2:smooth_sky_stone_block",
+    "ae2:sky_stone_block",
+    "ae2:sky_stone_small_brick",
+    "ae2:quartz_vibrant_glass",
+    "occultism:otherstone_pedestal",
+    "ae2:not_so_mysterious_cube",
+    "ae2:dense_energy_cell",
+  ])
 })
 
 ServerEvents.tags("fluid", (allthemods) => {

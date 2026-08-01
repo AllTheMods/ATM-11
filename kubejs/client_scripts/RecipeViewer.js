@@ -12,6 +12,24 @@ const runicYEET = [
   "forbidden_arcanus:corrupted_arcane_crystal_block"
 ]
 
+const YEET = [
+  'appflux:core_1m', 
+  'appflux:core_4m', 
+  'appflux:core_16m', 
+  'appflux:core_64m', 
+  'appflux:core_256m', 
+  'appflux:fe_1m_cell', 
+  'appflux:fe_4m_cell', 
+  'appflux:fe_16m_cell', 
+  'appflux:fe_64m_cell', 
+  'appflux:fe_256m_cell', 
+  'appflux:fe_1m_portable_cell', 
+  'appflux:fe_4m_portable_cell', 
+  'appflux:fe_16m_portable_cell', 
+  'appflux:fe_64m_portable_cell', 
+  'appflux:fe_256m_portable_cell'
+]
+
 RecipeViewerEvents.removeEntriesCompletely("item", (allthemods) => {
   allthemods.remove("quarryplus:adv_quarry")
   allthemods.remove("allthetweaks:greg_star")
@@ -75,6 +93,12 @@ RecipeViewerEvents.removeRecipes((event) => {
 RecipeViewerEvents.removeEntries("item", (allthemods) => {
   for (let yeet of runicYEET) {
     if (Item.exists(yeet)) {
+      allthemods.remove(yeet)
+    }
+  }
+
+  for (let yeet of YEET) {
+    if(Item.exists(yeet)){
       allthemods.remove(yeet)
     }
   }
