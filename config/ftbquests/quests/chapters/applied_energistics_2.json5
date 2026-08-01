@@ -2591,14 +2591,8 @@
             id: "occultism:divination_rod",
             count: 1,
             components: {
-              "occultism:divination_distance": 0.0,
               "occultism:divination_linked_block": "ae2:mysterious_cube",
               "minecraft:custom_name": "Meteorite Divination Rod",
-              "occultism:divination_pos": [
-                -4438,
-                253,
-                2352,
-              ],
             },
           },
           match_components: "fuzzy",
