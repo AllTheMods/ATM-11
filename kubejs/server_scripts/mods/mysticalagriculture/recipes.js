@@ -284,6 +284,9 @@ if (Platform.isLoaded("mysticalagriculture")) {
 
     addInfustion('mysticalagriculture:silicon_seeds', 'ae2:silicon', 'mysticalagriculture:prudentium_essence')
     addInfustion('mysticalagriculture:steel_seeds', 'alltheores:steel_ingot', 'mysticalagriculture:imperium_essence')
+    if (Platform.isLoaded("extendedae")) {
+      addInfustion('mysticalagriculture:entro_seeds', 'extendedae:entro_crystal', 'mysticalagriculture:supremium_essence')
+    }
 
     allthemods.custom({
       type: "mysticalagriculture:soul_extraction",
