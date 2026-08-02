@@ -1,20 +1,13 @@
 {
-  "type": "oritech:pulverizer",
-  "fluidInput": {
-    "amount": 0,
-    "fluid": "minecraft:empty"
-  },
-  "fluidOutputs": [],
-  "ingredients": [
-    {
-      "item": "minecraft:coal"
-    }
+  "type": "oritech:machine_recipe",
+  "itemInputs": [
+    "minecraft:coal"
   ],
-  "results": [
+  "itemResults": [
     {
-      "count": 1,
       "id": "oritech:coal_dust"
     }
   ],
-  "time": 120
+  "recipeType": "oritech:pulverizer",
+  "time": 100
 }
