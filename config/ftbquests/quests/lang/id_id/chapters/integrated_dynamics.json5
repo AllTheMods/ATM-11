@@ -19,7 +19,7 @@
     "Interface &cmembaca&r apapun yang dilihatnya. Bisa dianggap seperti &bAE2&r Storage Bus.\\\\n\\\\nBelum tahu itu apa? Ini contohnya: Chest dengan 100 Cobblestone di dalamnya punya interface, berarti network ID punya 100 Cobblestone di sistemnya, cukup simpel kan?",
   ],
   "quest.437F4945AFBE0825.quest_desc": [
-    "Saat klik kanan pada Importer atau Exporter, akan muncul menu. Menu ini terutama untuk filtering, misalnya punya Variable Card yang diatur ke Cobblestone, Exporter hanya akan mengirim Cobblestone.\\\\n\\\\nAda tanda \\\"+\\\" kecil di sebelah kiri variable saat dimasukkan, klik untuk membuka GUI lain. Di sini bisa mengubah transfer rate untuk bisa mengirim item/fluid/energy &dTANPA BATAS&r, dan bisa melakukan hal lain juga.\\\\n\\\\nDi kiri atas ada settings, ini sebagian besar sama dengan interface settings.",
+    "Saat klik kanan pada Importer atau Exporter, akan muncul menu. Menu ini terutama untuk filtering, misalnya punya Variable Card yang diatur ke Cobblestone, Exporter hanya akan mengirim Cobblestone.\\\\n\\\\nAda tanda \"+\" kecil di sebelah kiri variable saat dimasukkan, klik untuk membuka GUI lain. Di sini bisa mengubah transfer rate untuk bisa mengirim item/fluid/energy &dTANPA BATAS&r, dan bisa melakukan hal lain juga.\\\\n\\\\nDi kiri atas ada settings, ini sebagian besar sama dengan interface settings.",
   ],
   "quest.72F57D77C3FB366D.quest_subtitle": "Bahan Crafting Utama",
   "quest.65D89991A45BC042.quest_desc": [
@@ -85,7 +85,7 @@
     "Variable Cards diperlukan untuk memulai Interaksi seperti Importing Items. Akan dimasukkan ke salah satu slot Importer untuk menambahkannya.\\\\n\\\\nDari sana bisa mengedit semuanya lewat tombol +. Bisa mengubah berapa banyak yang di-Import, slot Item mana, Channel mana, hampir semuanya hanya dengan Card itu.\\\\n\\\\nKalau hanya ingin memindahkan item, tidak terlalu rumit, cukup masukkan dan mungkin ubah Limit untuk berapa banyak yang dipindahkan.",
   ],
   "quest.1B5C86AE05678420.quest_desc": [
-    "Saat klik kanan pada interface, akan muncul beberapa opsi, ini fungsinya:\\\\n\\\\n&lSet Side&r: Di bagian atas layar, bisa mengatur sisi yang \\\"bertindak\\\" seperti interface. Berguna untuk mesin dengan sisi input/output tertentu.\\\\n\\\\n&lTicks/Operation&r: Kalau interface diatur 10 ticks/operation, akan import/export sekali setiap 10 tick (0.5 detik).\\\\n\\\\n&lPriority&r: Mengirim item ke inventory dengan interface prioritas lebih tinggi.\\\\n\\\\n&lItem/Energy Channels&r: Ini akan membagi sistem menjadi beberapa channel. Bisa push dan pull dari tempat berbeda di network.",
+    "Saat klik kanan pada interface, akan muncul beberapa opsi, ini fungsinya:\\\\n\\\\n&lSet Side&r: Di bagian atas layar, bisa mengatur sisi yang \"bertindak\" seperti interface. Berguna untuk mesin dengan sisi input/output tertentu.\\\\n\\\\n&lTicks/Operation&r: Kalau interface diatur 10 ticks/operation, akan import/export sekali setiap 10 tick (0.5 detik).\\\\n\\\\n&lPriority&r: Mengirim item ke inventory dengan interface prioritas lebih tinggi.\\\\n\\\\n&lItem/Energy Channels&r: Ini akan membagi sistem menjadi beberapa channel. Bisa push dan pull dari tempat berbeda di network.",
   ],
   "quest.79C1105A84B8BF8F.title": "Variable Cards",
   "quest.6C9191DA4B1039D6.quest_desc": [

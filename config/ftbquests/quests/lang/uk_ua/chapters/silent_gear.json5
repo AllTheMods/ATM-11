@@ -34,7 +34,7 @@
     "&nFoundry&r: &aCheck&r \\\\n&nLiquid Metal in Foundry&r: &aCheck&r \\\\n\\\\nNow how do we get it out? \\\\n\\\\nRemember our friend from earlier? The &c&lFoundry&r &bDrain&r? We'll need to acquaint him with our new friend, the &c&lFoundry&r &7Tap&r. \\\\n\\\\nPlace the &c&lFoundry&r &7Tap&r on the &bDrain&r, now we can place Blocks beneath it to drain the &7Liquid Metal&r into... \\\\n\\\\nBlocks like the &8Casting Bin&r, which will turn about 900mB of &7Liquid Metal&r, into the full &7Metal Block&r. \\\\n\\\\nOr the &8Casting Table&r which is what we'll need in order to make...",
   ],
   "quest.11B0B93D725ABE43.quest_desc": [
-    "Silent Gear gear can be repaired using a &9Repair Kit&r.\\\\n\\\\nTo repair an item, place the Repair Kit into a crafting grid, then place the materials needed to repair the tool in with it. This will \\\"fill\\\" the Repair Kit.\\\\n\\\\nTo repair the tool, combine the filled Repair Kit with the tool you'd like to repair in a crafting grid.",
+    "Silent Gear gear can be repaired using a &9Repair Kit&r.\\\\n\\\\nTo repair an item, place the Repair Kit into a crafting grid, then place the materials needed to repair the tool in with it. This will \"fill\" the Repair Kit.\\\\n\\\\nTo repair the tool, combine the filled Repair Kit with the tool you'd like to repair in a crafting grid.",
   ],
   "quest.2EB96FF06627FD9A.quest_desc": [
     "The Salvager allows you to break down gear into the items they from.\\\\n\\\\nFor example: If you put in some Diamond Boots you will get 4 Diamonds back.",
@@ -49,7 +49,7 @@
   "quest.061A51A0EC13CA0F.title": "Building the &c&lFoundry&r",
   "quest.22A0A9C81A5C85A1.quest_subtitle": "Holding everything together",
   "quest.7C3D763CF22D167A.quest_desc": [
-    "The Starlight Charger can \\\"enchant\\\" materials with the \\\"Star Charged\\\" enchantment.\\\\n\\\\nA structure must be built with the Starlight Charger in the middle in view of the night sky. It only gains Starlight Power during the night.\\\\n\\\\nThe Charger must be placed in the middle of a 7x7 structure, with a Pillar in each corner. Each pillar must have a \\\"Starlight Charger Cap\\\".\\\\n\\\\nIt also requires a charger catalyst per material.",
+    "The Starlight Charger can \"enchant\" materials with the \"Star Charged\" enchantment.\\\\n\\\\nA structure must be built with the Starlight Charger in the middle in view of the night sky. It only gains Starlight Power during the night.\\\\n\\\\nThe Charger must be placed in the middle of a 7x7 structure, with a Pillar in each corner. Each pillar must have a \"Starlight Charger Cap\".\\\\n\\\\nIt also requires a charger catalyst per material.",
   ],
   "quest.3722B43822F80470.quest_desc": [
     "More damage than a Sword, but slower.",
@@ -98,7 +98,7 @@
   "quest.083ABBA1C45FF960.quest_subtitle": "Just a Lawn Mower",
   "quest.462C1F75A2FB9F02.quest_subtitle": "Where's Willy?",
   "quest.3930404D5C8B44EB.quest_subtitle": "Combines Materials",
-  "quest.7C3D763CF22D167A.quest_subtitle": "\\\"Enchanting\\\" Materials",
+  "quest.7C3D763CF22D167A.quest_subtitle": "\"Enchanting\" Materials",
   "task.55E0635973A828B0.title": "AllRightsReserved",
   "quest.405DCD3E36232EEA.quest_subtitle": "Release Your Inner Spartan",
   "quest.6BBC440BD0AD0E93.quest_desc": [
@@ -118,7 +118,7 @@
   "quest.427516AA3E8C9442.quest_subtitle": "Versatile Hoe",
   "quest.26F9DB31A835B69C.title": "Casting Items",
   "quest.6A393C7A24899E3E.quest_desc": [
-    "Placing an ingot in the Grader with a Grader Catalyst will give the material a grade.\\\\n\\\\nThe better the grade, the better the stats are on the material.\\\\n\\\\nThe best grade is \\\"MAX\\\".",
+    "Placing an ingot in the Grader with a Grader Catalyst will give the material a grade.\\\\n\\\\nThe better the grade, the better the stats are on the material.\\\\n\\\\nThe best grade is \"MAX\".",
   ],
   "quest.047F3F99035CE623.quest_subtitle": "I yearn for the Mines",
   "quest.262036FE8E87F50A.quest_subtitle": "3x3 Mining",

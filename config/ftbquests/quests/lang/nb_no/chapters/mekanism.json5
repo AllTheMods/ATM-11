@@ -23,7 +23,7 @@
   "quest.7B0DFA55B4D8B16D.quest_desc": [
     "To create a custom Portal, place down a single Teleporter block. Connect power to the block.",
     "",
-    "Create a \\\\\\\"Portal Frame\\\\\\\" with the teleporter block being the base of the portal.",
+    "Create a \\\\\"Portal Frame\\\\\" with the teleporter block being the base of the portal.",
     "",
     "The final product will be a 4x3 portal structure, with the two blocks in the middle creating the portal.",
   ],
@@ -37,14 +37,14 @@
   "quest.0F326EEEC2EBE4E5.quest_desc": [
     "Using the Enrichment Chamber, you can enrich items to convert them into Enriched variants.",
     "",
-    "These \\\\\\\"Enriched\\\\\\\" items give 8x the amount of mb in a Metallurgic Infuser.",
+    "These \\\\\"Enriched\\\\\" items give 8x the amount of mb in a Metallurgic Infuser.",
     "",
     "If you plan on making a bunch of steel, Enrich your Charcoal first!",
   ],
   "quest.0F326EEEC2EBE4E5.title": "Enriched Items",
   "quest.6F62B5510FA881CD.title": "Osmium",
   "quest.5E116409DC7D30BB.quest_desc": [
-    "This item is used to configure many of the items in Mekanism, from changing pipes to \\\\\\\"Pull or Push\\\\\\\" or rotating machines.",
+    "This item is used to configure many of the items in Mekanism, from changing pipes to \\\\\"Pull or Push\\\\\" or rotating machines.",
   ],
   "quest.4EDD96EB60EF5814.quest_desc": [
     "If you're wondering if it is worth making this upgrade, the answer is yes.",
@@ -59,7 +59,7 @@
   "quest.162CE44400A63575.quest_desc": [
     "The Metallurgic Infuser is used to craft core crafting components throughout Mekanism.",
     "",
-    "The machine works by infusing a material (middle-left slot) with an \\\\\\\"infuser\\\\\\\" (far-left slot).",
+    "The machine works by infusing a material (middle-left slot) with an \\\\\"infuser\\\\\" (far-left slot).",
     "",
     "This is also how you get Steel Ingots.",
   ],
@@ -79,7 +79,7 @@
   ],
   "quest.001DE8028CAF0A08.quest_subtitle": "shhhhh... too loud....",
   "quest.7AE502EDB73BD57A.quest_desc": [
-    "This machine crushes ores into their \\\\\\\"dirty\\\\\\\" dust forms. This is useful to convert clumps into dirty dust, which can go through an Enrichment Chamber to create the ore dust, which then can be smelted into an ingot.",
+    "This machine crushes ores into their \\\\\"dirty\\\\\" dust forms. This is useful to convert clumps into dirty dust, which can go through an Enrichment Chamber to create the ore dust, which then can be smelted into an ingot.",
   ],
   "quest.08DDE018A804BFE7.quest_subtitle": "Breaks Raw Ores into Dusts",
   "quest.5E116409DC7D30BB.quest_subtitle": "Mekanism's Wrench",

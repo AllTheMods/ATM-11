@@ -6,10 +6,16 @@
   "quest.25EFC21A3C48E0B6.title": "Tingkat: &2Spirited",
   "task.36E378BF22554E0A.title": "Energy Cables",
   "quest.6B2027DA7AA6FF34.quest_desc": [
-    "&9Powah&r adalah mod teknologi yang berfokus pada penghasilan, penyimpanan, dan transmisi &dEnergi&r. Mulai dari penghasil FE dasar hingga &aReaktor&r yang menghasilkan &b250k FE/t&r, Powah punya semuanya!\\\\n\\\\nUntuk memulai, pergilah menambang &aUraninite&r!",
+    "&9Powah&r adalah mod teknologi yang berfokus pada penghasilan, penyimpanan, dan transmisi &dEnergi&r. Mulai dari penghasil FE dasar hingga &aReaktor&r yang menghasilkan &b250k FE/t&r, Powah punya semuanya!",
+    "",
+    "Untuk memulai, pergilah menambang &aUraninite&r!",
   ],
   "quest.08245411AFDB63DB.quest_desc": [
-    "Quest ini ditulis oleh &6Staf AllTheMods&r, atau &2Kontributor Komunitas&r untuk digunakan dalam Modpack AllTheMods.\\\\n\\\\nKarena semua pack &6AllTheMods&r dilisensikan di bawah &eAll Rights Reserved&r, quest ini tidak diperbolehkan untuk digunakan dalam pack publik mana pun yang tidak dirilis oleh &6Tim AllTheMods&r tanpa izin eksplisit.\\\\n\\\\nQuest ini sengaja disembunyikan; jika kamu melihat ini, berarti kamu sedang dalam mode pengeditan.",
+    "Quest ini ditulis oleh &6Staf AllTheMods&r, atau &2Kontributor Komunitas&r untuk digunakan dalam Modpack AllTheMods.",
+    "",
+    "Karena semua pack &6AllTheMods&r dilisensikan di bawah &eAll Rights Reserved&r, quest ini tidak diperbolehkan untuk digunakan dalam pack publik mana pun yang tidak dirilis oleh &6Tim AllTheMods&r tanpa izin eksplisit.",
+    "",
+    "Quest ini sengaja disembunyikan; jika kamu melihat ini, berarti kamu sedang dalam mode pengeditan.",
   ],
   "quest.5BCA3F716348ECCD.quest_desc": [
     "&9Energy Hopper&r akan mengisi daya item apa pun yang bisa diisi dayanya di dalam inventaris blok yang dituju, seperti sebuah peti.",
@@ -24,10 +30,20 @@
   "quest.7E92ED270C67FDE5.title": "Memulai dengan Material Dielektrik",
   "quest.6754612E9AD4B9C0.title": "Reaktor (Blazing)",
   "quest.3CB6DC5B09C62CFE.quest_desc": [
-    "&5Ender Gate&r digunakan untuk mentransfer daya secara nirkabel ke dan dari blok yang menempel ke dalam &7Ender Network&r.\\\\n\\\\nBayangkan ini seperti titik akses nirkabel (wireless access point) untuk jaringan listrik nirkabelmu.\\\\n\\\\nCatatan: Kamu hanya bisa menambah &akapasitas penyimpanan daya&r menggunakan Ender Cell.",
+    "&5Ender Gate&r digunakan untuk mentransfer daya secara nirkabel ke dan dari blok yang menempel ke dalam &7Ender Network&r.",
+    "",
+    "Bayangkan ini seperti titik akses nirkabel (wireless access point) untuk jaringan listrik nirkabelmu.",
+    "",
+    "Catatan: Kamu hanya bisa menambah &akapasitas penyimpanan daya&r menggunakan Ender Cell.",
   ],
   "quest.1B0087400B0B8B49.quest_desc": [
-    "&9Reaktor&r adalah generator multiblock berukuran 3x4x3 yang membakar &aUraninite&r sebagai bahan bakar untuk menghasilkan FE.\\\\n\\\\nUntuk membangunnya, kamu butuh total 36 Reactor Block. Saat memegang 36 blok di tangan, menaruh satu blok akan otomatis membangun seluruh struktur reaktor. Pastikan kamu sudah menyiapkan ruang yang cukup sebelumnya!\\\\n\\\\nKamu perlu mendinginkan reaktor agar menghasilkan lebih banyak FE, dan kamu bisa melakukannya dengan &bpendingin (coolant)&r padat maupun cair. Untuk menggunakan pendingin padat, kamu juga perlu memberikan sedikit pendingin cair. &bDry Ice&r adalah pilihan pendingin padat yang sangat bagus! (Catatan: 1 Ember Air sudah cukup).\\\\n\\\\nKamu juga bisa meningkatkan produksi FE dengan menjaga buffer bahan bakar tetap penuh, serta menambahkan Batu Bara (Coal) dan Redstone ke dalam Reaktor. Menggunakan bentuk Blok dari keduanya juga bisa dilakukan!",
+    "&9Reaktor&r adalah generator multiblock berukuran 3x4x3 yang membakar &aUraninite&r sebagai bahan bakar untuk menghasilkan FE.",
+    "",
+    "Untuk membangunnya, kamu butuh total 36 Reactor Block. Saat memegang 36 blok di tangan, menaruh satu blok akan otomatis membangun seluruh struktur reaktor. Pastikan kamu sudah menyiapkan ruang yang cukup sebelumnya!",
+    "",
+    "Kamu perlu mendinginkan reaktor agar menghasilkan lebih banyak FE, dan kamu bisa melakukannya dengan &bpendingin (coolant)&r padat maupun cair. Untuk menggunakan pendingin padat, kamu juga perlu memberikan sedikit pendingin cair. &bDry Ice&r adalah pilihan pendingin padat yang sangat bagus! (Catatan: 1 Ember Air sudah cukup).",
+    "",
+    "Kamu juga bisa meningkatkan produksi FE dengan menjaga buffer bahan bakar tetap penuh, serta menambahkan Batu Bara (Coal) dan Redstone ke dalam Reaktor. Menggunakan bentuk Blok dari keduanya juga bisa dilakukan!",
   ],
   "quest.05B0A7D0B991050F.title": "Reaktor (Hardened)",
   "quest.7678B5DD1339833E.quest_desc": [
@@ -35,7 +51,9 @@
   ],
   "quest.7D7983F39E6E818D.title": "Tingkat: &9Niotic",
   "quest.78202A1CF5D86B94.quest_desc": [
-    "Berfungsi sebagai &9Power Bank&r-nya mod Powah.\\\\n\\\\nIni juga bisa digunakan untuk meningkatkan total kapasitas penyimpanan daya pada jaringan &7Ender Network&r nirkabelmu.",
+    "Berfungsi sebagai &9Power Bank&r-nya mod Powah.",
+    "",
+    "Ini juga bisa digunakan untuk meningkatkan total kapasitas penyimpanan daya pada jaringan &7Ender Network&r nirkabelmu.",
   ],
   "quest.0FD62827710F0AC6.quest_desc": [
     "&cMagmator&r akan menghasilkan energi FE saat disuplai dengan Lava.",
@@ -58,7 +76,11 @@
   "quest.562BD37539EE318E.title": "Tingkat: &cBlazing",
   "quest.341486C9F277FEB7.title": "Reaktor (Spirited)",
   "quest.3DDF87A1E5F5D009.quest_desc": [
-    "Di awal, kamu bisa bertahan dengan membuat mesin tingkat &7Starter&r dan &bBasic&r menggunakan Besi, tapi lama-kelamaan kamu perlu membuat material yang telah diberi energi menggunakan &9Energizing Orb&r.\\\\n\\\\n&9Energizing Orb&r akan memberikan energi pada item menggunakan &aEnergizing Rod&r terdekat dalam radius 9x9 di sekitarnya, menciptakan material yang lebih baik untuk progres ke &eTingkatan (Tier)&r yang lebih tinggi di mod Powah.\\\\n\\\\nUntuk menenagai orb, kamu perlu memasang Energizing Rod pada Energy Cable yang dialiri listrik. Jika ingin prosesnya lebih cepat, buatlah lebih banyak rod, upgrade ke tingkat yang lebih tinggi, atau keduanya! Untuk mengecek apakah Rod sudah terhubung, atur &aWrench&r milikmu ke mode 'link' dan kamu bisa menghubungkan Rod mana pun ke Orb.",
+    "Di awal, kamu bisa bertahan dengan membuat mesin tingkat &7Starter&r dan &bBasic&r menggunakan Besi, tapi lama-kelamaan kamu perlu membuat material yang telah diberi energi menggunakan &9Energizing Orb&r.",
+    "",
+    "&9Energizing Orb&r akan memberikan energi pada item menggunakan &aEnergizing Rod&r terdekat dalam radius 9x9 di sekitarnya, menciptakan material yang lebih baik untuk progres ke &eTingkatan (Tier)&r yang lebih tinggi di mod Powah.",
+    "",
+    "Untuk menenagai orb, kamu perlu memasang Energizing Rod pada Energy Cable yang dialiri listrik. Jika ingin prosesnya lebih cepat, buatlah lebih banyak rod, upgrade ke tingkat yang lebih tinggi, atau keduanya! Untuk mengecek apakah Rod sudah terhubung, atur &aWrench&r milikmu ke mode 'link' dan kamu bisa menghubungkan Rod mana pun ke Orb.",
     "",
     "{image:atm:textures/questpics/powah/powah_energizing.png width:200 height:200 align:1}",
   ],
@@ -69,10 +91,13 @@
   "task.1F929F1DF23460AE.title": "Binding Cards",
   "quest.1B0087400B0B8B49.title": "Reaktor (Starter)",
   "quest.7E92ED270C67FDE5.quest_desc": [
-    "Hampir setiap mesin yang bisa kamu buat di mod ini membutuhkan &9Dielectric Casing&r.\\\\n\\\\nKamu perlu membuat &bPaste&r-nya terlebih dahulu, serta beberapa &aRod&r untuk bisa lanjut!",
+    "Hampir setiap mesin yang bisa kamu buat di mod ini membutuhkan &9Dielectric Casing&r.",
+    "",
+    "Kamu perlu membuat &bPaste&r-nya terlebih dahulu, serta beberapa &aRod&r untuk bisa lanjut!",
   ],
   "quest.52E59FCB39D66BCF.quest_desc": [
-    "Salah satu pilihan terbaik untuk \\\"Energi Pasif\\\", &9Thermal Generator&r akan menghasilkan FE saat diletakkan di atas &cSumber Panas&r dan diberikan suplai air yang stabil.\\\\n\\\\Saat ini ada 3 blok yang bisa digunakan sebagai alas: blok Magma (paling rendah), blok sumber Lava (sedikit lebih baik), atau &cBlock of Blazing Crystal&r yang memberikan panas paling tinggi. ",
+    "Salah satu pilihan terbaik untuk \"Energi Pasif\", &9Thermal Generator&r akan menghasilkan FE saat diletakkan di atas &cSumber Panas&r dan diberikan suplai air yang stabil.",
+    "\\\\Saat ini ada 3 blok yang bisa digunakan sebagai alas: blok Magma (paling rendah), blok sumber Lava (sedikit lebih baik), atau &cBlock of Blazing Crystal&r yang memberikan panas paling tinggi. ",
   ],
   "quest.3D5F87F8E6B89C1B.quest_desc": [
     "&7Furnator&r akan membakar item seperti batu bara dan kayu untuk menghasilkan FE.",

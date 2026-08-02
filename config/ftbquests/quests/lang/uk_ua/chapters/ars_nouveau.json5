@@ -116,7 +116,7 @@
   "quest.51162B9185A45BB1.quest_desc": [
     "This bow can be inscribed with a spell using a Scribe's Table. \\\\n\\\\nAt the cost of mana, arrows will become Spell Arrows and will apply the spell on their target. \\\\n\\\\nIf you have no arrows, a spell arrow that deals 0 damage will be cast. If there is not enough mana, regular arrows will be fired instead. \\\\n\\\\nThe &9Enchanter's Bow&r can also use special Augment Arrows that empower the inscribed spell.",
   ],
-  "quest.5C3FF43CF16BCF30.quest_subtitle": "Formerly \\\"Arcane Stones\\\"",
+  "quest.5C3FF43CF16BCF30.quest_subtitle": "Formerly \"Arcane Stones\"",
   "task.1B916AE67F84E6D7.title": "Creating Your First Spell",
   "quest.19D02325579F2AA8.quest_desc": [
     "The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus Source. \\\\n\\\\nAs it burns items, it will convert nearby stone into lava. \\\\n\\\\nThis also generates Lava Lilys.",

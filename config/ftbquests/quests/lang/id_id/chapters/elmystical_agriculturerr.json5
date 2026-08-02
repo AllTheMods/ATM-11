@@ -108,7 +108,7 @@
   "quest.5EE485880EA9FACF.quest_subtitle": "Tingkat: &63",
   "quest.54735C5FCD2077B3.title": "&aMystical Agriculture!",
   "quest.31BAC57972148E1F.quest_subtitle": "Tingkat: &a2",
-  "quest.21A90474590FCDB8.title": "\\\"Tungku\\\"",
+  "quest.21A90474590FCDB8.title": "\"Tungku\"",
   "quest.07564DBB023EE2A6.quest_subtitle": "Tingkat: &b4",
   "quest.1CF8263756EE8F2A.title": "&5Debu Cognizant&r",
   "quest.25D84D82DBADA0DB.quest_subtitle": "Tingkat: &b4",
@@ -206,7 +206,7 @@
   ],
   "quest.56B58CAFCB707565.quest_subtitle": "Tingkat: &63",
   "quest.217DB12EA32E1724.quest_desc": [
-    "&bKristal Infus&r dibutuhin buat \\\"naik tingkat\\\" benih. Contohnya kalau kamu gabungin kristal sama 4 Inferium Essence kamu bakal dapet 1 Prudentium Essence.\\\\n\\\\nNanti kamu bisa craft Kristal Infus yang gak bakalan rusak.",
+    "&bKristal Infus&r dibutuhin buat \"naik tingkat\" benih. Contohnya kalau kamu gabungin kristal sama 4 Inferium Essence kamu bakal dapet 1 Prudentium Essence.\\\\n\\\\nNanti kamu bisa craft Kristal Infus yang gak bakalan rusak.",
   ],
   "quest.6501A410F1543C70.title": "&dMystical Fertilizer",
   "quest.7AD9DF3FFCB03495.quest_subtitle": "Tingkat: &a2",
@@ -328,7 +328,7 @@
   ],
   "quest.224CE21E56703F6E.title": "&2Tongkat",
   "quest.21A90474590FCDB8.quest_desc": [
-    "\\\"Tungku\\\" adalah versi upgrade dari Tungku vanilla yang bisa di-upgrade buat kecepatan lebih cepat dan efisiensi lebih baik.",
+    "\"Tungku\" adalah versi upgrade dari Tungku vanilla yang bisa di-upgrade buat kecepatan lebih cepat dan efisiensi lebih baik.",
   ],
   "quest.077B2D62FA7650FB.title": "&cTertium Pemacu Pertumbuhan",
   "task.2DA0BD7B2834A560.title": "Blok Witherproof",

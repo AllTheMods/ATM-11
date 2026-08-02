@@ -19,10 +19,10 @@
   "quest.0BB367839D28607D.title": "&8Coal Generators",
   "quest.36DEA17CBB696CC7.quest_subtitle": "Menjadi Admin Jaringan!",
   "quest.0AEC181F5E21A299.quest_desc": [
-    "Jika kamu pernah mendengar orang membicarakan \\\"Melon Power\\\", inilah dia. &dGas-Burning Generator&r dari Mekanism dapat menghasilkan daya yang besar dengan memompakan &9Ethylene&r yang terbuat dari Melon Slice.\\\\n\\\\nUntuk memproduksi &dEthylene&r, mulailah dengan menghancurkan bahan organik di dalam &eCrusher&r untuk membuat &6Bio Fuel&r. Biasanya yang digunakan adalah Melon Slice! Bio Fuel ini kemudian dipompakan ke dalam &dPressurized Reaction Chamber&r (disingkat PRC).\\\\n\\\\nPRC membutuhkan Air, Bio Fuel, dan Hidrogen untuk membuat Ethylene. Kamu bisa mendapatkan Hidrogen dengan memisahkan air di dalam &9Electrolytic Separator&r.\\\\n\\\\nSetelah kamu mulai memproduksi Ethylene, pompakan ke dalam Gas-Burning Generator untuk mulai menghasilkan daya!",
+    "Jika kamu pernah mendengar orang membicarakan \"Melon Power\", inilah dia. &dGas-Burning Generator&r dari Mekanism dapat menghasilkan daya yang besar dengan memompakan &9Ethylene&r yang terbuat dari Melon Slice.\\\\n\\\\nUntuk memproduksi &dEthylene&r, mulailah dengan menghancurkan bahan organik di dalam &eCrusher&r untuk membuat &6Bio Fuel&r. Biasanya yang digunakan adalah Melon Slice! Bio Fuel ini kemudian dipompakan ke dalam &dPressurized Reaction Chamber&r (disingkat PRC).\\\\n\\\\nPRC membutuhkan Air, Bio Fuel, dan Hidrogen untuk membuat Ethylene. Kamu bisa mendapatkan Hidrogen dengan memisahkan air di dalam &9Electrolytic Separator&r.\\\\n\\\\nSetelah kamu mulai memproduksi Ethylene, pompakan ke dalam Gas-Burning Generator untuk mulai menghasilkan daya!",
   ],
   "quest.56B6ABF3D6EA0D84.quest_desc": [
-    "Dengan Plug yang sudah terpasang, kita sekarang bisa menarik daya dari jaringan kita. &9Flux Point&r melakukan hal tersebut. Ia mengarahkan daya dari jaringanmu ke blok apa pun yang terhubung, termasuk Pipa atau Kabel, atau langsung ke mesin!\\\\n\\\\nSetelah kamu memasang Point pada mesin atau blok yang ingin ditenagai, klik kanan dan pilih jaringanmu di tab \\\"Network Selection\\\". Sama seperti Plug, kamu bisa menyesuaikan berapa banyak daya yang ditarik, level prioritas, dll.",
+    "Dengan Plug yang sudah terpasang, kita sekarang bisa menarik daya dari jaringan kita. &9Flux Point&r melakukan hal tersebut. Ia mengarahkan daya dari jaringanmu ke blok apa pun yang terhubung, termasuk Pipa atau Kabel, atau langsung ke mesin!\\\\n\\\\nSetelah kamu memasang Point pada mesin atau blok yang ingin ditenagai, klik kanan dan pilih jaringanmu di tab \"Network Selection\". Sama seperti Plug, kamu bisa menyesuaikan berapa banyak daya yang ditarik, level prioritas, dll.",
   ],
   "quest.5F078A574A783B02.quest_subtitle": "Tinggal colok!",
   "quest.72EA25D05C46D39A.title": "&9Integrated Dynamics: &bEnergy Battery",
@@ -61,7 +61,7 @@
   ],
   "quest.48DC9E8E9D21A2FA.title": "&9Mekanism: &aEnergi Terbarukan",
   "quest.5F078A574A783B02.quest_desc": [
-    "Item pertama yang kamu butuhkan untuk memulai Flux Network adalah &9Flux Plug&r.\\\\n\\\\nPlug digunakan untuk \\\"menarik\\\" daya dari blok tempat ia menempel. Selain buffer kecil, Plug tidak menyimpan daya sendiri, jadi jangan khawatir ia akan menyedot habis dayamu.\\\\n\\\\nDisarankan untuk memasang Plug pada blok penyimpanan daya seperti Energy Cube. Ia bisa terhubung ke Kabel, Pipa, atau output dari mesin penghasil daya apa pun.\\\\n\\\\nUntuk belajar cara menyiapkan jaringan pertamamu, cek quest berikutnya!",
+    "Item pertama yang kamu butuhkan untuk memulai Flux Network adalah &9Flux Plug&r.\\\\n\\\\nPlug digunakan untuk \"menarik\" daya dari blok tempat ia menempel. Selain buffer kecil, Plug tidak menyimpan daya sendiri, jadi jangan khawatir ia akan menyedot habis dayamu.\\\\n\\\\nDisarankan untuk memasang Plug pada blok penyimpanan daya seperti Energy Cube. Ia bisa terhubung ke Kabel, Pipa, atau output dari mesin penghasil daya apa pun.\\\\n\\\\nUntuk belajar cara menyiapkan jaringan pertamamu, cek quest berikutnya!",
   ],
   "quest.5E41363F9AE243F3.quest_desc": [
     "Kamu tidak bisa selamanya mengandalkan Batu Bara untuk markasmu! Jika kamu sudah punya cukup sumber daya, saatnya meng-upgrade setup dayamu!\\\\n\\\\nOpsi-opsi ini biasanya butuh sedikit persiapan, tapi menghasilkan daya yang cukup untuk menemanimu hingga jauh di dalam permainan.",
@@ -137,7 +137,7 @@
   "quest.477B411F84342EEA.title": "&9Mekanism: &aEnergy Cubes",
   "quest.1BE26A00A420DAE3.quest_subtitle": "Inti dari Segalanya",
   "quest.27A4FA38992448A0.quest_desc": [
-    "Flux Networks juga menyediakan cara untuk mengisi daya item kamu secara nirkabel, bahkan lintas dimensi!\\\\n\\\\nSetelah kamu memiliki Plug yang terhubung ke sistem daya, buatlah &9Flux Controller&r dan pasang. \\\\n\\\\nKlik kanan untuk membuka antarmuka, dan buka tab \\\"Wireless Charging\\\". Dari sana, kamu bisa memilih bagian inventaris mana yang ingin terus diisi dayanya. Untuk mengaktifkan, pastikan tekan tombol toggle di bagian bawah untuk menyalakan Wireless Charging, lalu klik apply!\\\\n",
+    "Flux Networks juga menyediakan cara untuk mengisi daya item kamu secara nirkabel, bahkan lintas dimensi!\\\\n\\\\nSetelah kamu memiliki Plug yang terhubung ke sistem daya, buatlah &9Flux Controller&r dan pasang. \\\\n\\\\nKlik kanan untuk membuka antarmuka, dan buka tab \"Wireless Charging\". Dari sana, kamu bisa memilih bagian inventaris mana yang ingin terus diisi dayanya. Untuk mengaktifkan, pastikan tekan tombol toggle di bagian bawah untuk menyalakan Wireless Charging, lalu klik apply!\\\\n",
     "{image:atm:textures/questpics/basic_power/wireless_ui.png width:125 height:150 align:center}",
   ],
   "quest.0BB42C5861B22D32.quest_desc": [
@@ -179,5 +179,5 @@
   "quest.48DC9E8E9D21A2FA.quest_subtitle": "Kekuatan Matahari...",
   "task.2D0212699F99459F.title": "Jaringan Pertama",
   "quest.05B6DB75AEC01187.title": "&9RFTools Power: &cPowercells",
-  "quest.1BE26A00A420DAE3.title": "Bahan Crafting \\\"Inti\\\"",
+  "quest.1BE26A00A420DAE3.title": "Bahan Crafting \"Inti\"",
 }

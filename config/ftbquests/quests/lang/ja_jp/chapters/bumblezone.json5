@@ -36,7 +36,7 @@
     "&6ハチミツの瓶&r を8個飲んでください。\\n\\nこれは私にとって最も難しいものです。&6ハチミツの瓶&r を飲む音が耐えられません",
   ],
   "quest.4A5F84912C755688.quest_desc": [
-    "\\\"The Vengabus がやってくる\\nそしてみんなが跳ねている\\nニューヨークからサンフランシスコまで\\n都市間のディスコ\\nスチールのホイールが回転し\\n信号機が燃えている\\nだからパーティーが好きなら\\n乗って体を動かそう\\\"\\n",
+    "\"The Vengabus がやってくる\\nそしてみんなが跳ねている\\nニューヨークからサンフランシスコまで\\n都市間のディスコ\\nスチールのホイールが回転し\\n信号機が燃えている\\nだからパーティーが好きなら\\n乗って体を動かそう\"\\n",
     "{image:atm:textures/questpics/bumblezone/bumble_dance.png width:200 height:100 align:center}",
   ],
   "quest.7C7C0D3D7FCB0297.quest_desc": [
@@ -47,7 +47,7 @@
     "{image:atm:textures/questpics/bumblezone/bumble_cannon1.png width:75 height:150 align:center}",
   ],
   "quest.6C5D61A704DC125A.quest_desc": [
-    "これは面白いものです。見つけるか、クラフトするか、取引で入手できます。\\n\\n好きな色に染めることができ、もちろん頭に装着できます！\\n\\n&6ミツバチ&r はあなたを花だと思い、ついてきます。\\n\\n\\\"Duck Amuck\\\" の Daffy のように見えます",
+    "これは面白いものです。見つけるか、クラフトするか、取引で入手できます。\\n\\n好きな色に染めることができ、もちろん頭に装着できます！\\n\\n&6ミツバチ&r はあなたを花だと思い、ついてきます。\\n\\n\"Duck Amuck\" の Daffy のように見えます",
     "{image:atm:textures/questpics/bumblezone/bumble_duckamuck.png width:100 height:100 align:center}",
   ],
   "task.030FFC7C0532E7B2.title": "ハニースライムを3体倒す",
@@ -104,7 +104,7 @@
     "&7シルバーフィッシュ&r を8匹倒してください",
   ],
   "quest.1207E5C3E7BD0584.title": "ミツバチ バナーパターン",
-  "quest.29E2033EA65E706E.quest_subtitle": "A \\\"Slime Rancher\\\"",
+  "quest.29E2033EA65E706E.quest_subtitle": "A \"Slime Rancher\"",
   "quest.351769579833FA9E.title": "ミツバチと一緒にリラックス",
   "quest.613AC4DF39E5621D.title": "Gazebuzz Cluster",
   "quest.0980661B2F7FBC10.title": "ろうそくパルクール",

@@ -7,7 +7,7 @@
   "quest.2A20000FAEC2E16A.quest_desc": [
     "To extract power or items from your reactor, or even input fuel, you'll need these &crequired&r blocks.",
     "",
-    "The &cPower Tap&r provides a way for you to \\\\\\\"tap\\\\\\\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it.",
+    "The &cPower Tap&r provides a way for you to \\\\\"tap\\\\\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it.",
     "",
     "The &aAccess Ports&r are required for every reactor, and allows you to both input fuel from the reactor, or extract waste. It's usually a good idea to have 2 per reactor, one for each job.",
   ],
@@ -108,7 +108,7 @@
   "quest.4AD8363D7359A072.quest_subtitle": "Learning the Basics",
   "quest.7B4AAC741F0A6073.title": "Reactor Control Rods",
   "quest.25D4406CB86C8CBB.quest_desc": [
-    "Now that we are collecting some &9waste&r from our reactor, part of the progression requires you to \\\\\\\"Fluidize\\\\\\\" some of the ingots you get. You know what that means?",
+    "Now that we are collecting some &9waste&r from our reactor, part of the progression requires you to \\\\\"Fluidize\\\\\" some of the ingots you get. You know what that means?",
     "",
     "We need to make a &aFluidizer&r! The main component is the &aFluidizer Controller&r. Once built, you can right-click on this to open up the interface. Here, you can turn it on or off, see what's inside, and the current power level.",
   ],
@@ -193,7 +193,7 @@
     "",
     "These make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor.",
     "",
-    "For future reference, when a part says \\\\\\\"Basic\\\\\\\", this means that it can only be used with other basic parts. The \\\\\\\"Basic\\\\\\\" parts can also only be used to build smaller reactors, as it has a certain size limit. Keep this in mind!",
+    "For future reference, when a part says \\\\\"Basic\\\\\", this means that it can only be used with other basic parts. The \\\\\"Basic\\\\\" parts can also only be used to build smaller reactors, as it has a certain size limit. Keep this in mind!",
   ],
   "quest.775D176081DD75F5.quest_desc": [
     "Right-clicking on a Turbine Controller when it is fully built will show you the Turbine Interface.",

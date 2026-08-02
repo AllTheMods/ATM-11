@@ -128,7 +128,7 @@
     "{image:atm:textures/questpics/industrialforegoing/water_for_interface.png width:125 height:100 align:center}",
     "{@pagebreak}",
     "你也可以选择在 &5高级样板供应器&r 和 &c自动炼药机&r 之间放一个传输标签。\\n\\n如果你看完还是没弄明白，或者更想直接看视频，那就点这里看我上传的 ChosenArchitect 视频：",
-    "{\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://youtu.be/DOW4xkxqp6g?si=paZ2xFKyycPumqaS&t=427\\\"},\\\"color\\\":\\\"blue\\\",\\\"text\\\":\\\"VIDEO LINK HERE\\\",\\\"underlined\\\":true} ",
+    "{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/DOW4xkxqp6g?si=paZ2xFKyycPumqaS&t=427\"},\"color\":\"blue\",\"text\":\"VIDEO LINK HERE\",\"underlined\":true} ",
   ],
   "quest.2CCFEE98FE3B2E97.title": "方块",
   "quest.41E8550FC36ABCA5.title": "无限工具",

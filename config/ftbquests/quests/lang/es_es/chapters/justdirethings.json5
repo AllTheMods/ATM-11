@@ -87,10 +87,22 @@
   ],
   "quest.67B87570C340C243.title": "Mejoras de Armadura",
   "quest.5EE7D5DE07A83C7D.quest_desc": [
-    "&lTipo de Habilidad:&r Activa\\\\n\\\\n&lFunción de Habilidad:&r\\\\n\\\\nResalta los minerales cercanos con partículas verdes cuando se activa.\\\\n\\\\n&4&lNOTA: ESTA HABILIDAD HA SIDO DESACTIVADA.&r&f",
+    "&lTipo de Habilidad:&r Activa",
+    "",
+    "&lFunción de Habilidad:&r",
+    "",
+    "Resalta los minerales cercanos con partículas verdes cuando se activa.",
+    "",
+    "&4&lNOTA: ESTA HABILIDAD HA SIDO DESACTIVADA.&r&f",
   ],
   "quest.200ECDC70E97D254.quest_desc": [
-    "El Bote de Combustible es un tanque que puede llenar contenedores con el fluido que contiene.\\\\n\\\\nEl Bote de Combustible tiene tres modos de llenado:\\\\n\\\\n - Ninguno\\\\n - Cualquiera\\\\n - Solo Cosas de Dire",
+    "El Bote de Combustible es un tanque que puede llenar contenedores con el fluido que contiene.",
+    "",
+    "El Bote de Combustible tiene tres modos de llenado:",
+    "",
+    " - Ninguno",
+    " - Cualquiera",
+    " - Solo Cosas de Dire",
   ],
   "quest.446A37C7FCDACF84.quest_desc": [
     "El Carbón de Voidflame es un nuevo material añadido por JDT. Voidflame se adquiere realizando Propagación de Goo en Bloques de Ascuas de Blaze usando goo de nivel tres o superior. La Mena de Carbón de Voidflame se ve afectada por fortuna.",
@@ -116,7 +128,7 @@
     "La Llave Inglesa de Ferricore permite al jugador rotar máquinas, pero también se usa para enlazar intercambiadores.",
   ],
   "quest.4F9932477EDDCB8E.quest_desc": [
-    "La Pistola de Portales Avanzada es la versión mejorada de la Pistola de Portales que requiere tanto energía como fluido de portal para operar.\\nA diferencia de la Pistola de Portales, la Pistola de Portales Avanzada permite al jugador teletransportarse entre ubicaciones que han sido codificadas.\\nUsando \\\"V\\\" (atajo de teclado predeterminado) el menú utilizado para codificar y seleccionar destinos para la teletransportación.",
+    "La Pistola de Portales Avanzada es la versión mejorada de la Pistola de Portales que requiere tanto energía como fluido de portal para operar.\\nA diferencia de la Pistola de Portales, la Pistola de Portales Avanzada permite al jugador teletransportarse entre ubicaciones que han sido codificadas.\\nUsando \"V\" (atajo de teclado predeterminado) el menú utilizado para codificar y seleccionar destinos para la teletransportación.",
   ],
   "quest.2409EAD96CE3BDF7.quest_desc": [
     "Las Plantillas de Blazegold se usan para mejorar armaduras y herramientas de Ferricore a Blazegold mientras se retienen encantamientos y mejoras instaladas.",
@@ -597,7 +609,9 @@
     "Un simple generador de combustible líquido que funciona con los combustibles líquidos añadidos por JDT.",
   ],
   "quest.0FAF274ADA65B26A.quest_desc": [
-    "El Fluido de Portal es un misterioso fluido verde vital en la operación de la Pistola de Portales Avanzada.\\\\n\\\\nDejar caer Catalizador de Fluido de Portal en Fluido Polimórfico creará Fluido de Portal Inestable PERO el Fluido de Portal Inestable solo puede existir en el End. Realizar Expansión de Goo con goo de tier tres o superior convertirá el Fluido de Portal Inestable en Fluido de Portal.",
+    "El Fluido de Portal es un misterioso fluido verde vital en la operación de la Pistola de Portales Avanzada.",
+    "",
+    "Dejar caer Catalizador de Fluido de Portal en Fluido Polimórfico creará Fluido de Portal Inestable PERO el Fluido de Portal Inestable solo puede existir en el End. Realizar Expansión de Goo con goo de tier tres o superior convertirá el Fluido de Portal Inestable en Fluido de Portal.",
   ],
   "quest.6737CB17D562B134.quest_desc": [
     "Solo un simple clicker que hace click con el objeto que se le da.",
@@ -677,7 +691,11 @@
     "Un simple rompedor de bloques que requiere una herramienta para romper bloques.",
   ],
   "quest.7305EE0F7D73C231.quest_desc": [
-    "Las Mejoras en Blanco son la base de todas las habilidades. Las habilidades se separan en dos tipos, pasivas y activas.\\\\n\\\\nLas habilidades pasivas no requieren una entrada activa por parte del jugador para funcionar, sin embargo, las habilidades Activas solo funcionan cuando son activadas por una combinación de teclas que los jugadores establecen en el menú de configuración, además las habilidades activas consumen durabilidad/energía cuando se usan. Cuando se instalan en armaduras de nivel superior, las habilidades Activas tienen tiempos de reutilización reducidos y las habilidades Pasivas tienen mayores efectos.\\\\n\\\\nLa mesa de herrería se usa para aplicar mejoras a las herramientas y armaduras JDT. Mantener presionada la tecla shift mientras se pasa el cursor sobre las herramientas o armaduras JDT muestra qué mejoras son válidas.",
+    "Las Mejoras en Blanco son la base de todas las habilidades. Las habilidades se separan en dos tipos, pasivas y activas.",
+    "",
+    "Las habilidades pasivas no requieren una entrada activa por parte del jugador para funcionar, sin embargo, las habilidades Activas solo funcionan cuando son activadas por una combinación de teclas que los jugadores establecen en el menú de configuración, además las habilidades activas consumen durabilidad/energía cuando se usan. Cuando se instalan en armaduras de nivel superior, las habilidades Activas tienen tiempos de reutilización reducidos y las habilidades Pasivas tienen mayores efectos.",
+    "",
+    "La mesa de herrería se usa para aplicar mejoras a las herramientas y armaduras JDT. Mantener presionada la tecla shift mientras se pasa el cursor sobre las herramientas o armaduras JDT muestra qué mejoras son válidas.",
   ],
   "quest.454CA1F8CC198D9D.quest_desc": [
     "Mejoras Válidas:",
@@ -705,7 +723,11 @@
     "Elimina todos los efectos negativos del jugador cuando se activa, tiene un tiempo de reutilización.",
   ],
   "quest.441F37A95AB66E6B.quest_desc": [
-    "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods. \\\\n\\\\nComo todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito. \\\\n\\\\nEsta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición.",
+    "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods. ",
+    "",
+    "Como todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito. ",
+    "",
+    "Esta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición.",
   ],
   "quest.454662617304E299.quest_desc": [
     "&lTipo de Habilidad:&r Pasiva",

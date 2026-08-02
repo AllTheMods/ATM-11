@@ -71,7 +71,7 @@
     "꿀 &6병 8개&r를 마십니다. \\\\n\\\\n이것은 제가 가장 어려워하는 것 중 하나인데, &6꿀 병&r을 마시는 소리를 참을 수 없습니다.",
   ],
   "quest.4A5F84912C755688.quest_desc": [
-    "\\\"벤가버스가 온다\\\\n그리고 모두가 점프한다\\\\n뉴욕에서 샌프란시스코까지\\\\n도시 간 디스코\\\\n강철 바퀴가 돌아가고\\\\n신호등이 타오른다\\\\n그러니 파티를 좋아한다면\\\\n올라타서 몸을 움직여라\\\".",
+    "\"벤가버스가 온다\\\\n그리고 모두가 점프한다\\\\n뉴욕에서 샌프란시스코까지\\\\n도시 간 디스코\\\\n강철 바퀴가 돌아가고\\\\n신호등이 타오른다\\\\n그러니 파티를 좋아한다면\\\\n올라타서 몸을 움직여라\".",
     "{image:atm:textures/questpics/bumblezone/bumble_dance.png width:200 height:100 align:center}",
   ],
   "quest.7C7C0D3D7FCB0297.quest_desc": [
@@ -89,7 +89,7 @@
     "{image:atm:textures/questpics/bumblezone/bumble_shrine.png width:200 height:100 align:center}",
   ],
   "quest.6C5D61A704DC125A.quest_desc": [
-    "이것은 재미있는 물건입니다. 찾거나, 제작하거나, 거래할 수 있습니다.\\\\n\\\\n그런 다음 원하는 색으로 염색하고 머리에 쓸 수 있습니다!\\\\n\\\\n그러면 &6벌&8들&6은 &8당&r신을 꽃으로 생각하고 따라올 것입니다.\\\\n\\\\n또한 \\\"Duck Amuck\\\"의 Daffy처럼 보이게 합니다.",
+    "이것은 재미있는 물건입니다. 찾거나, 제작하거나, 거래할 수 있습니다.\\\\n\\\\n그런 다음 원하는 색으로 염색하고 머리에 쓸 수 있습니다!\\\\n\\\\n그러면 &6벌&8들&6은 &8당&r신을 꽃으로 생각하고 따라올 것입니다.\\\\n\\\\n또한 \"Duck Amuck\"의 Daffy처럼 보이게 합니다.",
     "{image:atm:textures/questpics/bumblezone/bumble_duckamuck.png width:100 height:100 align:center}",
   ],
   "task.030FFC7C0532E7B2.title": "꿀 슬라임 3마리 처치",
@@ -175,7 +175,7 @@
     "&7좀벌레&r 8마리를 처치하세요.",
   ],
   "quest.1207E5C3E7BD0584.title": "벌 현수막 무늬",
-  "quest.29E2033EA65E706E.quest_subtitle": "\\\"슬라임 랜처\\\"",
+  "quest.29E2033EA65E706E.quest_subtitle": "\"슬라임 랜처\"",
   "quest.6474FE12450A4A7D.title": "왕좌의 기둥",
   "quest.351769579833FA9E.title": "벌들과 함께하는 벌-러킹",
   "quest.613AC4DF39E5621D.title": "가제버즈 클러스터",

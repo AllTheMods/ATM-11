@@ -9,7 +9,10 @@
   "quest.2ACFD25B43F0499C.quest_subtitle": "Ipe + Luck",
   "quest.15FF9D19FBC873CF.quest_subtitle": "Plum + Peach",
   "quest.76A0592F4C294545.quest_desc": [
-    "Sawmill memotong Batang Kayu (Log) menjadi Serbuk Gergaji (Sawdust) dan menghasilkan lebih banyak Papan (Plank) dibanding crafting biasa. Serbuk gergaji bisa digunakan untuk membuat Kertas.\\\\n\\\\n - Fustic Log juga akan memberimu Fustic.\\\\n - Brazilwood Log dan Logwood Log juga akan memberimu Haematoxylin.",
+    "Sawmill memotong Batang Kayu (Log) menjadi Serbuk Gergaji (Sawdust) dan menghasilkan lebih banyak Papan (Plank) dibanding crafting biasa. Serbuk gergaji bisa digunakan untuk membuat Kertas.",
+    "",
+    " - Fustic Log juga akan memberimu Fustic.",
+    " - Brazilwood Log dan Logwood Log juga akan memberimu Haematoxylin.",
   ],
   "quest.0480DF316ACF12DA.quest_subtitle": "Western Hemlock + Jungle",
   "quest.6255E2FE6DD4084A.quest_subtitle": "Holly + Alder",
@@ -64,7 +67,11 @@
   "quest.4D562F5D72038083.quest_subtitle": "Alder + European Larch",
   "quest.054F3A0499F8A0D8.quest_subtitle": "Sweet Chestnut + Capoazu",
   "quest.25D8BE0280B6E7F1.quest_desc": [
-    "Quest ini ditulis oleh &6Staf AllTheMods&r, atau &2Kontributor Komunitas&r untuk digunakan dalam Modpack AllTheMods. \\\\n\\\\nKarena semua pack &6AllTheMods&r dilisensikan di bawah &eAll Rights Reserved&r, quest ini tidak diperbolehkan untuk digunakan dalam pack publik mana pun yang tidak dirilis oleh &6Tim AllTheMods&r tanpa izin eksplisit. \\\\n\\\\nQuest ini sengaja disembunyikan; jika kamu melihat ini, berarti kamu sedang dalam mode pengeditan.",
+    "Quest ini ditulis oleh &6Staf AllTheMods&r, atau &2Kontributor Komunitas&r untuk digunakan dalam Modpack AllTheMods. ",
+    "",
+    "Karena semua pack &6AllTheMods&r dilisensikan di bawah &eAll Rights Reserved&r, quest ini tidak diperbolehkan untuk digunakan dalam pack publik mana pun yang tidak dirilis oleh &6Tim AllTheMods&r tanpa izin eksplisit. ",
+    "",
+    "Quest ini sengaja disembunyikan; jika kamu melihat ini, berarti kamu sedang dalam mode pengeditan.",
   ],
   "quest.29FA0E9664935566.quest_subtitle": "Balsa + Cacao",
   "quest.7D7DC3C695CD7236.quest_subtitle": "Silver Lime + Spruce",
@@ -82,7 +89,11 @@
   "quest.77D3546953550E39.quest_subtitle": "Bull Pine + Spruce",
   "quest.75CE67D3AA75C798.quest_subtitle": "Red Delicious Apple + Granny Smith Apple",
   "quest.5577F49A93ADB19C.quest_desc": [
-    "&lProductive Trees&r adalah mod saudara dari &lProductive Bees&r.\\\\n\\\\nUntuk mendapatkan berbagai jenis pohon, kamu membutuhkan Daun yang Terpolinasi (Pollinated Leaves). Untuk mendapatkannya, kamu butuh Serbuk Sari (Pollen). Untuk serbuk sari, kamu butuh Lebah.\\\\n\\\\nLebah yang mengambil sari bunga di dekat pohon akan otomatis melakukan polinasi pada daun, atau kamu bisa menggunakan Pollen Sieve Upgrade di dalam sarang (Hive) untuk mendapatkan dan menggunakan serbuk sari sendiri! Ini, satu buat kamu gratis!",
+    "&lProductive Trees&r adalah mod saudara dari &lProductive Bees&r.",
+    "",
+    "Untuk mendapatkan berbagai jenis pohon, kamu membutuhkan Daun yang Terpolinasi (Pollinated Leaves). Untuk mendapatkannya, kamu butuh Serbuk Sari (Pollen). Untuk serbuk sari, kamu butuh Lebah.",
+    "",
+    "Lebah yang mengambil sari bunga di dekat pohon akan otomatis melakukan polinasi pada daun, atau kamu bisa menggunakan Pollen Sieve Upgrade di dalam sarang (Hive) untuk mendapatkan dan menggunakan serbuk sari sendiri! Ini, satu buat kamu gratis!",
   ],
   "quest.4C3B7BAEA653587B.quest_desc": [
     "Bisa ditemukan di dalam peti di Piramida Gurun (Desert Pyramid).",
@@ -186,7 +197,9 @@
   "quest.052BE1D845794702.quest_subtitle": "Teak + Acacia",
   "quest.45D1FFB263CD722D.quest_subtitle": "Teak + Clove",
   "quest.0661E9669E639621.quest_desc": [
-    "Beberapa bibit (sapling) tidak bisa diserbuksarikan. Bibit-bibit ini memiliki peluang acak untuk tumbuh menjadi pohon jenis lain.\\\\n\\\\nMisalnya, jika kamu ingin mendapatkan &4Red Crepe Myrtle Sapling&r, pertama tumbuhkan dulu Purple Crepe Myrtle Sapling. Kamu akan memiliki peluang untuk mendapatkan &4Red Crepe Myrtle Tree&r dari sana.",
+    "Beberapa bibit (sapling) tidak bisa diserbuksarikan. Bibit-bibit ini memiliki peluang acak untuk tumbuh menjadi pohon jenis lain.",
+    "",
+    "Misalnya, jika kamu ingin mendapatkan &4Red Crepe Myrtle Sapling&r, pertama tumbuhkan dulu Purple Crepe Myrtle Sapling. Kamu akan memiliki peluang untuk mendapatkan &4Red Crepe Myrtle Tree&r dari sana.",
   ],
   "quest.20DDAC076A2479A8.quest_subtitle": "Purple Spiral + Sparkle Cherry",
   "quest.70F7B018CD61E946.quest_subtitle": "Dark Oak + Jungle",

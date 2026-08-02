@@ -128,7 +128,7 @@
     "{image:atm:textures/questpics/industrialforegoing/water_for_interface.png width:125 height:100 align:center}",
     "{@pagebreak}",
     "Opcionalmente, você pode colocar um Rótulo de Transferência entre o &5Provedor Avançado&r e o &cDestilador&r.\\\\n\\\\nSe você ainda está confuso com esta configuração, ou prefere assistir a um vídeo, confira o vídeo que linkei aqui, do ChosenArchitect:",
-    "{\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://youtu.be/DOW4xkxqp6g?si=paZ2xFKyycPumqaS&t=427\\\"},\\\"color\\\":\\\"blue\\\",\\\"text\\\":\\\"LINK DO VÍDEO AQUI\\\",\\\"underlined\\\":true} ",
+    "{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/DOW4xkxqp6g?si=paZ2xFKyycPumqaS&t=427\"},\"color\":\"blue\",\"text\":\"LINK DO VÍDEO AQUI\",\"underlined\":true} ",
   ],
   "quest.2CCFEE98FE3B2E97.title": "Blocos",
   "quest.41E8550FC36ABCA5.title": "Ferramentas do Infinito",
@@ -222,7 +222,7 @@
   ],
   "task.38E166AC8F55D42E.title": "Melhorias",
   "quest.2782EA80C1C74EBD.quest_desc": [
-    "O Triturador de Mobs &ldeleta&r mobs em sua área de trabalho, coletando o saque desse mob, além de converter a &aExperiência&r que aquele mob obteria em &aEssência&r. Você também pode opcionalmente usar o que seria a Experiência para aplicar Saque ao Triturador de Mobs.\\\\n\\\\nChefes e outros mobs que não podem ir para geradores estão na \\\"lista negra\\\" do Triturador de Mobs. Em vez de serem &ldeletados&r, eles recebem 75 de dano por operação.\\\\n\\\\nEsta máquina suporta Adicionais de Alcance.",
+    "O Triturador de Mobs &ldeleta&r mobs em sua área de trabalho, coletando o saque desse mob, além de converter a &aExperiência&r que aquele mob obteria em &aEssência&r. Você também pode opcionalmente usar o que seria a Experiência para aplicar Saque ao Triturador de Mobs.\\\\n\\\\nChefes e outros mobs que não podem ir para geradores estão na \"lista negra\" do Triturador de Mobs. Em vez de serem &ldeletados&r, eles recebem 75 de dano por operação.\\\\n\\\\nEsta máquina suporta Adicionais de Alcance.",
   ],
   "quest.3027584AA6138E6D.title": "Inserção e Extração de Esteira",
   "quest.1684D52FDAAC894B.quest_subtitle": "Processamento de Minério: Passo 2",

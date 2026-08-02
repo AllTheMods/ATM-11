@@ -6,10 +6,16 @@
   "quest.25EFC21A3C48E0B6.title": "Tier: &2Espiritual",
   "task.36E378BF22554E0A.title": "Cables de Energía",
   "quest.6B2027DA7AA6FF34.quest_desc": [
-    "&9Powah&r es un mod tecnológico que trata sobre generar, almacenar y transmitir &dEnergía&r. ¡Desde la generación básica de FE hasta &aReactores&r que producen &b250k FE/t&r, Powah te tiene cubierto!\\\\n\\\\nPara empezar, ¡sal y mina algo de &aUraninita&r!",
+    "&9Powah&r es un mod tecnológico que trata sobre generar, almacenar y transmitir &dEnergía&r. ¡Desde la generación básica de FE hasta &aReactores&r que producen &b250k FE/t&r, Powah te tiene cubierto!",
+    "",
+    "Para empezar, ¡sal y mina algo de &aUraninita&r!",
   ],
   "quest.08245411AFDB63DB.quest_desc": [
-    "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods.\\\\n\\\\nComo todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito.\\\\n\\\\nEsta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición.",
+    "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods.",
+    "",
+    "Como todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito.",
+    "",
+    "Esta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición.",
   ],
   "quest.5BCA3F716348ECCD.quest_desc": [
     "La &9Tolva de Energía&r cargará cualquier objeto cargable dentro del inventario del bloque al que apunta, como un cofre.",
@@ -24,10 +30,20 @@
   "quest.7E92ED270C67FDE5.title": "Comenzando con Materiales Dieléctricos",
   "quest.6754612E9AD4B9C0.title": "Reactor (Ardiente)",
   "quest.3CB6DC5B09C62CFE.quest_desc": [
-    "Las &5Puertas Ender&r se usan para transferir energía de forma inalámbrica hacia y desde un bloque adyacente a la &7Red Ender&r.\\\\n\\\\nPiensa en esto como puntos de acceso inalámbrico a tu red inalámbrica de energía.\\\\n\\\\nNota: Solo puedes añadir &acapacidad de almacenamiento de energía&r usando una Celda Ender.",
+    "Las &5Puertas Ender&r se usan para transferir energía de forma inalámbrica hacia y desde un bloque adyacente a la &7Red Ender&r.",
+    "",
+    "Piensa en esto como puntos de acceso inalámbrico a tu red inalámbrica de energía.",
+    "",
+    "Nota: Solo puedes añadir &acapacidad de almacenamiento de energía&r usando una Celda Ender.",
   ],
   "quest.1B0087400B0B8B49.quest_desc": [
-    "El &9Reactor&r es un generador multiblock de 3x4x3 que quema &aUrananita&r como combustible para producir FE.\\\\n\\\\nPara construirlo, necesitarás hacer un total de 36 Bloques de Reactor. Mientras sostienes 36 en la mano, colocar un bloque construirá automáticamente el reactor. ¡Asegúrate de despejar algo de espacio primero!\\\\n\\\\nQuerrás enfriar el reactor para que cree más FE, y puedes hacerlo con &brefrigerante&r sólido o líquido. Para usar un refrigerante sólido, también necesitarás darle algo de refrigerante líquido. ¡El &bHielo Seco&r es un gran refrigerante sólido! (Nota: 1 Cubo de Agua servirá).\\\\n\\\\nTambién puedes aumentar la generación de FE manteniendo lleno el búfer de combustible, así como añadiendo tanto Carbón como Redstone al Reactor. ¡Usar Bloques de cualquiera también funcionará!",
+    "El &9Reactor&r es un generador multiblock de 3x4x3 que quema &aUrananita&r como combustible para producir FE.",
+    "",
+    "Para construirlo, necesitarás hacer un total de 36 Bloques de Reactor. Mientras sostienes 36 en la mano, colocar un bloque construirá automáticamente el reactor. ¡Asegúrate de despejar algo de espacio primero!",
+    "",
+    "Querrás enfriar el reactor para que cree más FE, y puedes hacerlo con &brefrigerante&r sólido o líquido. Para usar un refrigerante sólido, también necesitarás darle algo de refrigerante líquido. ¡El &bHielo Seco&r es un gran refrigerante sólido! (Nota: 1 Cubo de Agua servirá).",
+    "",
+    "También puedes aumentar la generación de FE manteniendo lleno el búfer de combustible, así como añadiendo tanto Carbón como Redstone al Reactor. ¡Usar Bloques de cualquiera también funcionará!",
   ],
   "quest.05B0A7D0B991050F.title": "Reactor (Endurecido)",
   "quest.7678B5DD1339833E.quest_desc": [
@@ -35,7 +51,9 @@
   ],
   "quest.7D7983F39E6E818D.title": "Nivel: &9Niótico",
   "quest.78202A1CF5D86B94.quest_desc": [
-    "El &9Banco de Energía&r de Powah.\\\\n\\\\nEstos también se pueden usar para mejorar la capacidad total de almacenamiento de energía de tus &7Redes Ender&r inalámbricas.",
+    "El &9Banco de Energía&r de Powah.",
+    "",
+    "Estos también se pueden usar para mejorar la capacidad total de almacenamiento de energía de tus &7Redes Ender&r inalámbricas.",
   ],
   "quest.0FD62827710F0AC6.quest_desc": [
     "El &cMagmator&r generará FE cuando se le suministre Lava.",
@@ -58,7 +76,11 @@
   "quest.562BD37539EE318E.title": "Nivel: &cArdiente",
   "quest.341486C9F277FEB7.title": "Reactor (Espiritual)",
   "quest.3DDF87A1E5F5D009.quest_desc": [
-    "Al principio, puedes arreglártelas creando las máquinas de tier &7Inicial&r y &bBásico&r usando Hierro, pero eventualmente necesitarás crear materiales energizados usando el &9Orbe Energizante&r.\\\\n\\\\nEl &9Orbe Energizante&r energizará objetos usando &aVarillas Energizantes&r cercanas dentro de un área de 9x9 a su alrededor, creando mejores materiales para que los uses para progresar a través de los &eTiers&r en Powah.\\\\n\\\\nPara alimentar el orbe, necesitarás conectar Varillas Energizantes a Cables de Energía que estén siendo suministrados con energía. ¡Si quieres que el Orbe energice más rápido, haz más varillas, mejora a varillas de tier superior, o ambas cosas! Para ver si las Varillas están conectadas, configura tu &aLlave Inglesa&r en modo enlace y podrás enlazar cualquier Varilla al Orbe.",
+    "Al principio, puedes arreglártelas creando las máquinas de tier &7Inicial&r y &bBásico&r usando Hierro, pero eventualmente necesitarás crear materiales energizados usando el &9Orbe Energizante&r.",
+    "",
+    "El &9Orbe Energizante&r energizará objetos usando &aVarillas Energizantes&r cercanas dentro de un área de 9x9 a su alrededor, creando mejores materiales para que los uses para progresar a través de los &eTiers&r en Powah.",
+    "",
+    "Para alimentar el orbe, necesitarás conectar Varillas Energizantes a Cables de Energía que estén siendo suministrados con energía. ¡Si quieres que el Orbe energice más rápido, haz más varillas, mejora a varillas de tier superior, o ambas cosas! Para ver si las Varillas están conectadas, configura tu &aLlave Inglesa&r en modo enlace y podrás enlazar cualquier Varilla al Orbe.",
     "",
     "{image:atm:textures/questpics/powah/powah_energizing.png width:200 height:200 align:1}",
   ],
@@ -69,10 +91,14 @@
   "task.1F929F1DF23460AE.title": "Tarjetas de Vinculación",
   "quest.1B0087400B0B8B49.title": "Reactor (Inicial)",
   "quest.7E92ED270C67FDE5.quest_desc": [
-    "Casi todas las máquinas que puedes hacer en el mod requerirán una &9Carcasa Dieléctrica&r.\\\\n\\\\n¡Necesitarás hacer la &bPasta&r primero, así como algunas &aVarillas&r para progresar!",
+    "Casi todas las máquinas que puedes hacer en el mod requerirán una &9Carcasa Dieléctrica&r.",
+    "",
+    "¡Necesitarás hacer la &bPasta&r primero, así como algunas &aVarillas&r para progresar!",
   ],
   "quest.52E59FCB39D66BCF.quest_desc": [
-    "Una de las mejores opciones para la \\\"Energía Pasiva\\\", el &9Generador Térmico&r producirá FE cuando se coloque sobre una &cFuente de Calor&r y se le suministre un flujo constante de agua.\\\\n\\\\nActualmente hay 3 bloques sobre los que puedes colocar esto: un bloque de Magma que produce lo mínimo, un bloque fuente de lava que es un poco mejor, o un &cBloque de Cristal Ardiente&r, que proporciona la mayor cantidad de calor.",
+    "Una de las mejores opciones para la \"Energía Pasiva\", el &9Generador Térmico&r producirá FE cuando se coloque sobre una &cFuente de Calor&r y se le suministre un flujo constante de agua.",
+    "",
+    "Actualmente hay 3 bloques sobre los que puedes colocar esto: un bloque de Magma que produce lo mínimo, un bloque fuente de lava que es un poco mejor, o un &cBloque de Cristal Ardiente&r, que proporciona la mayor cantidad de calor.",
   ],
   "quest.3D5F87F8E6B89C1B.quest_desc": [
     "El &7Furnator&r quemará objetos como carbón y madera para producir FE.",

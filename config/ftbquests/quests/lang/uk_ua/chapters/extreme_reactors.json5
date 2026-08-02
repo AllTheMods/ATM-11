@@ -10,7 +10,7 @@
   ],
   "quest.6ADDFD55AD0DF7D4.title": "Inanite",
   "quest.25D4406CB86C8CBB.quest_desc": [
-    "Now that we are collecting some &9waste&r from our reactor, part of the progression requires you to \\\"Fluidize\\\" some of the ingots you get. You know what that means?\\\\n\\\\nWe need to make a &aFluidizer&r! The main component is the &aFluidizer Controller&r. Once built, you can right-click on this to open up the interface. Here, you can turn it on or off, see what's inside, and the current power level.",
+    "Now that we are collecting some &9waste&r from our reactor, part of the progression requires you to \"Fluidize\" some of the ingots you get. You know what that means?\\\\n\\\\nWe need to make a &aFluidizer&r! The main component is the &aFluidizer Controller&r. Once built, you can right-click on this to open up the interface. Here, you can turn it on or off, see what's inside, and the current power level.",
   ],
   "quest.4AD8363D7359A072.quest_desc": [
     "We're going to build the smallest passive reactor possible, the &93x3x3&r. The requirements for the quest are the exact amounts for what you'll need to build one.\\\\n\\\\nTo build this, you start by building a 3x3x3 frame made out of Casings. In the middle of the bottom face, you can just use another Reactor Casing. You'll want each outer wall to have a &9reactor component&r, like an Active Power Tap or Solid Access Port.",
@@ -32,7 +32,7 @@
     "Using the &aReprocessor&r, we can combine everything we've made so far to make a few new ingots.\\\\n\\\\nNote: You might need a &9Fluidizer&r to complete this step!",
   ],
   "quest.4B9E9497E44D0096.quest_desc": [
-    "To build a reactor, you'll need to start by making &6Reactor Casings&r.\\\\n\\\\nThese make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor.\\\\n\\\\nFor future reference, when a part says \\\"Basic\\\", this means that it can only be used with other basic parts. The Basic parts can also only be used to build smaller reactors, as it has a certain size limit. Keep this in mind!",
+    "To build a reactor, you'll need to start by making &6Reactor Casings&r.\\\\n\\\\nThese make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor.\\\\n\\\\nFor future reference, when a part says \"Basic\", this means that it can only be used with other basic parts. The Basic parts can also only be used to build smaller reactors, as it has a certain size limit. Keep this in mind!",
   ],
   "quest.775D176081DD75F5.quest_desc": [
     "Right-clicking on a Turbine Controller when it is fully built will show you the Turbine Interface.\\\\n\\\\nHere, you can see all of the stats for the Turbine. Hovering over each will tell you more info about each one.\\\\n\\\\nOn the bottom left, you'll have 2 arrows to control the &9Flow Rate&r. This controls how much heated vapor is pumped into the Turbine. To know how much you should set this to, check your reactor's &dVapor Production Rate&r as a starting point. ",
@@ -105,7 +105,7 @@
     "The heart of this multiblock is the &aController&r, and can be placed on any vertical face as long as it isn't on the frame.",
   ],
   "quest.2A20000FAEC2E16A.quest_desc": [
-    "To extract power or items from your reactor, or even input fuel, you'll need these &crequired&r blocks.\\\\n\\\\nThe &cPower Tap&r provides a way for you to \\\"tap\\\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it.\\\\n\\\\nThe &aAccess Ports&r are required for every reactor, and allows you to both input fuel from the reactor, or extract waste. It's usually a good idea to have 2 per reactor, one for each job.",
+    "To extract power or items from your reactor, or even input fuel, you'll need these &crequired&r blocks.\\\\n\\\\nThe &cPower Tap&r provides a way for you to \"tap\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it.\\\\n\\\\nThe &aAccess Ports&r are required for every reactor, and allows you to both input fuel from the reactor, or extract waste. It's usually a good idea to have 2 per reactor, one for each job.",
   ],
   "quest.354086C858E10154.quest_desc": [
     "Now that we have some Cyanite from our baby reactor, we'll want a way to reprocess that waste into something useful.",

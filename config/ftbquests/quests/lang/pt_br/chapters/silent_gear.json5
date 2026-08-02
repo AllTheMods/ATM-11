@@ -36,7 +36,7 @@
     "&nFundição&r: &aOk&r \\\\n&nMetal Líquido na Fundição&r: &aOk&r \\\\n\\\\nAgora, como tiramos isso de lá? \\\\n\\\\nLembra do nosso amigo de antes? O &cDreno&r da &b&lFundição&r? Precisaremos apresentá-lo ao nosso novo amigo, a &7Torneira&r da &c&lFundição&r. \\\\n\\\\nColoque a &7Torneira&r da &c&lFundição&r no &bDreno&r, agora podemos colocar Blocos abaixo dela para drenar o &7Metal Líquido&r para... \\\\n\\\\nBlocos como o &8Recipiente de Fundição (Casting Bin)&r, que transformará cerca de 900mB de &7Metal Líquido&r no &7Bloco de Metal&r completo. \\\\n\\\\nOu a &8Mesa de Fundição (Casting Table)&r, que é o que precisaremos para fazer...",
   ],
   "quest.11B0B93D725ABE43.quest_desc": [
-    "O equipamento do Silent Gear pode ser reparado usando um &9Kit de Reparo&r.\\\\n\\\\nPara reparar um item, coloque o Kit de Reparo em uma grade de criação e, em seguida, coloque os materiais necessários para reparar a ferramenta junto com ele. Isso irá \\\"encher\\\" o Kit de Reparo.\\\\n\\\\nPara reparar a ferramenta, combine o Kit de Reparo cheio com a ferramenta que você gostaria de reparar em uma grade de criação.",
+    "O equipamento do Silent Gear pode ser reparado usando um &9Kit de Reparo&r.\\\\n\\\\nPara reparar um item, coloque o Kit de Reparo em uma grade de criação e, em seguida, coloque os materiais necessários para reparar a ferramenta junto com ele. Isso irá \"encher\" o Kit de Reparo.\\\\n\\\\nPara reparar a ferramenta, combine o Kit de Reparo cheio com a ferramenta que você gostaria de reparar em uma grade de criação.",
   ],
   "quest.2EB96FF06627FD9A.quest_desc": [
     "O Recuperador permite que você desmonte equipamentos nos itens que os compõem.\\\\n\\\\nPor exemplo: Se você colocar umas Botas de Diamante, receberá 4 Diamantes de volta.",
@@ -51,7 +51,7 @@
   "quest.061A51A0EC13CA0F.title": "Construindo a &c&lFundição&r",
   "quest.22A0A9C81A5C85A1.quest_subtitle": "Segurando tudo junto",
   "quest.7C3D763CF22D167A.quest_desc": [
-    "O Carregador da Luz Estrelar pode \\\"encantar\\\" materiais com o encantamento \\\"Carregado de Estrelas\\\".\\\\n\\\\nUma estrutura deve ser construída com o Carregador da Luz Estrelar no meio, à vista do céu noturno. Ele só ganha Poder da Luz Estrelar durante a noite.\\\\n\\\\nA estrutura do Carregador deve ser colocada no meio de uma estrutura 7x7, com um Pilar em cada canto. Cada pilar deve ter uma \\\"Tampa do Carregador da Luz Estrelar\\\".\\\\n\\\\nEle também requer um catalisador de carregador por material.",
+    "O Carregador da Luz Estrelar pode \"encantar\" materiais com o encantamento \"Carregado de Estrelas\".\\\\n\\\\nUma estrutura deve ser construída com o Carregador da Luz Estrelar no meio, à vista do céu noturno. Ele só ganha Poder da Luz Estrelar durante a noite.\\\\n\\\\nA estrutura do Carregador deve ser colocada no meio de uma estrutura 7x7, com um Pilar em cada canto. Cada pilar deve ter uma \"Tampa do Carregador da Luz Estrelar\".\\\\n\\\\nEle também requer um catalisador de carregador por material.",
   ],
   "quest.3722B43822F80470.quest_desc": [
     "Mais dano que uma Espada, mas mais lenta.",
@@ -105,7 +105,7 @@
   "quest.083ABBA1C45FF960.quest_subtitle": "Apenas um Cortador de Grama",
   "quest.462C1F75A2FB9F02.quest_subtitle": "Cadê o Willy?",
   "quest.3930404D5C8B44EB.quest_subtitle": "Combina Materiais",
-  "quest.7C3D763CF22D167A.quest_subtitle": "\\\"Encantando\\\" Materiais",
+  "quest.7C3D763CF22D167A.quest_subtitle": "\"Encantando\" Materiais",
   "task.55E0635973A828B0.title": "TodosOsDireitosReservados",
   "quest.405DCD3E36232EEA.quest_subtitle": "Liberte seu Espartano Interior",
   "quest.6BBC440BD0AD0E93.quest_desc": [
@@ -127,7 +127,7 @@
   "quest.0EF9F10A2178451F.title": "&zPartes de &c&lFundição&r &zTingíveis",
   "quest.26F9DB31A835B69C.title": "Fundindo Itens",
   "quest.6A393C7A24899E3E.quest_desc": [
-    "Colocar um Barra no Grader com um Catalisador de Grader dará ao material uma nota.\\\\n\\\\nQuanto melhor a nota, melhores são os atributos do material.\\\\n\\\\nA melhor nota é \\\"MAX\\\".",
+    "Colocar um Barra no Grader com um Catalisador de Grader dará ao material uma nota.\\\\n\\\\nQuanto melhor a nota, melhores são os atributos do material.\\\\n\\\\nA melhor nota é \"MAX\".",
   ],
   "quest.047F3F99035CE623.quest_subtitle": "Eu anseio pelas Minas",
   "quest.262036FE8E87F50A.quest_subtitle": "Mineração 3x3",

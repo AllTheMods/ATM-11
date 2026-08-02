@@ -23,7 +23,7 @@
   ],
   "quest.15DC6770B112EE69.quest_desc": [
     "용해 챔버는 &l&7인더스트리얼 포어고잉&r에서 추가된 기계입니다. 또한 &3바이브라늄&r과 &5언옵테이니움&r을 결합하는 방법이기도 합니다. \\\\n\\\\nIF에서 추가한 또 다른 기계인 몹 도살 공장에서 얻을 수 있는 &d분홍색 슬라임&r이 필요합니다.\\\\n\\\\n또한 &b&l디 아더&r에서 찾을 수 있고 피글린 마을에서 흔히 볼 수 있는 영혼 용암도 필요합니다.\\\\n\\\\n그 후 주괴와 피글리치 하트를 정확한 순서로 넣고 전력을 공급하면 완료됩니다!",
-    "{ \\\"text\\\": \\\"INDUSTRIAL FOREGOING QUESTLINE\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"193F91842D2ED7D9\\\" } }",
+    "{ \"text\": \"INDUSTRIAL FOREGOING QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }",
   ],
   "quest.44D5EDB8711EC7A0.title": "&6올더모듐 철퇴",
   "quest.151D836C7B0E6FAF.title": "&3바이브라늄 방패",
@@ -127,7 +127,7 @@
   ],
   "quest.7B3613C01F0B1373.quest_desc": [
     "&3바이브라늄&r과 &6올더모듐&r을 결합하려면 &l&c파와&r에 도전해야 합니다! \\\\n\\\\n에너자이징 오브를 놓고 에너자이징 막대를 마주보게 놓으세요. 에너자이징 막대는 파워 근원에 놓여야 하며 오브에 에너지를 보냅니다. 각 막대가 보유하고 보내는 양은 티어에 따라 결정됩니다.\\\\n\\\\n주괴, 피글리치 하트 2개, 압축된 니트로 수정 블록 X1을 오브에 넣으세요(순서는 상관없음). 그런 다음 막대를 통해 10억 FE가 오브에 들어가면 준비가 완료됩니다!",
-    "{ \\\"text\\\": \\\"POWAH QUESTLINE\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"2A6EBEEBAB882679\\\" } }",
+    "{ \"text\": \"POWAH QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }",
   ],
   "quest.0484051446480B54.title": "&6올더모듐 &5합금 &3도끼",
   "quest.201EE3566D4D3123.quest_desc": [
@@ -172,7 +172,7 @@
   ],
   "quest.762581CAE5F5DDC1.quest_desc": [
     "마법 모드라니 얼마나 화려한가! &d&lArs Nouveau&r는 &5언옵테이니움&r과 &6올더모듐&r을 함께 제작하는 데 사용할 모드입니다! \\\\n\\\\n마법 부여 장치는 현재 여기에서 많은 제작법에 사용되는 멀티블록입니다. 아케인 코어로 시작한 다음 그 위에 마법 부여 장치를 놓으세요. 다음으로, 마법 부여 장치 주변에 받침대를 같은 Y 레벨로 놓으세요.\\\\n\\\\n그런 다음 아이템을 아무 순서로나 받침대 위에 놓고, 주변에 마나의 근원을 둔 다음, 마나 보석을 장치에 넣으면 시작됩니다! 그러면 &5언옵테이니움&r-&6올더모듐&r 합금 주괴를 제작할 수 있습니다!",
-    "{ \\\"text\\\": \\\"ARS NOUVEAU QUESTLINE\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"6AEDA2F9BEB57759\\\" } }",
+    "{ \"text\": \"ARS NOUVEAU QUESTLINE\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }",
   ],
   "quest.2EDE91023F7924FB.title": "&d&l엔드",
   "quest.77AD61FCA9BC9AFB.title": "&3바이브라늄 주문서",

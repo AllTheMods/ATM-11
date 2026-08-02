@@ -154,6 +154,6 @@
     "",
     "The blocks must be glued together and any blocks requiring rotational force will automatically be working.",
     "",
-    "To \\\\\\\"unmount\\\\\\\" the blocks from the Minecart, simply turn off the redstone signal and let the Minecart ride through.",
+    "To \\\\\"unmount\\\\\" the blocks from the Minecart, simply turn off the redstone signal and let the Minecart ride through.",
   ],
 }

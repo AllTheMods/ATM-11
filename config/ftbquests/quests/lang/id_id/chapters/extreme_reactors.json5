@@ -10,7 +10,7 @@
   ],
   "quest.6ADDFD55AD0DF7D4.title": "Inanite",
   "quest.25D4406CB86C8CBB.quest_desc": [
-    "Sekarang kita ngumpulin &9waste&r dari reactor, bagian dari progres mengharuskan kamu \\\"Fluidize\\\" beberapa ingot yang didapat. Tau artinya apa?\\\\n\\\\nKita butuh bikin &aFluidizer&r! Komponen utamanya adalah &aFluidizer Controller&r. Setelah dibangun, kamu bisa klik kanan untuk buka interface. Di sini, kamu bisa nyalain atau matiin, lihat isinya, dan level power saat ini.",
+    "Sekarang kita ngumpulin &9waste&r dari reactor, bagian dari progres mengharuskan kamu \"Fluidize\" beberapa ingot yang didapat. Tau artinya apa?\\\\n\\\\nKita butuh bikin &aFluidizer&r! Komponen utamanya adalah &aFluidizer Controller&r. Setelah dibangun, kamu bisa klik kanan untuk buka interface. Di sini, kamu bisa nyalain atau matiin, lihat isinya, dan level power saat ini.",
   ],
   "quest.4AD8363D7359A072.quest_desc": [
     "Kita akan bangun passive reactor terkecil yang mungkin, &93x3x3&r. Requirement untuk quest adalah jumlah pasti yang kamu butuh buat bangun satu.\\\\n\\\\nBuat bangun ini, mulai dengan bangun frame 3x3x3 dari Casing. Di tengah sisi bawah, kamu bisa pakai Reactor Casing lain. Kamu mau setiap dinding luar punya &9reactor component&r, kayak Active Power Tap atau Solid Access Port.",
@@ -32,7 +32,7 @@
     "Pakai &aReprocessor&r, kita bisa gabungin semua yang sudah kita buat sejauh ini untuk bikin beberapa ingot baru.\\\\n\\\\nCatatan: Kamu mungkin butuh &9Fluidizer&r untuk ngelengkapin langkah ini!",
   ],
   "quest.4B9E9497E44D0096.quest_desc": [
-    "Untuk bangun reactor, kamu perlu mulai dengan bikin &6Reactor Casing&r.\\\\n\\\\nIni bikin frame dan dinding reactor kamu, meskipun dindingnya bisa diganti dengan &9Reactor Glass&r kalau mau lihat ke dalam reactor.\\\\n\\\\nBuat referensi nanti, saat part bilang \\\"Basic\\\", artinya cuma bisa dipakai dengan part basic lain. Part Basic juga cuma bisa dipakai buat bangun reactor lebih kecil, karena ada batas ukuran tertentu. Ingat ini!",
+    "Untuk bangun reactor, kamu perlu mulai dengan bikin &6Reactor Casing&r.\\\\n\\\\nIni bikin frame dan dinding reactor kamu, meskipun dindingnya bisa diganti dengan &9Reactor Glass&r kalau mau lihat ke dalam reactor.\\\\n\\\\nBuat referensi nanti, saat part bilang \"Basic\", artinya cuma bisa dipakai dengan part basic lain. Part Basic juga cuma bisa dipakai buat bangun reactor lebih kecil, karena ada batas ukuran tertentu. Ingat ini!",
   ],
   "quest.775D176081DD75F5.quest_desc": [
     "Klik kanan Turbine Controller saat sudah dibangun penuh akan munculin Turbine Interface.\\\\n\\\\nDi sini, kamu bisa lihat semua stat untuk Turbine. Hover di masing-masing akan kasih tau info lebih tentang tiap satu.\\\\n\\\\nDi kiri bawah, kamu punya 2 panah untuk kontrol &9Flow Rate&r. Ini kontrol berapa banyak heated vapor yang dipompa ke Turbine. Untuk tau berapa banyak yang harus di-set, cek &dVapor Production Rate&r reactor kamu sebagai titik awal. ",
@@ -105,7 +105,7 @@
     "Jantung multiblock ini adalah &aController&r, dan bisa ditaruh di sisi vertikal manapun selama bukan di frame.",
   ],
   "quest.2A20000FAEC2E16A.quest_desc": [
-    "Untuk ngeluarin power atau item dari reactor, atau bahkan masukin fuel, kamu butuh blok &crequired&r ini.\\\\n\\\\n&cPower Tap&r kasih cara buat \\\"tap\\\" ke power yang dibuat reactor &9passive&r. Kamu bisa pasang pipe dan kabel buat ngeluarin power dari sini.\\\\n\\\\n&aAccess Port&r diperlukan buat setiap reactor, dan memungkinkan kamu masukin fuel ke reactor, atau ngeluarin waste. Biasanya ide bagus punya 2 per reactor, satu buat tiap job.",
+    "Untuk ngeluarin power atau item dari reactor, atau bahkan masukin fuel, kamu butuh blok &crequired&r ini.\\\\n\\\\n&cPower Tap&r kasih cara buat \"tap\" ke power yang dibuat reactor &9passive&r. Kamu bisa pasang pipe dan kabel buat ngeluarin power dari sini.\\\\n\\\\n&aAccess Port&r diperlukan buat setiap reactor, dan memungkinkan kamu masukin fuel ke reactor, atau ngeluarin waste. Biasanya ide bagus punya 2 per reactor, satu buat tiap job.",
   ],
   "quest.354086C858E10154.quest_desc": [
     "Sekarang kita punya Cyanite dari baby reactor, kita mau cara buat reprocess waste itu jadi sesuatu yang berguna.",

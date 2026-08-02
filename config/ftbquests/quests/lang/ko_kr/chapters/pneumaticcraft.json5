@@ -320,7 +320,7 @@
     "&3바이오디젤&r은 &3윤활유&r와 &3용융 플라스틱&r을 만드는 데 사용할 수 있습니다.",
   ],
   "quest.5D7B34761E8FD212.quest_desc": [
-    "&3정전기 압축기&r는 번개가 칠 때 아주 많은 압력을 생성합니다.\\\\n\\\\n자세한 내용은 JEI의 \\\"정보\\\" 탭을 확인하세요.",
+    "&3정전기 압축기&r는 번개가 칠 때 아주 많은 압력을 생성합니다.\\\\n\\\\n자세한 내용은 JEI의 \"정보\" 탭을 확인하세요.",
     "{image:pneumaticcraft:textures/patchouli/electrostatic_compressor.png width:100 height:100 align:left fit:true}",
   ],
   "quest.4C0D00B5305117A1.quest_subtitle": "펑 펑 (너 없이)",

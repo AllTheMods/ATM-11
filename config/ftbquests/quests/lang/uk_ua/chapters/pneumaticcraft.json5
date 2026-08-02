@@ -182,7 +182,7 @@
     "&3Biodeisel&r can be used to make &3Lubricant&r and &3Molten Plastic&r.",
   ],
   "quest.5D7B34761E8FD212.quest_desc": [
-    "The &3Electrostatic Compressor&r generates a lot of pressure from Lightning Strikes.\\\\n\\\\nFor more info check out the \\\"Information\\\" tab in JEI.\\\\n",
+    "The &3Electrostatic Compressor&r generates a lot of pressure from Lightning Strikes.\\\\n\\\\nFor more info check out the \"Information\" tab in JEI.\\\\n",
     "{image:pneumaticcraft:textures/patchouli/electrostatic_compressor.png width:100 height:100 align:left fit:true}",
   ],
   "quest.61AD2207E770CD7F.quest_subtitle": "Max: 6",

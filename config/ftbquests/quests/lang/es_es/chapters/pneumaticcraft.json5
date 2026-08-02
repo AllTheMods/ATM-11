@@ -11,7 +11,11 @@
   ],
   "quest.40F634AC38F42B88.title": "Moviendo la Presión",
   "quest.63F6F4EBCEB914B0.quest_desc": [
-    "La &3Cámara de Presión&r es una importante estructura multibloque compuesta por &3Paredes de Cámara de Presión&r (Las caras pueden ser reemplazadas por &3Vidrio de Cámara de Presión&r). La Cámara de Presión puede ser tan pequeña como un multibloque de 3x3x3, o tan grande como un multibloque de 5x5x5. Los bloques requeridos para el 5x5x5 son los necesarios para completar esta misión.\\\\n\\\\nPara usar la Cámara de Presión necesitarás entubar presión en una &3Válvula de Cámara de Presión&r usando los &3Tubos de Presión&r que hiciste antes, recuerda poner una Mejora de Seguridad en la Válvula de Presión. &lDiferentes recetas requieren diferentes cantidades de presión&r.\\\\n\\\\nNecesitarás poder introducir y extraer objetos de la Cámara de Presión, aquí es donde entran en juego las &3Interfaces de Cámara de Presión&r. Azul en el exterior significa que es para importar objetos, mientras que si el oro está en el exterior es para exportar objetos, coloca uno de cada en cualquier cara.",
+    "La &3Cámara de Presión&r es una importante estructura multibloque compuesta por &3Paredes de Cámara de Presión&r (Las caras pueden ser reemplazadas por &3Vidrio de Cámara de Presión&r). La Cámara de Presión puede ser tan pequeña como un multibloque de 3x3x3, o tan grande como un multibloque de 5x5x5. Los bloques requeridos para el 5x5x5 son los necesarios para completar esta misión.",
+    "",
+    "Para usar la Cámara de Presión necesitarás entubar presión en una &3Válvula de Cámara de Presión&r usando los &3Tubos de Presión&r que hiciste antes, recuerda poner una Mejora de Seguridad en la Válvula de Presión. &lDiferentes recetas requieren diferentes cantidades de presión&r.",
+    "",
+    "Necesitarás poder introducir y extraer objetos de la Cámara de Presión, aquí es donde entran en juego las &3Interfaces de Cámara de Presión&r. Azul en el exterior significa que es para importar objetos, mientras que si el oro está en el exterior es para exportar objetos, coloca uno de cada en cualquier cara.",
   ],
   "quest.5A9D6672385D3D82.quest_subtitle": "Ahorrando Lapislázuli",
   "quest.3D819550074CA376.quest_subtitle": "Siempre Requerido",
@@ -40,13 +44,18 @@
     "Hecho con &3Harina de Trigo&r. Se puede usar para hacer Tempura de Salmón y Pan de Masa Madre.",
   ],
   "quest.6D124ACF4AE80490.quest_desc": [
-    "¡Con Micromisiles puedes disparar explosiones desde lejos! ¡Ahora nadie puede escapar!\\\\n\\\\nEstos son necesarios para craftear la &6Estrella ATM&r.",
+    "¡Con Micromisiles puedes disparar explosiones desde lejos! ¡Ahora nadie puede escapar!",
+    "",
+    "Estos son necesarios para craftear la &6Estrella ATM&r.",
   ],
   "quest.7395B41685F4BC1A.quest_subtitle": "Energía = Presión",
   "quest.5D71ED16FD4E725A.quest_subtitle": "Máx: 1",
   "quest.7395B41685F4BC1A.title": "Presión de la Energía",
   "quest.461C8F1E88AA58D9.quest_desc": [
-    "Estos se pueden usar en recetas que usan la versión en cubos de los líquidos de PneumaticCraft.\\\\n\\\\nCuando se coloca un &3Tanque de Fluidos&r encima de otro &3Tanque de Fluidos&r y se unen con una llave inglesa, se convierten en un tanque grande.\\\\n",
+    "Estos se pueden usar en recetas que usan la versión en cubos de los líquidos de PneumaticCraft.",
+    "",
+    "Cuando se coloca un &3Tanque de Fluidos&r encima de otro &3Tanque de Fluidos&r y se unen con una llave inglesa, se convierten en un tanque grande.",
+    "",
     "{image:pneumaticcraft:textures/patchouli/small_tanks.png width:250 height:250 align:center fit:true}",
   ],
   "quest.3E16CF590C911129.quest_desc": [
@@ -73,7 +82,8 @@
   ],
   "quest.2338E5269CA23C91.quest_subtitle": "Esta es la Mejor Broca",
   "quest.002163B909070CF8.quest_desc": [
-    "Te permite ver detalles sobre ciertos bloques/fluidos, incluso a través de las paredes.\\\\n",
+    "Te permite ver detalles sobre ciertos bloques/fluidos, incluso a través de las paredes.",
+    "",
     "{image:atm:textures/questpics/pneumaticcraft/block_tracker.png width:150 height:150 align:center}",
   ],
   "quest.5E71F8A046C60346.title": "Generando Poder",
@@ -81,7 +91,11 @@
     "Cada &3Marco Logístico&r puede usarse para diferentes tipos de automatización.",
   ],
   "quest.7953C87C488A2AF7.quest_desc": [
-    "Te permite volar como Iron Man.\\\\n\\\\nSolo puedes tener un nivel de estas Mejoras en las Botas a la vez. Cada nivel usará más presión que el anterior.\\\\n\\\\nUsa estas mejoras, no solo las fabriques.",
+    "Te permite volar como Iron Man.",
+    "",
+    "Solo puedes tener un nivel de estas Mejoras en las Botas a la vez. Cada nivel usará más presión que el anterior.",
+    "",
+    "Usa estas mejoras, no solo las fabriques.",
   ],
   "quest.61AD2207E770CD7F.quest_desc": [
     "Te permite recoger objetos y experiencia desde más lejos.",
@@ -105,7 +119,9 @@
     "Aunque estas misiones no cubrirán los Drones, ¡son increíbles! Investiga su uso si quieres.",
   ],
   "quest.64E2E05B228EA53E.quest_desc": [
-    "¡Los &3Tubos de Presión Avanzados&r son los mejores Tubos de Presión disponibles, capaces de soportar 20 bares de presión!\\\\n\\\\nAunque estos son realmente geniales por sí solos, también se pueden usar en algunas recetas aún más geniales.",
+    "¡Los &3Tubos de Presión Avanzados&r son los mejores Tubos de Presión disponibles, capaces de soportar 20 bares de presión!",
+    "",
+    "Aunque estos son realmente geniales por sí solos, también se pueden usar en algunas recetas aún más geniales.",
   ],
   "quest.46BE62C20C720D10.quest_subtitle": "Máx: 1",
   "quest.715B86DC82EA636B.title": "Presión de Líquidos",
@@ -114,7 +130,9 @@
     "El &3Etanol&r se puede usar para hacer Biodiésel.",
   ],
   "quest.5E71F8A046C60346.quest_desc": [
-    "¿Quién te dijo que PneumaticCraft no se trataba de generar energía?\\\\n\\\\nEl &3Dínamo Neumático&r te permite convertir tu presión en FE. Lee la descripción emergente o lee sobre él en el PNC:R para saber cómo funciona.",
+    "¿Quién te dijo que PneumaticCraft no se trataba de generar energía?",
+    "",
+    "El &3Dínamo Neumático&r te permite convertir tu presión en FE. Lee la descripción emergente o lee sobre él en el PNC:R para saber cómo funciona.",
   ],
   "quest.0AEAEA976ED0C470.quest_subtitle": "¿Dónde está el cable?",
   "quest.423B8DA485C1308C.quest_subtitle": "Gas, gas, gas",
@@ -129,7 +147,9 @@
   ],
   "quest.3CFE522A4B7CC2EC.quest_subtitle": "Mejor que tu Cofre de Todos los Días",
   "quest.68F92455A9483AD6.quest_desc": [
-    "Solo verás esta misión si has usado Botas Propulsoras.\\\\n\\\\nNo hay forma de usar Botas Propulsoras sin recibir daño, ni lo intentes...",
+    "Solo verás esta misión si has usado Botas Propulsoras.",
+    "",
+    "No hay forma de usar Botas Propulsoras sin recibir daño, ni lo intentes...",
   ],
   "quest.32C3E14578D48E6C.quest_desc": [
     "¡Igual que los &3Tubos de Presión&r normales solo que estos pueden contener 10 bares de presión.",
@@ -139,7 +159,9 @@
   ],
   "quest.74015945716FD10A.quest_subtitle": "Una tolva configurable",
   "quest.31BCE63F5E016323.quest_desc": [
-    "El &3Compresor Solar&r genera Presión usando luz solar, cuanto más caliente se pone, más Presión producirá.\\\\n\\\\nSin embargo, ten cuidado, si se calienta demasiado funcionará mal y necesitarás repararlo.",
+    "El &3Compresor Solar&r genera Presión usando luz solar, cuanto más caliente se pone, más Presión producirá.",
+    "",
+    "Sin embargo, ten cuidado, si se calienta demasiado funcionará mal y necesitarás repararlo.",
   ],
   "quest.7953C87C488A2AF7.quest_subtitle": "Máx: 1",
   "quest.40924F0D64253A38.quest_subtitle": "¡Desaparecido!",
@@ -160,7 +182,11 @@
     "La &3Broca de Netherita&r es la mejor Broca, es incluso mejor que la Broca de Diamante.",
   ],
   "quest.325483DEB0C602F8.quest_desc": [
-    "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods. \\\\n\\\\nComo todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito. \\\\n\\\\nEsta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición.",
+    "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods. ",
+    "",
+    "Como todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito. ",
+    "",
+    "Esta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición.",
   ],
   "quest.00D7BCC68D971A53.quest_subtitle": "Máx: 1",
   "quest.2C5D78630C7AD57F.quest_desc": [
@@ -182,7 +208,10 @@
     "El &3Biodiésel&r puede usarse para hacer &3Lubricante&r y &3Plástico Fundido&r.",
   ],
   "quest.5D7B34761E8FD212.quest_desc": [
-    "El &3Compresor Electrostático&r genera mucha presión a partir de los Rayos.\\\\n\\\\nPara más información, consulta la pestaña \\\"Información\\\" en JEI.\\\\n",
+    "El &3Compresor Electrostático&r genera mucha presión a partir de los Rayos.",
+    "",
+    "Para más información, consulta la pestaña \"Información\" en JEI.",
+    "",
     "{image:pneumaticcraft:textures/patchouli/electrostatic_compressor.png width:100 height:100 align:left fit:true}",
   ],
   "quest.61AD2207E770CD7F.quest_subtitle": "Máx: 6",
@@ -199,7 +228,8 @@
     "Para mover la presión necesitarás obtener &3Tubos de Presión&r. ¿Qué presión, te estarás preguntando? Continúa la línea de misiones para ver para qué se usan.",
   ],
   "quest.0A912B2E2BE34920.quest_desc": [
-    "Aunque puedes encontrar Petróleo Crudo en la superficie, perforar es una excelente manera de obtener mucho petróleo. Primero usa un &3Sensor Sísmico&r hasta que encuentres petróleo debajo de ti, luego usa tu &3Elevador de Gas&r lleno de tubos de perforación para extraer petróleo. (Esto requiere presión para funcionar).\\\\n",
+    "Aunque puedes encontrar Petróleo Crudo en la superficie, perforar es una excelente manera de obtener mucho petróleo. Primero usa un &3Sensor Sísmico&r hasta que encuentres petróleo debajo de ti, luego usa tu &3Elevador de Gas&r lleno de tubos de perforación para extraer petróleo. (Esto requiere presión para funcionar).",
+    "",
     "{image:pneumaticcraft:textures/patchouli/oil_pumping.png width:200 height:200 align:right fit:true}",
   ],
   "quest.0D5015B8FF482D0A.quest_desc": [
@@ -208,10 +238,14 @@
     "{image:atm:textures/questpics/pneumaticcraft/amadron_drone.png width:300 height:150 align:center}",
   ],
   "quest.09BA45CBBFB4AE26.quest_desc": [
-    "La siguiente etapa de este mod requiere que configures &3Líneas de Ensamblaje&r. El componente principal de una &3Línea de Ensamblaje&r es el &3Controlador de Ensamblaje&r.\\\\n\\\\nAquí es donde irá la presión.",
+    "La siguiente etapa de este mod requiere que configures &3Líneas de Ensamblaje&r. El componente principal de una &3Línea de Ensamblaje&r es el &3Controlador de Ensamblaje&r.",
+    "",
+    "Aquí es donde irá la presión.",
   ],
   "quest.6674270897997BF7.quest_desc": [
-    "Te permite saltar más alto de lo normal y te hace elástico, lo que permite viajar más rápido.\\\\n\\\\nSolo puedes tener un nivel de estas Mejoras en las Grebas a la vez.",
+    "Te permite saltar más alto de lo normal y te hace elástico, lo que permite viajar más rápido.",
+    "",
+    "Solo puedes tener un nivel de estas Mejoras en las Grebas a la vez.",
   ],
   "quest.00D7BCC68D971A53.quest_desc": [
     "Las criaturas vivas cercanas serán rastreadas automáticamente, incluso a través de las paredes. Si es un mob agresivo, recibirás una advertencia cuando te apunte.",
@@ -225,7 +259,9 @@
   ],
   "quest.495DCA49B4E80852.quest_subtitle": "¡Piu Piu!",
   "quest.30AD7B15682E4D0E.quest_desc": [
-    "Una Señal inteligente que puede almacenar y mostrar cantidades arbitrarias de texto, escalado para que el texto siempre quepa.\\\\n\\\\nHaz clic derecho con cualquier Tinte para recolorear la baldosa, puedes colorear el borde y el fondo independientemente.",
+    "Una Señal inteligente que puede almacenar y mostrar cantidades arbitrarias de texto, escalado para que el texto siempre quepa.",
+    "",
+    "Haz clic derecho con cualquier Tinte para recolorear la baldosa, puedes colorear el borde y el fondo independientemente.",
   ],
   "quest.04BE9F63E6003475.title": "GLP",
   "quest.74AE214747A3DB1A.quest_subtitle": "¡Súbele!",
@@ -240,7 +276,9 @@
     "El objeto necesitará colocarse aquí antes de ser recogido de nuevo.",
   ],
   "quest.122EDEC12C9A05D2.quest_desc": [
-    "¿Olvidé mencionar que todo puede explotar? ...\\\\n\\\\n¡Afortunadamente hay una solución fácil! La &3Mejora de Seguridad&r cuando se coloca en una máquina asegura que no exploten, ¡ponlas en cualquier máquina en la que puedan ir.",
+    "¿Olvidé mencionar que todo puede explotar? ...",
+    "",
+    "¡Afortunadamente hay una solución fácil! La &3Mejora de Seguridad&r cuando se coloca en una máquina asegura que no exploten, ¡ponlas en cualquier máquina en la que puedan ir.",
   ],
   "quest.61BA2932EC86DA2E.quest_subtitle": "Máx: 1",
   "quest.21624A6500545C42.quest_desc": [
@@ -302,7 +340,8 @@
     "Te permite saltar más alto que con el Nivel II.",
   ],
   "quest.7386A8433698946C.quest_desc": [
-    "Selecciona un objeto y esta mejora lo buscará cerca en cofres o en el suelo. Para encontrarlo en cofres necesitará la Mejora de Rastreador de Bloques y para encontrarlo en el suelo necesitará la Mejora de Rastreador de Entidades.\\\\n",
+    "Selecciona un objeto y esta mejora lo buscará cerca en cofres o en el suelo. Para encontrarlo en cofres necesitará la Mejora de Rastreador de Bloques y para encontrarlo en el suelo necesitará la Mejora de Rastreador de Entidades.",
+    "",
     "{image:atm:textures/questpics/pneumaticcraft/item_search_upgrade.png width:200 height:200 align:center}",
   ],
   "quest.2CC56A4F06E53307.quest_subtitle": "¡Espero que tengas Gafas de Sol!",
@@ -314,7 +353,8 @@
     "¿Por qué el Pan normal no necesita Levadura?",
   ],
   "quest.4A076530297F4A97.quest_desc": [
-    "Con estos 3 componentes puedes crear unos &3Ascensores&r increíbles.\\\\n",
+    "Con estos 3 componentes puedes crear unos &3Ascensores&r increíbles.",
+    "",
     "{image:pneumaticcraft:textures/patchouli/elevator.png width:1 height:1 align:left fit:true}",
   ],
   "quest.61B479079DC1C69C.quest_subtitle": "Máx: 1",
@@ -445,7 +485,9 @@
   "quest.5303509A1C2B1CCD.quest_subtitle": "¡Lo siento, Jack!",
   "quest.4C0D00B5305117A1.quest_subtitle": "Piu Piu (Sin ti)",
   "quest.5D64250B940BC8FD.quest_desc": [
-    "El Hierro Comprimido se puede usar para craftear &3Armadura de Hierro Comprimido&r, es igual que la Armadura de Hierro pero con mejor Dureza de Armadura y Resistencia al Empuje.\\\\n\\\\nLa armadura se puede craftear o se puede encontrar comúnmente في cofres de botín.",
+    "El Hierro Comprimido se puede usar para craftear &3Armadura de Hierro Comprimido&r, es igual que la Armadura de Hierro pero con mejor Dureza de Armadura y Resistencia al Empuje.",
+    "",
+    "La armadura se puede craftear o se puede encontrar comúnmente في cofres de botín.",
   ],
   "quest.15007DCAF701B361.quest_desc": [
     "Carga otros objetos presurizables en tu inventario desde el almacenamiento del peto.",
@@ -478,7 +520,9 @@
   ],
   "quest.371A34B297C8A8EF.title": "PneumaticCraft: Repressurized",
   "quest.6FD65139CD50A8C0.quest_desc": [
-    "¿Es eso siquiera posible?\\\\n\\\\nSi deseas automatizar este proceso, puedes usar &eAbejas Productivas&r o &aAgricultura Mística&r. O supongo que podrías automatizarlo, con... explosiones.",
+    "¿Es eso siquiera posible?",
+    "",
+    "Si deseas automatizar este proceso, puedes usar &eAbejas Productivas&r o &aAgricultura Mística&r. O supongo que podrías automatizarlo, con... explosiones.",
   ],
   "task.25FF884779D98BAD.title": "Ladrillos de Construcción™",
   "quest.2AED15E3AC0346FE.title": "Mejoras Simples",
@@ -515,7 +559,11 @@
   "quest.6D124ACF4AE80490.quest_subtitle": "¡Disparando Explosiones desde Lejos!",
   "quest.15D355EB164EBE68.quest_subtitle": "Necesario para PCBs Terminados",
   "quest.371A34B297C8A8EF.quest_desc": [
-    "¡PneumaticCraft trata sobre Presión! ¡Estas misiones no cubrirán todo lo que el mod tiene, pero aun así cubrirán mucho! Por favor recuerda revisar JEI, leer las descripciones emergentes y leer el PCB:R, todos son muy útiles.\\\\n\\\\nPara empezar, ¡necesitarás fabricar algunos &3Lingotes de Hierro Comprimido&r! La forma más fácil de hacerlo es hacer un agujero en el suelo, lanzar algunos lingotes de hierro (o bloques) ¡y luego hacerlo explotar con algo de TNT!\\\\n\\\\nAlgunos podrían perderse en la explosión, ¡pero ese es un riesgo que tendremos que correr!",
+    "¡PneumaticCraft trata sobre Presión! ¡Estas misiones no cubrirán todo lo que el mod tiene, pero aun así cubrirán mucho! Por favor recuerda revisar JEI, leer las descripciones emergentes y leer el PCB:R, todos son muy útiles.",
+    "",
+    "Para empezar, ¡necesitarás fabricar algunos &3Lingotes de Hierro Comprimido&r! La forma más fácil de hacerlo es hacer un agujero en el suelo, lanzar algunos lingotes de hierro (o bloques) ¡y luego hacerlo explotar con algo de TNT!",
+    "",
+    "Algunos podrían perderse en la explosión, ¡pero ese es un riesgo que tendremos que correr!",
   ],
   "quest.6EB53CDCB80D4B66.quest_desc": [
     "¡La &3Puerta Neumática&r actúa como una puerta automática que se puede hacer para que solo se abra para ti!",
@@ -536,7 +584,9 @@
   "quest.23737103592776C2.quest_subtitle": "¡Las Mega Antorchas no son nada!",
   "quest.13F68CA518CD287C.quest_subtitle": "Pobre Sel",
   "quest.3A9AC6AB4407DC32.quest_desc": [
-    "Aunque no todas las recetas requieren los mismos componentes, puedes configurar tus &3Líneas de Ensamblaje&r con todo instalado. Una configuración simple de &3Línea de Ensamblaje&r que puede usarse para todo se muestra en la imagen de abajo. Lee las misiones de cada componente para obtener información importante sobre ellos.\\\\n\\\\n¡Las Mejoras de Velocidad hacen esto mucho más rápido!",
+    "Aunque no todas las recetas requieren los mismos componentes, puedes configurar tus &3Líneas de Ensamblaje&r con todo instalado. Una configuración simple de &3Línea de Ensamblaje&r que puede usarse para todo se muestra en la imagen de abajo. Lee las misiones de cada componente para obtener información importante sobre ellos.",
+    "",
+    "¡Las Mejoras de Velocidad hacen esto mucho más rápido!",
   ],
   "quest.32C3E14578D48E6C.quest_subtitle": "Tubos de Presión Mejorados",
   "quest.72C09FD89C28B1EC.title": "Refinería de Petróleo",
@@ -548,7 +598,9 @@
   "quest.5103C817381181DE.quest_subtitle": "Máx: 1",
   "quest.21624A6500545C42.quest_subtitle": "Cultivos Más Rápidos",
   "quest.64D34A6C3487C5DF.quest_desc": [
-    "La &3Interfaz Aérea&r se puede usar para rellenar tus cosas presurizables con presión. ¡Ahora puedes usar tu Armadura Neumática sin necesidad de recargarla!\\\\n\\\\nNecesitarás una de estas para craftear la &6Estrella ATM&r.",
+    "La &3Interfaz Aérea&r se puede usar para rellenar tus cosas presurizables con presión. ¡Ahora puedes usar tu Armadura Neumática sin necesidad de recargarla!",
+    "",
+    "Necesitarás una de estas para craftear la &6Estrella ATM&r.",
   ],
   "quest.43CDC28DC56BB3E2.quest_subtitle": "128,000mb",
   "quest.65E2AF881709C896.title": "Piedra Reforzada",

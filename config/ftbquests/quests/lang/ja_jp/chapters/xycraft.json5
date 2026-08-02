@@ -58,7 +58,10 @@
     "Light Field はあまり光を見せませんが、Mega Torch のように機能します。\\n\\nその周辺の設定された範囲内ではモブがスポーンしません。その範囲は約32ブロックの半径です",
   ],
   "quest.15540271BF17C2E4.quest_desc": [
-    "&lXyCraftへようこそ！&r\\\\n\\\\nこのMod群は主にXyCraft: WorldとMachinesに捧げられています！\\\\nWorldは採掘中に見つけることができる宝石を提供します。",
+    "&lXyCraftへようこそ！&r",
+    "",
+    "このMod群は主にXyCraft: WorldとMachinesに捧げられています！",
+    "Worldは採掘中に見つけることができる宝石を提供します。",
   ],
   "quest.3E970E76372AB094.quest_desc": [
     "&2Accelerated Planter&r は通常の耕地と同様に機能しますが、いくつかの変更点があります。\\n\\n自動的に水やりされ、通常の耕地よりも成長が速くなります",

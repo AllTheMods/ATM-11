@@ -3,7 +3,7 @@
   "task.6B580F95A2E5A465.title": "TodosOsDireitosReservados",
   "quest.14F7F256DA863280.quest_subtitle": "Faz vários Materiais da Twilight Forest",
   "quest.37EBB8E0D6E5F821.quest_desc": [
-    "&6Hostile Neural Networks&r (HNN para abreviar) é um mod baseado em simular mortes de mobs para obter saques!\\\\n\\\\nPara fazer isso, você coletará \\\"dados\\\" sobre mobs e, em seguida, executará simulações a partir dos dados para criar seus drops!\\\\n",
+    "&6Hostile Neural Networks&r (HNN para abreviar) é um mod baseado em simular mortes de mobs para obter saques!\\\\n\\\\nPara fazer isso, você coletará \"dados\" sobre mobs e, em seguida, executará simulações a partir dos dados para criar seus drops!\\\\n",
     "{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}",
   ],
   "quest.3E3CBDCEAB0FF28F.title": "&aAprendendo Mobs",
@@ -24,7 +24,7 @@
   "quest.58C2ABED43B2EA61.quest_desc": [
     "As &9Estruturas de Modelo&r são o ponto de partida para a criação de Modelos de Dados.\\\\n\\\\nPara começar a coletar dados sobre um mob específico, você vai querer fazer uma dessas e &9clicar com o botão direito&r no mob sobre o qual deseja coletar dados. Quando feito corretamente, a Estrutura de Modelo se transformará no Modelo de Dados do mob em que você clicou.\\\\n\\\\nPara coletar dados para esse mob, coloque o Modelo de Dados recém-criado dentro de um &aDeep Learner&r e comece a matar esse mob específico com o Deep Learner em seu inventário.",
   ],
-  "quest.58C2ABED43B2EA61.quest_subtitle": "\\\"Coletando Dados\\\"",
+  "quest.58C2ABED43B2EA61.quest_subtitle": "\"Coletando Dados\"",
   "quest.58C2ABED43B2EA61.title": "&9Modelando Mobs",
   "task.7F17E48ACE65C84E.title": "Data Models",
   "quest.10E8BC20D406D9FB.quest_subtitle": "Faz vários Materiais do Nether",

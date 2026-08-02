@@ -36,7 +36,7 @@
     "Beba 8 &6Garrafas de Mel&r. \\\\n\\\\nEsta é a mais difícil para mim, não suporto o barulho de beber &6Garrafas de Mel&r.",
   ],
   "quest.4A5F84912C755688.quest_desc": [
-    "\\\"The Vengabus is coming\\\\nAnd everybody's jumping\\\\nNew York to San Francisco\\\\nAn intercity disco\\\\nThe wheels of steel are turning\\\\nAnd traffic lights are burning\\\\nSo if you like to party\\\\nGet on and move your body\\\".\\\\n",
+    "\"The Vengabus is coming\\\\nAnd everybody's jumping\\\\nNew York to San Francisco\\\\nAn intercity disco\\\\nThe wheels of steel are turning\\\\nAnd traffic lights are burning\\\\nSo if you like to party\\\\nGet on and move your body\".\\\\n",
     "{image:atm:textures/questpics/bumblezone/bumble_dance.png width:200 height:100 align:center}",
   ],
   "quest.7C7C0D3D7FCB0297.quest_desc": [
@@ -47,7 +47,7 @@
     "{image:atm:textures/questpics/bumblezone/bumble_cannon1.png width:75 height:150 align:center}",
   ],
   "quest.6C5D61A704DC125A.quest_desc": [
-    "Essa é engraçada; você pode encontrá-la, criá-la ou trocá-la.\\\\n\\\\nDepois, pode tingi-la da cor que quiser e, claro, usá-la na cabeça!\\\\n\\\\nAs &6A&8b&6e&8l&6h&8a&6s&r pensarão que você é uma Flor e o seguirão.\\\\n\\\\nTambém faz você parecer o Patolino em \\\"Duck Amuck\\\".",
+    "Essa é engraçada; você pode encontrá-la, criá-la ou trocá-la.\\\\n\\\\nDepois, pode tingi-la da cor que quiser e, claro, usá-la na cabeça!\\\\n\\\\nAs &6A&8b&6e&8l&6h&8a&6s&r pensarão que você é uma Flor e o seguirão.\\\\n\\\\nTambém faz você parecer o Patolino em \"Duck Amuck\".",
     "{image:atm:textures/questpics/bumblezone/bumble_duckamuck.png width:100 height:100 align:center}",
   ],
   "task.030FFC7C0532E7B2.title": "Matar 3 Slimes de Mel",
@@ -100,7 +100,7 @@
     "Mate 8 &7Traça&r.",
   ],
   "quest.1207E5C3E7BD0584.title": "Padrão de Estandarte de Abelha",
-  "quest.29E2033EA65E706E.quest_subtitle": "Um \\\"Criador de Slimes\\\"",
+  "quest.29E2033EA65E706E.quest_subtitle": "Um \"Criador de Slimes\"",
   "quest.351769579833FA9E.title": "Relaxando com os parças abelhas",
   "quest.613AC4DF39E5621D.title": "Aglomerado Gazebuzz",
   "quest.0980661B2F7FBC10.title": "Parkour de Velas",

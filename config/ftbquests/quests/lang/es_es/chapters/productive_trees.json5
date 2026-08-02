@@ -9,7 +9,10 @@
   "quest.2ACFD25B43F0499C.quest_subtitle": "Ipe + Suerte",
   "quest.15FF9D19FBC873CF.quest_subtitle": "Ciruela + Melocotón",
   "quest.76A0592F4C294545.quest_desc": [
-    "El Aserradero corta Troncos en Serrín y más Tablones de los que obtendrías al fabricar. El Serrín se puede usar para hacer Papel.\\\\n\\\\n - Los Troncos de Fustete también te darán Fustete.\\\\n - Los Troncos de Palo de Brasil y los Troncos de Palo de Campeche también te darán Hematoxilina.",
+    "El Aserradero corta Troncos en Serrín y más Tablones de los que obtendrías al fabricar. El Serrín se puede usar para hacer Papel.",
+    "",
+    " - Los Troncos de Fustete también te darán Fustete.",
+    " - Los Troncos de Palo de Brasil y los Troncos de Palo de Campeche también te darán Hematoxilina.",
   ],
   "quest.0480DF316ACF12DA.quest_subtitle": "Cicuta Occidental + Jungla",
   "quest.6255E2FE6DD4084A.quest_subtitle": "Acebo + Aliso",
@@ -64,7 +67,11 @@
   "quest.4D562F5D72038083.quest_subtitle": "Aliso + Alerce Europeo",
   "quest.054F3A0499F8A0D8.quest_subtitle": "Castaño Dulce + Capoazú",
   "quest.25D8BE0280B6E7F1.quest_desc": [
-    "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods. \\\\n\\\\nComo todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito. \\\\n\\\\nEsta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición.",
+    "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods. ",
+    "",
+    "Como todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito. ",
+    "",
+    "Esta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición.",
   ],
   "quest.29FA0E9664935566.quest_subtitle": "Balsa + Cacao",
   "quest.7D7DC3C695CD7236.quest_subtitle": "Tilo Plateado + Pícea",
@@ -82,7 +89,11 @@
   "quest.77D3546953550E39.quest_subtitle": "Pino Toro + Pícea",
   "quest.75CE67D3AA75C798.quest_subtitle": "Manzana Red Delicious + Manzana Granny Smith",
   "quest.5577F49A93ADB19C.quest_desc": [
-    "&lProductive Trees&r es un Mod hermano de &lProductive Bees&r.\\\\n\\\\nPara obtener los diferentes Árboles necesitarás Hojas Polinizadas. Para obtener Hojas Polinizadas necesitas Polen. Para el Polen necesitas Abejas.\\\\n\\\\nLas Abejas que florecen cerca de los Árboles polinizarán automáticamente las Hojas, ¡o puedes usar una Mejora de Tamiz de Polen en la Colmena para obtener y usar el Polen tú mismo! ¡Toma una por cuenta de la casa!",
+    "&lProductive Trees&r es un Mod hermano de &lProductive Bees&r.",
+    "",
+    "Para obtener los diferentes Árboles necesitarás Hojas Polinizadas. Para obtener Hojas Polinizadas necesitas Polen. Para el Polen necesitas Abejas.",
+    "",
+    "Las Abejas que florecen cerca de los Árboles polinizarán automáticamente las Hojas, ¡o puedes usar una Mejora de Tamiz de Polen en la Colmena para obtener y usar el Polen tú mismo! ¡Toma una por cuenta de la casa!",
   ],
   "quest.4C3B7BAEA653587B.quest_desc": [
     "Estos se pueden encontrar en cofres dentro de Pirámides del Desierto.",
@@ -186,7 +197,9 @@
   "quest.052BE1D845794702.quest_subtitle": "Teca + Acacia",
   "quest.45D1FFB263CD722D.quest_subtitle": "Teka + Clavo",
   "quest.0661E9669E639621.quest_desc": [
-    "Algunos árboles jóvenes no pueden ser polinizados. Estos árboles jóvenes tienen una probabilidad aleatoria de convertirse en otro árbol.\\\\n\\\\nPor ejemplo, si quieres obtener un &4Plantón de Mirto Crespón Rojo&r, primero cultiva un Plantón de Mirto Crespón Morado. Tendrás la oportunidad de obtener un &4Árbol de Mirto Crespón Rojo&r de eso.",
+    "Algunos árboles jóvenes no pueden ser polinizados. Estos árboles jóvenes tienen una probabilidad aleatoria de convertirse en otro árbol.",
+    "",
+    "Por ejemplo, si quieres obtener un &4Plantón de Mirto Crespón Rojo&r, primero cultiva un Plantón de Mirto Crespón Morado. Tendrás la oportunidad de obtener un &4Árbol de Mirto Crespón Rojo&r de eso.",
   ],
   "quest.20DDAC076A2479A8.quest_subtitle": "Espiral Morada + Cereza Chispeante",
   "quest.70F7B018CD61E946.quest_subtitle": "Roble Oscuro + Jungla",

@@ -3,7 +3,7 @@
   "task.6B580F95A2E5A465.title": "Hak Cipta Dilindungi",
   "quest.14F7F256DA863280.quest_subtitle": "Membuat berbagai Material Twilight Forest",
   "quest.37EBB8E0D6E5F821.quest_desc": [
-    "&6Hostile Neural Networks&r (disingkat HNN) adalah mod yang berbasis simulasi kill mob untuk mendapat loot!\\\\n\\\\nCaranya dengan mengumpulkan \\\"data\\\" dari mob, lalu menjalankan simulasi dari data tersebut untuk membuat drop mereka!\\\\n",
+    "&6Hostile Neural Networks&r (disingkat HNN) adalah mod yang berbasis simulasi kill mob untuk mendapat loot!\\\\n\\\\nCaranya dengan mengumpulkan \"data\" dari mob, lalu menjalankan simulasi dari data tersebut untuk membuat drop mereka!\\\\n",
     "{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}",
   ],
   "quest.3E3CBDCEAB0FF28F.title": "&aMempelajari Mob",
@@ -24,7 +24,7 @@
   "quest.58C2ABED43B2EA61.quest_desc": [
     "&9Model Framework&r adalah titik awal untuk membuat Data Model.\\\\n\\\\nUntuk mulai mengumpulkan data mob tertentu, buat salah satu lalu &9klik kanan&r mob yang ingin dikumpulkan datanya. Kalau benar, Model Framework akan berubah jadi Data Model dari mob yang diklik.\\\\n\\\\nUntuk mengumpulkan data mob tersebut, masukkan Data Model yang baru dibuat ke &aDeep Learner&r, lalu mulai bunuh mob spesifik itu dengan Deep Learner di inventory.",
   ],
-  "quest.58C2ABED43B2EA61.quest_subtitle": "\\\"Mengumpulkan Data\\\"",
+  "quest.58C2ABED43B2EA61.quest_subtitle": "\"Mengumpulkan Data\"",
   "quest.58C2ABED43B2EA61.title": "&9Memodelkan Mob",
   "task.7F17E48ACE65C84E.title": "Data Model",
   "quest.10E8BC20D406D9FB.quest_subtitle": "Membuat berbagai Material Nether",

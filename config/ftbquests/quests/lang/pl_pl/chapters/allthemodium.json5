@@ -51,7 +51,7 @@
   "quest.08AC2D81A1004984.title": "&6Allthemodium &5Alloy &3Trident",
   "quest.7B3613C01F0B1373.quest_desc": [
     "By połączyć &3Vibranium&r z &6Allthemodium&r będziemy musieli zagłębić się w modyfikację &l&cPowah&r! \\\\n\\\\nPołóż Energizing Orb a następnie ustaw Energizing Rods czubkiem do Orba. Potrzebują mieć dostęp do prądu by zapewnić energię Orbowi. Im lepszy poziom Energizing Rodów tym więcej energii są w stanie przechowywać i wysyłać. \\\\n\\\\nWłóż do Orba sztabki, 2 Piglich Hearty, i 1 Compressed Block of Nitro Crystals 1x (kolejność nie ma znaczenia). Jak już w Orbie będą wszystkie rzeczy to będzie potrzebował ponad 1 Miliard energii do wytworzenia sztabki!\\\\n&o&7Radzę przygotować dobre źródło energii!",
-    "{ \\\"text\\\": \\\"ŚCIEŻKA POWAH\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"2A6EBEEBAB882679\\\" } }",
+    "{ \"text\": \"ŚCIEŻKA POWAH\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }",
   ],
   "quest.0484051446480B54.title": "&6Allthemodium &5Alloy &3Axe",
   "quest.68E6AE1B9EBCEFFF.title": "&3Vibraniumowy Buzdygan",
@@ -118,12 +118,12 @@
     "{image:atm:textures/questpics/allthemodium/all_armor_allmage.png width:100 height:175 align:center}",
   ],
   "quest.18FAD56CDE05646A.quest_desc": [
-    "W poprzedniej wersji AllTheMods Quarry w &7&lMining Dimension&r wykopywało wszystkie rudy zostawiając w powietrzu jedynie &6Rudy Allthemodium&r. \\\\n\\\\nTeraz potrafi wykopać również &6Allthemodium&r ale zamiast je zachować to je po prostu... usunie.\\\\nRadzę więc uważać korzystając z jego możliwości! \\\\n\\\\nJeśli szukasz wyłącznie &6Allthemodium&r zalecam uzbroić się w mikstury \\\"Ore Sight\\\"!",
+    "W poprzedniej wersji AllTheMods Quarry w &7&lMining Dimension&r wykopywało wszystkie rudy zostawiając w powietrzu jedynie &6Rudy Allthemodium&r. \\\\n\\\\nTeraz potrafi wykopać również &6Allthemodium&r ale zamiast je zachować to je po prostu... usunie.\\\\nRadzę więc uważać korzystając z jego możliwości! \\\\n\\\\nJeśli szukasz wyłącznie &6Allthemodium&r zalecam uzbroić się w mikstury \"Ore Sight\"!",
   ],
   "quest.4B2146C9527C54E7.title": "&6&lAllthemodium",
   "quest.762581CAE5F5DDC1.quest_desc": [
     "Nie wierzę, czary! &d&lArs Nouveau&r to modyfikacja której będziemy używać by stworzyć stop &5Unobtainium&r i &6Allthemodium&r! \\\\n\\\\nCzarujące Urządzenie to multiblock który jest używany do wielu receptur. Kolejno postaw Tajemny Rdzeń a na nim połóź Czarujące Urządzenie. Następnie, połóź Tajemnicze Piedestały w okół Czarującego Urządzenia na jego wysokości. \\\\n\\\\nAby uruchomić urządzenie potrzebujesz położyć przedmioty na piedestałach w jakiejkolwiek kolejności, mieć pobliskie Źródło i umieścić w urządzeniu Klejnot Źródłowy! W ten sposób utworzysz sztabkę stopu &5Unobtainium&r-&6Allthemodium&r!\\\\n",
-    "{ \\\"text\\\": \\\"ŚCIEŻKA ARS NOUVEAU\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"6AEDA2F9BEB57759\\\" } }",
+    "{ \"text\": \"ŚCIEŻKA ARS NOUVEAU\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }",
   ],
   "quest.77AD61FCA9BC9AFB.quest_desc": [
     "14 Miejsc na zaklęcia!",
@@ -199,7 +199,7 @@
   "quest.4E737C490DCC5D6C.title": "&5Zbroja Unobtainium",
   "quest.15DC6770B112EE69.quest_desc": [
     "Komora Rozpuszczania to maszyna wprowadzona przez modyfikację &l&7Industrial Foregoing&r. To właśnie w niej będziemy tworzyli stop z &3Vibranium&r i &5Unobtainium&r. \\\\n\\\\nBędziesz potrzebować &dPink Slime&r który zdobędziesz z Ubojni Mobów która jest kolejną z maszyn tej modyfikacji. \\\\n\\\\nBędziesz też potrzebował płynu Soul Lava który jest dostępny &b&lThe Other&r w wiosce Piglinów. \\\\n\\\\nNastępnie będziesz musiał ułożyć serca i sztabki w odpowiednie miejsca, zasilić urządzenie a następnie nic tylko czekać!\\\\n",
-    "{ \\\"text\\\": \\\"ŚCIEŻKA INDUSTRIAL FOREGOING\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"193F91842D2ED7D9\\\" } }",
+    "{ \"text\": \"ŚCIEŻKA INDUSTRIAL FOREGOING\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }",
   ],
   "quest.6ECDD26CCCBC07C3.title": "&6Zbroja Allthemodium",
   "quest.226B8B60AF864FEF.title": "&3Vibraniumowy Szablon Kowalski&r",

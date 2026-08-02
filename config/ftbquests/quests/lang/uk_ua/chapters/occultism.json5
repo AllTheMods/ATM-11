@@ -71,7 +71,7 @@
     "&eDiamonds&r will turn into &dSpirit Attuned Gems&r which are used in several recipes we'll need later on.",
   ],
   "quest.03250A0202C25E80.quest_desc": [
-    "After you've successfully slain the &9Unbound Marid&r Demon that you summoned with &4Abras' Fortified Conjure&r, you can use the &9Marid Essence&r that it drops to craft the \\\"highest\\\" colored Chalk, Blue Chalk.",
+    "After you've successfully slain the &9Unbound Marid&r Demon that you summoned with &4Abras' Fortified Conjure&r, you can use the &9Marid Essence&r that it drops to craft the \"highest\" colored Chalk, Blue Chalk.",
   ],
   "quest.2AD68066C1948C90.title": "&9Fatma's Incentivized Attraction",
   "quest.690B89D23134B624.title": "&cR&6a&ei&an&9b&5o&dw&r Chalk",
@@ -88,7 +88,7 @@
   "quest.2FD22502E6481269.title": "Trinity Gem",
   "quest.4DF0D7B85065ADC9.title": "Tools of the Trade: Butcher's Knife",
   "quest.2CF96A264EB5522C.quest_desc": [
-    "&9Uphyxes' Inverted Tower&r is the maximum tier of &6Infusion Rituals&r. It doesn't have as many uses as the other three tiers, but it's still nessecary for the \\\"endgame\\\" of Occultism. ",
+    "&9Uphyxes' Inverted Tower&r is the maximum tier of &6Infusion Rituals&r. It doesn't have as many uses as the other three tiers, but it's still nessecary for the \"endgame\" of Occultism. ",
     "",
     "Mainly, it's used to create Dragonyst Dust, which is the main ingredient for Magenta Chalk.",
   ],
@@ -128,7 +128,7 @@
     "- Increases the maximum level of all enchants for anything combined on it by one level.",
     "- Costs half as much xp as the estimate says (rounded down, so if it says 25, it'll cost 12).",
     "- Has a smaller experience requirement increase for repeated edits on the same item.",
-    "- Increases the maximum xp level at which you can edit items (the point at which it says \\\"Too Expensive!\\\").",
+    "- Increases the maximum xp level at which you can edit items (the point at which it says \"Too Expensive!\").",
   ],
   "quest.53DEA3DFEDC4809E.title": "&4Abras' Fortified Conjure",
   "quest.38A1295878B68F83.quest_subtitle": "Hot Demons!",
@@ -148,7 +148,7 @@
   "quest.56EC79AF11B0869E.quest_desc": [
     "&9Xeovrenth Adjure&r is the maximum tier of &5Possession Rituals&r. It only has two uses: creating Cruelty Essence, the main ingredient in Brown Chalk, and creating an Iesnium Golem, which is basically just an Iron Golem that's immortal and does more damage.",
   ],
-  "quest.2960FFE0C53DFEB1.quest_subtitle": "The \\\"Even More Everything\\\" Ritual",
+  "quest.2960FFE0C53DFEB1.quest_subtitle": "The \"Even More Everything\" Ritual",
   "quest.7F09F8F98C13F11B.title": "Preparing for a Ritual: &6Bowls",
   "quest.61999669BDE127F9.title": "Chalk Repair",
   "quest.2FD22502E6481269.quest_desc": [
@@ -179,7 +179,7 @@
   "quest.47358ADC1470C82A.quest_desc": [
     "&cDemon's Dream Fruit&r is perfectly healthy for you. There might be some side effects you should know about.",
     "",
-    "When you consume one, you have a chance to get the effect of the &3Third Eye&r, allowing you to see into the &9The Otherworld&r. Certain items in the world might not be what they seem, and you'll need this \\\"vision\\\" to find certain items for progression.",
+    "When you consume one, you have a chance to get the effect of the &3Third Eye&r, allowing you to see into the &9The Otherworld&r. Certain items in the world might not be what they seem, and you'll need this \"vision\" to find certain items for progression.",
     "",
     "Or you can set it on fire and skip finding most of them. That's up to you.",
   ],
@@ -223,7 +223,7 @@
   "quest.29C83B00AC4AFC23.title": "What's Next?",
   "quest.39647A2473F6F7D7.quest_subtitle": "Put some Demon Dust™ on it!",
   "quest.54378277B8D28B1D.quest_desc": [
-    "An \\\"upgrade\\\" to the Rainbow Chalk, for those who don't like the rapid color-switching runes ruining their tediously crafted aesthetic. ",
+    "An \"upgrade\" to the Rainbow Chalk, for those who don't like the rapid color-switching runes ruining their tediously crafted aesthetic. ",
     "",
     "Has the same function as the Rainbow Chalk, except all the runes will show up as white.",
   ],
@@ -235,7 +235,7 @@
     "",
     "To start with, combine your Unbound Book with your &aDictionary of Spirits&r in a crafting grid. This will bind a Demon to the Book, which is what we'll need for the ritual.",
     "",
-    "Speaking about your Dictionary of Spirits, it's time to open it up! On the left, click on the &dPentacles&r tab and click on &bAviar's Circle&r. You might have to advance through it by reading a little bit. There is also a way to click \\\\\\\"Mark All As Read\\\\\\\" so it unlocks everything in the Book.",
+    "Speaking about your Dictionary of Spirits, it's time to open it up! On the left, click on the &dPentacles&r tab and click on &bAviar's Circle&r. You might have to advance through it by reading a little bit. There is also a way to click \\\\\"Mark All As Read\\\\\" so it unlocks everything in the Book.",
     "",
     "This is what we're going to use to summon our new friend. On the right side, you can click the eye in the bottom-left corner of the image to build an outline of the ritual for you in the world. This is super helpful!",
     "",
@@ -326,7 +326,7 @@
     "",
     "By default, this has 128 storage slots with each slot holding up to 16 stacks of an item, except for items with &5NBT&r data. These will not stack and will take up an entire slot, so make sure to leave those items out!",
     "",
-    "If you aren't sure what items have NBT data on them, you can always check out the quest \\\"NBT and You\\\" in the Storage questline for more info on NBT!",
+    "If you aren't sure what items have NBT data on them, you can always check out the quest \"NBT and You\" in the Storage questline for more info on NBT!",
   ],
   "quest.2A5004EB99AE4F96.title": "Tools of the Trade: Spectral Goggles",
   "quest.0D18BBB04693885A.title": "&aStrigeor's Higher Binding",
@@ -426,7 +426,7 @@
   "quest.6581D4AF1A6DE230.quest_desc": [
     "Demons like Candles. I think.\\\\n\\\\nFor almost every Ritual to summon our friends, you'll need some Candles. You can create the &aButcher Knife&r and kill some pigs, cows, sheep, horses, or even the Trader Llamas to get some &aTallow&r to make them. Matter of fact, you should definitely find the Trader Llamas. I hear they make good candles. &mI totally didn't just make that up&r.\\\\n\\\\nOtherwise, Vanilla Candles can also work!\\\\n\\\\n&9Spirit Attuned Crystals&r are also used in several Rituals, so might as well make some now!",
   ],
-  "quest.0D18BBB04693885A.quest_subtitle": "The \\\"Everything\\\" Ritual",
+  "quest.0D18BBB04693885A.quest_subtitle": "The \"Everything\" Ritual",
   "quest.78ECC28DD4BA9696.quest_desc": [
     "While you can get most of the &dOtherworld&r materials using Spiritfire, you can also use &9Divination Rods&r to locate these materials.",
     "",

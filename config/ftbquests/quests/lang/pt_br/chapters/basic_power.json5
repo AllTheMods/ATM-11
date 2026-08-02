@@ -19,10 +19,10 @@
   "quest.0BB367839D28607D.title": "&8Geradores a Carvão",
   "quest.36DEA17CBB696CC7.quest_subtitle": "Tornando-se um Admin de Rede!",
   "quest.0AEC181F5E21A299.quest_desc": [
-    "Se você já ouviu alguém falando sobre \\\"Poder do Melão\\\", é isso. O &dGerador a Gás&r do Mekanism pode produzir uma boa quantidade de energia bombeando &9Etileno&r feito de Fatias de Melão.\\\\n\\\\nPara produzir &dEtileno&r, comece triturando materiais orgânicos em um &eTriturador&r para criar &6Biocombustível&r. Fatias de Melão são normalmente usadas para isso! Isso é então bombeado para uma &dCâmara de Reação Pressurizada&r (PRC para abreviar).\\\\n\\\\nA PRC precisa de Água, Biocombustível e um pouco de Hidrogênio para criar Etileno. Você pode obter o Hidrogênio separando a água em um &9Separador Eletrolítico&r.\\\\n\\\\nDepois de começar a produzir o Etileno, bombeie-o para o Gerador a Gás para começar a gerar energia!",
+    "Se você já ouviu alguém falando sobre \"Poder do Melão\", é isso. O &dGerador a Gás&r do Mekanism pode produzir uma boa quantidade de energia bombeando &9Etileno&r feito de Fatias de Melão.\\\\n\\\\nPara produzir &dEtileno&r, comece triturando materiais orgânicos em um &eTriturador&r para criar &6Biocombustível&r. Fatias de Melão são normalmente usadas para isso! Isso é então bombeado para uma &dCâmara de Reação Pressurizada&r (PRC para abreviar).\\\\n\\\\nA PRC precisa de Água, Biocombustível e um pouco de Hidrogênio para criar Etileno. Você pode obter o Hidrogênio separando a água em um &9Separador Eletrolítico&r.\\\\n\\\\nDepois de começar a produzir o Etileno, bombeie-o para o Gerador a Gás para começar a gerar energia!",
   ],
   "quest.56B6ABF3D6EA0D84.quest_desc": [
-    "Com nosso Plugue configurado, agora podemos acessar a energia da nossa rede. O &9Ponto de Fluxo&r faz exatamente isso. Ele direciona a energia da sua rede para qualquer bloco ao qual esteja conectado, incluindo Canos ou Cabos, ou diretamente em máquinas!\\\\n\\\\nDepois de colocar seu Ponto na máquina ou bloco que deseja energizar, clique com o botão direito nele e selecione sua rede na aba \\\"Seleção de Rede\\\". Assim como o Plugue, você pode ajustar quanta energia o Ponto consome, nível de prioridade, etc.",
+    "Com nosso Plugue configurado, agora podemos acessar a energia da nossa rede. O &9Ponto de Fluxo&r faz exatamente isso. Ele direciona a energia da sua rede para qualquer bloco ao qual esteja conectado, incluindo Canos ou Cabos, ou diretamente em máquinas!\\\\n\\\\nDepois de colocar seu Ponto na máquina ou bloco que deseja energizar, clique com o botão direito nele e selecione sua rede na aba \"Seleção de Rede\". Assim como o Plugue, você pode ajustar quanta energia o Ponto consome, nível de prioridade, etc.",
   ],
   "quest.5F078A574A783B02.quest_subtitle": "Apenas conecte!",
   "quest.72EA25D05C46D39A.title": "&9Integrated Dynamics: &bBateria de Energia",
@@ -58,7 +58,7 @@
   ],
   "quest.48DC9E8E9D21A2FA.title": "&9Mekanism: &aEnergia Renovável",
   "quest.5F078A574A783B02.quest_desc": [
-    "O primeiro item que você precisará para iniciar sua Flux Network é um &9Flux Plug&r.\\\\n\\\\nO Plug é usado para \\\"puxar\\\" energia do bloco ao qual está conectado. Além de um pequeno buffer, o Plug não armazena energia por si só, então não se preocupe em ele consumir toda a sua energia.\\\\n\\\\nSugere-se colocar o Plug em um bloco de armazenamento de energia como um Cubo de Energia. Ele pode se conectar a Cabos, Canos ou à saída de qualquer máquina produtora de energia.\\\\n\\\\nPara aprender como configurar sua primeira rede, confira a próxima missão!",
+    "O primeiro item que você precisará para iniciar sua Flux Network é um &9Flux Plug&r.\\\\n\\\\nO Plug é usado para \"puxar\" energia do bloco ao qual está conectado. Além de um pequeno buffer, o Plug não armazena energia por si só, então não se preocupe em ele consumir toda a sua energia.\\\\n\\\\nSugere-se colocar o Plug em um bloco de armazenamento de energia como um Cubo de Energia. Ele pode se conectar a Cabos, Canos ou à saída de qualquer máquina produtora de energia.\\\\n\\\\nPara aprender como configurar sua primeira rede, confira a próxima missão!",
   ],
   "quest.5E41363F9AE243F3.quest_desc": [
     "Você não pode alimentar sua base com Carvão para sempre! Se você tiver uma quantidade decente de recursos disponíveis, é hora de atualizar sua configuração de energia!\\\\n\\\\nEssas opções geralmente requerem um pouco de configuração, mas produzem energia suficiente para levá-lo longe em sua jogatina.",
@@ -134,7 +134,7 @@
   "quest.477B411F84342EEA.title": "&9Mekanism: &aCubo de Energia",
   "quest.1BE26A00A420DAE3.quest_subtitle": "Claro que você precisa destes",
   "quest.27A4FA38992448A0.quest_desc": [
-    "As Flux Networks também fornecem uma maneira de carregar seus itens sem fio, até mesmo entre dimensões!\\\\n\\\\nAssim que tiver um Plug conectado ao seu sistema de energia, você vai querer fazer o &9Flux Controller&r e colocá-lo no chão.\\\\n\\\\nClique com o botão direito nele para abrir a interface e vá para a aba \\\"Carregamento sem Fio\\\". A partir daí, você pode selecionar cada seção do seu inventário que gostaria de manter carregada. Para ativar, certifique-se de apertar o botão de alternância na parte inferior para habilitar o Carregamento Sem Fio e, em seguida, clique em aplicar!\\\\n",
+    "As Flux Networks também fornecem uma maneira de carregar seus itens sem fio, até mesmo entre dimensões!\\\\n\\\\nAssim que tiver um Plug conectado ao seu sistema de energia, você vai querer fazer o &9Flux Controller&r e colocá-lo no chão.\\\\n\\\\nClique com o botão direito nele para abrir a interface e vá para a aba \"Carregamento sem Fio\". A partir daí, você pode selecionar cada seção do seu inventário que gostaria de manter carregada. Para ativar, certifique-se de apertar o botão de alternância na parte inferior para habilitar o Carregamento Sem Fio e, em seguida, clique em aplicar!\\\\n",
     "{image:atm:textures/questpics/basic_power/wireless_ui.png width:125 height:150 align:center}",
   ],
   "quest.0BB42C5861B22D32.quest_desc": [
@@ -175,5 +175,5 @@
   "quest.48DC9E8E9D21A2FA.quest_subtitle": "O Poder do Sol...",
   "task.2D0212699F99459F.title": "A Primeira Rede",
   "quest.05B6DB75AEC01187.title": "&9RFTools Power: &cCélulas de Energia",
-  "quest.1BE26A00A420DAE3.title": "Os Materiais de Criação \\\"Centrais\\\"",
+  "quest.1BE26A00A420DAE3.title": "Os Materiais de Criação \"Centrais\"",
 }

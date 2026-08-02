@@ -204,7 +204,7 @@
   "quest.5E4BC0F59C90433A.title": "Sophisticated Storage",
   "quest.0E5AE195158CF344.quest_subtitle": "Melhoria de Armazenamento x32",
   "quest.6FBAE89EE782DABA.quest_desc": [
-    "Quando colocado e conectado com a &aFerramenta de Vinculação&r a outras Gavetas, o Controlador atua como um \\\"Hub\\\".\\\\n\\\\nSe você clicar duas vezes com o botão direito nele, todos os itens em seu inventário que têm um slot na rede de Gavetas serão puxados.\\\\n\\\\nAo clicar com o botão direito e shift no controlador com a mão vazia, você pode abrir a aba de melhorias, adicionar melhorias de armazenamento normais a esses slots para aumentar o alcance do Controlador. O alcance máximo é de 40 blocos para todos os lados, ou um cubo de 80x80x80.",
+    "Quando colocado e conectado com a &aFerramenta de Vinculação&r a outras Gavetas, o Controlador atua como um \"Hub\".\\\\n\\\\nSe você clicar duas vezes com o botão direito nele, todos os itens em seu inventário que têm um slot na rede de Gavetas serão puxados.\\\\n\\\\nAo clicar com o botão direito e shift no controlador com a mão vazia, você pode abrir a aba de melhorias, adicionar melhorias de armazenamento normais a esses slots para aumentar o alcance do Controlador. O alcance máximo é de 40 blocos para todos os lados, ou um cubo de 80x80x80.",
   ],
   "quest.11D4EEAC61C7E530.quest_desc": [
     "A Melhoria de Coletor fará com que a Gaveta aspire itens de um dos lados.",
@@ -225,7 +225,7 @@
     "Adiciona uma INTERFACE de Cortador de Pedra à Mochila.",
   ],
   "quest.6FBAE89EE782DABA.quest_subtitle": "O Cérebro das Gavetas",
-  "quest.5E4BC0F59C90433A.quest_subtitle": "\\\"Baú Vanilla\\\"",
+  "quest.5E4BC0F59C90433A.quest_subtitle": "\"Baú Vanilla\"",
   "quest.1B72E95569B07E18.title": "Melhoria de &bDiamante",
   "task.5DEBE38C614EFBB4.title": "TodosOsDireitosReservados",
   "quest.1310C1E14C259807.quest_desc": [
@@ -239,7 +239,7 @@
   ],
   "quest.77F241BEE9902751.quest_subtitle": "Tanto espaço para atividades!",
   "quest.3B570B3DB5F6D2CB.quest_subtitle": "Aprimoramento de Armazenamento x16",
-  "quest.7F990FBC1A691020.quest_subtitle": "\\\"O que será que tem aqui dentro?\\\"",
+  "quest.7F990FBC1A691020.quest_subtitle": "\"O que será que tem aqui dentro?\"",
   "quest.3A1D07AED2A841E4.quest_subtitle": "Automático",
   "quest.58514FDE153FD971.title": "&fBaú de Ferro",
   "quest.7C0F7A1B3AB9A1A1.quest_subtitle": "Mais Opções de Filtragem",
@@ -273,7 +273,7 @@
   "quest.485D5664A17E16DF.title": "&6Melhoria de Cobre",
   "quest.6A2B2C5E2ADCE366.quest_subtitle": "Inventários são muito pequenos",
   "quest.0108F3EFDFD6DFD0.quest_desc": [
-    "O Link de Armazenamento permite que você conecte múltiplos armazenamentos que não estão ligados a um Controlador de armazenamento ou a quaisquer blocos conectados a ele.\\\\n\\\\nEntão é uma maneira de conectar sem fio um \\\"multibloco\\\" de armazenamentos sem precisar clicar com o botão direito em cada um deles.\\\\n\\\\nO alcance de 14 blocos ainda se aplica.",
+    "O Link de Armazenamento permite que você conecte múltiplos armazenamentos que não estão ligados a um Controlador de armazenamento ou a quaisquer blocos conectados a ele.\\\\n\\\\nEntão é uma maneira de conectar sem fio um \"multibloco\" de armazenamentos sem precisar clicar com o botão direito em cada um deles.\\\\n\\\\nO alcance de 14 blocos ainda se aplica.",
   ],
   "quest.7EFBFF5D0DA018E7.quest_desc": [
     "Adiciona um filtro para itens que você deseja excluir automaticamente na Mochila.",

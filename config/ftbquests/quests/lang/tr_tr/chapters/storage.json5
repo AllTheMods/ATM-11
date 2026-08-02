@@ -32,7 +32,7 @@
   "quest.7E9E03274A88347D.quest_desc": [
     "Sırt Çantasındaki istif boyutunu 2 artırır.",
   ],
-  "quest.7F990FBC1A691020.quest_subtitle": "\\\"Acaba bunun içinde ne var?\\\"",
+  "quest.7F990FBC1A691020.quest_subtitle": "\"Acaba bunun içinde ne var?\"",
   "task.200CE35BF3C04F6F.title": "Bakır Sandıklar",
   "quest.3A1D07AED2A841E4.quest_subtitle": "Otomatik",
   "quest.58514FDE153FD971.title": "&fDemir Sandık",
@@ -220,7 +220,7 @@
     "Sırt Çantasındaki istif boyutunu 4 artırır.",
   ],
   "quest.6FBAE89EE782DABA.quest_desc": [
-    "Yerleştirildiğinde ve &aBağlantı Aleti&r ile diğer Çekmecelere bağlandığında, Denetleyici bir \\\"Merkez\\\" görevi görür.\\\\n\\\\nBuna çift sağ tıklarsan, envanterindeki Çekmece ağında yuvası olan tüm eşyalar çekilecektir.\\\\n\\\\nDenetleyiciye boş bir elle eğilip sağ tıklayarak yükseltmeler sekmesini açabilir, bu yuvalara normal depolama yükseltmeleri ekleyerek Denetleyicinin menzilini artırabilirsin. Azami menzil tüm taraflar için 40 blok veya 80x80x80'lik bir küp.",
+    "Yerleştirildiğinde ve &aBağlantı Aleti&r ile diğer Çekmecelere bağlandığında, Denetleyici bir \"Merkez\" görevi görür.\\\\n\\\\nBuna çift sağ tıklarsan, envanterindeki Çekmece ağında yuvası olan tüm eşyalar çekilecektir.\\\\n\\\\nDenetleyiciye boş bir elle eğilip sağ tıklayarak yükseltmeler sekmesini açabilir, bu yuvalara normal depolama yükseltmeleri ekleyerek Denetleyicinin menzilini artırabilirsin. Azami menzil tüm taraflar için 40 blok veya 80x80x80'lik bir küp.",
   ],
   "quest.58514FDE153FD971.quest_subtitle": "Demir Sandıklar?",
   "quest.11D4EEAC61C7E530.quest_desc": [
@@ -264,7 +264,7 @@
     "Böylece Sırt Çantana ihtiyaç duyduğunda Sırt Çantanı Sırt Çantanda taşıyabilirsin.",
   ],
   "quest.1985CFD1F0425E88.quest_subtitle": "Daha Fazla Filtreleme Seçeneği",
-  "quest.5E4BC0F59C90433A.quest_subtitle": "\\\"Vanilla Sandık\\\"",
+  "quest.5E4BC0F59C90433A.quest_subtitle": "\"Vanilla Sandık\"",
   "quest.1B72E95569B07E18.title": "&bElmas Yükseltmesi",
   "quest.36BCE35215B2B6E9.quest_subtitle": "Otomatik",
   "quest.1CACE201C6AA0913.quest_desc": [

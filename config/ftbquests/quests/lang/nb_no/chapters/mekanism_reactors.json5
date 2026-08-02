@@ -5,7 +5,7 @@
     "",
     "To do this, we'll need a single piece of Redstone, a Piston, a block of either sand or gravel, and an Observer.",
     "",
-    "On one of the faces, we'll want to put a Logic Adapter down, then skip a block above it and then place another Adapter. Set the top Adapter to &9\\\\\\\"Activation\\\\\\\"&r, and the bottom Adapter to &c\\\\\\\"Damage Critical\\\\\\\"&r.",
+    "On one of the faces, we'll want to put a Logic Adapter down, then skip a block above it and then place another Adapter. Set the top Adapter to &9\\\\\"Activation\\\\\"&r, and the bottom Adapter to &c\\\\\"Damage Critical\\\\\"&r.",
     "",
     "Next, in front and underneath the bottom Adapter, place any building block and stick a piece of Redstone on it leading from the Adapter. We'll then place a Piston facing up in front of that Redstone, then place our piece of sand or gravel on that Piston.",
     "",

@@ -47,7 +47,7 @@
     "&9Reaktör&r, FE üretmek için yakıt olarak &aUrananit&r yakan 3x4x3 çok bloklu bir jeneratördür.\\\\n\\\\nİnşa etmek için toplam 36 Reaktör Bloğu yapman gerekir. Elinde 36 tane tutarken, bir blok yerleştirdiğinde reaktör otomatik olarak inşa edilecektir. Önce biraz yer açtığından emin ol!\\\\n\\\\nDaha fazla FE üretebilmesi için reaktörü soğutman gerekecek ve bunu katı ya da sıvı &bsoğutucu&r ile yapabilirsin. Katı bir soğutucu kullanmak için ayrıca bir miktar sıvı soğutucu da kullanman gerekir. &bKuru Buz&r harika bir katı soğutucudur! (Not: 1 Su Kovası yeterli olacaktır).\\\\n\\\\nAyrıca yakıt arabelleğini dolu tutarak ve Reaktöre hem Kömür hem de Redstone ekleyerek FE üretimini artırabilirsin. Her ikisinden de Blokları kullanmak da işe yarayacaktır!",
   ],
   "quest.52E59FCB39D66BCF.quest_desc": [
-    "\\\"Pasif Güç\\\" için en iyi seçeneklerden biri olan &9Termo Jeneratör&r, bir &cIsı Kaynağı&r üzerine yerleştirildiğinde ve sürekli su verildiğinde FE üretecektir.\\\\n\\\\nŞu anda bunu üzerine yerleştirebileceğin 3 blok var: en az üreten Magma bloğu, biraz daha iyi olan lav kaynağı bloğu veya en fazla ısıyı sağlayan &cAlevli Kristal Bloğu&r. ",
+    "\"Pasif Güç\" için en iyi seçeneklerden biri olan &9Termo Jeneratör&r, bir &cIsı Kaynağı&r üzerine yerleştirildiğinde ve sürekli su verildiğinde FE üretecektir.\\\\n\\\\nŞu anda bunu üzerine yerleştirebileceğin 3 blok var: en az üreten Magma bloğu, biraz daha iyi olan lav kaynağı bloğu veya en fazla ısıyı sağlayan &cAlevli Kristal Bloğu&r. ",
   ],
   "quest.7678B5DD1339833E.quest_desc": [
     "Güneş Paneli, güneşe doğrudan erişim sağlandığında FE üretir. Ancak, önündeki engelleri görmezden gelmek için &7Ender'in Lensi&r kullanabilirsin.",

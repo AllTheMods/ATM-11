@@ -55,7 +55,7 @@
   ],
   "quest.7B3613C01F0B1373.quest_desc": [
     "Untuk menggabungkan &3Vibranium&r dan &6Allthemodium&r, kita harus menjelajahi mod &l&cPowah&r! \\\\n\\\\nLetakkan Energizing Orb, lalu pasang Energizing Rod menghadap ke arahnya. Energizing Rod harus diletakkan pada sumber listrik (Power Source) agar bisa mengirimkan energi ke Orb. Jumlah energi yang bisa ditampung dan dikirim ditentukan oleh tingkatannya (Tier). \\\\n\\\\nMasukkan Ingot, 2 Piglich Heart, dan satu Compressed Block of Nitro Crystals X1 ke dalam Orb (urutannya bebas). Setelah 1 Miliar FE masuk ke dalam Orb melalui Rod, item tersebut akan siap!\\\\n",
-    "{ \\\"text\\\": \\\"QUESTLINE POWAH\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"2A6EBEEBAB882679\\\" } }",
+    "{ \"text\": \"QUESTLINE POWAH\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }",
   ],
   "quest.0484051446480B54.title": "&6Allthemodium &5Alloy &3Axe",
   "quest.201EE3566D4D3123.quest_desc": [
@@ -86,7 +86,7 @@
   ],
   "quest.762581CAE5F5DDC1.quest_desc": [
     "Mod sihir, gaya sekali! &d&lArs Nouveau&r adalah mod yang akan kita gunakan untuk menggabungkan &5Unobtainium&r dan &6Allthemodium&r! \\\\n\\\\nEnchanting Apparatus adalah multiblock yang digunakan untuk banyak resep di sini. Mulailah dengan sebuah Arcane Core, lalu letakkan Enchanting Apparatus di atasnya. Selanjutnya, tempatkan Pedestal di sekitar Enchanting Apparatus pada tingkat Y yang sama. \\\\n\\\\nKemudian kamu bisa meletakkan item di atas Pedestal dalam urutan apa pun, pastikan ada Source di dekatnya, lalu letakkan Source Gem di Apparatus untuk memulainya! Setelah itu, kamu akan berhasil membuat Alloy Ingot &5Unobtainium&r-&6Allthemodium&r!\\\\n",
-    "{ \\\"text\\\": \\\"QUESTLINE ARS NOUVEAU\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"6AEDA2F9BEB57759\\\" } }",
+    "{ \"text\": \"QUESTLINE ARS NOUVEAU\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }",
   ],
   "quest.77AD61FCA9BC9AFB.title": "&3Vibranium Spell Book",
   "quest.44D5EDB8711EC7A0.quest_desc": [
@@ -131,7 +131,7 @@
   ],
   "quest.15DC6770B112EE69.quest_desc": [
     "Dissolution Chamber adalah mesin dari mod &l&7Industrial Foregoing&r. Ini juga cara kita menggabungkan &3Vibranium&r dan &5Unobtainium&r. \\\\n\\\\nKamu butuh &dPink Slime&r yang didapat dari Mob Slaughter Factory, mesin lain dari mod IF. \\\\n\\\\nKamu juga butuh Soul Lava yang bisa ditemukan di &b&lThe Other&r, biasanya ada di Piglin Village. \\\\n\\\\nSetelah itu, masukkan Ingot dan Piglich Heart dengan urutan yang tepat, beri daya listrik, dan selesai!\\\\n",
-    "{ \\\"text\\\": \\\"QUESTLINE INDUSTRIAL FOREGOING\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"193F91842D2ED7D9\\\" } }",
+    "{ \"text\": \"QUESTLINE INDUSTRIAL FOREGOING\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }",
   ],
   "quest.1FE47F03B5DF492D.quest_desc": [
     "{image:atm:textures/questpics/allthemodium/all_armor_unoarcane.png width:100 height:175 align:center}",

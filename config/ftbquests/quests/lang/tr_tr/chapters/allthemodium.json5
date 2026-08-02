@@ -45,7 +45,7 @@
   "quest.4E737C490DCC5D6C.title": "&5Unobtainium Zırhı",
   "quest.15DC6770B112EE69.quest_desc": [
     "Dissolution Chamber, &l&7Industrial Foregoing&r tarafından eklenen bir Makine. Aynı zamanda &3Vibranium&r ve &5Unobtainium&r'u da bununla birleştireceğiz. \\\\n\\\\nMob Slaughter Factory'den elde edeceğin &dPink Slime&r'a ihtiyacın olacak. Bu Makine de IF tarafından eklendi. \\\\n\\\\nAyrıca Piglin Köyünde yaygın olan ve ayriyeten &b&lOther&r'da bulunan Ruh Lav'ına da ihtiyacın olacak. \\\\n\\\\nBunlardan sonra Külçelerini ve Piglich Kalplerini sırasıyla koyman, ardından güçlendirmen gerekecek. Bu işlemlerden sonrada alaşımın üretilmiş olacak!\\\\n",
-    "{ \\\"text\\\": \\\"INDUSTRIAL FOREGOING GÖREV SERİSİ\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"193F91842D2ED7D9\\\" } }",
+    "{ \"text\": \"INDUSTRIAL FOREGOING GÖREV SERİSİ\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }",
   ],
   "quest.44D5EDB8711EC7A0.title": "&6Allthemodium Topuz",
   "quest.151D836C7B0E6FAF.title": "&3Vibranium Kalkan",
@@ -61,7 +61,7 @@
   "quest.19E356E67EF17E4A.title": "&6Allthemodium &5Alaşımı &3Paxel",
   "quest.7B3613C01F0B1373.quest_desc": [
     "&3Vibranium&r ve &6Allthemodium&r'u birleştirmek için &l&cPowah&r'a girmemiz gerekecek! \\\\n\\\\nEnerjilendiren Küre'yi yere yerleştir ve ardından Enerjilendiren Çubukları ona bakacak şekilde yerleştir. Enerjilendiren Çubukların bir Güç Kaynağına yerleştirilmesi gerekir sonrasında Küreye Enerji gönderirler. Her birinin tuttuğu ve gönderdiği miktar Kademesi tarafından belirlenir. \\\\n\\\\nKülçeleri, 2 Piglich Kalbi ve Sıkıştırılmış Nitro Kristal Bloğu X1'i Küreye yerleştir (sıra önemli değil). Ardından 1 Milyar FE Çubuklar aracılığıyla Küreye aktarıldığında hazır olacaktır!\\\\n",
-    "{ \\\"text\\\": \\\"POWAH GÖREV SERİSİ\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"2A6EBEEBAB882679\\\" } }",
+    "{ \"text\": \"POWAH GÖREV SERİSİ\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\" } }",
   ],
   "quest.0484051446480B54.title": "&6Allthemodium &5Alaşımı &3Balta",
   "quest.201EE3566D4D3123.quest_desc": [
@@ -122,7 +122,7 @@
   ],
   "quest.762581CAE5F5DDC1.quest_desc": [
     "Bir Sihirli Modu ne kadar hoş! &d&lArs Nouveau&r, &5Unobtainium&r ve &6Allthemodium&r'u birlikte üretmek için kullanacağımız Mod! \\\\n\\\\nBüyüleyici Aparat, şu anda burada birçok tarif için kullanılan çoklu bloktur. Esrarengiz Çekirdek ile başla, ardından Büyüleyici Aparat'ı onun üzerine koy. Ardından, Büyüleyici Aparatının etrafına aynı Y Seviyesinde Kaideler yerleştir. \\\\n\\\\nDaha sonra Eşyaları Kaidelere istediğin sırayla yerleştir, Kaynak'ı yakınında bulundur ardından Kaynak Cevherini Aparata yerleştir sonrasında üretmeye başlayacak! Ardından &5Unobtainium&r-&6Allthemodium&r Alaşım Külçeni üretmiş olacaksın!\\\\n",
-    "{ \\\"text\\\": \\\"ARS NOUVEAU GÖREV SERİSİ\\\", \\\"color\\\": \\\"#55FF55\\\", \\\"underlined\\\": true, \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"6AEDA2F9BEB57759\\\" } }",
+    "{ \"text\": \"ARS NOUVEAU GÖREV SERİSİ\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\" } }",
   ],
   "quest.4E737C490DCC5D6C.quest_desc": [
     "Elde edebileceğin en iyi temel zırh! \\\\n\\\\nDaha iyi olan Mekasuit'i yapmak için gerekli olacak!",

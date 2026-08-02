@@ -1,5 +1,9 @@
 {
-  "quest.017194E29D6745E8.quest_desc": [ "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods.\\\\n\\\\nComo todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito.\\\\n\\\\nEsta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición." ],
+  "quest.017194E29D6745E8.quest_desc": [ "Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods.",
+    "",
+    "Como todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito.",
+    "",
+    "Esta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición." ],
   "quest.064BBCC379A69748.quest_desc": [ "Este es aproximadamente el doble de bueno que un horno de vainilla, ¡y es más eficiente para arrancar! Aunque es superado por otros mods de hornos, para una partida estrictamente de MI, ¡este horno es increíblemente fuerte!" ],
   "quest.079383355D14FBC9.quest_desc": [ "Necesitarás 21 Ladrillos, y uno de cada uno de los siguientes (Escotilla de Entrada de Objetos, Escotilla de Salida de Objetos, Escotilla de Entrada de Fluidos, Escotilla de Salida de Fluidos) para crear tu primera estructura multiblock, el Horno de Coque. Puedes convertir carbón en coque y creosota usando esta máquina. La creosota es una fuente de combustible mucho más eficiente que el carbón o el carbón vegetal, y el coque es aún más eficiente. Pero probablemente querrás guardar tu coque para el acero. Sostén una Llave Inglesa en tu mano para ver cómo configurar la estructura multiblock. ", "", "(El Configurador de Mekanism es tu amigo)" ],
   "quest.079383355D14FBC9.title": "Horno de Coque",

@@ -10,7 +10,7 @@
   ],
   "quest.6ADDFD55AD0DF7D4.title": "Inanite",
   "quest.25D4406CB86C8CBB.quest_desc": [
-    "Agora que estamos coletando alguns &9resíduos&r do nosso reator, parte da progressão exige que você \\\"fluidize\\\" alguma das Barras que você obtém. Sabe o que isso significa?\\\\n\\\\nPrecisamos fazer um &aFluidificador&r! O componente principal é o &aControlador do Fluidificador&r. Uma vez construído, você pode clicar com o botão direito sobre ele para abrir a interface. Aqui, você pode ligá-lo ou desligá-lo, ver o que está dentro e o nível de energia atual.",
+    "Agora que estamos coletando alguns &9resíduos&r do nosso reator, parte da progressão exige que você \"fluidize\" alguma das Barras que você obtém. Sabe o que isso significa?\\\\n\\\\nPrecisamos fazer um &aFluidificador&r! O componente principal é o &aControlador do Fluidificador&r. Uma vez construído, você pode clicar com o botão direito sobre ele para abrir a interface. Aqui, você pode ligá-lo ou desligá-lo, ver o que está dentro e o nível de energia atual.",
   ],
   "quest.4AD8363D7359A072.quest_desc": [
     "Vamos construir o menor reator passivo possível, o &93x3x3&r. Os requisitos para a missão são as quantidades exatas do que você precisará para construir um.\\\\n\\\\nPara construir isso, você começa construindo uma estrutura 3x3x3 feita de Casings. No meio da face inferior, você pode usar outro Reator Casing. Você vai querer que cada parede externa tenha um &9componente do reator&r, como uma Torneira de Energia Ativa ou Porta de Acesso a Sólidos.",
@@ -32,7 +32,7 @@
     "Usando o &aReprocessador&r, podemos combinar tudo o que fizemos até agora para fazer algumas Barras novas.\\\\n\\\\nNota: Você pode precisar de um &9Fluidificador&r para completar esta etapa!",
   ],
   "quest.4B9E9497E44D0096.quest_desc": [
-    "Para construir um reator, você precisará começar fazendo &6Invólucros de Reator&r.\\\\n\\\\nEles compõem a estrutura e as paredes do seu reator, embora as paredes possam ser substituídas por &9Vidro de Reator&r se você quiser ver o interior do seu reator.\\\\n\\\\nPara referência futura, quando uma peça diz \\\"Básica\\\", isso significa que ela só pode ser usada com outras peças básicas. As peças Básicas também só podem ser usadas para construir reatores menores, pois têm um certo limite de tamanho. Tenha isso em mente!",
+    "Para construir um reator, você precisará começar fazendo &6Invólucros de Reator&r.\\\\n\\\\nEles compõem a estrutura e as paredes do seu reator, embora as paredes possam ser substituídas por &9Vidro de Reator&r se você quiser ver o interior do seu reator.\\\\n\\\\nPara referência futura, quando uma peça diz \"Básica\", isso significa que ela só pode ser usada com outras peças básicas. As peças Básicas também só podem ser usadas para construir reatores menores, pois têm um certo limite de tamanho. Tenha isso em mente!",
   ],
   "quest.775D176081DD75F5.quest_desc": [
     "Clicar com o botão direito em um Controlador de Turbina quando ele estiver totalmente construído mostrará a Interface da Turbina.\\\\n\\\\nAqui, você pode ver todas as estatísticas da Turbina. Passar o mouse sobre cada uma delas lhe dará mais informações sobre cada uma.\\\\n\\\\nNo canto inferior esquerdo, você terá 2 setas para controlar a &9Taxa de Fluxo&r. Isso controla a quantidade de vapor aquecido que é bombeada para a Turbina. Para saber quanto você deve definir, verifique a &dTaxa de Produção de Vapor&r do seu reator como ponto de partida. ",
@@ -105,7 +105,7 @@
     "O coração deste multibloco é o &aControlador&r, e pode ser colocado em qualquer face vertical, desde que não esteja na estrutura.",
   ],
   "quest.2A20000FAEC2E16A.quest_desc": [
-    "Para extrair energia ou itens do seu reator, ou mesmo inserir combustível, você precisará desses blocos &cobrigatórios&r.\\\\n\\\\nA &cTomada de Energia (Power Tap)&r fornece uma maneira de você \\\"acessar\\\" a energia que um reator &9passivo&r produz. Você pode conectar canos e cabos para extrair a energia dele.\\\\n\\\\nAs &aPortas de Acesso (Access Ports)&r são necessárias para todo reator e permitem que você insira combustível no reator ou extraia resíduos. Geralmente é uma boa ideia ter 2 por reator, um para cada tarefa.",
+    "Para extrair energia ou itens do seu reator, ou mesmo inserir combustível, você precisará desses blocos &cobrigatórios&r.\\\\n\\\\nA &cTomada de Energia (Power Tap)&r fornece uma maneira de você \"acessar\" a energia que um reator &9passivo&r produz. Você pode conectar canos e cabos para extrair a energia dele.\\\\n\\\\nAs &aPortas de Acesso (Access Ports)&r são necessárias para todo reator e permitem que você insira combustível no reator ou extraia resíduos. Geralmente é uma boa ideia ter 2 por reator, um para cada tarefa.",
   ],
   "quest.354086C858E10154.quest_desc": [
     "Agora que temos um pouco de Cianita do nosso reator bebê, vamos querer uma maneira de reprocessar esse resíduo em algo útil.",
