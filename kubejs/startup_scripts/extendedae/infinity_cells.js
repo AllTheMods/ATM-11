@@ -121,11 +121,13 @@ if (Platform.isLoaded("extendedae")) {
       .itemType("ae2:sky_stone_block")
       .cellModel("kubejs:block/drive/sky_stone_cell")
     // Kivi
-    allthemods
-      .create("kivi_cell", "custom_infinity_cell")
-      .texture("kubejs:item/kivi_cell")
-      .itemType("xycraft_world:kivi")
-      .cellModel("kubejs:block/drive/kivi_cell")
+    if (Platform.isLoaded("xycraft_world")) {
+      allthemods
+        .create("kivi_cell", "custom_infinity_cell")
+        .texture("kubejs:item/kivi_cell")
+        .itemType("xycraft_world:kivi")
+        .cellModel("kubejs:block/drive/kivi_cell")
+    }
     // Ancient Stone
     allthemods
       .create("ancient_stone_cell", "custom_infinity_cell")

@@ -240,7 +240,7 @@
             id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbfiltersystem:filter": "or(item(kubejs:lava_cell)item(kubejs:dirt_cell)item(kubejs:moss_cell)item(kubejs:andesite_cell)item(kubejs:diorite_cell)item(kubejs:granite_cell)item(kubejs:tuff_cell)item(kubejs:gravel_cell)item(kubejs:sand_cell)item(kubejs:red_sand_cell)item(kubejs:end_stone_cell)item(kubejs:netherrack_cell)item(kubejs:clay_cell)item(kubejs:blackstone_cell)item(kubejs:basalt_cell)item(kubejs:calcite_cell)item(kubejs:cobbled_deepslate_cell)item(kubejs:soul_sand_cell)item(kubejs:sky_stone_cell)item(kubejs:kivi_cell)item(kubejs:ancient_stone_cell)item(kubejs:white_cell)item(kubejs:light_gray_cell)item(kubejs:gray_cell)item(kubejs:black_cell)item(extendedae:infinity_water_cell)item(extendedae:infinity_cobblestone_cell))",
+              "ftbfiltersystem:filter": "or(item(kubejs:lava_cell)item(kubejs:dirt_cell)item(kubejs:moss_cell)item(kubejs:andesite_cell)item(kubejs:diorite_cell)item(kubejs:granite_cell)item(kubejs:tuff_cell)item(kubejs:gravel_cell)item(kubejs:sand_cell)item(kubejs:red_sand_cell)item(kubejs:end_stone_cell)item(kubejs:netherrack_cell)item(kubejs:clay_cell)item(kubejs:blackstone_cell)item(kubejs:basalt_cell)item(kubejs:calcite_cell)item(kubejs:cobbled_deepslate_cell)item(kubejs:soul_sand_cell)item(kubejs:sky_stone_cell)item(kubejs:ancient_stone_cell)item(kubejs:white_cell)item(kubejs:light_gray_cell)item(kubejs:gray_cell)item(kubejs:black_cell)item(extendedae:infinity_water_cell)item(extendedae:infinity_cobblestone_cell))",
             },
           },
         },
