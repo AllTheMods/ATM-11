@@ -20,7 +20,7 @@ if (Platform.isLoaded("mysticalagriculture") && Platform.isLoaded("agritechevolv
 
         // Adding Agritech Planter compatibility with Mystical Customization crops
         customCrops.forEach(crop => {
-            
+            if (!Item.exists(`mysticalagriculture:${crop.name}_seeds`)) return
             event.custom({
                 "type": "agritechevolved:crop",
                 "seed": `mysticalagriculture:${crop.name}_seeds`,
