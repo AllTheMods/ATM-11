@@ -252,13 +252,5 @@ StartupEvents.registry("fluid", (allthemods) => {
 //   allthemods.add("ironfurnaces:upgrade_unobtainium")
 // })
 
-StartupEvents.postInit((allthemods) => {
-  let $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries")
-  
-  $BuiltInRegistries.BLOCK.addAlias("forbidden_arcanus:obsidiansteel_block", "forbidden_arcanus:stygian_steel_block")
-  $BuiltInRegistries.ITEM.addAlias("forbidden_arcanus:obsidiansteel_block", "forbidden_arcanus:stygian_steel_block")
-  $BuiltInRegistries.ITEM.addAlias("forbidden_arcanus:obsidiansteel_ingot", "forbidden_arcanus:stygian_steel_ingot")
-})
-
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
