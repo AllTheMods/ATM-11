@@ -178,18 +178,54 @@ ServerEvents.generateData("after_mods", (allthemods) => {
   allthemods.json("productivebees:recipe/centrifuge/oritech/honeycomb_uranite_crystal.json", json)
 
   // TODO: Temp remove
-  let jsonDisable = {"neoforge:conditions": [{"type": "neoforge:never"}]}
+  let jsonDisable = { "neoforge:conditions": [{ "type": "neoforge:never" }] }
 
   if (Platform.getInfo("advanced_ae").version == "26.1.5") { // bump if needed
-	  let recipes = [
-		"advanced_ae:recipe/wt_combine_crafting",
-		"advanced_ae:recipe/wt_combine_encoding",
-		"advanced_ae:recipe/wt_combine_access",
-		"advanced_ae:recipe/wt_upgrade_quantum_crafter_terminal",
-	  ]
-	  recipes.forEach(recipe => {
-		allthemods.json(recipe + ".json", jsonDisable)
-	  })
+    let recipes = [
+      "advanced_ae:recipe/wt_combine_crafting",
+      "advanced_ae:recipe/wt_combine_encoding",
+      "advanced_ae:recipe/wt_combine_access",
+      "advanced_ae:recipe/wt_upgrade_quantum_crafter_terminal",
+    ]
+    recipes.forEach(recipe => {
+      allthemods.json(recipe + ".json", jsonDisable)
+    })
+  }
+
+  if (Platform.getInfo("advanced_ae").version == "26.1.6") { // bump if needed
+    json = {
+      "type": "ae2wtlib:combine",
+      "terminalA": "ae2wtlib:wireless_pattern_access_terminal",
+      "terminalB": "advanced_ae:wireless_quantum_crafter_terminal",
+      "terminalAName": "pattern_access",
+      "terminalBName": "quantum_crafter"
+    }
+    allthemods.json("advanced_ae:recipe/wt_combine_access.json", json)
+
+    json = {
+      "type": "ae2wtlib:combine",
+      "terminalA": "ae2:wireless_crafting_terminal",
+      "terminalB": "advanced_ae:wireless_quantum_crafter_terminal",
+      "terminalAName": "crafting",
+      "terminalBName": "quantum_crafter"
+    }
+    allthemods.json("advanced_ae:recipe/wt_combine_crafting.json", json)
+
+    json = {
+      "type": "ae2wtlib:combine",
+      "terminalA": "ae2wtlib:wireless_pattern_encoding_terminal",
+      "terminalB": "advanced_ae:wireless_quantum_crafter_terminal",
+      "terminalAName": "pattern_encoding",
+      "terminalBName": "quantum_crafter"
+    }
+    allthemods.json("advanced_ae:recipe/wt_combine_encoding.json", json)
+
+    json = {
+      "type": "ae2wtlib:upgrade",
+      "terminal": "advanced_ae:wireless_quantum_crafter_terminal",
+      "terminalName": "quantum_crafter"
+    }
+    allthemods.json("advanced_ae:recipe/wt_upgrade_quantum_crafter_terminal.json", json)
   }
   
 })
