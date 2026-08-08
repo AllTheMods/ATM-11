@@ -13,7 +13,6 @@
     {
       x: 0.0,
       y: 0.0,
-      shape: "hexagon",
       size: 1.5,
       id: "13AA91D39A2CABF2",
       tasks: [
@@ -39,10 +38,10 @@
           id: "4610119044965C5E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "patchouli:guide_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "patchouli:guide_book",
+              "patchouli:book": "productivebees:guide",
             },
           },
         },
@@ -68,7 +67,7 @@
         {
           id: "0A0319CE4228B04F",
           type: "xp",
-          xp: 10,
+          xp: 20,
         },
       ],
     },
@@ -98,6 +97,11 @@
             count: 1,
           },
           count: 2,
+        },
+        {
+          id: "7A8856D38CE039B3",
+          type: "xp",
+          xp: 20,
         },
       ],
     },
@@ -131,7 +135,7 @@
         {
           id: "66503B552E577DF4",
           type: "xp",
-          xp: 10,
+          xp: 20,
         },
       ],
     },
@@ -142,7 +146,6 @@
       },
       x: 0.0,
       y: 6.5,
-      shape: "hexagon",
       dependencies: [
         "109AD73F016D576B",
       ],
@@ -255,23 +258,12 @@
             count: 1,
           },
         },
-        {
-          id: "1BAAF6971C603E1D",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "productivebees:bamboo_hive",
-            },
-          },
-        },
       ],
       rewards: [
         {
           id: "13A6FF7C32F2A33F",
           type: "xp",
-          xp: 10,
+          xp: 50,
         },
       ],
     },
@@ -540,7 +532,7 @@
         {
           id: "5A21046DE47F6AD0",
           type: "xp",
-          xp: 100,
+          xp: 10,
         },
       ],
     },
@@ -621,7 +613,7 @@
         {
           id: "69CAC89B71A6CB41",
           type: "xp",
-          xp: 100,
+          xp: 10,
         },
       ],
     },
@@ -641,18 +633,11 @@
         {
           id: "6D4F62833424ADC0",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:iron",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:iron",
+              "productivebees:bee_type": "productivebees:raw_materials/iron",
             },
           },
           match_components: "fuzzy",
@@ -668,18 +653,14 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "minecraft:iron_shovel",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "regions_unexplored:ash",
-        },
       },
       x: -8.5,
       y: 17.0,
       hide_dependency_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "37367101B3DAA70F",
       tasks: [
@@ -692,7 +673,7 @@
         {
           id: "5834F59FFE9CB283",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -716,7 +697,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:crystalline",
+              "productivebees:bee_type": "productivebees:gems/crystalline",
             },
           },
           match_components: "fuzzy",
@@ -746,18 +727,11 @@
         {
           id: "263F0E416A8E1110",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:copper",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:copper",
+              "productivebees:bee_type": "productivebees:raw_materials/copper",
             },
           },
           match_components: "fuzzy",
@@ -787,18 +761,11 @@
         {
           id: "17C7DC04BC22C0D7",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:tin",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:tin",
+              "productivebees:bee_type": "productivebees:raw_materials/tin",
             },
           },
           match_components: "fuzzy",
@@ -832,7 +799,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:aluminum",
+              "productivebees:bee_type": "productivebees:raw_materials/aluminum",
             },
           },
           match_components: "fuzzy",
@@ -867,7 +834,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:gold",
+              "productivebees:bee_type": "productivebees:raw_materials/gold",
             },
           },
           match_components: "fuzzy",
@@ -903,14 +870,13 @@
         {
           id: "40B999E6FCDAC7A8",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
     {
       x: 0.0,
       y: 10.5,
-      shape: "gear",
       dependencies: [
         "7C169A4A39F37FAC",
       ],
@@ -973,7 +939,7 @@
         {
           id: "14996378A430180C",
           type: "xp",
-          xp: 10,
+          xp: 20,
         },
       ],
     },
@@ -1004,23 +970,18 @@
             id: "productivelib:upgrade_base",
             count: 1,
           },
+          count: 4,
         },
         {
           id: "7EDF5D0C5DEAC0E0",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "7ADA6B4CC85F69AD",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
     {
       x: -6.5,
       y: 6.5,
-      shape: "hexagon",
       dependencies: [
         "66324D7D0C51AEAC",
       ],
@@ -1037,17 +998,9 @@
       ],
       rewards: [
         {
-          id: "532DF28E46411BAA",
-          type: "item",
-          item: {
-            id: "productivebees:honey_treat",
-            count: 1,
-          },
-        },
-        {
           id: "0EA3E1281FF59E31",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1070,14 +1023,6 @@
       ],
       rewards: [
         {
-          id: "7B68706C7E4D9550",
-          type: "item",
-          item: {
-            id: "productivebees:honey_treat",
-            count: 1,
-          },
-        },
-        {
           id: "23E4F84BF4C64AB3",
           type: "xp",
           xp: 100,
@@ -1087,7 +1032,6 @@
     {
       x: -4.0,
       y: 5.5,
-      shape: "hexagon",
       dependencies: [
         "66324D7D0C51AEAC",
       ],
@@ -1104,14 +1048,6 @@
       ],
       rewards: [
         {
-          id: "4423FDFB72B07AFC",
-          type: "item",
-          item: {
-            id: "productivebees:honey_treat",
-            count: 1,
-          },
-        },
-        {
           id: "60C16B8456B350DF",
           type: "xp",
           xp: 100,
@@ -1121,7 +1057,6 @@
     {
       x: -6.0,
       y: 5.5,
-      shape: "hexagon",
       dependencies: [
         "66324D7D0C51AEAC",
       ],
@@ -1138,14 +1073,6 @@
       ],
       rewards: [
         {
-          id: "08153982346B6697",
-          type: "item",
-          item: {
-            id: "productivebees:honey_treat",
-            count: 1,
-          },
-        },
-        {
           id: "2DD19E19BEC19037",
           type: "xp",
           xp: 100,
@@ -1155,7 +1082,6 @@
     {
       x: -4.0,
       y: 7.5,
-      shape: "hexagon",
       dependencies: [
         "66324D7D0C51AEAC",
       ],
@@ -1172,14 +1098,6 @@
       ],
       rewards: [
         {
-          id: "7047D156FCBF9AE4",
-          type: "item",
-          item: {
-            id: "productivebees:honey_treat",
-            count: 1,
-          },
-        },
-        {
           id: "075F2B26AEEAD55B",
           type: "xp",
           xp: 100,
@@ -1189,7 +1107,6 @@
     {
       x: -6.0,
       y: 7.5,
-      shape: "hexagon",
       dependencies: [
         "66324D7D0C51AEAC",
       ],
@@ -1205,14 +1122,6 @@
         },
       ],
       rewards: [
-        {
-          id: "1A390E7C759A0668",
-          type: "item",
-          item: {
-            id: "productivebees:honey_treat",
-            count: 1,
-          },
-        },
         {
           id: "7DCEF23469265229",
           type: "xp",
@@ -1238,14 +1147,6 @@
         },
       ],
       rewards: [
-        {
-          id: "6AA353FFF5071D08",
-          type: "item",
-          item: {
-            id: "productivebees:honey_treat",
-            count: 1,
-          },
-        },
         {
           id: "0E1128C2FFC5105B",
           type: "xp",
@@ -1287,7 +1188,7 @@
         {
           id: "412881B0F7ADFF14",
           type: "xp",
-          xp: 100,
+          xp: 50,
         },
       ],
     },
@@ -1307,18 +1208,11 @@
         {
           id: "4EF5B261BAD2AC7D",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:diamond",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:diamond",
+              "productivebees:bee_type": "productivebees:gems/diamond",
             },
           },
           match_components: "fuzzy",
@@ -1326,26 +1220,9 @@
       ],
       rewards: [
         {
-          id: "64643C0983D30385",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:diamond",
-            },
-          },
-          count: 2,
-        },
-        {
-          id: "1A349E15AA4AC684",
+          id: "7AC36D75C00A7E94",
           type: "xp",
           xp: 100,
-        },
-        {
-          id: "7AC36D75C00A7E94",
-          type: "loot",
-          exclude_from_claim_all: true,
         },
       ],
     },
@@ -1354,8 +1231,8 @@
         id: "minecraft:lapis_lazuli",
         count: 1,
       },
-      x: 6.0,
-      y: 10.5,
+      x: 7.0,
+      y: 11.5,
       dependencies: [
         "117241986C99E475",
       ],
@@ -1364,18 +1241,11 @@
         {
           id: "429FA8057B666565",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:lapis",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:lapis",
+              "productivebees:bee_type": "productivebees:gems/lapis",
             },
           },
           match_components: "fuzzy",
@@ -1383,26 +1253,9 @@
       ],
       rewards: [
         {
-          id: "1ED82242D8118B20",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:lapis",
-            },
-          },
-          count: 2,
-        },
-        {
           id: "403D370B0709F789",
           type: "xp",
           xp: 100,
-        },
-        {
-          id: "11FB3EE472B61486",
-          type: "loot",
-          exclude_from_claim_all: true,
         },
       ],
     },
@@ -1422,18 +1275,11 @@
         {
           id: "345245C32DB7B4D4",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:redstone",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:redstone",
+              "productivebees:bee_type": "productivebees:dusts/redstone",
             },
           },
           match_components: "fuzzy",
@@ -1441,26 +1287,9 @@
       ],
       rewards: [
         {
-          id: "6B3492675986DE8A",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:redstone",
-            },
-          },
-          count: 2,
-        },
-        {
           id: "0018B3107C93B218",
           type: "xp",
           xp: 100,
-        },
-        {
-          id: "2A77D5E9B9D886B2",
-          type: "loot",
-          exclude_from_claim_all: true,
         },
       ],
     },
@@ -1469,8 +1298,8 @@
         id: "minecraft:ender_pearl",
         count: 1,
       },
-      x: 7.0,
-      y: 9.5,
+      x: 6.0,
+      y: 10.5,
       hide_dependency_lines: true,
       dependencies: [
         "131EC039435B8878",
@@ -1492,26 +1321,9 @@
       ],
       rewards: [
         {
-          id: "0E73A093C803C622",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:ender",
-            },
-          },
-          count: 2,
-        },
-        {
-          id: "2363D0D66616EFA0",
+          id: "02997A325BE62AD8",
           type: "xp",
           xp: 100,
-        },
-        {
-          id: "02997A325BE62AD8",
-          type: "loot",
-          exclude_from_claim_all: true,
         },
       ],
     },
@@ -1521,7 +1333,7 @@
         count: 1,
       },
       x: 5.0,
-      y: 11.0,
+      y: 11.5,
       hide_dependency_lines: false,
       dependencies: [
         "4C0302FF4F63B52E",
@@ -1531,36 +1343,17 @@
         {
           id: "17B0E19125FCFA1A",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:glowing",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:glowing",
+              "productivebees:bee_type": "productivebees:dusts/glowing",
             },
           },
           match_components: "fuzzy",
         },
       ],
       rewards: [
-        {
-          id: "7A5A8AC95C18EA92",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:glowing",
-            },
-          },
-          count: 2,
-        },
         {
           id: "04ED5C7D50683DD9",
           type: "xp",
@@ -1570,18 +1363,14 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "minecraft:iron_shovel",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "pamhc2foodcore:chocolatebaritem",
-        },
       },
       x: -6.0,
       y: 18.5,
       hide_dependency_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "486060882E507CF1",
       tasks: [
@@ -1594,7 +1383,7 @@
         {
           id: "6C008390E836F306",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -1620,7 +1409,7 @@
         {
           id: "0D9788B0439CE954",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -1629,7 +1418,7 @@
         id: "minecraft:emerald",
         count: 1,
       },
-      x: 6.0,
+      x: 7.0,
       y: 9.5,
       dependencies: [
         "1D720AC88431BD70",
@@ -1640,18 +1429,11 @@
         {
           id: "7B7C1C5BFEC92058",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:emerald",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:emerald",
+              "productivebees:bee_type": "productivebees:gems/emerald",
             },
           },
           match_components: "fuzzy",
@@ -1659,26 +1441,9 @@
       ],
       rewards: [
         {
-          id: "4A130E264C080131",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:emerald",
-            },
-          },
-          count: 2,
-        },
-        {
           id: "4E02CE828408240A",
           type: "xp",
           xp: 100,
-        },
-        {
-          id: "528D6E20DC26A8F5",
-          type: "loot",
-          exclude_from_claim_all: true,
         },
       ],
     },
@@ -1688,7 +1453,7 @@
         count: 1,
       },
       x: 5.0,
-      y: 10.0,
+      y: 9.5,
       dependencies: [
         "4C0302FF4F63B52E",
       ],
@@ -1697,13 +1462,6 @@
         {
           id: "5E017E6B7E3F56B7",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:slimy",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
@@ -1715,18 +1473,6 @@
         },
       ],
       rewards: [
-        {
-          id: "41FFBD14B36FECA9",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:slimy",
-            },
-          },
-          count: 2,
-        },
         {
           id: "20336382D4565975",
           type: "xp",
@@ -1749,18 +1495,11 @@
         {
           id: "065E5450AC87F1D5",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:netherite",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:netherite",
+              "productivebees:bee_type": "productivebees:raw_materials/netherite",
             },
           },
           match_components: "fuzzy",
@@ -1768,26 +1507,9 @@
       ],
       rewards: [
         {
-          id: "73FB1BE90BCEF2BA",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:netherite",
-            },
-          },
-          count: 2,
-        },
-        {
           id: "51A4DAF850CC42BE",
           type: "xp",
           xp: 100,
-        },
-        {
-          id: "7640F9A832B2E438",
-          type: "loot",
-          exclude_from_claim_all: true,
         },
       ],
     },
@@ -1807,13 +1529,6 @@
         {
           id: "5BFAA4BB6651F71A",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:withered",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
@@ -1825,18 +1540,6 @@
         },
       ],
       rewards: [
-        {
-          id: "2B0C0EB3246429CA",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:withered",
-            },
-          },
-          count: 2,
-        },
         {
           id: "4F13B43E139C5327",
           type: "xp",
@@ -1863,7 +1566,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:allthemodium",
+              "productivebees:bee_type": "productivebees:atm/allthemodium",
             },
           },
           match_components: "fuzzy",
@@ -1872,18 +1575,8 @@
       rewards: [
         {
           id: "4328B4BBA9A222F2",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "20835B70D7692BE6",
           type: "xp",
-          xp: 100,
-        },
-        {
-          id: "37EAC314241B1592",
-          type: "loot",
-          exclude_from_claim_all: true,
+          xp: 150,
         },
       ],
     },
@@ -1903,13 +1596,6 @@
         {
           id: "4203F7ED807F3D30",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:skeletal",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
@@ -1921,18 +1607,6 @@
         },
       ],
       rewards: [
-        {
-          id: "59BD5E41D3B8EE0E",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:skeletal",
-            },
-          },
-          count: 2,
-        },
         {
           id: "44F03279C1CFBE4C",
           type: "xp",
@@ -1956,13 +1630,6 @@
         {
           id: "2CC38211F4C54ED8",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:draconic",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
@@ -1975,26 +1642,9 @@
       ],
       rewards: [
         {
-          id: "4A0DF3F64E1B7C94",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:draconic",
-            },
-          },
-          count: 2,
-        },
-        {
           id: "49777B21FF0970EA",
           type: "xp",
           xp: 100,
-        },
-        {
-          id: "413B2A37363D776A",
-          type: "loot",
-          exclude_from_claim_all: true,
         },
       ],
     },
@@ -2003,8 +1653,8 @@
         id: "allthemodium:vibranium_ingot",
         count: 1,
       },
-      x: 8.0,
-      y: 11.5,
+      x: 10.0,
+      y: 10.5,
       dependencies: [
         "6EFFF0DC80C1C8A3",
       ],
@@ -2017,7 +1667,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:vibranium",
+              "productivebees:bee_type": "productivebees:atm/vibranium",
             },
           },
           match_components: "fuzzy",
@@ -2026,18 +1676,8 @@
       rewards: [
         {
           id: "1FDBF76E4CB0BB03",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "0F0BFA4465C0C95F",
           type: "xp",
-          xp: 100,
-        },
-        {
-          id: "35242DFB5C7C77C7",
-          type: "random",
-          exclude_from_claim_all: true,
+          xp: 200,
         },
       ],
     },
@@ -2046,8 +1686,8 @@
         id: "allthemodium:unobtainium_ingot",
         count: 1,
       },
-      x: 9.0,
-      y: 11.5,
+      x: 11.0,
+      y: 10.5,
       dependencies: [
         "6E819CCD57B15D54",
       ],
@@ -2060,7 +1700,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:unobtainium",
+              "productivebees:bee_type": "productivebees:atm/unobtainium",
             },
           },
           match_components: "fuzzy",
@@ -2069,18 +1709,8 @@
       rewards: [
         {
           id: "752568EB48133C34",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "13C87DB20767067D",
           type: "xp",
-          xp: 100,
-        },
-        {
-          id: "2F1ADC2857FC1C60",
-          type: "loot",
-          exclude_from_claim_all: true,
+          xp: 250,
         },
       ],
     },
@@ -2100,18 +1730,11 @@
         {
           id: "181135E3A83C5B9E",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:zinc",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:zinc",
+              "productivebees:bee_type": "productivebees:raw_materials/zinc",
             },
           },
           match_components: "fuzzy",
@@ -2141,18 +1764,11 @@
         {
           id: "299DE26FF7293F34",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:electrum",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:electrum",
+              "productivebees:bee_type": "productivebees:alloys/electrum",
             },
           },
           match_components: "fuzzy",
@@ -2161,8 +1777,8 @@
       rewards: [
         {
           id: "1C24CAD04C3B1197",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -2186,7 +1802,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:platinum",
+              "productivebees:bee_type": "productivebees:raw_materials/platinum",
             },
           },
           match_components: "fuzzy",
@@ -2220,7 +1836,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:lead",
+              "productivebees:bee_type": "productivebees:raw_materials/lead",
             },
           },
           match_components: "fuzzy",
@@ -2254,7 +1870,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:blazing",
+              "productivebees:bee_type": "productivebees:dusts/blazing",
             },
           },
           match_components: "fuzzy",
@@ -2284,18 +1900,11 @@
         {
           id: "79AEDC66EB312BCA",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:brass",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:brass",
+              "productivebees:bee_type": "productivebees:alloys/brass",
             },
           },
           match_components: "fuzzy",
@@ -2304,25 +1913,21 @@
       rewards: [
         {
           id: "30BB65A1EBCDB878",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "minecraft:iron_shovel",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "regions_unexplored:maple_leaf_pile",
-        },
       },
       x: -10.5,
       y: 17.0,
       hide_dependency_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "6BEE3578BD2C713C",
       tasks: [
@@ -2335,24 +1940,20 @@
         {
           id: "1C28FA3EA99E8BF1",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "minecraft:light_blue_dye",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "luminax:red_luminax_block",
-        },
       },
       x: -6.0,
       y: 22.5,
       hide_dependency_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "683B58B699D4D381",
       tasks: [
@@ -2371,7 +1972,7 @@
     },
     {
       icon: {
-        id: "minecraft:wooden_sword",
+        id: "minecraft:iron_sword",
         count: 1,
       },
       x: -4.0,
@@ -2417,7 +2018,7 @@
         {
           id: "447B59A2C9693336",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -2470,7 +2071,7 @@
         {
           id: "5F80C0F9DAB3D6F7",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -2496,7 +2097,7 @@
         {
           id: "42FD59C35B7B5AD1",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -2550,18 +2151,11 @@
         {
           id: "55F718D796CEB1B1",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:bronze",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:bronze",
+              "productivebees:bee_type": "productivebees:alloys/bronze",
             },
           },
           match_components: "fuzzy",
@@ -2570,8 +2164,8 @@
       rewards: [
         {
           id: "53A176D717E43133",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -2625,18 +2219,11 @@
         {
           id: "4FCEB24FC83D22A9",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:constantan",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:constantan",
+              "productivebees:bee_type": "productivebees:alloys/constantan",
             },
           },
           match_components: "fuzzy",
@@ -2645,17 +2232,17 @@
       rewards: [
         {
           id: "3DCC8F4B0AF930F5",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "ftbquests:missing_item": "artifacts:crystal_heart",
+          "ftbquests:icon": "minecraft:textures/gui/sprites/hud/heart/full.png",
         },
       },
       x: -2.0,
@@ -2663,7 +2250,6 @@
       hide_dependency_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "2E51F09F6D9E5EF8",
       tasks: [
@@ -2726,7 +2312,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:enderium",
+              "productivebees:bee_type": "productivebees:alloys/enderium",
             },
           },
           match_components: "fuzzy",
@@ -2735,8 +2321,8 @@
       rewards: [
         {
           id: "2CF7EC4599F2B2C7",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -2820,7 +2406,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:invar",
+              "productivebees:bee_type": "productivebees:alloys/invar",
             },
           },
           match_components: "fuzzy",
@@ -2829,8 +2415,8 @@
       rewards: [
         {
           id: "1C2EC4393E08F824",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -2876,18 +2462,11 @@
         {
           id: "4DA6445DB5F3B85E",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:lumium",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:lumium",
+              "productivebees:bee_type": "productivebees:alloys/lumium",
             },
           },
           match_components: "fuzzy",
@@ -2896,8 +2475,8 @@
       rewards: [
         {
           id: "20174051664DB5D8",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -2921,7 +2500,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:menril",
+              "productivebees:bee_type": "productivebees:integrateddynamics/menril",
             },
           },
           match_components: "fuzzy",
@@ -2955,7 +2534,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:nickel",
+              "productivebees:bee_type": "productivebees:raw_materials/nickel",
             },
           },
           match_components: "fuzzy",
@@ -2985,13 +2564,6 @@
         {
           id: "50823C029014781A",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:obsidian",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
@@ -3026,18 +2598,11 @@
         {
           id: "4471A530B55D4140",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:osmium",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:osmium",
+              "productivebees:bee_type": "productivebees:raw_materials/osmium",
             },
           },
           match_components: "fuzzy",
@@ -3053,7 +2618,7 @@
     },
     {
       icon: {
-        id: "quarryplus:quarry",
+        id: "minecraft:iron_pickaxe",
         count: 1,
       },
       x: -1.0,
@@ -3093,18 +2658,11 @@
         {
           id: "5C358DFF9CD0D1D9",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:radioactive",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:radioactive",
+              "productivebees:bee_type": "productivebees:raw_materials/radioactive",
             },
           },
           match_components: "fuzzy",
@@ -3165,18 +2723,11 @@
         {
           id: "5B5DBA0A7644A551",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:signalum",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:signalum",
+              "productivebees:bee_type": "productivebees:alloys/signalum",
             },
           },
           match_components: "fuzzy",
@@ -3185,8 +2736,8 @@
       rewards: [
         {
           id: "5911622D6CE88B27",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -3240,18 +2791,11 @@
         {
           id: "47BAD4AA76F9CF82",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:silver",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:silver",
+              "productivebees:bee_type": "productivebees:raw_materials/silver",
             },
           },
           match_components: "fuzzy",
@@ -3285,7 +2829,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:steel",
+              "productivebees:bee_type": "productivebees:alloys/steel",
             },
           },
           match_components: "fuzzy",
@@ -3294,8 +2838,8 @@
       rewards: [
         {
           id: "1F1ECB423A214F5C",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -3423,7 +2967,7 @@
         {
           id: "3202C04BE7D817FE",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -3443,18 +2987,11 @@
         {
           id: "0F2BCC279B5731AB",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:amethyst",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:amethyst",
+              "productivebees:bee_type": "productivebees:gems/amethyst",
             },
           },
           match_components: "fuzzy",
@@ -3488,7 +3025,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:brown_shroom",
+              "productivebees:bee_type": "productivebees:shroom/brown_shroom",
             },
           },
           match_components: "fuzzy",
@@ -3524,7 +3061,7 @@
         {
           id: "1218C1901D969C1D",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -3575,18 +3112,11 @@
         {
           id: "3B35F86B42989063",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:crimson",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:crimson",
+              "productivebees:bee_type": "productivebees:shroom/crimson",
             },
           },
           match_components: "fuzzy",
@@ -3620,7 +3150,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:fluix",
+              "productivebees:bee_type": "productivebees:ae2/fluix",
             },
           },
           match_components: "fuzzy",
@@ -3714,7 +3244,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:peridot",
+              "productivebees:bee_type": "productivebees:gems/peridot",
             },
           },
           match_components: "fuzzy",
@@ -3748,7 +3278,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:prosperity",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/prosperity",
             },
           },
           match_components: "fuzzy",
@@ -3782,7 +3312,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:red_shroom",
+              "productivebees:bee_type": "productivebees:shroom/red_shroom",
             },
           },
           match_components: "fuzzy",
@@ -3812,18 +3342,11 @@
         {
           id: "2EA19C4E46380CDA",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:ruby",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:ruby",
+              "productivebees:bee_type": "productivebees:gems/ruby",
             },
           },
           match_components: "fuzzy",
@@ -3853,18 +3376,11 @@
         {
           id: "46C7D666D3A4A3D9",
           type: "item",
-          icon: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:sapphire",
-            },
-          },
           item: {
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:sapphire",
+              "productivebees:bee_type": "productivebees:gems/sapphire",
             },
           },
           match_components: "fuzzy",
@@ -3898,7 +3414,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:soulium",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/soulium",
             },
           },
           match_components: "fuzzy",
@@ -3932,7 +3448,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:warped",
+              "productivebees:bee_type": "productivebees:shroom/warped",
             },
           },
           match_components: "fuzzy",
@@ -4082,12 +3598,12 @@
         {
           id: "0465B5524AB936C1",
           type: "xp",
-          xp: 10,
+          xp: 20,
         },
       ],
     },
     {
-      x: 4.0,
+      x: 5.0,
       y: 6.5,
       hide_dependency_lines: true,
       dependencies: [
@@ -4117,12 +3633,12 @@
         {
           id: "08B9B9C77F1239AD",
           type: "xp",
-          xp: 10,
+          xp: 20,
         },
       ],
     },
     {
-      x: 5.0,
+      x: 4.0,
       y: 6.5,
       hide_dependency_lines: true,
       dependencies: [
@@ -4152,7 +3668,7 @@
         {
           id: "6BB1ACB9F4FF3532",
           type: "xp",
-          xp: 10,
+          xp: 20,
         },
       ],
     },
@@ -4187,7 +3703,7 @@
         {
           id: "4E9C7BCD64A5B238",
           type: "xp",
-          xp: 10,
+          xp: 20,
         },
       ],
     },
@@ -4222,7 +3738,7 @@
         {
           id: "3E37E54642DD9ABE",
           type: "xp",
-          xp: 10,
+          xp: 20,
         },
       ],
     },
@@ -4248,7 +3764,7 @@
         {
           id: "76C1F3990EFECFDB",
           type: "xp",
-          xp: 100,
+          xp: 10,
         },
       ],
     },
@@ -4272,11 +3788,6 @@
       rewards: [
         {
           id: "53466516293198D5",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "28133B0FFC3269DB",
           type: "xp",
           xp: 100,
         },
@@ -4300,11 +3811,6 @@
         },
       ],
       rewards: [
-        {
-          id: "7DFAC9BC1DF0F99D",
-          type: "loot",
-          exclude_from_claim_all: true,
-        },
         {
           id: "3369265CFC323286",
           type: "xp",
@@ -4331,11 +3837,6 @@
       ],
       rewards: [
         {
-          id: "7C1C2FCB825216F2",
-          type: "loot",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "701899D7386C5160",
           type: "xp",
           xp: 200,
@@ -4345,7 +3846,6 @@
     {
       x: -1.5,
       y: 1.5,
-      shape: "circle",
       optional: true,
       invisible: true,
       id: "0A11725B41AB45F6",
@@ -4377,6 +3877,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "2616854E539A1A42",
+          type: "xp",
+          xp: 100,
+        },
+      ],
     },
     {
       x: -2.5,
@@ -4396,15 +3903,6 @@
         },
       ],
       rewards: [
-        {
-          id: "2A844D70AB59AF42",
-          type: "item",
-          item: {
-            id: "productivelib:upgrade_time",
-            count: 1,
-          },
-          count: 2,
-        },
         {
           id: "2CEECD5183B2477C",
           type: "xp",
@@ -4433,7 +3931,15 @@
       ],
       rewards: [
         {
-          id: "5B4460138CD03C17",
+          id: "3A4F51C4F1C82833",
+          type: "item",
+          item: {
+            id: "minecraft:sponge",
+            count: 1,
+          },
+        },
+        {
+          id: "19D4F52D25D26E23",
           type: "xp",
           xp: 50,
         },
@@ -4455,6 +3961,21 @@
             id: "productivebees:feeder",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "009D177C30C3B870",
+          type: "item",
+          item: {
+            id: "minecraft:honeycomb",
+            count: 1,
+          },
+        },
+        {
+          id: "41BFCEC2B5746038",
+          type: "xp",
+          xp: 50,
         },
       ],
     },
@@ -4491,8 +4012,8 @@
       rewards: [
         {
           id: "26273F7DE051D782",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4514,6 +4035,13 @@
               "ftbfiltersystem:filter": "or(item(minecraft:rose_bush)item(minecraft:peony)item(minecraft:lilac)item(minecraft:sunflower))",
             },
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "26DA25AAAA50F05E",
+          type: "xp",
+          xp: 10,
         },
       ],
     },
@@ -4547,8 +4075,8 @@
       rewards: [
         {
           id: "17CD9817F61B5DC8",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4573,7 +4101,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:uraninite",
+              "productivebees:bee_type": "productivebees:powah/uraninite",
             },
           },
           match_components: "fuzzy",
@@ -4582,8 +4110,8 @@
       rewards: [
         {
           id: "4D3295396C51F0A5",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4608,7 +4136,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:energized_steel",
+              "productivebees:bee_type": "productivebees:powah/energized_steel",
             },
           },
           match_components: "fuzzy",
@@ -4617,8 +4145,8 @@
       rewards: [
         {
           id: "0DE6EF8E5A47503B",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4643,7 +4171,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:blazing_crystal",
+              "productivebees:bee_type": "productivebees:powah/blazing_crystal",
             },
           },
           match_components: "fuzzy",
@@ -4652,8 +4180,8 @@
       rewards: [
         {
           id: "7085112E505B5B42",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4678,7 +4206,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:niotic_crystal",
+              "productivebees:bee_type": "productivebees:powah/niotic_crystal",
             },
           },
           match_components: "fuzzy",
@@ -4687,8 +4215,8 @@
       rewards: [
         {
           id: "0096FA19EF578A18",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4713,10 +4241,17 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:spirited_crystal",
+              "productivebees:bee_type": "productivebees:powah/spirited_crystal",
             },
           },
           match_components: "fuzzy",
+        },
+      ],
+      rewards: [
+        {
+          id: "762AE745D29E4B24",
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4741,7 +4276,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:nitro_crystal",
+              "productivebees:bee_type": "productivebees:powah/nitro_crystal",
             },
           },
           match_components: "fuzzy",
@@ -4750,8 +4285,8 @@
       rewards: [
         {
           id: "3CE1349163E8BEA7",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4789,8 +4324,8 @@
       rewards: [
         {
           id: "6AA7D339065D07FE",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4828,18 +4363,15 @@
       rewards: [
         {
           id: "24695B834D5718E4",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "alltheores:sulfur_dust",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "alltheores:sulfur",
-        },
       },
       x: -2.0,
       y: 25.5,
@@ -4847,7 +4379,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "70C878DB6AE413B2",
       tasks: [
@@ -4858,7 +4389,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:sulfur",
+              "productivebees:bee_type": "productivebees:dusts/sulfur",
             },
           },
           match_components: "fuzzy",
@@ -4867,8 +4398,8 @@
       rewards: [
         {
           id: "5D997E9168840783",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4893,7 +4424,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:crimson_iron",
+              "productivebees:bee_type": "productivebees:silentgear/crimson_iron",
             },
           },
           match_components: "fuzzy",
@@ -4902,8 +4433,8 @@
       rewards: [
         {
           id: "45F5052F30EC77A2",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4937,8 +4468,8 @@
       rewards: [
         {
           id: "2D6D3C77FE81C29E",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -4976,8 +4507,8 @@
       rewards: [
         {
           id: "5322582D523E4EF7",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5002,7 +4533,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:stellarite",
+              "productivebees:bee_type": "productivebees:forbidden_arcanus/stellarite",
             },
           },
           match_components: "fuzzy",
@@ -5011,8 +4542,8 @@
       rewards: [
         {
           id: "4782AB8047C25C03",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5050,8 +4581,8 @@
       rewards: [
         {
           id: "4B29EF6C34B1C546",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5076,7 +4607,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:quartz_enriched_iron",
+              "productivebees:bee_type": "productivebees:refinedstorage/quartz_enriched_iron",
             },
           },
           match_components: "fuzzy",
@@ -5085,8 +4616,8 @@
       rewards: [
         {
           id: "7D60D9CFAD7274A1",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5120,8 +4651,8 @@
       rewards: [
         {
           id: "6A275305D5F779CE",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5159,8 +4690,8 @@
       rewards: [
         {
           id: "031C204FEE28E8C8",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5185,7 +4716,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:spacial",
+              "productivebees:bee_type": "productivebees:ae2/spatial",
             },
           },
           match_components: "fuzzy",
@@ -5194,8 +4725,8 @@
       rewards: [
         {
           id: "2247D38D85C9CA55",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5233,8 +4764,8 @@
       rewards: [
         {
           id: "44C574701EAFCB67",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5272,8 +4803,8 @@
       rewards: [
         {
           id: "55E7020FCCF75000",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5311,8 +4842,8 @@
       rewards: [
         {
           id: "7D4684E142B7540F",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5350,8 +4881,8 @@
       rewards: [
         {
           id: "44BA56237F1897D4",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5389,8 +4920,8 @@
       rewards: [
         {
           id: "7325F9F47AEA94D5",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5428,8 +4959,8 @@
       rewards: [
         {
           id: "0788A63A233EE7EA",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5467,8 +4998,8 @@
       rewards: [
         {
           id: "4DB7CBA0F4C433A9",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5493,7 +5024,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:inferium",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/inferium",
             },
           },
           match_components: "fuzzy",
@@ -5502,8 +5033,8 @@
       rewards: [
         {
           id: "7765E3E96511D3C3",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5528,7 +5059,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:prudentium",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/prudentium",
             },
           },
           match_components: "fuzzy",
@@ -5537,8 +5068,8 @@
       rewards: [
         {
           id: "7817FD6FCEE4FA1D",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5563,7 +5094,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:tertium",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/tertium",
             },
           },
           match_components: "fuzzy",
@@ -5572,8 +5103,8 @@
       rewards: [
         {
           id: "2E40EDE3E87B8371",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5598,7 +5129,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:imperium",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/imperium",
             },
           },
           match_components: "fuzzy",
@@ -5607,8 +5138,8 @@
       rewards: [
         {
           id: "6EF8F52A006CCA3C",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5633,7 +5164,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:awakened_supremium",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/awakened_supremium",
             },
           },
           match_components: "fuzzy",
@@ -5642,8 +5173,8 @@
       rewards: [
         {
           id: "48445C3C30F37575",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5668,7 +5199,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:insanium",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/insanium",
             },
           },
           match_components: "fuzzy",
@@ -5677,8 +5208,8 @@
       rewards: [
         {
           id: "799FD966B91092BB",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5703,7 +5234,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:soulium",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/soulium",
             },
           },
           match_components: "fuzzy",
@@ -5712,8 +5243,8 @@
       rewards: [
         {
           id: "0F65C37F45061F94",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5738,7 +5269,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:rune",
+              "productivebees:bee_type": "productivebees:forbidden_arcanus/rune",
             },
           },
           match_components: "fuzzy",
@@ -5747,8 +5278,8 @@
       rewards: [
         {
           id: "6C28C004A24E47F9",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5773,7 +5304,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:ferricore",
+              "productivebees:bee_type": "productivebees:justdirethings/ferricore",
             },
           },
           match_components: "fuzzy",
@@ -5782,8 +5313,8 @@
       rewards: [
         {
           id: "2B79EB467DCF5CFE",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5808,7 +5339,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:blazegold",
+              "productivebees:bee_type": "productivebees:justdirethings/blazegold",
             },
           },
           match_components: "fuzzy",
@@ -5817,8 +5348,8 @@
       rewards: [
         {
           id: "553F9A3413B96D1D",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5843,7 +5374,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:celestigem",
+              "productivebees:bee_type": "productivebees:justdirethings/celestigem",
             },
           },
           match_components: "fuzzy",
@@ -5852,8 +5383,8 @@
       rewards: [
         {
           id: "256AB84C08F2EC8B",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5878,7 +5409,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:eclipsealloy",
+              "productivebees:bee_type": "productivebees:justdirethings/eclipsealloy",
             },
           },
           match_components: "fuzzy",
@@ -5887,8 +5418,8 @@
       rewards: [
         {
           id: "577027F69A01ED9B",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5913,7 +5444,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:time_crystal",
+              "productivebees:bee_type": "productivebees:justdirethings/time_crystal",
             },
           },
           match_components: "fuzzy",
@@ -5922,8 +5453,8 @@
       rewards: [
         {
           id: "495DBF938ECFFA52",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -5961,8 +5492,8 @@
       rewards: [
         {
           id: "4ABB94BF7974881D",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6000,8 +5531,8 @@
       rewards: [
         {
           id: "31BE3B297BAD073C",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6039,8 +5570,8 @@
       rewards: [
         {
           id: "5EC981DD355C168F",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6078,8 +5609,8 @@
       rewards: [
         {
           id: "6BAC895DC27716C8",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6104,7 +5635,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:dark_gem",
+              "productivebees:bee_type": "productivebees:evilcraft/dark_gem",
             },
           },
           match_components: "fuzzy",
@@ -6113,8 +5644,8 @@
       rewards: [
         {
           id: "0F77BFC57A6D6296",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6152,8 +5683,8 @@
       rewards: [
         {
           id: "3CC9B78F4ED4DBAC",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6191,8 +5722,8 @@
       rewards: [
         {
           id: "5A0E1973E83BC261",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6230,8 +5761,8 @@
       rewards: [
         {
           id: "6DF731A324F26C26",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6256,7 +5787,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:entro",
+              "productivebees:bee_type": "productivebees:ae2/entro",
             },
           },
           match_components: "fuzzy",
@@ -6265,8 +5796,8 @@
       rewards: [
         {
           id: "64A9BE2B58E1106F",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6291,7 +5822,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:infinity",
+              "productivebees:bee_type": "productivebees:enderio/infinity",
             },
           },
           match_components: "fuzzy",
@@ -6300,8 +5831,8 @@
       rewards: [
         {
           id: "555F6E768B3D82C1",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6339,8 +5870,8 @@
       rewards: [
         {
           id: "372D4D8FDFCD2A8D",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6378,8 +5909,8 @@
       rewards: [
         {
           id: "0019DAE42A48C2B8",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6417,8 +5948,8 @@
       rewards: [
         {
           id: "2EF09667A49EDA9D",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6456,8 +5987,8 @@
       rewards: [
         {
           id: "78817F3F9BDD7DD7",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6495,8 +6026,8 @@
       rewards: [
         {
           id: "66F99917F68AD07A",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6534,8 +6065,8 @@
       rewards: [
         {
           id: "086222615B5BDD1F",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6573,8 +6104,8 @@
       rewards: [
         {
           id: "6C0C6119ED1F38C1",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6599,7 +6130,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:fluorite",
+              "productivebees:bee_type": "productivebees:gems/fluorite",
             },
           },
           match_components: "fuzzy",
@@ -6608,8 +6139,8 @@
       rewards: [
         {
           id: "23D2236CAB7AD65D",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6647,8 +6178,8 @@
       rewards: [
         {
           id: "6569E66D54984FC1",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6686,8 +6217,8 @@
       rewards: [
         {
           id: "37B217B0C70534D4",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6725,8 +6256,8 @@
       rewards: [
         {
           id: "4096FD8A244FB55E",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6764,14 +6295,14 @@
       rewards: [
         {
           id: "2201D715601BE6CA",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "evilcraft:blood_orb_filled",
+        id: "evilcraft:bucket_blood",
         count: 1,
       },
       x: 8.5,
@@ -6790,7 +6321,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:bloody",
+              "productivebees:bee_type": "productivebees:evilcraft/bloody",
             },
           },
           match_components: "fuzzy",
@@ -6799,8 +6330,8 @@
       rewards: [
         {
           id: "0BA4EBF7FA3D53CA",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6825,7 +6356,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:blazing",
+              "productivebees:bee_type": "productivebees:dusts/blazing",
             },
           },
           match_components: "fuzzy",
@@ -6834,8 +6365,8 @@
       rewards: [
         {
           id: "0573F0E7B1C11FFB",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6869,8 +6400,8 @@
       rewards: [
         {
           id: "0D60BCCDD3F960D0",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6904,18 +6435,15 @@
       rewards: [
         {
           id: "0190E9B8AA57F6A6",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:still_oil_bucket",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "modern_industrialization:crude_oil_bucket",
-        },
       },
       x: 9.5,
       y: 24.5,
@@ -6923,7 +6451,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "2AEEDCC6826CF4AB",
       tasks: [
@@ -6934,7 +6461,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:oily",
+              "productivebees:bee_type": "productivebees:fluids/oily",
             },
           },
           match_components: "fuzzy",
@@ -6943,8 +6470,8 @@
       rewards: [
         {
           id: "297651A51A8EBEAA",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -6982,8 +6509,8 @@
       rewards: [
         {
           id: "712AA7DFE95758F1",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7021,8 +6548,8 @@
       rewards: [
         {
           id: "7AC2DAD9C203AA82",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7060,8 +6587,8 @@
       rewards: [
         {
           id: "4CA7B07DDE408B7B",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7099,8 +6626,8 @@
       rewards: [
         {
           id: "30FF2118C9B63639",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7138,43 +6665,8 @@
       rewards: [
         {
           id: "33D03C990DCE7907",
-          type: "loot",
-          exclude_from_claim_all: true,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "integrateddynamics:crystalized_menril_chunk",
-        count: 1,
-      },
-      x: 10.5,
-      y: 24.0,
-      hide_dependency_lines: true,
-      hide_dependent_lines: true,
-      dependencies: [
-        "17419401147B5C02",
-      ],
-      id: "516289A040EE9FDC",
-      tasks: [
-        {
-          id: "53B34960A7D288A2",
-          type: "item",
-          item: {
-            id: "productivebees:configurable_honeycomb",
-            count: 1,
-            components: {
-              "productivebees:bee_type": "productivebees:menril",
-            },
-          },
-          match_components: "fuzzy",
-        },
-      ],
-      rewards: [
-        {
-          id: "506DD45B7388455A",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7199,7 +6691,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:silicon",
+              "productivebees:bee_type": "productivebees:ae2/silicon",
             },
           },
           match_components: "fuzzy",
@@ -7208,8 +6700,8 @@
       rewards: [
         {
           id: "04C8F2101CE5C0B7",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7247,8 +6739,8 @@
       rewards: [
         {
           id: "4CB081A0E8FA8D83",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7260,8 +6752,8 @@
           "ftbquests:missing_item": "create:rose_quartz",
         },
       },
-      x: 9.5,
-      y: 22.5,
+      x: 10.5,
+      y: 24.0,
       hide_dependency_lines: true,
       hide_dependent_lines: true,
       dependencies: [
@@ -7286,8 +6778,8 @@
       rewards: [
         {
           id: "0BB808F8451630B8",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7325,8 +6817,8 @@
       rewards: [
         {
           id: "19017BA7DB75F231",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7351,7 +6843,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:supremium",
+              "productivebees:bee_type": "productivebees:mysticalagriculture/supremium",
             },
           },
           match_components: "fuzzy",
@@ -7360,8 +6852,8 @@
       rewards: [
         {
           id: "6FC395DBF5418F22",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7386,7 +6878,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:deorum",
+              "productivebees:bee_type": "productivebees:forbidden_arcanus/deorum",
             },
           },
           match_components: "fuzzy",
@@ -7395,8 +6887,8 @@
       rewards: [
         {
           id: "7C1A58BA0E205BE1",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7421,7 +6913,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:dark_steel",
+              "productivebees:bee_type": "productivebees:enderio/dark_steel",
             },
           },
           match_components: "fuzzy",
@@ -7430,8 +6922,8 @@
       rewards: [
         {
           id: "5AC21386ED132BC3",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7456,7 +6948,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:energetic_alloy",
+              "productivebees:bee_type": "productivebees:enderio/energetic_alloy",
             },
           },
           match_components: "fuzzy",
@@ -7465,8 +6957,8 @@
       rewards: [
         {
           id: "1A06BFF7352E51C5",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7491,7 +6983,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:soularium",
+              "productivebees:bee_type": "productivebees:enderio/soularium",
             },
           },
           match_components: "fuzzy",
@@ -7500,8 +6992,8 @@
       rewards: [
         {
           id: "3FEEBEA5841AC919",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7526,7 +7018,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:redstone_alloy",
+              "productivebees:bee_type": "productivebees:enderio/redstone_alloy",
             },
           },
           match_components: "fuzzy",
@@ -7535,8 +7027,8 @@
       rewards: [
         {
           id: "2BDB84AAFC35347B",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7561,7 +7053,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:end_steel",
+              "productivebees:bee_type": "productivebees:enderio/end_steel",
             },
           },
           match_components: "fuzzy",
@@ -7570,8 +7062,8 @@
       rewards: [
         {
           id: "09A02272848BD87B",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7596,7 +7088,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:conductive_alloy",
+              "productivebees:bee_type": "productivebees:enderio/conductive_alloy",
             },
           },
           match_components: "fuzzy",
@@ -7605,8 +7097,8 @@
       rewards: [
         {
           id: "441C701CF1DCED08",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7635,7 +7127,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:copper_alloy",
+              "productivebees:bee_type": "productivebees:enderio/copper_alloy",
             },
           },
           match_components: "fuzzy",
@@ -7644,8 +7136,8 @@
       rewards: [
         {
           id: "7F85503A2D7D256C",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7670,7 +7162,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:vibrant_alloy",
+              "productivebees:bee_type": "productivebees:enderio/vibrant_alloy",
             },
           },
           match_components: "fuzzy",
@@ -7679,8 +7171,8 @@
       rewards: [
         {
           id: "1829469075113DEE",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7705,7 +7197,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:pulsating_alloy",
+              "productivebees:bee_type": "productivebees:enderio/pulsating_alloy",
             },
           },
           match_components: "fuzzy",
@@ -7714,8 +7206,8 @@
       rewards: [
         {
           id: "38FE4C06DE39BBB9",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7753,8 +7245,8 @@
       rewards: [
         {
           id: "13B6E279E6C0F4B2",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7779,7 +7271,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:iesnium",
+              "productivebees:bee_type": "productivebees:occultism/iesnium",
             },
           },
           match_components: "fuzzy",
@@ -7788,8 +7280,8 @@
       rewards: [
         {
           id: "0DCEAEACE4853B72",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7827,8 +7319,8 @@
       rewards: [
         {
           id: "4367959450B9A978",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7866,8 +7358,8 @@
       rewards: [
         {
           id: "70ED3620A124FF72",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -7901,18 +7393,15 @@
       rewards: [
         {
           id: "14271BB7D8AAF1BA",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:plastic_sheet",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "industrialforegoing:plastic",
-        },
       },
       x: 10.5,
       y: 19.0,
@@ -7920,7 +7409,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "23820B0DCEC022D1",
       tasks: [
@@ -7931,7 +7419,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:plastic",
+              "productivebees:bee_type": "productivebees:materials/plastic",
             },
           },
           match_components: "fuzzy",
@@ -7940,52 +7428,15 @@
       rewards: [
         {
           id: "0BD298F334EA57E1",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "minecraft:torchflower",
+        id: "undergarden:utheric_shard",
         count: 1,
-      },
-      x: 8.5,
-      y: 18.0,
-      hide_dependency_lines: true,
-      hide_dependent_lines: true,
-      dependencies: [
-        "17419401147B5C02",
-      ],
-      id: "2AEC294578952BFD",
-      tasks: [
-        {
-          id: "23553673B9AC2E61",
-          type: "item",
-          item: {
-            id: "ftbfiltersystem:smart_filter",
-            count: 1,
-            components: {
-              "ftbfiltersystem:filter": "item_tag(productivebees:default_flowering)",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "502F9E3A1D9A99E8",
-          type: "loot",
-          exclude_from_claim_all: true,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "undergarden:utheric_shard",
-        },
       },
       x: 10.5,
       y: 18.0,
@@ -7993,7 +7444,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "26B9909717528D5E",
       tasks: [
@@ -8004,7 +7454,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:utheric",
+              "productivebees:bee_type": "productivebees:undergarden/utheric",
             },
           },
           match_components: "fuzzy",
@@ -8013,26 +7463,22 @@
       rewards: [
         {
           id: "0ED62BD0FAAA4291",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "undergarden:regalium_crystal",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "undergarden:regalium_crystal",
-        },
       },
-      x: 9.5,
-      y: 18.5,
+      x: 8.5,
+      y: 18.0,
       hide_dependency_lines: true,
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "17A322C3B309A4D4",
       tasks: [
@@ -8043,7 +7489,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:regalium",
+              "productivebees:bee_type": "productivebees:undergarden/regalium",
             },
           },
           match_components: "fuzzy",
@@ -8052,18 +7498,15 @@
       rewards: [
         {
           id: "1BDC58A3E031885C",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "undergarden:forgotten_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "undergarden:forgotten_ingot",
-        },
       },
       x: -10.5,
       y: 19.0,
@@ -8071,7 +7514,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "4F4C1A349F953013",
       tasks: [
@@ -8082,7 +7524,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:forgotten",
+              "productivebees:bee_type": "productivebees:undergarden/forgotten",
             },
           },
           match_components: "fuzzy",
@@ -8091,18 +7533,15 @@
       rewards: [
         {
           id: "05F096360739BB4F",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "undergarden:cloggrum_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "undergarden:cloggrum_ingot",
-        },
       },
       x: -8.5,
       y: 19.0,
@@ -8110,7 +7549,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "59135B04FC7C3E61",
       tasks: [
@@ -8121,7 +7559,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:cloggrum",
+              "productivebees:bee_type": "productivebees:undergarden/cloggrum",
             },
           },
           match_components: "fuzzy",
@@ -8130,18 +7568,15 @@
       rewards: [
         {
           id: "4644E849D811A5EB",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "undergarden:froststeel_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "undergarden:froststeel_ingot",
-        },
       },
       x: -9.5,
       y: 18.5,
@@ -8149,7 +7584,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "68DFFEA05553B67E",
       tasks: [
@@ -8160,7 +7594,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:froststeel",
+              "productivebees:bee_type": "productivebees:undergarden/froststeel",
             },
           },
           match_components: "fuzzy",
@@ -8169,8 +7603,8 @@
       rewards: [
         {
           id: "151763848DA0DA10",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8195,7 +7629,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:arcane_crystal",
+              "productivebees:bee_type": "productivebees:forbidden_arcanus/arcane_crystal",
             },
           },
           match_components: "fuzzy",
@@ -8204,8 +7638,8 @@
       rewards: [
         {
           id: "72A8882814FAD2DF",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8243,8 +7677,8 @@
       rewards: [
         {
           id: "4C70630A040CF3E6",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8282,8 +7716,8 @@
       rewards: [
         {
           id: "56470C22C1BB238F",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8321,8 +7755,8 @@
       rewards: [
         {
           id: "2476A4AD4E49CE14",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8360,18 +7794,15 @@
       rewards: [
         {
           id: "252932102525A1FC",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:biosteel_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "oritech:biosteel_ingot",
-        },
       },
       x: -8.5,
       y: 18.0,
@@ -8379,7 +7810,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "065196033249A0AA",
       tasks: [
@@ -8390,7 +7820,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:biosteel",
+              "productivebees:bee_type": "productivebees:oritech/biosteel",
             },
           },
           match_components: "fuzzy",
@@ -8399,18 +7829,15 @@
       rewards: [
         {
           id: "57BF2BD2D44319FE",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:energite_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "oritech:energite_ingot",
-        },
       },
       x: -6.0,
       y: 16.5,
@@ -8418,7 +7845,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "101E3A21FEE00E3F",
       tasks: [
@@ -8429,7 +7855,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:energite",
+              "productivebees:bee_type": "productivebees:oritech/energite",
             },
           },
           match_components: "fuzzy",
@@ -8438,18 +7864,15 @@
       rewards: [
         {
           id: "46A14ACF46345FB9",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:duratium_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "oritech:duratium_ingot",
-        },
       },
       x: -6.0,
       y: 15.5,
@@ -8457,7 +7880,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "041CDB45450A67E0",
       tasks: [
@@ -8468,7 +7890,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:duratium",
+              "productivebees:bee_type": "productivebees:oritech/duratium",
             },
           },
           match_components: "fuzzy",
@@ -8477,18 +7899,15 @@
       rewards: [
         {
           id: "7A4C9CCA904E4A6B",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:fluxite",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "oritech:fluxite",
-        },
       },
       x: -5.0,
       y: 15.0,
@@ -8496,7 +7915,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "6DC826659699E638",
       tasks: [
@@ -8507,7 +7925,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:fluxite",
+              "productivebees:bee_type": "productivebees:oritech/fluxite",
             },
           },
           match_components: "fuzzy",
@@ -8516,18 +7934,15 @@
       rewards: [
         {
           id: "76011744FD3646B6",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:prometheum_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "oritech:prometheum_ingot",
-        },
       },
       x: -4.0,
       y: 16.5,
@@ -8535,7 +7950,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "2F2597122C6202EF",
       tasks: [
@@ -8546,7 +7960,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:prometheum",
+              "productivebees:bee_type": "productivebees:oritech/prometheum",
             },
           },
           match_components: "fuzzy",
@@ -8555,27 +7969,22 @@
       rewards: [
         {
           id: "49403AF69E6F47A2",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:still_strange_matter_bucket",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "undergarden:cloggrum_bucket",
-        },
       },
       x: -4.0,
       y: 15.5,
-      shape: "circle",
       hide_dependency_lines: true,
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "003FF3813A864BA1",
       tasks: [
@@ -8586,7 +7995,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:strange_matter",
+              "productivebees:bee_type": "productivebees:oritech/strange_matter",
             },
           },
           match_components: "fuzzy",
@@ -8595,18 +8004,15 @@
       rewards: [
         {
           id: "6C60ACB87989B723",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:still_sheol_fire_bucket",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "oritech:still_sheol_fire_bucket",
-        },
       },
       x: 4.0,
       y: 16.5,
@@ -8614,7 +8020,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "3157BD833FCE8CD3",
       tasks: [
@@ -8625,7 +8030,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:sheol_fire",
+              "productivebees:bee_type": "productivebees:oritech/sheol_fire",
             },
           },
           match_components: "fuzzy",
@@ -8634,18 +8039,15 @@
       rewards: [
         {
           id: "2F1C60ACCB91D884",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:uranite_crystal",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "oritech:uranium_crystal",
-        },
       },
       x: 4.0,
       y: 15.5,
@@ -8653,7 +8055,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "618411DCC5C1A13C",
       tasks: [
@@ -8664,7 +8065,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:uranite_crystal",
+              "productivebees:bee_type": "productivebees:oritech/uranite_crystal",
             },
           },
           match_components: "fuzzy",
@@ -8673,18 +8074,15 @@
       rewards: [
         {
           id: "0E12200DCD8BAC7A",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:still_sulfuric_acid_bucket",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "oritech:still_sulfuric_acid_bucket",
-        },
       },
       x: 5.0,
       y: 15.0,
@@ -8692,7 +8090,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "2086C73688C8BA51",
       tasks: [
@@ -8703,7 +8100,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:sulfuric_acid",
+              "productivebees:bee_type": "productivebees:oritech/sulfuric_acid",
             },
           },
           match_components: "fuzzy",
@@ -8712,8 +8109,8 @@
       rewards: [
         {
           id: "6A5CF3DF2C728598",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8751,8 +8148,8 @@
       rewards: [
         {
           id: "4198B6EC82FF79B6",
-          type: "loot",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8789,8 +8186,8 @@
       rewards: [
         {
           id: "4E1895EEFC6DC5A7",
-          type: "random",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8827,8 +8224,8 @@
       rewards: [
         {
           id: "738315FE44109647",
-          type: "random",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8865,8 +8262,8 @@
       rewards: [
         {
           id: "1C88DD7EE75EF069",
-          type: "random",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8893,8 +8290,8 @@
       rewards: [
         {
           id: "53BA9B9B04F1B0BD",
-          type: "random",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8925,8 +8322,8 @@
       rewards: [
         {
           id: "792597927E330A19",
-          type: "random",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8960,8 +8357,8 @@
       rewards: [
         {
           id: "16A8C0DAED789E49",
-          type: "random",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -8995,17 +8392,17 @@
       rewards: [
         {
           id: "7FDFD4C6219D3883",
-          type: "random",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "ftbquests:missing_item": "ars_elemental:glyph_bubble_shield",
+          "ftbquests:icon": "minecraft:textures/gui/sprites/hud/heart/full.png",
         },
       },
       x: 9.0,
@@ -9030,17 +8427,17 @@
       rewards: [
         {
           id: "220A597CF063E0DE",
-          type: "random",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "ftbquests:missing_item": "the_bumblezone:essence_raging",
+          "ftbquests:icon": "minecraft:textures/particle/angry.png",
         },
       },
       x: 10.0,
@@ -9065,8 +8462,8 @@
       rewards: [
         {
           id: "004213CA7F8D09F7",
-          type: "random",
-          exclude_from_claim_all: true,
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -9101,7 +8498,7 @@
         {
           id: "43883C4F4DE5BAFD",
           type: "xp",
-          xp: 10,
+          xp: 20,
         },
       ],
     },
@@ -9114,6 +8511,59 @@
         {
           id: "74B88FE5B430DE52",
           type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: -10.0,
+      y: 11.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "120BDCB70AD352AC",
+      ],
+      hide_until_deps_visible: false,
+      id: "3B3E8B5D98C8EB75",
+      tasks: [
+        {
+          id: "0EC708E53105F461",
+          type: "item",
+          item: {
+            id: "productivebees:bumble_bee_nest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FFB49ECEFA9D740",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:green_dye",
+        count: 1,
+      },
+      x: -5.0,
+      y: 20.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "17419401147B5C02",
+      ],
+      id: "36324B10F09E9EDA",
+      tasks: [
+        {
+          id: "21978B33C01FC76D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "30C561D93F2DC989",
+          type: "xp",
+          xp: 100,
         },
       ],
     },
