@@ -25,8 +25,9 @@ ServerEvents.recipes((allthemods) => {
   allthemods.remove({ id: "industrialforegoing:iron_gear" })
   allthemods.remove({ id: "industrialforegoing:gold_gear" })
   allthemods.remove({ id: "industrialforegoing:diamond_gear" })
-  allthemods.remove({ id: "enderio:iron_gear" })
-  allthemods.remove({ id: "enderio:wood_gear_corner" })
+  if (Platform.isLoaded("almostunified")) {
+	  allthemods.remove({ id: "enderio:iron_gear" })
+  }
   allthemods.remove({ id: "pneumaticcraft:compressed_iron_gear" })
 
   if (Platform.isLoaded("pneumaticcraft")) {
