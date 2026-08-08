@@ -1,7 +1,7 @@
 {
   id: "1FAAEF0B9FD05CB9",
   group: "6614EE2378B8AFB9",
-  order_index: 5,
+  order_index: 6,
   icon: {
     id: "minecraft:oak_sapling",
     count: 1,
@@ -5511,10 +5511,10 @@
           id: "3A060AC1249E4D3A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "patchouli:guide_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "patchouli:guide_book",
+              "patchouli:book": "productivetrees:guide",
             },
           },
         },
