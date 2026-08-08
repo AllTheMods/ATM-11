@@ -1,7 +1,7 @@
 {
   id: "5712300EF4E5E846",
   group: "3D4E23B1100491AB",
-  order_index: 3,
+  order_index: 4,
   icon: {
     id: "pylons:infusion_pylon",
     count: 1,
@@ -9,7 +9,6 @@
   filename: "pylons",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
-  progression_mode: "flexible",
   quests: [
     {
       x: 0.0,
@@ -214,7 +213,7 @@
       ],
     },
     {
-      x: 2.25,
+      x: 1.3499999999999999,
       y: 3.15,
       shape: "rsquare",
       size: 0.9,
@@ -319,6 +318,14 @@
             count: 1,
             components: {
               "ftbquests:missing_item": "minecraft:enchanted_book",
+              "ftbquests:missing_item_count": 1,
+              "ftbquests:missing_item_data": {
+                "minecraft:stored_enchantments": {
+                  levels: {
+                    "minecraft:unbreaking": 1,
+                  },
+                },
+              },
             },
           },
         },
@@ -379,18 +386,91 @@
         },
       ],
     },
+    {
+      x: 0.0,
+      y: 3.15,
+      shape: "rsquare",
+      size: 0.9,
+      id: "77B185799366ACD2",
+      tasks: [
+        {
+          id: "55A51CABCD9B2042",
+          type: "item",
+          item: {
+            id: "pylons:block_filter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E2D3426904398C7",
+          type: "item",
+          item: {
+            id: "minecraft:honeycomb",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "67A917A78024E6E6",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "30B0240543253EFB",
+        "011F787E620DE9E8",
+        "77B185799366ACD2",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.2,
+      id: "2F5263A4166BFCD6",
+      tasks: [
+        {
+          id: "3AE982582C50FBF9",
+          type: "item",
+          item: {
+            id: "pylons:protection_pylon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15F3A7C65BDFB43F",
+          type: "item",
+          item: {
+            id: "minecraft:honeycomb",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "765C8669B005D78E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
   ],
   quest_links: [
   ],
   images: [
     {
-      x: 0.0,
-      y: 3.0,
+      x: -5.0,
+      y: 4.0,
       width: 3.721698113207547,
       height: 3.0,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_harvester.png",
-      id: "1C816D383FC1C41B",
+      id: "68B0F3D3D1964848",
     },
     {
       x: -3.0,
@@ -399,7 +479,7 @@
       height: 3.0,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_beacon.png",
-      id: "38982F8AED147DD2",
+      id: "20B23362CD13A833",
     },
     {
       x: 2.0,
@@ -408,7 +488,7 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_zombie.png",
-      id: "4D12280F7E137C0D",
+      id: "5190032FAE47EF8A",
     },
     {
       x: 3.5,
@@ -417,7 +497,7 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_skeleton.png",
-      id: "01F747E8ABB90C31",
+      id: "4691547DCC52BAA1",
     },
     {
       x: 5.0,
@@ -426,7 +506,7 @@
       height: 1.5,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_panda.png",
-      id: "2339FE6EAA440E56",
+      id: "7AC6D00070E45EA5",
     },
     {
       x: 0.0,
@@ -435,7 +515,7 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_title.png",
-      id: "7D6D58DC24DCEF06",
+      id: "10F91D1D941B898D",
     },
     {
       x: -3.0,
@@ -444,7 +524,7 @@
       height: 3.0,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_no.png",
-      id: "1F092A95FB423742",
+      id: "7C8C4783D0E064C9",
     },
     {
       x: 2.0,
@@ -453,7 +533,7 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_no.png",
-      id: "0380BE98924074DF",
+      id: "4927597A8217C183",
     },
     {
       x: 3.5,
@@ -462,7 +542,7 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_no.png",
-      id: "2B9648ACC84B0FFA",
+      id: "0E9B62DAE6FC1CD5",
     },
     {
       x: 5.0,
@@ -471,7 +551,7 @@
       height: 1.6,
       rotation: 0.0,
       image: "atm:textures/questpics/pylons/pylon_no.png",
-      id: "41B0862CA4F5303B",
+      id: "1ECDE5312307B1F7",
     },
   ],
 }
