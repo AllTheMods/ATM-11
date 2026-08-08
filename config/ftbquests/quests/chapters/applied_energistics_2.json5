@@ -842,6 +842,7 @@
         "5F56892CD904C40F",
         "286AC3AA3D4A72BA",
       ],
+      hide_until_deps_complete: true,
       size: 1.5,
       id: "460A8F17F3ED6CAF",
       tasks: [
@@ -2429,6 +2430,7 @@
         "361CCBD353D6FF34",
         "286AC3AA3D4A72BA",
       ],
+      hide_until_deps_complete: true,
       id: "0F03E75CF79BADD7",
       tasks: [
         {
@@ -2462,7 +2464,6 @@
       dependencies: [
         "0B218DD73FE8D985",
         "16299B9AE87257DC",
-        "286AC3AA3D4A72BA",
       ],
       id: "4B76FE0348DB0E45",
       tasks: [
@@ -2470,11 +2471,8 @@
           id: "16E78B6C132910B5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ae2wtlib:quantum_bridge_card",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ae2wtlib:quantum_bridge_card",
-            },
           },
         },
       ],
