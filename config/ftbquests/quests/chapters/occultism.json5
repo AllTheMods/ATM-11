@@ -1288,7 +1288,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "ftbquests:icon": "occultism:block/chalk_glyph/0",
+          "ftbquests:icon": "occultism:block/chalk_glyph/1",
         },
       },
       x: 13.0,
@@ -2686,7 +2686,7 @@
       width: 0.5,
       height: 0.5,
       rotation: 0.0,
-      image: "occultism:block/chalk_glyph/0",
+      image: "occultism:block/chalk_glyph/1",
       id: "13278E8E644E9358",
     },
     {

@@ -1950,6 +1950,7 @@
       height: 1.2,
       rotation: 0.0,
       image: "silentgear:textures/item/blueprint_paper.png",
+      order: -1,
       id: "504AA9F4641C7CDD",
     },
     {
