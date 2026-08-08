@@ -49,10 +49,10 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "patchouli:guide_book",
         count: 1,
         components: {
-          "ftbquests:missing_item": "patchouli:guide_book",
+          "patchouli:book": "mysticalagriculture:guide",
         },
       },
       x: 0.0,
@@ -83,10 +83,10 @@
           id: "2B066A28F827460C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "patchouli:guide_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "patchouli:guide_book",
+              "patchouli:book": "mysticalagriculture:guide",
             },
           },
         },
