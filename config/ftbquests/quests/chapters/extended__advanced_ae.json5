@@ -156,7 +156,7 @@
             id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbfiltersystem:filter": "or(item(extendedae:ex_import_bus_part)item(extendedae:ex_export_bus_part)item(extendedae:ex_charger)item(extendedae:ex_inscriber)item(extendedae:ex_molecular_assembler)item(extendedae:ex_drive)item(extendedae:ex_io_port)item(extendedae:ex_interface)item(extendedae:ex_pattern_provider))",
+              "ftbfiltersystem:filter": "or(item(extendedae:ex_import_bus_part)item(extendedae:ex_export_bus_part)item(extendedae:ex_charger)item(extendedae:ex_molecular_assembler)item(extendedae:ex_drive)item(extendedae:ex_io_port)item(extendedae:ex_interface)item(extendedae:ex_pattern_provider))",
             },
           },
         },
