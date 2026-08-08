@@ -19,6 +19,7 @@
   "quest.5B21A7A5ED1DDABB.quest_desc": [
     "Beefsteaks can come from a random Mutation with Roma Tomatoes.",
   ],
+  "quest.4B5FCDD5FC705903.quest_subtitle": "You can always paint the Roses Red",
   "quest.167554E0A562B60A.quest_desc": [
     "A mix of Red and Yellow Bell Peppers! \n\nThat should be kinda obvious... it is Orange...",
   ],
@@ -150,8 +151,12 @@
     "{image:atm:textures/questpics/pro_farming/farm_amaryllis.png width:100 height:150 align:center}",
   ],
   "quest.244B10862943A802.quest_subtitle": "Krazy World",
+  "quest.4B5FCDD5FC705903.title": "&dFlowers",
   "quest.3BB39CC4E8F40B67.quest_subtitle": "1,2... 1,2",
   "quest.3CBF4D703AA17199.title": "&a&lProductive Farming",
+  "quest.4B5FCDD5FC705903.quest_desc": [
+    "Who doesn't love &dFlowers&r! Perfect for decorations and gifts. The ladies love when you give them &dFlowers&r. \\n\\n&a&lProductive Farming&r gives us a whole bunch of new &dFlowers&r. These can be found in the wild like &2&lVanilla&r&d Flowers&r and can be found by Bonemealing &2Grass&r. \\n\\nEach of the new and old &dFlowers&r have a certain Dye we can get from them, but for the picky bunch we can use &6Mutations&r from &6Pollination&r to mix and match Colors and Types. \\n\\nWhenever a &dFlower&r is near a &6Bee Hive&r, there's a chance for it to &6Mutate&r or &6Crossbreed&r with other &dFlowers&r. So &dFlowers&r can exchange Colors and Types or even combine them! So we can get White Roses, &0Black Sunflowers&r, or even &cRed Tulips&r!",
+  ],
   "quest.60521AAE8BAA32C5.quest_desc": [
     "{image:atm:textures/questpics/pro_farming/farm_hydrangea.png width:100 height:150 align:center}",
   ],

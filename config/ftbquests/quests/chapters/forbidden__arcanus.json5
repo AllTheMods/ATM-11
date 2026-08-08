@@ -1464,7 +1464,7 @@
           id: "4013D6DFBB9C1470",
           type: "item",
           item: {
-            id: "forbidden_arcanus:obsidiansteel_ingot",
+            id: "forbidden_arcanus:stygian_steel_ingot",
             count: 1,
           },
         },
@@ -1474,7 +1474,7 @@
           id: "7A809DB25AEA23A3",
           type: "item",
           item: {
-            id: "forbidden_arcanus:obsidiansteel_ingot",
+            id: "forbidden_arcanus:stygian_steel_ingot",
             count: 1,
           },
           count: 3,
@@ -1548,7 +1548,7 @@
           id: "562CAC94C09126C7",
           type: "item",
           item: {
-            id: "forbidden_arcanus:obsidiansteel_ingot",
+            id: "forbidden_arcanus:stygian_steel_ingot",
             count: 1,
           },
           count: 2,
@@ -1719,7 +1719,7 @@
             id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbfiltersystem:filter": "or(item_tag(the_bumblezone:bee_queen/dedicated_trade_tags/modded/utilitarian_soliciting_carpets))",
+              "ftbfiltersystem:filter": "or(item(utilitarian:white_soliciting_carpet)item(utilitarian:orange_soliciting_carpet)item(utilitarian:magenta_soliciting_carpet)item(utilitarian:light_blue_soliciting_carpet)item(utilitarian:yellow_soliciting_carpet)item(utilitarian:lime_soliciting_carpet)item(utilitarian:pink_soliciting_carpet)item(utilitarian:gray_soliciting_carpet)item(utilitarian:light_gray_soliciting_carpet)item(utilitarian:cyan_soliciting_carpet)item(utilitarian:purple_soliciting_carpet)item(utilitarian:blue_soliciting_carpet)item(utilitarian:brown_soliciting_carpet)item(utilitarian:green_soliciting_carpet)item(utilitarian:red_soliciting_carpet)item(utilitarian:black_soliciting_carpet))",
             },
           },
         },

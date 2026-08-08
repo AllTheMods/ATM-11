@@ -13,11 +13,8 @@
   quests: [
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "croptopia:starfruit",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "pamhc2trees:starfruititem",
-        },
       },
       x: 0.5,
       y: 0.0,

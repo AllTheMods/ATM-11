@@ -8,7 +8,7 @@
   },
   filename: "productive_farming",
   default_quest_shape: "rsquare",
-  default_hide_dependency_lines: false,
+  default_hide_dependency_lines: true,
   progression_mode: "flexible",
   autofocus_id: "3CBF4D703AA17199",
   quests: [
@@ -16,7 +16,7 @@
       x: -0.5,
       y: -0.5,
       shape: "pentagon",
-      hide_dependent_lines: true,
+      hide_dependency_lines: false,
       dependencies: [
         "3CBF4D703AA17199",
       ],
@@ -165,6 +165,7 @@
       x: -0.5,
       y: -10.0,
       shape: "heart",
+      hide_dependency_lines: false,
       dependencies: [
         "3CBF4D703AA17199",
       ],
@@ -205,6 +206,7 @@
       x: -4.5,
       y: -4.5,
       shape: "pentagon",
+      hide_dependency_lines: false,
       hide_dependent_lines: true,
       dependencies: [
         "3CBF4D703AA17199",
@@ -245,6 +247,9 @@
       x: 7.0,
       y: -6.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "4B2754CD11FFE247",
       tasks: [
@@ -279,6 +284,9 @@
       x: 8.0,
       y: -6.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "01B7B66FAAAAEAE5",
       tasks: [
@@ -313,6 +321,9 @@
       x: 9.0,
       y: -6.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "15474BAF1997CD27",
       tasks: [
@@ -347,6 +358,9 @@
       x: 10.0,
       y: -6.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "6C31A50068FBA0EE",
       tasks: [
@@ -381,6 +395,9 @@
       x: 6.5,
       y: -5.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "439705A42B6DC4D1",
       tasks: [
@@ -415,6 +432,9 @@
       x: 7.5,
       y: -5.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "53CD2E3D27601F3F",
       tasks: [
@@ -449,6 +469,9 @@
       x: 8.5,
       y: -5.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "512A525B513DA118",
       tasks: [
@@ -483,6 +506,9 @@
       x: 9.5,
       y: -5.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "6AF7427DCA9D66D2",
       tasks: [
@@ -517,6 +543,9 @@
       x: 10.5,
       y: -5.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "2F1B74D45E50A079",
       tasks: [
@@ -551,6 +580,9 @@
       x: 7.0,
       y: -4.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "523AD3D448DE58A6",
       tasks: [
@@ -585,6 +617,9 @@
       x: 8.0,
       y: -4.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "7514CF65A077985E",
       tasks: [
@@ -619,6 +654,9 @@
       x: 9.0,
       y: -4.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "60521AAE8BAA32C5",
       tasks: [
@@ -653,6 +691,9 @@
       x: 10.0,
       y: -4.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "7EF3DB8B5258FA34",
       tasks: [
@@ -687,6 +728,9 @@
       x: 6.5,
       y: -3.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "2DB404AA2832F81D",
       tasks: [
@@ -721,6 +765,9 @@
       x: 7.5,
       y: -3.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "42AE629EBAA3AA94",
       tasks: [
@@ -755,6 +802,9 @@
       x: 8.5,
       y: -3.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "5854DA8F791AD71F",
       tasks: [
@@ -789,6 +839,9 @@
       x: 9.5,
       y: -3.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "739C0DB291B1563C",
       tasks: [
@@ -823,6 +876,9 @@
       x: 10.5,
       y: -3.0,
       shape: "hexagon",
+      dependencies: [
+        "4B5FCDD5FC705903",
+      ],
       size: 1.25,
       id: "6479A38086A43E49",
       tasks: [
@@ -5193,6 +5249,38 @@
           id: "33326DB29A1D9946",
           type: "xp",
           xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -4.5,
+      shape: "pentagon",
+      hide_dependency_lines: false,
+      dependencies: [
+        "3CBF4D703AA17199",
+      ],
+      size: 2.5,
+      id: "4B5FCDD5FC705903",
+      tasks: [
+        {
+          id: "0AAE5F971117AEE2",
+          type: "item",
+          item: {
+            id: "minecraft:bone_meal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4418ABC1A9385E25",
+          type: "item",
+          item: {
+            id: "minecraft:bone_meal",
+            count: 1,
+          },
+          count: 3,
         },
       ],
     },
