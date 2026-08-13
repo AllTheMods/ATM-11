@@ -20,7 +20,7 @@ ServerEvents.recipes((allthemods) => {
     }
   )
 
-  if (Platform.isLoaded("railcraft")) {
+  if (Platform.isLoaded("railcraft") && Platform.isLoaded("mekanismtools")) {
     allthemods.replaceInput({ mod: "railcraft" }, "railcraft:steel_shovel", "mekanismtools:steel_shovel")
   }
 

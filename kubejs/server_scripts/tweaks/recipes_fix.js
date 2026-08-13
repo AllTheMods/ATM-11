@@ -227,5 +227,48 @@ ServerEvents.generateData("after_mods", (allthemods) => {
     }
     allthemods.json("advanced_ae:recipe/wt_upgrade_quantum_crafter_terminal.json", json)
   }
-  
+
+  json = {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "laserbridges:laser_source_block"
+    ],
+    "result": {
+      "count": 1,
+      "id": "laserbridges:laser_fence_source_block"
+    }
+  }
+  allthemods.json("laserbridges:recipe/bridge_to_fence.json", json)
+
+  json = {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "laserbridges:laser_fence_source_block"
+    ],
+    "result": {
+      "count": 1,
+      "id": "laserbridges:laser_source_block"
+    }
+  }
+  allthemods.json("laserbridges:recipe/fence_to_bridge.json", json)
+
+  json = {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IGI",
+      "IEI",
+      "III"
+    ],
+    "key": {
+      "I": "minecraft:iron_ingot",
+      "G": "minecraft:glass",
+      "E": "minecraft:end_crystal"
+    },
+    "result": {
+      "id": "laserbridges:laser_source_block",
+      "count": 2
+    }
+  }
+  allthemods.json("laserbridges:recipe/laser_source_block.json", json)
+
 })
