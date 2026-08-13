@@ -1,6 +1,6 @@
 {
   "type": "occultism:ritual",
-  "activation_item": "#minecraft:enchantable/durability",
+  "activation_item": "#atm:unbreakable",
   "duration": 27,
   "entity_to_sacrifice": {
     "display_name": "ritual.occultism.sacrifice.evoker",
