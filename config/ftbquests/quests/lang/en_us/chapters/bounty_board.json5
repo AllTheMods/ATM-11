@@ -20,7 +20,7 @@
   ],
   "quest.1F31EBF49079F9D3.title": "Overhauled Creepers",
   "quest.0F55D0B4D5094EDB.quest_desc": [
-    "While making a lot of the questlines for ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen.\n\n\"Take them out. All of them.\"\n\n- AlfredGG \n\n\"I second this!\" \n\n- Toshiba",
+    "While making a lot of the questlines for ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen.\\n\\n\"Take them out. All of them.\"\\n\\n- AlfredGG \\n\\n\"I second this!\" \\n\\n- Toshiba\\n\\n\"Just file a restraining order against them at this point.\"\\n\\n- Final",
   ],
   "quest.5AC497F76A086A5C.title": "&l&9Overworld Bounty:&r&e Witches",
   "quest.6DCDD55786025911.quest_desc": [
@@ -53,12 +53,12 @@
   "quest.2B05A29C62676EB2.title": "&l&9Overworld Bounty:&r&e Zombies",
   "quest.13BB75A7E1973488.title": "Kill The Lunar Monstrosity",
   "quest.0E20A9B79D1C6637.quest_desc": [
-    "The Warden is a boss added in 1.20. \n\nHe spawns by having 3 naturally spawning Sculk Shriekers going off in a row, or any Shriekers going off after a first Warden has spawned. \n\nHe is the most powerful Mob added by Minecraft, with 500 Hearts and over 20 Hearts damage with his attacks. \n\nHis attacks include hitting you and Sonar Blasts for those farther. \n\nHis only weakness is being blind, but like daredevil it just made his other senses much stronger! If you are close he can smell you and careful with making noise! \n\nIf you somehow kill him he will drop: Sculk Catalysts, Warden Carapace, and Heart of the Deep.",
+    "The Warden is a boss added in 1.20. \\n\\nHe spawns by having 3 naturally spawning Sculk Shriekers going off in a row, or any Shriekers going off after a first Warden has spawned. \\n\\nHe is the most powerful Mob added by Minecraft, with 500 Hearts and over 20 Hearts damage with his attacks. \\n\\nHis attacks include hitting you and Sonar Blasts for those farther. \\n\\nHis only weakness is being blind, but like daredevil it just made his other senses much stronger! If you are close he can smell you and careful with making noise! \\n\\nIf you somehow kill him he will drop: Sculk Catalysts, a Miniature Blue Heart and Warden Antlers.",
   ],
   "task.2F28B803C75DA3B2.title": "Kill 1 Elder Guardian",
   "quest.1F18B64C84C8809D.title": "&l&9Overworld Bounty:&r&e Spiders",
   "quest.2BD077EFE77B8EBB.quest_desc": [
-    "Zombies have different varients that spawn in other Biomes. \n\nHusks- spawn in Deserts. \nDrowned- spawn Underwater. \nGelid- spawn in Cold Biomes. \nThickets- spawn in Jungles.",
+    "Zombies have different variants that spawn in other Biomes. \\n\\nHusks- spawn in Deserts. \\nDrowned- spawn Underwater. ",
   ],
   "quest.42822B1E8A53D051.title": "&l&9Overworld Bounty:&r&e Skeletons",
   "quest.56DA46DC82F6665D.quest_desc": [
@@ -70,6 +70,7 @@
   "task.452B65E139D9E12D.title": "Kill 1 Wilden Chimera",
   "task.00CBF98DE4E9CC90.title": "AllRightsReserved",
   "task.65E53C9C5AE98B69.title": "AllRightsReserved",
+  "task.3342C4B23546408C.title": "NOT HERE YET",
   "quest.734411D931A8CDBF.title": "Kill A Ravager",
   "task.69678CAC075C8EA5.title": "Kill 1 Warden",
   "quest.3813F5C1760C3A79.quest_desc": [
@@ -83,7 +84,7 @@
   "quest.0F55D0B4D5094EDB.quest_subtitle": "\"This is Personal\" - AlfredGG",
   "task.596ABB45C0612AAF.title": "Kill 1 Wandering Trader",
   "quest.6827836C8E675A94.quest_desc": [
-    "Skeletons have different varients, like Zombies do! \n\nStrays- spawn in Cold Biomes. \nBogged- spawn in Swamps and Trial Chambers. \nMurks- spawn underwater in Coral Reefs. \nVerdants- spawn in Jungles.",
+    "Skeletons have different variants, like Zombies do! \\n\\nStrays- spawn in Cold Biomes. \\nBogged- spawn in Swamps and Trial Chambers. \\nParched- spawn in Deserts.",
   ],
   "quest.6141DE779232C8AA.title": "&l&cThe Nether Bounty:&r&e Blazes",
   "quest.6DCDD55786025911.title": "Kill The Starlight Golem",
