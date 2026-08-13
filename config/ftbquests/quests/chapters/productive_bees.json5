@@ -39,10 +39,10 @@
           id: "4610119044965C5E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "patchouli:guide_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "patchouli:guide_book",
+              "patchouli:book": "productivebees:guide",
             },
           },
         },
@@ -9002,11 +9002,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "silentgear:shield_blueprint",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ars_elemental:glyph_bubble_shield",
-        },
       },
       x: 9.0,
       y: 4.5,
@@ -9037,10 +9034,155 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "silentgear:knife",
         count: 1,
         components: {
-          "ftbquests:missing_item": "the_bumblezone:essence_raging",
+          "silentgear:construction": {
+            parts: [
+              {
+                part: "silentgear:knife_blade",
+                item: {
+                  id: "silentgear:knife_blade",
+                  components: {
+                    "silentgear:material_list": [
+                      {
+                        material: "silentgear:redstone_alloy",
+                        item: {
+                          id: "enderio:redstone_alloy_ingot",
+                        },
+                      },
+                    ],
+                  },
+                },
+              },
+              {
+                part: "silentgear:rod",
+                item: {
+                  id: "silentgear:rod",
+                  components: {
+                    "silentgear:material_list": [
+                      {
+                        material: "silentgear:redstone_alloy",
+                        item: {
+                          id: "enderio:redstone_alloy_ingot",
+                        },
+                      },
+                      {
+                        material: "silentgear:redstone_alloy",
+                        item: {
+                          id: "enderio:redstone_alloy_ingot",
+                        },
+                      },
+                    ],
+                  },
+                },
+              },
+            ],
+            example: false,
+            broken_count: 0,
+            repairedCount: 0,
+          },
+          "minecraft:item_name": {
+            translate: "item.silentgear.knife.nameProper",
+            with: [
+              {
+                translate: "material.silentgear.redstone_alloy",
+              },
+            ],
+          },
+          "silentgear:properties": {
+            "silentgear:traits": [
+              {
+                trait: "silentgear:malleable",
+                level: 5,
+                conditions: [
+                ],
+              },
+              {
+                trait: "silentgear:eroded",
+                level: 3,
+                conditions: [
+                  {
+                    gear_type: "silentgear:tool",
+                    type: "silentgear:gear_type",
+                  },
+                ],
+              },
+            ],
+            "silentgear:durability": 1050.0,
+            "silentgear:armor_durability": 20.0,
+            "silentgear:repair_efficiency": 2.0,
+            "silentgear:repair_value": 0.0,
+            "silentgear:enchantment_value": 18.0,
+            "silentgear:charging_value": 0.9,
+            "silentgear:rarity": 45.0,
+            "silentgear:harvest_tier": {
+              name: "iron",
+              level_hint: "2",
+              incorrect_blocks_for_tool: "minecraft:incorrect_for_iron_tool",
+            },
+            "silentgear:harvest_speed": 13.200001,
+            "silentgear:block_reach": 0.0,
+            "silentgear:attack_damage": 2.0,
+            "silentgear:attack_speed": 2.6000001,
+            "silentgear:attack_reach": 0.0,
+            "silentgear:swing_animation": {
+            },
+            "silentgear:kinetic_weapon": {
+              contact_cooldown_ticks: 0,
+              damage_multiplier: 0.0,
+            },
+            "silentgear:magic_damage": 4.0,
+          },
+          "minecraft:tool": {
+            rules: [
+              {
+                blocks: "#silentgear:sword_high_efficient",
+                speed: 15.0,
+                correct_for_drops: true,
+              },
+              {
+                blocks: "#minecraft:sword_instantly_mines",
+                speed: 3.4028235E38,
+              },
+              {
+                blocks: "#minecraft:sword_efficient",
+                speed: 1.5,
+              },
+            ],
+            damage_per_block: 2,
+            can_destroy_blocks_in_creative: false,
+          },
+          "minecraft:weapon": {
+          },
+          "minecraft:attribute_modifiers": [
+            {
+              type: "minecraft:block_interaction_range",
+              id: "silentgear:reach_modifier",
+              amount: 0.0,
+              operation: "add_value",
+              slot: "mainhand",
+            },
+            {
+              type: "minecraft:attack_damage",
+              id: "minecraft:base_attack_damage",
+              amount: 2.0,
+              operation: "add_value",
+              slot: "mainhand",
+            },
+            {
+              type: "minecraft:attack_speed",
+              id: "minecraft:base_attack_speed",
+              amount: -1.3999998569488525,
+              operation: "add_value",
+              slot: "mainhand",
+            },
+          ],
+          "minecraft:max_damage": 1050,
+          "minecraft:enchantable": {
+            value: 18,
+          },
+          "minecraft:rarity": "uncommon",
         },
       },
       x: 10.0,

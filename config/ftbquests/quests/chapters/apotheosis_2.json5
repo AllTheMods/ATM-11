@@ -911,9 +911,9 @@
       ],
       rewards: [
         {
-          id: "7D66827934F17D92",
-          type: "xp_levels",
-          xp_levels: 50,
+          id: "1F9ED11417D13394",
+          type: "xp",
+          xp: 50,
         },
       ],
     },
@@ -936,9 +936,9 @@
       ],
       rewards: [
         {
-          id: "39962F3D8EB1C56B",
-          type: "xp_levels",
-          xp_levels: 100,
+          id: "0BC7D27134BD341C",
+          type: "xp",
+          xp: 100,
         },
       ],
     },

@@ -1,7 +1,7 @@
 {
   id: "4C507C004144BFEE",
   group: "02FE661031A105D8",
-  order_index: 7,
+  order_index: 6,
   icon: {
     id: "occultism:ritual_dummy/summon_foliot_crusher",
     count: 1,
@@ -628,7 +628,7 @@
             id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(occultism:miners/ores)",
+              "ftbfiltersystem:filter": "item_tag(occultism:miners)",
             },
           },
         },
@@ -654,16 +654,22 @@
           id: "1BBB313192F51FA8",
           type: "item",
           item: {
-            id: "occultism:storage_controller_base",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(occultism:storage_controller_base)item(occultism:storage_controller_base_dark))",
+            },
           },
         },
         {
           id: "4EDB733716D494CE",
           type: "item",
           item: {
-            id: "occultism:storage_controller",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(occultism:storage_controller_dark)item(occultism:storage_controller))",
+            },
           },
         },
         {
@@ -707,7 +713,7 @@
             id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbfiltersystem:filter": "or(item(occultism:storage_stabilizer_tier1)item(occultism:storage_stabilizer_tier2)item(occultism:storage_stabilizer_tier3)item(occultism:storage_stabilizer_tier4))",
+              "ftbfiltersystem:filter": "or(item(occultism:storage_stabilizer_tier1)item(occultism:storage_stabilizer_tier2)item(occultism:storage_stabilizer_tier3)item(occultism:storage_stabilizer_tier4)item(occultism:storage_stabilizer_tier5)item(occultism:storage_stabilizer_tier1_dark)item(occultism:storage_stabilizer_tier2_dark)item(occultism:storage_stabilizer_tier3_dark)item(occultism:storage_stabilizer_tier4_dark)item(occultism:storage_stabilizer_tier5_dark))",
             },
           },
         },
@@ -764,8 +770,11 @@
           id: "792FA8ED0719803C",
           type: "item",
           item: {
-            id: "occultism:stable_wormhole",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(occultism:stable_wormhole)item(occultism:stable_wormhole_dark))",
+            },
           },
         },
         {
@@ -2217,6 +2226,7 @@
       dependencies: [
         "690B89D23134B624",
       ],
+      optional: true,
       id: "54378277B8D28B1D",
       tasks: [
         {
@@ -2233,11 +2243,8 @@
           id: "2B2B8B432F1AF6A4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "reliquary:void_tear",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "actuallyadditions:void_crystal",
-            },
           },
         },
       ],
@@ -2449,6 +2456,7 @@
       y: 11.5,
       dependencies: [
         "0BD6365534BF04D5",
+        "78ADF668D8022DFE",
       ],
       optional: true,
       invisible: true,
@@ -2486,7 +2494,9 @@
       y: 11.5,
       dependencies: [
         "4F35D04721DFC9FF",
+        "78ADF668D8022DFE",
       ],
+      hide_until_deps_complete: true,
       optional: true,
       id: "06B9D8973E9C6A2C",
       tasks: [
@@ -2542,6 +2552,18 @@
       tasks: [
         {
           id: "67C1DF1704EBF6AF",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      x: 10.0,
+      y: 12.5,
+      invisible: true,
+      id: "78ADF668D8022DFE",
+      tasks: [
+        {
+          id: "037BF6F5A691E13B",
           type: "checkmark",
         },
       ],

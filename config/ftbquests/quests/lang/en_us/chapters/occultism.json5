@@ -57,6 +57,8 @@
     "",
     "It's also used to create a couple of items that can speed up ritual making and performing by a significant amount.",
   ],
+  "task.037BF6F5A691E13B.title": "NOT HERE YET",
+  "task.51F520BF7DA37873.title": "Storage Stabilizers",
   "quest.57282D7E31EE61EE.title": "&aThe Otherworld Pickaxe&r",
   "quest.1DE0F289821F55D1.title": "&aChalking It Up",
   "quest.53DEA3DFEDC4809E.quest_subtitle": "Is it a Bird? Is it a Plane? No, it's an unbound &9Marid&r!",
@@ -89,6 +91,7 @@
     "",
     "&4WARNING: YOU MAY HAVE TO DO THIS ONE MULTIPLE TIMES TO GET ENOUGH DEMONIC MEAT.",
   ],
+  "task.4EDB733716D494CE.title": "Storage Actuators",
   "quest.2CF96A264EB5522C.quest_subtitle": "Maximum Infusion",
   "quest.2FD22502E6481269.title": "Trinity Gem",
   "quest.4DF0D7B85065ADC9.title": "Tools of the Trade: Butcher's Knife",
@@ -152,11 +155,7 @@
   "quest.4CE571F942461909.title": "Tools of the Trade: Artisanal Ritual Satchel",
   "quest.145C8235BCCB9BA8.title": "&cRed Chalk",
   "quest.690B89D23134B624.quest_desc": [
-    "Grab your chalks, draw your &dRonaza's Contact&r ritual, and get ready to create the ULTIMATE CHALK*!",
-    "",
-    "Instead of having to lug around a full set of 16 chalks, you can use the Rainbow Chalk to paint a color-changing Rune that counts as any of them!",
-    "",
-    "&8*Does not include Foundation Chalk. Make the Void Chalk to include those&r",
+    "Grab your chalks, draw your &dRonaza's Contact&r ritual, and get ready to create the ULTIMATE CHALK!\\n\\nInstead of having to lug around a full set of 16 chalks, you can use the Rainbow Chalk to paint a color-changing Rune that counts as any of them!",
   ],
   "task.1709A45C149125F1.title": "AllRightsReserved",
   "quest.56EC79AF11B0869E.quest_desc": [
@@ -164,6 +163,7 @@
   ],
   "quest.6FFFAE334DFAAAAB.title": "Iesnium Ritual Bowl",
   "quest.2960FFE0C53DFEB1.quest_subtitle": "The \"Even More Everything\" Ritual",
+  "task.1BBB313192F51FA8.title": "Storage Actuator Bases",
   "quest.7F09F8F98C13F11B.title": "Preparing for a Ritual: &6Bowls",
   "quest.0F412542271B6254.title": "Foreword on Pentacles",
   "quest.61999669BDE127F9.title": "Chalk Repair",
@@ -241,9 +241,7 @@
   "quest.29C83B00AC4AFC23.title": "What's Next?",
   "quest.39647A2473F6F7D7.quest_subtitle": "Put some Demon Dust™ on it!",
   "quest.54378277B8D28B1D.quest_desc": [
-    "An \"upgrade\" to the Rainbow Chalk, for those who don't like the rapid color-switching runes ruining their tediously crafted aesthetic. ",
-    "",
-    "Has the same function as the Rainbow Chalk, except all the runes will show up as white. Additionally, it works for foundation chalk as well.",
+    "An alternative to the Rainbow Chalk, for those who prefer the colors of Foundation Chalk.\\n\\nHas the same function as the Rainbow Chalk, except all the runes will cycle between Foundation Chalk colors.",
   ],
   "quest.42F50CE7FE715583.title": "&aUpgrading Our Magical Storage",
   "quest.4F35D04721DFC9FF.quest_desc": [
@@ -340,6 +338,7 @@
     "",
     "You'll also need the book to craft several things in the pack, so you kind of have to make it. :)",
   ],
+  "task.792FA8ED0719803C.title": "Stable Wormholes",
   "quest.5316DF321B45D2CA.title": "&dDreaming of &cDemons",
   "quest.6CC5FE34778F0DFA.quest_desc": [
     "You're bound to have too many items playing this modpack. It's just it works, and if you haven't figured out your storage situation yet, &dDimensional Storage&r might just be right for you!",
@@ -408,9 +407,7 @@
     "",
     "If you're worried about your Chalk breaking, but don't feel like doing the entire ritual to create a new chalk over again, then this ritual is for you!",
     "",
-    "Using the power of a &aDijinni&r, you can repair any color of Chalk to it's maximum!",
-    "",
-    "Alternatively, you could use something like the &aEternal Stella&r from the Forbidden Arcanus mod to permenantly preserve your Chalks!",
+    "Using the power of a &aDjinni&r, you can repair any color of Chalk to it's maximum!",
   ],
   "quest.42F50CE7FE715583.quest_desc": [
     "To upgrade the amount of stacks your magical storage can hold, you'll need to make &dStorage Stabilizers&r.",
