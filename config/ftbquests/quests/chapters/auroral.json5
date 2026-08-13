@@ -1,0 +1,923 @@
+{
+  id: "44F441765D7CB182",
+  group: "5A4775CCD6D26C80",
+  order_index: 1,
+  icon: {
+    id: "auroral:aurora_bloom",
+    count: 1,
+  },
+  filename: "auroral",
+  default_quest_shape: "rsquare",
+  default_hide_dependency_lines: false,
+  progression_mode: "flexible",
+  quests: [
+    {
+      x: 0.5,
+      y: 2.0,
+      shape: "octagon",
+      size: 1.5,
+      id: "637EF6D9DFC59EE8",
+      tasks: [
+        {
+          id: "13F86953093670F6",
+          type: "advancement",
+          advancement: "auroral:root",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "041339FBDC3E9181",
+          type: "item",
+          item: {
+            id: "auroral:guide",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -1.5,
+      shape: "gear",
+      hide_dependent_lines: true,
+      dependencies: [
+        "637EF6D9DFC59EE8",
+      ],
+      size: 1.5,
+      id: "0D3D987594E64A86",
+      tasks: [
+        {
+          id: "457DD21D7C4EAFB1",
+          type: "item",
+          item: {
+            id: "auroral:glacial_basin",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30A1329A587D579D",
+          type: "item",
+          item: {
+            id: "auroral:glacial_basin",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "264ADF02494D8916",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 0.5,
+      dependencies: [
+        "637EF6D9DFC59EE8",
+      ],
+      id: "1F880C6A777B4199",
+      tasks: [
+        {
+          id: "20716888277642A6",
+          type: "item",
+          item: {
+            id: "auroral:aurora_bloom",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77B0CE117E6970A6",
+          type: "item",
+          item: {
+            id: "minecraft:blue_ice",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: 0.0,
+      shape: "circle",
+      hide_dependent_lines: true,
+      dependencies: [
+        "1F880C6A777B4199",
+      ],
+      id: "1EE5BFB935D345F3",
+      tasks: [
+        {
+          id: "3167E721916AF6C1",
+          type: "item",
+          item: {
+            id: "auroral:frozen_petals",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4EE1D573DD28B735",
+          type: "item",
+          item: {
+            id: "auroral:frozen_petals",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: -3.5,
+      shape: "diamond",
+      dependencies: [
+        "0D3D987594E64A86",
+      ],
+      size: 1.15,
+      id: "58799D0038E198DF",
+      tasks: [
+        {
+          id: "441FE5DEDF8CBBA5",
+          type: "item",
+          item: {
+            id: "auroral:unrefined_shimmersteel",
+            count: 1,
+          },
+        },
+        {
+          id: "786FCB175199BC27",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "398A6DAD588819F6",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ingot",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "665514F2A6C786C7",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "11B6903B6D47CAC0",
+          type: "item",
+          item: {
+            id: "minecraft:coal",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: 1.0,
+      y: -3.5,
+      shape: "diamond",
+      dependencies: [
+        "0D3D987594E64A86",
+        "1EE5BFB935D345F3",
+      ],
+      size: 1.15,
+      id: "2FB85057F0F9CE7A",
+      tasks: [
+        {
+          id: "114DDA8A31E45D2A",
+          type: "item",
+          item: {
+            id: "auroral:aurora_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54B78F8AC2E21AA2",
+          type: "item",
+          item: {
+            id: "auroral:aurora_shard",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -1.0,
+      y: -3.0,
+      shape: "diamond",
+      dependencies: [
+        "0D3D987594E64A86",
+      ],
+      size: 1.15,
+      id: "2AFAE2215A774DBA",
+      tasks: [
+        {
+          id: "2B69A6D96BE0B560",
+          type: "item",
+          item: {
+            id: "auroral:shimmerweave_fabric",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77240292300D2689",
+          type: "item",
+          item: {
+            id: "minecraft:white_wool",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "4C370D2F813216B7",
+          type: "item",
+          item: {
+            id: "minecraft:leather",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: -3.0,
+      dependencies: [
+        "0D3D987594E64A86",
+      ],
+      optional: true,
+      id: "6E911A8079A1B237",
+      tasks: [
+        {
+          id: "124FAE5D8E96472E",
+          type: "item",
+          item: {
+            id: "auroral:shimmering_ice",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D80C4CB412D0487",
+          type: "item",
+          item: {
+            id: "auroral:shimmering_ice",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -5.0,
+      shape: "pentagon",
+      dependencies: [
+        "2FB85057F0F9CE7A",
+      ],
+      size: 1.25,
+      id: "3AD8A3E543ADABD1",
+      tasks: [
+        {
+          id: "54B3B6843107681A",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_upgrade_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "709A5D554F635422",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_upgrade_smithing_template",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: -3.5,
+      shape: "circle",
+      dependencies: [
+        "6E911A8079A1B237",
+        "1EE5BFB935D345F3",
+      ],
+      optional: true,
+      id: "7758AC49F63ADC8A",
+      tasks: [
+        {
+          id: "3F661DEDB8F05E65",
+          type: "item",
+          item: {
+            id: "auroral:glow_leek_seeds",
+            count: 1,
+          },
+        },
+        {
+          id: "4BA5E55E883C6A95",
+          type: "item",
+          item: {
+            id: "auroral:glow_leek",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C0082C6163B2983",
+          type: "item",
+          item: {
+            id: "auroral:candied_glow_leek",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "1F880C6A777B4199",
+      ],
+      optional: true,
+      id: "0BBDB63F944F61A7",
+      tasks: [
+        {
+          id: "7570E5AAAC5CCA39",
+          type: "item",
+          item: {
+            id: "minecraft:ender_pearl",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "521D853B7FC59E6F",
+          type: "item",
+          item: {
+            id: "minecraft:ender_pearl",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      x: -0.5,
+      y: -6.0,
+      dependencies: [
+        "3AD8A3E543ADABD1",
+        "2AFAE2215A774DBA",
+      ],
+      id: "2AB2456B6B8EEAD8",
+      tasks: [
+        {
+          id: "29DBFBE510B1C291",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(auroral:shimmerweave_goggles)item(auroral:shimmerweave_tunic)item(auroral:shimmerweave_leggings)item(auroral:shimmerweave_skates))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "142D680EED088E66",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_upgrade_smithing_template",
+            count: 1,
+          },
+        },
+        {
+          id: "4D99F874CC7F7E54",
+          type: "item",
+          item: {
+            id: "auroral:shimmerweave_fabric",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: -6.5,
+      dependencies: [
+        "3AD8A3E543ADABD1",
+        "58799D0038E198DF",
+      ],
+      id: "584C5A1F7563F8C8",
+      tasks: [
+        {
+          id: "259A95D0B50071E9",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(auroral:shimmersteel_sword)item(auroral:shimmer_spear)item(auroral:shimmersteel_bow))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "020278ED475779E0",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_upgrade_smithing_template",
+            count: 1,
+          },
+        },
+        {
+          id: "14CAD5B197062335",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_ingot",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 1.5,
+      y: -6.0,
+      dependencies: [
+        "3AD8A3E543ADABD1",
+        "58799D0038E198DF",
+      ],
+      id: "57A31EBE7312995D",
+      tasks: [
+        {
+          id: "46C099131E51F7F5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(auroral:shimmersteel_pickaxe)item(auroral:shimmersteel_axe)item(auroral:shimmersteel_shovel)item(auroral:shimmersteel_hoe))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1469DB27C0B99DCF",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_upgrade_smithing_template",
+            count: 1,
+          },
+        },
+        {
+          id: "049B084180F552EE",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_ingot",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: -3.5,
+      shape: "hexagon",
+      dependencies: [
+        "58799D0038E198DF",
+        "1EE5BFB935D345F3",
+      ],
+      id: "2EEBCCE507CF5D67",
+      tasks: [
+        {
+          id: "2D7DFE3E4916820B",
+          type: "item",
+          item: {
+            id: "auroral:cold_brewing_stand",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50CABC27DAC2FC6E",
+          type: "item",
+          item: {
+            id: "minecraft:snowball",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "5DE7C7FA17FFDED8",
+          type: "item",
+          item: {
+            id: "minecraft:glass_bottle",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "2FB85057F0F9CE7A",
+      ],
+      id: "7555F22D066BD4AB",
+      tasks: [
+        {
+          id: "622132FE07075FC0",
+          type: "item",
+          item: {
+            id: "auroral:hearthwood_log",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1497A0AFEB3BA8AA",
+          type: "item",
+          item: {
+            id: "auroral:hearthwood_log",
+            count: 1,
+          },
+        },
+        {
+          id: "2569F40076EB1221",
+          type: "item",
+          item: {
+            id: "auroral:snore",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "2FB85057F0F9CE7A",
+        "58799D0038E198DF",
+      ],
+      optional: true,
+      id: "77E909CA721A721E",
+      tasks: [
+        {
+          id: "07BF89832C182E77",
+          type: "item",
+          item: {
+            id: "auroral:aurora_lantern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D0EBE9173F81E97",
+          type: "item",
+          item: {
+            id: "auroral:aurora_lantern",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -6.0,
+      shape: "hexagon",
+      dependencies: [
+        "57A31EBE7312995D",
+      ],
+      optional: true,
+      id: "7BECDD4208BB1B24",
+      tasks: [
+        {
+          id: "184097BB100F2D3B",
+          type: "observation",
+          icon: {
+            id: "auroral:shimmer_soil",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "auroral:shimmer_soil",
+        },
+      ],
+      rewards: [
+        {
+          id: "3EEEFA7D30E38815",
+          type: "item",
+          item: {
+            id: "auroral:shimmer_soil",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:auroral_nautilus_spawn_egg",
+        count: 1,
+      },
+      x: -1.5,
+      y: -1.5,
+      shape: "heart",
+      hide_dependency_lines: true,
+      dependencies: [
+        "2FB85057F0F9CE7A",
+      ],
+      id: "5C2AE7715B3A8EED",
+      tasks: [
+        {
+          id: "310D93B59ED7A655",
+          type: "item",
+          item: {
+            id: "minecraft:snowball",
+            count: 1,
+          },
+        },
+        {
+          id: "77862419495CD902",
+          type: "item",
+          item: {
+            id: "auroral:aurora_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "036DF78495F0F7C2",
+          type: "item",
+          item: {
+            id: "auroral:roasted_snowball",
+            count: 1,
+          },
+        },
+        {
+          id: "23C2282A31E9CD43",
+          type: "item",
+          item: {
+            id: "auroral:sugared_roasted_snowball",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: -1.5,
+      shape: "heart",
+      hide_dependency_lines: true,
+      dependencies: [
+        "2FB85057F0F9CE7A",
+      ],
+      id: "11AD7F883D777339",
+      tasks: [
+        {
+          id: "726C8F28DA9D9085",
+          type: "item",
+          item: {
+            id: "minecraft:carved_pumpkin",
+            count: 1,
+          },
+        },
+        {
+          id: "0FB3544A7FB10C7D",
+          type: "item",
+          item: {
+            id: "auroral:aurora_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17C0D413676898E4",
+          type: "item",
+          item: {
+            id: "minecraft:snow_block",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "62D293737446B75D",
+          type: "item",
+          item: {
+            id: "minecraft:carved_pumpkin",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      x: 0.5,
+      y: 8.0,
+      shape: "circle",
+      optional: true,
+      invisible: true,
+      id: "7D5E772B4FB4CC77",
+      tasks: [
+        {
+          id: "119E1CF7C351F939",
+          type: "checkmark",
+        },
+        {
+          id: "723147B28E759948",
+          type: "checkmark",
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.5,
+      y: 6.5,
+      width: 8.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aurora/aurora_title.png",
+      order: 2,
+      id: "593276AF8F855500",
+    },
+    {
+      x: 0.5,
+      y: -2.0,
+      width: 15.0,
+      height: 18.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aurora/aurora_ring.png",
+      color: 7587327,
+      alpha: 100,
+      order: 1,
+      id: "3BDA1E65087C9ABE",
+    },
+    {
+      x: 0.5,
+      y: -2.5,
+      width: 15.0,
+      height: 18.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aurora/aurora_ring.png",
+      color: 16751330,
+      alpha: 100,
+      id: "3F25C59174679B19",
+    },
+    {
+      x: 0.5,
+      y: -1.5,
+      width: 15.0,
+      height: 18.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/aurora/aurora_ring.png",
+      color: 6684559,
+      alpha: 100,
+      id: "359CA940FC9A4A10",
+    },
+    {
+      x: 0.5,
+      y: -1.5,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "auroral:block/glacial_basin_top",
+      id: "7B837177D9A27DE3",
+    },
+    {
+      x: 0.5,
+      y: -1.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "auroral:block/liquid_aura",
+      id: "149E05A075E1755C",
+    },
+    {
+      x: 3.5,
+      y: -1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "auroral:block/hearthwood_fire",
+      id: "0CF35A44446717F0",
+    },
+    {
+      x: -2.5,
+      y: -1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "auroral:block/aurora_bloom_stage3",
+      id: "3314206F3E77A2FC",
+    },
+    {
+      x: -2.5,
+      y: -4.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "auroral:textures/particle/frost.png",
+      id: "0D1A0986B6C108B3",
+    },
+    {
+      x: 3.5,
+      y: 0.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "auroral:textures/particle/aurora_sparkle.png",
+      id: "199C1B07AB737356",
+    },
+    {
+      x: 2.0,
+      y: 2.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "auroral:textures/particle/frost.png",
+      id: "2890F44852BD2C0C",
+    },
+    {
+      x: -1.0,
+      y: 1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "auroral:textures/particle/aurora_sparkle.png",
+      id: "566E6D2830B73991",
+    },
+    {
+      x: -3.0,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "auroral:textures/particle/frost.png",
+      id: "78268B4A60B4C93C",
+    },
+    {
+      x: 4.5,
+      y: -2.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "auroral:textures/particle/frost.png",
+      id: "33CD7957A0468621",
+    },
+    {
+      x: -3.5,
+      y: -2.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "auroral:textures/particle/aurora_sparkle.png",
+      id: "0516F788C4A3FD32",
+    },
+  ],
+}
