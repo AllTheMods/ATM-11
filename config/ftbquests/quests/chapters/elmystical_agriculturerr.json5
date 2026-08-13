@@ -36,11 +36,6 @@
       ],
       rewards: [
         {
-          id: "41E3089656803BBC",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "7C8B19F2B62BAF13",
           type: "xp",
           xp: 10,
@@ -119,11 +114,6 @@
       ],
       rewards: [
         {
-          id: "72AE23E26C335677",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "1BAF5B0AF3886C01",
           type: "xp",
           xp: 50,
@@ -165,11 +155,6 @@
       ],
       rewards: [
         {
-          id: "697D22548C9D3584",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "6FD2CEC0A4595FB3",
           type: "xp",
           xp: 100,
@@ -190,20 +175,12 @@
           id: "1A12DBE58B210795",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mysticalagriculture:blank_augment",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mysticalagriculture:unattuned_augment",
-            },
           },
         },
       ],
       rewards: [
-        {
-          id: "10D11CC091BBAC3B",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "379AB893E1CC82F9",
           type: "xp",
@@ -267,11 +244,6 @@
       ],
       rewards: [
         {
-          id: "3BE11050F61B4BE8",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "23DA6BCAF1D94343",
           type: "xp",
           xp: 250,
@@ -298,11 +270,6 @@
         },
       ],
       rewards: [
-        {
-          id: "70D5A75F82601B8D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "647C645FCCC5A159",
           type: "xp",
@@ -365,11 +332,6 @@
       ],
       rewards: [
         {
-          id: "79A402C237FF622C",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "7CEA850DE024A8C5",
           type: "xp",
           xp: 50,
@@ -409,11 +371,6 @@
       ],
       rewards: [
         {
-          id: "7C0D133450374489",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "18A77E344F13378B",
           type: "xp",
           xp: 50,
@@ -440,11 +397,6 @@
         },
       ],
       rewards: [
-        {
-          id: "14DB7E8D4DE7DA2A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "3D850E71CEC635E7",
           type: "xp",
@@ -473,11 +425,6 @@
       ],
       rewards: [
         {
-          id: "0837F42378A10F4F",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "0A1CAABADCF1391F",
           type: "xp",
           xp: 50,
@@ -504,11 +451,6 @@
         },
       ],
       rewards: [
-        {
-          id: "4ADA282374D1EB4C",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "1586C79D3B5B7D49",
           type: "xp",
@@ -537,11 +479,6 @@
       ],
       rewards: [
         {
-          id: "4C8C3C4635D24609",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "4E2EC5D908ACFE0D",
           type: "xp",
           xp: 50,
@@ -568,11 +505,6 @@
         },
       ],
       rewards: [
-        {
-          id: "25D907ADE47FC31F",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "7E1317435E925559",
           type: "xp",
@@ -601,11 +533,6 @@
       ],
       rewards: [
         {
-          id: "49B17E4437B53C3A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "4AE47E173CB8595F",
           type: "xp",
           xp: 50,
@@ -632,11 +559,6 @@
         },
       ],
       rewards: [
-        {
-          id: "240B81A262E2ED90",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "507C22D7813C3F93",
           type: "xp",
@@ -694,11 +616,6 @@
           count: 5,
         },
         {
-          id: "26C88191B83C93B4",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "549D20BB7D82ED79",
           type: "xp",
           xp: 50,
@@ -725,11 +642,6 @@
         },
       ],
       rewards: [
-        {
-          id: "75C1B7A9C8487826",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "05E42C3F0F26061A",
           type: "xp",
@@ -855,11 +767,6 @@
       ],
       rewards: [
         {
-          id: "13CAA515F8310D23",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "2760B2713356BE2D",
           type: "xp",
           xp: 50,
@@ -893,11 +800,6 @@
       ],
       rewards: [
         {
-          id: "32D632911C900B01",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "41DD7494E8A923A2",
           type: "xp",
           xp: 50,
@@ -919,17 +821,15 @@
           id: "0C282319C6EAC76E",
           type: "item",
           item: {
-            id: "mysticalagriculture:infusion_crystal",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(matc:inferium_crystal)item(matc:prudentium_crystal)item(matc:tertium_crystal)item(matc:imperium_crystal)item(matc:supremium_crystal))",
+            },
           },
         },
       ],
       rewards: [
-        {
-          id: "350E7B5C5FA843A3",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "46BD9205AE5E6871",
           type: "xp",
@@ -958,11 +858,6 @@
       ],
       rewards: [
         {
-          id: "577F99D4C857C586",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "750F72C31845B226",
           type: "xp",
           xp: 50,
@@ -988,11 +883,6 @@
         },
       ],
       rewards: [
-        {
-          id: "551E9C69FCCD90C8",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "49241026584872DC",
           type: "xp",
@@ -1021,11 +911,6 @@
       ],
       rewards: [
         {
-          id: "4B0FD9D68DC6D658",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "55B8C78EBA0C1FBE",
           type: "xp",
           xp: 50,
@@ -1052,11 +937,6 @@
         },
       ],
       rewards: [
-        {
-          id: "5A185ECDF1507D4D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "47C047C3B96AADCC",
           type: "xp",
@@ -1085,11 +965,6 @@
       ],
       rewards: [
         {
-          id: "1D33F2E18C189E42",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "23E8908A6268D2FB",
           type: "xp",
           xp: 50,
@@ -1116,11 +991,6 @@
         },
       ],
       rewards: [
-        {
-          id: "06F8C04E9DC037EE",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "4BEC940045F24F93",
           type: "xp",
@@ -1149,11 +1019,6 @@
       ],
       rewards: [
         {
-          id: "0240CC24DC1EDF2B",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "52A65BD20F97D2B7",
           type: "xp",
           xp: 50,
@@ -1180,11 +1045,6 @@
         },
       ],
       rewards: [
-        {
-          id: "15944447C72E5685",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "6EB1E4CDC3AA7752",
           type: "xp",
@@ -1213,11 +1073,6 @@
       ],
       rewards: [
         {
-          id: "19FE1BED4B52BFD0",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "0675875602AA0F25",
           type: "xp",
           xp: 50,
@@ -1244,11 +1099,6 @@
         },
       ],
       rewards: [
-        {
-          id: "03EA5B5FC7CB2D1A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "2EA8040E26624FEC",
           type: "xp",
@@ -1277,11 +1127,6 @@
       ],
       rewards: [
         {
-          id: "66C6A7AE1C6705A0",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "30F08716AC5D2380",
           type: "xp",
           xp: 50,
@@ -1308,11 +1153,6 @@
         },
       ],
       rewards: [
-        {
-          id: "29A26ED7BCB9058C",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "382A9FEDA97A6358",
           type: "xp",
@@ -1341,11 +1181,6 @@
       ],
       rewards: [
         {
-          id: "49A0EFB3EA64AC84",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "2A981B7E8FD66CE7",
           type: "xp",
           xp: 50,
@@ -1372,11 +1207,6 @@
         },
       ],
       rewards: [
-        {
-          id: "1583C07BCD918786",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "7A0F8C7E32CAAF19",
           type: "xp",
@@ -1405,11 +1235,6 @@
       ],
       rewards: [
         {
-          id: "309D149F5FBCD95A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "54AC4C1E30416FD4",
           type: "xp",
           xp: 50,
@@ -1437,11 +1262,6 @@
       ],
       rewards: [
         {
-          id: "236F09ED12C96FB4",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "0805C95F604C5EEB",
           type: "xp",
           xp: 50,
@@ -1468,11 +1288,6 @@
         },
       ],
       rewards: [
-        {
-          id: "42901A63804144E8",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "165AEBD130055A98",
           type: "xp",
@@ -1594,11 +1409,6 @@
       ],
       rewards: [
         {
-          id: "7C010E496785080E",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "55B7B5EBB5FC55B9",
           type: "xp",
           xp: 50,
@@ -1625,11 +1435,6 @@
         },
       ],
       rewards: [
-        {
-          id: "4D2D3786CD1BEA64",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "14FB326FBF335179",
           type: "xp",
@@ -1663,11 +1468,6 @@
       ],
       rewards: [
         {
-          id: "5E148C50F90489F4",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "109CF4D7629F008A",
           type: "xp",
           xp: 50,
@@ -1694,11 +1494,6 @@
         },
       ],
       rewards: [
-        {
-          id: "196148675D505CD7",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "0B746377CE5C5646",
           type: "xp",
@@ -1727,11 +1522,6 @@
       ],
       rewards: [
         {
-          id: "4F4FCE8B63CDA620",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3CDD7931A05A06FA",
           type: "xp",
           xp: 50,
@@ -1758,11 +1548,6 @@
         },
       ],
       rewards: [
-        {
-          id: "0E2157EDA07AF503",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "218A36F340790FF2",
           type: "xp",
@@ -1791,11 +1576,6 @@
       ],
       rewards: [
         {
-          id: "5556B4DD366CA023",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "0836AE38FC7B6FAD",
           type: "xp",
           xp: 50,
@@ -1823,11 +1603,6 @@
       ],
       rewards: [
         {
-          id: "118531FA4FA4C87B",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "6F2D6285802B75D0",
           type: "xp",
           xp: 100,
@@ -1853,11 +1628,6 @@
         },
       ],
       rewards: [
-        {
-          id: "1A2B4C1BD3ED8995",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "4ACAEADACEC725FD",
           type: "xp",
@@ -1886,11 +1656,6 @@
       ],
       rewards: [
         {
-          id: "7A16F8C757F8AFBA",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "13D471178C59F7F8",
           type: "xp",
           xp: 100,
@@ -1917,11 +1682,6 @@
         },
       ],
       rewards: [
-        {
-          id: "1E1C3FE085E24B69",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "027C9590246DAA37",
           type: "xp",
@@ -1950,11 +1710,6 @@
       ],
       rewards: [
         {
-          id: "427B4A62016282DE",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "607C93F999D492EF",
           type: "xp",
           xp: 100,
@@ -1981,11 +1736,6 @@
         },
       ],
       rewards: [
-        {
-          id: "7349D9FD3EA0E91F",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "5CDD46AC9273D889",
           type: "xp",
@@ -2014,11 +1764,6 @@
       ],
       rewards: [
         {
-          id: "70624712264BF629",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3A0A210621429764",
           type: "xp",
           xp: 100,
@@ -2045,11 +1790,6 @@
         },
       ],
       rewards: [
-        {
-          id: "4B9F78E78BA06701",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "0382F902F5E56298",
           type: "xp",
@@ -2078,11 +1818,6 @@
       ],
       rewards: [
         {
-          id: "0B0FC802B155FA01",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3BA428A1CA19523E",
           type: "xp",
           xp: 100,
@@ -2109,11 +1844,6 @@
         },
       ],
       rewards: [
-        {
-          id: "2A2F9DB2206D7015",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "69C918A619C537CC",
           type: "xp",
@@ -2142,11 +1872,6 @@
       ],
       rewards: [
         {
-          id: "2DF85CB3024D1534",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "15D741BB71759E57",
           type: "xp",
           xp: 100,
@@ -2173,11 +1898,6 @@
         },
       ],
       rewards: [
-        {
-          id: "157B28D720FD1F9F",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "43219FFB8ADDAC04",
           type: "xp",
@@ -2206,11 +1926,6 @@
       ],
       rewards: [
         {
-          id: "3EBBD3E9A496110A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3AC2710C5BB8AF03",
           type: "xp",
           xp: 100,
@@ -2237,11 +1952,6 @@
         },
       ],
       rewards: [
-        {
-          id: "678596744DEE809B",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "0458456862909DE4",
           type: "xp",
@@ -2270,11 +1980,6 @@
       ],
       rewards: [
         {
-          id: "590EF01DF8E7C0F2",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "0CFF6AF1E3294A42",
           type: "xp",
           xp: 100,
@@ -2301,11 +2006,6 @@
         },
       ],
       rewards: [
-        {
-          id: "60AA6B6526C2E3E2",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "08CEC3ACC570401A",
           type: "xp",
@@ -2334,11 +2034,6 @@
       ],
       rewards: [
         {
-          id: "11559EE29C5499EC",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3CDB49166075F68C",
           type: "xp",
           xp: 100,
@@ -2365,11 +2060,6 @@
         },
       ],
       rewards: [
-        {
-          id: "2E3F51DC91162A6D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "1B0EBEEA40E1FD1B",
           type: "xp",
@@ -2491,11 +2181,6 @@
       ],
       rewards: [
         {
-          id: "0B5479EFA57627B9",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "2566522D362463AD",
           type: "xp",
           xp: 100,
@@ -2522,11 +2207,6 @@
         },
       ],
       rewards: [
-        {
-          id: "605DDAF617A01D61",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "559618949309608D",
           type: "xp",
@@ -2560,11 +2240,6 @@
       ],
       rewards: [
         {
-          id: "36AA589DA7C8DE86",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "4B6148374EA0FE1B",
           type: "xp",
           xp: 100,
@@ -2591,11 +2266,6 @@
         },
       ],
       rewards: [
-        {
-          id: "3F2A2E5BCBABEF38",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "0FF4F6D5CAEB6696",
           type: "xp",
@@ -2624,11 +2294,6 @@
       ],
       rewards: [
         {
-          id: "7BE6EC01E9155624",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "1D4B6E96C4D94838",
           type: "xp",
           xp: 100,
@@ -2656,44 +2321,7 @@
       ],
       rewards: [
         {
-          id: "0E5B9A082F256F20",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "13A6CB09C413ADF6",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 20.0,
-      y: -5.875,
-      shape: "diamond",
-      dependencies: [
-        "76071C22A73A2026",
-        "0B37355262121DD5",
-      ],
-      id: "19AAC139177442C1",
-      tasks: [
-        {
-          id: "05EF95C65E85EA6C",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:graphite_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "78DF0282F737498D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "366053BC1FA90589",
           type: "xp",
           xp: 100,
         },
@@ -2719,11 +2347,6 @@
         },
       ],
       rewards: [
-        {
-          id: "19CF99A677CE31BE",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "2A6812517BEE4857",
           type: "xp",
@@ -2757,11 +2380,6 @@
         },
       ],
       rewards: [
-        {
-          id: "78C1FDBE797038F1",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "31210D43F4CECE06",
           type: "xp",
@@ -2797,11 +2415,6 @@
       ],
       rewards: [
         {
-          id: "0C7509E073ADD947",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "20F217CE25C19CAF",
           type: "xp",
           xp: 50,
@@ -2829,11 +2442,6 @@
       ],
       rewards: [
         {
-          id: "72DAE99FF83BFC3E",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "2FCEC15C45D65F80",
           type: "xp",
           xp: 100,
@@ -2859,11 +2467,6 @@
         },
       ],
       rewards: [
-        {
-          id: "6D60A3016717EC5D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "4BE958D6620F8C51",
           type: "xp",
@@ -2892,11 +2495,6 @@
       ],
       rewards: [
         {
-          id: "7CEF449612EBA5B8",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "4C4537827F515FE4",
           type: "xp",
           xp: 100,
@@ -2924,11 +2522,6 @@
       ],
       rewards: [
         {
-          id: "5F4BA0BCC724C7B4",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "03A0B69C4AF05840",
           type: "xp",
           xp: 100,
@@ -2955,11 +2548,6 @@
         },
       ],
       rewards: [
-        {
-          id: "6AAB6683C440DABD",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "072175DA53E1C103",
           type: "xp",
@@ -3001,11 +2589,6 @@
       ],
       rewards: [
         {
-          id: "64C2EF99CE6BC9A2",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "2A5693F24F16A922",
           type: "xp",
           xp: 100,
@@ -3032,11 +2615,6 @@
         },
       ],
       rewards: [
-        {
-          id: "39D9AD9C385F8272",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "1404B370A9ED1259",
           type: "xp",
@@ -3065,11 +2643,6 @@
       ],
       rewards: [
         {
-          id: "3001D50B7E42F409",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "62DAF6EA1A777920",
           type: "xp",
           xp: 100,
@@ -3096,11 +2669,6 @@
         },
       ],
       rewards: [
-        {
-          id: "514173B5361437B7",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "3EE9CFA2ADDEFBB0",
           type: "xp",
@@ -3129,11 +2697,6 @@
       ],
       rewards: [
         {
-          id: "7A023AA3622E7AAE",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "52B486F48796B7A1",
           type: "xp",
           xp: 100,
@@ -3161,11 +2724,6 @@
       ],
       rewards: [
         {
-          id: "5C456D2AD250F66D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "60B891274A85F6BD",
           type: "xp",
           xp: 100,
@@ -3192,11 +2750,6 @@
         },
       ],
       rewards: [
-        {
-          id: "6CE235AD5A31B959",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "2406B92751B84F55",
           type: "xp",
@@ -3318,11 +2871,6 @@
       ],
       rewards: [
         {
-          id: "5F48ADC78C90F01E",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "4B82FE1E7B7581B6",
           type: "xp",
           xp: 100,
@@ -3349,11 +2897,6 @@
         },
       ],
       rewards: [
-        {
-          id: "235B50103AB0BD45",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "65DB73331E300A4A",
           type: "xp",
@@ -3387,11 +2930,6 @@
       ],
       rewards: [
         {
-          id: "730839A8EE09CA40",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "4695E467457A0D18",
           type: "xp",
           xp: 100,
@@ -3419,11 +2957,6 @@
       ],
       rewards: [
         {
-          id: "1F7DCFC226250296",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "17FF90E0FB2BDC2F",
           type: "xp",
           xp: 100,
@@ -3432,7 +2965,7 @@
     },
     {
       x: 24.5,
-      y: -9.375,
+      y: -7.375,
       shape: "diamond",
       dependencies: [
         "5BC4250E4C9F803C",
@@ -3451,11 +2984,6 @@
       ],
       rewards: [
         {
-          id: "49B2D0DBFE254C91",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "640D8C5B5D54851F",
           type: "xp",
           xp: 100,
@@ -3464,7 +2992,7 @@
     },
     {
       x: 25.5,
-      y: -9.375,
+      y: -7.375,
       shape: "diamond",
       dependencies: [
         "5BC4250E4C9F803C",
@@ -3482,11 +3010,6 @@
         },
       ],
       rewards: [
-        {
-          id: "568E43E210972C77",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "450EE78270C2F25A",
           type: "xp",
@@ -3515,11 +3038,6 @@
       ],
       rewards: [
         {
-          id: "72DC82A8E58CD2C2",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3E8EB1DD46770501",
           type: "xp",
           xp: 100,
@@ -3528,7 +3046,7 @@
     },
     {
       x: 24.5,
-      y: -7.375,
+      y: -6.375,
       shape: "diamond",
       dependencies: [
         "5BC4250E4C9F803C",
@@ -3547,11 +3065,6 @@
       ],
       rewards: [
         {
-          id: "5C1E26D96079F8BA",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "087D557EA3494892",
           type: "xp",
           xp: 100,
@@ -3560,7 +3073,7 @@
     },
     {
       x: 25.5,
-      y: -7.375,
+      y: -6.375,
       shape: "diamond",
       dependencies: [
         "5BC4250E4C9F803C",
@@ -3578,11 +3091,6 @@
         },
       ],
       rewards: [
-        {
-          id: "7ADA6EBAB309EE02",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "0D43CB62A00E5C2C",
           type: "xp",
@@ -3611,11 +3119,6 @@
       ],
       rewards: [
         {
-          id: "17DDB1B0726CDEEB",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "0AF46E83762512BE",
           type: "xp",
           xp: 100,
@@ -3643,76 +3146,7 @@
       ],
       rewards: [
         {
-          id: "43F0DE9CEE3EA7BB",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "7574D123E9860625",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 25.5,
-      y: -6.375,
-      shape: "diamond",
-      dependencies: [
-        "5BC4250E4C9F803C",
-        "0B37355262121DD5",
-      ],
-      id: "780E0163033CCD9B",
-      tasks: [
-        {
-          id: "052383511EFBAA39",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:refined_glowstone_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "01379E2B1C95A391",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "642ECDB7EA0F2E1C",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 24.5,
-      y: -6.375,
-      shape: "diamond",
-      dependencies: [
-        "5BC4250E4C9F803C",
-        "0B37355262121DD5",
-      ],
-      id: "5311404799117060",
-      tasks: [
-        {
-          id: "71C24E1E0D38D736",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:refined_obsidian_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "130163DA9C283823",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "6FE305D7707D5DCA",
           type: "xp",
           xp: 100,
         },
@@ -3721,38 +3155,6 @@
     {
       x: 25.0,
       y: -6.875,
-      shape: "diamond",
-      dependencies: [
-        "5BC4250E4C9F803C",
-        "0B37355262121DD5",
-      ],
-      id: "1B700DB77B970E35",
-      tasks: [
-        {
-          id: "6CD928618B1BEEF0",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:compressed_iron_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "29515A39A34C90B4",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "4F912D24AB3157B8",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 25.0,
-      y: -7.875,
       shape: "diamond",
       dependencies: [
         "5BC4250E4C9F803C",
@@ -3770,11 +3172,6 @@
         },
       ],
       rewards: [
-        {
-          id: "34FBDBA842B534F3",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "620190C1DFB0E0EC",
           type: "xp",
@@ -3803,11 +3200,6 @@
       ],
       rewards: [
         {
-          id: "1E4E8944CE0F0BAD",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "68162603F0637E5A",
           type: "xp",
           xp: 100,
@@ -3835,11 +3227,6 @@
       ],
       rewards: [
         {
-          id: "585198A6077890C7",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "15205276609E57CE",
           type: "xp",
           xp: 100,
@@ -3865,11 +3252,6 @@
         },
       ],
       rewards: [
-        {
-          id: "3D9693405E0D7E8D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "00D14232DB4BA0BB",
           type: "xp",
@@ -3899,11 +3281,6 @@
       ],
       rewards: [
         {
-          id: "319B967CF4E77F60",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "5586CCDB7CDC872F",
           type: "xp",
           xp: 150,
@@ -3930,11 +3307,6 @@
         },
       ],
       rewards: [
-        {
-          id: "70898219470BAB15",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "609185E928598C09",
           type: "xp",
@@ -3963,11 +3335,6 @@
       ],
       rewards: [
         {
-          id: "53B2FF2E783260B1",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "5FABA10FA912A66F",
           type: "xp",
           xp: 150,
@@ -3994,11 +3361,6 @@
         },
       ],
       rewards: [
-        {
-          id: "1EF84DD7A1C380BA",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "10FCE11C6A2C8C24",
           type: "xp",
@@ -4027,11 +3389,6 @@
       ],
       rewards: [
         {
-          id: "2E3D148E448321CC",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3C969E328BA73CE9",
           type: "xp",
           xp: 150,
@@ -4058,11 +3415,6 @@
         },
       ],
       rewards: [
-        {
-          id: "5A74443845F5CA1A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "30F6EC82D69B47DF",
           type: "xp",
@@ -4184,11 +3536,6 @@
       ],
       rewards: [
         {
-          id: "4ED29767582D86F6",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3E3244B556949CFE",
           type: "xp",
           xp: 150,
@@ -4216,11 +3563,6 @@
         },
       ],
       rewards: [
-        {
-          id: "320D5048C61B7269",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "71AF8B02290BAABB",
           type: "xp",
@@ -4275,11 +3617,6 @@
       ],
       rewards: [
         {
-          id: "2DACB6EF8AB12A78",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "7183E14138B0E97F",
           type: "xp",
           xp: 150,
@@ -4312,11 +3649,6 @@
       ],
       rewards: [
         {
-          id: "2E1D94DB1191F7E3",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3B590DE224FDF534",
           type: "xp",
           xp: 150,
@@ -4348,11 +3680,6 @@
         },
       ],
       rewards: [
-        {
-          id: "4DB0C872FE130B47",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "54AC531E06718D91",
           type: "xp",
@@ -4390,11 +3717,6 @@
             id: "mysticalagriculture:awakened_supremium_essence",
             count: 1,
           },
-        },
-        {
-          id: "5BE5476F46A8FC6E",
-          type: "random",
-          exclude_from_claim_all: true,
         },
         {
           id: "1A311B089FA31C6B",
@@ -4446,16 +3768,6 @@
       ],
       rewards: [
         {
-          id: "2BE387E8808B395A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "0D17E8E4C174704E",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "606A94A7C55E0131",
           type: "xp",
           xp: 100,
@@ -4491,11 +3803,6 @@
             count: 1,
           },
           count: 2,
-        },
-        {
-          id: "10592C8E7CA60537",
-          type: "random",
-          exclude_from_claim_all: true,
         },
         {
           id: "48D7F711788B9B02",
@@ -4565,11 +3872,6 @@
       ],
       rewards: [
         {
-          id: "181DFC8DB7B7701C",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "6DBD96AA2A13C37E",
           type: "xp",
           xp: 150,
@@ -4597,44 +3899,7 @@
       ],
       rewards: [
         {
-          id: "16D9041F34738955",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "5EBEF14BB7B7E8FF",
-          type: "xp",
-          xp: 150,
-        },
-      ],
-    },
-    {
-      x: 30.0,
-      y: -2.875,
-      shape: "diamond",
-      dependencies: [
-        "48BF71269DEA1AB1",
-        "0B37355262121DD5",
-      ],
-      id: "1FF82E21F1C0C73B",
-      tasks: [
-        {
-          id: "3D71807BD0D1FE4A",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:cyanite_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "54E3376613CE84D5",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "54C84BE9BB4581EF",
           type: "xp",
           xp: 150,
         },
@@ -4660,11 +3925,6 @@
         },
       ],
       rewards: [
-        {
-          id: "7EE4815F10B95C9A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "0733D193A321EC4F",
           type: "xp",
@@ -4693,11 +3953,6 @@
       ],
       rewards: [
         {
-          id: "19044E593EB53D8A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "20281F9831F64913",
           type: "xp",
           xp: 150,
@@ -4724,11 +3979,6 @@
         },
       ],
       rewards: [
-        {
-          id: "50D4AB06A0E5132F",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "2E50C1BF4E563853",
           type: "xp",
@@ -4790,11 +4040,6 @@
       ],
       rewards: [
         {
-          id: "7F4A6CCFACE30DF1",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "21248ECCE7BA2FCF",
           type: "xp",
           xp: 200,
@@ -4833,11 +4078,6 @@
         },
       ],
       rewards: [
-        {
-          id: "62FD274ABD62943C",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "07D0B12FDE6CD136",
           type: "xp",
@@ -4878,11 +4118,6 @@
       ],
       rewards: [
         {
-          id: "4CFED008BD1036F9",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3A21B80B74D9D691",
           type: "xp",
           xp: 200,
@@ -4921,11 +4156,6 @@
         },
       ],
       rewards: [
-        {
-          id: "346729D625751917",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "4B165FA6311A5DFF",
           type: "xp",
@@ -4966,11 +4196,6 @@
       ],
       rewards: [
         {
-          id: "3E5D3F2A325A2E89",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "179692E7222C6E35",
           type: "xp",
           xp: 200,
@@ -5010,11 +4235,6 @@
       ],
       rewards: [
         {
-          id: "53BF2044D67A909C",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "698663D6B011528A",
           type: "xp",
           xp: 200,
@@ -5053,11 +4273,6 @@
         },
       ],
       rewards: [
-        {
-          id: "47BB37B172767814",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "35A1EDD67D2F6CE1",
           type: "xp",
@@ -5118,11 +4333,6 @@
       ],
       rewards: [
         {
-          id: "62E1B3B13EC7F15D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "1CDD44781C36A87F",
           type: "xp",
           xp: 50,
@@ -5156,11 +4366,6 @@
       ],
       rewards: [
         {
-          id: "399BE41CC896954E",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "17B8E0028C59E781",
           type: "xp",
           xp: 50,
@@ -5190,11 +4395,6 @@
         },
       ],
       rewards: [
-        {
-          id: "6996F2CB64824A2F",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "27190191940ABB8B",
           type: "xp",
@@ -5257,11 +4457,6 @@
       ],
       rewards: [
         {
-          id: "52D6922EC6C02511",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "567F09E54EC6E4F3",
           type: "xp",
           xp: 10,
@@ -5289,11 +4484,6 @@
         },
       ],
       rewards: [
-        {
-          id: "10311A5454BEFDE3",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "220C5F58574B7CB6",
           type: "xp",
@@ -5403,11 +4593,6 @@
       ],
       rewards: [
         {
-          id: "5737008C5146CB8B",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "30534CEFF8BE763A",
           type: "xp",
           xp: 50,
@@ -5435,11 +4620,6 @@
       ],
       rewards: [
         {
-          id: "2FDA85CFA68772CD",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "4706C9CF3F12FCF0",
           type: "xp",
           xp: 200,
@@ -5464,11 +4644,6 @@
         },
       ],
       rewards: [
-        {
-          id: "6B13F22B6DCE3023",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "1337FA158A38DB13",
           type: "xp",
@@ -5495,11 +4670,6 @@
       ],
       rewards: [
         {
-          id: "59926247CE071F35",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "687521FF9379DF1E",
           type: "xp",
           xp: 150,
@@ -5508,7 +4678,7 @@
     },
     {
       x: 19.5,
-      y: -10.375,
+      y: -8.375,
       shape: "diamond",
       dependencies: [
         "76071C22A73A2026",
@@ -5527,11 +4697,6 @@
       ],
       rewards: [
         {
-          id: "6EB12AE3BF66E4D3",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "565D00931A7DAF4F",
           type: "xp",
           xp: 100,
@@ -5540,7 +4705,7 @@
     },
     {
       x: 20.5,
-      y: -9.375,
+      y: -8.375,
       shape: "diamond",
       dependencies: [
         "76071C22A73A2026",
@@ -5559,11 +4724,6 @@
       ],
       rewards: [
         {
-          id: "619E7C2DD32C5039",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "33BF6FCD37154ADD",
           type: "xp",
           xp: 100,
@@ -5572,7 +4732,7 @@
     },
     {
       x: 19.5,
-      y: -9.375,
+      y: -6.375,
       shape: "diamond",
       dependencies: [
         "76071C22A73A2026",
@@ -5590,11 +4750,6 @@
         },
       ],
       rewards: [
-        {
-          id: "7F128B172666D558",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "71BA3480B0300B9D",
           type: "xp",
@@ -5623,11 +4778,6 @@
       ],
       rewards: [
         {
-          id: "42AFAA74800C741A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "7799AD1ED08A2158",
           type: "xp",
           xp: 50,
@@ -5635,8 +4785,8 @@
       ],
     },
     {
-      x: 15.0,
-      y: -6.875,
+      x: 14.5,
+      y: -4.375,
       shape: "diamond",
       dependencies: [
         "576ABF43FCF886B7",
@@ -5654,11 +4804,6 @@
         },
       ],
       rewards: [
-        {
-          id: "13DB9EFE9E0BFC67",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "31F04D1EB8A3E046",
           type: "xp",
@@ -5687,11 +4832,6 @@
       ],
       rewards: [
         {
-          id: "3ED9F296CAA9FF86",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "4558DBD02C7F4438",
           type: "xp",
           xp: 100,
@@ -5699,105 +4839,8 @@
       ],
     },
     {
-      x: 20.5,
-      y: -8.375,
-      shape: "diamond",
-      dependencies: [
-        "76071C22A73A2026",
-        "0B37355262121DD5",
-      ],
-      id: "4D8B82FBA0FFD49E",
-      tasks: [
-        {
-          id: "089E72314F69E0A1",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:steeleaf_seeds",
-            count: 1,
-          },
-          match_components: "fuzzy",
-        },
-      ],
-      rewards: [
-        {
-          id: "1371FC83E289C559",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "7CDA08722ADAAAA5",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
       x: 20.0,
-      y: -9.875,
-      shape: "diamond",
-      dependencies: [
-        "76071C22A73A2026",
-        "0B37355262121DD5",
-      ],
-      id: "7EFEE009212A4FD4",
-      tasks: [
-        {
-          id: "7DCF0602D1855782",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:xychorium_gem_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "24A8CEDA679C2A2A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "700D8E27F1D7B95D",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 19.5,
-      y: -6.375,
-      shape: "diamond",
-      dependencies: [
-        "76071C22A73A2026",
-        "0B37355262121DD5",
-      ],
-      id: "787E714014EC2C02",
-      tasks: [
-        {
-          id: "538D51FC8321C046",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:copper_alloy_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "2390416E14742DCF",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "0D574AD9536A39BC",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 20.0,
-      y: -8.875,
+      y: -5.875,
       shape: "diamond",
       dependencies: [
         "76071C22A73A2026",
@@ -5816,11 +4859,6 @@
       ],
       rewards: [
         {
-          id: "75169B233480A0C0",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "7FF82AC49531BA05",
           type: "xp",
           xp: 100,
@@ -5828,72 +4866,8 @@
       ],
     },
     {
-      x: 19.5,
-      y: -8.375,
-      shape: "diamond",
-      dependencies: [
-        "76071C22A73A2026",
-        "0B37355262121DD5",
-      ],
-      id: "69F63F3B48E4344E",
-      tasks: [
-        {
-          id: "7934E1747A9CE4C9",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:ironwood_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "2CD02086D9629E2C",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "79FF713428E0C115",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 25.0,
-      y: -8.875,
-      shape: "diamond",
-      dependencies: [
-        "5BC4250E4C9F803C",
-        "0B37355262121DD5",
-      ],
-      id: "76516C997B63905A",
-      tasks: [
-        {
-          id: "71332492950521DA",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:hop_graphite_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "2C2551C1BCCADE08",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "7660D77F63B623DE",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
       x: 24.5,
-      y: -10.375,
+      y: -8.375,
       shape: "diamond",
       dependencies: [
         "5BC4250E4C9F803C",
@@ -5912,11 +4886,6 @@
       ],
       rewards: [
         {
-          id: "1200D26D03D32B2A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "7C456115B6A10281",
           type: "xp",
           xp: 100,
@@ -5925,7 +4894,7 @@
     },
     {
       x: 25.0,
-      y: -10.875,
+      y: -8.875,
       shape: "diamond",
       dependencies: [
         "5BC4250E4C9F803C",
@@ -5944,11 +4913,6 @@
       ],
       rewards: [
         {
-          id: "4A03A6E35625FB16",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "2E25310793C455E5",
           type: "xp",
           xp: 100,
@@ -5956,40 +4920,8 @@
       ],
     },
     {
-      x: 24.5,
-      y: -8.375,
-      shape: "diamond",
-      dependencies: [
-        "5BC4250E4C9F803C",
-        "0B37355262121DD5",
-      ],
-      id: "4DF23FC932F5EB7D",
-      tasks: [
-        {
-          id: "044CDEDB12A23672",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:fiery_ingot_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "5F69B631809453C9",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "6FBB044EF7BC88CF",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
       x: 25.0,
-      y: -9.875,
+      y: -7.875,
       shape: "diamond",
       dependencies: [
         "5BC4250E4C9F803C",
@@ -6008,11 +4940,6 @@
       ],
       rewards: [
         {
-          id: "38C50E83B367CB30",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "2DACC135D9E8C98E",
           type: "xp",
           xp: 100,
@@ -6021,7 +4948,7 @@
     },
     {
       x: 25.5,
-      y: -10.375,
+      y: -8.375,
       shape: "diamond",
       dependencies: [
         "5BC4250E4C9F803C",
@@ -6040,44 +4967,7 @@
       ],
       rewards: [
         {
-          id: "0C97B9A3861BB0B2",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "13404223E517115D",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 25.5,
-      y: -8.375,
-      shape: "diamond",
-      dependencies: [
-        "5BC4250E4C9F803C",
-        "0B37355262121DD5",
-      ],
-      id: "07751E1BE48C6024",
-      tasks: [
-        {
-          id: "40111B7C13ABC481",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:knightmetal_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "4F8C6C3745E7CE03",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "0F6E2C19688D6639",
           type: "xp",
           xp: 100,
         },
@@ -6104,11 +4994,6 @@
       ],
       rewards: [
         {
-          id: "559F13795CEDF7A0",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "00FDFF0C22F053CF",
           type: "xp",
           xp: 150,
@@ -6116,8 +5001,8 @@
       ],
     },
     {
-      x: 29.5,
-      y: -6.375,
+      x: 30.0,
+      y: -4.875,
       shape: "diamond",
       dependencies: [
         "48BF71269DEA1AB1",
@@ -6136,11 +5021,6 @@
       ],
       rewards: [
         {
-          id: "00A48E3E18C8D3E6",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "58CA1FC8F41027A6",
           type: "xp",
           xp: 150,
@@ -6148,8 +5028,8 @@
       ],
     },
     {
-      x: 30.5,
-      y: -6.375,
+      x: 30.0,
+      y: -2.875,
       shape: "diamond",
       dependencies: [
         "48BF71269DEA1AB1",
@@ -6168,44 +5048,7 @@
       ],
       rewards: [
         {
-          id: "6881D9AF463417A8",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "36C72E8AB34EEAAA",
-          type: "xp",
-          xp: 150,
-        },
-      ],
-    },
-    {
-      x: 30.0,
-      y: -4.875,
-      shape: "diamond",
-      dependencies: [
-        "48BF71269DEA1AB1",
-        "0B37355262121DD5",
-      ],
-      id: "29D309F9740FAEEA",
-      tasks: [
-        {
-          id: "3BE85B444B0D7503",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:sky_steel_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "730E513F2FC32BD1",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "27617BF06345C138",
           type: "xp",
           xp: 150,
         },
@@ -6232,46 +5075,9 @@
       ],
       rewards: [
         {
-          id: "1E28E87FEE3C9D96",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "2B20534D51409282",
           type: "xp",
           xp: 150,
-        },
-      ],
-    },
-    {
-      x: 20.5,
-      y: -10.375,
-      shape: "diamond",
-      dependencies: [
-        "76071C22A73A2026",
-        "0B37355262121DD5",
-      ],
-      id: "53E5A8F2B05C2989",
-      tasks: [
-        {
-          id: "1434679461CC6FCC",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:black_quartz_seeds",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "01EF476A92370720",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
-          id: "07E2819C902C1B5B",
-          type: "xp",
-          xp: 100,
         },
       ],
     },
@@ -6385,7 +5191,10 @@
       height: 1.5,
       rotation: 0.0,
       image: "mysticalagriculture:item/gear/inferium_watering_can",
-      click: "#1636F3F12E92CAEA",
+      click_action: {
+        type: "open_quest",
+        data: "1636F3F12E92CAEA",
+      },
       id: "3E5B02FA7BEA6662",
     },
     {
@@ -6395,7 +5204,10 @@
       height: 1.5,
       rotation: 0.0,
       image: "mysticalagriculture:item/gear/prudentium_watering_can",
-      click: "#1636F3F12E92CAEA",
+      click_action: {
+        type: "open_quest",
+        data: "1636F3F12E92CAEA",
+      },
       id: "1AB36DD514B5372C",
     },
     {
@@ -6432,7 +5244,10 @@
       height: 1.5,
       rotation: 0.0,
       image: "mysticalagriculture:item/gear/tertium_watering_can",
-      click: "#1636F3F12E92CAEA",
+      click_action: {
+        type: "open_quest",
+        data: "1636F3F12E92CAEA",
+      },
       id: "371389D0B5C37EBD",
     },
     {
@@ -6541,7 +5356,10 @@
       height: 1.25,
       rotation: 0.0,
       image: "mysticalagriculture:item/inferium_upgrade",
-      click: "#77C6667B4C37589C",
+      click_action: {
+        type: "open_quest",
+        data: "77C6667B4C37589C",
+      },
       id: "7E906DA73377235A",
     },
     {
@@ -6551,7 +5369,10 @@
       height: 1.25,
       rotation: 0.0,
       image: "mysticalagriculture:item/prudentium_upgrade",
-      click: "#77C6667B4C37589C",
+      click_action: {
+        type: "open_quest",
+        data: "77C6667B4C37589C",
+      },
       id: "74E1D2AFF5516AC2",
     },
     {
@@ -6561,7 +5382,10 @@
       height: 1.25,
       rotation: 0.0,
       image: "mysticalagriculture:item/tertium_upgrade",
-      click: "#77C6667B4C37589C",
+      click_action: {
+        type: "open_quest",
+        data: "77C6667B4C37589C",
+      },
       id: "0F3B69E9E6BC48D4",
     },
     {
@@ -6607,7 +5431,10 @@
       height: 1.25,
       rotation: 0.0,
       image: "mysticalagriculture:item/imperium_upgrade",
-      click: "#77C6667B4C37589C",
+      click_action: {
+        type: "open_quest",
+        data: "77C6667B4C37589C",
+      },
       id: "537CD3795D515048",
     },
     {
@@ -6617,7 +5444,10 @@
       height: 1.5,
       rotation: 0.0,
       image: "mysticalagriculture:item/gear/imperium_watering_can",
-      click: "#1636F3F12E92CAEA",
+      click_action: {
+        type: "open_quest",
+        data: "1636F3F12E92CAEA",
+      },
       id: "6B6B0AF33C9E4B0C",
     },
     {
@@ -6717,7 +5547,10 @@
       height: 1.5,
       rotation: 0.0,
       image: "mysticalagriculture:item/gear/supremium_watering_can",
-      click: "#1636F3F12E92CAEA",
+      click_action: {
+        type: "open_quest",
+        data: "1636F3F12E92CAEA",
+      },
       id: "5C853D7B08140034",
     },
     {
@@ -6754,7 +5587,10 @@
       height: 1.25,
       rotation: 0.0,
       image: "mysticalagriculture:item/awakened_supremium_upgrade",
-      click: "#77C6667B4C37589C",
+      click_action: {
+        type: "open_quest",
+        data: "77C6667B4C37589C",
+      },
       id: "1B8896065302061B",
     },
     {
@@ -6818,7 +5654,6 @@
       height: 1.0,
       rotation: 0.0,
       image: "mysticalagriculture:block/machine_frame",
-      click: ".",
       id: "74F0DE255530EED5",
     },
     {
