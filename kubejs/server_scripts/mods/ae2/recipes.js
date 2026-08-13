@@ -113,7 +113,7 @@ if (Platform.isLoaded("ae2")) {
       )
     }
 
-    universalPress("ae2:silicon", "ae2:printed_silicon", "printed_silicon")
+    universalPress("#c:silicon", "ae2:printed_silicon", "printed_silicon")
     universalPress("ae2:certus_quartz_crystal", "ae2:printed_calculation_processor", "printed_calculation_processor")
     universalPress("minecraft:diamond", "ae2:printed_engineering_processor", "printed_engineering_processor")
     universalPress("minecraft:gold_ingot", "ae2:printed_logic_processor", "printed_logic_processor")

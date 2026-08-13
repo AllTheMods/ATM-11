@@ -3,14 +3,77 @@
   group: "49AECADBA9E79A3B",
   order_index: 2,
   icon: {
-    id: "ftbquests:missing_item",
+    id: "ironfurnaces:million_furnace",
     count: 1,
     components: {
-      "ftbquests:missing_item": "ironfurnaces:million_furnace",
+      "minecraft:custom_name": {
+        text: "",
+        extra: [
+          {
+            text: "R",
+            color: "blue",
+          },
+          {
+            text: "a",
+            color: "red",
+          },
+          {
+            text: "i",
+            color: "yellow",
+          },
+          {
+            text: "n",
+            color: "red",
+          },
+          {
+            text: "b",
+            color: "green",
+          },
+          {
+            text: "o",
+            color: "green",
+          },
+          {
+            text: "w",
+            color: "blue",
+          },
+          {
+            text: " ",
+            color: "aqua",
+          },
+          {
+            text: "F",
+            color: "aqua",
+          },
+          {
+            text: "u",
+            color: "yellow",
+          },
+          {
+            text: "r",
+            color: "green",
+          },
+          {
+            text: "n",
+            color: "blue",
+          },
+          {
+            text: "a",
+            color: "blue",
+          },
+          {
+            text: "c",
+            color: "blue",
+          },
+          {
+            text: "e",
+            color: "blue",
+          },
+        ],
+      },
     },
   },
   filename: "generators",
-  always_invisible: true,
   default_quest_shape: "square",
   default_hide_dependency_lines: false,
   quests: [
@@ -20,7 +83,6 @@
       shape: "square",
       dependencies: [
         "47750F3CB020104C",
-        "3876FDC471FC460B",
       ],
       id: "2748ACEAB96A5F60",
       tasks: [
@@ -28,11 +90,8 @@
           id: "3FA02C4DF722D831",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:iron_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:iron_furnace",
-            },
           },
         },
       ],
@@ -41,11 +100,8 @@
           id: "418B0AB5F7210588",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_iron",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_iron",
-            },
           },
         },
         {
@@ -66,7 +122,6 @@
       dependencies: [
         "2748ACEAB96A5F60",
         "61847F47CCA225D9",
-        "3876FDC471FC460B",
       ],
       dependency_requirement: "one_completed",
       id: "420FE84DEE12CCE0",
@@ -75,11 +130,8 @@
           id: "6F39535100663F77",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:gold_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:gold_furnace",
-            },
           },
         },
       ],
@@ -88,22 +140,16 @@
           id: "5F055AFC53D8DF42",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_gold2",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_gold2",
-            },
           },
         },
         {
           id: "039B7D0DBE44C9B5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_gold",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_gold",
-            },
           },
         },
         {
@@ -123,7 +169,6 @@
       shape: "square",
       dependencies: [
         "420FE84DEE12CCE0",
-        "3876FDC471FC460B",
       ],
       id: "21EA29A8C7F950CE",
       tasks: [
@@ -131,11 +176,8 @@
           id: "077252C1A4175920",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:diamond_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:diamond_furnace",
-            },
           },
         },
       ],
@@ -144,11 +186,8 @@
           id: "6926332F80711102",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_diamond",
-            },
           },
         },
         {
@@ -168,7 +207,6 @@
       shape: "square",
       dependencies: [
         "21EA29A8C7F950CE",
-        "3876FDC471FC460B",
       ],
       id: "711DDD55CEC439E5",
       tasks: [
@@ -176,11 +214,8 @@
           id: "6ECF5BA47D176D7D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:emerald_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:emerald_furnace",
-            },
           },
         },
       ],
@@ -189,11 +224,8 @@
           id: "2EFFB4B2C0EB3B54",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_emerald",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_emerald",
-            },
           },
         },
         {
@@ -214,7 +246,6 @@
       dependencies: [
         "2354BC5330350DF6",
         "711DDD55CEC439E5",
-        "3876FDC471FC460B",
       ],
       dependency_requirement: "one_completed",
       id: "32C7D8AE859BF89E",
@@ -223,11 +254,8 @@
           id: "694E0730B29BEF80",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:obsidian_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:obsidian_furnace",
-            },
           },
         },
       ],
@@ -236,11 +264,8 @@
           id: "08C0ADB3F26DC561",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_obsidian2",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_obsidian2",
-            },
           },
         },
         {
@@ -260,7 +285,6 @@
       shape: "square",
       dependencies: [
         "21EA29A8C7F950CE",
-        "3876FDC471FC460B",
       ],
       id: "2354BC5330350DF6",
       tasks: [
@@ -268,11 +292,8 @@
           id: "26CE85F193784F9D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:crystal_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:crystal_furnace",
-            },
           },
         },
       ],
@@ -281,11 +302,8 @@
           id: "53A5D4B1905A19D3",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_crystal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_crystal",
-            },
           },
         },
         {
@@ -305,7 +323,6 @@
       shape: "square",
       dependencies: [
         "47750F3CB020104C",
-        "3876FDC471FC460B",
       ],
       id: "661C072E48F8D41F",
       tasks: [
@@ -313,11 +330,8 @@
           id: "60B2B799FB293974",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:copper_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:copper_furnace",
-            },
           },
         },
       ],
@@ -326,11 +340,8 @@
           id: "339B00F7AB29615F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_copper",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_copper",
-            },
           },
         },
         {
@@ -350,7 +361,6 @@
       dependencies: [
         "661C072E48F8D41F",
         "2748ACEAB96A5F60",
-        "3876FDC471FC460B",
       ],
       dependency_requirement: "one_completed",
       id: "61847F47CCA225D9",
@@ -359,11 +369,8 @@
           id: "6828EEA56791555C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:silver_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:silver_furnace",
-            },
           },
         },
       ],
@@ -372,22 +379,16 @@
           id: "1C9C045DFB87E87B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_silver",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_silver",
-            },
           },
         },
         {
           id: "3795E50309E6A7A8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_iron2",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_iron2",
-            },
           },
         },
         {
@@ -409,7 +410,6 @@
       dependencies: [
         "0AD2B11565B484E7",
         "7A615E2A152917AD",
-        "3876FDC471FC460B",
       ],
       hide_until_deps_visible: true,
       hide_details_until_startable: true,
@@ -419,10 +419,74 @@
           id: "0B62A5DC9EB8E6CF",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:million_furnace",
             count: 1,
             components: {
-              "ftbquests:missing_item": "ironfurnaces:million_furnace",
+              "minecraft:custom_name": {
+                text: "",
+                extra: [
+                  {
+                    text: "R",
+                    color: "green",
+                  },
+                  {
+                    text: "a",
+                    color: "green",
+                  },
+                  {
+                    text: "i",
+                    color: "blue",
+                  },
+                  {
+                    text: "n",
+                    color: "yellow",
+                  },
+                  {
+                    text: "b",
+                    color: "aqua",
+                  },
+                  {
+                    text: "o",
+                    color: "red",
+                  },
+                  {
+                    text: "w",
+                    color: "yellow",
+                  },
+                  {
+                    text: " ",
+                    color: "yellow",
+                  },
+                  {
+                    text: "F",
+                    color: "aqua",
+                  },
+                  {
+                    text: "u",
+                    color: "blue",
+                  },
+                  {
+                    text: "r",
+                    color: "aqua",
+                  },
+                  {
+                    text: "n",
+                    color: "green",
+                  },
+                  {
+                    text: "a",
+                    color: "light_purple",
+                  },
+                  {
+                    text: "c",
+                    color: "blue",
+                  },
+                  {
+                    text: "e",
+                    color: "yellow",
+                  },
+                ],
+              },
             },
           },
         },
@@ -450,9 +514,6 @@
       shape: "gear",
       hide_dependency_lines: true,
       hide_dependent_lines: true,
-      dependencies: [
-        "3876FDC471FC460B",
-      ],
       size: 2.0,
       id: "47750F3CB020104C",
       tasks: [
@@ -484,6 +545,7 @@
         "47750F3CB020104C",
         "3876FDC471FC460B",
       ],
+      hide_until_deps_complete: true,
       id: "618F1434757C8E69",
       tasks: [
         {
@@ -1078,7 +1140,6 @@
       shape: "square",
       dependencies: [
         "32C7D8AE859BF89E",
-        "3876FDC471FC460B",
       ],
       id: "79C4CF8D7312FC28",
       tasks: [
@@ -1086,11 +1147,8 @@
           id: "7396676DE78C892F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:netherite_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:netherite_furnace",
-            },
           },
         },
       ],
@@ -1099,11 +1157,8 @@
           id: "7B10BDA090A6930E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_netherite",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_netherite",
-            },
           },
         },
         {
@@ -1124,7 +1179,6 @@
       dependencies: [
         "661C072E48F8D41F",
         "2748ACEAB96A5F60",
-        "3876FDC471FC460B",
       ],
       dependency_requirement: "one_completed",
       id: "78D1C97A542133D8",
@@ -1145,7 +1199,6 @@
       shape: "rsquare",
       dependencies: [
         "78D1C97A542133D8",
-        "3876FDC471FC460B",
       ],
       size: 1.0,
       icon_scale: 1.5,
@@ -1155,11 +1208,8 @@
           id: "20DE2F2B898D0005",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:augment_blasting",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:augment_blasting",
-            },
           },
         },
       ],
@@ -1181,7 +1231,6 @@
       shape: "rsquare",
       dependencies: [
         "78D1C97A542133D8",
-        "3876FDC471FC460B",
       ],
       icon_scale: 1.5,
       id: "33436ED0D9F128BD",
@@ -1190,11 +1239,8 @@
           id: "758315445FF03189",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:augment_smoking",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:augment_smoking",
-            },
           },
         },
       ],
@@ -1216,7 +1262,6 @@
       shape: "rsquare",
       dependencies: [
         "78D1C97A542133D8",
-        "3876FDC471FC460B",
       ],
       icon_scale: 1.5,
       id: "49F08DE190AAD0D8",
@@ -1225,11 +1270,8 @@
           id: "43956CC225D2571B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:augment_factory",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:augment_factory",
-            },
           },
         },
       ],
@@ -1251,7 +1293,6 @@
       shape: "rsquare",
       dependencies: [
         "78D1C97A542133D8",
-        "3876FDC471FC460B",
       ],
       icon_scale: 1.5,
       id: "07753C5D94312A50",
@@ -1260,11 +1301,8 @@
           id: "4C75C05EDFA9A697",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:augment_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:augment_generator",
-            },
           },
         },
       ],
@@ -1285,7 +1323,6 @@
       shape: "rsquare",
       dependencies: [
         "78D1C97A542133D8",
-        "3876FDC471FC460B",
       ],
       icon_scale: 1.5,
       id: "7F67849DE9F700D8",
@@ -1294,11 +1331,8 @@
           id: "4E8DC26DF9905F9C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:augment_speed",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:augment_speed",
-            },
           },
         },
       ],
@@ -1320,7 +1354,6 @@
       shape: "rsquare",
       dependencies: [
         "78D1C97A542133D8",
-        "3876FDC471FC460B",
       ],
       icon_scale: 1.5,
       id: "538821E23E39BE97",
@@ -1329,11 +1362,8 @@
           id: "121305057D3E8015",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:augment_fuel",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:augment_fuel",
-            },
           },
         },
       ],
@@ -1356,7 +1386,6 @@
       dependencies: [
         "2748ACEAB96A5F60",
         "661C072E48F8D41F",
-        "3876FDC471FC460B",
       ],
       dependency_requirement: "one_completed",
       id: "686B25F2E9D8CC97",
@@ -1365,11 +1394,8 @@
           id: "1C9D63BCE843C437",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:item_spooky",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:item_spooky",
-            },
           },
         },
       ],
@@ -1394,7 +1420,6 @@
       dependencies: [
         "2748ACEAB96A5F60",
         "661C072E48F8D41F",
-        "3876FDC471FC460B",
       ],
       dependency_requirement: "one_completed",
       id: "553220A2CD7CAFE4",
@@ -1403,11 +1428,8 @@
           id: "5EE98EB3DC0E291F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:item_xmas",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:item_xmas",
-            },
           },
         },
       ],
@@ -1432,7 +1454,6 @@
       dependencies: [
         "661C072E48F8D41F",
         "2748ACEAB96A5F60",
-        "3876FDC471FC460B",
       ],
       dependency_requirement: "one_completed",
       id: "20EC8001A05CE2C8",
@@ -1441,22 +1462,16 @@
           id: "45C945406D8C21A7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:heater",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:heater",
-            },
           },
         },
         {
           id: "48E37342F58C067C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:item_heater",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:item_heater",
-            },
           },
         },
       ],
@@ -1479,7 +1494,6 @@
       shape: "square",
       dependencies: [
         "79C4CF8D7312FC28",
-        "3876FDC471FC460B",
       ],
       hide_until_deps_visible: true,
       hide_details_until_startable: true,
@@ -1489,11 +1503,8 @@
           id: "2CC59DECF8DCA48E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:rainbow_core",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:rainbow_core",
-            },
           },
         },
       ],
@@ -1502,11 +1513,8 @@
           id: "6CC7A041EA0C54D0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:netherite_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:netherite_furnace",
-            },
           },
         },
         {
@@ -1534,7 +1542,6 @@
         "61847F47CCA225D9",
         "711DDD55CEC439E5",
         "32C7D8AE859BF89E",
-        "3876FDC471FC460B",
       ],
       hide_until_deps_visible: true,
       hide_details_until_startable: true,
@@ -1544,11 +1551,8 @@
           id: "1364DC251AC7325A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:rainbow_plating",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "8x ironfurnaces:rainbow_plating",
-            },
           },
           count: 8,
         },
@@ -1558,11 +1562,8 @@
           id: "1CBB74563FE53945",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:crystal_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:crystal_furnace",
-            },
           },
         },
         {
@@ -1581,7 +1582,6 @@
       y: 3.0,
       dependencies: [
         "2EE8FCB63A338BC4",
-        "3876FDC471FC460B",
       ],
       hide_until_deps_visible: true,
       hide_details_until_startable: true,
@@ -1591,11 +1591,8 @@
           id: "7074C679F7E9CC65",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:rainbow_coal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:rainbow_coal",
-            },
           },
         },
       ],
@@ -1614,7 +1611,6 @@
       dependencies: [
         "661C072E48F8D41F",
         "2748ACEAB96A5F60",
-        "3876FDC471FC460B",
       ],
       dependency_requirement: "one_completed",
       id: "757B14D08A9A03C4",
@@ -1623,11 +1619,8 @@
           id: "087F1F4ABAEABEE3",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:item_copy",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:item_copy",
-            },
           },
         },
       ],
@@ -1658,7 +1651,6 @@
         "711DDD55CEC439E5",
         "32C7D8AE859BF89E",
         "79C4CF8D7312FC28",
-        "3876FDC471FC460B",
       ],
       hide_until_deps_visible: true,
       id: "0ADBE90B33ACC9FB",
@@ -1667,10 +1659,74 @@
           id: "1E571965015CB5C6",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:million_furnace",
             count: 1,
             components: {
-              "ftbquests:missing_item": "ironfurnaces:million_furnace",
+              "minecraft:custom_name": {
+                text: "",
+                extra: [
+                  {
+                    text: "R",
+                    color: "yellow",
+                  },
+                  {
+                    text: "a",
+                    color: "green",
+                  },
+                  {
+                    text: "i",
+                    color: "aqua",
+                  },
+                  {
+                    text: "n",
+                    color: "green",
+                  },
+                  {
+                    text: "b",
+                    color: "yellow",
+                  },
+                  {
+                    text: "o",
+                    color: "red",
+                  },
+                  {
+                    text: "w",
+                    color: "green",
+                  },
+                  {
+                    text: " ",
+                    color: "blue",
+                  },
+                  {
+                    text: "F",
+                    color: "aqua",
+                  },
+                  {
+                    text: "u",
+                    color: "green",
+                  },
+                  {
+                    text: "r",
+                    color: "light_purple",
+                  },
+                  {
+                    text: "n",
+                    color: "red",
+                  },
+                  {
+                    text: "a",
+                    color: "red",
+                  },
+                  {
+                    text: "c",
+                    color: "light_purple",
+                  },
+                  {
+                    text: "e",
+                    color: "green",
+                  },
+                ],
+              },
             },
           },
         },
@@ -1678,99 +1734,72 @@
           id: "76F4E8E39E65DE8E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:copper_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:copper_furnace",
-            },
           },
         },
         {
           id: "609F73623D8C1115",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:iron_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:iron_furnace",
-            },
           },
         },
         {
           id: "3309793C433ED961",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:silver_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:silver_furnace",
-            },
           },
         },
         {
           id: "5591ADC1C86DF4C9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:gold_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:gold_furnace",
-            },
           },
         },
         {
           id: "3C67BBF2E866071D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:diamond_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:diamond_furnace",
-            },
           },
         },
         {
           id: "1FEA3210D56357D3",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:emerald_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:emerald_furnace",
-            },
           },
         },
         {
           id: "19CB7D9D615F95B7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:crystal_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:crystal_furnace",
-            },
           },
         },
         {
           id: "6C031CF27E690421",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:obsidian_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:obsidian_furnace",
-            },
           },
         },
         {
           id: "461287CF29534C60",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:netherite_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:netherite_furnace",
-            },
           },
         },
       ],
@@ -1873,9 +1902,6 @@
       x: 0.0,
       y: -1.5,
       shape: "circle",
-      dependencies: [
-        "3876FDC471FC460B",
-      ],
       optional: true,
       invisible: true,
       id: "39605F1FEB1A5A1C",
@@ -1895,7 +1921,6 @@
       y: 5.0,
       dependencies: [
         "79C4CF8D7312FC28",
-        "3876FDC471FC460B",
       ],
       optional: true,
       id: "3A4C17878FC8315B",
@@ -1904,11 +1929,8 @@
           id: "710A1EE625BB05C2",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:allthemodium_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:allthemodium_furnace",
-            },
           },
         },
       ],
@@ -1917,11 +1939,8 @@
           id: "267CF2D64101DD03",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_allthemodium",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_allthemodium",
-            },
           },
         },
         {
@@ -1940,7 +1959,6 @@
       y: 6.0,
       dependencies: [
         "3A4C17878FC8315B",
-        "3876FDC471FC460B",
       ],
       optional: true,
       id: "2E85D6E2CFCC356E",
@@ -1949,11 +1967,8 @@
           id: "4F5816CE50B317C9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:vibranium_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:vibranium_furnace",
-            },
           },
         },
       ],
@@ -1962,11 +1977,8 @@
           id: "66D125B9640849E3",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_vibranium",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_vibranium",
-            },
           },
         },
         {
@@ -1985,7 +1997,6 @@
       y: 6.0,
       dependencies: [
         "2E85D6E2CFCC356E",
-        "3876FDC471FC460B",
       ],
       optional: true,
       id: "25080E3295B1DF01",
@@ -1994,11 +2005,8 @@
           id: "219B80EF2B90BBFD",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:unobtainium_furnace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:unobtainium_furnace",
-            },
           },
         },
       ],
@@ -2007,11 +2015,8 @@
           id: "54105E0656B25E8A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ironfurnaces:upgrade_unobtainium",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "ironfurnaces:upgrade_unobtainium",
-            },
           },
         },
         {

@@ -74,17 +74,33 @@ if (Platform.isLoaded("oritech")) {
       time: 120
     })
     // Remove enchanting stuff
-    allthemods.remove({ id: "oritech:crafting/catalyst_alt" })
-    allthemods.remove({ id: "oritech:crafting/catalyst" })
-    allthemods.remove({ id: "oritech:crafting/enchanter" })
-    allthemods.remove({ id: "minecraft:crafting/catalyst_alt" })
-    allthemods.remove({ id: "minecraft:crafting/catalyst" })
-    allthemods.remove({ id: "minecraft:crafting/enchanter" })
+    // allthemods.remove({ id: "oritech:crafting/catalyst_alt" })
+    // allthemods.remove({ id: "oritech:crafting/catalyst" })
+    // allthemods.remove({ id: "oritech:crafting/enchanter" })
+    // allthemods.remove({ id: "minecraft:crafting/catalyst_alt" })
+    // allthemods.remove({ id: "minecraft:crafting/catalyst" })
+    // allthemods.remove({ id: "minecraft:crafting/enchanter" })
     // Cheaty alloys
-    allthemods.remove({ id: "oritech:crafting/alloy/steel" })
-    allthemods.remove({ id: "oritech:crafting/alloy/electrum" })
-    allthemods.remove({ id: "minecraft:crafting/alloy/steel" })
-    allthemods.remove({ id: "minecraft:crafting/alloy/electrum" })
+    allthemods.remove({ id: "oritech:steel_ingot" })
+    allthemods.remove({ id: "oritech:electrum_ingot" })
+	// Alternate Tainted Refinery recipe
+	// To be revisited another time
+	/* if (Platform.isLoaded("apothic_enchanting")) {
+		allthemods.custom({
+			  "type": "oritech:machine_recipe",
+			  "itemInputs": [
+				  "oritech:refinery",
+				  "apothic_enchanting:echoing_sculkshelf"
+			  ],
+			  "itemResults": [
+				{
+				  "id": "oritech:tainted_refinery"
+				}
+			  ],
+			  "recipeType": "oritech:particle_collision",
+			  "time": 6000
+			}).id("allthemods:tainted_refinery")
+	} */
   })
 }
 

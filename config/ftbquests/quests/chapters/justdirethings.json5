@@ -28,10 +28,10 @@
           id: "4AE9DB73FB6C1EBC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "patchouli:guide_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "patchouli:guide_book",
+              "patchouli:book": "justdirethings:justdirethingsbook",
             },
           },
         },
