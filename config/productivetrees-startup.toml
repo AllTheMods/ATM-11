@@ -1,0 +1,8 @@
+[General]
+	#Minimal mode: skip registering the decorative and functional wood blocks for every tree
+	#(stairs, slabs, fences, fence gates, pressure plates, buttons, doors, trapdoors, bookshelves and signs).
+	#Logs, wood, planks, leaves, saplings and fruit are always registered.
+	#This greatly reduces the number of registered blockstates and lowers RAM usage.
+	#IMPORTANT: this changes which blocks exist, so it MUST be set to the same value on the server and on every
+	#connecting client - a mismatch will prevent clients from joining.
+	minimal = true
