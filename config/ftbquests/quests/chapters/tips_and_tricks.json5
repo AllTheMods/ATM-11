@@ -343,10 +343,6 @@
       ],
     },
     {
-      icon: {
-        id: "utilitarian:white_trapped_soliciting_carpet",
-        count: 1,
-      },
       x: 1.0,
       y: 2.5,
       id: "219AA017149C36E2",
@@ -355,11 +351,8 @@
           id: "0D5203048B6E068C",
           type: "item",
           item: {
-            id: "ftbfiltersystem:smart_filter",
+            id: "utilitarian:white_trapped_soliciting_carpet",
             count: 1,
-            components: {
-              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:bee_queen/dedicated_trade_tags/modded/utilitarian_trapped_soliciting_carpets)",
-            },
           },
         },
       ],
