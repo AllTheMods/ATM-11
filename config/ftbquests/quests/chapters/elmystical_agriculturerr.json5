@@ -3863,7 +3863,7 @@
             components: {
               "minecraft:entity_data": {
                 id: "productivebees:configurable_bee",
-                type: "productivebees:awakened_supremium",
+                type: "productivebees:mysticalagriculture/awakened_supremium",
               },
             },
           },
