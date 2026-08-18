@@ -8116,11 +8116,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "oritech:adamant_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "oritech:adamant_ingot",
-        },
       },
       x: 6.0,
       y: 15.5,
@@ -8128,7 +8125,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       id: "13C5C06278DD9C95",
       tasks: [
