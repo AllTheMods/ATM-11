@@ -357,7 +357,6 @@
   ],
   "quest.573BC5360C5CA675.title": "Grave's Bee",
   "quest.7C169A4A39F37FAC.quest_subtitle": "No more shearing.",
-  "quest.516289A040EE9FDC.title": "Menril Bee",
   "quest.40F8A44DF4D8DBD6.quest_subtitle": "Magmatic + Nomad",
   "quest.13CAD46F4B229AB4.quest_subtitle": "Crafted with Nature Altar",
   "quest.5F1784E562C29B66.title": "Ender Bee",
@@ -367,7 +366,6 @@
   "quest.36541A2179A7E76B.quest_subtitle": "Feed Benitoite Ore to BlazBee",
   "quest.3AF30E1EC163E2E3.quest_subtitle": "Feed a Diamond Bee a Sapphire",
   "quest.205DE46ABA1CCC8F.title": "Conductive Alloy Bee",
-  "quest.516289A040EE9FDC.quest_subtitle": "Crystalline + Neon Cuckoo",
   "quest.3DB5874FA93FDA50.title": "Beryllium Bee",
   "quest.2FE088899C1AF39B.quest_subtitle": "Made in Alloy Smelter",
   "quest.00A17728A387B426.quest_subtitle": "Can be used in any Overworld biome",
@@ -412,7 +410,6 @@
   "quest.17A322C3B309A4D4.quest_subtitle": "It seems Gold Bees like Music Discs",
   "quest.244ACD7024566001.quest_subtitle": "Feed a Sweat Bee Ice",
   "task.359396879CBA62D5.title": "Nest Spawning",
-  "quest.2AEC294578952BFD.title": "Dye Bee",
   "quest.6786B08C30D26037.quest_subtitle": "Spawns in a nest that has an Ashy Mining Bee",
   "quest.17989643018D00C1.quest_subtitle": "You got no Drip",
   "quest.2982D38BD5EE6349.quest_subtitle": "Feed a Shroombee Warped Fungus",
@@ -453,6 +450,7 @@
     "Wood Nests are used to lure Carpenter Bees and the Blue Banded Bee.\n\nDark Oak Nests lures 3 different bees.\n\nThese can be placed in any Overworld Biome.",
   ],
   "task.471F062B01D0DDA1.title": "Quarry Bee",
+  "quest.36324B10F09E9EDA.quest_subtitle": "Spawns from most Wood Nests",
   "quest.3D7480E4F9063E93.title": "Rancher Bee",
   "quest.150FB369BEFFCBBF.title": "Lumium Bee",
   "quest.35FE9C3395491433.title": "Compressed Iron Bee",
@@ -599,6 +597,7 @@
   "quest.35FE9C3395491433.quest_subtitle": "Pressurize the Iron Bee Spawn Egg",
   "quest.573BC5360C5CA675.quest_subtitle": "Ghostly + Skeletal",
   "task.6754D9E162472CA1.title": "Allthemodium Progression",
+  "quest.36324B10F09E9EDA.title": "Green Carpenter Bee",
   "quest.715588642623A8A1.quest_subtitle": "Crystalline + Iron",
   "quest.0FB1FC640471363A.title": "Experience Bee",
   "quest.66324D7D0C51AEAC.quest_desc": [
@@ -679,7 +678,6 @@
   "quest.369D3AF332181DA8.quest_desc": [
     "The Stone Nest can be placed in any overworld biome to lure in a Mason Bee or Digger Bee.",
   ],
-  "quest.2AEC294578952BFD.quest_subtitle": "Lapis + Skeletal",
   "task.6887F86C8673DAF6.title": "Reed Bee",
   "quest.0A11725B41AB45F6.quest_desc": [
     "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \n\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \n\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
