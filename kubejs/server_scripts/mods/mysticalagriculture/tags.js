@@ -36,6 +36,11 @@ ServerEvents.tags("item", (allthemods) => {
     "mysticalagriculture:sky_steel_essence",
     "mysticalagriculture:xychorium_gem_essence"
   ])
+
+  allthemods.add("kubejs:dragon_scale", [
+    "forbidden_arcanus:dragon_scale",
+    "mysticalagradditions:dragon_scale"
+  ])
 })
 
 ServerEvents.tags("block", (allthemods) => {

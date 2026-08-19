@@ -53,7 +53,7 @@ if (Platform.isLoaded("mysticalagriculture")) {
 
     // Magical Soil
     let soilMid = "mysticalagradditions:insanium_farmland"
-    let soil1 = "mysticalagradditions:dragon_scale"
+    let soil1 = "#kubejs:dragon_scale"
     let soil2 = "mysticalagradditions:insanium_block"
     seedCrafting("kubejs:magical_soil", soilMid, soil1, soil2, soil1, soil2, soil1, soil2, soil1, soil2)
   })
