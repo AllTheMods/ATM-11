@@ -1798,7 +1798,7 @@
             id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:wools)",
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool)",
             },
           },
           count: 2,
