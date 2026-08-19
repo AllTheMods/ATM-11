@@ -1,0 +1,4 @@
+#Read before block registration; changing it needs a full game restart.
+#Set to false if another mod's blocks crash the game at startup once Neo Vitae
+#adds its essentia_logged blockstate property to them.
+essentiaLogging = false
