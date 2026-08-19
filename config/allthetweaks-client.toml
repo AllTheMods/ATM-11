@@ -1,0 +1,4 @@
+#Enable Discord Rich Presence
+rpc_enabled = false
+#Allowed Values: ATM11
+pack_mode = "ATM11"
