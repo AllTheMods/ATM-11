@@ -37,13 +37,13 @@
           dimension: "minecraft:overworld",
           ignore_dimension: false,
           position: [
-            0,
-            -32,
-            0,
+            -30000000,
+            -64,
+            -30000000,
           ],
           size: [
             60000000,
-            66,
+            65,
             60000000,
           ],
         },
