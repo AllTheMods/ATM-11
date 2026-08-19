@@ -3,427 +3,24 @@
   group: "",
   order_index: 1,
   icon: {
-    id: "minecraft:zombie_head",
+    id: "minecraft:creeper_spawn_egg",
     count: 1,
   },
   filename: "bounty_board",
-  default_quest_shape: "",
+  default_quest_shape: "square",
   default_hide_dependency_lines: false,
   progression_mode: "flexible",
   quests: [
     {
-      x: -7.0,
-      y: -2.5,
-      hide_until_deps_visible: false,
-      id: "2B05A29C62676EB2",
-      tasks: [
-        {
-          id: "5457CD8C1ABA0B9E",
-          type: "kill",
-          entity: "minecraft:zombie",
-          value: 5,
-        },
-      ],
-      rewards: [
-        {
-          id: "4247F14C46042AFC",
-          type: "item",
-          item: {
-            id: "minecraft:rotten_flesh",
-            count: 1,
-          },
-          count: 5,
-        },
-        {
-          id: "716EC603C1FC926F",
-          type: "xp",
-          xp: 10,
-        },
-      ],
-    },
-    {
-      x: -7.0,
-      y: -4.0,
-      dependencies: [
-        "2B05A29C62676EB2",
-      ],
-      hide_until_deps_visible: true,
-      id: "444ACE285311ECB4",
-      tasks: [
-        {
-          id: "3AD10C31CB6BA4C2",
-          type: "kill",
-          entity: "minecraft:zombie",
-          value: 10,
-        },
-      ],
-      rewards: [
-        {
-          id: "6A111F9EEADA4BA2",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 487623848494439020,
-        },
-        {
-          id: "6FCE69EAA8F7D08C",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: -7.0,
-      y: -5.5,
-      dependencies: [
-        "444ACE285311ECB4",
-      ],
-      id: "146232B8504789C1",
-      tasks: [
-        {
-          id: "51471254BFEBDAA7",
-          type: "kill",
-          entity: "minecraft:zombie",
-          value: 50,
-        },
-      ],
-      rewards: [
-        {
-          id: "0030F09FB9D2DE22",
-          type: "item",
-          item: {
-            id: "minecraft:rotten_flesh",
-            count: 1,
-          },
-          count: 20,
-        },
-        {
-          id: "03A2CFC2335A776A",
-          type: "item",
-          item: {
-            id: "minecraft:iron_ingot",
-            count: 1,
-          },
-          count: 10,
-          random_bonus: 10,
-        },
-        {
-          id: "3FDDD3EECB6D7A85",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "5E76EDDE93587CF1",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: -7.0,
-      y: -7.0,
-      shape: "pentagon",
-      dependencies: [
-        "146232B8504789C1",
-      ],
+      x: 4.5,
+      y: -1.0,
+      shape: "gear",
+      hide_dependent_lines: true,
       size: 1.5,
-      id: "7D5B36BF3EC0C93F",
+      id: "5D8E259D3F0CAE29",
       tasks: [
         {
-          id: "5056DC37AEF523E5",
-          type: "kill",
-          entity: "minecraft:zombie",
-          value: 100,
-        },
-      ],
-      rewards: [
-        {
-          id: "180D2F31E833E6B5",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 5564196992594175882,
-        },
-        {
-          id: "60C9D5254F78453D",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: -5.0,
-      y: -2.5,
-      id: "42822B1E8A53D051",
-      tasks: [
-        {
-          id: "5B35720DF93CE2DB",
-          type: "kill",
-          entity: "minecraft:skeleton",
-          value: 5,
-        },
-      ],
-      rewards: [
-        {
-          id: "47DAFBFECB3B54BE",
-          type: "item",
-          item: {
-            id: "minecraft:bone",
-            count: 1,
-          },
-          count: 5,
-        },
-        {
-          id: "3518A0200422A88E",
-          type: "xp",
-          xp: 10,
-        },
-      ],
-    },
-    {
-      x: -5.0,
-      y: -4.0,
-      dependencies: [
-        "42822B1E8A53D051",
-      ],
-      hide_until_deps_visible: true,
-      id: "4748831E75A840BE",
-      tasks: [
-        {
-          id: "015CB0D172D0712A",
-          type: "kill",
-          entity: "minecraft:skeleton",
-          value: 10,
-        },
-      ],
-      rewards: [
-        {
-          id: "056975CFED74BF64",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 487623848494439020,
-        },
-        {
-          id: "750E749A079F915D",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: -5.0,
-      y: -5.5,
-      dependencies: [
-        "4748831E75A840BE",
-      ],
-      id: "410E0DD607CB3469",
-      tasks: [
-        {
-          id: "2E17443A1BF2A0DA",
-          type: "kill",
-          entity: "minecraft:skeleton",
-          value: 50,
-        },
-      ],
-      rewards: [
-        {
-          id: "7A227BD20C66223A",
-          type: "item",
-          item: {
-            id: "minecraft:bone",
-            count: 1,
-          },
-          count: 20,
-        },
-        {
-          id: "342AD2A33F43C0EE",
-          type: "item",
-          item: {
-            id: "minecraft:arrow",
-            count: 1,
-          },
-          count: 10,
-          random_bonus: 10,
-        },
-        {
-          id: "649295B3143B081D",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "313019F9ED9DC6FE",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: -5.0,
-      y: -7.0,
-      shape: "pentagon",
-      dependencies: [
-        "410E0DD607CB3469",
-      ],
-      size: 1.5,
-      id: "555957ED58ABF8F8",
-      tasks: [
-        {
-          id: "00655AC734444E54",
-          type: "kill",
-          entity: "minecraft:skeleton",
-          value: 100,
-        },
-      ],
-      rewards: [
-        {
-          id: "4F90CF0B7D2FED9B",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 5564196992594175882,
-        },
-        {
-          id: "033A2FCD299B5D6F",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: -3.0,
-      y: -2.5,
-      id: "77FC692AC94D2EEF",
-      tasks: [
-        {
-          id: "423AF6C6647B1626",
-          type: "kill",
-          entity: "minecraft:creeper",
-          value: 5,
-        },
-      ],
-      rewards: [
-        {
-          id: "311AAB7A9D64E946",
-          type: "item",
-          item: {
-            id: "minecraft:gunpowder",
-            count: 1,
-          },
-          count: 5,
-        },
-        {
-          id: "02E39788C2347A3F",
-          type: "xp",
-          xp: 10,
-        },
-      ],
-    },
-    {
-      x: -3.0,
-      y: -4.0,
-      dependencies: [
-        "77FC692AC94D2EEF",
-      ],
-      hide_until_deps_visible: true,
-      id: "65BBA5C0DAEEC31F",
-      tasks: [
-        {
-          id: "1AB92CF7F0246D21",
-          type: "kill",
-          entity: "minecraft:creeper",
-          value: 10,
-        },
-      ],
-      rewards: [
-        {
-          id: "01F13A0B354BBBFD",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 487623848494439020,
-        },
-        {
-          id: "52557DBFFE61E796",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: -3.0,
-      y: -5.5,
-      dependencies: [
-        "65BBA5C0DAEEC31F",
-      ],
-      id: "76A29816F19E33A2",
-      tasks: [
-        {
-          id: "24BA89BD9898759B",
-          type: "kill",
-          entity: "minecraft:creeper",
-          value: 50,
-        },
-      ],
-      rewards: [
-        {
-          id: "27F653E02AC93F25",
-          type: "item",
-          item: {
-            id: "minecraft:gunpowder",
-            count: 1,
-          },
-          count: 20,
-        },
-        {
-          id: "2C419A310D1686C7",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "1E1ACF28D0392E3B",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: -3.0,
-      y: -7.0,
-      shape: "pentagon",
-      dependencies: [
-        "76A29816F19E33A2",
-      ],
-      size: 1.5,
-      id: "5FCA4FF8C135435E",
-      tasks: [
-        {
-          id: "045D1087A2692360",
-          type: "kill",
-          entity: "minecraft:creeper",
-          value: 100,
-        },
-      ],
-      rewards: [
-        {
-          id: "7A4B7D60F897D023",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 5564196992594175882,
-        },
-        {
-          id: "486302C7D5B4041B",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 0.0,
-      y: 0.0,
-      size: 2.0,
-      id: "41C0948CD9D50322",
-      tasks: [
-        {
-          id: "6E3ACC74E0987981",
+          id: "05B8FF96F6CCFB6A",
           type: "advancement",
           advancement: "minecraft:adventure/kill_a_mob",
           criterion: "",
@@ -431,970 +28,261 @@
       ],
       rewards: [
         {
-          id: "55CF29758364D4B2",
+          id: "0458E571582F43C1",
+          type: "item",
+          item: {
+            id: "minecraft:cooked_beef",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "61B8773D54E34E27",
           type: "xp",
           xp: 10,
         },
       ],
     },
     {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "ftbquests:icon": "minecraft:textures/entity_icon/enderdragon/dragon.png",
-        },
-      },
-      x: -1.5,
-      y: 2.5,
-      size: 1.5,
-      id: "728BE1816DA23DC0",
-      tasks: [
-        {
-          id: "1809F1F9A3043683",
-          type: "kill",
-          entity: "minecraft:ender_dragon",
-          value: 1,
-        },
-      ],
-      rewards: [
-        {
-          id: "3E3A9EB1F3AAB283",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "5DE4B3BE0F590D71",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "26ADAC29B5369011",
-          type: "xp",
-          xp: 500,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "ftbquests:icon": "minecraft:textures/entity_icon/wither/wither.png",
-        },
-      },
-      x: 0.0,
-      y: 2.5,
-      size: 1.5,
-      id: "09C82CDDA800D8C9",
-      tasks: [
-        {
-          id: "171FD27057746E80",
-          type: "kill",
-          entity: "minecraft:wither",
-          value: 1,
-        },
-      ],
-      rewards: [
-        {
-          id: "794A9665B0D9CCF1",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "1434B9579016D3A0",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "2D22E6C0EABD5BFF",
-          type: "xp",
-          xp: 500,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "ftbquests:icon": "minecraft:textures/entity_icon/guardian_elder.png",
-        },
-      },
-      x: 0.0,
-      y: 5.5,
-      size: 1.5,
-      id: "08D1CC753F6B4283",
-      tasks: [
-        {
-          id: "2F28B803C75DA3B2",
-          type: "kill",
-          entity: "minecraft:elder_guardian",
-          value: 1,
-        },
-      ],
-      rewards: [
-        {
-          id: "2B969D67BA8AFD3B",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "6871AA890A24F11B",
-          type: "xp",
-          xp: 250,
-        },
-      ],
-    },
-    {
-      x: 0.75,
-      y: 4.0,
+      x: -1.25,
+      y: -3.5,
       dependencies: [
-        "2A6B4DD5FC7C1671",
+        "5D8E259D3F0CAE29",
       ],
-      size: 1.5,
-      id: "56DA46DC82F6665D",
+      id: "36BA83035E215D49",
       tasks: [
         {
-          id: "452B65E139D9E12D",
+          id: "7FCBD0F05D9B1197",
           type: "kill",
-          icon: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "ars_nouveau:wilden_tribute",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
-          entity: "ars_nouveau:wilden_boss",
-          value: 1,
+          entity: "minecraft:zombie",
+          value: 3,
         },
       ],
       rewards: [
         {
-          id: "0F951F75DBAF4D7C",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "4296A74144EBD7F1",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "3F227FD8C4577EAE",
-          type: "xp",
-          xp: 500,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "ftbquests:icon": "minecraft:textures/entity_icon/wandering_trader.png",
-        },
-      },
-      x: 0.0,
-      y: 8.25,
-      size: 1.5,
-      optional: true,
-      id: "0F55D0B4D5094EDB",
-      tasks: [
-        {
-          id: "596ABB45C0612AAF",
-          type: "kill",
-          entity: "minecraft:wandering_trader",
-          value: 1,
-        },
-        {
-          id: "1D136D138EF82DA9",
-          type: "kill",
-          entity: "minecraft:trader_llama",
-          value: 2,
-        },
-      ],
-      rewards: [
-        {
-          id: "26EF416511A49817",
+          id: "223A17E60AA9AFC6",
           type: "item",
           item: {
-            id: "minecraft:iron_sword",
+            id: "minecraft:carrot",
             count: 1,
-            components: {
-              "minecraft:custom_name": {
-                text: "Sword of AlfredGG",
-                italic: false,
-              },
-              "minecraft:lore": [
-                {
-                  text: "For those brave enough to slaughter the Mighty and Annoying Trader",
-                  italic: false,
-                },
-              ],
-            },
           },
         },
         {
-          id: "0C91BB62017BB3F8",
+          id: "60C52F43FBCC9E19",
           type: "item",
           item: {
-            id: "utilitarian:restraining_order",
-            count: 1,
-            components: {
-              "minecraft:custom_name": {
-                text: "Final's Restraining Order",
-                italic: false,
-              },
-              "minecraft:lore": [
-                {
-                  text: "A more peaceful option of keeping the Wandering Trader away",
-                  italic: false,
-                },
-              ],
-            },
-          },
-        },
-        {
-          id: "2052F84B9D14A141",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 7.0,
-      y: -2.5,
-      id: "17F3AC15ADCFB175",
-      tasks: [
-        {
-          id: "0EA4B08DAAFA4287",
-          type: "kill",
-          entity: "minecraft:enderman",
-          value: 5,
-        },
-      ],
-      rewards: [
-        {
-          id: "203C5104D0EE9774",
-          type: "item",
-          item: {
-            id: "minecraft:ender_pearl",
+            id: "minecraft:potato",
             count: 1,
           },
-          count: 5,
         },
         {
-          id: "36F858FD06683839",
+          id: "0D4BD9EDB6EB3120",
           type: "xp",
           xp: 10,
         },
       ],
     },
     {
-      x: 7.0,
-      y: -4.0,
+      x: 0.2,
+      y: -3.5,
       dependencies: [
-        "17F3AC15ADCFB175",
+        "5D8E259D3F0CAE29",
       ],
-      hide_until_deps_visible: true,
-      id: "2916F873A4DA84E8",
+      id: "6FB11D14C251D0B6",
       tasks: [
         {
-          id: "58BF5D3267CF02F8",
+          id: "25C23B427D68CA6A",
           type: "kill",
-          entity: "minecraft:enderman",
-          value: 10,
+          entity: "minecraft:skeleton",
+          value: 3,
         },
       ],
       rewards: [
         {
-          id: "2666996F798768C7",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 487623848494439020,
-        },
-        {
-          id: "268C07B6CA4CDF5E",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: 7.0,
-      y: -5.5,
-      dependencies: [
-        "2916F873A4DA84E8",
-      ],
-      id: "2AAF57D1D8AB6BF8",
-      tasks: [
-        {
-          id: "6BA6847A172C8DD7",
-          type: "kill",
-          entity: "minecraft:enderman",
-          value: 50,
-        },
-      ],
-      rewards: [
-        {
-          id: "05A65D5FBBCE30C9",
+          id: "16CEA183F6D72879",
           type: "item",
           item: {
-            id: "minecraft:ender_pearl",
+            id: "minecraft:bow",
             count: 1,
           },
-          count: 8,
-          random_bonus: 8,
         },
         {
-          id: "46897BBCAF61CBCB",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "0E43D55ADBF66410",
+          id: "6204FD3E283CE84D",
           type: "xp",
-          xp: 50,
+          xp: 10,
         },
       ],
     },
     {
-      x: 7.0,
-      y: -7.0,
-      shape: "pentagon",
+      x: 1.6,
+      y: -3.5,
       dependencies: [
-        "2AAF57D1D8AB6BF8",
+        "5D8E259D3F0CAE29",
       ],
-      size: 1.5,
-      id: "479A4E778D8D7317",
+      id: "18DA0859E7A86ADB",
       tasks: [
         {
-          id: "53C23DB8B4D1CEE2",
-          type: "kill",
-          entity: "minecraft:enderman",
-          value: 100,
-        },
-      ],
-      rewards: [
-        {
-          id: "4EEDA3086FA8D846",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 5564196992594175882,
-        },
-        {
-          id: "6F2AC0995B13BC50",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: -1.0,
-      y: -2.5,
-      id: "1F18B64C84C8809D",
-      tasks: [
-        {
-          id: "18644A08B73A4B12",
+          id: "25A17E23BAB1AD78",
           type: "kill",
           entity: "minecraft:spider",
-          value: 5,
+          value: 3,
         },
       ],
       rewards: [
         {
-          id: "275D3078C224D84C",
+          id: "0B6962C1015B8E7C",
           type: "item",
           item: {
             id: "minecraft:spider_eye",
-            count: 1,
-          },
-          count: 5,
-        },
-        {
-          id: "18E8AA34DB10D4AF",
-          type: "xp",
-          xp: 10,
-        },
-      ],
-    },
-    {
-      x: -1.0,
-      y: -4.0,
-      dependencies: [
-        "1F18B64C84C8809D",
-      ],
-      hide_until_deps_visible: true,
-      id: "283CA6DB77D5D2EB",
-      tasks: [
-        {
-          id: "5801AF8000768808",
-          type: "kill",
-          entity: "minecraft:spider",
-          value: 10,
-        },
-      ],
-      rewards: [
-        {
-          id: "4A6C2A97D769418B",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 487623848494439020,
-        },
-        {
-          id: "524BCAEA8EC772F5",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: -1.0,
-      y: -5.5,
-      dependencies: [
-        "283CA6DB77D5D2EB",
-      ],
-      id: "63A1F25DF658928A",
-      tasks: [
-        {
-          id: "0F94F7427F99DAFE",
-          type: "kill",
-          entity: "minecraft:spider",
-          value: 50,
-        },
-      ],
-      rewards: [
-        {
-          id: "6D9B9C1582E05FFD",
-          type: "item",
-          item: {
-            id: "minecraft:string",
-            count: 1,
-          },
-          count: 10,
-          random_bonus: 10,
-        },
-        {
-          id: "13133B21B6680DA4",
-          type: "item",
-          item: {
-            id: "minecraft:spider_eye",
-            count: 1,
-          },
-          count: 20,
-        },
-        {
-          id: "319B63A612336BE5",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "3F780B09E39A1F03",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: -1.0,
-      y: -7.0,
-      shape: "pentagon",
-      dependencies: [
-        "63A1F25DF658928A",
-      ],
-      size: 1.5,
-      id: "2D7E335B9D780E70",
-      tasks: [
-        {
-          id: "0F8ACB07CFA8CB33",
-          type: "kill",
-          entity: "minecraft:spider",
-          value: 100,
-        },
-      ],
-      rewards: [
-        {
-          id: "2B8E13883A6DEF5F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 5564196992594175882,
-        },
-        {
-          id: "2DCDA6CE746BEBF0",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 3.0,
-      y: -2.5,
-      id: "6141DE779232C8AA",
-      tasks: [
-        {
-          id: "1718CA0F8978181C",
-          type: "kill",
-          entity: "minecraft:blaze",
-          value: 5,
-        },
-      ],
-      rewards: [
-        {
-          id: "651B5C4C1024BC53",
-          type: "item",
-          item: {
-            id: "minecraft:blaze_rod",
-            count: 1,
-          },
-          count: 5,
-        },
-        {
-          id: "4FB5BA9D969A1025",
-          type: "xp",
-          xp: 10,
-        },
-      ],
-    },
-    {
-      x: 3.0,
-      y: -4.0,
-      dependencies: [
-        "6141DE779232C8AA",
-      ],
-      hide_until_deps_visible: true,
-      id: "4F48A4839B549C92",
-      tasks: [
-        {
-          id: "00445193DEB7EAA0",
-          type: "kill",
-          entity: "minecraft:blaze",
-          value: 10,
-        },
-      ],
-      rewards: [
-        {
-          id: "7E7B0138373F4D28",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 487623848494439020,
-        },
-        {
-          id: "375FDEF229AED155",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: 3.0,
-      y: -5.5,
-      dependencies: [
-        "4F48A4839B549C92",
-      ],
-      id: "6C9BC3A699E57162",
-      tasks: [
-        {
-          id: "404D3420276BD963",
-          type: "kill",
-          entity: "minecraft:blaze",
-          value: 50,
-        },
-      ],
-      rewards: [
-        {
-          id: "3D8FB446CA3F27F4",
-          type: "item",
-          item: {
-            id: "minecraft:blaze_rod",
-            count: 1,
-          },
-          count: 10,
-          random_bonus: 10,
-        },
-        {
-          id: "3DD5D5A5D39C411C",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "633125E5D7705BFF",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 3.0,
-      y: -7.0,
-      shape: "pentagon",
-      dependencies: [
-        "6C9BC3A699E57162",
-      ],
-      size: 1.5,
-      id: "35CC1F1DA9530688",
-      tasks: [
-        {
-          id: "2038156A13C07BFC",
-          type: "kill",
-          entity: "minecraft:blaze",
-          value: 100,
-        },
-      ],
-      rewards: [
-        {
-          id: "0845C88CA6D644A3",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 5564196992594175882,
-        },
-        {
-          id: "4871EDD07934397F",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 1.0,
-      y: -2.5,
-      id: "5AC497F76A086A5C",
-      tasks: [
-        {
-          id: "7BAB5E17D2DE4E3E",
-          type: "kill",
-          icon: {
-            id: "minecraft:potion",
-            count: 1,
-          },
-          entity: "minecraft:witch",
-          value: 5,
-        },
-      ],
-      rewards: [
-        {
-          id: "310682051A0C2291",
-          type: "item",
-          item: {
-            id: "minecraft:glass_bottle",
-            count: 1,
-          },
-          count: 5,
-        },
-        {
-          id: "3545146C9E60CD9B",
-          type: "xp",
-          xp: 10,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "minecraft:potion",
-        count: 1,
-      },
-      x: 1.0,
-      y: -4.0,
-      dependencies: [
-        "5AC497F76A086A5C",
-      ],
-      hide_until_deps_visible: true,
-      id: "6E4FD0B568BEB3F9",
-      tasks: [
-        {
-          id: "7127A76DEB4D1696",
-          type: "kill",
-          icon: {
-            id: "minecraft:potion",
-            count: 1,
-          },
-          entity: "minecraft:witch",
-          value: 10,
-        },
-      ],
-      rewards: [
-        {
-          id: "6CCE54980E8D2003",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 487623848494439020,
-        },
-        {
-          id: "4227DE8BC66C8470",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: 1.0,
-      y: -5.5,
-      dependencies: [
-        "6E4FD0B568BEB3F9",
-      ],
-      id: "2D136FCDA92C92AC",
-      tasks: [
-        {
-          id: "78A782913B7E6353",
-          type: "kill",
-          icon: {
-            id: "minecraft:potion",
-            count: 1,
-          },
-          entity: "minecraft:witch",
-          value: 50,
-        },
-      ],
-      rewards: [
-        {
-          id: "52854A638D3FE878",
-          type: "item",
-          item: {
-            id: "minecraft:redstone",
-            count: 1,
-          },
-          count: 10,
-          random_bonus: 10,
-        },
-        {
-          id: "0049AE95E8647336",
-          type: "item",
-          item: {
-            id: "minecraft:sugar",
-            count: 1,
-          },
-          count: 10,
-          random_bonus: 10,
-        },
-        {
-          id: "2A0CD06747FBE0D8",
-          type: "item",
-          item: {
-            id: "minecraft:glowstone_dust",
-            count: 1,
-          },
-          count: 10,
-          random_bonus: 10,
-        },
-        {
-          id: "3F4C40818D552881",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "2A063FC9FE48C54F",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 1.0,
-      y: -7.0,
-      shape: "pentagon",
-      dependencies: [
-        "2D136FCDA92C92AC",
-      ],
-      size: 1.5,
-      id: "6F93A02E620C69FE",
-      tasks: [
-        {
-          id: "5A3D6416BA0C7A20",
-          type: "kill",
-          icon: {
-            id: "minecraft:splash_potion",
-            count: 1,
-          },
-          entity: "minecraft:witch",
-          value: 100,
-        },
-      ],
-      rewards: [
-        {
-          id: "2019E33C08375AA8",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 5564196992594175882,
-        },
-        {
-          id: "7A8FF2B777E0E6D6",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 5.0,
-      y: -2.5,
-      id: "3371F9248D403664",
-      tasks: [
-        {
-          id: "1016033CBB003413",
-          type: "kill",
-          entity: "minecraft:wither_skeleton",
-          value: 5,
-        },
-      ],
-      rewards: [
-        {
-          id: "3C294799544A5584",
-          type: "item",
-          item: {
-            id: "minecraft:coal",
-            count: 1,
-          },
-          count: 5,
-        },
-        {
-          id: "7221550A96E0CD00",
-          type: "item",
-          item: {
-            id: "minecraft:wither_skeleton_skull",
-            count: 1,
-          },
-        },
-        {
-          id: "65A4A21FEB144C30",
-          type: "xp",
-          xp: 10,
-        },
-      ],
-    },
-    {
-      x: 5.0,
-      y: -4.0,
-      dependencies: [
-        "3371F9248D403664",
-      ],
-      hide_until_deps_visible: true,
-      id: "738E94C4CFB05D11",
-      tasks: [
-        {
-          id: "33107949548BC22D",
-          type: "kill",
-          entity: "minecraft:wither_skeleton",
-          value: 10,
-        },
-      ],
-      rewards: [
-        {
-          id: "021EACDBD76A9D2E",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 487623848494439020,
-        },
-        {
-          id: "45DA910A0FE7A08E",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: 5.0,
-      y: -5.5,
-      dependencies: [
-        "738E94C4CFB05D11",
-      ],
-      id: "65CE9117B923C0DB",
-      tasks: [
-        {
-          id: "29A605F8B896F3B9",
-          type: "kill",
-          entity: "minecraft:wither_skeleton",
-          value: 50,
-        },
-      ],
-      rewards: [
-        {
-          id: "578580004196BB13",
-          type: "item",
-          item: {
-            id: "minecraft:wither_skeleton_skull",
             count: 1,
           },
           count: 3,
         },
         {
-          id: "46FE70A8D25378BD",
-          type: "item",
-          item: {
-            id: "minecraft:coal",
-            count: 1,
-          },
-          count: 30,
-        },
-        {
-          id: "24573A422CE166A4",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "1050FBCABC67BA5A",
+          id: "66EA2493ED6AEE19",
           type: "xp",
-          xp: 50,
+          xp: 10,
         },
       ],
     },
     {
-      x: 5.0,
-      y: -7.0,
-      shape: "pentagon",
+      x: 3.05,
+      y: -3.5,
       dependencies: [
-        "65CE9117B923C0DB",
+        "5D8E259D3F0CAE29",
       ],
-      size: 1.5,
-      id: "180B3AFF8C552F3F",
+      id: "5A997A497AF5736A",
       tasks: [
         {
-          id: "727813FFC599C36D",
+          id: "08A2C3200EB982DC",
           type: "kill",
-          entity: "minecraft:wither_skeleton",
-          value: 100,
+          entity: "minecraft:creeper",
+          value: 3,
         },
       ],
       rewards: [
         {
-          id: "4E3E6BB30F0AF436",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 5564196992594175882,
+          id: "16904E043C543AB0",
+          type: "item",
+          item: {
+            id: "minecraft:gunpowder",
+            count: 1,
+          },
+          count: 3,
         },
         {
-          id: "0D93F33D0C1A9F92",
+          id: "7182FB36F3347257",
           type: "xp",
-          xp: 100,
+          xp: 10,
         },
       ],
     },
     {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png",
-        },
-      },
-      x: 1.5,
-      y: 2.5,
-      size: 1.5,
-      id: "0E20A9B79D1C6637",
+      x: 7.35,
+      y: -3.5,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      id: "4614C6A996207103",
       tasks: [
         {
-          id: "69678CAC075C8EA5",
+          id: "4302909965A2A856",
+          type: "kill",
+          entity: "minecraft:blaze",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "5E8584D5E7B57DE0",
+          type: "item",
+          item: {
+            id: "minecraft:blaze_rod",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "27FE72F4C32E4C09",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 8.75,
+      y: -3.5,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      id: "0DC44876B3425E47",
+      tasks: [
+        {
+          id: "3C8BCA227CB944E4",
+          type: "kill",
+          entity: "minecraft:wither_skeleton",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "240A974B7611E371",
+          type: "item",
+          item: {
+            id: "minecraft:wither_skeleton_skull",
+            count: 1,
+          },
+        },
+        {
+          id: "2A83FA8425E87D48",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 10.2,
+      y: -3.5,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      id: "201AB91D1C84A374",
+      tasks: [
+        {
+          id: "535F26BEEA2F0444",
+          type: "kill",
+          entity: "minecraft:enderman",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "498C848987A2869A",
+          type: "item",
+          item: {
+            id: "minecraft:ender_pearl",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "102C650279DDFC96",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 6.0,
+      y: 1.0,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      size: 1.2,
+      id: "7E0C881C0401B152",
+      tasks: [
+        {
+          id: "193E992907DD8A86",
           type: "kill",
           entity: "minecraft:warden",
           value: 1,
@@ -1402,575 +290,70 @@
       ],
       rewards: [
         {
-          id: "49202375E31213C8",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "3B094578896C0276",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "48C26A872754A4F8",
-          type: "xp",
-          xp: 500,
+          id: "3FE691395D058F77",
+          type: "xp_levels",
+          xp_levels: 3,
         },
       ],
     },
     {
-      x: 0.0,
-      y: -1.5,
-      optional: true,
-      invisible: true,
-      id: "08B60D8A25008CCC",
-      tasks: [
-        {
-          id: "00CBF98DE4E9CC90",
-          type: "checkmark",
-        },
-        {
-          id: "65E53C9C5AE98B69",
-          type: "checkmark",
-        },
-      ],
-    },
-    {
-      x: -7.0,
-      y: -1.0,
+      x: 3.0,
+      y: 1.0,
       dependencies: [
-        "2B05A29C62676EB2",
+        "5D8E259D3F0CAE29",
       ],
-      hide_until_deps_complete: true,
-      id: "2BD077EFE77B8EBB",
+      size: 1.2,
+      id: "4E1CD7D06DC316A8",
       tasks: [
         {
-          id: "27BA6318EA2571EF",
+          id: "6AD407018A8EA872",
           type: "kill",
-          entity: "minecraft:husk",
-          value: 1,
-        },
-        {
-          id: "44529CBD7ED7502A",
-          type: "kill",
-          entity: "minecraft:drowned",
+          entity: "minecraft:ender_dragon",
           value: 1,
         },
       ],
       rewards: [
         {
-          id: "5706AC6072D005A3",
-          type: "item",
-          item: {
-            id: "minecraft:trident",
-            count: 1,
-          },
-        },
-        {
-          id: "57E03D5C83C0AC22",
-          type: "xp",
-          xp: 100,
+          id: "7F479EDB4D433319",
+          type: "xp_levels",
+          xp_levels: 3,
         },
       ],
     },
     {
-      x: -5.0,
-      y: -1.0,
+      x: 4.5,
+      y: 1.0,
       dependencies: [
-        "42822B1E8A53D051",
+        "5D8E259D3F0CAE29",
       ],
-      hide_until_deps_complete: true,
-      id: "6827836C8E675A94",
+      size: 1.2,
+      id: "09F0A039C859CAC7",
       tasks: [
         {
-          id: "2270A75156F454C2",
+          id: "240DE3F6F1DC04E8",
           type: "kill",
-          entity: "minecraft:stray",
-          value: 1,
-        },
-        {
-          id: "70FE879E07048556",
-          type: "kill",
-          entity: "minecraft:bogged",
-          value: 1,
-        },
-        {
-          id: "38D8668A4877C67B",
-          type: "kill",
-          entity: "minecraft:parched",
+          entity: "minecraft:wither",
           value: 1,
         },
       ],
       rewards: [
         {
-          id: "4DBB5B2919BC0D99",
-          type: "item",
-          item: {
-            id: "mysticalagriculture:inferium_bow",
-            count: 1,
-          },
-        },
-        {
-          id: "4E90D5E8646C1C81",
-          type: "xp",
-          xp: 100,
+          id: "28EB3BF39A5AF461",
+          type: "xp_levels",
+          xp_levels: 3,
         },
       ],
     },
     {
-      x: -3.0,
-      y: -1.0,
+      x: 4.5,
+      y: 2.5,
       dependencies: [
-        "77FC692AC94D2EEF",
-        "2A6B4DD5FC7C1671",
+        "5D8E259D3F0CAE29",
       ],
-      hide_until_deps_complete: true,
-      id: "1F31EBF49079F9D3",
+      id: "7505090CAAD9F493",
       tasks: [
         {
-          id: "731E8888AF95E703",
-          type: "kill",
-          entity: "creeperoverhaul:badlands_creeper",
-          value: 1,
-        },
-        {
-          id: "2C1B4079B2636255",
-          type: "kill",
-          entity: "creeperoverhaul:dripstone_creeper",
-          value: 1,
-        },
-        {
-          id: "155EE6983A63B091",
-          type: "kill",
-          entity: "creeperoverhaul:spruce_creeper",
-          value: 1,
-        },
-        {
-          id: "40AA310A66CB42C4",
-          type: "kill",
-          entity: "creeperoverhaul:swamp_creeper",
-          value: 1,
-        },
-        {
-          id: "61001A53475D7303",
-          type: "kill",
-          entity: "creeperoverhaul:cave_creeper",
-          value: 1,
-        },
-        {
-          id: "4CCDC48B6CF0E9A6",
-          type: "kill",
-          entity: "creeperoverhaul:birch_creeper",
-          value: 1,
-        },
-        {
-          id: "697D13BE679C255C",
-          type: "kill",
-          entity: "creeperoverhaul:ocean_creeper",
-          value: 1,
-        },
-        {
-          id: "65FC7DCD1AD3551C",
-          type: "kill",
-          entity: "creeperoverhaul:jungle_creeper",
-          value: 1,
-        },
-        {
-          id: "60CC38041D477625",
-          type: "kill",
-          entity: "creeperoverhaul:desert_creeper",
-          value: 1,
-        },
-        {
-          id: "3D9CA8869A46294A",
-          type: "kill",
-          entity: "creeperoverhaul:dark_oak_creeper",
-          value: 1,
-        },
-        {
-          id: "53BDC9D0909029C8",
-          type: "kill",
-          entity: "creeperoverhaul:bamboo_creeper",
-          value: 1,
-        },
-        {
-          id: "5C29B98A93C02002",
-          type: "kill",
-          entity: "creeperoverhaul:beach_creeper",
-          value: 1,
-        },
-        {
-          id: "6501298CA7F25C22",
-          type: "kill",
-          entity: "creeperoverhaul:savannah_creeper",
-          value: 1,
-        },
-        {
-          id: "710A9E28A01EAE55",
-          type: "kill",
-          entity: "creeperoverhaul:hills_creeper",
-          value: 1,
-        },
-        {
-          id: "665BA2AB6D013133",
-          type: "kill",
-          entity: "creeperoverhaul:mushroom_creeper",
-          value: 1,
-        },
-        {
-          id: "48731DD4B285EF6D",
-          type: "kill",
-          entity: "creeperoverhaul:snowy_creeper",
-          value: 1,
-        },
-      ],
-      rewards: [
-        {
-          id: "482EB089D051A610",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "creeperoverhaul:cave_creeper_spawn_egg",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
-        },
-        {
-          id: "425CF0235A15267D",
-          type: "item",
-          item: {
-            id: "minecraft:gunpowder",
-            count: 1,
-          },
-          count: 64,
-        },
-        {
-          id: "2F6DD85FD4E5944E",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "biomeswevegone:mini_cactus",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
-        },
-        {
-          id: "30EE1106BBB241CA",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 7.0,
-      y: -1.0,
-      dependencies: [
-        "17F3AC15ADCFB175",
-        "2A6B4DD5FC7C1671",
-      ],
-      hide_until_deps_complete: true,
-      id: "570223A03231DF8C",
-      tasks: [
-        {
-          id: "1B12C1A4AC759504",
-          type: "kill",
-          entity: "endermanoverhaul:mushroom_fields_enderman",
-          value: 1,
-        },
-        {
-          id: "4A0E0B8BF5F47AD7",
-          type: "kill",
-          entity: "endermanoverhaul:swamp_enderman",
-          value: 1,
-        },
-        {
-          id: "48C92AF818612EAE",
-          type: "kill",
-          entity: "endermanoverhaul:badlands_enderman",
-          value: 1,
-        },
-        {
-          id: "10A3CB37865A3977",
-          type: "kill",
-          entity: "endermanoverhaul:end_islands_enderman",
-          value: 1,
-        },
-        {
-          id: "61A3E71C7AF4D8DB",
-          type: "kill",
-          entity: "endermanoverhaul:cave_enderman",
-          value: 1,
-        },
-        {
-          id: "03E9013007576E97",
-          type: "kill",
-          entity: "endermanoverhaul:snowy_enderman",
-          value: 1,
-        },
-        {
-          id: "1B54BDEF7517778E",
-          type: "kill",
-          entity: "endermanoverhaul:ice_spikes_enderman",
-          value: 1,
-        },
-        {
-          id: "0BDBE858DB680768",
-          type: "kill",
-          entity: "endermanoverhaul:savanna_enderman",
-          value: 1,
-        },
-        {
-          id: "27CC6E8A08475943",
-          type: "kill",
-          entity: "endermanoverhaul:crimson_forest_enderman",
-          value: 1,
-        },
-        {
-          id: "22FEA0AE155F815A",
-          type: "kill",
-          entity: "endermanoverhaul:windswept_hills_enderman",
-          value: 1,
-        },
-        {
-          id: "7F38E8E5DAAB86F7",
-          type: "kill",
-          entity: "endermanoverhaul:nether_wastes_enderman",
-          value: 1,
-        },
-        {
-          id: "4D60118A45E4AB00",
-          type: "kill",
-          entity: "endermanoverhaul:desert_enderman",
-          value: 1,
-        },
-        {
-          id: "0BA3024B113FB4C0",
-          type: "kill",
-          entity: "endermanoverhaul:coral_enderman",
-          value: 1,
-        },
-        {
-          id: "7C4AB0561CA3A82C",
-          type: "kill",
-          entity: "endermanoverhaul:dark_oak_enderman",
-          value: 1,
-        },
-        {
-          id: "62D9B47A7A46EB50",
-          type: "kill",
-          entity: "endermanoverhaul:soulsand_valley_enderman",
-          value: 1,
-        },
-        {
-          id: "3FAE09970BADAF9C",
-          type: "kill",
-          entity: "endermanoverhaul:flower_fields_enderman",
-          value: 1,
-        },
-        {
-          id: "6713DD4E63A55772",
-          type: "kill",
-          entity: "endermanoverhaul:warped_forest_enderman",
-          value: 1,
-        },
-        {
-          id: "2B53F437D7A01098",
-          type: "kill",
-          entity: "endermanoverhaul:end_enderman",
-          value: 1,
-        },
-      ],
-      rewards: [
-        {
-          id: "309FE3D88633DEB8",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "endermanoverhaul:cave_enderman_spawn_egg",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
-        },
-        {
-          id: "43E622AE47323E2A",
-          type: "item",
-          item: {
-            id: "minecraft:ender_pearl",
-            count: 1,
-          },
-          count: 16,
-        },
-        {
-          id: "3EBF039B52EE3B68",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "endermanoverhaul:soul_pearl",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
-          count: 8,
-        },
-        {
-          id: "21E14E72D1CD4046",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "ftbquests:icon": "eternal_starlight:textures/painting/monstrous.png",
-        },
-      },
-      x: -2.25,
-      y: 4.0,
-      dependencies: [
-        "2A6B4DD5FC7C1671",
-      ],
-      size: 1.5,
-      id: "13BB75A7E1973488",
-      tasks: [
-        {
-          id: "17866842A275B4AA",
-          type: "kill",
-          entity: "eternal_starlight:lunar_monstrosity",
-          value: 1,
-        },
-      ],
-      rewards: [
-        {
-          id: "47EE9DED85C4DFB2",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "2A3EF5F2876D7235",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "2FE20DB8B55821D1",
-          type: "xp",
-          xp: 500,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "ftbquests:icon": "eternal_starlight:block/chiseled_golem_steel_block",
-        },
-      },
-      x: -0.75,
-      y: 4.0,
-      dependencies: [
-        "2A6B4DD5FC7C1671",
-      ],
-      size: 1.5,
-      id: "6DCDD55786025911",
-      tasks: [
-        {
-          id: "38E34F997A59FDC3",
-          type: "kill",
-          entity: "eternal_starlight:starlight_golem",
-          value: 1,
-        },
-      ],
-      rewards: [
-        {
-          id: "0FEDB3F957B8EFBA",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "4B040CCA92509D76",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "327AD5CF0D35765B",
-          type: "xp",
-          xp: 500,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "undergarden:forgotten_guardian",
-        },
-      },
-      x: 2.25,
-      y: 4.0,
-      size: 1.5,
-      id: "199932BF623A6785",
-      tasks: [
-        {
-          id: "4A68FB4E1FED5F47",
-          type: "kill",
-          entity: "undergarden:forgotten_guardian",
-          value: 1,
-        },
-      ],
-      rewards: [
-        {
-          id: "60C889EE9A26BB7D",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "721928BA80B3CDEC",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
-        },
-        {
-          id: "00FCD620346CD937",
-          type: "xp",
-          xp: 500,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "ftbquests:icon": "minecraft:textures/entity_icon/illager/ravager.png",
-        },
-      },
-      x: -1.5,
-      y: 5.5,
-      size: 1.5,
-      id: "734411D931A8CDBF",
-      tasks: [
-        {
-          id: "6219443664D0465C",
+          id: "08066D7814928C83",
           type: "kill",
           entity: "minecraft:ravager",
           value: 1,
@@ -1978,33 +361,62 @@
       ],
       rewards: [
         {
-          id: "5B7DCC94C0CF66C4",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
+          id: "13F21DC577613660",
+          type: "item",
+          item: {
+            id: "minecraft:saddle",
+            count: 1,
+          },
         },
         {
-          id: "22F455F176233430",
-          type: "xp",
-          xp: 250,
+          id: "1BFDD80F7DE1E9B0",
+          type: "xp_levels",
+          xp_levels: 1,
         },
       ],
     },
     {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin_brute.png",
-        },
-      },
-      x: 1.5,
-      y: 5.5,
-      size: 1.5,
-      id: "3813F5C1760C3A79",
+      x: 5.5,
+      y: 2.5,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      id: "375C93C1F3EDC744",
       tasks: [
         {
-          id: "5EB07157D785C3FC",
+          id: "606A26AEE5E2B267",
+          type: "kill",
+          entity: "minecraft:elder_guardian",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "1259BD779B79B0A3",
+          type: "item",
+          item: {
+            id: "minecraft:sponge",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "2865F786AC3BA6B8",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 3.5,
+      y: 2.5,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      id: "409A22A051E9DB83",
+      tasks: [
+        {
+          id: "2FA3ACB4206920A8",
           type: "kill",
           entity: "minecraft:piglin_brute",
           value: 1,
@@ -2012,35 +424,1311 @@
       ],
       rewards: [
         {
-          id: "78725DEDE162CADD",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
+          id: "246797EA395A94D7",
+          type: "item",
+          item: {
+            id: "minecraft:golden_axe",
+            count: 1,
+          },
         },
         {
-          id: "493A6DE589C23218",
+          id: "46B001848EE51D7F",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: -1.25,
+      y: -5.0,
+      dependencies: [
+        "36BA83035E215D49",
+      ],
+      id: "29EFA8ABC8823B4C",
+      tasks: [
+        {
+          id: "687604B3D5E1E78C",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 15,
+        },
+      ],
+      rewards: [
+        {
+          id: "4EBAA7B79E209573",
+          type: "item",
+          item: {
+            id: "reliquary:zombie_heart",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "0E7D9D9922E9BBA2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: -1.25,
+      y: -6.475,
+      dependencies: [
+        "29EFA8ABC8823B4C",
+      ],
+      id: "5444DC19B7956063",
+      tasks: [
+        {
+          id: "3DA5C6D9AC59240F",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 50,
+        },
+      ],
+      rewards: [
+        {
+          id: "336B4ED178536BCF",
+          type: "item",
+          item: {
+            id: "reliquary:zombie_heart",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "3D6EB12576350F58",
           type: "xp",
           xp: 250,
         },
       ],
     },
     {
-      icon: {
-        id: "ftbquests:custom_icon",
-        count: 1,
-        components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "undergarden:rotbeast",
-        },
-      },
-      x: 0.0,
-      y: 6.875000000000007,
-      size: 1.5,
-      id: "2CA9394459C24012",
+      x: -1.25,
+      y: -7.9,
+      dependencies: [
+        "5444DC19B7956063",
+      ],
+      id: "70A5DCA586C8B5CD",
       tasks: [
         {
-          id: "42474723672C2787",
+          id: "0F19D50BFD611C81",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 250,
+        },
+      ],
+      rewards: [
+        {
+          id: "66310CF34484E121",
+          type: "item",
+          item: {
+            id: "minecraft:zombie_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "4F44BBAB46CB9770",
+          type: "item",
+          item: {
+            id: "reliquary:zombie_heart",
+            count: 1,
+          },
+          count: 30,
+        },
+        {
+          id: "6CAAED22EB599DA1",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 0.2,
+      y: -5.0,
+      dependencies: [
+        "6FB11D14C251D0B6",
+      ],
+      id: "09774296C8D8EA29",
+      tasks: [
+        {
+          id: "78D8C3B1803409CD",
+          type: "kill",
+          entity: "minecraft:skeleton",
+          value: 15,
+        },
+      ],
+      rewards: [
+        {
+          id: "388BC41A90D9F36E",
+          type: "item",
+          item: {
+            id: "reliquary:rib_bone",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "0758E38676B7D0E5",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.2,
+      y: -6.475,
+      dependencies: [
+        "09774296C8D8EA29",
+      ],
+      id: "0A397CED848039BF",
+      tasks: [
+        {
+          id: "599C4C766040FA0A",
+          type: "kill",
+          entity: "minecraft:skeleton",
+          value: 50,
+        },
+      ],
+      rewards: [
+        {
+          id: "66CB7C768D28CD55",
+          type: "item",
+          item: {
+            id: "reliquary:rib_bone",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "79FDEB016F96E203",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 0.2,
+      y: -7.9,
+      dependencies: [
+        "0A397CED848039BF",
+      ],
+      id: "0C38AE572FADAC1B",
+      tasks: [
+        {
+          id: "7CE44AC85EEC031F",
+          type: "kill",
+          entity: "minecraft:skeleton",
+          value: 250,
+        },
+      ],
+      rewards: [
+        {
+          id: "1F719FA8E1B288A7",
+          type: "item",
+          item: {
+            id: "minecraft:skeleton_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "272C93B6B0A199A4",
+          type: "item",
+          item: {
+            id: "reliquary:rib_bone",
+            count: 1,
+          },
+          count: 30,
+        },
+        {
+          id: "42230F0ECD7CBF93",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 5.9,
+      y: -3.5,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      id: "7E418FF431CEA977",
+      tasks: [
+        {
+          id: "6B2E89BD0B110C92",
+          type: "kill",
+          entity: "minecraft:pillager",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "6A464BF5F0632F14",
+          type: "item",
+          item: {
+            id: "minecraft:emerald",
+            count: 1,
+          },
+        },
+        {
+          id: "5A4308C50227C954",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 1.6,
+      y: -5.0,
+      dependencies: [
+        "18DA0859E7A86ADB",
+      ],
+      id: "4448A70CDE595DA1",
+      tasks: [
+        {
+          id: "32CB890B8D5E494C",
+          type: "kill",
+          entity: "minecraft:spider",
+          value: 15,
+        },
+      ],
+      rewards: [
+        {
+          id: "1DD984A689AC21F1",
+          type: "item",
+          item: {
+            id: "reliquary:chelicerae",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "5DBBD567D2421097",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 1.6,
+      y: -6.475,
+      dependencies: [
+        "4448A70CDE595DA1",
+      ],
+      id: "29C694D1E506A2F7",
+      tasks: [
+        {
+          id: "0C62F10E501021AA",
+          type: "kill",
+          entity: "minecraft:spider",
+          value: 50,
+        },
+      ],
+      rewards: [
+        {
+          id: "3789CAE559DC880C",
+          type: "item",
+          item: {
+            id: "reliquary:chelicerae",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "456F69CB35AB661B",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 1.6,
+      y: -7.9,
+      dependencies: [
+        "29C694D1E506A2F7",
+      ],
+      id: "386BAE1224A5B149",
+      tasks: [
+        {
+          id: "7283BDA1B3B40537",
+          type: "kill",
+          entity: "minecraft:spider",
+          value: 250,
+        },
+      ],
+      rewards: [
+        {
+          id: "5B4D6705C6CF0E4A",
+          type: "item",
+          item: {
+            id: "minecraft:spider_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "6058306D0855ECE4",
+          type: "item",
+          item: {
+            id: "reliquary:chelicerae",
+            count: 1,
+          },
+          count: 30,
+        },
+        {
+          id: "792B9891E1571811",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 3.05,
+      y: -5.0,
+      dependencies: [
+        "5A997A497AF5736A",
+      ],
+      id: "019179C8F18F0570",
+      tasks: [
+        {
+          id: "6D10104A22DA8E82",
+          type: "kill",
+          entity: "minecraft:creeper",
+          value: 15,
+        },
+      ],
+      rewards: [
+        {
+          id: "6728C7BAF444FB7D",
+          type: "item",
+          item: {
+            id: "reliquary:catalyzing_gland",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "2D7B5D388866C512",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.05,
+      y: -6.475,
+      dependencies: [
+        "019179C8F18F0570",
+      ],
+      id: "5C47B3C08530DDB1",
+      tasks: [
+        {
+          id: "14A68B003E31EF04",
+          type: "kill",
+          entity: "minecraft:creeper",
+          value: 50,
+        },
+      ],
+      rewards: [
+        {
+          id: "08A9B0090B5E3C1A",
+          type: "item",
+          item: {
+            id: "reliquary:catalyzing_gland",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "109D4BD723E129DF",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 3.05,
+      y: -7.9,
+      dependencies: [
+        "5C47B3C08530DDB1",
+      ],
+      id: "7DD807F452EE49E2",
+      tasks: [
+        {
+          id: "0F98CB6896E6348D",
+          type: "kill",
+          entity: "minecraft:creeper",
+          value: 250,
+        },
+      ],
+      rewards: [
+        {
+          id: "06D7C5A9D98378DB",
+          type: "item",
+          item: {
+            id: "minecraft:creeper_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "01D4CBCBA8864FAC",
+          type: "item",
+          item: {
+            id: "reliquary:catalyzing_gland",
+            count: 1,
+          },
+          count: 30,
+        },
+        {
+          id: "6E3160B9332AF974",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 5.9,
+      y: -5.0,
+      dependencies: [
+        "7E418FF431CEA977",
+      ],
+      id: "50F064E817E6B71B",
+      tasks: [
+        {
+          id: "3CA4BFE1F8D7A460",
+          type: "kill",
+          entity: "minecraft:pillager",
+          value: 15,
+        },
+      ],
+      rewards: [
+        {
+          id: "3736AC26E7DCAC02",
+          type: "item",
+          item: {
+            id: "minecraft:emerald",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "0D5150A9793561F1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 5.9,
+      y: -6.475,
+      dependencies: [
+        "50F064E817E6B71B",
+      ],
+      id: "273755520AFA65A9",
+      tasks: [
+        {
+          id: "4FE8C70F09926EF6",
+          type: "kill",
+          entity: "minecraft:pillager",
+          value: 50,
+        },
+      ],
+      rewards: [
+        {
+          id: "5CD5EB039204EBD5",
+          type: "item",
+          item: {
+            id: "minecraft:emerald_block",
+            count: 1,
+          },
+        },
+        {
+          id: "11B777D7D94E0E8C",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 5.9,
+      y: -7.9,
+      dependencies: [
+        "273755520AFA65A9",
+      ],
+      id: "621D0D460BF89340",
+      tasks: [
+        {
+          id: "0E319AD3DCBB2AE4",
+          type: "kill",
+          entity: "minecraft:pillager",
+          value: 250,
+        },
+      ],
+      rewards: [
+        {
+          id: "4A9BCFB87B8B6933",
+          type: "item",
+          item: {
+            id: "minecraft:pillager_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "4E11CB51D087F897",
+          type: "item",
+          item: {
+            id: "minecraft:emerald_block",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "3E5E9D46187700F1",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 7.35,
+      y: -5.0,
+      dependencies: [
+        "4614C6A996207103",
+      ],
+      id: "76C99FF1F2827F74",
+      tasks: [
+        {
+          id: "450943E5F3EF1981",
+          type: "kill",
+          entity: "minecraft:blaze",
+          value: 15,
+        },
+      ],
+      rewards: [
+        {
+          id: "79E8736D4C949402",
+          type: "item",
+          item: {
+            id: "reliquary:molten_core",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "42DC03F37FE27491",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 7.35,
+      y: -6.475,
+      dependencies: [
+        "76C99FF1F2827F74",
+      ],
+      id: "11B77A145344F16A",
+      tasks: [
+        {
+          id: "32A4FC6DAE4E0B92",
+          type: "kill",
+          entity: "minecraft:blaze",
+          value: 50,
+        },
+      ],
+      rewards: [
+        {
+          id: "6216DD4A68C3E437",
+          type: "item",
+          item: {
+            id: "reliquary:molten_core",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "1C5494F132598E79",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 7.35,
+      y: -7.9,
+      dependencies: [
+        "11B77A145344F16A",
+      ],
+      id: "069BAF7F52351779",
+      tasks: [
+        {
+          id: "2BF235D169E79CA7",
+          type: "kill",
+          entity: "minecraft:blaze",
+          value: 250,
+        },
+      ],
+      rewards: [
+        {
+          id: "172D5BAFD7C97EE3",
+          type: "item",
+          item: {
+            id: "minecraft:blaze_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "12DFFBAFBFE64008",
+          type: "item",
+          item: {
+            id: "reliquary:molten_core",
+            count: 1,
+          },
+          count: 30,
+        },
+        {
+          id: "6A0E2AF4A9C9F6D4",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 8.75,
+      y: -5.0,
+      dependencies: [
+        "0DC44876B3425E47",
+      ],
+      id: "0382992620B675E9",
+      tasks: [
+        {
+          id: "0559CD1546CC1BEF",
+          type: "kill",
+          entity: "minecraft:wither_skeleton",
+          value: 15,
+        },
+      ],
+      rewards: [
+        {
+          id: "7782828506CF6D0D",
+          type: "item",
+          item: {
+            id: "reliquary:withered_rib",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "3D1F23F1496818FB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 8.75,
+      y: -6.475,
+      dependencies: [
+        "0382992620B675E9",
+      ],
+      id: "69ED1AFF4D4935E6",
+      tasks: [
+        {
+          id: "3CEB1CE77CC83AE5",
+          type: "kill",
+          entity: "minecraft:wither_skeleton",
+          value: 50,
+        },
+      ],
+      rewards: [
+        {
+          id: "1FD678ECA503082A",
+          type: "item",
+          item: {
+            id: "reliquary:withered_rib",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "18917E0C929CF10B",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 8.75,
+      y: -7.9,
+      dependencies: [
+        "69ED1AFF4D4935E6",
+      ],
+      id: "6324671D4CCE077E",
+      tasks: [
+        {
+          id: "245A6C2A58CF0DCD",
+          type: "kill",
+          entity: "minecraft:wither_skeleton",
+          value: 250,
+        },
+      ],
+      rewards: [
+        {
+          id: "255A1474F04D8E90",
+          type: "item",
+          item: {
+            id: "minecraft:wither_skeleton_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "293605E2C6699B89",
+          type: "item",
+          item: {
+            id: "reliquary:withered_rib",
+            count: 1,
+          },
+          count: 30,
+        },
+        {
+          id: "22F461EFABAE22EA",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 10.2,
+      y: -5.0,
+      dependencies: [
+        "201AB91D1C84A374",
+      ],
+      id: "219CEE76A902FE1E",
+      tasks: [
+        {
+          id: "037F629C6F152241",
+          type: "kill",
+          entity: "minecraft:enderman",
+          value: 15,
+        },
+      ],
+      rewards: [
+        {
+          id: "141D6256B3FB3705",
+          type: "item",
+          item: {
+            id: "reliquary:nebulous_heart",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "1F8A33BB91815A1F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.2,
+      y: -6.475,
+      dependencies: [
+        "219CEE76A902FE1E",
+      ],
+      id: "436A7E7E7B7B0091",
+      tasks: [
+        {
+          id: "159A53CEC2109DB3",
+          type: "kill",
+          entity: "minecraft:enderman",
+          value: 50,
+        },
+      ],
+      rewards: [
+        {
+          id: "26DF378B9435CE06",
+          type: "item",
+          item: {
+            id: "reliquary:nebulous_heart",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "6859A7E0BE388C33",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 10.2,
+      y: -7.9,
+      dependencies: [
+        "436A7E7E7B7B0091",
+      ],
+      id: "216BED6C303FF1B4",
+      tasks: [
+        {
+          id: "62FE51353704C91E",
+          type: "kill",
+          entity: "minecraft:enderman",
+          value: 250,
+        },
+      ],
+      rewards: [
+        {
+          id: "61BDBA981773F28F",
+          type: "item",
+          item: {
+            id: "minecraft:enderman_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "6F55102F813E82E9",
+          type: "item",
+          item: {
+            id: "reliquary:nebulous_heart",
+            count: 1,
+          },
+          count: 30,
+        },
+        {
+          id: "5E4E8BD2E56C14F8",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -3.55,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      id: "0DA03E6BD53557B3",
+      tasks: [
+        {
+          id: "7E3E8567F1A4CAF1",
+          type: "kill",
+          entity: "minecraft:slime",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "130DE84EDC364AFF",
+          type: "item",
+          item: {
+            id: "utilitarian:slime_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "094587A90546D226",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -5.0,
+      dependencies: [
+        "0DA03E6BD53557B3",
+      ],
+      id: "163DD5967BD569E6",
+      tasks: [
+        {
+          id: "2A8AFBE5DD12EB4D",
+          type: "kill",
+          entity: "minecraft:slime",
+          value: 15,
+        },
+      ],
+      rewards: [
+        {
+          id: "5DA7A3EC2B3EAB26",
+          type: "item",
+          item: {
+            id: "reliquary:slime_pearl",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "205B1325AB9882CB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -6.475,
+      dependencies: [
+        "163DD5967BD569E6",
+      ],
+      id: "7CD8E97613E654DA",
+      tasks: [
+        {
+          id: "4408354686D7FE63",
+          type: "kill",
+          entity: "minecraft:slime",
+          value: 50,
+        },
+      ],
+      rewards: [
+        {
+          id: "649E8B564BC510F8",
+          type: "item",
+          item: {
+            id: "reliquary:slime_pearl",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "32BAD63433AFF06F",
+          type: "xp",
+          xp: 250,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: -7.9,
+      dependencies: [
+        "7CD8E97613E654DA",
+      ],
+      id: "160FA64D3D317026",
+      tasks: [
+        {
+          id: "4BD56254525027D7",
+          type: "kill",
+          entity: "minecraft:slime",
+          value: 250,
+        },
+      ],
+      rewards: [
+        {
+          id: "4B0B3434F2FD447A",
+          type: "item",
+          item: {
+            id: "minecraft:slime_spawn_egg",
+            count: 1,
+          },
+        },
+        {
+          id: "49D3D9014CDD6A1D",
+          type: "item",
+          item: {
+            id: "reliquary:slime_pearl",
+            count: 1,
+          },
+          count: 30,
+        },
+        {
+          id: "1A0284D58D7E9543",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 11.9,
+      y: 4.0,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      size: 0.9,
+      optional: true,
+      id: "06E4F2B60A35BFC2",
+      tasks: [
+        {
+          id: "76CA8CD44985A8B4",
+          type: "kill",
+          entity: "minecraft:drowned",
+          value: 1,
+        },
+        {
+          id: "61DDF9879EFC076A",
+          type: "kill",
+          entity: "minecraft:zombie_nautilus",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "2200A5F3AA8BCD28",
+          type: "item",
+          item: {
+            id: "minecraft:iron_nautilus_armor",
+            count: 1,
+          },
+        },
+        {
+          id: "6D1F62B02029C6DD",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.95,
+      y: 4.0,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      size: 0.9,
+      optional: true,
+      id: "630B56B52BD0861B",
+      tasks: [
+        {
+          id: "6A855292C9567351",
+          type: "kill",
+          entity: "minecraft:husk",
+          value: 1,
+        },
+        {
+          id: "15D8B91D2469EF74",
+          type: "kill",
+          entity: "minecraft:parched",
+          value: 1,
+        },
+        {
+          id: "0EEDC01DF402D96D",
+          type: "kill",
+          optional_task: true,
+          entity: "minecraft:camel_husk",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "3C5ACD1C6915987F",
+          type: "item",
+          item: {
+            id: "minecraft:saddle",
+            count: 1,
+          },
+        },
+        {
+          id: "3F4E137283B26133",
+          type: "item",
+          item: {
+            id: "minecraft:tipped_arrow",
+            count: 1,
+            components: {
+              "minecraft:potion_contents": {
+                potion: "minecraft:weakness",
+              },
+            },
+          },
+          count: 16,
+        },
+        {
+          id: "3366B18C20D678B6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 10.5,
+      y: 5.5,
+      shape: "pentagon",
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      size: 1.25,
+      optional: true,
+      id: "4769D039752B5137",
+      tasks: [
+        {
+          id: "03CAD759F6146446",
+          type: "kill",
+          entity: "minecraft:vindicator",
+          value: 1,
+        },
+        {
+          id: "76E06B011FC31E75",
+          type: "kill",
+          entity: "minecraft:evoker",
+          value: 1,
+        },
+        {
+          id: "3DE755EDD247E6C1",
+          type: "kill",
+          entity: "minecraft:witch",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "47E3293BFC0A6F83",
+          type: "item",
+          item: {
+            id: "minecraft:totem_of_undying",
+            count: 1,
+          },
+        },
+        {
+          id: "421E030F1736C5A0",
+          type: "item",
+          item: {
+            id: "minecraft:emerald_block",
+            count: 1,
+          },
+        },
+        {
+          id: "671D148288025DDB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.95,
+      y: 4.0,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      size: 0.9,
+      optional: true,
+      id: "07FE5B1322E4B33C",
+      tasks: [
+        {
+          id: "4338CBE250E59A0F",
+          type: "kill",
+          entity: "minecraft:skeleton_horse",
+          value: 1,
+        },
+        {
+          id: "7FAE69BD20CE7D52",
+          type: "kill",
+          entity: "minecraft:skeleton",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "6DD703EB54F8A05C",
+          type: "item",
+          item: {
+            id: "minecraft:bow",
+            count: 1,
+          },
+        },
+        {
+          id: "330123B0042913D7",
+          type: "item",
+          item: {
+            id: "minecraft:iron_horse_armor",
+            count: 1,
+          },
+        },
+        {
+          id: "42C06092E1FB9889",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 4.0,
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      size: 0.9,
+      optional: true,
+      id: "3B0DB0F878FF3B79",
+      tasks: [
+        {
+          id: "48EDCE05C353EE55",
+          type: "kill",
+          entity: "minecraft:zombie",
+          value: 1,
+        },
+        {
+          id: "4AF7AB2B8F3802CD",
+          type: "kill",
+          entity: "minecraft:zombie_horse",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "40B2FF6705D931A1",
+          type: "item",
+          item: {
+            id: "minecraft:iron_spear",
+            count: 1,
+          },
+        },
+        {
+          id: "280A707F013C48E6",
+          type: "item",
+          item: {
+            id: "minecraft:iron_horse_armor",
+            count: 1,
+          },
+        },
+        {
+          id: "3185BA692B8AF40A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 3.0,
+      shape: "heart",
+      dependencies: [
+        "5D8E259D3F0CAE29",
+      ],
+      size: 2.0,
+      optional: true,
+      id: "4DDB6B8DED7EEBA1",
+      tasks: [
+        {
+          id: "348B6E17A1B54112",
+          type: "kill",
+          entity: "minecraft:wandering_trader",
+          value: 1,
+        },
+        {
+          id: "15D1A8025F900B29",
+          type: "kill",
+          entity: "minecraft:trader_llama",
+          value: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "64F6C8FB7B7B4240",
+          type: "item",
+          item: {
+            id: "utilitarian:white_trapped_soliciting_carpet",
+            count: 1,
+          },
+        },
+        {
+          id: "39E7A6431E8FC584",
+          type: "xp_levels",
+          xp_levels: 1,
+        },
+      ],
+    },
+    {
+      x: 4.5,
+      y: 5.5,
+      id: "2858D525BF3859BD",
+      tasks: [
+        {
+          id: "42B3EAD54632E864",
           type: "kill",
           entity: "undergarden:rotbeast",
           value: 1,
@@ -2048,27 +1736,60 @@
       ],
       rewards: [
         {
-          id: "460EB4768EF41335",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4196188979167302596,
+          id: "40FFC79F59A35B33",
+          type: "item",
+          item: {
+            id: "undergarden:utheric_shard",
+            count: 1,
+          },
+          count: 4,
         },
         {
-          id: "4CB0208C2757B1F3",
-          type: "xp",
-          xp: 250,
+          id: "3172101935B6606F",
+          type: "xp_levels",
+          xp_levels: 1,
         },
       ],
     },
     {
-      x: 1.5,
-      y: 0.0,
-      invisible: true,
-      id: "2A6B4DD5FC7C1671",
+      x: 3.5,
+      y: 4.0,
+      size: 1.2,
+      id: "7684C1CF274EA5B7",
       tasks: [
         {
-          id: "3342C4B23546408C",
-          type: "checkmark",
+          id: "1F9DE35AF2BD7F56",
+          type: "kill",
+          entity: "undergarden:forgotten_guardian",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5D124C709B40C6A0",
+          type: "xp_levels",
+          xp_levels: 3,
+        },
+      ],
+    },
+    {
+      x: 5.5,
+      y: 4.0,
+      size: 1.2,
+      id: "0553F06757C83B2C",
+      tasks: [
+        {
+          id: "2A82A800D7AB1010",
+          type: "kill",
+          entity: "aether_ii:slider",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5F954ECA04289F7C",
+          type: "xp_levels",
+          xp_levels: 3,
         },
       ],
     },
@@ -2078,12 +1799,48 @@
   images: [
     {
       x: 0.0,
-      y: -10.0,
-      width: 12.0,
-      height: 3.0,
+      y: 2.5,
+      width: 5.0,
+      height: 6.0,
       rotation: 0.0,
-      image: "atm:textures/questpics/bounty.png",
-      id: "69E041794E3E8604",
+      image: "atm:textures/questpics/bounty/bounty_poster.png",
+      id: "1E13F7C1A2F00B52",
+    },
+    {
+      x: 1.5,
+      y: -1.0,
+      width: 5.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bounty/bounty_title1.png",
+      id: "3BD25E33AC3385B5",
+    },
+    {
+      x: 7.5,
+      y: -1.0,
+      width: 5.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bounty/bounty_title2.png",
+      id: "678FA051E354C456",
+    },
+    {
+      x: 10.5,
+      y: 3.5,
+      width: 8.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bounty/bounty_sign2.png",
+      id: "49ABF1E754D06831",
+    },
+    {
+      x: 4.52,
+      y: -5.5,
+      width: 16.0,
+      height: 8.0,
+      rotation: 0.0,
+      image: "atm:textures/questpics/bounty/bounty_sign1.png",
+      id: "7DE7603006CB4E32",
     },
   ],
 }

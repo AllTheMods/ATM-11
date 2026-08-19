@@ -1,93 +1,133 @@
 {
-  "quest.09C82CDDA800D8C9.quest_desc": [
-    "The Wither is the second Minecraft Boss, this one being more elective. \n\nYou'll have to build the Wither to spawn him in. Using 4 Soul Sand in a T shape and placing 3 Wither Skeleton Skulls on top will spawn him in! \n\nHe has 300 Hearts and will fly around shooting Wither Skulls at Players or Mobs. \n\nWhen taken to half Health he will gain a shield against Projectiles and will need to be killed with a Sword or Axe. \n\nOnce you kill him he'll drop: Nether Star, chance at a Withering Soul, and a ton of Corail Items.",
+  "quest.4DDB6B8DED7EEBA1.quest_desc": [
+    "Throughout the Modpacks many different Quests have been made and changed by many different people. \\n\\nThere's only 2 constants. 1. &6&lAllTheMods Team&r has all the Rights to the Quests and 2. &9Wandering Traders&r are very obnoxious to the ones making the Quests. \\n\\nKill him and his stupid Llamas! \\n\\nThis tradition started with &lAlfredGG&r and we aren't going to let it die!",
   ],
-  "quest.13BB75A7E1973488.quest_desc": [
-    "The Lunar Monstrosity is the first Boss added in Eternal Starlight. \n\nThis one lives in the middle of the Cursed Garden, good luck finding and fighting him!",
+  "quest.4769D039752B5137.quest_desc": [
+    "&4&lRaids&r are started by having the &0Bad Omen Effect&r (obtained by Drinking an &0Ominous Potion&r) and going near Villagers. \\n\\n&4&lRaid&r difficulty is determined by the Level of &0Bad Omen Effect&r. \\n\\n&4&lRaids&r will summon Waves of &7Pillagers&r, &aVindicators&r, &aEvokers&r, &5Witches&r, and &7Ravagers&r. Once all Hostile Mobs are Killed the Wave will end and another will come. \\n\\nOnce all Waves are completed, you'll win the &4&lRaid&r and become &aHero of the Village&r. \\n\\nIf all the Villagers die the &4&lRaid&r will be lost.",
   ],
-  "quest.734411D931A8CDBF.quest_desc": [
-    "The Ravager is a Miniboss that only spawns in harder Raids. \n\nIf you don't know what Raids are or don't understand the updated way, that's perfectly fine, that's what Quests are for! \n\nBy killing Pillager Captains (ones that are holding Banners) you can get Ominous Potions, when you drink them you'll get Bad Omen Effect. Then, you can walk near a Village and start a Raid. \n\nRaids will spawn Pillagers, Vindicators, Evokers, Witches, and Ravagers to fight!",
+  "quest.0553F06757C83B2C.title": "&8&lThe Slider",
+  "quest.5444DC19B7956063.title": "A lot of &3Zombies",
+  "quest.160FA64D3D317026.title": "All the &aSlimes",
+  "quest.7684C1CF274EA5B7.title": "&a&lForgotten Guardian",
+  "quest.409A22A051E9DB83.quest_desc": [
+    "&dPiglin Brutes&r rarely spawn in &eBastions&r. \\n\\nThey're different from other &dPiglins&r. They are always &cHostile&r and will Attack regardless of any amount of &eGold&r. \\n\\n(Attacking them will also provoke any other &dPiglins&r). \\n\\nThey have 50 &4Hearts&r and use a &eGolden Axe&r. They won't Drop anything special on Death.",
   ],
-  "quest.17F3AC15ADCFB175.title": "&l&9The End Bounty:&r&e Endermen",
-  "quest.08D1CC753F6B4283.quest_desc": [
-    "The Elder Guardian was considered a third Boss for Minecraft before the Warden, but I consider him a Miniboss. \n\nThe Elder Guardians spawn in Ocean Monuments. Three of them spawn there and will inflict Mining Fatigue on anyone nearby. \n\nIf you want the treasures of the OCean Monument, you'll need to find and kill them! (Tip: I've always found 1 in the top Room, 1 on the far left, and 1 on the far right!) \n\nThey have 80 Hearts and attack like normal Guardians, Lasers and Thorns! \n\nOn death they will drop: Sponges, Prismarine, and their lunch...",
+  "quest.5A997A497AF5736A.quest_desc": [
+    "&2Creepers&r, the face of &2&lMinecraft&r, literally. \\n\\nThey also Spawn in the Dark. \\n\\n&2Creepers&r have 10 &4Hearts&r and have 1 Attack, &lEXPLODING&r! \\n\\n&2Creepers&r will walk up to you and start hissing, this will start a cooldown to where they will Blow up. This will deal a ton of Damage and leave a crater. You can stop it by getting enough space between them, or cutting off eyesight. \\n\\nIf you Kill them without them exploding they'll Drop &7Gunpowder&r.",
   ],
-  "quest.570223A03231DF8C.quest_desc": [
-    "Overhauled Endermen is a similar Mod to Overhauled Creepers! Just with Endermen of course! \n\nYou'll find all these Endermen in all different Biomes and each are unique in their own ways! Some have different attacks, some drop different Pearls, and they all look different!",
+  "quest.4DDB6B8DED7EEBA1.quest_subtitle": "\"This is personal!\" -AlfredGG",
+  "quest.07FE5B1322E4B33C.title": "Skeleton Horse Trap",
+  "quest.019179C8F18F0570.title": "A few &2Creepers",
+  "quest.0DC44876B3425E47.quest_desc": [
+    "&0Wither Skeletons&r Spawn in &4Nether Fortresses&r and are very dangerous. \\n\\nThey have 10 &4Hearts&r and will use a &7Stone Sword&r to Hurt you and Effect you with &0Wither&r. \\n\\nThe &0Wither Effect&r is like &aPoison&r, it just does more Damage and will actually Kill you. \\n\\n&0Wither Skeletons&r are 3 Blocks Tall though, which can be exploited. \\n\\n&0Wither Skeletons&r Drop &0Coal&r, Bones, and rarely their &0Skulls&r.",
   ],
-  "quest.2CA9394459C24012.quest_desc": [
-    "Rotbeasts are Minibosses that spawn all over the Undergarden.",
+  "quest.18DA0859E7A86ADB.title": "&l&4Spider &fBounty",
+  "quest.4DDB6B8DED7EEBA1.title": "A stop to a nuisance",
+  "quest.386BAE1224A5B149.title": "All the &4Spiders",
+  "quest.0C38AE572FADAC1B.title": "All the Skeletons",
+  "quest.5C47B3C08530DDB1.title": "A lot of &2Creepers",
+  "quest.7684C1CF274EA5B7.quest_subtitle": "Undergarden",
+  "quest.4E1CD7D06DC316A8.title": "&d&lEnder Dragon",
+  "quest.09774296C8D8EA29.title": "A few Skeletons",
+  "quest.4769D039752B5137.title": "Finish a &4&lRaid",
+  "quest.375C93C1F3EDC744.title": "&bElder Guardian",
+  "quest.4E1CD7D06DC316A8.quest_desc": [
+    "The &d&lEnder Dragon&r spawns in &d&lThe End&r. \\n\\nShe has 150 &4Hearts&r and will regenerate from the 12 &dEnd Crystals&r on top of the &5Obsidian Pillars&r. \\n\\nShe'll switch between Flying and Perching. When Flying she'll Shoot &dDragon Balls&r at you which will deal an AOE Damage where they hit. \\n\\nWhen Perching she'll float above her &8Bedrock Nest&r. She will be invincible to Projectiles, only taking Damage from Melee Weapons then. She'll also spray &dDragon's Breath&r in front of her which deals the same AOE Damage as her &dDragon Balls&r. \\n\\nOnce Killed, the Exit Portal will open up, her &dDragon Egg&r will spawn on top of the Nest, and she'll Drop a metric ton of &aExperience Orbs&r!",
   ],
-  "quest.1F31EBF49079F9D3.title": "Overhauled Creepers",
-  "quest.0F55D0B4D5094EDB.quest_desc": [
-    "While making a lot of the questlines for ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen.\\n\\n\"Take them out. All of them.\"\\n\\n- AlfredGG \\n\\n\"I second this!\" \\n\\n- Toshiba\\n\\n\"Just file a restraining order against them at this point.\"\\n\\n- Final",
+  "quest.09F0A039C859CAC7.quest_desc": [
+    "&0&lThe Wither&r is a Boss that we construct? \\n\\nWith a T shape of 4 &7Soul Sand&r and placing 3 &0Wither Skeleton Skulls&r on the top &7Soul Sand&r we'll Spawn &0&lThe Wither&r. \\n\\nHe'll slowly regenerate Health to 300 &4Hearts&r, once he's full he'll Explode and start his rampage. \\n\\n&0&lThe Wither&r will Fly around Shooting &0Exploding Wither Skulls&r at every Mob he sees. (If a Mob dies to one, they'll Drop a &0Wither Rose&r). \\n\\nGet him down to 150 &4Hearts&r and he'll become invincible to Projectiles and will need to be hit with Melee Weapons to be Killed. \\n\\nOnce Killed, he'll Drop a Nether Star.",
   ],
-  "quest.5AC497F76A086A5C.title": "&l&9Overworld Bounty:&r&e Witches",
-  "quest.6DCDD55786025911.quest_desc": [
-    "The Starlight Golem is the second Boss in the Eternal Starlight. \n\nHe is charging in the Golem Forge awaiting for a Player to come fight him!",
+  "quest.7E0C881C0401B152.title": "&3&lWarden",
+  "quest.29C694D1E506A2F7.title": "A lot of &4Spiders",
+  "quest.6FB11D14C251D0B6.title": "&lSkeleton Bounty",
+  "quest.201AB91D1C84A374.quest_desc": [
+    "&5Enderman&r Spawn in the Dark in the &2&lOverworld&r, &3Warped Forests&r in &l&cThe Nether&r, and everywhere in &d&lThe End&r. \\n\\n&5Enderman&r have 20 &4Hearts&r and are 3 Blocks tall, but also &aNeutral&r. &5Enderman&r won't Attack unless you try to Hurt them or you look in their Eyes. \\n\\n&5Enderman&r will Teleport away from Projectiles or to catch you off guard. They can also pick up a few Natural Blocks like Dirt and Pumpkins! \\n\\nOn Death they'll Drop &3Ender Pearls&r. ",
   ],
-  "task.171FD27057746E80.title": "Kill 1 Wither",
-  "quest.77FC692AC94D2EEF.title": "&l&9Overworld Bounty:&r&e Creepers",
-  "quest.570223A03231DF8C.title": "Overhauled Endermen",
-  "quest.41C0948CD9D50322.title": "Bounty Board",
-  "quest.199932BF623A6785.quest_desc": [
-    "The Forgotten Guardian is the Boss of the Undergarden. \n\nHe rests in the Catacomb Structure.",
+  "quest.3B0DB0F878FF3B79.quest_desc": [
+    "Rarely in the Dark and on Grass Blocks a &3Zombie Jouster&r may Spawn. \\n\\nThat is a &3Zombie&r holding an Iron Spear Riding a &3Zombie Horse&r. \\n\\nSince it is riding the &3Zombie Horse&r, the &3Zombie&r will be going much faster than normal, since it is going much faster than normal, the Spear will do a ton of Damage. \\n\\nIf you Kill the &3Zombie&r you can keep the &3Zombie Horse&r but be careful, it'll Burn in &eDaylight&r unless it is wearing Armor!",
   ],
-  "quest.41C0948CD9D50322.quest_subtitle": "Killing All The Things",
-  "task.1809F1F9A3043683.title": "Kill 1 Ender Dragon",
-  "quest.3371F9248D403664.title": "&l&cThe Nether Bounty:&r&e Wither Skeletons",
-  "quest.08B60D8A25008CCC.quest_desc": [
-    "This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \n\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \n\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode.",
+  "quest.29EFA8ABC8823B4C.title": "A few &3Zombies",
+  "quest.2858D525BF3859BD.quest_subtitle": "Undergarden",
+  "quest.50F064E817E6B71B.title": "A few &7Pillagers",
+  "quest.76C99FF1F2827F74.title": "A few &cBlazes",
+  "quest.621D0D460BF89340.title": "All the &7Pillagers",
+  "quest.09F0A039C859CAC7.title": "&8&lThe Wither",
+  "quest.0DC44876B3425E47.title": "&l&8Wither Skeleton&f Bounty",
+  "quest.7505090CAAD9F493.title": "&7Ravager",
+  "quest.2858D525BF3859BD.quest_desc": [
+    "The &cRotbeast&r is a miniboss that Spawns anywhere &cRot Mobs&r Spawn. \\n\\nThese hulking beasts have 80 &4Hearts&r and 4 Armor Points. \\n\\n&cRotbeasts&r Attack like Iron Golems, but when they Hit you they'll give the &cRot Infection&r like any other &cRot Mob&r. \\n\\nOnce these giants are brought down they'll Drop &cUtheric Shards&r.",
   ],
-  "quest.2CA9394459C24012.title": "Kill A Rotbeast",
-  "quest.1F31EBF49079F9D3.quest_desc": [
-    "Overhauled Creepers gives us many different varients of Creepers for different Biomes. \n\nEach have different drops and even some are friendly! \n\nAll are afraid of cats though...",
+  "quest.36BA83035E215D49.title": "&l&3Zombie &fBounty",
+  "quest.0553F06757C83B2C.quest_desc": [
+    "&8&lThe Slider&r spawns in &8Sentry Ruins&r. \\n\\nThey have 350 &4Hearts&r and can only be Damaged with a Pickaxe. \\n\\nHe moves in straight lines and will Slam into the ground (or you) to Hurt you. \\n\\nOnce he's whittled down to 100 &4Hearts&r he'll move and attack faster than before.",
   ],
-  "quest.0F55D0B4D5094EDB.title": "Kill The Trader Villager and His Annoying Llamas",
-  "quest.09C82CDDA800D8C9.title": "Kill The Wither",
-  "quest.3813F5C1760C3A79.title": "Kill A Piglin Brute",
-  "quest.56DA46DC82F6665D.title": "Kill The Wilden Chimera",
-  "quest.2BD077EFE77B8EBB.title": "Zombie Variants",
-  "task.1D136D138EF82DA9.title": "Kill 2 Trader Llamas",
-  "quest.08D1CC753F6B4283.title": "Kill A Elder Guardian",
-  "quest.2B05A29C62676EB2.title": "&l&9Overworld Bounty:&r&e Zombies",
-  "quest.13BB75A7E1973488.title": "Kill The Lunar Monstrosity",
-  "quest.0E20A9B79D1C6637.quest_desc": [
-    "The Warden is a boss added in 1.20. \\n\\nHe spawns by having 3 naturally spawning Sculk Shriekers going off in a row, or any Shriekers going off after a first Warden has spawned. \\n\\nHe is the most powerful Mob added by Minecraft, with 500 Hearts and over 20 Hearts damage with his attacks. \\n\\nHis attacks include hitting you and Sonar Blasts for those farther. \\n\\nHis only weakness is being blind, but like daredevil it just made his other senses much stronger! If you are close he can smell you and careful with making noise! \\n\\nIf you somehow kill him he will drop: Sculk Catalysts, a Miniature Blue Heart and Warden Antlers.",
+  "quest.2858D525BF3859BD.title": "&cRotbeast",
+  "quest.0DA03E6BD53557B3.quest_desc": [
+    "&aSlimes&r are fun &agreen&r Cubes that Spawn in specific Chunks or &aSwamps&r. \\n\\nThey come in 3 Sizes. \\n\\n&aLarge Slimes&r have 8 &4Hearts&r and will turn into 2-4 &aMedium Slimes&r. \\n\\n&aMedium Slimes&r have 2 &4Hearts&r and will turn into 2-4 &aSmall Slimes&r. \\n\\n&aSmall Slimes&r have half a &4Heart&r and will Drop &aSlimeballs&r.",
   ],
-  "task.2F28B803C75DA3B2.title": "Kill 1 Elder Guardian",
-  "quest.1F18B64C84C8809D.title": "&l&9Overworld Bounty:&r&e Spiders",
-  "quest.2BD077EFE77B8EBB.quest_desc": [
-    "Zombies have different variants that spawn in other Biomes. \\n\\nHusks- spawn in Deserts. \\nDrowned- spawn Underwater. ",
+  "quest.436A7E7E7B7B0091.title": "A lot of &5Endermen",
+  "quest.3B0DB0F878FF3B79.title": "&3Zombie Jouster",
+  "quest.07FE5B1322E4B33C.quest_desc": [
+    "Wow, a Skeleton Horse how cool... \\n\\nRarely you might find a Skeleton Horse just chilling. It's a trap. \\n\\nWhen you go near it, Lightning will Strike and multiple Skeleton Horse Riders will Spawn. Each have Enchanted Helmets and Bows. \\n\\nIf you Kill the Skeletons you can keep the Skeleton Horses. ",
   ],
-  "quest.42822B1E8A53D051.title": "&l&9Overworld Bounty:&r&e Skeletons",
-  "quest.56DA46DC82F6665D.quest_desc": [
-    "The Wilden Chimera is a Boss added by Ars Nouveau and is needed for progressing through it. \n\nHe needs to be summoned through a ritual then fought!",
+  "quest.7DD807F452EE49E2.title": "All the &2Creepers",
+  "quest.273755520AFA65A9.title": "A lot of &7Pillagers",
+  "quest.7CD8E97613E654DA.title": "A lot of &aSlimes",
+  "quest.70A5DCA586C8B5CD.title": "All the &3Zombies",
+  "quest.6324671D4CCE077E.title": "All the &8Wither Skeletons",
+  "quest.0DA03E6BD53557B3.title": "&l&aSlime &fBounty",
+  "quest.0553F06757C83B2C.quest_subtitle": "Aether 2",
+  "quest.069BAF7F52351779.title": "All the &cBlazes",
+  "quest.201AB91D1C84A374.title": "&l&5Enderman&f Bounty",
+  "quest.36BA83035E215D49.quest_desc": [
+    "&3Zombies&r are the most common &4Hostile&r Mob in &2&lMinecraft&r. \\n\\nThey can Spawn anywhere Dark enough. \\n\\nThey have 10 &4Hearts&r and can rarely Spawn with Armor or Weapons. \\n\\n&3Zombies&r will Burn in direct &eDaylight&r, unless they're wearing Armor. \\n\\nOn Death they'll Drop Rotten Flesh, and rarely Carrots, Potatoes, Iron, and &eGold&r Ingots.",
   ],
-  "quest.41C0948CD9D50322.quest_desc": [
-    "Here you'll find all of the rewards you can get by slaying enemies.",
+  "quest.219CEE76A902FE1E.title": "A few &5Endermen",
+  "quest.7E0C881C0401B152.quest_desc": [
+    "The &3&lWarden&r will Spawn when 3 &3Sculk Shriekers&r go off. \\n\\nHe has 500 &4Hearts&r and does more Damage than any other &2&lVanilla&r Mob. \\n\\nHe has a weakness and that is that he is Blind. He relies on Sound, either from you or &3Sculk Sensors&r or &3Shriekers&r. Or Smell, if you're close enough to him he'll know you are there. \\n\\nThe &3&lWarden&r can teleport by digging through &3Sculk&r and has a &bSonic Blast&r Attack that can go through Blocks. \\n\\nBest way to fight him, if you have to, is to build 23 Blocks up and spam Arrows at him!",
   ],
-  "task.452B65E139D9E12D.title": "Kill 1 Wilden Chimera",
-  "task.00CBF98DE4E9CC90.title": "AllRightsReserved",
-  "task.65E53C9C5AE98B69.title": "AllRightsReserved",
-  "task.3342C4B23546408C.title": "NOT HERE YET",
-  "quest.734411D931A8CDBF.title": "Kill A Ravager",
-  "task.69678CAC075C8EA5.title": "Kill 1 Warden",
-  "quest.3813F5C1760C3A79.quest_desc": [
-    "Piglin Brutes being here might cause controversey but I consider them Minibosses. \n\nThey spawn in Bastions with regular Piglins but these are Hostile not Neutral. Personally I hate that, especially since if you hit them all Piglins will turn Hostile on you. \n\nThey have 50 Hearts and a Golden Axe to hit you. Usually Golden Axes barely do any damage, but when they use it, it is god somehow! \n\nThey drop nothing and act more like an obstacle for Bastions!",
+  "quest.7E418FF431CEA977.title": "&l&7Pillager&f Bounty",
+  "quest.5D8E259D3F0CAE29.quest_desc": [
+    "The Bounty Board is just an optional Quest Page to get Rewards for murder. \\nAlso helps keep track of Mobs you've Killed! ",
   ],
-  "quest.728BE1816DA23DC0.quest_desc": [
-    "The Ender Dragon is the Boss that guards The End. \n\nWhen you enter an End Portal you'll arrive at the End Island where she spawns. \n\nShe has 200 Hearts and can attack with Fireballs or ramming into you. \n\nYou'll have to break the End Crystals on the pillars as they heal her, in order to kill her! \n\nOnce you do kill her, she'll drop: Arcane Essence, Epic Shaderbags, Dragonskin, Dragon Scales from two different mods, and a bunch of experience! \n\nThen the Portal will open up so you can return to the Overworld, or you can find an End Gateway to explore the outer islands. You'll also find a Dragon Egg on the Portal.",
+  "quest.5D8E259D3F0CAE29.title": "&4&lBounty Board",
+  "quest.163DD5967BD569E6.title": "A few &aSlimes",
+  "quest.5A997A497AF5736A.title": "&l&2Creeper &fBounty",
+  "quest.06E4F2B60A35BFC2.quest_desc": [
+    "Which one's Undead? The &bNautilus&r or the &bRider&r? \\n\\nBoth! \\n\\nSome &bDrowned&r can Spawn Riding &bZombie Nautilus&r with a &bTrident&r. \\n\\nAs if &bDrowned&r weren't annoying enough... atleast you can try Taming the &bNautilus&r after you Kill the &bDrowned&r (if you didn't Hit it while Killing the &bDrowned&r).",
   ],
-  "quest.6827836C8E675A94.title": "Skeleton Variants",
-  "quest.0E20A9B79D1C6637.title": "Kill The Warden",
-  "quest.0F55D0B4D5094EDB.quest_subtitle": "\"This is Personal\" - AlfredGG",
-  "task.596ABB45C0612AAF.title": "Kill 1 Wandering Trader",
-  "quest.6827836C8E675A94.quest_desc": [
-    "Skeletons have different variants, like Zombies do! \\n\\nStrays- spawn in Cold Biomes. \\nBogged- spawn in Swamps and Trial Chambers. \\nParched- spawn in Deserts.",
+  "quest.06E4F2B60A35BFC2.title": "&bUndead Nautilus Rider",
+  "quest.7E418FF431CEA977.quest_desc": [
+    "&7Pillagers&r Spawn a few ways. 2 Structures, Woodland Mansions or Pillager Outposts. Pillager Scouts which spawn whenever. Or Village Raids. \\n\\n&7Pillagers&r have 12 &4Hearts&r and carry a Crossbow which can be Enchanted. \\n\\n&7Pillagers&r won't Drop anything besides rarely their Crossbows. &7Captains&r (one's holding a Banner) will Drop their Banner and an &0Ominous Potion&r.",
   ],
-  "quest.6141DE779232C8AA.title": "&l&cThe Nether Bounty:&r&e Blazes",
-  "quest.6DCDD55786025911.title": "Kill The Starlight Golem",
-  "quest.728BE1816DA23DC0.title": "Kill The Ender Dragon",
-  "quest.199932BF623A6785.title": "Kill The Forgotten Guardian",
+  "quest.18DA0859E7A86ADB.quest_desc": [
+    "&4Spiders&r are a &eNeutral&r Mob. Unless it is &9Nighttime&r or you Attack them during &eDay&r, they won't Attack you. \\n\\n&4Spiders&r will Spawn in the Dark. \\n\\nThey have 8 &4Hearts&r and no Armor or Weapons, but they can Climb Walls! \\n\\n&4Spiders&r will Drop String and their &4Eyeballs&r.",
+  ],
+  "quest.216BED6C303FF1B4.title": "All the &5Endermen",
+  "quest.7684C1CF274EA5B7.quest_desc": [
+    "&a&lForgotten Guardians&r Spawn in Catacombs in the &2&lUndergarden&r. \\n\\nThey have 80 &4Hearts&r and 10 Armor Points. \\n\\nThe &a&lForgotten Guardian&r will relentlessly pursue the Player, even crushing Blocks in its way in order to Kill them. \\n\\nStopping them is the only way to obtain &aForgotten Nuggets&r.",
+  ],
+  "quest.0A397CED848039BF.title": "A lot of Skeletons",
+  "quest.69ED1AFF4D4935E6.title": "A lot of &8Wither Skeletons",
+  "quest.409A22A051E9DB83.title": "&dPiglin Brute",
+  "quest.4614C6A996207103.quest_desc": [
+    "Now onto &c&lThe Nether&r we can find &cBlazes&r from Spawners in &4Nether Fortresses&r. \\n\\n&cBlazes&r have 10 &4Hearts&r and will Fly (mostly hover) around. Their Attack is just Shooting Bursts of 3 &cFireballs&r at you. \\n\\n&cBlazes&r will Drop &cBlaze Rods&r, which are needed to progress in &2&lMinecraft&r.",
+  ],
+  "quest.7505090CAAD9F493.quest_desc": [
+    "&7Ravagers&r are hulking tanks ridden by &7Pillagers&r during &4&lRaids&r. \\n\\nThey have 100 &4Hearts&r and are one of the biggest Mobs in &2&lMinecraft&r. \\n\\nThey'll charge through some natural Blocks and chomp at you to Kill you. \\n\\nThey do count as a necessary Kill for &4&lRaids&r but hey, atleast they Drop Saddles when they die!",
+  ],
+  "quest.375C93C1F3EDC744.quest_desc": [
+    "&bElder Guardians&r spawn in threes in &bOcean Monuments&r. \\n\\nThey have 80 &4Hearts&r and will inflict Mining Fatigue Effect to you when near. \\nThey act and Attack like normal &bGuardians&r, Spikes and Lasers, just bigger. \\n\\nWhen you Kill them they'll Drop &eSponges&r!",
+  ],
+  "quest.11B77A145344F16A.title": "A lot of &cBlazes",
+  "quest.630B56B52BD0861B.title": "&eCamel Husk Ambush",
+  "quest.4448A70CDE595DA1.title": "A few &4Spiders",
+  "quest.0382992620B675E9.title": "A few &8Wither Skeleton",
+  "quest.4614C6A996207103.title": "&l&cBlaze &fBounty",
+  "quest.6FB11D14C251D0B6.quest_desc": [
+    "Skeletons are just as common as &3Zombies&r, also Spawning in the Dark. \\n\\nThey have 10 &4Hearts&r as well and can Spawn with Armor. They'll always Spawn with Bows, sometimes with Enchantments. \\nUnless they're wearing Armor they'll Burn in &eDaylight&r. \\n\\nSkeletons will Drop Bones.",
+  ],
+  "quest.630B56B52BD0861B.quest_desc": [
+    "&eCamel Husks&r can Spawn in the Dark in Deserts. \\n\\nA &eHusk&r with an Iron Spear will be Riding a &eCamel Husk&r with a &eParched&r Riding Shotgun. \\n\\nThis is a terrifying sight for those who know all the details of it, which will be you shortly... \\n\\nSince they're on a &eCamel&r you can't Hit them with Melee Weapons without Jumping. \\n\\nThey also have an Iron Spear which will deal extra Damage from the Speed of the &eCamel Husk&r. Plus the &eParched&r which Shoot Arrows of Weakness! \\n\\nI wouldn't go near those, but if you Kill the &eHusk&r and &eParched&r you can keep the &eCamel Husk&r for yourself!",
+  ],
 }
