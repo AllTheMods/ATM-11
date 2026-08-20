@@ -22,8 +22,7 @@ if (Platform.isLoaded("oritech")) {
     allthemods.remove({ id: "oritech:refinery/oilbase" })
 
     allthemods.custom({
-      type: "oritech:machine_recipe",
-      recipeType: "oritech:refinery",
+      type: "oritech:refinery",
       fluidInput: {
         amount: 1000,
         ingredient: "#c:crude_oil"
@@ -47,8 +46,7 @@ if (Platform.isLoaded("oritech")) {
       time: 120
     })
     allthemods.custom({
-      type: "oritech:machine_recipe",
-      recipeType: "oritech:refinery",
+      type: "oritech:refinery",
       fluidInput: {
         amount: 1000,
         ingredient: "#c:crude_oil"

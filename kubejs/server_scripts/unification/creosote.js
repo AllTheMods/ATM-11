@@ -97,8 +97,7 @@ ServerEvents.recipes((allthemods) => {
             modid: "immersiveengineering"
           }
         ],
-        type: "oritech:machine_recipe",
-        recipeType: "oritech:centrifuge_fluid",
+        type: "oritech:centrifuge_fluid",
         fluidInput: {
           amount: 125,
           ingredient: "#c:creosote"
