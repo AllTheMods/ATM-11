@@ -102,7 +102,6 @@
   "quest.4CFE097D0A8683C8.quest_desc": [
     "The &5Obsidian Skull&r is a Helmet that when worn can protect you from Fire/Lava damage! \n\nOvertime it will wear down to which you'll need to repair it with &5Obsidiansteel&r. \n\nThat is also how you craft it, a Skeleton Skull with 8 &5Obsidiansteel&r.",
   ],
-  "task.6B772FA03562537D.title": "Go to Y level 1",
   "quest.40B757772D0FBAC9.title": "&4Blood",
   "quest.66FE4552E09B5EFF.quest_desc": [
     "Prisms are important for many of &6&lForbidden \\& Arcanus&r recipes and other Mods later! ",
@@ -346,6 +345,7 @@
   "quest.31AD9826FB036C98.quest_desc": [
     "&7Runes&r can spawn from Bedrock to Y Level 2. That includes near &9Darkstone&r! \n\nThey're more useful than &2Stellarite&r but less useful than &bArcane Crystals&r.",
   ],
+  "task.6AD7BDBBEF9036A2.title": "Go to Y level 1",
   "quest.0BCC79C1D002F532.quest_desc": [
     "To make the &bArcane Crystal Dust&r into &bLiquid Aureal&r, we'll need a liquid! Infact we'll need THE Liquid... which is &9Water&r! \n\nJust pipe &9Water&r from a &9Sink&r, it's infinite.",
   ],
