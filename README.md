@@ -41,3 +41,4 @@ When reporting an issue, please follow the templates!
 + [![All the Magic Arcana](http://cf.way2muchnoise.eu/1190911.svg "ATMA") All The Magic - Arcana - ATMA](https://www.curseforge.com/minecraft/modpacks/all-the-magic-arcana)
 + [![All the Mods 10 Lite](http://cf.way2muchnoise.eu/1298400.svg "ATM10L") All The Mods 10 Lite - ATM10L](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10-lite)
 + [![All the Mons](http://cf.way2muchnoise.eu/1356598.svg "ATMons") All The Mons - ATMons](https://www.curseforge.com/minecraft/modpacks/all-the-mons)
++ [![All The Mods 10 - Aeronautics Edition](http://cf.way2muchnoise.eu/1644918.svg "ATM10A") All The Mods 10 - Aeronautics Edition - ATM10A](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10-aeronautics)
