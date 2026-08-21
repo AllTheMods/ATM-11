@@ -591,8 +591,8 @@
       tasks: [
         {
           id: "313300B60A3C95D4",
-          type: "item",
-          item: {
+          type: "observation",
+          icon: {
             id: "forbidden_arcanus:hephaestus_forge",
             count: 1,
             components: {
@@ -601,6 +601,9 @@
               },
             },
           },
+          timer: 0,
+          observation_type: "block_state",
+          to_observe: "forbidden_arcanus:hephaestus_forge[forge_tier=2]",
         },
       ],
       rewards: [
@@ -784,8 +787,8 @@
       tasks: [
         {
           id: "1E17A774ACBFDB72",
-          type: "item",
-          item: {
+          type: "observation",
+          icon: {
             id: "forbidden_arcanus:hephaestus_forge",
             count: 1,
             components: {
@@ -794,6 +797,9 @@
               },
             },
           },
+          timer: 0,
+          observation_type: "block_state",
+          to_observe: "forbidden_arcanus:hephaestus_forge[forge_tier=3]",
         },
       ],
       rewards: [
@@ -975,8 +981,8 @@
       tasks: [
         {
           id: "336D8A49CA0CDBE1",
-          type: "item",
-          item: {
+          type: "observation",
+          icon: {
             id: "forbidden_arcanus:hephaestus_forge",
             count: 1,
             components: {
@@ -985,6 +991,9 @@
               },
             },
           },
+          timer: 0,
+          observation_type: "block_state",
+          to_observe: "forbidden_arcanus:hephaestus_forge[forge_tier=4]",
         },
       ],
       rewards: [
@@ -1107,8 +1116,8 @@
       tasks: [
         {
           id: "58CC4131BF3DF799",
-          type: "item",
-          item: {
+          type: "observation",
+          icon: {
             id: "forbidden_arcanus:hephaestus_forge",
             count: 1,
             components: {
@@ -1117,6 +1126,9 @@
               },
             },
           },
+          timer: 0,
+          observation_type: "block_state",
+          to_observe: "forbidden_arcanus:hephaestus_forge[forge_tier=5]",
         },
       ],
       rewards: [
