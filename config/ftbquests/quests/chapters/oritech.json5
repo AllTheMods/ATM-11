@@ -462,13 +462,6 @@
           },
         },
       ],
-      rewards: [
-        {
-          id: "7089C2C6AA93C613",
-          type: "choice",
-          exclude_from_claim_all: true,
-        },
-      ],
     },
     {
       x: -1.5,
@@ -588,13 +581,6 @@
             id: "oritech:machine_core_6",
             count: 1,
           },
-        },
-      ],
-      rewards: [
-        {
-          id: "27B3CDE567884A21",
-          type: "choice",
-          exclude_from_claim_all: true,
         },
       ],
     },
@@ -843,13 +829,6 @@
             id: "oritech:item_filter",
             count: 1,
           },
-        },
-      ],
-      rewards: [
-        {
-          id: "63C7C52CABF7A6F6",
-          type: "choice",
-          exclude_from_claim_all: true,
         },
       ],
     },
@@ -1265,13 +1244,6 @@
             id: "oritech:machine_extender",
             count: 1,
           },
-        },
-      ],
-      rewards: [
-        {
-          id: "7DEA68AC046C80A0",
-          type: "choice",
-          exclude_from_claim_all: true,
         },
       ],
     },
