@@ -60,75 +60,6 @@ ServerEvents.generateData("after_mods", (allthemods) => {
   json = {
     "neoforge:conditions": [
       {
-        "type": "productivebees:bee_exists",
-        "bee": "productivebees:forbidden_arcanus/stellarite"
-      },
-      {
-        "type": "neoforge:mod_loaded",
-        "modid": "forbidden_arcanus"
-      }
-    ],
-    "type": "productivebees:centrifuge",
-    "ingredient": {
-      "neoforge:ingredient_type": "productivebees:component",
-      "components": {
-        "productivebees:bee_type": "productivebees:forbidden_arcanus/stellarite"
-      },
-      "items": "productivebees:configurable_honeycomb"
-    },
-    "outputs": [
-      {
-        "chance": 0.3,
-        "item": "forbidden_arcanus:condensed_experience"
-      },
-      {
-        "chance": 0.1,
-        "item": "forbidden_arcanus:stellarite_piece"
-      },
-      {
-        "item": "productivebees:wax"
-      }
-    ]
-  }
-
-  allthemods.json("productivebees:recipe/centrifuge/forbidden_arcanus/honeycomb_stellarite.json", json)
-
-  json = {
-    "type": "forbidden_arcanus:clibano_combustion",
-    "category": "misc",
-    "cooking_time": 150,
-    "experience": 1,
-    "fire_type": "soul_fire",
-    "ingredient": "minecraft:bee_spawn_egg",
-    "residue": {
-      "chance": 0.65,
-      "type": "forbidden_arcanus:gold"
-    },
-    "result": {
-      "type": "kubejs:deorum_bee",
-      "amount": 1
-    },
-    "neoforge:conditions": [
-      {
-        "type": "productivebees:bee_exists",
-        "bee": "productivebees:raw_materials/gold"
-      },
-      {
-        "type": "productivebees:bee_exists",
-        "bee": "productivebees:forbidden_arcanus/deorum"
-      },
-      {
-        "type": "neoforge:mod_loaded",
-        "modid": "forbidden_arcanus"
-      }
-    ]
-  }
-
-  allthemods.json("productivebees:recipe/forbidden_arcanus/clibano_combustion/deorum_bee.json", json)
-
-  json = {
-    "neoforge:conditions": [
-      {
         "type": "neoforge:mod_loaded",
         "modid": "patchouli"
       }
@@ -147,35 +78,6 @@ ServerEvents.generateData("after_mods", (allthemods) => {
   }
 
   allthemods.json("laserio:recipe/my_book_recipe_shapeless.json", json)
-
-  json = {
-    "neoforge:conditions": [
-      {
-        "type": "productivebees:bee_exists",
-        "bee": "productivebees:oritech/uranite_crystal"
-      },
-      {
-        "type": "neoforge:mod_loaded",
-        "modid": "oritech"
-      }
-    ],
-    "type": "productivebees:centrifuge",
-    "ingredient": {
-      "neoforge:ingredient_type": "productivebees:component",
-      "components": {
-        "productivebees:bee_type": "productivebees:oritech/uranite_crystal"
-      },
-      "items": "productivebees:configurable_honeycomb"
-    },
-    "outputs": [
-      {
-        "chance": 0.75,
-        "item": "oritech:uranite_crystal"
-      }
-    ]
-  }
-
-  allthemods.json("productivebees:recipe/centrifuge/oritech/honeycomb_uranite_crystal.json", json)
 
   // TODO: Temp remove
   let jsonDisable = { "neoforge:conditions": [{ "type": "neoforge:never" }] }
