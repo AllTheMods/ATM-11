@@ -581,13 +581,6 @@
           },
         },
       ],
-      rewards: [
-        {
-          id: "142AB07FADA1DBD7",
-          type: "choice",
-          exclude_from_claim_all: true,
-        },
-      ],
     },
     {
       x: 0.0,
