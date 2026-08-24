@@ -54,6 +54,7 @@
   "quest.09F0A039C859CAC7.title": "&8&lThe Wither",
   "quest.0DC44876B3425E47.title": "&l&8Wither Skeleton&f Bounty",
   "quest.7505090CAAD9F493.title": "&7Ravager",
+  "quest.4E3D118B3C80D8A4.title": "&e&lPiglich",
   "quest.2858D525BF3859BD.quest_desc": [
     "The &cRotbeast&r is a miniboss that Spawns anywhere &cRot Mobs&r Spawn. \\n\\nThese hulking beasts have 80 &4Hearts&r and 4 Armor Points. \\n\\n&cRotbeasts&r Attack like Iron Golems, but when they Hit you they'll give the &cRot Infection&r like any other &cRot Mob&r. \\n\\nOnce these giants are brought down they'll Drop &cUtheric Shards&r.",
   ],
@@ -107,9 +108,13 @@
   "quest.7684C1CF274EA5B7.quest_desc": [
     "&a&lForgotten Guardians&r Spawn in Catacombs in the &2&lUndergarden&r. \\n\\nThey have 80 &4Hearts&r and 10 Armor Points. \\n\\nThe &a&lForgotten Guardian&r will relentlessly pursue the Player, even crushing Blocks in its way in order to Kill them. \\n\\nStopping them is the only way to obtain &aForgotten Nuggets&r.",
   ],
+  "quest.4E3D118B3C80D8A4.quest_desc": [
+    "&e&lPiglich&r Spawn in Pyramids in the &3&lThe Other&r. \\n\\nThey have 9999 &4HP&r.\\n\\nKilling them is the only way to obtain &ePiglich Heart&r.",
+  ],
   "quest.0A397CED848039BF.title": "A lot of Skeletons",
   "quest.69ED1AFF4D4935E6.title": "A lot of &8Wither Skeletons",
   "quest.409A22A051E9DB83.title": "&dPiglin Brute",
+  "quest.4E3D118B3C80D8A4.quest_subtitle": "AllTheModium",
   "quest.4614C6A996207103.quest_desc": [
     "Now onto &c&lThe Nether&r we can find &cBlazes&r from Spawners in &4Nether Fortresses&r. \\n\\n&cBlazes&r have 10 &4Hearts&r and will Fly (mostly hover) around. Their Attack is just Shooting Bursts of 3 &cFireballs&r at you. \\n\\n&cBlazes&r will Drop &cBlaze Rods&r, which are needed to progress in &2&lMinecraft&r.",
   ],
