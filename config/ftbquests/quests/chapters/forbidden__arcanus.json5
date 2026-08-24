@@ -1502,10 +1502,6 @@
       ],
     },
     {
-      icon: {
-        id: "forbidden_arcanus:netherite_blacksmith_gavel",
-        count: 1,
-      },
       x: 13.0,
       y: -1.0,
       shape: "rsquare",
@@ -1519,8 +1515,11 @@
           id: "2BF7B18BF099BCC0",
           type: "item",
           item: {
-            id: "forbidden_arcanus:blacksmith_gavel_head",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forbidden_arcanus:blacksmith_gavel)",
+            },
           },
         },
       ],
