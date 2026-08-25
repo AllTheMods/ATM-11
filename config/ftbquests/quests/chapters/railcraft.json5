@@ -7,7 +7,6 @@
     count: 1,
   },
   filename: "railcraft",
-  always_invisible: true,
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   autofocus_id: "3E75AFE3482834C5",
