@@ -1,7 +1,7 @@
 {
   id: "65A95C2312976E49",
   group: "5A4775CCD6D26C80",
-  order_index: 7,
+  order_index: 8,
   icon: {
     id: "undergarden:catalyst",
     count: 1,
@@ -173,6 +173,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "43A1BC20BB054A14",
       tasks: [
         {
@@ -1346,29 +1347,20 @@
       y: -2.0,
       dependencies: [
         "1C232674CD04024D",
-        "385A828C83812AFF",
       ],
-      hide_until_deps_complete: true,
       size: 1.5,
       id: "5B4B5C148D63ACA1",
       tasks: [
         {
-          id: "6043A40C2B121AF9",
-          type: "observation",
+          id: "33F6CB43639A0232",
           icon: {
-            id: "ftbquests:missing_item",
+            id: "undergarden:forgotten_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "draconicevolution:mob_soul",
-              "ftbquests:missing_item_count": 1,
-              "ftbquests:missing_item_data": {
-                "draconicevolution:soul_id": "undergarden:minion",
-              },
-            },
           },
+          type: "observation",
           timer: 0,
           observation_type: "entity_type",
-          to_observe: "undergarden:forgotten_minion",
+          to_observe: "undergarden:minion",
         },
       ],
       rewards: [
@@ -1741,6 +1733,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "51C59FDF0BD11FDF",
       tasks: [
         {
@@ -1771,6 +1764,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "0FA77C28A57E06F1",
       tasks: [
         {
@@ -1801,6 +1795,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "6D4FB6291CA8D1A6",
       tasks: [
         {
@@ -1831,6 +1826,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "6F416275B6F6D8F0",
       tasks: [
         {
@@ -1870,6 +1866,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "739601B0C43B239B",
       tasks: [
         {
@@ -1900,6 +1897,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "4C5CFA45D9B4F6D3",
       tasks: [
         {
@@ -1930,6 +1928,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "2C5A7E4CD8B57E08",
       tasks: [
         {
@@ -1968,6 +1967,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "22739522F0D33D7B",
       tasks: [
         {
@@ -1998,6 +1998,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "08D9C809CF4062E8",
       tasks: [
         {
@@ -2027,6 +2028,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "4568C2F465EDB960",
       tasks: [
         {
@@ -2253,6 +2255,7 @@
       dependencies: [
         "1C232674CD04024D",
       ],
+      size: 1.0,
       id: "6751F2651063B3A5",
       tasks: [
         {
@@ -2279,6 +2282,7 @@
     {
       x: 0.5,
       y: -9.0,
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "4C7E006502E30C20",
@@ -2718,18 +2722,6 @@
             count: 1,
           },
           count: 3,
-        },
-      ],
-    },
-    {
-      x: 3.5,
-      y: -9.0,
-      invisible: true,
-      id: "385A828C83812AFF",
-      tasks: [
-        {
-          id: "012CAA15ED32720A",
-          type: "checkmark",
         },
       ],
     },
