@@ -27,13 +27,13 @@ if (Platform.isLoaded("theurgy_kubejs")) {
     // AllTheOres
     allthemods
       .create("salt_sulfur", "theurgy:alchemical_sulfur")
-      .sourceItem("alltheores:salt")
+      .sourceItem("alltheores:salt_dust")
       .sourceName("Salt")
       .derivativeTier("abundant")
       .sulfurType("earthen_matters")
     allthemods
       .create("sulfur_sulfur", "theurgy:alchemical_sulfur")
-      .sourceItem("alltheores:sulfur")
+      .sourceItem("alltheores:sulfur_dust")
       .sourceName("Sulfur")
       .derivativeTier("common")
       .sulfurType("misc")
