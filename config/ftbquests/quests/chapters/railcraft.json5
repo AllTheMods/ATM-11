@@ -3,14 +3,10 @@
   group: "2B51AC12041E3F89",
   order_index: 9,
   icon: {
-    id: "ftbquests:missing_item",
+    id: "railcraft:steam_locomotive",
     count: 1,
-    components: {
-      "ftbquests:missing_item": "railcraft:steam_locomotive",
-    },
   },
   filename: "railcraft",
-  always_invisible: true,
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   autofocus_id: "3E75AFE3482834C5",
@@ -19,9 +15,6 @@
       x: 0.0,
       y: 0.0,
       shape: "gear",
-      dependencies: [
-        "21C04A356533F955",
-      ],
       size: 2.0,
       id: "3E75AFE3482834C5",
       tasks: [
@@ -53,19 +46,16 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "railcraft:steel_crowbar",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "railcraft:steel_crowbar",
-        },
       },
       x: -1.0,
       y: -2.0,
       shape: "circle",
       dependencies: [
         "3E75AFE3482834C5",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "31094CC16E710040",
       tasks: [
         {
@@ -90,19 +80,16 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "railcraft:iron_spike_maul",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "railcraft:iron_spike_maul",
-        },
       },
       x: 1.0,
       y: -2.0,
       shape: "circle",
       dependencies: [
         "3E75AFE3482834C5",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "64C105E1E2F97900",
       tasks: [
         {
@@ -131,7 +118,6 @@
       shape: "circle",
       dependencies: [
         "3E75AFE3482834C5",
-        "21C04A356533F955",
       ],
       size: 1.3,
       id: "035C52EF63AD23A7",
@@ -162,7 +148,6 @@
       shape: "circle",
       dependencies: [
         "3E75AFE3482834C5",
-        "21C04A356533F955",
       ],
       size: 1.3,
       id: "068294A7C21DE550",
@@ -171,11 +156,8 @@
           id: "780E541F1FDDCADC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:track_parts",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:track_parts",
-            },
           },
         },
       ],
@@ -193,19 +175,16 @@
       shape: "octagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "5128B119DFFF0C4C",
       tasks: [
         {
           id: "6CED23AD56010036",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:steam_locomotive",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:steam_locomotive",
-            },
           },
         },
       ],
@@ -231,7 +210,6 @@
       y: 3.5,
       dependencies: [
         "3E75AFE3482834C5",
-        "21C04A356533F955",
       ],
       size: 1.3,
       id: "55D7CD0FA8F1AE48",
@@ -260,9 +238,7 @@
     {
       x: -1.5,
       y: -3.0,
-      dependencies: [
-        "21C04A356533F955",
-      ],
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "6E7C4228CD2B6BB9",
@@ -271,11 +247,8 @@
           id: "569ABDEA0337CA53",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:seasons_crowbar",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:seasons_crowbar",
-            },
           },
         },
       ],
@@ -293,19 +266,16 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "425E375A9EC127EB",
       tasks: [
         {
           id: "2ECD516444206494",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:reinforced_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:reinforced_track",
-            },
           },
         },
       ],
@@ -314,11 +284,8 @@
           id: "6AC63836B9D8F540",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:reinforced_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:reinforced_track",
-            },
           },
           count: 32,
         },
@@ -335,19 +302,16 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "75DD345164EE5CD9",
       tasks: [
         {
           id: "5DFB2079DC0E1669",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:high_speed_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:high_speed_track",
-            },
           },
         },
       ],
@@ -356,11 +320,8 @@
           id: "17888ED804CCD833",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:high_speed_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:high_speed_track",
-            },
           },
           count: 32,
         },
@@ -377,19 +338,16 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "2A30595DC6DDBFF7",
       tasks: [
         {
           id: "51419C2F98E2F021",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:electric_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:electric_track",
-            },
           },
         },
       ],
@@ -398,11 +356,8 @@
           id: "6AB0E699C2AC4FAE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:high_speed_electric_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:high_speed_electric_track",
-            },
           },
           count: 32,
         },
@@ -419,19 +374,16 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "4A44623D8A307473",
       tasks: [
         {
           id: "027264CA5EC1248C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:high_speed_electric_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:high_speed_electric_track",
-            },
           },
         },
       ],
@@ -440,11 +392,8 @@
           id: "5380A11064B16A49",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:high_speed_electric_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:high_speed_electric_track",
-            },
           },
           count: 32,
         },
@@ -461,19 +410,16 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "5180CDD196518F64",
       tasks: [
         {
           id: "058E8C9D76CB23FB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:strap_iron_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:strap_iron_track",
-            },
           },
         },
       ],
@@ -482,11 +428,8 @@
           id: "538AA088B64A1D3A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:strap_iron_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:strap_iron_track",
-            },
           },
           count: 32,
         },
@@ -503,19 +446,16 @@
       shape: "rsquare",
       dependencies: [
         "035C52EF63AD23A7",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "5820EDEF71340A1A",
       tasks: [
         {
           id: "0F1E723FD636388F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:abandoned_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:abandoned_track",
-            },
           },
         },
       ],
@@ -524,11 +464,8 @@
           id: "4A6201115EA87977",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:abandoned_track",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:abandoned_track",
-            },
           },
           count: 32,
         },
@@ -545,8 +482,8 @@
       shape: "rsquare",
       dependencies: [
         "64C105E1E2F97900",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "1698565EBB68DC85",
       tasks: [
         {
@@ -575,8 +512,8 @@
       shape: "rsquare",
       dependencies: [
         "64C105E1E2F97900",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "5E750DB2244A67A1",
       tasks: [
         {
@@ -605,8 +542,8 @@
       shape: "rsquare",
       dependencies: [
         "64C105E1E2F97900",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "170118E3C3C072E5",
       tasks: [
         {
@@ -635,19 +572,16 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "283AB56F81EF03A5",
       tasks: [
         {
           id: "7A097BD39D7D64B7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:frame",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:frame",
-            },
           },
         },
       ],
@@ -656,11 +590,8 @@
           id: "61C0B256974B33D4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:frame",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:frame",
-            },
           },
           count: 16,
         },
@@ -673,19 +604,16 @@
       dependencies: [
         "283AB56F81EF03A5",
         "2A30595DC6DDBFF7",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "3E8C2E7769DFBF35",
       tasks: [
         {
           id: "4E067D0ECE1D5ACB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:electric_locomotive",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:electric_locomotive",
-            },
           },
         },
       ],
@@ -713,8 +641,8 @@
       y: 3.5,
       dependencies: [
         "55D7CD0FA8F1AE48",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "2AB0FA084739827A",
       tasks: [
         {
@@ -734,11 +662,8 @@
           id: "3339D792B18E6ABC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
       ],
@@ -749,19 +674,16 @@
       shape: "octagon",
       dependencies: [
         "2AB0FA084739827A",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "6C14D1B60124C2B2",
       tasks: [
         {
           id: "00D7C36072456E75",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:tunnel_bore",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:tunnel_bore",
-            },
           },
         },
       ],
@@ -787,8 +709,8 @@
       y: 5.0,
       dependencies: [
         "55D7CD0FA8F1AE48",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "7F4B734CFB0F0306",
       tasks: [
         {
@@ -816,8 +738,8 @@
       y: 5.0,
       dependencies: [
         "55D7CD0FA8F1AE48",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "08457BEED799E600",
       tasks: [
         {
@@ -846,19 +768,16 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "2D00F85379A4D591",
       tasks: [
         {
           id: "2F82FFEF84105940",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:item_loader",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:item_loader",
-            },
           },
         },
       ],
@@ -884,19 +803,16 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "54F2CB52D3A7BA87",
       tasks: [
         {
           id: "3CC776700462BD41",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:item_unloader",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:item_unloader",
-            },
           },
         },
       ],
@@ -922,19 +838,16 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "17F7964611D893BE",
       tasks: [
         {
           id: "4108B5EDBF82261A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:fluid_loader",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:fluid_loader",
-            },
           },
         },
       ],
@@ -960,19 +873,16 @@
       shape: "hexagon",
       dependencies: [
         "55D7CD0FA8F1AE48",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "365D4B1DC953D406",
       tasks: [
         {
           id: "6398A1D0F1D17016",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:cart_dispenser",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:cart_dispenser",
-            },
           },
         },
       ],
@@ -998,19 +908,16 @@
       shape: "hexagon",
       dependencies: [
         "365D4B1DC953D406",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "4071BBBE12CACD2D",
       tasks: [
         {
           id: "5E1516768436C2FD",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:train_dispenser",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:train_dispenser",
-            },
           },
         },
       ],
@@ -1019,11 +926,8 @@
           id: "32E4238074779B87",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:seasons_crowbar",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:seasons_crowbar",
-            },
           },
         },
         {
@@ -1039,19 +943,16 @@
       shape: "hexagon",
       dependencies: [
         "17F7964611D893BE",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "7F187E291C3D5BA7",
       tasks: [
         {
           id: "4D8F946CDFC03CB0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:fluid_unloader",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:fluid_unloader",
-            },
           },
         },
       ],
@@ -1060,11 +961,8 @@
           id: "3C1D1DEBBD29CB2B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:tank_minecart",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:tank_minecart",
-            },
           },
         },
         {
@@ -1080,19 +978,16 @@
       shape: "hexagon",
       dependencies: [
         "54F2CB52D3A7BA87",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "53594EBA9F7BA840",
       tasks: [
         {
           id: "169FA3C67F65DCA2",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:advanced_item_unloader",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:advanced_item_unloader",
-            },
           },
         },
       ],
@@ -1118,19 +1013,16 @@
       shape: "hexagon",
       dependencies: [
         "2D00F85379A4D591",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "104049993CC62E7F",
       tasks: [
         {
           id: "6F2AF77CE8241FDC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:advanced_item_loader",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:advanced_item_loader",
-            },
           },
         },
       ],
@@ -1158,19 +1050,16 @@
         "170118E3C3C072E5",
         "1698565EBB68DC85",
         "5E750DB2244A67A1",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "541D270451DA4320",
       tasks: [
         {
           id: "11F33753791E7693",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:switch_track_lever",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:switch_track_lever",
-            },
           },
         },
       ],
@@ -1188,8 +1077,8 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "249E5C6893387E15",
       tasks: [
         {
@@ -1223,19 +1112,16 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "677C5D35DADA4A42",
       tasks: [
         {
           id: "7CCFCAE31BE4E898",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:coupler_track_kit",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:coupler_track_kit",
-            },
           },
         },
       ],
@@ -1258,8 +1144,8 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "6DB65926EE6D6C2E",
       tasks: [
         {
@@ -1293,19 +1179,16 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "2869AB982799CF0C",
       tasks: [
         {
           id: "0A6770D7249A5126",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:one_way_track_kit",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:one_way_track_kit",
-            },
           },
         },
       ],
@@ -1328,19 +1211,16 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "6C163E005351FF6D",
       tasks: [
         {
           id: "25006B4FCB647FDC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:whistle_track_kit",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:whistle_track_kit",
-            },
           },
         },
       ],
@@ -1363,19 +1243,16 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "609CA1ACFA981BD5",
       tasks: [
         {
           id: "68FBEA8602970A3C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:routing_track_kit",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:routing_track_kit",
-            },
           },
         },
       ],
@@ -1398,8 +1275,8 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "184F98BE0F6710E2",
       tasks: [
         {
@@ -1433,8 +1310,8 @@
       shape: "square",
       dependencies: [
         "068294A7C21DE550",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "032B654201E71618",
       tasks: [
         {
@@ -1468,19 +1345,16 @@
       shape: "square",
       dependencies: [
         "175D943160C10646",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "38451B61E3FC075B",
       tasks: [
         {
           id: "7448F49F4C7F8DBB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:coke_oven_bricks",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:coke_oven_bricks",
-            },
           },
           count: 26,
         },
@@ -1503,19 +1377,16 @@
       shape: "square",
       dependencies: [
         "175D943160C10646",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "0A43FD0B5C76C1C5",
       tasks: [
         {
           id: "1671149B2E170E87",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:blast_furnace_bricks",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:blast_furnace_bricks",
-            },
           },
           count: 34,
         },
@@ -1535,9 +1406,6 @@
     {
       x: 9.0,
       y: 1.0,
-      dependencies: [
-        "21C04A356533F955",
-      ],
       size: 1.3,
       id: "175D943160C10646",
       tasks: [
@@ -1564,19 +1432,16 @@
       shape: "square",
       dependencies: [
         "175D943160C10646",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "020E6AF37A0421C8",
       tasks: [
         {
           id: "3274B1F3B0D06465",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:water_tank_siding",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:water_tank_siding",
-            },
           },
           count: 26,
         },
@@ -1601,19 +1466,16 @@
       shape: "square",
       dependencies: [
         "175D943160C10646",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "21693C4DE6531D73",
       tasks: [
         {
           id: "2D242F2D86F2DADE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:crusher",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:crusher",
-            },
           },
           count: 12,
         },
@@ -1636,19 +1498,16 @@
       shape: "hexagon",
       dependencies: [
         "175D943160C10646",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "7D40B80DBBC4E160",
       tasks: [
         {
           id: "032FC6ACCA3DE6CD",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:manual_rolling_machine",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:manual_rolling_machine",
-            },
           },
         },
       ],
@@ -1666,19 +1525,16 @@
       shape: "hexagon",
       dependencies: [
         "7D40B80DBBC4E160",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "78D8F40AA9568511",
       tasks: [
         {
           id: "5F947E94FE904606",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:powered_rolling_machine",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:powered_rolling_machine",
-            },
           },
         },
       ],
@@ -1701,8 +1557,8 @@
       shape: "hexagon",
       dependencies: [
         "175D943160C10646",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "475E307844E3AF7F",
       tasks: [
         {
@@ -1745,19 +1601,16 @@
       shape: "square",
       dependencies: [
         "475E307844E3AF7F",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "008D186B4E0ED14F",
       tasks: [
         {
           id: "40011EE5E5C96FE3",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:steam_oven",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:steam_oven",
-            },
           },
           count: 8,
         },
@@ -1779,19 +1632,16 @@
       y: -1.5,
       dependencies: [
         "475E307844E3AF7F",
-        "21C04A356533F955",
       ],
+      size: 1.0,
       id: "61C93ABE07742DCD",
       tasks: [
         {
           id: "1962F3D4A0B4F465",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "railcraft:turbine_rotor",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "railcraft:turbine_rotor",
-            },
           },
         },
       ],
@@ -1812,9 +1662,7 @@
     {
       x: 0.0,
       y: -1.5,
-      dependencies: [
-        "21C04A356533F955",
-      ],
+      size: 1.0,
       icon_scale: 2.0,
       id: "50A286C268F38E09",
       tasks: [
@@ -1835,9 +1683,7 @@
       x: 2.0,
       y: -1.0,
       shape: "circle",
-      dependencies: [
-        "21C04A356533F955",
-      ],
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "5F458D79D43D8842",
@@ -1848,18 +1694,6 @@
         },
         {
           id: "7BB13793B38DFC2C",
-          type: "checkmark",
-        },
-      ],
-    },
-    {
-      x: -2.0,
-      y: -1.0,
-      invisible: true,
-      id: "21C04A356533F955",
-      tasks: [
-        {
-          id: "1B9420C5FC5A1D03",
           type: "checkmark",
         },
       ],
@@ -1875,7 +1709,10 @@
       height: 1.5,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_electric.png",
-      click: "#3E8C2E7769DFBF35",
+      click_action: {
+        type: "open_quest",
+        data: "3E8C2E7769DFBF35",
+      },
       id: "3C13101A2A3543E6",
     },
     {
@@ -1885,7 +1722,10 @@
       height: 1.5,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_steam.png",
-      click: "#5128B119DFFF0C4C",
+      click_action: {
+        type: "open_quest",
+        data: "5128B119DFFF0C4C",
+      },
       id: "23046B832359C233",
     },
     {
@@ -1895,7 +1735,10 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_furnace.png",
-      click: "#0A43FD0B5C76C1C5",
+      click_action: {
+        type: "open_quest",
+        data: "0A43FD0B5C76C1C5",
+      },
       id: "0355D69EA4660D16",
     },
     {
@@ -1905,7 +1748,10 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_coke.png",
-      click: "#38451B61E3FC075B",
+      click_action: {
+        type: "open_quest",
+        data: "38451B61E3FC075B",
+      },
       id: "135B0DDC1FDBC6D1",
     },
     {
@@ -1924,7 +1770,10 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_big_boiler.png",
-      click: "#475E307844E3AF7F",
+      click_action: {
+        type: "open_quest",
+        data: "475E307844E3AF7F",
+      },
       id: "4733790E500C5047",
     },
     {
@@ -1934,7 +1783,10 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_turbine.png",
-      click: "#61C93ABE07742DCD",
+      click_action: {
+        type: "open_quest",
+        data: "61C93ABE07742DCD",
+      },
       id: "72D4FB850B5CAE44",
     },
     {
@@ -1944,7 +1796,10 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_oven.png",
-      click: "#008D186B4E0ED14F",
+      click_action: {
+        type: "open_quest",
+        data: "008D186B4E0ED14F",
+      },
       id: "2456C029B15A5E8B",
     },
     {
@@ -1954,7 +1809,10 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_tank.png",
-      click: "#020E6AF37A0421C8",
+      click_action: {
+        type: "open_quest",
+        data: "020E6AF37A0421C8",
+      },
       id: "27CF813A01A7481A",
     },
     {
@@ -1964,7 +1822,10 @@
       height: 2.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_crusher.png",
-      click: "#21693C4DE6531D73",
+      click_action: {
+        type: "open_quest",
+        data: "21693C4DE6531D73",
+      },
       id: "66D8DEDF4F16D082",
     },
     {
@@ -2010,7 +1871,10 @@
       height: 1.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_carttank.png",
-      click: "#7F4B734CFB0F0306",
+      click_action: {
+        type: "open_quest",
+        data: "7F4B734CFB0F0306",
+      },
       id: "5AB1385AF5045927",
     },
     {
@@ -2020,7 +1884,10 @@
       height: 1.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_cartcell.png",
-      click: "#7F4B734CFB0F0306",
+      click_action: {
+        type: "open_quest",
+        data: "7F4B734CFB0F0306",
+      },
       id: "4392777467B713F0",
     },
     {
@@ -2030,7 +1897,10 @@
       height: 1.0,
       rotation: 0.0,
       image: "atm:textures/questpics/railcraft/rail_carttracks.png",
-      click: "#08457BEED799E600",
+      click_action: {
+        type: "open_quest",
+        data: "08457BEED799E600",
+      },
       id: "0C0F2E5BEB4ABF21",
     },
     {

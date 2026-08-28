@@ -25,6 +25,7 @@
         "0CD04A00529FE1C9",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "58514FDE153FD971",
       tasks: [
         {
@@ -68,6 +69,7 @@
       dependencies: [
         "58514FDE153FD971",
       ],
+      size: 1.0,
       id: "3E33730DC2115D26",
       tasks: [
         {
@@ -111,6 +113,7 @@
       dependencies: [
         "3E33730DC2115D26",
       ],
+      size: 1.0,
       id: "4C0BDD483CCB40C4",
       tasks: [
         {
@@ -154,6 +157,7 @@
       dependencies: [
         "4C0BDD483CCB40C4",
       ],
+      size: 1.0,
       id: "77F241BEE9902751",
       tasks: [
         {
@@ -225,17 +229,13 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:oak_1",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:oak_1",
-        },
       },
       x: -7.0,
       y: 0.0,
       dependencies: [
         "0682DC1F2417DAEB",
-        "4516403D7687EC8A",
       ],
       size: 1.25,
       id: "2746575C929B6C50",
@@ -271,20 +271,17 @@
       shape: "diamond",
       dependencies: [
         "072FBEB0F6F1BC48",
-        "4516403D7687EC8A",
       ],
       dependency_requirement: "one_started",
+      size: 1.0,
       id: "2B422B7E0CE3590D",
       tasks: [
         {
           id: "50F7345EB02272D7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:compacting_drawer",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:compacting_drawer",
-            },
           },
         },
       ],
@@ -303,18 +300,14 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:storage_controller",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:storage_controller",
-        },
       },
       x: -15.5,
       y: 0.0,
       shape: "gear",
       dependencies: [
         "072FBEB0F6F1BC48",
-        "4516403D7687EC8A",
       ],
       dependency_requirement: "one_started",
       size: 1.4,
@@ -324,11 +317,8 @@
           id: "076B143EFEBF8BB7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:storage_controller",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:storage_controller",
-            },
           },
         },
         {
@@ -390,51 +380,37 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "trashcans:item_trash_can",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "trashcans:item_trash_can",
-        },
       },
       x: 0.0,
       y: -2.0,
       hide_dependency_lines: true,
-      dependencies: [
-        "4516403D7687EC8A",
-      ],
+      size: 1.0,
       id: "17DC77F7F8C68AE6",
       tasks: [
         {
           id: "4A10EADC3914EA38",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "trashcans:item_trash_can",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "trashcans:item_trash_can",
-            },
           },
         },
         {
           id: "1DF458EC07D359A4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "trashcans:liquid_trash_can",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "trashcans:liquid_trash_can",
-            },
           },
         },
         {
           id: "5BF5BF3F0D321A54",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "trashcans:energy_trash_can",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "trashcans:energy_trash_can",
-            },
           },
         },
       ],
@@ -443,11 +419,8 @@
           id: "69AE6A259BD33878",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "trashcans:ultimate_trash_can",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "trashcans:ultimate_trash_can",
-            },
           },
         },
         {
@@ -461,6 +434,7 @@
       x: -2.0,
       y: 0.0,
       hide_dependency_lines: true,
+      size: 1.0,
       id: "3D5852E6D0ADF651",
       tasks: [
         {
@@ -503,19 +477,16 @@
       shape: "diamond",
       dependencies: [
         "072FBEB0F6F1BC48",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "1A4B1CA7EC15348E",
       tasks: [
         {
           id: "42BE4FF12AD5FFB5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:ender_drawer",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:ender_drawer",
-            },
           },
         },
       ],
@@ -592,6 +563,7 @@
       dependencies: [
         "6A2B2C5E2ADCE366",
       ],
+      size: 1.0,
       optional: true,
       id: "0E057B7F76401421",
       tasks: [
@@ -627,6 +599,7 @@
       dependencies: [
         "6A2B2C5E2ADCE366",
       ],
+      size: 1.0,
       id: "1FE052F643401232",
       tasks: [
         {
@@ -663,6 +636,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "0E0CAA31480EC0A1",
       tasks: [
@@ -690,6 +664,7 @@
         "0E0CAA31480EC0A1",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "1985CFD1F0425E88",
       tasks: [
@@ -717,6 +692,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "156FF8B7B724DC38",
       tasks: [
@@ -744,6 +720,7 @@
         "156FF8B7B724DC38",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "57CF8C6C867B9BDA",
       tasks: [
@@ -771,6 +748,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "110D27EA86CDA62B",
       tasks: [
@@ -798,6 +776,7 @@
         "110D27EA86CDA62B",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "11D57C768032E3F7",
       tasks: [
@@ -825,6 +804,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "5FA9BC0D8476D322",
       tasks: [
@@ -852,6 +832,7 @@
         "5FA9BC0D8476D322",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "1A739D36D5E3B1AD",
       tasks: [
@@ -879,6 +860,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "1CD2C6AFD788C35E",
       tasks: [
@@ -906,6 +888,7 @@
         "1CD2C6AFD788C35E",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "5E4FE420B6D2C97F",
       tasks: [
@@ -933,6 +916,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "7EFBFF5D0DA018E7",
       tasks: [
@@ -960,6 +944,7 @@
         "7EFBFF5D0DA018E7",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "2FC15D3916DBF4E4",
       tasks: [
@@ -987,6 +972,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "4B62AF0405F68041",
       tasks: [
@@ -1014,6 +1000,7 @@
         "4B62AF0405F68041",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "019CA0E35F888222",
       tasks: [
@@ -1041,6 +1028,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "00DB5495C3A44999",
       tasks: [
@@ -1068,6 +1056,7 @@
         "00DB5495C3A44999",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "4C0EAB9F795686D0",
       tasks: [
@@ -1095,6 +1084,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "33882172DA8021F6",
       tasks: [
@@ -1122,6 +1112,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "7C07D6A33F7ADB02",
       tasks: [
@@ -1149,6 +1140,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "037415D5B965E214",
       tasks: [
@@ -1176,6 +1168,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "668C313FF46B6005",
       tasks: [
@@ -1203,6 +1196,7 @@
         "668C313FF46B6005",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "3A1D07AED2A841E4",
       tasks: [
@@ -1230,6 +1224,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "26A9F402DAE15EA2",
       tasks: [
@@ -1257,6 +1252,7 @@
         "26A9F402DAE15EA2",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "36BCE35215B2B6E9",
       tasks: [
@@ -1284,6 +1280,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "1E499F94A2A193E1",
       tasks: [
@@ -1311,6 +1308,7 @@
         "1E499F94A2A193E1",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "26988E22BD019628",
       tasks: [
@@ -1338,6 +1336,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "4A854CD5EC70733E",
       tasks: [
@@ -1365,6 +1364,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "52672B7FFFD51D16",
       tasks: [
@@ -1392,6 +1392,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "7E9E03274A88347D",
       tasks: [
@@ -1419,6 +1420,7 @@
         "7E9E03274A88347D",
       ],
       hide_until_deps_visible: false,
+      size: 1.0,
       optional: true,
       id: "785951190FFDAA21",
       tasks: [
@@ -1446,6 +1448,7 @@
         "785951190FFDAA21",
       ],
       hide_until_deps_visible: false,
+      size: 1.0,
       optional: true,
       id: "0298A17C2AAC5765",
       tasks: [
@@ -1473,6 +1476,7 @@
         "0298A17C2AAC5765",
       ],
       hide_until_deps_visible: false,
+      size: 1.0,
       optional: true,
       id: "7AE3C8134F5ED726",
       tasks: [
@@ -1500,6 +1504,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "53F861876B991C36",
       tasks: [
@@ -1527,6 +1532,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "615B9062FE8CCD36",
       tasks: [
@@ -1554,6 +1560,7 @@
         "615B9062FE8CCD36",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "15CD4BFDC56E9510",
       tasks: [
@@ -1581,6 +1588,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "0D4C64DD58567758",
       tasks: [
@@ -1608,6 +1616,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "4C2A60FC1F1E0328",
       tasks: [
@@ -1635,6 +1644,7 @@
         "1FE052F643401232",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "6E9041744C592573",
       tasks: [
@@ -1662,6 +1672,7 @@
         "6E9041744C592573",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "56B80A7EBFE21428",
       tasks: [
@@ -1689,6 +1700,7 @@
         "56B80A7EBFE21428",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       optional: true,
       id: "6E3D53D1C4569A89",
       tasks: [
@@ -1717,6 +1729,7 @@
         "0E057B7F76401421",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "2F9B0C642A6BE30C",
       tasks: [
         {
@@ -1750,6 +1763,7 @@
       dependencies: [
         "2F9B0C642A6BE30C",
       ],
+      size: 1.0,
       id: "45268A619787288F",
       tasks: [
         {
@@ -1783,6 +1797,7 @@
       dependencies: [
         "45268A619787288F",
       ],
+      size: 1.0,
       id: "67704F7341EDCC49",
       tasks: [
         {
@@ -1816,7 +1831,6 @@
       shape: "circle",
       dependencies: [
         "2746575C929B6C50",
-        "4516403D7687EC8A",
       ],
       size: 1.25,
       id: "072FBEB0F6F1BC48",
@@ -1825,11 +1839,8 @@
           id: "62C6F14FE6A82305",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:linking_tool",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:linking_tool",
-            },
           },
         },
       ],
@@ -1852,19 +1863,16 @@
       shape: "diamond",
       dependencies: [
         "2746575C929B6C50",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "485D5664A17E16DF",
       tasks: [
         {
           id: "0FFBB888FD6684A7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:copper_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:copper_upgrade",
-            },
           },
         },
       ],
@@ -1873,11 +1881,8 @@
           id: "1A50BE5522A32C23",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:copper_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:copper_upgrade",
-            },
           },
         },
         {
@@ -1893,19 +1898,16 @@
       shape: "diamond",
       dependencies: [
         "485D5664A17E16DF",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "3B570B3DB5F6D2CB",
       tasks: [
         {
           id: "4568F621A313CFA4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:gold_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:gold_upgrade",
-            },
           },
         },
       ],
@@ -1914,11 +1916,8 @@
           id: "2EDE79503865217C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:gold_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:gold_upgrade",
-            },
           },
         },
         {
@@ -1934,19 +1933,16 @@
       shape: "diamond",
       dependencies: [
         "3B570B3DB5F6D2CB",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "1B72E95569B07E18",
       tasks: [
         {
           id: "5F8923D392E224BB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:diamond_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:diamond_upgrade",
-            },
           },
         },
       ],
@@ -1955,11 +1951,8 @@
           id: "0B6E6B96E1C2D50D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:diamond_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:diamond_upgrade",
-            },
           },
         },
         {
@@ -1975,19 +1968,16 @@
       shape: "diamond",
       dependencies: [
         "1B72E95569B07E18",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "0E5AE195158CF344",
       tasks: [
         {
           id: "1E992354ECC75B6D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:netherite_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:netherite_upgrade",
-            },
           },
         },
       ],
@@ -1996,11 +1986,8 @@
           id: "2E8520EA9C8EBCCC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:netherite_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:netherite_upgrade",
-            },
           },
         },
         {
@@ -2016,6 +2003,7 @@
       dependencies: [
         "5E4BC0F59C90433A",
       ],
+      size: 1.0,
       id: "4007DFA7CC3A5FF2",
       tasks: [
         {
@@ -2045,19 +2033,16 @@
       shape: "diamond",
       dependencies: [
         "072FBEB0F6F1BC48",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "508A8366219175FE",
       tasks: [
         {
           id: "2F275302DA90D4E4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:configuration_tool",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:configuration_tool",
-            },
           },
         },
       ],
@@ -2081,6 +2066,7 @@
       },
       x: 2.0,
       y: 0.0,
+      size: 1.0,
       min_width: 300,
       id: "7EF57BBEAA4B6B08",
       tasks: [
@@ -2094,11 +2080,8 @@
           id: "1A2C25BD95D6B332",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
@@ -2110,18 +2093,14 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:controller_extension",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:controller_extension",
-        },
       },
       x: -15.5,
       y: 2.0,
       shape: "gear",
       dependencies: [
         "6FBAE89EE782DABA",
-        "4516403D7687EC8A",
       ],
       size: 1.3,
       id: "61A22707DBC83818",
@@ -2130,11 +2109,8 @@
           id: "60FAD6DC55BFA409",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:controller_extension",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:controller_extension",
-            },
           },
         },
       ],
@@ -2157,19 +2133,16 @@
       shape: "diamond",
       dependencies: [
         "072FBEB0F6F1BC48",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "4E4C8BCD45766F03",
       tasks: [
         {
           id: "069F02636E152BA0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:simple_compacting_drawer",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:simple_compacting_drawer",
-            },
           },
         },
       ],
@@ -2191,19 +2164,16 @@
       y: 3.0,
       dependencies: [
         "2746575C929B6C50",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "122FBF5110E4CFF2",
       tasks: [
         {
           id: "234CA1589FD40C1F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:iron_downgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:iron_downgrade",
-            },
           },
         },
       ],
@@ -2225,19 +2195,16 @@
       y: 1.5,
       dependencies: [
         "2746575C929B6C50",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "11D4EEAC61C7E530",
       tasks: [
         {
           id: "33A616AC54DC23E7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:collector_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:collector_upgrade",
-            },
           },
         },
       ],
@@ -2259,19 +2226,16 @@
       y: 2.5,
       dependencies: [
         "2746575C929B6C50",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "7649D648A3688D4A",
       tasks: [
         {
           id: "361C5BAD8E696654",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:puller_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:puller_upgrade",
-            },
           },
         },
       ],
@@ -2293,19 +2257,16 @@
       y: 1.5,
       dependencies: [
         "2746575C929B6C50",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "19DFAEB6D88F3580",
       tasks: [
         {
           id: "7CE83107BC866C4F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:pusher_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:pusher_upgrade",
-            },
           },
         },
       ],
@@ -2327,19 +2288,16 @@
       y: 3.0,
       dependencies: [
         "2746575C929B6C50",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "1CACE201C6AA0913",
       tasks: [
         {
           id: "322B685A58D540CC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:void_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:void_upgrade",
-            },
           },
         },
       ],
@@ -2361,19 +2319,16 @@
       y: 2.5,
       dependencies: [
         "2746575C929B6C50",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "70902EF96F060672",
       tasks: [
         {
           id: "4960C5A7D9ADEE56",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "functionalstorage:redstone_upgrade",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "functionalstorage:redstone_upgrade",
-            },
           },
         },
       ],
@@ -2429,6 +2384,7 @@
         "1FE17B1C7C639F88",
         "78E51D22C16C4686",
       ],
+      size: 1.0,
       id: "0108F3EFDFD6DFD0",
       tasks: [
         {
@@ -2459,6 +2415,7 @@
       dependencies: [
         "1FE17B1C7C639F88",
       ],
+      size: 1.0,
       id: "78E51D22C16C4686",
       tasks: [
         {
@@ -2485,18 +2442,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:framed_1",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:framed_1",
-        },
       },
       x: -10.0,
       y: -2.0,
       dependencies: [
         "072FBEB0F6F1BC48",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "1310C1E14C259807",
       tasks: [
         {
@@ -2526,19 +2480,16 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:fluid_1",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:fluid_1",
-        },
       },
       x: -9.0,
       y: -1.5,
       shape: "diamond",
       dependencies: [
         "072FBEB0F6F1BC48",
-        "4516403D7687EC8A",
       ],
+      size: 1.0,
       id: "38F9E9A830D3EA0C",
       tasks: [
         {
@@ -2572,6 +2523,7 @@
       dependencies: [
         "67704F7341EDCC49",
       ],
+      size: 1.0,
       id: "46D756F4DC6CC894",
       tasks: [
         {
@@ -2600,10 +2552,6 @@
       ],
     },
     {
-      icon: {
-        id: "minecraft:chest",
-        count: 1,
-      },
       x: 0.0,
       y: 3.5,
       shape: "circle",
@@ -2614,11 +2562,8 @@
           id: "073D1C45B3018BBA",
           type: "item",
           item: {
-            id: "ftbfiltersystem:smart_filter",
+            id: "minecraft:chest",
             count: 1,
-            components: {
-              "ftbfiltersystem:filter": "or(item(minecraft:chest)item(ars_nouveau:archwood_chest))",
-            },
           },
         },
       ],
@@ -2636,6 +2581,7 @@
       dependencies: [
         "134608BB2B04D96E",
       ],
+      size: 1.0,
       id: "7F990FBC1A691020",
       tasks: [
         {
@@ -2661,6 +2607,7 @@
       dependencies: [
         "134608BB2B04D96E",
       ],
+      size: 1.0,
       id: "1659A59303C15CC9",
       tasks: [
         {
@@ -2686,6 +2633,7 @@
       dependencies: [
         "134608BB2B04D96E",
       ],
+      size: 1.0,
       id: "25AFD10D008DF30B",
       tasks: [
         {
@@ -2711,6 +2659,7 @@
       dependencies: [
         "134608BB2B04D96E",
       ],
+      size: 1.0,
       id: "33AADC1B97E9F7A9",
       tasks: [
         {
@@ -2740,6 +2689,7 @@
       dependencies: [
         "134608BB2B04D96E",
       ],
+      size: 1.0,
       id: "544791880F315D5A",
       tasks: [
         {
@@ -2776,6 +2726,7 @@
       dependencies: [
         "5E4BC0F59C90433A",
       ],
+      size: 1.0,
       optional: true,
       id: "0CD04A00529FE1C9",
       tasks: [
@@ -2813,6 +2764,7 @@
       dependencies: [
         "33882172DA8021F6",
       ],
+      size: 1.0,
       optional: true,
       id: "7C0F7A1B3AB9A1A1",
       tasks: [
@@ -2834,38 +2786,10 @@
       ],
     },
     {
-      x: 17.5,
-      y: 5.0,
-      dependencies: [
-        "1FE052F643401232",
-      ],
-      optional: true,
-      id: "696E063016CAD1B9",
-      tasks: [
-        {
-          id: "593CD1E685B4DDAA",
-          type: "item",
-          item: {
-            id: "ftbfiltersystem:smart_filter",
-            count: 1,
-            components: {
-              "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:chipped/botanist_workbench_upgrade)item(sophisticatedbackpacks:chipped/glassblower_upgrade)item(sophisticatedbackpacks:chipped/carpenters_table_upgrade)item(sophisticatedbackpacks:chipped/loom_table_upgrade)item(sophisticatedbackpacks:chipped/mason_table_upgrade)item(sophisticatedbackpacks:chipped/alchemy_bench_upgrade)item(sophisticatedbackpacks:chipped/tinkering_table_upgrade))",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "0FE50C397940995B",
-          type: "xp",
-          xp: 10,
-        },
-      ],
-    },
-    {
       x: 0.0,
       y: 2.0,
       shape: "circle",
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "209DC1E9AD4C5A84",
@@ -2883,9 +2807,7 @@
     {
       x: -7.0,
       y: 4.5,
-      dependencies: [
-        "696E063016CAD1B9",
-      ],
+      size: 1.0,
       invisible: true,
       id: "4516403D7687EC8A",
       tasks: [

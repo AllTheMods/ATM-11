@@ -13,6 +13,7 @@
     {
       x: 1.5,
       y: 3.0,
+      size: 1.0,
       id: "722978AC0C1B2649",
       tasks: [
         {
@@ -47,6 +48,7 @@
       dependencies: [
         "7DBB7A7665164D61",
       ],
+      size: 1.0,
       id: "7EC8814940C4C3D7",
       tasks: [
         {
@@ -77,6 +79,7 @@
     {
       x: -1.5,
       y: 1.0,
+      size: 1.0,
       id: "378C95C18798D413",
       tasks: [
         {
@@ -170,6 +173,7 @@
     {
       x: -1.5,
       y: 3.0,
+      size: 1.0,
       id: "70B6C9409AE69284",
       tasks: [
         {
@@ -200,6 +204,7 @@
     {
       x: -1.5,
       y: 2.0,
+      size: 1.0,
       id: "0790D3BB481162A6",
       tasks: [
         {
@@ -231,6 +236,7 @@
       x: 0.0,
       y: 2.5,
       shape: "diamond",
+      size: 1.0,
       id: "28E60192912BEBAD",
       tasks: [
         {
@@ -263,6 +269,7 @@
       x: -2.0,
       y: 2.5,
       shape: "diamond",
+      size: 1.0,
       id: "7A514E27E1A7FE32",
       tasks: [
         {
@@ -294,9 +301,7 @@
       x: 2.0,
       y: 2.5,
       shape: "diamond",
-      dependencies: [
-        "7DBB7A7665164D61",
-      ],
+      size: 1.0,
       id: "5EE945A1185E8336",
       tasks: [
         {
@@ -328,6 +333,7 @@
       x: 0.0,
       y: 1.5,
       shape: "circle",
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "0152938EE5651409",
@@ -345,6 +351,7 @@
     {
       x: 1.0,
       y: 2.5,
+      size: 1.0,
       id: "219AA017149C36E2",
       tasks: [
         {
@@ -372,20 +379,15 @@
     {
       x: -3.0,
       y: 2.5,
-      dependencies: [
-        "7DBB7A7665164D61",
-      ],
+      size: 1.0,
       id: "3B4BF42C55C8BBBF",
       tasks: [
         {
           id: "091A3EB6AB0FF2D5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "simplemagnets:basicmagnet",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "simplemagnets:basicmagnet",
-            },
           },
         },
       ],
@@ -405,6 +407,7 @@
     {
       x: -1.5,
       y: 4.0,
+      size: 1.0,
       id: "32ECD93A8F2FAB8F",
       tasks: [
         {
@@ -454,6 +457,7 @@
       dependencies: [
         "7DBB7A7665164D61",
       ],
+      size: 1.0,
       id: "51538F4DCE24E3E7",
       tasks: [
         {
@@ -487,6 +491,7 @@
       dependencies: [
         "7DBB7A7665164D61",
       ],
+      size: 1.0,
       id: "0E9CE6241CDBC420",
       tasks: [
         {
@@ -520,6 +525,7 @@
       dependencies: [
         "7DBB7A7665164D61",
       ],
+      size: 1.0,
       id: "47043AF7D1FABC43",
       tasks: [
         {
@@ -559,6 +565,7 @@
     {
       x: 1.5,
       y: 2.0,
+      size: 1.0,
       id: "637981B64BBE0D92",
       tasks: [
         {
@@ -602,6 +609,7 @@
         "7DBB7A7665164D61",
       ],
       hide_until_deps_complete: true,
+      size: 1.0,
       min_width: 300,
       id: "6E17595887A051C2",
       tasks: [
@@ -646,6 +654,7 @@
     {
       x: 2.0,
       y: 3.5,
+      size: 1.0,
       id: "01EC5DB1A4A25B0B",
       tasks: [
         {
@@ -685,6 +694,7 @@
       dependencies: [
         "7DBB7A7665164D61",
       ],
+      size: 1.0,
       id: "69F7A0DE8D70AC44",
       tasks: [
         {
@@ -732,6 +742,7 @@
       dependencies: [
         "7DBB7A7665164D61",
       ],
+      size: 1.0,
       id: "2837E05AD0B67189",
       tasks: [
         {
@@ -780,6 +791,7 @@
       },
       x: -2.5,
       y: 3.0,
+      size: 1.0,
       id: "030DCC13171C3E16",
       tasks: [
         {
@@ -798,6 +810,7 @@
     {
       x: -4.0,
       y: -0.5,
+      size: 1.0,
       invisible: true,
       id: "7DBB7A7665164D61",
       tasks: [
