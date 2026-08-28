@@ -1,16 +1,12 @@
 {
   id: "5D8E83698AEF1092",
   group: "5A4775CCD6D26C80",
-  order_index: 4,
+  order_index: 6,
   icon: {
-    id: "ftbquests:missing_item",
+    id: "iceandfire:dragon_skull_fire",
     count: 1,
-    components: {
-      "ftbquests:missing_item": "iceandfire:dragon_skull_fire",
-    },
   },
   filename: "ice__fire",
-  always_invisible: true,
   default_quest_shape: "circle",
   default_hide_dependency_lines: false,
   quests: [
@@ -25,6 +21,7 @@
       dependencies: [
         "48B1BD7D86CAC4A0",
       ],
+      size: 1.0,
       id: "121DE9824813D558",
       tasks: [
         {
@@ -38,11 +35,8 @@
           id: "1171AAAC86DAAE14",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:blindfold",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:blindfold",
-            },
           },
         },
       ],
@@ -78,11 +72,8 @@
           id: "40094E883287F615",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:gorgon_head",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:gorgon_head",
-            },
           },
         },
         {
@@ -98,17 +89,15 @@
       dependencies: [
         "41C7DEAB41F4B700",
       ],
+      size: 1.0,
       id: "395417A7ABC3658F",
       tasks: [
         {
           id: "1494733856F6E4A8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:gorgon_head",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:gorgon_head",
-            },
           },
         },
       ],
@@ -117,11 +106,8 @@
           id: "350381EE0DEFB2D4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:podium_spruce",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:podium_spruce",
-            },
           },
         },
         {
@@ -142,6 +128,7 @@
       dependencies: [
         "48B1BD7D86CAC4A0",
       ],
+      size: 1.0,
       id: "136C40D8350651DC",
       tasks: [
         {
@@ -155,11 +142,8 @@
           id: "5AAE18C543D84F16",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:earplugs",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:earplugs",
-            },
           },
         },
       ],
@@ -195,11 +179,8 @@
           id: "3F1311F11555D9A5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:shiny_scales",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:shiny_scales",
-            },
           },
           count: 6,
         },
@@ -218,17 +199,15 @@
         "1713E5D74658F095",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "7D086BC5AC152E27",
       tasks: [
         {
           id: "7D5A9EAB8115BEEE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:shiny_scales",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:shiny_scales",
-            },
           },
         },
       ],
@@ -237,11 +216,8 @@
           id: "2A4DC8D5B839FD63",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_flute",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_flute",
-            },
           },
         },
         {
@@ -259,6 +235,7 @@
       x: 41.0,
       y: -3.5,
       shape: "octagon",
+      size: 1.0,
       id: "6ECB27052FCB874E",
       rewards: [
         {
@@ -324,11 +301,8 @@
           id: "2A65215739454463",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:shiny_scales",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:shiny_scales",
-            },
           },
           count: 3,
         },
@@ -370,11 +344,8 @@
           id: "417CAD892B7CDA58",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:sea_serpent_fang",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:sea_serpent_fang",
-            },
           },
           count: 5,
         },
@@ -391,17 +362,15 @@
       dependencies: [
         "760864EE43FB33AC",
       ],
+      size: 1.0,
       id: "41F9CC26C7D86AE9",
       tasks: [
         {
           id: "61221620C0A33E76",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:hippocampus_slapper",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:hippocampus_slapper",
-            },
           },
         },
       ],
@@ -410,11 +379,8 @@
           id: "10512F1A1E8147F9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:podium_acacia",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:podium_acacia",
-            },
           },
         },
         {
@@ -435,6 +401,7 @@
       dependencies: [
         "02DEAB3F1198BFBE",
       ],
+      size: 1.0,
       id: "0FE94BE5ADB6E595",
       tasks: [
         {
@@ -493,11 +460,8 @@
           id: "20E7E1498DE46682",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
@@ -513,17 +477,15 @@
       dependencies: [
         "05113AC92BC1B192",
       ],
+      size: 1.0,
       id: "09ABD5D978373A54",
       tasks: [
         {
           id: "28B0E1A879CD61B0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:hydra_heart",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:hydra_heart",
-            },
           },
         },
       ],
@@ -532,11 +494,8 @@
           id: "27FDACA2782941DA",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:hydra_skull",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:hydra_skull",
-            },
           },
         },
         {
@@ -552,17 +511,15 @@
       dependencies: [
         "05113AC92BC1B192",
       ],
+      size: 1.0,
       id: "65E98FCE27B552F4",
       tasks: [
         {
           id: "05F354B18789BB1A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:hydra_arrow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:hydra_arrow",
-            },
           },
           count: 4,
         },
@@ -572,11 +529,8 @@
           id: "0E40D54F879FBC55",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:hydra_arrow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:hydra_arrow",
-            },
           },
           count: 12,
         },
@@ -598,6 +552,7 @@
       dependencies: [
         "10CA52D15EAB71A3",
       ],
+      size: 1.0,
       id: "435890CE1A1B3C04",
       tasks: [
         {
@@ -685,17 +640,15 @@
       dependencies: [
         "3C0671BE5E94730E",
       ],
+      size: 1.0,
       id: "2A26CE0E88B62002",
       tasks: [
         {
           id: "587B3F36D9262E76",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:cyclops_eye",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:cyclops_eye",
-            },
           },
         },
       ],
@@ -704,11 +657,8 @@
           id: "784F4F143E369D7E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:cyclops_skull",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:cyclops_skull",
-            },
           },
         },
         {
@@ -741,11 +691,8 @@
           id: "08D02CC21A08D203",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:amphithere_feather",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:amphithere_feather",
-            },
           },
         },
       ],
@@ -754,11 +701,8 @@
           id: "0C89CB730C922989",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:amphithere_feather",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:amphithere_feather",
-            },
           },
           count: 3,
         },
@@ -776,6 +720,7 @@
       dependencies: [
         "74C648FC8733310B",
       ],
+      size: 1.0,
       id: "2B84A4377688B189",
       tasks: [
         {
@@ -793,11 +738,8 @@
           id: "56EE83CE2BAF71DC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:sea_serpent_fang",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:sea_serpent_fang",
-            },
           },
         },
       ],
@@ -806,11 +748,8 @@
           id: "067E8C8ACD72FBE6",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonbone",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonbone",
-            },
           },
         },
         {
@@ -830,11 +769,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "iceandfire:graveyard_soil",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "iceandfire:graveyard_soil",
-        },
       },
       x: 28.5,
       y: -7.0,
@@ -842,6 +778,7 @@
       dependencies: [
         "703790CCCE440946",
       ],
+      size: 1.0,
       id: "661114AFCBBD5F28",
       tasks: [
         {
@@ -892,11 +829,8 @@
           id: "26DBB289D1B7521E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:ectoplasm",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:ectoplasm",
-            },
           },
           count: 6,
         },
@@ -904,11 +838,8 @@
           id: "6FDD5372E7B47FCF",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:ghost_chest",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:ghost_chest",
-            },
           },
         },
         {
@@ -953,11 +884,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "iceandfire:pixie_house_mushroom_red",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "iceandfire:pixie_house_mushroom_red",
-        },
       },
       x: 22.5,
       y: -14.5,
@@ -965,6 +893,7 @@
       dependencies: [
         "59D91C5E11F67FC3",
       ],
+      size: 1.0,
       id: "5E45C9C2D72EDBCC",
       tasks: [
         {
@@ -978,11 +907,8 @@
           id: "7DB05CF705D6F879",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:pixie_dust",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:pixie_dust",
-            },
           },
           count: 3,
         },
@@ -1011,11 +937,8 @@
           id: "0F93AA0655EB66FB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:pixie_dust",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:pixie_dust",
-            },
           },
         },
       ],
@@ -1066,11 +989,8 @@
           id: "07CBFEFB4DA85D89",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:troll_tusk",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:troll_tusk",
-            },
           },
           count: 3,
         },
@@ -1078,11 +998,8 @@
           id: "05F44D59FE0A97AA",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:troll_weapon_axe",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:troll_weapon_axe",
-            },
           },
         },
         {
@@ -1099,17 +1016,15 @@
       dependencies: [
         "5D6A4E574823446F",
       ],
+      size: 1.0,
       id: "45084D3A3E5DB63B",
       tasks: [
         {
           id: "4FDAD86E9BC70A05",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:troll_tusk",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:troll_tusk",
-            },
           },
         },
         {
@@ -1129,11 +1044,8 @@
           id: "2A8C58F86FEE3666",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:troll_tusk",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:troll_tusk",
-            },
           },
           count: 3,
         },
@@ -1146,11 +1058,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "iceandfire:chared_grass",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "iceandfire:chared_grass",
-        },
       },
       x: 25.0,
       y: -38.0,
@@ -1160,6 +1069,7 @@
         "6800E0113DE9A4DB",
         "59D91C5E11F67FC3",
       ],
+      size: 1.0,
       id: "7FA9EA93602A98EC",
       tasks: [
         {
@@ -1200,11 +1110,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "iceandfire:frozen_grass",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "iceandfire:frozen_grass",
-        },
       },
       x: 27.5,
       y: -37.5,
@@ -1214,6 +1121,7 @@
         "6800E0113DE9A4DB",
         "02DEAB3F1198BFBE",
       ],
+      size: 1.0,
       id: "70AD5D79881EE1B5",
       tasks: [
         {
@@ -1254,11 +1162,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "iceandfire:crackled_grass",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "iceandfire:crackled_grass",
-        },
       },
       x: 30.0,
       y: -38.0,
@@ -1268,6 +1173,7 @@
         "6800E0113DE9A4DB",
         "10CA52D15EAB71A3",
       ],
+      size: 1.0,
       id: "42626A0CD814353D",
       tasks: [
         {
@@ -1317,6 +1223,7 @@
       dependencies: [
         "6800E0113DE9A4DB",
       ],
+      size: 1.0,
       id: "43630EF0B85AE7E1",
       tasks: [
         {
@@ -1366,6 +1273,7 @@
       dependencies: [
         "6800E0113DE9A4DB",
       ],
+      size: 1.0,
       id: "70099F9B69F9D055",
       tasks: [
         {
@@ -1415,6 +1323,7 @@
       dependencies: [
         "6800E0113DE9A4DB",
       ],
+      size: 1.0,
       id: "1CB063BBEC35712B",
       tasks: [
         {
@@ -1478,11 +1387,8 @@
           id: "54DE1FB742295FA9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:fire_dragon_blood",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:fire_dragon_blood",
-            },
           },
         },
       ],
@@ -1491,22 +1397,16 @@
           id: "23EE06D807DA5238",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:fire_dragon_heart",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:fire_dragon_heart",
-            },
           },
         },
         {
           id: "139B29EC0F12053A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:fire_dragon_blood",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:fire_dragon_blood",
-            },
           },
           count: 5,
         },
@@ -1542,11 +1442,8 @@
           id: "163D463630E6AD8D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:ice_dragon_blood",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:ice_dragon_blood",
-            },
           },
         },
       ],
@@ -1555,22 +1452,16 @@
           id: "3392A2868F6D4CB7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:ice_dragon_heart",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:ice_dragon_heart",
-            },
           },
         },
         {
           id: "7E15DBFFA59C6617",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:ice_dragon_blood",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:ice_dragon_blood",
-            },
           },
           count: 5,
         },
@@ -1606,11 +1497,8 @@
           id: "7538AE48DD0CB96B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:lightning_dragon_blood",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:lightning_dragon_blood",
-            },
           },
         },
       ],
@@ -1619,22 +1507,16 @@
           id: "2FB7355AFFCF1181",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:lightning_dragon_heart",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:lightning_dragon_heart",
-            },
           },
         },
         {
           id: "04ECBE0892A0CF1D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:lightning_dragon_blood",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:lightning_dragon_blood",
-            },
           },
           count: 5,
         },
@@ -1672,11 +1554,8 @@
           id: "3A0C759085B87E3B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_red",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_red",
-            },
           },
           count: 2,
         },
@@ -1684,11 +1563,8 @@
           id: "5441EAE443B1806F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_green",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_green",
-            },
           },
           count: 2,
         },
@@ -1696,11 +1572,8 @@
           id: "044B626529F05B11",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_bronze",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_bronze",
-            },
           },
           count: 2,
         },
@@ -1708,11 +1581,8 @@
           id: "6B4BE884950F3241",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_gray",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_gray",
-            },
           },
           count: 2,
         },
@@ -1750,11 +1620,8 @@
           id: "34DE03219C20BDC0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_blue",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_blue",
-            },
           },
           count: 2,
         },
@@ -1762,11 +1629,8 @@
           id: "2E661BF4DF36AEDB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_white",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_white",
-            },
           },
           count: 2,
         },
@@ -1774,11 +1638,8 @@
           id: "4DFC6AF19776AB84",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_sapphire",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_sapphire",
-            },
           },
           count: 2,
         },
@@ -1786,11 +1647,8 @@
           id: "117D10B5F3372A6E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_silver",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_silver",
-            },
           },
           count: 2,
         },
@@ -1828,11 +1686,8 @@
           id: "330380BB76C70BF6",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_electric",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_electric",
-            },
           },
           count: 2,
         },
@@ -1840,11 +1695,8 @@
           id: "4BE5BFBB690B5014",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_amethyst",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_amethyst",
-            },
           },
           count: 2,
         },
@@ -1852,11 +1704,8 @@
           id: "682192EA8E7BAB7D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_copper",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_copper",
-            },
           },
           count: 2,
         },
@@ -1864,11 +1713,8 @@
           id: "7EE594E5702BA04D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonscale_black",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonscale_black",
-            },
           },
           count: 2,
         },
@@ -1910,11 +1756,8 @@
           id: "3C8806480B9349E0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:stymphalian_bird_feather",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:stymphalian_bird_feather",
-            },
           },
           count: 5,
         },
@@ -1939,11 +1782,8 @@
           id: "0E9B4F4A00E26E63",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_bone_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
-            },
           },
           count: 8,
         },
@@ -1951,11 +1791,8 @@
           id: "6830A36E7241CC4A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonforge_fire_brick",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonforge_fire_brick",
-            },
           },
           count: 17,
         },
@@ -1963,22 +1800,16 @@
           id: "7712FBE2D5F31D8E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonforge_fire_input",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonforge_fire_input",
-            },
           },
         },
         {
           id: "4B9CDCD867DA1114",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonforge_fire_core_disabled",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonforge_fire_core_disabled",
-            },
           },
         },
       ],
@@ -1996,11 +1827,8 @@
           id: "27A138AD4064173C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_bone_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
-            },
           },
           count: 3,
         },
@@ -2025,11 +1853,8 @@
           id: "58AF4278D8C796E8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_bone_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
-            },
           },
           count: 8,
         },
@@ -2037,11 +1862,8 @@
           id: "0FA90251FC56217A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonforge_ice_brick",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonforge_ice_brick",
-            },
           },
           count: 17,
         },
@@ -2049,22 +1871,16 @@
           id: "41092B8251BA373C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonforge_ice_input",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonforge_ice_input",
-            },
           },
         },
         {
           id: "573F7F097FFFDC31",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonforge_ice_core_disabled",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonforge_ice_core_disabled",
-            },
           },
         },
       ],
@@ -2082,11 +1898,8 @@
           id: "7BA601D5EE720502",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_bone_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
-            },
           },
           count: 3,
         },
@@ -2111,11 +1924,8 @@
           id: "290E080FC208757E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_bone_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
-            },
           },
           count: 8,
         },
@@ -2123,11 +1933,8 @@
           id: "3F28CACFA8B8D68A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonforge_lightning_brick",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonforge_lightning_brick",
-            },
           },
           count: 17,
         },
@@ -2135,22 +1942,16 @@
           id: "369CAB512FEAEE0E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonforge_lightning_input",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonforge_lightning_input",
-            },
           },
         },
         {
           id: "1239D87B4EDAF26B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonforge_lightning_core_disabled",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonforge_lightning_core_disabled",
-            },
           },
         },
       ],
@@ -2168,11 +1969,8 @@
           id: "5F63FE2F95F801CC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_bone_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
-            },
           },
           count: 3,
         },
@@ -2189,17 +1987,15 @@
       dependencies: [
         "666FFDFDB7C869F5",
       ],
+      size: 1.0,
       id: "2E7D6A54B361B727",
       tasks: [
         {
           id: "4AFEDE13A758B44D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:stymphalian_bird_dagger",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:stymphalian_bird_dagger",
-            },
           },
         },
       ],
@@ -2208,22 +2004,16 @@
           id: "2747640752D472CF",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
           id: "3C7261102870874C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:stymphalian_skull",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:stymphalian_skull",
-            },
           },
         },
         {
@@ -2239,17 +2029,15 @@
       dependencies: [
         "666FFDFDB7C869F5",
       ],
+      size: 1.0,
       id: "2738184B6A688D2C",
       tasks: [
         {
           id: "62663F4A25870879",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:stymphalian_arrow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:stymphalian_arrow",
-            },
           },
         },
       ],
@@ -2258,11 +2046,8 @@
           id: "032267148F5DC091",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:stymphalian_arrow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:stymphalian_arrow",
-            },
           },
           count: 12,
         },
@@ -2280,17 +2065,15 @@
         "7D086BC5AC152E27",
         "1713E5D74658F095",
       ],
+      size: 1.0,
       id: "7CBF22CCCF599F26",
       tasks: [
         {
           id: "54D8620F0F9CFC01",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:siren_flute",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:siren_flute",
-            },
           },
         },
       ],
@@ -2299,11 +2082,8 @@
           id: "4CE0057AF72795CA",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_bone_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
-            },
           },
         },
         {
@@ -2319,17 +2099,15 @@
       dependencies: [
         "14CF23064A6035CD",
       ],
+      size: 1.0,
       id: "39107884D6C80D41",
       tasks: [
         {
           id: "206FFEC41FF12130",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:ghost_sword",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:ghost_sword",
-            },
           },
         },
       ],
@@ -2338,11 +2116,8 @@
           id: "77EBECB469EDC7BE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
@@ -2395,17 +2170,15 @@
       dependencies: [
         "2B84A4377688B189",
       ],
+      size: 1.0,
       id: "43008E93B34F4F06",
       tasks: [
         {
           id: "484E79013543D76D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:sea_serpent_arrow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:sea_serpent_arrow",
-            },
           },
         },
       ],
@@ -2414,11 +2187,8 @@
           id: "5221F5FF3698B088",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:sea_serpent_arrow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:sea_serpent_arrow",
-            },
           },
           count: 12,
         },
@@ -2435,17 +2205,15 @@
       dependencies: [
         "2B84A4377688B189",
       ],
+      size: 1.0,
       id: "6FE6F50029D690C0",
       tasks: [
         {
           id: "2D60CE44A290C710",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:tide_trident",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:tide_trident",
-            },
           },
         },
       ],
@@ -2454,22 +2222,16 @@
           id: "798017FFD5ED158D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
           id: "6F70D3833DD18205",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:seaserpent_skull",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:seaserpent_skull",
-            },
           },
         },
         {
@@ -2485,6 +2247,7 @@
       dependencies: [
         "5D6A4E574823446F",
       ],
+      size: 1.0,
       id: "7C5FC2015F1E6DB1",
       tasks: [
         {
@@ -2504,11 +2267,8 @@
           id: "38AF49F3C9D68959",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
@@ -2524,6 +2284,7 @@
       dependencies: [
         "45084D3A3E5DB63B",
       ],
+      size: 1.0,
       id: "03326C2FF16F64C3",
       tasks: [
         {
@@ -2543,11 +2304,8 @@
           id: "711D3934D67E5E17",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
@@ -2563,6 +2321,7 @@
       dependencies: [
         "4ED6B18DF7D51E13",
       ],
+      size: 1.0,
       id: "4A84C8578C2F7F71",
       tasks: [
         {
@@ -2582,11 +2341,8 @@
           id: "1260B601FCF4BA0B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:deathworm_egg_giant",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:deathworm_egg_giant",
-            },
           },
         },
         {
@@ -2602,6 +2358,7 @@
       dependencies: [
         "4ED6B18DF7D51E13",
       ],
+      size: 1.0,
       id: "6774BBE7C7C5D7EB",
       tasks: [
         {
@@ -2621,11 +2378,8 @@
           id: "0524DC2EBDFD4DE4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:deathworm_chitin_yellow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:deathworm_chitin_yellow",
-            },
           },
           count: 3,
         },
@@ -2633,11 +2387,8 @@
           id: "261373BD978C8170",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:deathworm_chitin_white",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:deathworm_chitin_white",
-            },
           },
           count: 3,
         },
@@ -2645,11 +2396,8 @@
           id: "1B955769C8EBE4E1",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:deathworm_chitin_red",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:deathworm_chitin_red",
-            },
           },
           count: 3,
         },
@@ -2687,11 +2435,8 @@
           id: "7670835027D2B9A0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:deathworm_egg",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:deathworm_egg",
-            },
           },
         },
         {
@@ -2768,11 +2513,8 @@
           id: "6D21118276DC1B24",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:diamond_hippogryph_armor",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:diamond_hippogryph_armor",
-            },
           },
         },
         {
@@ -2788,17 +2530,15 @@
       dependencies: [
         "6009E239E2E15236",
       ],
+      size: 1.0,
       id: "69211D34F8182976",
       tasks: [
         {
           id: "39019B44DB379EA1",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:hippogryph_sword",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:hippogryph_sword",
-            },
           },
         },
       ],
@@ -2807,22 +2547,16 @@
           id: "0828AEE9A897E54A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
           id: "4DF9A4AF13A07602",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:hippogryph_skull",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:hippogryph_skull",
-            },
           },
         },
         {
@@ -2838,17 +2572,15 @@
       dependencies: [
         "2D71532A99C167AA",
       ],
+      size: 1.0,
       id: "10642351AD9A9907",
       tasks: [
         {
           id: "0E94CCAA969BB3F8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:amphithere_arrow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:amphithere_arrow",
-            },
           },
         },
       ],
@@ -2857,11 +2589,8 @@
           id: "36F008D0B3D118E0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:amphithere_arrow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:amphithere_arrow",
-            },
           },
           count: 12,
         },
@@ -2878,17 +2607,15 @@
       dependencies: [
         "2D71532A99C167AA",
       ],
+      size: 1.0,
       id: "445DB66B81146E91",
       tasks: [
         {
           id: "1B8D94634F27443D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:amphithere_macuahuitl",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:amphithere_macuahuitl",
-            },
           },
         },
       ],
@@ -2906,11 +2633,8 @@
           id: "57F4DE085A5BAFD5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:amphithere_skull",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:amphithere_skull",
-            },
           },
         },
         {
@@ -2944,11 +2668,8 @@
           id: "4C7954880B4F44FF",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:amphithere_feather",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:amphithere_feather",
-            },
           },
           count: 5,
         },
@@ -2982,11 +2703,8 @@
           id: "32057A4DB1ED95AD",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:witherbone",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:witherbone",
-            },
           },
         },
       ],
@@ -2995,11 +2713,8 @@
           id: "5FB20240F76F4547",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:witherbone",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:witherbone",
-            },
           },
           count: 2,
         },
@@ -3007,11 +2722,8 @@
           id: "490E87A9D45ECC6F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:wither_shard",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:wither_shard",
-            },
           },
           count: 3,
         },
@@ -3028,17 +2740,15 @@
       dependencies: [
         "38CAB3EF0D89B8F4",
       ],
+      size: 1.0,
       id: "07AF1D5C24B069DD",
       tasks: [
         {
           id: "1CD90E48172E5690",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:cockatrice_scepter",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:cockatrice_scepter",
-            },
           },
         },
       ],
@@ -3047,11 +2757,8 @@
           id: "70CD3767901CA450",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:cockatrice_skull",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:cockatrice_skull",
-            },
           },
         },
         {
@@ -3064,17 +2771,15 @@
     {
       x: 36.0,
       y: -13.0,
+      size: 1.0,
       id: "4AFDC9ACAC926654",
       tasks: [
         {
           id: "3872480FD8C46F6A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:rotten_egg",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:rotten_egg",
-            },
           },
         },
       ],
@@ -3120,11 +2825,8 @@
           id: "20DDF779304E39CB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:witherbone",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:witherbone",
-            },
           },
           count: 10,
         },
@@ -3142,28 +2844,23 @@
       dependencies: [
         "7B21D2FAD5F3246A",
       ],
+      size: 1.0,
       id: "2B90982E3B1E545C",
       tasks: [
         {
           id: "37B0B634DF925107",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:bestiary",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:bestiary",
-            },
           },
         },
         {
           id: "39BFF49C6D983775",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:lectern",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:lectern",
-            },
           },
         },
       ],
@@ -3172,11 +2869,8 @@
           id: "3D4588B2A640F9C4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:manuscript",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:manuscript",
-            },
           },
           count: 6,
         },
@@ -3226,17 +2920,15 @@
       dependencies: [
         "617C6D6C35B4917D",
       ],
+      size: 1.0,
       id: "315913D32319F010",
       tasks: [
         {
           id: "353106C55857698B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:pixie_jar_empty",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:pixie_jar_empty",
-            },
           },
         },
       ],
@@ -3245,11 +2937,8 @@
           id: "2639588D7CDF3F86",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:pixie_jar_empty",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:pixie_jar_empty",
-            },
           },
           count: 3,
         },
@@ -3261,17 +2950,15 @@
       dependencies: [
         "617C6D6C35B4917D",
       ],
+      size: 1.0,
       id: "3804364077F4BAD4",
       tasks: [
         {
           id: "01763766EFCD88FF",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:pixie_wand",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:pixie_wand",
-            },
           },
         },
       ],
@@ -3280,11 +2967,8 @@
           id: "63AEB649B6A944D4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:pixie_dust",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:pixie_dust",
-            },
           },
           count: 10,
         },
@@ -3307,11 +2991,8 @@
           id: "51EE1671000347A4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonbone",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonbone",
-            },
           },
         },
       ],
@@ -3320,11 +3001,8 @@
           id: "65C77681311DD64C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonbone",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonbone",
-            },
           },
           count: 9,
         },
@@ -3341,6 +3019,7 @@
       dependencies: [
         "765CD913CC3896B2",
       ],
+      size: 1.0,
       id: "77793642678CB886",
       tasks: [
         {
@@ -3366,6 +3045,7 @@
       dependencies: [
         "0B3AC4E923332AC6",
       ],
+      size: 1.0,
       id: "2B2BB53FA86A07B7",
       tasks: [
         {
@@ -3391,6 +3071,7 @@
       dependencies: [
         "1042A0DC0A9321BB",
       ],
+      size: 1.0,
       id: "0481E975F317F64D",
       tasks: [
         {
@@ -3404,9 +3085,9 @@
             -1000000,
           ],
           size: [
-            -1000000,
+            1,
             80,
-            -1000000,
+            1,
           ],
         },
       ],
@@ -3451,39 +3132,31 @@
         "2B2BB53FA86A07B7",
         "0481E975F317F64D",
       ],
+      size: 1.0,
       id: "0DABAD0803DCEA1E",
       tasks: [
         {
           id: "6F732623B498EE87",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_stick",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_stick",
-            },
           },
         },
         {
           id: "24B27CCD01B77A0A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_horn",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_horn",
-            },
           },
         },
         {
           id: "688B2A12311EED3D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_flute",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_flute",
-            },
           },
         },
       ],
@@ -3492,11 +3165,8 @@
           id: "2B049727F86CCB37",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_bone_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_bone_block",
-            },
           },
           count: 4,
         },
@@ -3515,17 +3185,15 @@
         "2B2BB53FA86A07B7",
         "0481E975F317F64D",
       ],
+      size: 1.0,
       id: "47A7F4972D58A7D5",
       tasks: [
         {
           id: "4308BE39F35E2298",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_meal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_meal",
-            },
           },
         },
       ],
@@ -3534,11 +3202,8 @@
           id: "0914C216DE80223B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragon_meal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragon_meal",
-            },
           },
           count: 5,
         },
@@ -3546,11 +3211,8 @@
           id: "32FBE12A7C9385D8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:sickly_dragon_meal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:sickly_dragon_meal",
-            },
           },
         },
       ],
@@ -3562,17 +3224,15 @@
       dependencies: [
         "3166CA00032C18F7",
       ],
+      size: 1.0,
       id: "2E0FBBE43D92CA42",
       tasks: [
         {
           id: "0ABD29C3A5B5B876",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:chain",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:chain",
-            },
           },
         },
       ],
@@ -3590,11 +3250,8 @@
           id: "0398B6CFF503739A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:chain_sticky",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:chain_sticky",
-            },
           },
         },
         {
@@ -3611,17 +3268,15 @@
       dependencies: [
         "176D31AF1B0925AA",
       ],
+      size: 1.0,
       id: "0C176F04D32B75DD",
       tasks: [
         {
           id: "3BED9AF0C1BD57B7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonsteel_fire_ingot",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonsteel_fire_ingot",
-            },
           },
         },
       ],
@@ -3630,11 +3285,8 @@
           id: "530CD02A3C2C664A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonsteel_fire_ingot",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonsteel_fire_ingot",
-            },
           },
           count: 4,
         },
@@ -3642,11 +3294,8 @@
           id: "550A7934C915ACB9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:fire_dragon_blood",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:fire_dragon_blood",
-            },
           },
           count: 6,
         },
@@ -3654,11 +3303,8 @@
           id: "63B420D4B35E7175",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:summoning_crystal_fire",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:summoning_crystal_fire",
-            },
           },
         },
         {
@@ -3675,17 +3321,15 @@
       dependencies: [
         "45068FB6758D3BA1",
       ],
+      size: 1.0,
       id: "406433F7FF3B0E7B",
       tasks: [
         {
           id: "26E4867B6DA3058D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonsteel_ice_ingot",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonsteel_ice_ingot",
-            },
           },
         },
       ],
@@ -3694,11 +3338,8 @@
           id: "555B98587FB8F621",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonsteel_ice_ingot",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonsteel_ice_ingot",
-            },
           },
           count: 4,
         },
@@ -3706,11 +3347,8 @@
           id: "6DFB663AC83A45CB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:ice_dragon_blood",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:ice_dragon_blood",
-            },
           },
           count: 6,
         },
@@ -3718,11 +3356,8 @@
           id: "4B81F218EC22F21F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:summoning_crystal_ice",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:summoning_crystal_ice",
-            },
           },
         },
         {
@@ -3739,17 +3374,15 @@
       dependencies: [
         "210542B036255FBF",
       ],
+      size: 1.0,
       id: "72FB345F3A7E7288",
       tasks: [
         {
           id: "4179FBF3C2120214",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonsteel_lightning_ingot",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonsteel_lightning_ingot",
-            },
           },
         },
       ],
@@ -3758,11 +3391,8 @@
           id: "76612669FFB8BACA",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:dragonsteel_lightning_ingot",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:dragonsteel_lightning_ingot",
-            },
           },
           count: 4,
         },
@@ -3770,11 +3400,8 @@
           id: "3D510E185F8E9237",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:lightning_dragon_blood",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:lightning_dragon_blood",
-            },
           },
           count: 6,
         },
@@ -3782,11 +3409,8 @@
           id: "079D9EAD1C5DEE49",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:summoning_crystal_lightning",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:summoning_crystal_lightning",
-            },
           },
         },
         {
@@ -3802,6 +3426,7 @@
       dependencies: [
         "2B84A4377688B189",
       ],
+      size: 1.0,
       id: "0F9DCF36112C9922",
       tasks: [
         {
@@ -3821,22 +3446,16 @@
           id: "0A1CA0E35D820FB4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
           id: "78F2DAE925C03F4E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:shiny_scales",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:shiny_scales",
-            },
           },
           count: 4,
         },
@@ -3851,6 +3470,7 @@
       x: 29.0,
       y: -15.0,
       shape: "circle",
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "3D88FEFA4C63CB20",
@@ -3879,11 +3499,8 @@
           id: "64565824195E28FD",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "iceandfire:manuscript",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "iceandfire:manuscript",
-            },
           },
           count: 9,
         },

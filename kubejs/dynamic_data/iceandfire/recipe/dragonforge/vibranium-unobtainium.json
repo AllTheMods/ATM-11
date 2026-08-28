@@ -2,12 +2,8 @@
   "type": "iceandfire:dragonforge",
   "dragonType": "lightning",
   "cookTime": 1000,
-  "input": {
-    "item": "allthemodium:molten_vibranium_bucket"
-  },
-  "blood": {
-    "item": "allthemodium:molten_unobtainium_bucket"
-  },
+  "input": "allthemodium:molten_vibranium_bucket",
+  "blood": "allthemodium:molten_unobtainium_bucket",
   "result": {
     "id": "allthemodium:unobtainium_vibranium_block"
   }
