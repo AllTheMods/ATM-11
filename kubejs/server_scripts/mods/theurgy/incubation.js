@@ -4,20 +4,14 @@ if (Platform.isLoaded("theurgy_kubejs")) {
       let json = {
         type: "theurgy:incubation",
         category: "misc",
-        mercury: {
-          item: "theurgy:mercury_shard"
-        },
+        mercury: "theurgy:mercury_shard",
         result: {
           type: "theurgy:item",
           count: 1,
           id: output
         },
-        salt: {
-          item: "theurgy:alchemical_salt_mineral"
-        },
-        sulfur: {
-          item: sulfur
-        },
+        salt: "theurgy:alchemical_salt_mineral",
+        sulfur: sulfur,
         time: 100
       }
       event.custom(json)
@@ -45,7 +39,7 @@ if (Platform.isLoaded("theurgy_kubejs")) {
       incubation("mysticalagriculture:prosperity_shard", "kubejs:prosperity_sulfur")
     }
 
-    incubation("alltheores:salt", "kubejs:salt_sulfur")
-    incubation("alltheores:sulfur", "kubejs:sulfur_sulfur")
+    incubation("alltheores:salt_dust", "kubejs:salt_sulfur")
+    incubation("alltheores:sulfur_dust", "kubejs:sulfur_sulfur")
   })
 }
