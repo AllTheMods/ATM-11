@@ -150,8 +150,8 @@ global.iceAndFirePearls = (
   let mainItemStack = player.getItemInHand(hand)
   if (level.clientSide) return true
   // currentStopwatch = $Stopwatch.createStarted()
-  let $DragonType = Java.loadClass("com.iafenvoy.iceandfire.data.DragonType")
-  let $EntityDragonBase = Java.loadClass("com.iafenvoy.iceandfire.entity.EntityDragonBase")
+  let $DragonType = Java.loadClass("com.iafenvoy.iceandfire.registry.IafDragonTypes")
+  let $EntityDragonBase = Java.loadClass("com.iafenvoy.iceandfire.entity.DragonBaseEntity")
   let $AABB = Java.loadClass("net.minecraft.world.phys.AABB")
   let $Mth = Java.loadClass("net.minecraft.util.Mth")
   let $EyeOfEnder = Java.loadClass("net.minecraft.world.entity.projectile.EyeOfEnder")
@@ -176,10 +176,10 @@ global.iceAndFirePearls = (
   let playerPos = player.block.pos
   let searchAABB = new $AABB(
     playerPos.x - radiusEntity * 16,
-    level.getMinBuildHeight(),
+    level.getMinY(),
     playerPos.z - radiusEntity * 16,
     playerPos.x + radiusEntity * 16,
-    level.getMaxBuildHeight(),
+    level.getMaxY(),
     playerPos.z + radiusEntity * 16
   )
   /** @type {$List_<$EntityDragonBase_>} */
@@ -198,7 +198,7 @@ global.iceAndFirePearls = (
   /** @type {$Pair_<$BlockPos_,$Holder_<$Structure_>} */
   let structureResult = null
   if (closest == null) {
-    let holderSet = Registry.of("minecraft:worldgen/structure").registry().getHolder(structure)
+    let holderSet = Registry.of("minecraft:worldgen/structure").registry()["get(net.minecraft.resources.Identifier)"](structure)
     /** @type {$ServerChunkCache_} */
     let serverChunkCache = level.getChunkSource()
     structureResult = serverChunkCache
@@ -216,7 +216,7 @@ global.iceAndFirePearls = (
 
     level.addFreshEntity(eyeOfEnder)
 
-    let f = $Mth.lerp(level.random.nextFloat(), 0.33, 0.5)
+    let f = $Mth["lerp(float,float,float)"](level.random.nextFloat(), 0.33, 0.5)
     level[
       "playSound(net.minecraft.world.entity.Entity,net.minecraft.core.BlockPos,net.minecraft.sounds.SoundEvent,net.minecraft.sounds.SoundSource,float,float)"
     ](null, player.block.pos, "minecraft:entity.ender_eye.launch", "neutral", 1, f)
