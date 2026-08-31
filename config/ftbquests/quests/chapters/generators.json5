@@ -84,6 +84,7 @@
       dependencies: [
         "47750F3CB020104C",
       ],
+      size: 1.0,
       id: "2748ACEAB96A5F60",
       tasks: [
         {
@@ -124,6 +125,7 @@
         "61847F47CCA225D9",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "420FE84DEE12CCE0",
       tasks: [
         {
@@ -170,6 +172,7 @@
       dependencies: [
         "420FE84DEE12CCE0",
       ],
+      size: 1.0,
       id: "21EA29A8C7F950CE",
       tasks: [
         {
@@ -208,6 +211,7 @@
       dependencies: [
         "21EA29A8C7F950CE",
       ],
+      size: 1.0,
       id: "711DDD55CEC439E5",
       tasks: [
         {
@@ -248,6 +252,7 @@
         "711DDD55CEC439E5",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "32C7D8AE859BF89E",
       tasks: [
         {
@@ -286,6 +291,7 @@
       dependencies: [
         "21EA29A8C7F950CE",
       ],
+      size: 1.0,
       id: "2354BC5330350DF6",
       tasks: [
         {
@@ -324,6 +330,7 @@
       dependencies: [
         "47750F3CB020104C",
       ],
+      size: 1.0,
       id: "661C072E48F8D41F",
       tasks: [
         {
@@ -363,6 +370,7 @@
         "2748ACEAB96A5F60",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "61847F47CCA225D9",
       tasks: [
         {
@@ -412,6 +420,7 @@
         "7A615E2A152917AD",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       hide_details_until_startable: true,
       id: "2EE8FCB63A338BC4",
       tasks: [
@@ -543,20 +552,16 @@
       y: 2.0,
       dependencies: [
         "47750F3CB020104C",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_complete: true,
+      size: 1.0,
       id: "618F1434757C8E69",
       tasks: [
         {
           id: "34B322D0103A702D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:copper_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:copper_generator",
-            },
           },
         },
       ],
@@ -581,19 +586,16 @@
       y: 3.0,
       dependencies: [
         "618F1434757C8E69",
-        "3876FDC471FC460B",
       ],
+      size: 1.0,
       id: "61F265D9A5713A4D",
       tasks: [
         {
           id: "0EB013018E702B1B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:iron_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:iron_generator",
-            },
           },
         },
       ],
@@ -619,19 +621,16 @@
       y: 4.0,
       dependencies: [
         "61F265D9A5713A4D",
-        "3876FDC471FC460B",
       ],
+      size: 1.0,
       id: "25A3E30F722B38B6",
       tasks: [
         {
           id: "050D165BFB764088",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:gold_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:gold_generator",
-            },
           },
         },
       ],
@@ -657,20 +656,16 @@
       y: 4.0,
       dependencies: [
         "25A3E30F722B38B6",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "1C73E60FC70408D4",
       tasks: [
         {
           id: "3760CF6628449FEA",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:culinary_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:culinary_generator",
-            },
           },
         },
       ],
@@ -696,19 +691,16 @@
       y: 5.0,
       dependencies: [
         "25A3E30F722B38B6",
-        "3876FDC471FC460B",
       ],
+      size: 1.0,
       id: "28FEB4C11AD1AE7C",
       tasks: [
         {
           id: "2BF8EAF6DC5D319B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:diamond_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:diamond_generator",
-            },
           },
         },
       ],
@@ -734,19 +726,16 @@
       y: 5.0,
       dependencies: [
         "28FEB4C11AD1AE7C",
-        "3876FDC471FC460B",
       ],
+      size: 1.0,
       id: "07BEB974DF1E5AD3",
       tasks: [
         {
           id: "4F7772A5628CD409",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:netherite_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:netherite_generator",
-            },
           },
         },
       ],
@@ -772,19 +761,16 @@
       y: 5.0,
       dependencies: [
         "28FEB4C11AD1AE7C",
-        "3876FDC471FC460B",
       ],
+      size: 1.0,
       id: "076A648E3E3245C9",
       tasks: [
         {
           id: "498EED55AD10AC0B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:emerald_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:emerald_generator",
-            },
           },
         },
       ],
@@ -810,19 +796,16 @@
       y: 6.0,
       dependencies: [
         "28FEB4C11AD1AE7C",
-        "3876FDC471FC460B",
       ],
+      size: 1.0,
       id: "311F43D48B9C26FF",
       tasks: [
         {
           id: "2C5E1B693F30A58B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:obsidian_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:obsidian_generator",
-            },
           },
         },
       ],
@@ -848,20 +831,16 @@
       y: 4.0,
       dependencies: [
         "1C73E60FC70408D4",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "68972BA647FDCF8F",
       tasks: [
         {
           id: "39307952E4735E09",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:honey_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:honey_generator",
-            },
           },
         },
       ],
@@ -887,20 +866,16 @@
       y: 5.0,
       dependencies: [
         "1C73E60FC70408D4",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "7297391D026EE9A6",
       tasks: [
         {
           id: "749FA5DA6A42E764",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:potion_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:potion_generator",
-            },
           },
         },
       ],
@@ -935,20 +910,16 @@
       y: 6.0,
       dependencies: [
         "311F43D48B9C26FF",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "6A1145678E80FB8E",
       tasks: [
         {
           id: "24481F34C15FB282",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:enchantment_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:enchantment_generator",
-            },
           },
         },
       ],
@@ -983,20 +954,16 @@
       y: 7.0,
       dependencies: [
         "311F43D48B9C26FF",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "552CA2ABE659A507",
       tasks: [
         {
           id: "47F0D4C2445694CF",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:magmatic_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:magmatic_generator",
-            },
           },
         },
       ],
@@ -1022,20 +989,16 @@
       y: 6.0,
       dependencies: [
         "311F43D48B9C26FF",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "69201157ECFBB426",
       tasks: [
         {
           id: "0E0857E2248D657E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:ender_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:ender_generator",
-            },
           },
         },
       ],
@@ -1061,20 +1024,16 @@
       y: 5.0,
       dependencies: [
         "07BEB974DF1E5AD3",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "1843C79133DFB024",
       tasks: [
         {
           id: "2A5900E766CEB417",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:netherstar_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:netherstar_generator",
-            },
           },
         },
       ],
@@ -1100,20 +1059,16 @@
       y: 6.0,
       dependencies: [
         "69201157ECFBB426",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "40DB6E3DE87F16EF",
       tasks: [
         {
           id: "73CB2D4EE3ACEE1A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "generatorgalore:halitosis_generator",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "generatorgalore:halitosis_generator",
-            },
           },
         },
       ],
@@ -1141,6 +1096,7 @@
       dependencies: [
         "32C7D8AE859BF89E",
       ],
+      size: 1.0,
       id: "79C4CF8D7312FC28",
       tasks: [
         {
@@ -1181,6 +1137,7 @@
         "2748ACEAB96A5F60",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "78D1C97A542133D8",
       tasks: [
         {
@@ -1232,6 +1189,7 @@
       dependencies: [
         "78D1C97A542133D8",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "33436ED0D9F128BD",
       tasks: [
@@ -1263,6 +1221,7 @@
       dependencies: [
         "78D1C97A542133D8",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "49F08DE190AAD0D8",
       tasks: [
@@ -1294,6 +1253,7 @@
       dependencies: [
         "78D1C97A542133D8",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "07753C5D94312A50",
       tasks: [
@@ -1324,6 +1284,7 @@
       dependencies: [
         "78D1C97A542133D8",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "7F67849DE9F700D8",
       tasks: [
@@ -1355,6 +1316,7 @@
       dependencies: [
         "78D1C97A542133D8",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "538821E23E39BE97",
       tasks: [
@@ -1388,6 +1350,7 @@
         "661C072E48F8D41F",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "686B25F2E9D8CC97",
       tasks: [
         {
@@ -1422,6 +1385,7 @@
         "661C072E48F8D41F",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "553220A2CD7CAFE4",
       tasks: [
         {
@@ -1456,6 +1420,7 @@
         "2748ACEAB96A5F60",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "20EC8001A05CE2C8",
       tasks: [
         {
@@ -1496,6 +1461,7 @@
         "79C4CF8D7312FC28",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       hide_details_until_startable: true,
       id: "7A615E2A152917AD",
       tasks: [
@@ -1544,6 +1510,7 @@
         "32C7D8AE859BF89E",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       hide_details_until_startable: true,
       id: "0AD2B11565B484E7",
       tasks: [
@@ -1584,6 +1551,7 @@
         "2EE8FCB63A338BC4",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       hide_details_until_startable: true,
       id: "062AA943A1629A86",
       tasks: [
@@ -1613,6 +1581,7 @@
         "2748ACEAB96A5F60",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "757B14D08A9A03C4",
       tasks: [
         {
@@ -1653,6 +1622,7 @@
         "79C4CF8D7312FC28",
       ],
       hide_until_deps_visible: true,
+      size: 1.0,
       id: "0ADBE90B33ACC9FB",
       tasks: [
         {
@@ -1825,9 +1795,8 @@
       y: 2.0,
       dependencies: [
         "618F1434757C8E69",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "7CE86300AF8E9BCA",
       tasks: [
         {
@@ -1864,9 +1833,8 @@
       y: 3.0,
       dependencies: [
         "7CE86300AF8E9BCA",
-        "3876FDC471FC460B",
       ],
-      hide_until_deps_visible: true,
+      size: 1.0,
       id: "72A287DCAEEFE49F",
       tasks: [
         {
@@ -1902,6 +1870,7 @@
       x: 0.0,
       y: -1.5,
       shape: "circle",
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "39605F1FEB1A5A1C",
@@ -1922,6 +1891,7 @@
       dependencies: [
         "79C4CF8D7312FC28",
       ],
+      size: 1.0,
       optional: true,
       id: "3A4C17878FC8315B",
       tasks: [
@@ -1960,6 +1930,7 @@
       dependencies: [
         "3A4C17878FC8315B",
       ],
+      size: 1.0,
       optional: true,
       id: "2E85D6E2CFCC356E",
       tasks: [
@@ -1998,6 +1969,7 @@
       dependencies: [
         "2E85D6E2CFCC356E",
       ],
+      size: 1.0,
       optional: true,
       id: "25080E3295B1DF01",
       tasks: [
@@ -2027,18 +1999,6 @@
             count: 1,
           },
           count: 5,
-        },
-      ],
-    },
-    {
-      x: 0.0,
-      y: -2.5,
-      invisible: true,
-      id: "3876FDC471FC460B",
-      tasks: [
-        {
-          id: "7A2B7D79D32F0001",
-          type: "checkmark",
         },
       ],
     },
