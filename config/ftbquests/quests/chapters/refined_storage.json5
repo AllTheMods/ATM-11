@@ -36,6 +36,18 @@
           type: "xp",
           xp: 100,
         },
+        {
+          id: "5FBD101D475F62FA",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 6564847871907610613,
+        },
+        {
+          id: "60DD0031C7179542",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 8687331957824657773,
+        },
       ],
     },
     {
@@ -1160,6 +1172,18 @@
           type: "xp",
           xp: 100,
         },
+        {
+          id: "67526355F4AB333C",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 6564847871907610613,
+        },
+        {
+          id: "5FAC89E32AF0AF95",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 8687331957824657773,
+        },
       ],
     },
     {
@@ -1371,6 +1395,18 @@
           id: "15A7017416EBA80A",
           type: "xp",
           xp: 100,
+        },
+        {
+          id: "5AA4C0894CCA509C",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 6564847871907610613,
+        },
+        {
+          id: "198AF96F47B7F085",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 8687331957824657773,
         },
       ],
     },
