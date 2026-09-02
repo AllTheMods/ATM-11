@@ -162,36 +162,6 @@
       ],
     },
     {
-      x: -0.5,
-      y: 1.0,
-      dependencies: [
-        "2329AA0AFBEF1E13",
-      ],
-      size: 1.1,
-      id: "2F4458E9921DEB86",
-      tasks: [
-        {
-          id: "7E1C1FB56CFCADF6",
-          type: "item",
-          item: {
-            id: "pipez:gas_pipe",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "51371416132329E3",
-          type: "item",
-          item: {
-            id: "pipez:gas_pipe",
-            count: 1,
-          },
-          count: 16,
-        },
-      ],
-    },
-    {
       x: 2.5,
       y: 1.5,
       shape: "rsquare",
@@ -255,41 +225,7 @@
       ],
     },
     {
-      x: 8.0,
-      y: 1.0,
-      shape: "pentagon",
-      dependencies: [
-        "6BB47AD40D1BC376",
-      ],
-      size: 1.5,
-      id: "34CFE1439262AA72",
-      tasks: [
-        {
-          id: "418E333710652BFA",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "mekanism:configurator",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "06BBE2C3833797ED",
-          type: "item",
-          item: {
-            id: "alltheores:steel_ingot",
-            count: 1,
-          },
-          count: 3,
-        },
-      ],
-    },
-    {
-      x: 4.5,
+      x: 8.5,
       y: 1.0,
       shape: "pentagon",
       size: 1.5,
@@ -317,195 +253,13 @@
       ],
     },
     {
-      x: 8.0,
-      y: -0.5,
-      dependencies: [
-        "34CFE1439262AA72",
-      ],
-      size: 1.1,
-      id: "1834B5C1F8435D7A",
-      tasks: [
-        {
-          id: "5B7926B511000F1F",
-          type: "item",
-          item: {
-            id: "ftbfiltersystem:smart_filter",
-            count: 1,
-            components: {
-              "ftbfiltersystem:filter": "or(item(mekanism:basic_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:ultimate_mechanical_pipe))",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "779C78573F83BFFE",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "mekanism:advanced_mechanical_pipe",
-            },
-          },
-          count: 16,
-        },
-      ],
-    },
-    {
-      x: 9.0,
-      y: -0.5,
-      dependencies: [
-        "34CFE1439262AA72",
-      ],
-      size: 1.1,
-      icon_scale: 1.3,
-      id: "493D04D954E4FBA0",
-      tasks: [
-        {
-          id: "4448DE84ABA737BE",
-          type: "item",
-          item: {
-            id: "ftbfiltersystem:smart_filter",
-            count: 1,
-            components: {
-              "ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:advanced_universal_cable)item(mekanism:elite_universal_cable)item(mekanism:ultimate_universal_cable))",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "6E44439DE3A2B59C",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "mekanism:advanced_universal_cable",
-            },
-          },
-          count: 16,
-        },
-      ],
-    },
-    {
-      x: 7.0,
-      y: -0.5,
-      dependencies: [
-        "34CFE1439262AA72",
-      ],
-      size: 1.1,
-      id: "30DE4F5BC3EDB555",
-      tasks: [
-        {
-          id: "337725ECA2C04090",
-          type: "item",
-          item: {
-            id: "ftbfiltersystem:smart_filter",
-            count: 1,
-            components: {
-              "ftbfiltersystem:filter": "or(item(mekanism:basic_logistical_transporter)item(mekanism:advanced_logistical_transporter)item(mekanism:elite_logistical_transporter)item(mekanism:ultimate_logistical_transporter))",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "67D4792D7C7FF358",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "mekanism:advanced_logistical_transporter",
-            },
-          },
-          count: 16,
-        },
-      ],
-    },
-    {
-      x: 8.5,
-      y: -1.5,
-      dependencies: [
-        "34CFE1439262AA72",
-      ],
-      size: 1.1,
-      icon_scale: 1.3,
-      id: "316B513FE568EF57",
-      tasks: [
-        {
-          id: "79E961F671475850",
-          type: "item",
-          item: {
-            id: "ftbfiltersystem:smart_filter",
-            count: 1,
-            components: {
-              "ftbfiltersystem:filter": "or(item(mekanism:basic_thermodynamic_conductor)item(mekanism:advanced_thermodynamic_conductor)item(mekanism:elite_thermodynamic_conductor)item(mekanism:ultimate_thermodynamic_conductor))",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "3E64DF44CA2F9908",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "mekanism:advanced_thermodynamic_conductor",
-            },
-          },
-          count: 16,
-        },
-      ],
-    },
-    {
       x: 7.5,
-      y: -1.5,
-      dependencies: [
-        "34CFE1439262AA72",
-      ],
-      size: 1.1,
-      icon_scale: 1.3,
-      id: "4BC2D7FCDD792DBA",
-      tasks: [
-        {
-          id: "2BA7FC10243AA011",
-          type: "item",
-          item: {
-            id: "ftbfiltersystem:smart_filter",
-            count: 1,
-            components: {
-              "ftbfiltersystem:filter": "or(item(mekanism:basic_pressurized_tube)item(mekanism:advanced_pressurized_tube)item(mekanism:elite_pressurized_tube)item(mekanism:ultimate_pressurized_tube))",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "3217F5BBC9DAF0EC",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "mekanism:advanced_pressurized_tube",
-            },
-          },
-          count: 16,
-        },
-      ],
-    },
-    {
-      x: 3.5,
       y: 0.0,
       shape: "circle",
       dependencies: [
         "6E05B62A40D5A891",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "6112956E19017D2D",
       tasks: [
@@ -562,7 +316,7 @@
       ],
     },
     {
-      x: 5.5,
+      x: 9.5,
       y: 0.0,
       shape: "rsquare",
       dependencies: [
@@ -593,7 +347,7 @@
       ],
     },
     {
-      x: 3.5,
+      x: 7.5,
       y: -1.0,
       dependencies: [
         "6112956E19017D2D",
@@ -642,7 +396,7 @@
       ],
     },
     {
-      x: 4.5,
+      x: 8.5,
       y: -1.0,
       dependencies: [
         "6112956E19017D2D",
@@ -691,7 +445,7 @@
       ],
     },
     {
-      x: 5.5,
+      x: 9.5,
       y: -1.0,
       dependencies: [
         "6112956E19017D2D",
@@ -803,6 +557,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       icon_scale: 2.0,
       id: "5C0F6B1C93A52113",
       tasks: [
@@ -833,6 +588,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "47A2BEFB11F4D581",
       tasks: [
@@ -864,6 +620,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "4C41FD926F31180B",
       tasks: [
@@ -895,6 +652,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "1C70D739CE464E25",
       tasks: [
@@ -926,6 +684,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "52F85CED20C8B1E9",
       tasks: [
@@ -957,6 +716,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "47768B1FFD57D56E",
       tasks: [
@@ -987,6 +747,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       optional: true,
       id: "617695A9CA45D88F",
       tasks: [
@@ -1018,6 +779,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       optional: true,
       id: "308935C85364B04D",
       tasks: [
@@ -1048,6 +810,7 @@
       dependencies: [
         "5C0F6B1C93A52113",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       optional: true,
       id: "7EE27C3908008E20",
@@ -1079,6 +842,7 @@
       dependencies: [
         "47A2BEFB11F4D581",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "06767BA0AFE8C1EE",
       tasks: [
@@ -1110,6 +874,7 @@
       dependencies: [
         "47A2BEFB11F4D581",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "3065EA195D0A36BA",
       tasks: [
@@ -1141,6 +906,7 @@
       dependencies: [
         "47A2BEFB11F4D581",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "2A6900E87DE8BAE0",
       tasks: [
@@ -1171,6 +937,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       optional: true,
       id: "046C417B2ADF3AA7",
       tasks: [
@@ -1201,6 +968,7 @@
       dependencies: [
         "5F1218CF8EFC607B",
       ],
+      size: 1.0,
       optional: true,
       id: "0BB562FB44B0AAA7",
       tasks: [
@@ -1229,6 +997,7 @@
       x: 3.0,
       y: 5.0,
       shape: "circle",
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "230582AAFC0A1632",
@@ -1281,6 +1050,7 @@
     {
       x: 6.0,
       y: 5.0,
+      size: 1.0,
       invisible: true,
       id: "6BB47AD40D1BC376",
       tasks: [
@@ -1322,16 +1092,7 @@
       id: "2FC37FB4A228838E",
     },
     {
-      x: 10.0,
-      y: -3.0,
-      width: 5.642857142857143,
-      height: 1.0,
-      rotation: 0.0,
-      image: "atm:textures/questpics/logistics/mekanism.png",
-      id: "161D77426D5E1515",
-    },
-    {
-      x: 4.5,
+      x: 8.5,
       y: -2.5,
       width: 6.755813953488372,
       height: 2.0,
@@ -1374,33 +1135,6 @@
       rotation: 90.0,
       image: "atm:textures/questpics/logistics/pipez_energy.png",
       id: "77724A1B41C8AC64",
-    },
-    {
-      x: 12.0,
-      y: -0.5,
-      width: 4.75,
-      height: 0.9,
-      rotation: 90.0,
-      image: "atm:textures/questpics/logistics/meka_transporter.png",
-      id: "7E01FFDF812B135B",
-    },
-    {
-      x: 10.0,
-      y: -0.5,
-      width: 4.75,
-      height: 1.0,
-      rotation: 90.0,
-      image: "atm:textures/questpics/logistics/meka_cable.png",
-      id: "6A3885B7BC2C0F53",
-    },
-    {
-      x: 11.0,
-      y: -0.5,
-      width: 4.75,
-      height: 1.0,
-      rotation: 90.0,
-      image: "atm:textures/questpics/logistics/meka_pipe.png",
-      id: "40EA482620AB79F1",
     },
   ],
 }
