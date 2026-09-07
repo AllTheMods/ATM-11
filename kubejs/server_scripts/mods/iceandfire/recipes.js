@@ -5,6 +5,13 @@ if (Platform.isLoaded("iceandfire")) {
     allthemods.shapeless("8x kubejs:fire_eye", ["kubejs:fire_pearl", "iceandfire:dragonbone"])
     allthemods.shapeless("8x kubejs:ice_eye", ["kubejs:ice_pearl", "iceandfire:dragonbone"])
     allthemods.shapeless("8x kubejs:lightning_eye", ["kubejs:lightning_pearl", "iceandfire:dragonbone"])
+	
+	// To avoid conflicts with the Utrem Jar's recipe
+	allthemods.replaceInput(
+		{ id: "iceandfire:jar_empty" },
+		"#minecraft:planks",
+		Ingredient.of(["allthemodium:demonic_planks", "allthemodium:soul_planks", "allthemodium:ancient_planks"])
+	)
   })
 }
 
