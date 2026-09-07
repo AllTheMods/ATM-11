@@ -55,6 +55,7 @@
       dependencies: [
         "6B2027DA7AA6FF34",
       ],
+      size: 1.0,
       id: "7E92ED270C67FDE5",
       tasks: [
         {
@@ -87,7 +88,7 @@
         {
           id: "405A74769A418204",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -144,11 +145,12 @@
           id: "336EF3D109FC4797",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 299590067093682297,
         },
         {
           id: "5C3D57C7B5555A75",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -159,6 +161,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "52E59FCB39D66BCF",
       tasks: [
         {
@@ -175,11 +178,12 @@
           id: "274AC988966524C0",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "6DB5053765546C84",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -190,6 +194,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "3D5F87F8E6B89C1B",
       tasks: [
         {
@@ -206,11 +211,12 @@
           id: "32274A92CA7E0D29",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "1CEDF4B842E6FFAD",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -221,6 +227,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "7678B5DD1339833E",
       tasks: [
         {
@@ -237,11 +244,12 @@
           id: "6EB0904004F389DA",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "65F43EC6BDE0870D",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -252,6 +260,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "0FD62827710F0AC6",
       tasks: [
         {
@@ -268,11 +277,12 @@
           id: "18B81A476AAD7918",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "6500F8A1FD7CDE98",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -283,6 +293,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       min_width: 300,
       id: "1B0087400B0B8B49",
       tasks: [
@@ -309,11 +320,12 @@
           id: "33E63DBBE49D7134",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "784A4CD06F2BCFC3",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -324,6 +336,7 @@
         "7D52DD751DDADA1B",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "3CB6DC5B09C62CFE",
       tasks: [
         {
@@ -340,11 +353,12 @@
           id: "6A70A4688D512DDF",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "112DC3F34CCB36B2",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -355,6 +369,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "7D52DD751DDADA1B",
       tasks: [
         {
@@ -371,11 +386,12 @@
           id: "45B43FBEBBDF09B0",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "6DE8006788293478",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -386,6 +402,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "677365A816994C8B",
       tasks: [
         {
@@ -413,11 +430,12 @@
           id: "7C1253E7B75722C1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "224C0B9104AF03F3",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -428,6 +446,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       optional: true,
       id: "5BCA3F716348ECCD",
       tasks: [
@@ -445,11 +464,12 @@
           id: "5E890AE83AC01458",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "199E2B2A88D2387E",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -460,6 +480,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       optional: true,
       id: "33816AF0E699F19F",
       tasks: [
@@ -477,11 +498,12 @@
           id: "37AE24D2704ED63C",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "56697E45AA1BD3B3",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -492,6 +514,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "78202A1CF5D86B94",
       tasks: [
         {
@@ -508,11 +531,12 @@
           id: "5CEC3181F7E55CBD",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "659E6EAE16475B52",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -526,6 +550,7 @@
         "6D88C19F47D0D469",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "700F3FF7C23D0C0F",
       tasks: [
         {
@@ -542,11 +567,12 @@
           id: "769305364E781D9A",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "6F3E93B1DB1203CC",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -558,6 +584,7 @@
       dependencies: [
         "3DDF87A1E5F5D009",
       ],
+      size: 1.0,
       id: "5E090C9BB4DAA5D4",
       tasks: [
         {
@@ -574,11 +601,12 @@
           id: "55FA38592D091DE5",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "72826C337A2463CA",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -590,6 +618,7 @@
       dependencies: [
         "3DDF87A1E5F5D009",
       ],
+      size: 1.0,
       id: "562BD37539EE318E",
       tasks: [
         {
@@ -606,11 +635,12 @@
           id: "7A69EACB23126AFC",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "32888D2D1DEDA263",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -622,6 +652,7 @@
       dependencies: [
         "3DDF87A1E5F5D009",
       ],
+      size: 1.0,
       id: "7D7983F39E6E818D",
       tasks: [
         {
@@ -638,11 +669,12 @@
           id: "2C64F84E3E5A0266",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "4CB9B25219AECE2F",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -654,6 +686,7 @@
       dependencies: [
         "3DDF87A1E5F5D009",
       ],
+      size: 1.0,
       id: "25EFC21A3C48E0B6",
       tasks: [
         {
@@ -670,11 +703,12 @@
           id: "05BB1CA3278200D4",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "0012C27504547683",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -686,6 +720,7 @@
       dependencies: [
         "3DDF87A1E5F5D009",
       ],
+      size: 1.0,
       id: "4F1FFC02F4EAA2E6",
       tasks: [
         {
@@ -702,6 +737,7 @@
           id: "1DE001DB521BBA33",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "2FF6315546889CC7",
@@ -717,6 +753,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "61A8FAEC4FF18449",
       tasks: [
         {
@@ -733,11 +770,12 @@
           id: "14433FED493BD66D",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "7984927D6A54E393",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -748,6 +786,7 @@
       dependencies: [
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       optional: true,
       id: "5A07C7A54D40FBE2",
       tasks: [
@@ -765,11 +804,12 @@
           id: "11D419594731E761",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "076EBFB074989F80",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -780,6 +820,7 @@
         "5BCA3F716348ECCD",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       optional: true,
       id: "35F885A046EAE246",
       tasks: [
@@ -797,11 +838,12 @@
           id: "26A866150CB96015",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "5ED5D54F02F272AE",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -812,6 +854,7 @@
         "677365A816994C8B",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "740F314EE6242C13",
       tasks: [
         {
@@ -828,11 +871,12 @@
           id: "548EB9CCF7F1E732",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "72A188DBD0297AF3",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -843,6 +887,7 @@
         "61A8FAEC4FF18449",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "04F11E192A334E3F",
       tasks: [
         {
@@ -859,11 +904,12 @@
           id: "77086CA1AA324197",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "48654FB654C4FFB6",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -875,6 +921,7 @@
         "3DDF87A1E5F5D009",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "0C481BA4C1CC0237",
       tasks: [
         {
@@ -891,11 +938,12 @@
           id: "1C883044138DABFB",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "13014E6A147F6EBC",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -909,6 +957,7 @@
         "66ECC26BC81D0093",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "66FA15A92DC655DE",
       tasks: [
         {
@@ -925,11 +974,12 @@
           id: "333ECD3397C2E8CA",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "298D2BB87179CA21",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -942,6 +992,7 @@
         "66ECC26BC81D0093",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "5A708BF4F5091959",
       tasks: [
         {
@@ -958,11 +1009,12 @@
           id: "6E2746A7CE4F8A12",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "3F9F58064210F179",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -973,6 +1025,7 @@
         "5A708BF4F5091959",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "69D82C33347D360D",
       tasks: [
         {
@@ -989,11 +1042,12 @@
           id: "4531E9D99F71B91A",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "1F197E801453094D",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -1004,6 +1058,7 @@
         "0FD62827710F0AC6",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "0E3A9D5E1E8AAF89",
       tasks: [
         {
@@ -1020,11 +1075,12 @@
           id: "499F3C25175C255E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "20192640360C0972",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -1035,6 +1091,7 @@
         "3D5F87F8E6B89C1B",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "67DE5F982629BB34",
       tasks: [
         {
@@ -1051,11 +1108,12 @@
           id: "460E0C6416E0A064",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "77DA676A51B424B1",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -1066,6 +1124,7 @@
         "52E59FCB39D66BCF",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "60F5DC851FCFF1B2",
       tasks: [
         {
@@ -1082,11 +1141,12 @@
           id: "3E8225EF3DBD897E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "060D1AD152581ECD",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -1097,6 +1157,7 @@
         "1B0087400B0B8B49",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "5F6152CF085D75D6",
       tasks: [
         {
@@ -1114,11 +1175,12 @@
           id: "695DE6AE9A9329F2",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "57B3E1679990C2B0",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -1129,6 +1191,7 @@
         "7678B5DD1339833E",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "7890A1478121D2CD",
       tasks: [
         {
@@ -1145,11 +1208,12 @@
           id: "2637536BE8BBC147",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "3A6C46220F774D35",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -1160,6 +1224,7 @@
       dependencies: [
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       optional: true,
       id: "534485E8185B71C3",
       tasks: [
@@ -1177,11 +1242,12 @@
           id: "257264EBB15C1550",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "26EBA6D243FC8A09",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1192,6 +1258,7 @@
         "35F885A046EAE246",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       optional: true,
       id: "04930767C52C7CC2",
       tasks: [
@@ -1209,11 +1276,12 @@
           id: "5E5C1D3C7ABF9D17",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "4F497079C6C19EBE",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1224,6 +1292,7 @@
         "740F314EE6242C13",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "7444B85503DE2C53",
       tasks: [
         {
@@ -1240,11 +1309,12 @@
           id: "07CBEA27B6841428",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "4B8A79E2928C6072",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1255,6 +1325,7 @@
         "04F11E192A334E3F",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "604AB95A7600B150",
       tasks: [
         {
@@ -1271,11 +1342,12 @@
           id: "5A1DC827A01398E4",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "1C2A869A69144585",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1286,6 +1358,7 @@
         "66FA15A92DC655DE",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "7FEE780F37A1322E",
       tasks: [
         {
@@ -1302,11 +1375,12 @@
           id: "597278B13B0DCE91",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "1CB63C1741CAE50B",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1317,6 +1391,7 @@
       dependencies: [
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "331498A68D110F81",
       tasks: [
         {
@@ -1333,11 +1408,12 @@
           id: "4F124694464385D9",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "368C8CAD13698AB8",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1350,6 +1426,7 @@
         "5E090C9BB4DAA5D4",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "029922AB09F8C76A",
       tasks: [
         {
@@ -1366,11 +1443,12 @@
           id: "46C596393E36A96B",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "33E7F0C466941D67",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1381,6 +1459,7 @@
         "029922AB09F8C76A",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "5D594154819DD145",
       tasks: [
         {
@@ -1397,11 +1476,12 @@
           id: "15561179FA3DA02E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "38CAEE3F16B26CEB",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1412,6 +1492,7 @@
         "0E3A9D5E1E8AAF89",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "6ED2F8A8DEED417D",
       tasks: [
         {
@@ -1428,11 +1509,12 @@
           id: "37E91B34E25F494D",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "71BF900C83503328",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1443,6 +1525,7 @@
         "67DE5F982629BB34",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "2AE17A935862BCBF",
       tasks: [
         {
@@ -1459,11 +1542,12 @@
           id: "56DB84169DD497F9",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "0F62C43192364B78",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1474,6 +1558,7 @@
         "60F5DC851FCFF1B2",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "6230C6884B800689",
       tasks: [
         {
@@ -1490,11 +1575,12 @@
           id: "3BC3FB37A2F3B9C8",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "679396D0CC02A060",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1505,6 +1591,7 @@
         "5F6152CF085D75D6",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "05B0A7D0B991050F",
       tasks: [
         {
@@ -1522,11 +1609,12 @@
           id: "1713B3EA72A983CB",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "298FF735E0518BDD",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1537,6 +1625,7 @@
         "7890A1478121D2CD",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "6C8148B3AE0A2222",
       tasks: [
         {
@@ -1553,11 +1642,12 @@
           id: "0F06DF97F7F5C468",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "02E45FFD4554B630",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -1568,6 +1658,7 @@
         "604AB95A7600B150",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "79421463F01ED2D7",
       tasks: [
         {
@@ -1584,11 +1675,12 @@
           id: "399E51AED917E377",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "5D1E0C5F63B02C2C",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1599,6 +1691,7 @@
       dependencies: [
         "562BD37539EE318E",
       ],
+      size: 1.0,
       optional: true,
       id: "13FDBA4BC4514F58",
       tasks: [
@@ -1616,11 +1709,12 @@
           id: "49FD98A963240BF5",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "495A35BBE79525E0",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1631,6 +1725,7 @@
         "04930767C52C7CC2",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       optional: true,
       id: "04811BA420B80046",
       tasks: [
@@ -1648,11 +1743,12 @@
           id: "75514E5D42839B97",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "76BC2C5552C75D1A",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1663,6 +1759,7 @@
         "7444B85503DE2C53",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "1D80E6C3327AB376",
       tasks: [
         {
@@ -1679,11 +1776,12 @@
           id: "1E5B513A15344949",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "37434D0CC9A5B0E4",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1694,6 +1792,7 @@
       dependencies: [
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "564F731F0F3E5AEC",
       tasks: [
         {
@@ -1710,11 +1809,12 @@
           id: "4995ADDF96D62FC9",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "6B9F589C2E8BC325",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1725,6 +1825,7 @@
         "7FEE780F37A1322E",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "25088F06228F8561",
       tasks: [
         {
@@ -1741,11 +1842,12 @@
           id: "7B2072A45F758E4C",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "60BE5AA8BA68AA39",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1758,6 +1860,7 @@
         "562BD37539EE318E",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "0C5936697C9B3716",
       tasks: [
         {
@@ -1774,11 +1877,12 @@
           id: "049B68462787BAFD",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "55AAD824064689CB",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1789,6 +1893,7 @@
         "0C5936697C9B3716",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "1F55B2FA187F63DD",
       tasks: [
         {
@@ -1805,11 +1910,12 @@
           id: "28804F9A97A3E425",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "22B65065260F8A5F",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1820,6 +1926,7 @@
         "6ED2F8A8DEED417D",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "0C7D0AB254DF8CF1",
       tasks: [
         {
@@ -1836,11 +1943,12 @@
           id: "62814A9FA8AC2592",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "2721ED866794D71C",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1851,6 +1959,7 @@
         "2AE17A935862BCBF",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "323F7A0C4FAC28D0",
       tasks: [
         {
@@ -1867,11 +1976,12 @@
           id: "2EEB2D20FA794E4D",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "7128821934715B0C",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1882,6 +1992,7 @@
         "6230C6884B800689",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "44C1315098B9CF3F",
       tasks: [
         {
@@ -1898,11 +2009,12 @@
           id: "72A14865203125D7",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "17B757FE2EAEA913",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1913,6 +2025,7 @@
         "05B0A7D0B991050F",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "6754612E9AD4B9C0",
       tasks: [
         {
@@ -1930,11 +2043,12 @@
           id: "2EC728FD9C8F05B4",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "62477697CA962B0F",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1945,6 +2059,7 @@
         "6C8148B3AE0A2222",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "7C34EED27A9737D4",
       tasks: [
         {
@@ -1961,11 +2076,12 @@
           id: "53872D4056C7D9D8",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "4BCF7E68022B30ED",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -1976,6 +2092,7 @@
       dependencies: [
         "7D7983F39E6E818D",
       ],
+      size: 1.0,
       optional: true,
       id: "555566F1148F5229",
       tasks: [
@@ -1993,11 +2110,12 @@
           id: "1A18165C0855BF42",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "6A9E1326A8A119F5",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2007,6 +2125,7 @@
       dependencies: [
         "04811BA420B80046",
       ],
+      size: 1.0,
       optional: true,
       id: "5A8DE0C7D4F28E05",
       tasks: [
@@ -2024,11 +2143,12 @@
           id: "14975DBB973B9595",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "7041E7242D3861A0",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2038,6 +2158,7 @@
       dependencies: [
         "1D80E6C3327AB376",
       ],
+      size: 1.0,
       id: "2DD9994665799747",
       tasks: [
         {
@@ -2054,11 +2175,12 @@
           id: "7BE32CBC4F2E912D",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "6E4CC4AEC9D8721A",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2068,6 +2190,7 @@
       dependencies: [
         "79421463F01ED2D7",
       ],
+      size: 1.0,
       id: "03798EF7AB47BB3D",
       tasks: [
         {
@@ -2084,11 +2207,12 @@
           id: "10E7F35B7262EA37",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "6A8D144C5BA3D081",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2099,6 +2223,7 @@
       dependencies: [
         "7D7983F39E6E818D",
       ],
+      size: 1.0,
       id: "1CCCA214865526F3",
       tasks: [
         {
@@ -2115,11 +2240,12 @@
           id: "26824E0692C7CD6E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "375C89AC95AC1F3B",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2129,6 +2255,7 @@
       dependencies: [
         "25088F06228F8561",
       ],
+      size: 1.0,
       id: "6EFB4BF8110F2712",
       tasks: [
         {
@@ -2145,11 +2272,12 @@
           id: "336DE088F93C2773",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "43505AB66A3199A4",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2162,6 +2290,7 @@
         "7D7983F39E6E818D",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "68B604EF40198B8D",
       tasks: [
         {
@@ -2178,11 +2307,12 @@
           id: "4777EDFDBBE22036",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "2A076AC00542C7CD",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2192,6 +2322,7 @@
       dependencies: [
         "68B604EF40198B8D",
       ],
+      size: 1.0,
       id: "584BD9A6F7594867",
       tasks: [
         {
@@ -2208,11 +2339,12 @@
           id: "553724173203A123",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "782038EC955F66DE",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2222,6 +2354,7 @@
       dependencies: [
         "0C7D0AB254DF8CF1",
       ],
+      size: 1.0,
       id: "03442045ED56068F",
       tasks: [
         {
@@ -2238,11 +2371,12 @@
           id: "5A4A2AA7E595FEB5",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "22599F0527EEA03D",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2252,6 +2386,7 @@
       dependencies: [
         "323F7A0C4FAC28D0",
       ],
+      size: 1.0,
       id: "24EE138780C43447",
       tasks: [
         {
@@ -2268,11 +2403,12 @@
           id: "09289D5CE0C59DF4",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "285C49BA853D2FCB",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2282,6 +2418,7 @@
       dependencies: [
         "44C1315098B9CF3F",
       ],
+      size: 1.0,
       id: "28EE8C172F9DF5C1",
       tasks: [
         {
@@ -2298,11 +2435,12 @@
           id: "141433821E0AA5EF",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "61A665E0362576F0",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2312,6 +2450,7 @@
       dependencies: [
         "6754612E9AD4B9C0",
       ],
+      size: 1.0,
       id: "0FFF2BEE5D8EBE12",
       tasks: [
         {
@@ -2329,11 +2468,12 @@
           id: "093558B6D3AD8663",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "7DAAF18666B1C847",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2343,6 +2483,7 @@
       dependencies: [
         "7C34EED27A9737D4",
       ],
+      size: 1.0,
       id: "39386F88CB38CF36",
       tasks: [
         {
@@ -2359,11 +2500,12 @@
           id: "33464F89B8D1FB7E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "5486B9D0023A62EB",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -2375,6 +2517,7 @@
       dependencies: [
         "7E92ED270C67FDE5",
       ],
+      size: 1.0,
       id: "6D88C19F47D0D469",
       tasks: [
         {
@@ -2391,11 +2534,12 @@
           id: "06074E4D85E9625E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "27DAD35DC7E2C8C4",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -2407,6 +2551,7 @@
       dependencies: [
         "7E92ED270C67FDE5",
       ],
+      size: 1.0,
       id: "66ECC26BC81D0093",
       tasks: [
         {
@@ -2423,11 +2568,12 @@
           id: "72AD97ECD624C9F1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "4384750DCCD8BCAC",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -2437,6 +2583,7 @@
       dependencies: [
         "03798EF7AB47BB3D",
       ],
+      size: 1.0,
       id: "63E57D2745D24761",
       tasks: [
         {
@@ -2453,11 +2600,12 @@
           id: "4E00D9EA078233CE",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "1D3A0A467A2F1DB2",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2467,6 +2615,7 @@
       dependencies: [
         "2DD9994665799747",
       ],
+      size: 1.0,
       id: "11F0D662FF4DC335",
       tasks: [
         {
@@ -2483,11 +2632,12 @@
           id: "0869AE48992AACA7",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "0CDDF00FD7A96C58",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2497,6 +2647,7 @@
       dependencies: [
         "5A8DE0C7D4F28E05",
       ],
+      size: 1.0,
       optional: true,
       id: "18B20F4F27F37197",
       tasks: [
@@ -2514,11 +2665,12 @@
           id: "0354276CBFD56D27",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "3CCEF8B4922C5AD9",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2529,6 +2681,7 @@
       dependencies: [
         "25EFC21A3C48E0B6",
       ],
+      size: 1.0,
       optional: true,
       id: "0536D7B41964FE38",
       tasks: [
@@ -2546,11 +2699,12 @@
           id: "1B55A38A45331C60",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "49AED7663FF7E87A",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2561,6 +2715,7 @@
       dependencies: [
         "25EFC21A3C48E0B6",
       ],
+      size: 1.0,
       id: "486356E189081ADC",
       tasks: [
         {
@@ -2577,11 +2732,12 @@
           id: "7123F500A918DB75",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "617FF7989E95A7FF",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2591,6 +2747,7 @@
       dependencies: [
         "6EFB4BF8110F2712",
       ],
+      size: 1.0,
       id: "4449AD53BCE797E1",
       tasks: [
         {
@@ -2607,11 +2764,12 @@
           id: "14DFF6417C3A2982",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "576792D73AB84741",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2624,6 +2782,7 @@
         "25EFC21A3C48E0B6",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "379EBE12E3F61679",
       tasks: [
         {
@@ -2640,11 +2799,12 @@
           id: "4628C572883B4735",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "6258FB9CBCB92B8E",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2654,6 +2814,7 @@
       dependencies: [
         "379EBE12E3F61679",
       ],
+      size: 1.0,
       id: "335927C2D234451A",
       tasks: [
         {
@@ -2670,11 +2831,12 @@
           id: "7870CE9274C8B1E9",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "057CE0117FCA9D7E",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2684,6 +2846,7 @@
       dependencies: [
         "03442045ED56068F",
       ],
+      size: 1.0,
       id: "36B14701D95C3C21",
       tasks: [
         {
@@ -2700,11 +2863,12 @@
           id: "03ADA0DDF99F29A6",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "6380B215B854230B",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2714,6 +2878,7 @@
       dependencies: [
         "24EE138780C43447",
       ],
+      size: 1.0,
       id: "5A7C92F05AF39FDB",
       tasks: [
         {
@@ -2730,11 +2895,12 @@
           id: "612FB730577BC7F4",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "12D1549AD6F0AE28",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2744,6 +2910,7 @@
       dependencies: [
         "28EE8C172F9DF5C1",
       ],
+      size: 1.0,
       id: "637A8E4BBF108417",
       tasks: [
         {
@@ -2760,11 +2927,12 @@
           id: "33E8FCF6F8E7CB05",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "7E79681CBAAC299B",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2774,6 +2942,7 @@
       dependencies: [
         "0FFF2BEE5D8EBE12",
       ],
+      size: 1.0,
       id: "341486C9F277FEB7",
       tasks: [
         {
@@ -2791,11 +2960,12 @@
           id: "0FD775B49FC7AD8C",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "3B76ED3D475D74E5",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2805,6 +2975,7 @@
       dependencies: [
         "39386F88CB38CF36",
       ],
+      size: 1.0,
       id: "760F80E1C273C0AD",
       tasks: [
         {
@@ -2821,11 +2992,12 @@
           id: "046DDDDCAAF2BCEB",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "4296AEDE69358AC9",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -2836,6 +3008,7 @@
         "11F0D662FF4DC335",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "348FEC9A50C2E62E",
       tasks: [
         {
@@ -2852,6 +3025,7 @@
           id: "461364E687D0F236",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "2AFB6334D91B8FD7",
@@ -2867,6 +3041,7 @@
       dependencies: [
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       optional: true,
       id: "24510A5C98703C84",
       tasks: [
@@ -2884,6 +3059,7 @@
           id: "4854D191BA53A416",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "57B8413287334672",
@@ -2900,6 +3076,7 @@
         "18B20F4F27F37197",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       optional: true,
       id: "41DC771674A6C387",
       tasks: [
@@ -2917,6 +3094,7 @@
           id: "45CDC85FB4C3A138",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "423D4566074A0A55",
@@ -2932,6 +3110,7 @@
         "63E57D2745D24761",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "7EBA36EF1858F428",
       tasks: [
         {
@@ -2948,6 +3127,7 @@
           id: "32898EFFF794C2B0",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "29DA52B9C2CC7AC6",
@@ -2962,6 +3142,7 @@
       dependencies: [
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "3B28A8BA318D438F",
       tasks: [
         {
@@ -2978,6 +3159,7 @@
           id: "477548F6982B6299",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "47E25C76BF619695",
@@ -2993,6 +3175,7 @@
         "4449AD53BCE797E1",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "503CD7E104C8BA5D",
       tasks: [
         {
@@ -3009,6 +3192,7 @@
           id: "78E1CECA051B681A",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "4AC330025BE2F012",
@@ -3025,6 +3209,7 @@
         "4F1FFC02F4EAA2E6",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "3CD1F9E00E33C6C9",
       tasks: [
         {
@@ -3041,6 +3226,7 @@
           id: "521099624333DE1E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "737998404DAF6FD5",
@@ -3056,6 +3242,7 @@
         "3CD1F9E00E33C6C9",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "44F016F465082C55",
       tasks: [
         {
@@ -3072,6 +3259,7 @@
           id: "68A1E17843A0B791",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "601F715D79D3E748",
@@ -3087,6 +3275,7 @@
         "36B14701D95C3C21",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "4E67DE071FC9D80D",
       tasks: [
         {
@@ -3103,6 +3292,7 @@
           id: "1279B07A8A80FEF8",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "41A64BC8DF294061",
@@ -3118,6 +3308,7 @@
         "5A7C92F05AF39FDB",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "129F6987E144B048",
       tasks: [
         {
@@ -3134,6 +3325,7 @@
           id: "1E983232CF2EF67B",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "58FFEDCA3B80E811",
@@ -3149,6 +3341,7 @@
         "637A8E4BBF108417",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "71D08D1C8EA4C631",
       tasks: [
         {
@@ -3165,6 +3358,7 @@
           id: "08E9287775B53FFD",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "290D33D880E718A3",
@@ -3180,6 +3374,7 @@
         "341486C9F277FEB7",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "61DCECE1FC38E151",
       tasks: [
         {
@@ -3197,6 +3392,7 @@
           id: "32D20D1E95358153",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "68856C5C7FBB49D4",
@@ -3212,6 +3408,7 @@
         "760F80E1C273C0AD",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "393050BEA59F1570",
       tasks: [
         {
@@ -3228,6 +3425,7 @@
           id: "7160C8F86CD5C89D",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
           id: "0D5273DE2F25A977",
@@ -3244,6 +3442,7 @@
         "7E92ED270C67FDE5",
         "6D88C19F47D0D469",
       ],
+      size: 1.0,
       id: "1C273D9E046FD18A",
       tasks: [
         {
@@ -3260,11 +3459,12 @@
           id: "2DEB4C0CFE7C4D29",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 4236052250335530963,
         },
         {
           id: "601B548099153FD8",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -3275,6 +3475,7 @@
         "1C273D9E046FD18A",
         "66ECC26BC81D0093",
       ],
+      size: 1.0,
       id: "4EA69350A20B0B5B",
       tasks: [
         {
@@ -3291,11 +3492,12 @@
           id: "5A843A787074F467",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5411577453178694060,
         },
         {
           id: "0C561DF80C2D9A8A",
           type: "xp",
-          xp: 10,
+          xp: 100,
         },
       ],
     },
@@ -3306,6 +3508,7 @@
         "4EA69350A20B0B5B",
         "5E090C9BB4DAA5D4",
       ],
+      size: 1.0,
       id: "09DECE4E7977D852",
       tasks: [
         {
@@ -3322,11 +3525,12 @@
           id: "15E6315BB25D077E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 323217218064538611,
         },
         {
           id: "4C7355E80870AA3E",
           type: "xp",
-          xp: 25,
+          xp: 100,
         },
       ],
     },
@@ -3337,6 +3541,7 @@
         "09DECE4E7977D852",
         "562BD37539EE318E",
       ],
+      size: 1.0,
       id: "172B0296F87D6725",
       tasks: [
         {
@@ -3353,11 +3558,12 @@
           id: "7809EE77DCB57F35",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 2050559670769664902,
         },
         {
           id: "5C502AD7902DECF1",
           type: "xp",
-          xp: 50,
+          xp: 100,
         },
       ],
     },
@@ -3368,6 +3574,7 @@
         "172B0296F87D6725",
         "7D7983F39E6E818D",
       ],
+      size: 1.0,
       id: "270B5EA3E710A209",
       tasks: [
         {
@@ -3384,11 +3591,12 @@
           id: "44E183EC5FAFAACD",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5644430283229160518,
         },
         {
           id: "1F35D42EC2F4A0A6",
           type: "xp",
-          xp: 50,
+          xp: 150,
         },
       ],
     },
@@ -3399,6 +3607,7 @@
         "270B5EA3E710A209",
         "25EFC21A3C48E0B6",
       ],
+      size: 1.0,
       id: "69E572EA56B3B31D",
       tasks: [
         {
@@ -3415,11 +3624,12 @@
           id: "46BB2C3AB315B384",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5896103029501993867,
         },
         {
           id: "4D3A6B1A529D586F",
           type: "xp",
-          xp: 100,
+          xp: 200,
         },
       ],
     },
@@ -3431,6 +3641,7 @@
         "69E572EA56B3B31D",
         "4F1FFC02F4EAA2E6",
       ],
+      size: 1.0,
       id: "2C9EE7BE03767976",
       tasks: [
         {
@@ -3444,14 +3655,15 @@
       ],
       rewards: [
         {
-          id: "084A23000B1F4C8A",
-          type: "xp",
-          xp: 250,
+          id: "306D66037F1E97D5",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1432029627393651571,
         },
         {
-          id: "7EBFFE8FD0DE1E38",
-          type: "loot",
-          exclude_from_claim_all: true,
+          id: "251D000AEBA0A181",
+          type: "xp",
+          xp: 250,
         },
       ],
     },
@@ -3459,6 +3671,7 @@
       x: 0.0,
       y: -2.0,
       shape: "circle",
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "08245411AFDB63DB",
