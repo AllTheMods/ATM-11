@@ -173,4 +173,13 @@ ServerEvents.generateData("after_mods", (allthemods) => {
   }
   allthemods.json("laserbridges:recipe/laser_source_block.json", json)
 
+  if (Platform.getInfo("cookingforblockheads").version == "26.1.2.4") { // bump if needed
+    let recipes = [
+      "railcraft:recipe/patchouli_book_crafting"
+    ]
+    recipes.forEach(recipe => {
+      allthemods.json(recipe + ".json", jsonDisable)
+    })
+  }
+
 })
