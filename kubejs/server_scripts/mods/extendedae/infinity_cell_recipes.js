@@ -15,7 +15,7 @@ if (Platform.isLoaded("extendedae")) {
       })
     }
 
-    if (Platform.isLoaded("allthecompressed")) {
+    if (Platform.isLoaded("allthecompressed") && Platform.isLoaded("megacells")) {
       cell(
         "kubejs:lava_cell",
         "allthecompressed:blazing_crystal_block_3x",
