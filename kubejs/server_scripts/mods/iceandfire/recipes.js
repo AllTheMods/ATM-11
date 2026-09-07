@@ -8,7 +8,7 @@ if (Platform.isLoaded("iceandfire")) {
 	
 	// To avoid conflicts with the Utrem Jar's recipe
 	allthemods.replaceInput(
-		{ output: "iceandfire:pixie_jar_empty" },
+		{ id: "iceandfire:jar_empty" },
 		"#minecraft:planks",
 		Ingredient.of(["allthemodium:demonic_planks", "allthemodium:soul_planks", "allthemodium:ancient_planks"])
 	)
