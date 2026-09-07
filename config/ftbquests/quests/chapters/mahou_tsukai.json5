@@ -3,31 +3,21 @@
   group: "15E5B587D291A4AA",
   order_index: 4,
   icon: {
-    id: "ftbquests:missing_item",
+    id: "mahoutsukai:morgan",
     count: 1,
-    components: {
-      "ftbquests:missing_item": "mahoutsukai:morgan",
-    },
   },
   filename: "mahou_tsukai",
-  always_invisible: true,
   default_quest_shape: "diamond",
   default_hide_dependency_lines: false,
   quests: [
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "mahoutsukai:mahoujin_projector",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "mahoutsukai:mahoujin_projector",
-        },
       },
       x: 0.5,
       y: 1.0,
       shape: "gear",
-      dependencies: [
-        "4DFDA183E5F2ADE4",
-      ],
       size: 2.0,
       id: "4A88472F1581EE7E",
       tasks: [
@@ -43,11 +33,8 @@
           id: "033B32F09F74A32C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:guidebook",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:guidebook",
-            },
           },
         },
       ],
@@ -59,19 +46,16 @@
       hide_dependent_lines: true,
       dependencies: [
         "4A88472F1581EE7E",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "6AD061C4331BE1F8",
       tasks: [
         {
           id: "5BED745AE359BD12",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:attuner",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:attuner",
-            },
           },
         },
       ],
@@ -93,30 +77,24 @@
       hide_dependent_lines: true,
       dependencies: [
         "4A88472F1581EE7E",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "7F7ED94590B5B857",
       tasks: [
         {
           id: "3403F270D9F328B9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:spell_cloth",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
-            },
           },
         },
         {
           id: "16862BF857843EC4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:dagger",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:dagger",
-            },
           },
         },
       ],
@@ -125,11 +103,8 @@
           id: "62F3F6EBBB74AAF2",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:spell_cloth",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
-            },
           },
           count: 6,
         },
@@ -142,19 +117,16 @@
       hide_dependent_lines: true,
       dependencies: [
         "4A88472F1581EE7E",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "54E6C0D1BB442184",
       tasks: [
         {
           id: "2AD6E59C532B0676",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:mortar_and_pestle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:mortar_and_pestle",
-            },
           },
         },
       ],
@@ -180,7 +152,6 @@
       dependencies: [
         "6AD061C4331BE1F8",
         "54E6C0D1BB442184",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "0D19FB62C2C1D9F7",
@@ -189,11 +160,8 @@
           id: "4A084703BE712433",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_iron",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "2x mahoutsukai:powdered_iron",
-            },
           },
           count: 2,
         },
@@ -201,11 +169,8 @@
           id: "5B766A8E75D11F3A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_emerald",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:powdered_emerald",
-            },
           },
         },
       ],
@@ -239,7 +204,6 @@
       dependencies: [
         "6AD061C4331BE1F8",
         "54E6C0D1BB442184",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "5149BDF6BC4B3857",
@@ -248,22 +212,16 @@
           id: "72E60474B84AC3C6",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:powdered_diamond",
-            },
           },
         },
         {
           id: "5AE0B9B99B80AE07",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_emerald",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "2x mahoutsukai:powdered_emerald",
-            },
           },
           count: 2,
         },
@@ -286,18 +244,14 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "mahoutsukai:mahoujin_projector",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "mahoutsukai:mahoujin_projector",
-        },
       },
       x: 1.5,
       y: -4.0,
       dependencies: [
         "6AD061C4331BE1F8",
         "54E6C0D1BB442184",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "73325912C84F64A5",
@@ -306,22 +260,16 @@
           id: "34EFE899FB9B266E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_quartz",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:powdered_quartz",
-            },
           },
         },
         {
           id: "17FF908275004895",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_emerald",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "2x mahoutsukai:powdered_emerald",
-            },
           },
           count: 2,
         },
@@ -331,11 +279,8 @@
           id: "33DF95912BA1D475",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:attuned_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:attuned_diamond",
-            },
           },
         },
         {
@@ -348,9 +293,6 @@
     {
       x: 4.5,
       y: -0.5,
-      dependencies: [
-        "4DFDA183E5F2ADE4",
-      ],
       size: 1.5,
       id: "565703CBB06CEABF",
       tasks: [
@@ -383,7 +325,6 @@
         "565703CBB06CEABF",
         "3907E68572324333",
         "0A1FBDA0C1314DE1",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "59FD3C4E415EEDDD",
@@ -392,11 +333,8 @@
           id: "2C55B6F6B7DCFA14",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:murky_bucket",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:murky_bucket",
-            },
           },
         },
       ],
@@ -405,11 +343,8 @@
           id: "03598DB77462DDE7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
@@ -429,7 +364,6 @@
       y: -2.75,
       dependencies: [
         "54E6C0D1BB442184",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.2,
       id: "3907E68572324333",
@@ -438,11 +372,8 @@
           id: "2214CCA41C2062D5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "2x mahoutsukai:powdered_diamond",
-            },
           },
           count: 2,
         },
@@ -450,11 +381,8 @@
           id: "7173DA8F45027624",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_emerald",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:powdered_emerald",
-            },
           },
         },
       ],
@@ -476,7 +404,6 @@
       y: -1.25,
       dependencies: [
         "6AD061C4331BE1F8",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.2,
       id: "0A1FBDA0C1314DE1",
@@ -485,11 +412,8 @@
           id: "0DFE8322F1043E90",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:attuned_emerald",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:attuned_emerald",
-            },
           },
         },
       ],
@@ -498,11 +422,8 @@
           id: "35C7FFABBE6BECEE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:attuned_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:attuned_diamond",
-            },
           },
         },
         {
@@ -517,7 +438,6 @@
       y: -2.75,
       dependencies: [
         "59FD3C4E415EEDDD",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "03DCDFB32CD4BD85",
@@ -526,11 +446,8 @@
           id: "3AFBB5C47474BFB0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:caliburn",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:caliburn",
-            },
           },
         },
       ],
@@ -539,11 +456,8 @@
           id: "440EBE35EB9E543E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
           count: 3,
         },
@@ -564,7 +478,6 @@
       y: -3.5,
       dependencies: [
         "03DCDFB32CD4BD85",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.2,
       id: "012912FDAFCD1C66",
@@ -583,11 +496,8 @@
           id: "5B93BDA18731DC58",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
         {
@@ -607,7 +517,6 @@
       y: -4.25,
       dependencies: [
         "012912FDAFCD1C66",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "795FA102F6577368",
@@ -616,11 +525,8 @@
           id: "6A8295B93E5034B8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:morgan",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:morgan",
-            },
           },
         },
       ],
@@ -650,7 +556,6 @@
       y: -5.0,
       dependencies: [
         "795FA102F6577368",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.2,
       id: "777BB82B56038ED3",
@@ -689,7 +594,6 @@
       dependencies: [
         "7F7ED94590B5B857",
         "54E6C0D1BB442184",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "5F9B8ACCE0C8389E",
@@ -698,11 +602,8 @@
           id: "21CEAE027D983282",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "2x mahoutsukai:powdered_diamond",
-            },
           },
           count: 2,
         },
@@ -710,22 +611,16 @@
           id: "1B2952B260D5C432",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_iron",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:powdered_iron",
-            },
           },
         },
         {
           id: "210B395A33A40FE7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:spell_cloth",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
-            },
           },
         },
       ],
@@ -756,7 +651,6 @@
       y: -2.5,
       dependencies: [
         "5F9B8ACCE0C8389E",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.2,
       id: "21D323D95F5A7DB3",
@@ -788,7 +682,6 @@
       y: -2.5,
       dependencies: [
         "21D323D95F5A7DB3",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "5FD4FB9D24586B9B",
@@ -797,11 +690,8 @@
           id: "4ABE3C758C42EB4E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:staff_emrys",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:staff_emrys",
-            },
           },
         },
       ],
@@ -828,7 +718,6 @@
       y: -2.5,
       dependencies: [
         "5F9B8ACCE0C8389E",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.2,
       id: "53829B3E51936ACD",
@@ -860,7 +749,6 @@
       y: -2.5,
       dependencies: [
         "53829B3E51936ACD",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "63768C7B988ED22B",
@@ -869,11 +757,8 @@
           id: "32BDABD1D7BCAA9C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:clarent",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:clarent",
-            },
           },
         },
       ],
@@ -900,7 +785,6 @@
       y: -4.0,
       dependencies: [
         "5F9B8ACCE0C8389E",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.2,
       id: "002B8F2DE2CB4D2C",
@@ -932,19 +816,16 @@
       y: -5.0,
       dependencies: [
         "002B8F2DE2CB4D2C",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "3FB0F22BEF7FE622",
       tasks: [
         {
           id: "056F5C51843197C1",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:scroll_damage_exchange",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:scroll_damage_exchange",
-            },
           },
         },
       ],
@@ -961,19 +842,16 @@
       y: -5.0,
       dependencies: [
         "002B8F2DE2CB4D2C",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "731A4846BC556AE1",
       tasks: [
         {
           id: "303DC4CF00EBF72D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:scroll_death_collection",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:scroll_death_collection",
-            },
           },
         },
       ],
@@ -997,19 +875,16 @@
       y: -5.0,
       dependencies: [
         "002B8F2DE2CB4D2C",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "2D08BCF993B241B8",
       tasks: [
         {
           id: "4C0F43FF42AE41C8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:scroll_immunity_exchange",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:scroll_immunity_exchange",
-            },
           },
         },
       ],
@@ -1028,7 +903,6 @@
         "3FB0F22BEF7FE622",
         "731A4846BC556AE1",
         "2D08BCF993B241B8",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "378105383747DD48",
@@ -1037,11 +911,8 @@
           id: "09C6B3425E2D28C6",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:replica",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:replica",
-            },
           },
         },
       ],
@@ -1068,7 +939,6 @@
       y: -1.0,
       dependencies: [
         "5F9B8ACCE0C8389E",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.2,
       id: "146AF0937D9C63DE",
@@ -1100,7 +970,6 @@
       y: 0.5,
       dependencies: [
         "146AF0937D9C63DE",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "6E04A314CD796254",
@@ -1109,11 +978,8 @@
           id: "74EEFA68C5C602FE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:nobu",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:nobu",
-            },
           },
         },
       ],
@@ -1141,19 +1007,16 @@
       dependencies: [
         "54E6C0D1BB442184",
         "7F7ED94590B5B857",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "7992C63F063BE908",
       tasks: [
         {
           id: "381CBCFB71018C25",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_gold",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "2x mahoutsukai:powdered_gold",
-            },
           },
           count: 2,
         },
@@ -1161,22 +1024,16 @@
           id: "268FD4E46EA238E7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:powdered_diamond",
-            },
           },
         },
         {
           id: "1E1F53A59347E65E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:spell_cloth",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
-            },
           },
         },
       ],
@@ -1198,7 +1055,6 @@
       y: -10.0,
       dependencies: [
         "7992C63F063BE908",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "4C647369D976E67E",
@@ -1207,11 +1063,8 @@
           id: "18B0DF3F88158F35",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:mystic_staff",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:mystic_staff",
-            },
           },
         },
       ],
@@ -1239,19 +1092,16 @@
       dependencies: [
         "54E6C0D1BB442184",
         "7F7ED94590B5B857",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "5EF54E0EB14024D1",
       tasks: [
         {
           id: "18980EBAE4ED777A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_gold",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "2x mahoutsukai:powdered_gold",
-            },
           },
           count: 2,
         },
@@ -1259,22 +1109,16 @@
           id: "7FC1E468111BF468",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_ender",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:powdered_ender",
-            },
           },
         },
         {
           id: "6F027A96876BC5BE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:spell_cloth",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
-            },
           },
         },
       ],
@@ -1296,7 +1140,6 @@
       y: -12.0,
       dependencies: [
         "5EF54E0EB14024D1",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "34DACB973CBDE129",
@@ -1305,11 +1148,8 @@
           id: "3066CF1FA66F6B40",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:spatial_disorientation_staff",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:spatial_disorientation_staff",
-            },
           },
         },
       ],
@@ -1337,19 +1177,16 @@
       dependencies: [
         "54E6C0D1BB442184",
         "7F7ED94590B5B857",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "3E89BC6875790952",
       tasks: [
         {
           id: "0754EB6E2BC4CBE4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "2x mahoutsukai:powdered_diamond",
-            },
           },
           count: 2,
         },
@@ -1357,22 +1194,16 @@
           id: "49B29D6704E49828",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_ender",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:powdered_ender",
-            },
           },
         },
         {
           id: "7997526C86FB2F81",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:spell_cloth",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
-            },
           },
         },
       ],
@@ -1394,7 +1225,6 @@
       y: -10.0,
       dependencies: [
         "3E89BC6875790952",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "5212A4D67B1851EF",
@@ -1403,11 +1233,8 @@
           id: "7921DC93B0D4A9D2",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:proximity_projection_keys",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:proximity_projection_keys",
-            },
           },
         },
       ],
@@ -1435,30 +1262,24 @@
       dependencies: [
         "54E6C0D1BB442184",
         "7F7ED94590B5B857",
-        "4DFDA183E5F2ADE4",
       ],
+      size: 1.0,
       id: "3FF97A4B5029C0E7",
       tasks: [
         {
           id: "664ADBD5CACCEC65",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_gold",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "2x mahoutsukai:powdered_gold",
-            },
           },
         },
         {
           id: "72625D241B682131",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:powdered_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:powdered_diamond",
-            },
           },
           count: 2,
         },
@@ -1466,11 +1287,8 @@
           id: "3493A768C43A84D2",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:spell_cloth",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:spell_cloth",
-            },
           },
         },
       ],
@@ -1492,7 +1310,6 @@
       y: -8.0,
       dependencies: [
         "3FF97A4B5029C0E7",
-        "4DFDA183E5F2ADE4",
       ],
       size: 1.5,
       id: "667B95A687703D6D",
@@ -1501,11 +1318,8 @@
           id: "6068B969875D0516",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "mahoutsukai:weapon_projectile_bow",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mahoutsukai:weapon_projectile_bow",
-            },
           },
         },
       ],
@@ -1524,18 +1338,6 @@
           id: "7BC519962004A3C0",
           type: "xp_levels",
           xp_levels: 3,
-        },
-      ],
-    },
-    {
-      x: 0.5,
-      y: 5.0,
-      invisible: true,
-      id: "4DFDA183E5F2ADE4",
-      tasks: [
-        {
-          id: "3F5A8B732DBE5A66",
-          type: "checkmark",
         },
       ],
     },
