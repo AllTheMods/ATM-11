@@ -5819,11 +5819,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "iceandfire:dragonsteel_fire_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "iceandfire:dragonsteel_fire_ingot",
-        },
       },
       x: -4.0,
       y: 25.5,
@@ -5831,7 +5828,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       size: 1.0,
       id: "1C0F4D1610530FEC",
@@ -5843,7 +5839,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:fire_dragonsteel",
+              "productivebees:bee_type": "productivebees:iceandfire/fire_dragonsteel",
             },
           },
           match_components: "fuzzy",
@@ -5859,11 +5855,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "iceandfire:dragonsteel_ice_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "iceandfire:dragonsteel_ice_ingot",
-        },
       },
       x: -5.0,
       y: 25.5,
@@ -5871,7 +5864,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       size: 1.0,
       id: "019CC48531E7759B",
@@ -5883,7 +5875,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:ice_dragonsteel",
+              "productivebees:bee_type": "productivebees:iceandfire/ice_dragonsteel",
             },
           },
           match_components: "fuzzy",
@@ -5899,11 +5891,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "iceandfire:dragonsteel_lightning_ingot",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "iceandfire:dragonsteel_lightning_ingot",
-        },
       },
       x: -6.0,
       y: 25.5,
@@ -5911,7 +5900,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "17419401147B5C02",
-        "77C830AA5A5DB44E",
       ],
       size: 1.0,
       id: "3EB6CBA0B1374BDD",
@@ -5923,7 +5911,7 @@
             id: "productivebees:configurable_honeycomb",
             count: 1,
             components: {
-              "productivebees:bee_type": "productivebees:lightning_dragonsteel",
+              "productivebees:bee_type": "productivebees:iceandfire/lightning_dragonsteel",
             },
           },
           match_components: "fuzzy",
