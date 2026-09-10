@@ -1547,6 +1547,7 @@
       optional: true,
       invisible: true,
       id: "2BB5769119BA2472",
+      tags: ["arr"],
       tasks: [
         {
           id: "3007461CFCC0A013",

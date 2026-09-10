@@ -4644,6 +4644,7 @@
       invisible: true,
       hide_details_until_startable: true,
       id: "366431661CC43A6E",
+      tags: ["arr"],
       tasks: [
         {
           id: "2AE8A0F6A6C2D453",
