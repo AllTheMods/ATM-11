@@ -179,11 +179,8 @@
           id: "02340AC7D3461843",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "utilitarian:cursed_grrass",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mob_grinding_utils:dreadful_dirt",
-            },
           },
           count: 9,
         },
@@ -310,6 +307,7 @@
           id: "01179EDB257DAF60",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "03B8FA520122B5F6",
@@ -340,17 +338,10 @@
       ],
       rewards: [
         {
-          id: "03598DB77462DDE7",
-          type: "item",
-          item: {
-            id: "minecraft:enchanted_book",
-            count: 1,
-          },
-        },
-        {
           id: "765C27CCC822B144",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "143C258C8C808BF4",
@@ -391,6 +382,7 @@
           id: "77A50E4F0B8E7DE1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "459C0FCAB1EFFF8B",
@@ -453,18 +445,10 @@
       ],
       rewards: [
         {
-          id: "440EBE35EB9E543E",
-          type: "item",
-          item: {
-            id: "minecraft:enchanted_book",
-            count: 1,
-          },
-          count: 3,
-        },
-        {
           id: "4775C10EF9798BD4",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "55E443447C2A341F",
@@ -493,17 +477,10 @@
       ],
       rewards: [
         {
-          id: "5B93BDA18731DC58",
-          type: "item",
-          item: {
-            id: "minecraft:enchanted_book",
-            count: 1,
-          },
-        },
-        {
           id: "3BE344A9F21DD89C",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "6FEC6C0184E8B397",
@@ -543,6 +520,7 @@
           id: "434EE6A766FE4292",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "0C0B8377102EABD4",
@@ -580,6 +558,7 @@
           id: "5A3670D0BA3BBD12",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "22511C3ABCAEB755",
@@ -638,6 +617,7 @@
           id: "7F533C290D351F3F",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "537AFE9A45C8B3E2",
@@ -669,6 +649,7 @@
           id: "2A12A247414E3E19",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "62353E183B4A53D4",
@@ -700,11 +681,13 @@
           id: "31207888D6B7BF06",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "792700A0E5536D27",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "05CBA43926D96707",
@@ -736,6 +719,7 @@
           id: "56934D49F6E14AF2",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "29C9D36E3BFF3D61",
@@ -767,11 +751,13 @@
           id: "3B1B35F5CC4DB8B6",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "66F4ABC1E58BB128",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "1B5C5B315310C781",
@@ -803,6 +789,7 @@
           id: "4E489DA04C2BE0E1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "0C18016993FC8EB2",
@@ -834,6 +821,7 @@
           id: "03D7C9486D9CB118",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
       ],
     },
@@ -857,16 +845,10 @@
       ],
       rewards: [
         {
-          id: "6B765B1257BF468B",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "mob_grinding_utils:delightful_dirt",
-            },
-          },
-          count: 9,
+          id: "025967B54AC778FE",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
       ],
     },
@@ -893,6 +875,7 @@
           id: "0458D38452376B1B",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
       ],
     },
@@ -921,11 +904,13 @@
           id: "1F233105512040B2",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "09640C870C18F3CF",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "14458FE3B5274AD9",
@@ -957,6 +942,7 @@
           id: "312F85E72BD356A0",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "6E543F7405DD4F30",
@@ -988,11 +974,13 @@
           id: "2F4AE8C182D4B153",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "076B264F6F616BBF",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "51C56155CD73308D",
@@ -1042,6 +1030,7 @@
           id: "309EA5143A13EC8E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "3750C482B3E06A5C",
@@ -1073,11 +1062,13 @@
           id: "508FD39CC6BFDB83",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "1A0A792F03CF449D",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "7DACB5F752140619",
@@ -1127,6 +1118,7 @@
           id: "1A2932AF971EABA4",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "392615B0491BEE8C",
@@ -1158,11 +1150,13 @@
           id: "6B6EF6862A0C4D18",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "1FC1CCAB3985F4BE",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "2D413E59B50EB81A",
@@ -1212,6 +1206,7 @@
           id: "53572E3F28FB6BE0",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "72030A8B9ADC4654",
@@ -1243,11 +1238,13 @@
           id: "4477CB641F70A0A6",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "491BDED3BF4B2E6B",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "5AFF3DE6D25A841D",
@@ -1297,6 +1294,7 @@
           id: "22B16AB6B842FA6A",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "16F53E2CAE15D227",
@@ -1328,11 +1326,13 @@
           id: "7E547E7BC44FC884",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "5CD14CAEBA70106A",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 8618912459734780562,
         },
         {
           id: "7BC519962004A3C0",
