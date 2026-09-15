@@ -348,6 +348,19 @@
           type: "xp_levels",
           xp_levels: 3,
         },
+        {
+          id: "60000BBD2BEA1886",
+          type: "item",
+          item: {
+            id: "minecraft:enchanted_book",
+            count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:smite": 5,
+              },
+            },
+          },
+        },
       ],
     },
     {
@@ -455,6 +468,20 @@
           type: "xp_levels",
           xp_levels: 5,
         },
+        {
+          id: "6B689395183D99D7",
+          type: "item",
+          item: {
+            id: "minecraft:enchanted_book",
+            count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:smite": 5,
+              },
+            },
+          },
+          count: 3,
+        },
       ],
     },
     {
@@ -486,6 +513,19 @@
           id: "6FEC6C0184E8B397",
           type: "xp_levels",
           xp_levels: 5,
+        },
+        {
+          id: "7D721995047C50ED",
+          type: "item",
+          item: {
+            id: "minecraft:enchanted_book",
+            count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:smite": 5,
+              },
+            },
+          },
         },
       ],
     },
