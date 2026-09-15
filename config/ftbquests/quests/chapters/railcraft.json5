@@ -660,6 +660,19 @@
           type: "xp",
           xp: 100,
         },
+        {
+          id: "00598C9EBD6343B6",
+          type: "item",
+          item: {
+            id: "minecraft:enchanted_book",
+            count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:unbreaking": 3,
+              },
+            },
+          },
+        },
       ],
     },
     {
