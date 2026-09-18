@@ -7,6 +7,7 @@
   "quest.6FE6F50029D690C0.title": "&9Tide Trident",
   "quest.07AF1D5C24B069DD.title": "&8Cockatrice Specter",
   "quest.38CAB3EF0D89B8F4.title": "&8Cockatrice",
+  "task.4BFCCD15D178ED0D.title": "Lightning Dragon Scales",
   "quest.703790CCCE440946.title": "&3The Other",
   "quest.05113AC92BC1B192.title": "The &a&lHydra",
   "quest.6774BBE7C7C5D7EB.quest_desc": [
@@ -17,6 +18,7 @@
     "Taming an &3Amphithere&r is similar to how Humans Tamed Wolves into Dogs. It involves a lot of biting... \n\nFirst, you'll need to hit a &3Flying Amphithere&r with a Projectile to knock it out of the &bSky&r. \n\nThen, you can Right Click it to hop on its Back. Like you would with a Horse! But this Horse will swing its head back to Bite you. \n\nIn order to Tame it, you'll need to Survive each Bite and stay on it. In time it will give up and love you. \n\nOnce they love you, you can Ride them! The Controls are a bit wonky but once you play with them a bit (and read this Querst) hopefully you'll understand them better! \n\nWhen Riding, you can Press and Hold Space to make the &3Amphithere&r Fly upwards. This will make it Fly directly up from where it is at. When you let go, it will start Dropping back to the Ground. \n\nWhen Flying you can use WASD to move in each direction, but you can also use your Mouse Cursor to direct it to Glide upwards or downwards when not using the Space Bar. \n\nLike &eDeath Worms&r, when Riding you can use (G) to Attack with the &3Amphithere&r.",
   ],
   "task.73AE639A41A16778.title": "AllRightsReserved",
+  "task.0620A9784793301A.title": "Ice Dragon Scales",
   "quest.6ECB27052FCB874E.title": "We haven't moved yet!",
   "quest.1713E5D74658F095.quest_desc": [
     "&cSirens&r look just like Mermaids, half Woman half Fish. \n\nThe top half is the woman part by the way. And they will change form when aggrovated. \n\nThey spawn in groups in &cSiren Islands&r. Don't worry, even being half Fish they can still move on Land to Kill you... just slower. \n\nThey have 150 &4Hearts&r and no Armor. To make up for the lack of Armor they will &cHypnotise&r you with their Song if you aren't wearing Earplugs. \n\nBesides &cHypnotism&r, they also have some Attacks. In the &9Water&r they will charge at you and Bite you. On land they will smack you with their Claws.",
@@ -37,6 +39,7 @@
   "quest.2A26CE0E88B62002.quest_desc": [
     "On Death the &4&lCyclops&r will Drop a few Sheep related Items like Mutton and Wool and even Leather? \n\nVery rarely though it might Drop its Skull or its &4Eye&r! \n\nThe &4Eye of Cyclops&r, when held will make all Hostile Enemies that are near have Weakness II. \n\nI recommend holding it in your Offhand so your Main Hand can use your Weapons!",
   ],
+  "task.4F3B27F987FA751B.title": "Troll Weapons",
   "quest.45084D3A3E5DB63B.quest_desc": [
     "Trolls can Drop a dozen different Items! These are mostly determined by their Biome. \n\nBut all Trolls will Drop Tusks, their Leather, and their Weapons they hold. \n\nThe Tusks and Leather are both used for Troll Leather Armor.",
   ],
@@ -81,11 +84,13 @@
     "After you survived fighting the &b&lIce Dragon&r and won, the &b&lIce Dragon&r will become a Corpse. Try not to lose it among the Snow and Ice. \n\nThen, Right Click the Corpse with an Empty Hand and it will remove the &bScales&f, &bFlesh&f, and &bHeart&r from the &b&lIce Dragon&r. \n\nInstead of Right Clicking with an Empty Hand, why not use an Empty Bottle! This will give us &bIce Dragon Blood&r instead of &bScales &for &bFlesh&r. \n\nOnce all the tasty parts are removed, it will become a &7Dragon Skeleton&r. Then, you can remove the &7Bones&f and &7Skull&r, same way you got the &bScales &for &bBlood&r!",
   ],
   "quest.47E4BA6643A4BA85.title": "Taming the &3Amphithere",
+  "task.4F3D1BF4E10770D2.title": "Fire Dragon Scales",
   "quest.06ECF443FBCC12FC.title": "&eDeath Worm&r Surfing!",
   "quest.46AADB01BBD156D2.quest_desc": [
     "We can Tame &0Cockatrice&r in 2 different ways. 1. &0Rotten Egg&r 2. Hard work. \n\nToss a &0Rotten Egg&r to get a &0Baby Cockatrice&r that is tamed. Or survive staring at a &0Cockatrice&r for long enough. \n\n&0Tamed Cockatrice&r will not Hurt you when you look in their &0Eyes&r, actually they'll defend you! \n\nLike Dogs they will Attack Monsters, Kill whatever Attacks you, and even use their &0Eye Beams&r on them!",
   ],
   "quest.666FFDFDB7C869F5.title": "&8Stymphalian Birds",
+  "task.73A02CA0F7204A81.title": "Fire Dragon Egg",
   "quest.45068FB6758D3BA1.quest_desc": [
     "The &b&lIce DragonForge&r is a 3x3x3 Multiblock made of &b&lIce Dragon&r Drops and &bBricks&r! \n\nThe first layer starts with a Cross made of &bIce DragonForge Bricks&r. To fill in the square we'll need &7Dragon Bone Blocks&r. ",
     "{image:atm:textures/questpics/iceandfire/chap3_ice1.png width:100 height:100 align:center}",
@@ -124,6 +129,7 @@
   "quest.0B3AC4E923332AC6.quest_desc": [
     "The toughest of &b&lIce Dragons&r are the ones who spawn in &bIce Dragon Caves&r, these are the highest &lStages&r at &lStage 4&r and &l5&r! \n\nTheir &bIce Dragon Caves&r are massive with lots of pointy and &bIcey Blocks&r, so be careful with walking around. \n\nOh yeah plus an &b&lIce Dragon&r, that one takes up the most room! Don't worry they won't be Flying or Swimming here, just Fighting! \n\nThese &bElemental Attacks&r do even more Damage and &bFreeze&r even more Blocks and Mobs. As well as their normal Attacks doing much more Damage than before. \n\nAnd if the Damage isn't bad enough, they also has hundreds of &4Hearts&r and up to 20 &7Armor Points&r! These bad boys aren't kidding around! \n\nIf the &b&lDragon&r you slay is &lStage 4&r or &l5&r, is Female, and you didn't use Empty Bottles you might get an &bIce Dragon Egg&r. These can be used with...",
   ],
+  "task.2F6DA7A9259F8585.title": "Troll Leather Armor",
   "quest.09ABD5D978373A54.quest_desc": [
     "The &aHydra Heart&r is a very rare Drop from &a&lHydras&r but trust me, it is worth the effort! \n\nWhen it is within your Hotbar, including Main Hand, it will give you Regeneration. \nBut wait, that Regeneration will increase in Levels the less &4Hearts&r you have!",
   ],
@@ -203,6 +209,7 @@
   "quest.3166CA00032C18F7.quest_desc": [
     "There's dozens of Pets and Tamed Mobs within &b&lIce &fand &cFire&r. Thankfully almost all can be controlled in the same way! \n\nWith a Stick! \n\nBy Right Clicking on a Tamed Mob with a Stick we can change their instructions. \n\nAll have different instructions but the list is: Sitting/Staying, Wandering, Patrolling, and Following/Escorting. \n\nSitting will keep the Mob where it is. They won't Move or Fight other Mobs unless Hurt where they will stop Sitting. \nWandering will let the Mob move freely around where you are at. If the Tamed Mob likes to Attack Mobs, then it will do so when Wandering. \n\nPatrolling will have the Mob walk only in a certain distance from its set Home. So like Wandering just not around you, instead it is around its Home! \n\nFollowing will have the Mob follow you wherever you go! \n\nYou can set a Tamed Mobs Home by Shift Right Clicking them with a Stick.",
   ],
+  "task.047744035FE7C4C6.title": "Sea Serpent Scales",
   "quest.1CB063BBEC35712B.quest_desc": [
     "I can tell from the spark in the Air, this isn't an &dAmethyst Geode&r, it is a &5Lightning Dragons Cave&r. \n\nMore specifically a &lStage 4&r and &l5 &5Lightning Dragon&r. \n\nThese &5Caves&r are full of &6Copper &fand &dAmethyst&r and Chests for tons of Loot. \n\nAs well as Monsters and the &5&lDragon&r. Yeah, it is very hard to forget those! ",
     "{image:atm:textures/questpics/iceandfire/iaf_struct_lightningcave.png width:200 height:100 align:center}",
@@ -235,6 +242,7 @@
     "The &4&lCyclops&r can be found in or around their &4Caves&r. \n\nThey are giant Human like beings. Around 10 Blocks tall and wear only a Wool kilt. Like Humans they can spawn with Beards or not, like some Humans and not others they only have 1 Eye, and definitely unlike all Humans they have a Horn on their head. \n\n&4&lCyclops&r have 650 &4Hearts&r and 20 &7Armor Points&r. \n\nThey only have one Attack and that is to pick you up and Bite off your head. Yeah, this Attack does a ton of Damage and ignores Armor. \n\nThey might also charge at you if you are far away. They can run through some Blocks like Leaves but the rest they'll get stuck on. \n\nTheir only Attack is very close Ranged, so it is best to fight them from a distance with a Bow or Magic! If you are a good shot with the Bow, you can Hit them in the &4Eye&r (seems closer to the Horn) to Blind them! \n\nThis will do 10 &4Hearts&r of Damage and will make it harder for them to find you.",
     "{image:atm:textures/questpics/iceandfire/iaf_cyclops.png width:100 height:200 align:center}",
   ],
+  "task.2519E6394D62203F.title": "Tide Guardian Armor",
   "quest.2B84A4377688B189.title": "&9Sea Serpent Scales &fand &9Fangs",
   "quest.0C176F04D32B75DD.title": "&cFire Dragonsteel",
   "quest.4A84C8578C2F7F71.quest_desc": [
@@ -252,6 +260,7 @@
   ],
   "quest.70099F9B69F9D055.title": "&bIce Dragon Cave",
   "quest.43008E93B34F4F06.title": "&9Tide Arrows",
+  "task.4703C2FA0B8E7CA5.title": "Ice Dragon Egg",
   "quest.395417A7ABC3658F.quest_desc": [
     "The &2Gorgon Head&r is the confirmed and only Drop from the &2&lGorgon&r. \n\nIt has only 1 use, when you use it, it will be voided. \n\nWhen you Hold Right Click with it while looking at a Mob, then let go, the Mob will be turned into a &7Stone Statue&r. \n\nThe Mob will Die but won't give any Drops...",
   ],
@@ -259,6 +268,7 @@
     "Those unfortunate enough to fall under the &bIce&r to around Y Level 0 might come accross a terrifying and cold Cave. \n\nA Cave full of slippery &bIce &fand &bIcicles&r pointing down at them. \n\nOf course a &bCave &rbelonging to the most powerful &b&lIce Dragons&r. The &lStage 4 &rand &l5 &bIce Dragons&r. \n\nAtleast it is also filled with &7Silver&r and Chests galore! \n\nAnd also Mobs including &8Frost Trolls&r...",
     "{image:atm:textures/questpics/iceandfire/iaf_struct_icecave.png width:200 height:100 align:center}",
   ],
+  "task.721D4B2BCA090BEE.title": "Lightning Dragon Egg",
   "quest.46AADB01BBD156D2.title": "Won the staring contest",
   "quest.2E7D6A54B361B727.quest_desc": [
     "With 2 &8Stymphalian Feathers&r (and a Stick) we can Craft a &8Stymphalian Dagger&r! \n\nIt only does as much Damage as an Iron Sword but much faster Attack Speed. \n\nAlmost twice as fast as normal Swords, and three times as fast as an Axe!",
@@ -339,6 +349,7 @@
   "quest.2738184B6A688D2C.quest_desc": [
     "&8Stymphalian Feathers&r can be used to make Arrows instead of Chicken Feathers to make &8Stymphalian Arrows&r. \n\nThese Arrows are harder to Craft but will make up for it! \n\nThe Arrows fly faster, farther, and won't drop as quickly.",
   ],
+  "task.413E2B1199F7B2FE.title": "Troll Leather",
   "quest.10CA52D15EAB71A3.title": "&eThe Other Desert",
   "quest.765CD913CC3896B2.quest_desc": [
     "&lStage 4&r and &l5 &cFire Dragons&r are found sealed deep below the surface safely within their &cCaves&r. Only the dumbest would be willing to venture down there and fight them! \n\nThe &cFire Dragon Caves&r are massive Structures but are still closed in. This means the &c&lDragon&r can't easily Fly away and escape... but neither can you. \nIf you want to fight these massive &c&lDragons&r you will need the best Gear, Enchants, and Potions. Especially ones to prevent the &cBurning&r from Killing you! \nTheir Attacks do more Damage as well as their &cElemental Attacks&r spreading and &cBurning&r even more than before! Not to forget them having the same &4Health&r as a &3&lWarden&r and &7Armor Points&r that match full &cNetherite&r! \n\nIf you do Kill a &lStage 4&r or &l5 &cFemale Fire Dragon&r (and don't use Bottles on it) it might Drop an &cEgg&r. These &cDragon Eggs&r are much better than &2&lVanilla&r &dDragon Egg&r because...",
@@ -361,6 +372,7 @@
     "&3Amphithere Arrows&r are made by replacing the Chicken Feather with an &3Amphithere Feather&r. \n\nThese &3Arrows&r are basically Punch II within their own! \n\nWhen a Mob is Hit with one, they will be Knockbacked and will be sent upwards. \n\nI've heard if you use &3Amphithere Arrows&r on a Punch II Bow, the Mob will explode when Hit! (This is a lie).",
   ],
   "quest.136C40D8350651DC.title": "&cSiren Island",
+  "task.433EA38A6B260048.title": "Death Worm Chitin",
   "quest.703790CCCE440946.quest_desc": [
     "&3The Other&r, different from &b&lThe Other&r. &3The Other&r is the Biome, while &b&lThe Other&r is the Dimension. \n\nSee how helpful the Color and Bold is? \n\nThe Biome is made of &3Ancient Trees&r and &3Ancient Grass&r. As well as having massive Mountains to help distinguish them. \n\nI think the Color of this Biome fits &3Ancient Stone&r the best!",
   ],
@@ -390,6 +402,8 @@
   ],
   "quest.2E7D6A54B361B727.title": "&8Stymphalian Dagger",
   "quest.43922DB543DC05C0.title": "&lStage 1-3 &bIce Dragon",
+  "task.76A6109F367C67A5.title": "Make It Rain",
+  "task.3014A3CA3C73E6D4.title": "Death Worm Gauntlet",
   "quest.617C6D6C35B4917D.title": "&dPixies",
   "quest.14CF23064A6035CD.quest_desc": [
     "G-g-g-g-&aGhosts&r! will spawn either from a &aCursed Chest&r being Opened, or from &aGraveyard Soil&r at &9Nighttime&r. \n\nThey are Glowing, transparent, and either White, &aGreen&f, or &bBlue&r. \n\n&aGhosts&r have 140 &4Hearts &fand 2 &7Armor Points&r. \n\nThey will mostly just Hit you like Zombies to Attack you but unlike Zombies, &aGhosts&r can Fly and go through Blocks to keep Hitting you!",

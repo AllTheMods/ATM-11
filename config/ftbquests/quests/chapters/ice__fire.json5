@@ -1,7 +1,7 @@
 {
   id: "5D8E83698AEF1092",
   group: "5A4775CCD6D26C80",
-  order_index: 6,
+  order_index: 7,
   icon: {
     id: "iceandfire:dragon_skull_fire",
     count: 1,
@@ -46,9 +46,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:gorgon",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/gorgon.png",
         },
       },
       x: 25.0,
@@ -153,9 +151,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:siren",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/siren.png",
         },
       },
       x: 21.0,
@@ -266,9 +262,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:hippocampus",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/hippocampus.png",
         },
       },
       x: 39.25,
@@ -318,9 +312,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:sea_serpent",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/sea_serpent.png",
         },
       },
       x: 43.0,
@@ -434,9 +426,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:hydra",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/hydra.png",
         },
       },
       x: 27.5,
@@ -587,9 +577,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:cyclops",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/cyclops.png",
         },
       },
       x: 34.0,
@@ -673,9 +661,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:amphithere",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/amphithere.png",
         },
       },
       x: 34.0,
@@ -803,9 +789,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:ghost",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/ghost.png",
         },
       },
       x: 27.5,
@@ -919,9 +903,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:pixie",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/pixie.png",
         },
       },
       x: 21.0,
@@ -960,11 +942,8 @@
     },
     {
       icon: {
-        id: "ftbquests:custom_icon",
+        id: "iceandfire:troll_skull",
         count: 1,
-        components: {
-          "ftbquests:icon": "iceandfire:textures/entity_icon/troll/troll_mountain.png",
-        },
       },
       x: 20.5,
       y: -12.5,
@@ -1730,9 +1709,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:stymphalian_bird",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/stymphalian_bird.png",
         },
       },
       x: 25.0,
@@ -2451,9 +2428,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:hippogryph",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/hippogryph.png",
         },
       },
       x: 30.0,
@@ -2685,9 +2660,7 @@
         id: "ftbquests:custom_icon",
         count: 1,
         components: {
-          "!ftbquests:icon": {
-          },
-          "ftbquests:entity_face": "iceandfire:cockatrice",
+          "ftbquests:icon": "ftblibrary:textures/faces/iceandfire/cockatrice.png",
         },
       },
       x: 34.5,
@@ -3075,20 +3048,15 @@
       id: "0481E975F317F64D",
       tasks: [
         {
-          id: "7CC983792E1265FD",
-          type: "location",
-          dimension: "minecraft:overworld",
-          ignore_dimension: false,
-          position: [
-            -1000000,
-            80,
-            -1000000,
-          ],
-          size: [
-            1,
-            80,
-            1,
-          ],
+          id: "76A6109F367C67A5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(energizedpower:weather_controller)and(item(evilcraft:weather_container)component(fuzzy:{\"evilcraft:weather_container_type\":\"RAIN\",\"minecraft:rarity\":\"uncommon\"})))",
+            },
+          },
         },
       ],
       rewards: [
