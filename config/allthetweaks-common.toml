@@ -1,0 +1,28 @@
+[pack]
+	#Pack name shown in the window title and on the branding lines
+	display_name = "All The Mods 11"
+	#Target of the CurseForge button on the Discord Rich Presence card
+	curseforge_url = "https://www.curseforge.com/minecraft/modpacks/all-the-mods-11"
+
+	[pack.discord]
+		#Discord application the Rich Presence connects to
+		# Default: 1495847949358465084
+		# Range: 0 ~ 9223372036854775807
+		application_id = 1495847949358465084
+		#Asset key or image URL for the main image on the card
+		large_image = "icon"
+		#Asset key or image URL for the small icon in the card's corner
+		#Leave blank for no corner icon
+		small_image = ""
+		#Lines shown instead of "Main Menu" while the player sits in the menu
+		#One is picked at random and swapped for another every minute
+		#Leave empty to always show the plain menu line
+		idle_messages = ["Getting coffee", "Making a sandwich", "Reading the changelog", "Looking for the right button", "Doomscrolling"]
+
+	[pack.window]
+		#16x16 window icon, read from the allthetweaks folder next to this file
+		#Leave blank to use the bundled icon
+		icon_16 = ""
+		#32x32 window icon, read from the allthetweaks folder next to this file
+		#Leave blank to use the bundled icon
+		icon_32 = ""
