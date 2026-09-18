@@ -1,0 +1,12 @@
+{
+    // The version of the config file. Do not change this unless you know what you are doing.
+    "rconfig:version": 0,
+    "Particles": {
+        // In addition to a visual difference, containers that are not marked as 'opened' by the current player generate particles. [default: true]
+        "unopened_particles": false
+    },
+    "Textures": {
+        // When true, replaces the Lootr-specific textures with Vanilla ones where possible. [default: false]
+        "vanilla_textures": false
+    }
+}
