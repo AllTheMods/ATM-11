@@ -5,24 +5,24 @@ ServerEvents.recipes((allthemods) => {
   // Tools
   const toolstounify = ["sword", "shovel", "pickaxe", "axe", "hoe"]
   
-  allthemods.remove({ id: "mekanismtools:steel/tools/sword" })
-  allthemods.remove({ id: "railcraft:steel_sword" })
-  allthemods.remove({ id: "immersiveengineering:crafting/sword_steel" })
-  allthemods.remove({ id: "mekanismtools:steel/tools/pickaxe" })
-  allthemods.remove({ id: "railcraft:steel_pickaxe" })
-  allthemods.remove({ id: "immersiveengineering:crafting/pickaxe_steel" })
-  allthemods.remove({ id: "mekanismtools:steel/tools/axe" })
-  allthemods.remove({ id: "railcraft:steel_axe" })
-  allthemods.remove({ id: "immersiveengineering:crafting/axe_steel" })
-  allthemods.remove({ id: "mekanismtools:steel/tools/shovel" })
-  allthemods.remove({ id: "railcraft:steel_shovel" })
-  allthemods.remove({ id: "immersiveengineering:crafting/shovel_steel" })
-  allthemods.remove({ id: "mekanismtools:steel/tools/hoe" })
-  allthemods.remove({ id: "railcraft:steel_hoe" })
-  allthemods.remove({ id: "immersiveengineering:crafting/hoe_steel" })
-  allthemods.remove({ id: "mekanismtools:steel/tools/paxel" })
-
   if (Platform.isLoaded("mekanismtools")) {
+    allthemods.remove({ id: "mekanismtools:steel/tools/sword" })
+    allthemods.remove({ id: "railcraft:steel_sword" })
+    allthemods.remove({ id: "immersiveengineering:crafting/sword_steel" })
+    allthemods.remove({ id: "mekanismtools:steel/tools/pickaxe" })
+    allthemods.remove({ id: "railcraft:steel_pickaxe" })
+    allthemods.remove({ id: "immersiveengineering:crafting/pickaxe_steel" })
+    allthemods.remove({ id: "mekanismtools:steel/tools/axe" })
+    allthemods.remove({ id: "railcraft:steel_axe" })
+    allthemods.remove({ id: "immersiveengineering:crafting/axe_steel" })
+    allthemods.remove({ id: "mekanismtools:steel/tools/shovel" })
+    allthemods.remove({ id: "railcraft:steel_shovel" })
+    allthemods.remove({ id: "immersiveengineering:crafting/shovel_steel" })
+    allthemods.remove({ id: "mekanismtools:steel/tools/hoe" })
+    allthemods.remove({ id: "railcraft:steel_hoe" })
+    allthemods.remove({ id: "immersiveengineering:crafting/hoe_steel" })
+    allthemods.remove({ id: "mekanismtools:steel/tools/paxel" })
+
     allthemods
       .shaped("mekanismtools:steel_sword", [" S ", " S ", " R "], {
         S: "#c:ingots/steel",
@@ -92,14 +92,6 @@ ServerEvents.recipes((allthemods) => {
   // Armor
   const armortounify = ["helmet", "chestplate", "leggings", "boots"]
   
-  allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_helmet" })
-  allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_chestplate" })
-  allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_leggings" })
-  allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_boots" })
-  allthemods.remove({ id: "railcraft:steel_helmet" })
-  allthemods.remove({ id: "railcraft:steel_chestplate" })
-  allthemods.remove({ id: "railcraft:steel_leggings" })
-  allthemods.remove({ id: "railcraft:steel_boots" })
 	if (Platform.isLoaded("iceandfire") && Platform.isLoaded("occultism")) {
 		armortounify.forEach(materials => {
 			allthemods.remove({id: `occultism:crafting/silver_${materials}`})
@@ -125,6 +117,16 @@ ServerEvents.recipes((allthemods) => {
 			}).id(`occultism:ritual/craft_infused_${materials}`)
 		})
 	}
+  if (Platform.isLoaded("mekanismtools")) {
+    allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_helmet" })
+    allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_chestplate" })
+    allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_leggings" })
+    allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_boots" })
+    allthemods.remove({ id: "railcraft:steel_helmet" })
+    allthemods.remove({ id: "railcraft:steel_chestplate" })
+    allthemods.remove({ id: "railcraft:steel_leggings" })
+    allthemods.remove({ id: "railcraft:steel_boots" })
+  }
 
   // Shields
   allthemods.remove({ id: "the_bumblezone:honey_crystal_shield" })

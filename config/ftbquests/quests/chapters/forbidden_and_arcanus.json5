@@ -11,7 +11,7 @@
       },
     },
   },
-  filename: "forbidden__arcanus",
+  filename: "forbidden_and_arcanus",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   quests: [

@@ -6,7 +6,7 @@
     id: "minecraft:crafting_table",
     count: 1,
   },
-  filename: "achapter_1_the_beginning",
+  filename: "chapter_1_the_beginning",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   progression_mode: "flexible",
