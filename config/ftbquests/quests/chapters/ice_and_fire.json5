@@ -6,7 +6,7 @@
     id: "iceandfire:dragon_skull_fire",
     count: 1,
   },
-  filename: "ice__fire",
+  filename: "ice_and_fire",
   default_quest_shape: "circle",
   default_hide_dependency_lines: false,
   quests: [

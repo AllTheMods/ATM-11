@@ -6,7 +6,7 @@
     id: "advanced_ae:shattered_singularity",
     count: 1,
   },
-  filename: "extended__advanced_ae",
+  filename: "extended_and_advanced_ae",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   progression_mode: "flexible",

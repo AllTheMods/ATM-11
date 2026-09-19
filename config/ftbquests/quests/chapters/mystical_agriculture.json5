@@ -6,7 +6,7 @@
     id: "mysticalagradditions:insanium_essence",
     count: 1,
   },
-  filename: "elmystical_agriculturerr",
+  filename: "mystical_agriculture",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   progression_mode: "flexible",

@@ -6,7 +6,7 @@
     id: "modularrouters:creative_module",
     count: 1,
   },
-  filename: "achapter_2r_6the_atm_star",
+  filename: "chapter_2_the_atm_star",
   always_invisible: true,
   default_quest_shape: "",
   default_hide_dependency_lines: false,
