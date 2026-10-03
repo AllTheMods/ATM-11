@@ -3,6 +3,8 @@
 
 ServerEvents.recipes((allthemods) => {
   // Tools
+  const toolstounify = ["sword", "shovel", "pickaxe", "axe", "hoe"]
+  
   if (Platform.isLoaded("mekanismtools")) {
     allthemods.remove({ id: "mekanismtools:steel/tools/sword" })
     allthemods.remove({ id: "railcraft:steel_sword" })
@@ -60,8 +62,61 @@ ServerEvents.recipes((allthemods) => {
       })
       .id("allthemods:mekanismtools/steel_paxel")
   }
+  
+  if (Platform.isLoaded("iceandfire") && Platform.isLoaded("occultism")) {
+		toolstounify.forEach(materials => {
+			allthemods.remove({id: `occultism:crafting/silver_${materials}`})
+		    allthemods.custom({
+			  "type": "occultism:ritual",
+			  "activation_item": "occultism:book_of_binding_bound_djinni",
+			  "duration": 120,
+			  "ingredients": [
+				`iceandfire:silver_${materials}`,
+				"occultism:soul_gem",
+				"#c:ingots/gold",
+				"occultism:spirit_attuned_gem",
+				"occultism:spirit_attuned_gem"
+			  ],
+			  "pentacle_id": "occultism:craft_djinni",
+			  "result": {
+				"id": `occultism:infused_${materials}`
+			  },
+			  "ritual_dummy": {
+				"id": `occultism:ritual_dummy/craft_infused_${materials}`
+			  },
+			  "ritual_type": "occultism:upgrade"
+			}).id(`occultism:ritual/craft_infused_${materials}`)
+		})
+	}
 
   // Armor
+  const armortounify = ["helmet", "chestplate", "leggings", "boots"]
+  
+	if (Platform.isLoaded("iceandfire") && Platform.isLoaded("occultism")) {
+		armortounify.forEach(materials => {
+			allthemods.remove({id: `occultism:crafting/silver_${materials}`})
+		    allthemods.custom({
+			  "type": "occultism:ritual",
+			  "activation_item": "occultism:book_of_binding_bound_djinni",
+			  "duration": 120,
+			  "ingredients": [
+				`iceandfire:armor_silver_metal_${materials}`,
+				"occultism:soul_gem",
+				"#c:ingots/gold",
+				"occultism:spirit_attuned_gem",
+				"occultism:spirit_attuned_gem"
+			  ],
+			  "pentacle_id": "occultism:craft_djinni",
+			  "result": {
+				"id": `occultism:infused_${materials}`
+			  },
+			  "ritual_dummy": {
+				"id": `occultism:ritual_dummy/craft_infused_${materials}`
+			  },
+			  "ritual_type": "occultism:upgrade"
+			}).id(`occultism:ritual/craft_infused_${materials}`)
+		})
+	}
   if (Platform.isLoaded("mekanismtools")) {
     allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_helmet" })
     allthemods.remove({ id: "immersiveengineering:crafting/armor_steel_chestplate" })

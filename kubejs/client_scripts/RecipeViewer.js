@@ -30,6 +30,8 @@ const YEET = [
   'appflux:fe_256m_portable_cell'
 ]
 
+const SilverYEET = ["sword", "shovel", "pickaxe", "axe", "hoe", "helmet", "chestplate", "leggings", "boots"]
+
 RecipeViewerEvents.removeEntriesCompletely("item", (allthemods) => {
   allthemods.remove("quarryplus:adv_quarry")
   allthemods.remove("allthetweaks:greg_star")
@@ -101,6 +103,15 @@ RecipeViewerEvents.removeEntries("item", (allthemods) => {
     if(Item.exists(yeet)){
       allthemods.remove(yeet)
     }
+  }
+  
+  if (Platform.isLoaded("iceandfire") && Platform.isLoaded("occultism")) 
+  {
+	  SilverYEET.forEach(item => {
+    if (Item.exists(`occultism:silver_${item}`)) {
+      allthemods.remove(`occultism:silver_${item}`)
+    }
+  })
   }
 
   // From JEI blacklist.json
