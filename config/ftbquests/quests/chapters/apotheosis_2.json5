@@ -45,6 +45,7 @@
       dependencies: [
         "17C87EB8ED8A27AB",
       ],
+      size: 1.0,
       id: "0F89BFD4A3F63A48",
       tasks: [
         {
@@ -70,6 +71,7 @@
       dependencies: [
         "503AC506720FC59E",
       ],
+      size: 1.0,
       id: "42D7C8CD8E6F5CD7",
       tasks: [
         {
@@ -95,6 +97,7 @@
       dependencies: [
         "17C87EB8ED8A27AB",
       ],
+      size: 1.0,
       id: "6F71FD826C29C31A",
       tasks: [
         {
@@ -120,6 +123,7 @@
       dependencies: [
         "17C87EB8ED8A27AB",
       ],
+      size: 1.0,
       id: "186593EBCE3FE8D8",
       tasks: [
         {
@@ -145,6 +149,7 @@
       dependencies: [
         "17C87EB8ED8A27AB",
       ],
+      size: 1.0,
       id: "0E02CE4469FCA4C9",
       tasks: [
         {
@@ -170,6 +175,7 @@
       dependencies: [
         "503AC506720FC59E",
       ],
+      size: 1.0,
       id: "30EB438C66324213",
       tasks: [
         {
@@ -195,6 +201,7 @@
       dependencies: [
         "503AC506720FC59E",
       ],
+      size: 1.0,
       id: "40096ED0B04C3EC5",
       tasks: [
         {
@@ -220,6 +227,7 @@
       dependencies: [
         "17C87EB8ED8A27AB",
       ],
+      size: 1.0,
       id: "167E1474644C9908",
       tasks: [
         {
@@ -245,6 +253,7 @@
       dependencies: [
         "503AC506720FC59E",
       ],
+      size: 1.0,
       id: "18E0F5A78F696FA3",
       tasks: [
         {
@@ -271,6 +280,7 @@
         "17C87EB8ED8A27AB",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "7F6B66566C211735",
       tasks: [
         {
@@ -296,6 +306,7 @@
       dependencies: [
         "17C87EB8ED8A27AB",
       ],
+      size: 1.0,
       id: "4F7F8F4ED1CA0550",
       tasks: [
         {
@@ -316,13 +327,16 @@
       ],
     },
     {
+      tags: [
+        "arr",
+      ],
       x: -2.0,
       y: 0.0,
       shape: "circle",
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "2FE4B7B70D90A455",
-      tags: ["arr"],
       tasks: [
         {
           id: "3B219688DA1CF9C8",
@@ -352,6 +366,13 @@
           type: "checkmark",
         },
       ],
+      rewards: [
+        {
+          id: "168B78047455087F",
+          type: "xp",
+          xp: 10,
+        },
+      ],
     },
     {
       x: -2.5,
@@ -360,6 +381,7 @@
       dependencies: [
         "78E94C386B1E7359",
       ],
+      size: 1.0,
       id: "223A5BDB5056B781",
       tasks: [
         {
@@ -390,12 +412,13 @@
           "ftbquests:missing_item": "mob_grinding_utils:mob_swab",
         },
       },
-      x: 1.5,
-      y: 3.5,
+      x: -0.5,
+      y: 4.0,
       shape: "rsquare",
       dependencies: [
         "78E94C386B1E7359",
       ],
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "2D8A7065F8CDDDDD",
@@ -425,11 +448,6 @@
       ],
       rewards: [
         {
-          id: "14AB7688476C1E7A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "025B994E9FD2A991",
           type: "xp",
           xp: 100,
@@ -437,11 +455,12 @@
       ],
     },
     {
-      x: -0.5,
-      y: 4.0,
+      x: 1.5,
+      y: 3.5,
       dependencies: [
         "78E94C386B1E7359",
       ],
+      size: 1.0,
       id: "6D3B958E49AE7BDB",
       tasks: [
         {
@@ -474,6 +493,7 @@
       dependencies: [
         "78E94C386B1E7359",
       ],
+      size: 1.0,
       id: "76A3A2A97AB66C43",
       tasks: [
         {
@@ -490,12 +510,14 @@
           id: "6A03461ED7CB7A80",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 7482740998888138375,
         },
       ],
     },
     {
       x: -0.5,
       y: 6.0,
+      size: 1.0,
       id: "0F0E227FC3EC0D90",
       tasks: [
         {
@@ -510,6 +532,7 @@
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      size: 1.0,
       id: "263860CADB3D76C6",
       tasks: [
         {
@@ -538,6 +561,7 @@
       dependencies: [
         "310969B8FE0A94DE",
       ],
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "1102B27CBF564127",
@@ -568,6 +592,7 @@
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "52FAF122466FDDC9",
@@ -599,36 +624,6 @@
       ],
     },
     {
-      x: 0.5,
-      y: 7.0,
-      dependencies: [
-        "0F0E227FC3EC0D90",
-      ],
-      optional: true,
-      invisible: true,
-      id: "6D68D9941049E806",
-      tasks: [
-        {
-          id: "6D7441BB9E437F9F",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "ars_additions:source_spawner",
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "2B334A14FC74C8DD",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-      ],
-    },
-    {
       icon: {
         id: "ftbquests:missing_item",
         count: 1,
@@ -641,6 +636,7 @@
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "39E822440E7D2E04",
@@ -695,11 +691,12 @@
       ],
     },
     {
-      x: -0.5,
+      x: 0.5,
       y: 7.0,
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      size: 1.0,
       id: "3F55F3CC8519D783",
       tasks: [
         {
@@ -729,6 +726,7 @@
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "72AE56D34834D28E",
@@ -745,13 +743,22 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "2AF8B631EA0D0CA2",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 6269051860797387566,
+        },
+      ],
     },
     {
       x: -0.5,
-      y: 9.0,
+      y: 7.0,
       dependencies: [
         "0F0E227FC3EC0D90",
       ],
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "21C2458FED19363C",
@@ -773,6 +780,7 @@
           id: "2F9C649B1E5EB36A",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 5124217649411489500,
         },
       ],
     },
@@ -782,6 +790,7 @@
       dependencies: [
         "78E94C386B1E7359",
       ],
+      size: 1.0,
       id: "77A8E8122870BBCE",
       tasks: [
         {
@@ -807,6 +816,7 @@
       dependencies: [
         "310969B8FE0A94DE",
       ],
+      size: 1.0,
       id: "321C15EBBE2D3D30",
       tasks: [
         {
@@ -874,6 +884,7 @@
       dependencies: [
         "17C87EB8ED8A27AB",
       ],
+      size: 1.0,
       id: "00C26068B55F4FD9",
       tasks: [
         {
@@ -899,6 +910,7 @@
       dependencies: [
         "17C87EB8ED8A27AB",
       ],
+      size: 1.0,
       id: "3F1430ADB648102F",
       tasks: [
         {
@@ -924,6 +936,7 @@
       dependencies: [
         "17C87EB8ED8A27AB",
       ],
+      size: 1.0,
       id: "17410BE15A81DD96",
       tasks: [
         {
@@ -979,6 +992,7 @@
       dependencies: [
         "503AC506720FC59E",
       ],
+      size: 1.0,
       id: "7AC6A958936636D9",
       tasks: [
         {
@@ -1004,6 +1018,7 @@
       dependencies: [
         "503AC506720FC59E",
       ],
+      size: 1.0,
       id: "0E90577AC72749C4",
       tasks: [
         {

@@ -2661,6 +2661,9 @@
       ],
     },
     {
+      tags: [
+        "arr",
+      ],
       x: 0.0,
       y: 2.0,
       shape: "circle",
@@ -2668,7 +2671,6 @@
       optional: true,
       invisible: true,
       id: "209DC1E9AD4C5A84",
-      tags: ["arr"],
       tasks: [
         {
           id: "1809DDEA104A9CE8",
@@ -2676,19 +2678,6 @@
         },
         {
           id: "5DEBE38C614EFBB4",
-          type: "checkmark",
-        },
-      ],
-    },
-    {
-      x: -7.0,
-      y: 4.5,
-      size: 1.0,
-      invisible: true,
-      id: "4516403D7687EC8A",
-      tasks: [
-        {
-          id: "2B5F790B7F0F37E3",
           type: "checkmark",
         },
       ],

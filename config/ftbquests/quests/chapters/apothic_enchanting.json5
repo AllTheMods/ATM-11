@@ -141,6 +141,7 @@
       dependencies: [
         "6C2C135B9B7B9402",
       ],
+      size: 1.0,
       id: "31E7F7464D79F881",
       tasks: [
         {
@@ -182,6 +183,7 @@
         "31E7F7464D79F881",
         "37E556B4A730E5AA",
       ],
+      size: 1.0,
       id: "24C757B8AA6841F6",
       tasks: [
         {
@@ -198,10 +200,12 @@
           id: "0645A7EF1DF5FD77",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
+              "minecraft:stored_enchantments": {
+                "minecraft:impaling": 5,
+              },
             },
           },
         },
@@ -211,6 +215,7 @@
       x: 0.0,
       y: 6.0,
       shape: "hexagon",
+      size: 1.0,
       id: "6884E25641A1020C",
       tasks: [
         {
@@ -227,10 +232,14 @@
           id: "0A0A23D83E1C9F91",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
+              "minecraft:stored_enchantments": {
+                "minecraft:looting": 2,
+                "minecraft:unbreaking": 2,
+                "minecraft:sharpness": 2,
+              },
             },
           },
         },
@@ -250,6 +259,7 @@
         "31E7F7464D79F881",
         "73E09ED46A94B812",
       ],
+      size: 1.0,
       id: "42746659C66CF17F",
       tasks: [
         {
@@ -266,10 +276,14 @@
           id: "08B1BA95E0489794",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
+              "minecraft:stored_enchantments": {
+                "minecraft:unbreaking": 5,
+                "minecraft:looting": 5,
+                "minecraft:sharpness": 5,
+              },
             },
           },
         },
@@ -289,6 +303,7 @@
         "586D5DE28EEC8014",
         "0F3A0A4DC18E5E55",
       ],
+      size: 1.0,
       id: "78FEDE6FA4845585",
       tasks: [
         {
@@ -414,6 +429,7 @@
       dependencies: [
         "45161821C221EF0B",
       ],
+      size: 1.0,
       id: "60850E717C747A78",
       tasks: [
         {
@@ -448,6 +464,7 @@
       dependencies: [
         "45161821C221EF0B",
       ],
+      size: 1.0,
       id: "51E554305FFEBA1D",
       tasks: [
         {
@@ -563,6 +580,7 @@
       dependencies: [
         "235E3C386E8D36A3",
       ],
+      size: 1.0,
       id: "6852BEFDD4DE4E4B",
       tasks: [
         {
@@ -633,6 +651,7 @@
       dependencies: [
         "235E3C386E8D36A3",
       ],
+      size: 1.0,
       id: "0518551637F76C50",
       tasks: [
         {
@@ -778,6 +797,7 @@
       dependencies: [
         "1873205CF5247E3E",
       ],
+      size: 1.0,
       id: "5DE45BC0258D1B0B",
       tasks: [
         {
@@ -822,6 +842,7 @@
       dependencies: [
         "1873205CF5247E3E",
       ],
+      size: 1.0,
       id: "148A33CC36B2563A",
       tasks: [
         {
@@ -1015,6 +1036,7 @@
       dependencies: [
         "24391162F4FF0587",
       ],
+      size: 1.0,
       id: "5C73247A48E72FB3",
       tasks: [
         {
@@ -1031,10 +1053,12 @@
           id: "7DC486EF3B6FAC81",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
+              "minecraft:stored_enchantments": {
+                "minecraft:binding_curse": 1,
+              },
             },
           },
         },
@@ -1042,10 +1066,12 @@
           id: "58CAE81FA383C5D3",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
+              "minecraft:stored_enchantments": {
+                "minecraft:vanishing_curse": 1,
+              },
             },
           },
         },
@@ -1063,6 +1089,7 @@
       dependencies: [
         "24391162F4FF0587",
       ],
+      size: 1.0,
       id: "70D2C5FAC661E01A",
       tasks: [
         {
@@ -1283,6 +1310,7 @@
         "31E7F7464D79F881",
         "091957223C32B094",
       ],
+      size: 1.0,
       id: "001A348054127235",
       tasks: [
         {
@@ -1323,6 +1351,7 @@
         "31E7F7464D79F881",
         "1113BF457DB7F1DE",
       ],
+      size: 1.0,
       id: "78E66F1DE42C747A",
       tasks: [
         {
@@ -1354,6 +1383,7 @@
         "31E7F7464D79F881",
         "73E09ED46A94B812",
       ],
+      size: 1.0,
       id: "6220EDE42C813C1B",
       tasks: [
         {
@@ -1388,6 +1418,7 @@
       dependencies: [
         "4E895C54651A3CB3",
       ],
+      size: 1.0,
       id: "105442DA79829777",
       tasks: [
         {
@@ -1460,6 +1491,7 @@
         "105442DA79829777",
         "37E556B4A730E5AA",
       ],
+      size: 1.0,
       id: "377D6CF86BC1C64F",
       tasks: [
         {
@@ -1488,6 +1520,7 @@
         "377D6CF86BC1C64F",
         "091957223C32B094",
       ],
+      size: 1.0,
       id: "3D31B94CC42BCE43",
       tasks: [
         {
@@ -1514,6 +1547,7 @@
       dependencies: [
         "4E895C54651A3CB3",
       ],
+      size: 1.0,
       id: "224716A537F2FFA0",
       tasks: [
         {
@@ -1533,10 +1567,12 @@
           id: "3AA6589F33924CFC",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
+              "minecraft:stored_enchantments": {
+                "minecraft:protection": 3,
+              },
             },
           },
         },
@@ -1549,6 +1585,7 @@
       dependencies: [
         "4E895C54651A3CB3",
       ],
+      size: 1.0,
       id: "516E66BE01EE5B31",
       tasks: [
         {
@@ -1568,10 +1605,12 @@
           id: "0C6E361734890FB4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
+              "minecraft:stored_enchantments": {
+                "minecraft:sharpness": 3,
+              },
             },
           },
         },
@@ -1584,6 +1623,7 @@
       dependencies: [
         "4E895C54651A3CB3",
       ],
+      size: 1.0,
       id: "43167C59036E79A7",
       tasks: [
         {
@@ -1603,10 +1643,12 @@
           id: "1548701F30A2726D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
+              "minecraft:stored_enchantments": {
+                "minecraft:efficiency": 3,
+              },
             },
           },
         },
@@ -1619,6 +1661,7 @@
       dependencies: [
         "4E895C54651A3CB3",
       ],
+      size: 1.0,
       id: "6C57D64518FF22C0",
       tasks: [
         {
@@ -1635,10 +1678,12 @@
           id: "5041C6C262713616",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
+              "minecraft:stored_enchantments": {
+                "minecraft:unbreaking": 3,
+              },
             },
           },
         },
@@ -1651,6 +1696,7 @@
       dependencies: [
         "31E7F7464D79F881",
       ],
+      size: 1.0,
       id: "695889817162EFC7",
       tasks: [
         {
@@ -1677,6 +1723,7 @@
     {
       x: 3.0,
       y: 4.0,
+      size: 1.0,
       id: "784466C3813AA506",
       tasks: [
         {
@@ -1712,6 +1759,7 @@
         "784466C3813AA506",
         "37E556B4A730E5AA",
       ],
+      size: 1.0,
       id: "78BFDD3A9B996655",
       tasks: [
         {
@@ -1747,6 +1795,7 @@
         "78BFDD3A9B996655",
         "1113BF457DB7F1DE",
       ],
+      size: 1.0,
       id: "61217D80BFF8A858",
       tasks: [
         {
@@ -1904,6 +1953,7 @@
       dependencies: [
         "097FDC136BC843A7",
       ],
+      size: 1.0,
       id: "1113BF457DB7F1DE",
       tasks: [
         {
@@ -1964,6 +2014,7 @@
         "31E7F7464D79F881",
         "1113BF457DB7F1DE",
       ],
+      size: 1.0,
       id: "4EE6824A970EEB35",
       tasks: [
         {
@@ -1986,6 +2037,7 @@
     {
       x: 1.5,
       y: 6.0,
+      size: 1.0,
       id: "7F007C888C23EC42",
       tasks: [
         {
@@ -2024,6 +2076,7 @@
         "7F007C888C23EC42",
         "73E09ED46A94B812",
       ],
+      size: 1.0,
       id: "06F70F6CA37168CC",
       tasks: [
         {

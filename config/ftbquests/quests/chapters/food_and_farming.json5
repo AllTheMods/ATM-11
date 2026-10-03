@@ -58,6 +58,7 @@
       dependencies: [
         "43021923E220CF68",
       ],
+      size: 1.0,
       id: "72717D1135486D7F",
       tasks: [
         {
@@ -96,6 +97,7 @@
       dependencies: [
         "18EADBAFC932F864",
       ],
+      size: 1.0,
       id: "3EA883C0BB7BD38F",
       tasks: [
         {
@@ -137,6 +139,7 @@
       dependencies: [
         "2E9C035EEE7E5C34",
       ],
+      size: 1.0,
       id: "18EADBAFC932F864",
       tasks: [
         {
@@ -165,6 +168,7 @@
       dependencies: [
         "2E9C035EEE7E5C34",
       ],
+      size: 1.0,
       id: "635620A03E3505BF",
       tasks: [
         {
@@ -222,11 +226,6 @@
           },
         },
         {
-          id: "4F333F2FC9C0A269",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "547FC038410FD238",
           type: "xp",
           xp: 100,
@@ -237,6 +236,7 @@
       x: 2.5,
       y: 0.0,
       shape: "diamond",
+      size: 1.0,
       id: "2E9C035EEE7E5C34",
       tasks: [
         {
@@ -262,6 +262,7 @@
       dependencies: [
         "635620A03E3505BF",
       ],
+      size: 1.0,
       id: "73B8A70240E6070E",
       tasks: [
         {
@@ -296,6 +297,7 @@
       dependencies: [
         "2E9C035EEE7E5C34",
       ],
+      size: 1.0,
       id: "1D2EF12FD7FDD217",
       tasks: [
         {
@@ -322,6 +324,7 @@
       dependencies: [
         "1D2EF12FD7FDD217",
       ],
+      size: 1.0,
       id: "1697CC05D08B388D",
       tasks: [
         {
@@ -348,11 +351,8 @@
           id: "634BD1679C226F35",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "croptopia:fried_chicken",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "pamhc2foodcore:friedchickenitem",
-            },
           },
         },
         {
@@ -408,6 +408,7 @@
       dependencies: [
         "72717D1135486D7F",
       ],
+      size: 1.0,
       id: "0A1C2A7A8617D3E4",
       tasks: [
         {
@@ -443,6 +444,7 @@
       dependencies: [
         "0A1C2A7A8617D3E4",
       ],
+      size: 1.0,
       id: "659A903F97F93BE2",
       tasks: [
         {
@@ -469,6 +471,7 @@
       dependencies: [
         "72717D1135486D7F",
       ],
+      size: 1.0,
       id: "361DFDB1E1352D6B",
       tasks: [
         {
@@ -526,6 +529,7 @@
       dependencies: [
         "45F83C2750F70F9B",
       ],
+      size: 1.0,
       id: "58D5BD3106BFD94A",
       tasks: [
         {
@@ -545,11 +549,6 @@
             id: "minecraft:diamond",
             count: 1,
           },
-        },
-        {
-          id: "40EA2F27F5E8685D",
-          type: "random",
-          exclude_from_claim_all: true,
         },
         {
           id: "459BD2969BBA3578",
@@ -602,6 +601,7 @@
       dependencies: [
         "28C9EDBF6607E180",
       ],
+      size: 1.0,
       id: "58495CFBF4F20CE9",
       tasks: [
         {
@@ -624,11 +624,6 @@
           },
         },
         {
-          id: "22943343AA0140AF",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "27E1847753DE5130",
           type: "xp",
           xp: 10,
@@ -642,6 +637,7 @@
       dependencies: [
         "28C9EDBF6607E180",
       ],
+      size: 1.0,
       id: "37CA6F9F0226F10E",
       tasks: [
         {
@@ -664,11 +660,6 @@
           },
         },
         {
-          id: "17F23B9B65A62413",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "799F38EE6543C226",
           type: "xp",
           xp: 10,
@@ -682,6 +673,7 @@
       dependencies: [
         "28C9EDBF6607E180",
       ],
+      size: 1.0,
       id: "47764EFC822E462A",
       tasks: [
         {
@@ -703,11 +695,6 @@
           },
         },
         {
-          id: "285E04C219E15BE2",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "2D3D6433753DF10E",
           type: "xp",
           xp: 10,
@@ -721,6 +708,7 @@
       dependencies: [
         "28C9EDBF6607E180",
       ],
+      size: 1.0,
       id: "1515B32545F51266",
       tasks: [
         {
@@ -743,11 +731,6 @@
           count: 3,
         },
         {
-          id: "3F871506DE4A9E43",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "0EE6D40390D4DE5D",
           type: "xp",
           xp: 10,
@@ -761,6 +744,7 @@
       dependencies: [
         "28C9EDBF6607E180",
       ],
+      size: 1.0,
       optional: true,
       id: "13AFCD3B6F62B986",
       tasks: [
@@ -782,11 +766,6 @@
             count: 1,
           },
           count: 8,
-        },
-        {
-          id: "7D1016D39347DFD3",
-          type: "random",
-          exclude_from_claim_all: true,
         },
         {
           id: "25BB1334DA126634",
@@ -825,6 +804,7 @@
       dependencies: [
         "1DCAA0310AA55F1C",
       ],
+      size: 1.0,
       id: "16D0F1E3CEB60ABF",
       tasks: [
         {
@@ -838,11 +818,6 @@
       ],
       rewards: [
         {
-          id: "1AD805EF5C994DC3",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "74838CE200710384",
           type: "xp",
           xp: 25,
@@ -855,6 +830,7 @@
       dependencies: [
         "16D0F1E3CEB60ABF",
       ],
+      size: 1.0,
       id: "0A64D0937A5F7513",
       tasks: [
         {
@@ -868,11 +844,6 @@
       ],
       rewards: [
         {
-          id: "0F864C7AA00CC8A9",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "09F6E87A831DE09C",
           type: "xp",
           xp: 50,
@@ -885,6 +856,7 @@
       dependencies: [
         "0A64D0937A5F7513",
       ],
+      size: 1.0,
       id: "511562EA5811306B",
       tasks: [
         {
@@ -898,11 +870,6 @@
       ],
       rewards: [
         {
-          id: "7DF9A8B80872B680",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "05FD1A2F08E58F60",
           type: "xp",
           xp: 100,
@@ -915,6 +882,7 @@
       dependencies: [
         "511562EA5811306B",
       ],
+      size: 1.0,
       id: "5A1DCD6C7F712A78",
       tasks: [
         {
@@ -927,11 +895,6 @@
         },
       ],
       rewards: [
-        {
-          id: "5A0D21935AEB18B1",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "06BF09294ED115BC",
           type: "xp",
@@ -969,11 +932,6 @@
           },
         },
         {
-          id: "688019DBD32BF755",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "67C04C8A891CB4DD",
           type: "xp",
           xp: 100,
@@ -986,6 +944,7 @@
       dependencies: [
         "361DFDB1E1352D6B",
       ],
+      size: 1.0,
       id: "1D48298525EEADC9",
       tasks: [
         {
@@ -1022,6 +981,7 @@
       dependencies: [
         "28C9EDBF6607E180",
       ],
+      size: 1.0,
       id: "0EFF1AA37772156B",
       tasks: [
         {
@@ -1043,11 +1003,6 @@
           },
         },
         {
-          id: "139855B12BA13469",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "7F38B63C5879EF11",
           type: "xp",
           xp: 10,
@@ -1055,13 +1010,16 @@
       ],
     },
     {
+      tags: [
+        "arr",
+      ],
       x: 0.5,
       y: 2.0,
       shape: "circle",
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "55C4824DAD905512",
-      tags: ["arr"],
       tasks: [
         {
           id: "5805158E69C05AED",
@@ -1084,6 +1042,7 @@
       dependencies: [
         "28C9EDBF6607E180",
       ],
+      size: 1.0,
       id: "791AE62ACACBD5BA",
       tasks: [
         {
@@ -1100,11 +1059,6 @@
       ],
       rewards: [
         {
-          id: "4C3114E267797DC4",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "252681E3107767E7",
           type: "xp",
           xp: 10,
@@ -1118,6 +1072,7 @@
       dependencies: [
         "28C9EDBF6607E180",
       ],
+      size: 1.0,
       id: "2786D5AC19163524",
       tasks: [
         {
@@ -1131,11 +1086,6 @@
       ],
       rewards: [
         {
-          id: "001D146FA176A7CE",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "3F16B93CAB0B6ECA",
           type: "xp",
           xp: 10,
@@ -1148,6 +1098,7 @@
       dependencies: [
         "72717D1135486D7F",
       ],
+      size: 1.0,
       id: "56550CD12C681B0F",
       tasks: [
         {
@@ -1181,6 +1132,7 @@
       dependencies: [
         "56550CD12C681B0F",
       ],
+      size: 1.0,
       id: "04D0543FE2820F64",
       tasks: [
         {

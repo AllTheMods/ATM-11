@@ -314,17 +314,11 @@
           id: "42FFCBCEDF641E38",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
             components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-              "ftbquests:missing_item_count": 1,
-              "ftbquests:missing_item_data": {
-                "minecraft:stored_enchantments": {
-                  levels: {
-                    "minecraft:unbreaking": 1,
-                  },
-                },
+              "minecraft:stored_enchantments": {
+                "minecraft:fortune": 3,
               },
             },
           },
@@ -337,13 +331,16 @@
       ],
     },
     {
+      tags: [
+        "arr",
+      ],
       x: 0.0,
       y: -2.0,
       shape: "circle",
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "5E02AE661945306C",
-      tags: ["arr"],
       tasks: [
         {
           id: "59DD89698DBAA215",

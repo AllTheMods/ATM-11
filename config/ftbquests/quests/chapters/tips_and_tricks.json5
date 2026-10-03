@@ -33,6 +33,7 @@
             id: "pipez:fluid_pipe",
             count: 1,
           },
+          count: 16,
         },
         {
           id: "1159FE6CDF262C46",
@@ -64,11 +65,6 @@
         },
       ],
       rewards: [
-        {
-          id: "6BCF264E89365C5D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "105CF4B42684C297",
           type: "xp",
@@ -190,11 +186,6 @@
       ],
       rewards: [
         {
-          id: "262AC9191FD415A3",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "727954DC34582543",
           type: "xp",
           xp: 10,
@@ -220,11 +211,6 @@
         },
       ],
       rewards: [
-        {
-          id: "1F7684F76C15123A",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "79453E57C95043BD",
           type: "xp",
@@ -254,14 +240,17 @@
       ],
       rewards: [
         {
-          id: "7CCFFBC576CC4D3E",
-          type: "loot",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "00E8AD05DE1012D8",
           type: "xp",
           xp: 10,
+        },
+        {
+          id: "62F5FA531726B03D",
+          type: "item",
+          item: {
+            id: "easy_villagers:trader",
+            count: 1,
+          },
         },
       ],
     },
@@ -286,14 +275,20 @@
       ],
       rewards: [
         {
-          id: "6D44B1DE7B009082",
-          type: "loot",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "44FE2E9B40EF0EE1",
           type: "xp",
           xp: 10,
+        },
+        {
+          id: "132CB9337EBD2555",
+          type: "item",
+          item: {
+            id: "patchouli:guide_book",
+            count: 1,
+            components: {
+              "patchouli:book": "buildinggadgets2:buildinggadgets2book",
+            },
+          },
         },
       ],
     },
@@ -318,18 +313,25 @@
       ],
       rewards: [
         {
-          id: "3650502ECF1ACC45",
-          type: "loot",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "43F516E0BB34B39A",
           type: "xp",
           xp: 10,
         },
+        {
+          id: "69C7760E1602E117",
+          type: "item",
+          item: {
+            id: "minecraft:chest",
+            count: 1,
+          },
+          count: 8,
+        },
       ],
     },
     {
+      tags: [
+        "arr",
+      ],
       x: 0.0,
       y: 1.5,
       shape: "circle",
@@ -337,7 +339,6 @@
       optional: true,
       invisible: true,
       id: "0152938EE5651409",
-      tags: ["arr"],
       tasks: [
         {
           id: "4AEB792F6A939B3A",
@@ -366,14 +367,17 @@
       ],
       rewards: [
         {
-          id: "127E7D75FED16CC1",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "5D49D26FB7E63F55",
           type: "xp",
           xp: 10,
+        },
+        {
+          id: "239485B228BF07A0",
+          type: "item",
+          item: {
+            id: "minecraft:wandering_trader_spawn_egg",
+            count: 1,
+          },
         },
       ],
     },
@@ -393,11 +397,6 @@
         },
       ],
       rewards: [
-        {
-          id: "50ADC1136A3A00BD",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "1E63E6B512FFCFD2",
           type: "xp",
@@ -441,11 +440,6 @@
       ],
       rewards: [
         {
-          id: "5E4447BBFFFE970F",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "12BED4D8DA2BCE0A",
           type: "xp",
           xp: 10,
@@ -475,11 +469,6 @@
       ],
       rewards: [
         {
-          id: "5A5A4DD01955CC6D",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "608E5E2EB389DDA0",
           type: "xp",
           xp: 10,
@@ -508,11 +497,6 @@
         },
       ],
       rewards: [
-        {
-          id: "6CDEC4584B2F8285",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "51AF28BA3AAE9725",
           type: "xp",
@@ -552,11 +536,6 @@
           count: 3,
         },
         {
-          id: "5D6D1881953027DC",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
-        {
           id: "5BA3AF7836CA9E14",
           type: "xp",
           xp: 10,
@@ -583,17 +562,9 @@
           id: "346B64D599131B3F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "powah:energy_cell_starter",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mekanism:basic_energy_cube",
-            },
           },
-        },
-        {
-          id: "30658ECCE91B8F84",
-          type: "random",
-          exclude_from_claim_all: true,
         },
         {
           id: "68E88ABAFD1D5807",
@@ -639,11 +610,6 @@
             },
           },
           count: 2,
-        },
-        {
-          id: "3D882840678CDAD4",
-          type: "random",
-          exclude_from_claim_all: true,
         },
         {
           id: "54539646780D2270",
@@ -770,11 +736,6 @@
         },
       ],
       rewards: [
-        {
-          id: "5D0397294B7C5937",
-          type: "random",
-          exclude_from_claim_all: true,
-        },
         {
           id: "1F5114FCB7AD1D34",
           type: "xp",

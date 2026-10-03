@@ -53,6 +53,7 @@
       dependencies: [
         "5D327D85B91E5032",
       ],
+      size: 1.0,
       id: "082DEC8CBA6D23E5",
       tasks: [
         {
@@ -89,6 +90,7 @@
       dependencies: [
         "5D327D85B91E5032",
       ],
+      size: 1.0,
       id: "05352452468E8375",
       tasks: [
         {
@@ -108,6 +110,7 @@
       dependencies: [
         "5D327D85B91E5032",
       ],
+      size: 1.0,
       id: "4A7DBDB179F30BC3",
       tasks: [
         {
@@ -144,6 +147,7 @@
       dependencies: [
         "5D327D85B91E5032",
       ],
+      size: 1.0,
       id: "62788B8B97AF2D76",
       tasks: [
         {
@@ -178,6 +182,7 @@
       dependencies: [
         "5D327D85B91E5032",
       ],
+      size: 1.0,
       id: "00E6B3F670E20454",
       tasks: [
         {
@@ -214,6 +219,7 @@
       dependencies: [
         "0061B0577B1C4AEF",
       ],
+      size: 1.0,
       id: "141101C9A381905C",
       tasks: [
         {
@@ -250,6 +256,7 @@
         "4A7DBDB179F30BC3",
         "141101C9A381905C",
       ],
+      size: 1.0,
       id: "435B180FCE208A7B",
       tasks: [
         {
@@ -286,6 +293,7 @@
         "62788B8B97AF2D76",
         "435B180FCE208A7B",
       ],
+      size: 1.0,
       id: "60A8F55648685236",
       tasks: [
         {
@@ -331,6 +339,7 @@
         "05352452468E8375",
         "4A7DBDB179F30BC3",
       ],
+      size: 1.0,
       id: "3DBAC2CDD75763F3",
       tasks: [
         {
@@ -361,6 +370,7 @@
       dependencies: [
         "5D327D85B91E5032",
       ],
+      size: 1.0,
       id: "1AF97F48B4C13020",
       tasks: [
         {
@@ -409,6 +419,7 @@
       dependencies: [
         "5D327D85B91E5032",
       ],
+      size: 1.0,
       id: "262B331BB96336F5",
       tasks: [
         {
@@ -449,6 +460,7 @@
       dependencies: [
         "47F7BA8E81383714",
       ],
+      size: 1.0,
       id: "3294189EF3C0D5E5",
       tasks: [
         {
@@ -491,6 +503,7 @@
       dependencies: [
         "47F7BA8E81383714",
       ],
+      size: 1.0,
       id: "726857C4BE6ADCDE",
       tasks: [
         {
@@ -525,6 +538,7 @@
       dependencies: [
         "082DEC8CBA6D23E5",
       ],
+      size: 1.0,
       id: "224BF0C9690FBEBF",
       tasks: [
         {
@@ -560,6 +574,7 @@
         "00E6B3F670E20454",
         "32191922242B11B5",
       ],
+      size: 1.0,
       id: "2C7D1CD63680FA80",
       tasks: [
         {
@@ -608,6 +623,7 @@
         "00E6B3F670E20454",
         "32191922242B11B5",
       ],
+      size: 1.0,
       id: "0527CE6921ADB079",
       tasks: [
         {
@@ -660,6 +676,7 @@
         "00E6B3F670E20454",
         "32191922242B11B5",
       ],
+      size: 1.0,
       id: "128E4A78E76F366C",
       tasks: [
         {
@@ -703,6 +720,7 @@
       dependencies: [
         "0527CE6921ADB079",
       ],
+      size: 1.0,
       icon_scale: 1.5,
       id: "47F7BA8E81383714",
       tasks: [
@@ -739,6 +757,7 @@
       dependencies: [
         "490B64C64BDE76F7",
       ],
+      size: 1.0,
       id: "2802D606849ED924",
       tasks: [
         {
@@ -775,6 +794,7 @@
       dependencies: [
         "490B64C64BDE76F7",
       ],
+      size: 1.0,
       id: "0EAB51C9B13A959B",
       tasks: [
         {
@@ -811,6 +831,7 @@
       dependencies: [
         "490B64C64BDE76F7",
       ],
+      size: 1.0,
       id: "402A53010DFB2D69",
       tasks: [
         {
@@ -851,6 +872,7 @@
       dependencies: [
         "490B64C64BDE76F7",
       ],
+      size: 1.0,
       id: "19456F38224A24DB",
       tasks: [
         {
@@ -901,6 +923,7 @@
       dependencies: [
         "490B64C64BDE76F7",
       ],
+      size: 1.0,
       id: "729B89CA30BE3B28",
       tasks: [
         {
@@ -937,6 +960,7 @@
       dependencies: [
         "490B64C64BDE76F7",
       ],
+      size: 1.0,
       id: "1D0725DC4463F895",
       tasks: [
         {
@@ -972,6 +996,7 @@
       dependencies: [
         "5D327D85B91E5032",
       ],
+      size: 1.0,
       id: "7717E30B48E53462",
       tasks: [
         {
@@ -1000,26 +1025,11 @@
           xp_levels: 2,
         },
         {
-          id: "0FB25B1D95FE22B0",
-          type: "item",
-          item: {
-            id: "sophisticatedstorage:chest",
-            count: 1,
-            components: {
-              "sophisticatedstorage:wood_type": "cherry",
-            },
-          },
-        },
-        {
           id: "6191AC91F509E8B8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "enderio:fluid_tank",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "mekanism:basic_fluid_tank",
-              "ftbquests:missing_item_count": 1,
-            },
           },
         },
       ],
@@ -1031,6 +1041,7 @@
       dependencies: [
         "082DEC8CBA6D23E5",
       ],
+      size: 1.0,
       id: "03EC3173343B11F5",
       tasks: [
         {
@@ -1049,6 +1060,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:sharpness": 5,
+              },
+            },
           },
         },
         {
@@ -1064,6 +1080,7 @@
       dependencies: [
         "00E6B3F670E20454",
       ],
+      size: 1.0,
       id: "79590DE87595F3C6",
       tasks: [
         {
@@ -1100,6 +1117,7 @@
         "00E6B3F670E20454",
         "79590DE87595F3C6",
       ],
+      size: 1.0,
       id: "2AD8903E9EE3269E",
       tasks: [
         {
@@ -1130,6 +1148,7 @@
       dependencies: [
         "0061B0577B1C4AEF",
       ],
+      size: 1.0,
       id: "490B64C64BDE76F7",
       tasks: [
         {
@@ -1157,6 +1176,7 @@
       x: -28.0,
       y: -1.0,
       shape: "none",
+      size: 1.0,
       icon_scale: 2.0,
       id: "0061B0577B1C4AEF",
       tasks: [
@@ -1190,6 +1210,7 @@
       dependencies: [
         "490B64C64BDE76F7",
       ],
+      size: 1.0,
       id: "477F0905998597FE",
       tasks: [
         {
@@ -1226,6 +1247,7 @@
       dependencies: [
         "490B64C64BDE76F7",
       ],
+      size: 1.0,
       id: "6B37B24E3D25BF5C",
       tasks: [
         {
@@ -1262,6 +1284,7 @@
       dependencies: [
         "490B64C64BDE76F7",
       ],
+      size: 1.0,
       id: "448CCD89539AEBAC",
       tasks: [
         {
@@ -1296,6 +1319,7 @@
       dependencies: [
         "2AD8903E9EE3269E",
       ],
+      size: 1.0,
       id: "32191922242B11B5",
       tasks: [
         {
