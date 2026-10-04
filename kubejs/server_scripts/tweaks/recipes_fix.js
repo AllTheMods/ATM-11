@@ -182,4 +182,161 @@ ServerEvents.generateData("after_mods", (allthemods) => {
     })
   }
 
+  if (Platform.getInfo("arsmagicalegacy").version == "1.7.0") { // bump if needed
+    json = {
+      "type": "integrateddynamics:squeezer",
+      "input_item": "arsmagicalegacy:desert_nova",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:red_dye"
+        }
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/squeezer/desert_nova.json", json)
+
+    json = {
+      "type": "integrateddynamics:squeezer",
+      "input_item": "arsmagicalegacy:cerublossom",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:blue_dye"
+        }
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/squeezer/cerublossom.json", json)
+
+    json = {
+      "type": "integrateddynamics:mechanical_squeezer",
+      "duration": 5,
+      "input_item": "arsmagicalegacy:aum",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:pink_dye"
+        }
+      }, {
+        "item": {
+          "count": 2,
+          "id": "minecraft:pink_dye"
+        },
+        "chance": 0.5
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/mechanical_squeezer/aum", json)
+
+    json = {
+      "type": "integrateddynamics:mechanical_squeezer",
+      "duration": 5,
+      "input_item": "arsmagicalegacy:tarma_root",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:brown_dye"
+        }
+      }, {
+        "item": {
+          "count": 2,
+          "id": "minecraft:brown_dye"
+        },
+        "chance": 0.5
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/mechanical_squeezer/tarma_root", json)
+
+    json = {
+      "type": "integrateddynamics:mechanical_squeezer",
+      "duration": 5,
+      "input_item": "arsmagicalegacy:cerublossom",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:blue_dye"
+        }
+      }, {
+        "item": {
+          "count": 2,
+          "id": "minecraft:blue_dye"
+        },
+        "chance": 0.5
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/mechanical_squeezer/cerublossom", json)
+
+    json = {
+      "type": "integrateddynamics:mechanical_squeezer",
+      "duration": 5,
+      "input_item": "arsmagicalegacy:desert_nova",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:red_dye"
+        }
+      }, {
+        "item": {
+          "count": 2,
+          "id": "minecraft:red_dye"
+        },
+        "chance": 0.5
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/mechanical_squeezer/desert_nova", json)
+
+    json = {
+      "type": "integrateddynamics:squeezer",
+      "input_item": "arsmagicalegacy:aum",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:pink_dye"
+        }
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/squeezer/aum", json)
+
+    json = {
+      "type": "integrateddynamics:mechanical_squeezer",
+      "duration": 5,
+      "input_item": "arsmagicalegacy:wakebloom",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:magenta_dye"
+        }
+      }, {
+        "item": {
+          "count": 2,
+          "id": "minecraft:magenta_dye"
+        },
+        "chance": 0.5
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/mechanical_squeezer/wakebloom", json)
+
+    json = {
+      "type": "integrateddynamics:squeezer",
+      "input_item": "arsmagicalegacy:tarma_root",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:brown_dye"
+        }
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/squeezer/tarma_root", json)
+
+    json = {
+      "type": "integrateddynamics:squeezer",
+      "input_item": "arsmagicalegacy:wakebloom",
+      "output_items": [{
+        "item": {
+          "count": 4,
+          "id": "minecraft:magenta_dye"
+        }
+      }]
+    }
+    allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/squeezer/wakebloom", json)
+  }
+
 })
