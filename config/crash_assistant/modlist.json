@@ -157,6 +157,14 @@
     "curseForgeHash": 3787245791,
     "modrinthHash": "c1cb6973876881caaa50e342c707de518149e688"
   },
+  "appliedthaumaturge-1.0.0.jar": {
+    "jarName": "appliedthaumaturge-1.0.0.jar",
+    "modId": "appliedthaumaturge",
+    "name": "Applied Thaumaturge",
+    "version": "1.0.0",
+    "curseForgeHash": 2855583634,
+    "modrinthHash": "e6f9cb1d198e7fbdf6d065a5f64c937119c72683"
+  },
   "Aquaculture-26.1.1-2.9.2.jar": {
     "jarName": "Aquaculture-26.1.1-2.9.2.jar",
     "modId": "aquaculture",
@@ -1942,6 +1950,14 @@
     "version": "2.6.1",
     "curseForgeHash": 1267745246,
     "modrinthHash": "eded79445f9a50631e64c9f934d16243af3fac41"
+  },
+  "thaumaturge-26.1.2-NeoForge-1.0.1.jar": {
+    "jarName": "thaumaturge-26.1.2-NeoForge-1.0.1.jar",
+    "modId": "thaumaturge",
+    "name": "Thaumaturge",
+    "version": "1.0.1",
+    "curseForgeHash": 967412542,
+    "modrinthHash": "7a8d68874e1b1a9571988975c260585aeb39f7e9"
   },
   "The_Undergarden-26.1.2-0.9.8.jar": {
     "jarName": "The_Undergarden-26.1.2-0.9.8.jar",
