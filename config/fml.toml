@@ -27,4 +27,4 @@ earlyLoadingScreenTheme = ""
 #Using dependency overrides can cause issues. Use at your own risk.
 #Example dependency override for the mod with the id 'targetMod': dependency constraints (incompatibility clauses or restrictive version ranges) against mod 'dep1' are removed, and the mod will now load after the mod 'dep2'
 #dependencyOverrides.targetMod = ["-dep1", "+dep2"]
-dependencyOverrides = {}
+dependencyOverrides = { thaumaturge = ["+productivebees"] }
