@@ -339,4 +339,34 @@ ServerEvents.generateData("after_mods", (allthemods) => {
     allthemods.json("arsmagicalegacy:recipe/compat/integrateddynamics/squeezer/wakebloom", json)
   }
 
+  json = {
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      "#c:tools/knife",
+      "#starcatcher:starcaught_fishes"
+    ],
+    "result": {
+      "id": "aquaculture:fish_fillet_raw",
+      "count": 4
+    }
+  }
+
+  allthemods.json("starcatcher:recipe/aquaculture_fillet", json)
+
+  json = {
+    "type": "starcatcher:bottled_letter",
+    "category": "misc",
+    "ingredients": [
+      "starcatcher:letter",
+      "minecraft:glass_bottle"
+    ],
+    "result": {
+      "count": 1,
+      "id": "starcatcher:bottled_letter"
+    }
+  }
+
+  allthemods.json("starcatcher:recipe/bottled_letter", json)
+
 })
