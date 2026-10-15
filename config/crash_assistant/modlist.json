@@ -1996,13 +1996,13 @@
     "curseForgeHash": 2586914020,
     "modrinthHash": "653ea9d3ffb9822c532f1258bf3c59728a77b6d3"
   },
-  "starcatcher-2.3.1-ALPHA-NEOFORGE-26.1.2.jar": {
-    "jarName": "starcatcher-2.3.1-ALPHA-NEOFORGE-26.1.2.jar",
+  "starcatcher-3.3.8.1-NEOFORGE-26.1.2.jar": {
+    "jarName": "starcatcher-3.3.8.1-NEOFORGE-26.1.2.jar",
     "modId": "starcatcher",
     "name": "Starcatcher",
-    "version": "2.3.1-ALPHA-NEOFORGE-26.1.2",
-    "curseForgeHash": 3217806186,
-    "modrinthHash": "a00709393e77074931dfd69998ec68ea06e6805a"
+    "version": "3.3.8.1-NEOFORGE-26.1.2",
+    "curseForgeHash": 658665678,
+    "modrinthHash": "ac490ae5429f6cd2a596d580b15873795947d5e2"
   },
   "stellaris-26.1.2-neoforge-2.0.7.jar": {
     "jarName": "stellaris-26.1.2-neoforge-2.0.7.jar",
