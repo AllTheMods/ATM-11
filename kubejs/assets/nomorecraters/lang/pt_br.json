@@ -1,0 +1,13 @@
+{
+    "itemGroup.nomorecraters": "Aba de Exemplo do Mod",
+    "block.nomorecraters.example_block": "Bloco de Exemplo",
+    "item.nomorecraters.example_item": "Item de Exemplo",
+
+    "nomorecraters.configuration.title": "Configurações do No More Craters",
+    "nomorecraters.configuration.section.nomorecraters.common.toml": "Configurações do No More Craters",
+    "nomorecraters.configuration.section.nomorecraters.common.toml.title": "Configurações do No More Craters",
+    "nomorecraters.configuration.items": "Lista de Itens",
+    "nomorecraters.configuration.logDirtBlock": "Registrar Bloco de Terra",
+    "nomorecraters.configuration.magicNumberIntroduction": "Texto do Número Mágico",
+    "nomorecraters.configuration.magicNumber": "Número Mágico"
+}

@@ -1,0 +1,8 @@
+{
+    "key.categories.placebo": "Placebo",
+    "placebo.toggleTrails": "Alternar Rastros de Apoiador",
+    "placebo.toggleWings": "Alternar Asas de Apoiador",
+    "placebo.cmd.serialize_success": "%s salvo em %s.",
+    "placebo.cmd.serialize_failure": "Ocorreu um erro durante o processo de serialização.",
+    "placebo.cmd.not_found": "%s não encontrado."
+}
