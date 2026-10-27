@@ -1,1 +1,0 @@
-global.xycraftColours = ["light", "dark", "red", "green", "blue"]

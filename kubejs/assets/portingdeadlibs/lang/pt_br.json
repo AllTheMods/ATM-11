@@ -1,8 +1,0 @@
-{
-    "multiblock.info.actual_block": "Bloco Atual: %s",
-    "multiblock.info.block_pos": "Coordenadas: %d, %d, %d",
-    "multiblock.info.expected_block": "Bloco Esperado: %s",
-    "multiblock.info.failed_to_construct": "Falha ao construir",
-    "pdl.tooltip.liquid.amount": "%dmb",
-    "pdl.tooltip.liquid.amount_with_capacity": "%d/%dmb"
-}
