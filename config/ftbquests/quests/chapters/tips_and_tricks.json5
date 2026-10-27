@@ -478,9 +478,6 @@
     {
       x: 1.5,
       y: 1.0,
-      dependencies: [
-        "7DBB7A7665164D61",
-      ],
       size: 1.0,
       id: "0E9CE6241CDBC420",
       tasks: [
@@ -488,11 +485,8 @@
           id: "29447742E3F8B090",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "rangedpumps:pump",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "rangedpumps:pump",
-            },
           },
         },
       ],
