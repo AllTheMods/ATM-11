@@ -15,7 +15,7 @@ $PlayerEvents.tick((allthemods) -> {
   if (player.tickCount % 60 != 0) return
   def interaction = player.getFluidInteraction()
   def inFluid = interaction.getMaxHeightFluidType()
-  if (inFluid.toString() == "minecraft:empty") return
+  if (inFluid.toString().startsWith("minecraft")) return // empty + vanilla fluids
   def likeWater = inFluid.getIsWaterLike()
   def canMove = inFluid.move(player, [0, 0, 0] as Vec3, 0.08)
   if (!likeWater && !canMove) {
