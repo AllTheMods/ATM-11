@@ -1,0 +1,43 @@
+{
+    "sky_aesthetics.pause_menu.sky_modification_screen": "Modificar Céu",
+    "sky_aesthetics.toast.error.title": "Erro ao criar o pacote de recursos",
+    "sky_aesthetics.toast.error.description": "Consulte os registros para obter mais informações",
+    "sky_aesthetics.toast.success.title": "Pacote de céu exportado",
+    "sky_aesthetics.toast.success.description": "%s céu(s) gravado(s), pacote ativado e recarregado",
+
+    "key.sky_aesthetics.open_editor": "Abrir Editor de Céu",
+    "key.category.sky_aesthetics.editor": "Sky Aesthetics",
+    "sky_aesthetics.editor.title": "Editor de Pacote de Céu",
+
+    "sky_aesthetics.editor.tab.basic": "Básico",
+    "sky_aesthetics.editor.tab.clouds": "Nuvens",
+    "sky_aesthetics.editor.tab.fog": "Neblina",
+    "sky_aesthetics.editor.tab.sun": "Sol",
+    "sky_aesthetics.editor.tab.moon": "Lua",
+    "sky_aesthetics.editor.tab.stars": "Estrelas",
+    "sky_aesthetics.editor.tab.objects": "Objetos do Céu",
+    "sky_aesthetics.editor.tab.skybox": "Skybox",
+    "sky_aesthetics.editor.tab.colors": "Cores",
+    "sky_aesthetics.editor.tab.light": "Luz",
+
+    "sky_aesthetics.editor.sidebar.add": "+ Adicionar Céu",
+    "sky_aesthetics.editor.sidebar.duplicate": "Duplicar",
+    "sky_aesthetics.editor.sidebar.remove": "Remover",
+
+    "sky_aesthetics.editor.action.preview": "Prévia",
+    "sky_aesthetics.editor.action.preview_stop": "Parar Prévia",
+    "sky_aesthetics.editor.action.peek": "Espiar (F1)",
+    "sky_aesthetics.editor.action.export": "Exportar Pacote",
+    "sky_aesthetics.editor.action.docs": "Documentação",
+    "sky_aesthetics.editor.peek.hint": "Espiando o céu — mova-se livremente, pressione %s para retornar ao editor",
+    "sky_aesthetics.editor.export.title": "Exportar Pacote",
+    "sky_aesthetics.editor.export.name": "Nome do Pacote",
+    "sky_aesthetics.editor.export.description": "Descrição",
+    "sky_aesthetics.editor.color.title": "Escolha uma Cor",
+    "sky_aesthetics.editor.confirm.title": "Descartar alterações?",
+    "sky_aesthetics.editor.confirm.message": "Há alterações não salvas neste pacote de céu. Exporte-o para mantê-las. Fechar o editor mesmo assim?",
+
+    "config.sky_aesthetics.disableCustomCloud": "Desativar Nuvens Personalizadas",
+    "config.sky_aesthetics.disableCustomWeather": "Desativar Clima Personalizado",
+    "config.sky_aesthetics.disabledSkies": "Céus Desativados"
+}

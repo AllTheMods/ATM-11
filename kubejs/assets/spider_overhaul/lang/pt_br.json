@@ -1,0 +1,105 @@
+{
+    "entity.spider_overhaul.desert_spider": "Aranha do Deserto",
+    "entity.spider_overhaul.ice_spider": "Aranha de Gelo",
+    "entity.spider_overhaul.jungle_spider": "Aranha da Selva",
+    "entity.spider_overhaul.sculk_spider": "Aranha de Sculk",
+    "entity.spider_overhaul.mushroom_spider": "Aranha-Cogumelo",
+    "entity.spider_overhaul.cavern_spider": "Aranha-das-Cavernas",
+    "entity.spider_overhaul.cavern_spider.type.amethyst": "Aranha-das-Cavernas de Ametista",
+    "entity.spider_overhaul.cavern_spider.type.emerald": "Aranha-das-Cavernas de Esmeralda",
+    "entity.spider_overhaul.cavern_spider.type.diamond": "Aranha-das-Cavernas de Diamante",
+    "entity.spider_overhaul.ocean_spider": "Aranha do Oceano",
+    "entity.spider_overhaul.taiga_spider": "Aranha da Taiga",
+    "entity.spider_overhaul.birch_spider": "Aranha da Bétula",
+    "entity.spider_overhaul.savanna_spider": "Aranha da Savana",
+    "entity.spider_overhaul.swamp_spider": "Aranha do Pântano",
+
+    "block.spider_overhaul.birch_nest": "Ninho de Aranha da Bétula",
+    "block.spider_overhaul.spider_lily_pad": "Nenúfar Infestado",
+    "block.spider_overhaul.giant_bamboo_block": "Bloco de Bambu Gigante",
+
+    "item.spider_overhaul.cactus_spine": "Espinho de Cacto",
+    "item.spider_overhaul.ice_shard": "Fragmento de Gelo",
+    "item.spider_overhaul.ice_snowball": "Bola de Neve de Gelo",
+    "item.spider_overhaul.crab_leg": "Perna de Caranguejo",
+    "item.spider_overhaul.cooked_crab": "Caranguejo Assado",
+    "item.spider_overhaul.birch_nest": "Ninho de Aranha da Bétula",
+    "item.spider_overhaul.giant_bamboo_block": "Bloco de Bambu Gigante",
+    "item.spider_overhaul.spider_lily_pad": "Nenúfar Infestado",
+    "item.spider_overhaul.bottle_of_spider_pollen": "Frasco de Pólen de Aranha",
+
+    "item.spider_overhaul.desert_spider_spawn_egg": "Ovo Gerador de Aranha do Deserto",
+    "item.spider_overhaul.ice_spider_spawn_egg": "Ovo Gerador de Aranha de Gelo",
+    "item.spider_overhaul.jungle_spider_spawn_egg": "Ovo Gerador de Aranha da Selva",
+    "item.spider_overhaul.sculk_spider_spawn_egg": "Ovo Gerador de Aranha de Sculk",
+    "item.spider_overhaul.mushroom_spider_spawn_egg": "Ovo Gerador de Aranha-Cogumelo",
+    "item.spider_overhaul.cavern_spider_spawn_egg": "Ovo Gerador de Aranha-das-Cavernas",
+    "item.spider_overhaul.ocean_spider_spawn_egg": "Ovo Gerador de Aranha do Oceano",
+    "item.spider_overhaul.taiga_spider_spawn_egg": "Ovo Gerador de Aranha da Taiga",
+    "item.spider_overhaul.birch_spider_spawn_egg": "Ovo Gerador de Aranha da Bétula",
+    "item.spider_overhaul.savanna_spider_spawn_egg": "Ovo Gerador de Aranha da Savana",
+    "item.spider_overhaul.swamp_spider_spawn_egg": "Ovo Gerador de Aranha do Pântano",
+
+    "effect.spider_overhaul.icy": "Gélido",
+    "effect.spider_overhaul.bog": "Brejo",
+    "effect.spider_overhaul.webbed": "Emaranhado",
+
+    "item.minecraft.potion.effect.icy": "Poção de Gélido",
+    "item.minecraft.splash_potion.effect.icy": "Poção Arremessável de Gélido",
+    "item.minecraft.lingering_potion.effect.icy": "Poção Prolongada de Gélido",
+    "item.minecraft.tipped_arrow.effect.icy": "Flecha de Gélido",
+
+    "item.minecraft.potion.effect.long_icy": "Poção de Gélido",
+    "item.minecraft.splash_potion.effect.long_icy": "Poção Arremessável de Gélido",
+    "item.minecraft.lingering_potion.effect.long_icy": "Poção Prolongada de Gélido",
+    "item.minecraft.tipped_arrow.effect.long_icy": "Flecha de Gélido",
+
+    "item.minecraft.potion.effect.bog": "Poção de Brejo",
+    "item.minecraft.splash_potion.effect.bog": "Poção Arremessável de Brejo",
+    "item.minecraft.lingering_potion.effect.bog": "Poção Prolongada de Brejo",
+    "item.minecraft.tipped_arrow.effect.bog": "Flecha de Brejo",
+
+    "item.minecraft.potion.effect.long_bog": "Poção de Brejo",
+    "item.minecraft.splash_potion.effect.long_bog": "Poção Arremessável de Brejo",
+    "item.minecraft.lingering_potion.effect.long_bog": "Poção Prolongada de Brejo",
+    "item.minecraft.tipped_arrow.effect.long_bog": "Flecha de Brejo",
+
+    "advancements.spider_overhaul.root.title": "Spider Overhaul",
+    "advancements.spider_overhaul.root.description": "As aranhas saíram das paredes",
+    "advancements.spider_overhaul.use_spider_pollen.title": "Olhe-me Crescer",
+    "advancements.spider_overhaul.use_spider_pollen.description": "Use pólen de aranha no bambu para cultivar bambu gigante",
+    "advancements.spider_overhaul.break_webbed.title": "Mrmph-mhehph!!",
+    "advancements.spider_overhaul.break_webbed.description": "Liberte-se do efeito emaranhado antes que ele acabe",
+    "advancements.spider_overhaul.kill_mod_spider.title": "Muita Aranha, muito Overhaul",
+    "advancements.spider_overhaul.kill_mod_spider.description": "Mate uma das variantes de aranha reformuladas",
+    "advancements.spider_overhaul.kill_all_spiders.title": "Charlotte morreu",
+    "advancements.spider_overhaul.kill_all_spiders.description": "Mate cada variante de aranha reformulada pelo menos uma vez",
+
+    "itemGroup.spider_overhaul.general": "Spider Overhaul",
+
+    "config.spider_overhaul.title": "Configuração do Spider Overhaul",
+    "config.spider_overhaul.category.general": "Geral",
+    "config.spider_overhaul.category.spawning": "Geração",
+    "config.spider_overhaul.category.attributes": "Atributos",
+
+    "config.spider_overhaul.replace_vanilla_spiders": "Substituir Aranhas Vanilla",
+    "config.spider_overhaul.replace_vanilla_spiders.tooltip": "Remove gerações de aranhas vanilla e de aranhas-das-cavernas de biomas que têm geração de aranhas variantes.",
+
+    "config.spider_overhaul.use_vanilla_models": "Usar Modelos Vanilla",
+    "config.spider_overhaul.use_vanilla_models.tooltip": "Troca os modelos de aranha para o estilo vanilla. Desative para usar os modelos personalizados reformulados.",
+
+    "config.spider_overhaul.hide_spider_legs": "Ocultar Pernas de Aranha",
+    "config.spider_overhaul.hide_spider_legs.tooltip": "Oculta as pernas em todos os modelos de aranha para que não sejam renderizadas. Destinado a jogadores com aracnofobia.",
+
+    "config.spider_overhaul.spawn_weight_multiplier": "Multiplicador de Peso de Geração",
+    "config.spider_overhaul.spawn_weight_multiplier.tooltip": "Multiplica o peso de geração de todas as aranhas variantes. Valores maiores = gerações mais frequentes.",
+
+    "config.spider_overhaul.health_multiplier": "Multiplicador de Vida",
+    "config.spider_overhaul.health_multiplier.tooltip": "Multiplica a vida base de todas as aranhas variantes.",
+
+    "config.spider_overhaul.damage_multiplier": "Multiplicador de Dano",
+    "config.spider_overhaul.damage_multiplier.tooltip": "Multiplica o dano de ataque base de todas as aranhas variantes.",
+
+    "config.spider_overhaul.speed_multiplier": "Multiplicador de Velocidade",
+    "config.spider_overhaul.speed_multiplier.tooltip": "Multiplica a velocidade de movimento base de todas as aranhas variantes."
+}

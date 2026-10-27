@@ -1,0 +1,6 @@
+{
+    "commands.shogi.cooldown.reset.all.success": "Todas as recargas de %s jogador(es) redefinidas.",
+    "commands.shogi.cooldown.reset.success": "Recargas correspondentes a %s redefinidas em %s jogador(es).",
+    "commands.shogi.cooldown.add.success": "Adicionados %s segundo(s) à recarga %s em %s jogador(es).",
+    "commands.shogi.cooldown.set.success": "Recarga %s definida para %s segundo(s) em %s jogador(es)."
+}

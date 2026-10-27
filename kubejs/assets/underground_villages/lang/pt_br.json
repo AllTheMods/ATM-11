@@ -1,0 +1,9 @@
+{
+    "text.autoconfig.underground_villages.option.generation": "Geração",
+    "text.autoconfig.underground_villages.option.generation.yLevel": "Nível Y",
+    "text.autoconfig.underground_villages.title": "Underground Villages",
+    "underground_villages.configuration.Generation": "Geração",
+    "underground_villages.configuration.Generation.tooltip": "Configurações de Geração",
+    "underground_villages.configuration.yLevel": "Nível Y",
+    "underground_villages.configuration.yLevel.tooltip": "O nível Y em que ele tentará gerar vilas"
+}

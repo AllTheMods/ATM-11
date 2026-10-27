@@ -1,0 +1,334 @@
+{
+  "quest.1815A439BA9879B7.quest_desc": [
+    "A Costa Quente é um Bioma bem sem graça e serve principalmente para conectar o Mar Estrelado à terra. \n\nEla tem Areia do Crepúsculo com Pedra embaixo. Também encontrei mais Salitra aqui do que o normal.",
+    "{image:atm:textures/questpics/eternal/starlight_shore.png width:200 height:100 align:center}",
+  ],
+  "quest.429785E8F64929CE.title": "O Guardião do Portal e o Portal",
+  "quest.41C70F0873E14307.quest_desc": [
+    "Há Árvores no Deserto! \n\nNão, espera, havia Árvores...",
+  ],
+  "quest.127D085D6C9DB690.quest_desc": [
+    "A Salitra pode ser encontrada em qualquer lugar do Subsolo, mas é muito comum no Bioma da Costa Quente. \n\nPrecisa de uma Picareta de Pedra para ser minerada e, ao ser minerada, solta algumas unidades de Pó de Salitra. Sim, Fortuna funciona nela! \n\nO Pó pode ser usado como substituto de outros Salitres.",
+  ],
+  "quest.36BCCF7395658A5C.quest_desc": [
+    "Os Chefes da Starlight vivem em suas estruturas. Elas não são comuns (ainda bem), então você pode precisar de ajuda — ou seja, dos Olhos do Buscador. \n\nOs Olhos do Buscador funcionam como os Olhos de Ender: clique com o Botão Direito para arremessá-los e siga-os até as estruturas. \n\nPara definir a estrutura, você vai precisar de um certo Item na Mão Secundária, itens como...",
+  ],
+  "quest.516AC1F0E0BCAE55.quest_desc": [
+    "Tubos Congelados são soltos por Freezes na Forja de Golem. \n\nEles podem ser arremessados como Poções para machucar quem eles atingirem.",
+  ],
+  "quest.54DE8AAAE2181F18.quest_desc": [
+    "A Espada Grande do Anel Lunar precisa ser fabricada com drops dos dois Chefes! Obviamente isso a torna a mais difícil de conseguir e a mais poderosa! \n\nEla funciona como uma Espada normal, só que antes do 1.9: pode bloquear ataques como um escudo, mas não pode ser usada sem parar com dano total.",
+  ],
+  "quest.252AD9C886DE45C8.title": "Olhar do Crepúsculo",
+  "quest.5466CB622A637DCD.quest_desc": [
+    "A Fruta Abissal tecnicamente pode surgir em qualquer corpo de água, mas é a única que vive nos Rios Cintilantes. \n\nEla cresce como Alga, do fundo para cima, mas também funciona como as Bagas Brilhantes: a Fruta cresce e pode ser colhida dela.",
+  ],
+  "quest.6EC289857CDC4969.quest_desc": [
+    "Os Ents são outro Mob pacífico que surge na Superfície da Starlight — estes, nas florestas! \n\nEssas arvorezinhas podem soltar Gravetos, Bagas Lunares e Folhas Lunares ao morrer. \n\nVocê pode usar Bagas Lunares para reproduzi-los!",
+    "{image:atm:textures/questpics/eternal/starlight_ent.png width:100 height:100 align:center}",
+  ],
+  "quest.1815A439BA9879B7.title": "Costa Quente",
+  "quest.4D4DE266A2A325B0.quest_desc": [
+    "Redstone, Aço de Golem e Aço de Golem Oxidado são Itens usados para encontrar a Forja de Golem. \n\nSegure um deles (provavelmente Redstone, que surge no subsolo da Starlight) na sua Mão Secundária e use o Olho do Buscador para encontrar a Forja de Golem — que, aliás, fica no subsolo!",
+  ],
+  "task.2510A7EE5D886B63.title": "TodosOsDireitosReservados",
+  "quest.01F322AEFCC6109E.quest_desc": [
+    "Crânio Emaranhado podem ser obtidos de... bem, Crânio Emaranhado. \n\nEles podem ser usados como projétil, como uma Cabeça de Wither arremessada por um Wither. \n\nMas serão consumidos quando você fizer isso.",
+  ],
+  "quest.0F0D41F29386333A.quest_desc": [
+    "As Árvores Escarlates variam em tamanho e formato, e às vezes até caem! \n\nMas todas têm folhas rosa! Inclusive as que estão no chão.",
+  ],
+  "quest.0F4783FA019C4567.quest_desc": [
+    "A Âmbaramarela é encontrada raramente ao descascar Troncos de Torreya. \n\nEla pode ser transformada em Lingotes para fazer Armaduras e Ferramentas, ou usada em outras receitas, como uma fogueira que lhe dará regeneração!",
+  ],
+  "quest.3D4032E7119AF8B7.quest_desc": [
+    "As Bombas Sônicas são feitas com Gel Trêmulo, que é solto por Mariposas Cristalizadas. \n\nElas podem ser arremessadas para causar dano a qualquer Mob (e Jogador) em uma área enorme! Elas também tremem a tela do jogador e tocam um efeito sonoro alto. \n\nIsso desorienta, então use só nos seus amigos!",
+  ],
+  "quest.4A54288FD22C903D.quest_desc": [
+    "O Velvetumusgo surge dentro do Abismo. \n\nVocê pode minerar os verdes para obter Bolas de Velvetumusgo, que podem ser comidas ou transformadas em uma Bola de Slime! \n\nOs vermelhos fazem surgir plantas bonitas!",
+  ],
+  "quest.3991EEEFDD263A91.title": "Aranhas do Anoitecer",
+  "quest.3D26E7BFE0AA964A.quest_desc": [
+    "O Peixe Luminária é um peixe brilhante que vive no Abismo.\n\nEles agem como Peixes normais. Você pode pescá-los, colocá-los em um Balde e até cozinhá-los!",
+    "{image:atm:textures/questpics/eternal/starlight_fish1.png width:100 height:100 align:center}",
+  ],
+  "quest.713EF442D59501BA.quest_desc": [
+    "A Corrente de Almas só pode ser fabricada com drops do Ódio Emaranhado e da Monstruosidade Lunar. \n\nÉ um gancho de escalada! Toque o Botão Direito para lançá-la e, quando atingir algo, ela começa a te puxar. Depois, clique com o Botão Direito de novo para soltar. \n\nTambém é necessária para a Estrela ATM!",
+  ],
+  "quest.29283BF1B6ED3634.quest_desc": [
+    "A Besta Mecânica é feita como uma Besta normal, só que com Aço de Golem. \n\nEla funciona como uma Besta normal, só que muito mais forte! E pode ser encantada para fazer ainda mais!",
+  ],
+  "quest.6E970CF05B96EB20.title": "Desligando",
+  "quest.4C23D7E3DC8327C2.title": "Queime-o!",
+  "quest.3D26E7BFE0AA964A.title": "Peixe Luminária",
+  "quest.03B40AB768FC0161.quest_desc": [
+    "Rios Cintilantes são rios amigáveis. Eles não saem do caminho para te matar. \n\nÀs vezes conectam Mares e atravessam Florestas. \n\nClaro que eles têm Água, mas dentro da Água há muitas coisas boas!",
+    "{image:atm:textures/questpics/eternal/starlight_river.png width:200 height:100 align:center}",
+  ],
+  "quest.40786B63E2901D11.title": "Jardim Amaldiçoado",
+  "quest.1ECD4331DDFBBB52.quest_desc": [
+    "As Árvores de Torreya são enormes árvores roxas/rosas com cerca de 40 Blocos de altura. \n\nAs folhas brotam em todas as direções e as Vinhas de Torreya pendem delas.",
+  ],
+  "quest.2D457E53BB6D63C7.quest_desc": [
+    "Os pontos mais altos da Starlight são as Florestas de Gelo Eterno, que ficam sobre Montanhas. \n\nEstar tão alto as torna muito mais frias, cobrindo-as de Neve e Gelo! \n\nPelo menos os Mobs amigáveis parecem gostar do Frio!",
+    "{image:atm:textures/questpics/eternal/starlight_permafrost.png width:200 height:100 align:center}",
+  ],
+  "quest.37355F60E45777FE.quest_desc": [
+    "O Orbe da Profecia pode ser fabricado ou obtido vencendo o Porteiro! \n\nSeu uso principal é ativar o Portal, mas haverá mais usos para ele!",
+  ],
+  "quest.6314B892B569A0A5.quest_desc": [
+    "A Starlight! \n\nUma Dimensão onde é sempre Crepúsculo — e não, você não pode mudar isso. \n\nHá dezenas de Biomas, Mobs, Chefes e até Blocos para encontrar! Consegue descobrir todos?",
+  ],
+  "quest.00453FF528AA0B1C.title": "Esqueletos da Estrela Solitária",
+  "quest.63362CC33B39C627.title": "Mar Estrelado",
+  "quest.6E970CF05B96EB20.quest_desc": [
+    "Para causar dano no Golem você vai precisar desligar a fonte de energia dele! \n\nPara isso, clique com o Botão Direito nos Blocos de Energia quando ficarem azuis. \n\nNormalmente você encontra 2 nos cantos da sala do chefe e 2 acima dele!",
+  ],
+  "quest.3C74DAE7EC844A98.quest_desc": [
+    "As Bagas Lunares são uma excelente Fonte de Comida, e muito fáceis de conseguir! \n\nElas crescem penduradas nas Folhas das Árvores Lunares; você pode colher as Bagas das Vinhas como Bagas Brilhantes. \nSó que estas dão muito mais Pontos de Comida e Saciedade!",
+  ],
+  "quest.63362CC33B39C627.quest_desc": [
+    "Mares Estelares são enormes corpos d'Água situados confortavelmente entre as Costas Quentes e a terra. \n\nEles guardam muitas maravilhas dentro deles e crescendo neles! \n\nEspero que você tenha trazido seus óculos!",
+    "{image:atm:textures/questpics/eternal/starlight_starlitsea.png width:200 height:100 align:center}",
+  ],
+  "quest.7FF77463F2A0E210.quest_desc": [
+    "O Barro do Anoitecer só pode ser encontrado nos Pântanos Sombrios. \n\nVocê pode fazer mais Blocos com ele!",
+  ],
+  "quest.17D82EEA20D02EC8.quest_desc": [
+    "Revestindo o fundo do mar está o Cascalho Empoeirado. \n\nEle pode ser usado como substituto do Cascalho normal e pode soltar raramente Fragmentos Empoeirados, que fazem outros Blocos!",
+  ],
+  "quest.47CB136D7764B86D.quest_desc": [
+    "As Vinhas de Torreya são encontradas penduradas nas Árvores de Torreya. \n\nElas ficam penduradas porque não podem ser colocadas de outro jeito... \n\nO bulbo na ponta delas emite Luz!",
+  ],
+  "quest.49DC0BD7DC1B893C.title": "O Abismo",
+  "quest.5424A0E1292B13EE.quest_desc": [
+    "Pela Starlight você pode encontrar Lagoas Quentes. \n\n(Elas não são um bioma nem uma estrutura, então você vai ter que só explorar para achá-las!) \n\nDentro delas você pode encontrar Pedra Termal de Fonte.",
+  ],
+  "quest.7FBB431AC055FE93.quest_desc": [
+    "O Espectador Iluminado pela Alma é fabricado com uma Alma Aprisionada e um Olho de Aranha do Anoitecer. \n\nEle funciona parecido com a Câmera Grudenta do Splinter Cell de Tom Clancy: clique com o Botão Direito para lançar o Espectador e, depois de um instante, você poderá ver através dele. Dá até para se ver com ele! \n\nNão dá para encerrá-lo antes da hora, então cuidado ao usar. Ele também tem durabilidade e tempo de recarga.",
+  ],
+  "quest.2DA8CE213AC3869B.quest_desc": [
+    "Os Cristais da Starlight podem ser encontrados por toda parte, até embaixo dos Desertos Cristalizados. \n\nEles funcionam de forma parecida com a Ametista e até soam como ela!",
+  ],
+  "quest.7E90138B0A2C3210.quest_desc": [
+    "As Árvores Northland são Árvores grandes e robustas nas Florestas de Gelo Eterno. \n\nElas parecem Abetos, mas muito mais claras! Talvez sejam Abetos albinos. \n\nSuas mudas precisam ser colocadas na Terra, não na Grama, e em uma formação 2x2.",
+  ],
+  "quest.375F0A098589CF29.quest_desc": [
+    "Usando seus Olhos do Buscador, você pode se confundir por eles de repente irem para o subsolo. Provavelmente é porque a Forja de Golem fica bem no fundo, tipo nos níveis Y negativos. \n\nHá muitas salas sinuosas, cada uma cheia de Saque, Lava e Freezes! A sala que procuramos guarda o Golem da Starlight!",
+    "{image:atm:textures/questpics/eternal/starlight_golemforge.png width:200 height:100 align:center}",
+  ],
+  "quest.6314B892B569A0A5.title": "Eternal Starlight",
+  "quest.362F4CFD1B8B12B1.quest_desc": [
+    "Todos os seres vivos morrem no Éter como se ele fosse Lava. Curiosamente, você pode colocá-lo em um Balde! \n\nO único jeito de obtê-lo é encontrando-o no Rio de Éter. \n\nQuando a Água toca o Éter, ela forma Blocos de Tioquartzo!",
+  ],
+  "quest.29A1E1FF02BD9219.quest_desc": [
+    "Uma Floresta azul como o Oceano. \n\nA Floresta da Starlight é de longe o bioma mais comum da Starlight. \n\nEla tem dezenas de Árvores Lunares cobrindo-a inteiramente, com muitos Mobs, passivos e hostis, embaixo delas.",
+    "{image:atm:textures/questpics/eternal/starlight_forest.png width:200 height:100 align:center}",
+  ],
+  "quest.342EEB042DEC2B8C.quest_desc": [
+    "Magma e Gêiseres surgem no fundo do Abismo. \n\nO Magma ajuda você a descer e a manter o fôlego. \n\nOs Gêiseres só ficam bonitos!",
+  ],
+  "quest.2F3E7233129F2B89.title": "Luminária",
+  "quest.17EC65B33AC5F0B4.title": "Andarilho Sedento",
+  "quest.4A5EA948F5DCEB73.quest_desc": [
+    "A Prata Abissal pode ser encontrada raramente no Barro do Anoitecer. \n\nEla pode ser usada para fabricar Armaduras e Ferramentas!",
+  ],
+  "quest.0576C32B0FB360B0.title": "Monstruosidade Lunar",
+  "quest.40C776497D68367F.quest_desc": [
+    "Vinhas, Carpetes de Musgo de Cristal Vermelho e Azul, Bagas Lunares, Musgo de Caverna e Raízes de Cristal Vermelhas e Azuis. \n\nEstes podem ser usados na sua Mão Secundária com o Olho do Buscador para encontrar o Jardim Amaldiçoado.",
+  ],
+  "quest.713548E540B18E07.quest_desc": [
+    "O Arco do Anel Lunar só pode ser solto pela Monstruosidade Lunar. \n\nEle dispara Flechas como um Arco normal, mas Espinhos do Chão virão na mesma direção em que a Flecha foi!",
+  ],
+  "quest.702BF6969CA936CC.title": "EM BREVE",
+  "quest.10AB188AC6FB24D3.title": "Golem da Starlight",
+  "quest.2D457E53BB6D63C7.title": "Floresta de Gelo Eterno",
+  "quest.7A16D2EB63359294.quest_desc": [
+    "Cervos Aurora são animais de casco amigáveis que também vivem no frio. \n\nEsses Cervos não vão tentar te machucar, mas se você entrar no caminho deles correndo, pode sentir umas Galhadas. \n\nGalhadas que também podem ser soltas por eles ao morrer e usadas como arma ou enxada! \n\nEles também podem soltar Couro ou Bife de Cervo Aurora.",
+    "{image:atm:textures/questpics/eternal/starlight_deer.png width:200 height:100 align:center}",
+  ],
+  "quest.4C23D7E3DC8327C2.quest_desc": [
+    "Para matar a Monstruosidade Lunar você vai precisar botar Fogo nela! \n\nVocê pode usar Pederneira ou uma Caixa de Fósforos de Salitra. \n\nPessoalmente, acho a Caixa de Fósforos mais apropriada!",
+  ],
+  "task.0AD8AC7ECCD8002A.title": "TodosOsDireitosReservados",
+  "quest.70A82A5D17D558FB.quest_desc": [
+    "A Espada de Energia só pode ser solta pelo Golem da Starlight. \n\nEla funciona como uma Espada normal, mas com o Botão Direito você avança sobre eles enquanto balança, como o Genji do Overwatch! ",
+  ],
+  "quest.60FDCA2FDFE74056.title": "Floresta Escarlate",
+  "quest.17EC65B33AC5F0B4.quest_desc": [
+    "Os Andarilhos Sedentos são Mobs neutros que surgem na superfície dos Desertos Cristalizados. \n\nQuando provocados, eles batem em você e te dão Fome. \n\nEles têm 20 Corações e podem soltar Dente da Fome ao morrer.",
+    "{image:atm:textures/questpics/eternal/starlight_thirst.png width:100 height:125 align:center}",
+  ],
+  "quest.36BCCF7395658A5C.title": "Encontrando os Chefes",
+  "quest.3CAD0701EC16C2D8.title": "Pântano Sombrio",
+  "quest.4D4DE266A2A325B0.title": "Itens de Golem",
+  "quest.252AD9C886DE45C8.quest_desc": [
+    "Olhares do Crepúsculo são Peixes neutros localizados no Abismo. \n\nSe você acertar um, todos vão te atacar, parecido com Lobos ou Piglins Zumbificados. Se você se afastar demais do Abismo, eles param de te seguir e nadam de volta às profundezas. \n\nEles não soltam nada ao morrer, então talvez seja melhor não bater neles...",
+    "{image:atm:textures/questpics/eternal/starlight_gaze.png width:150 height:100 align:center}",
+  ],
+  "quest.1533D98B3B2A758E.quest_desc": [
+    "Espadas Estilhaçadas podem ser soltas pelos Esqueletos da Estrela Solitária ou fabricadas usando as Lâminas soltas. \n\nA Espada Estilhaçada é usada mais como um Tridente do que como Espada: em vez de bater, você a arremessa. Depois, clique com o Botão Direito para trazer a Lâmina de volta como um Tridente de Lealdade, e de novo para recarregá-la se precisar.",
+  ],
+  "quest.2E29DC243E8AD61E.title": "Crisopídeo Cintilante",
+  "quest.0BB8D556305EB307.quest_desc": [
+    "Rio de Éter é algo que você vai reconhecer quando vir. \n\nÉ brilhante, muito brilhante, e pode aparecer vermelho no seu Mapa, isso é um bug, ignore isso. ",
+    "{image:atm:textures/questpics/eternal/starlight_ether.png width:200 height:100 align:center}",
+  ],
+  "quest.40786B63E2901D11.quest_desc": [
+    "Vamos ver como eu descrevo o Jardim Amaldiçoado... é um labirinto gigante! \n\nHá entradas em cada lado e você precisa achar o caminho até o centro, onde fica a Monstruosidade Lunar! \n\nPor todo o labirinto você encontra baús cheios de Saque e Emaranhados!",
+    "{image:atm:textures/questpics/eternal/starlight_maze.png width:150 height:150 align:center}",
+  ],
+  "quest.6EC289857CDC4969.title": "Ents",
+  "quest.5DFE3CB5B0130A7A.quest_desc": [
+    "Há muita vida vegetal em cima do Rio Cintilante — em algumas você pode até ficar de pé!",
+  ],
+  "quest.0C096EE635645E43.quest_desc": [
+    "A Besta de Cristal é fabricada como uma Besta Mecânica, só que com Cristais em vez de gravetos. \n\nEla dispara Flechas e causa o mesmo dano de uma Besta normal, mas esta aplica Infecção de Cristal. A Infecção de Cristal causa 1 de dano por segundo com os Cristais que surgem neles! E sim, ela vai matá-los.",
+  ],
+  "quest.0BB8D556305EB307.title": "Rio de Éter",
+  "quest.00453FF528AA0B1C.quest_desc": [
+    "Os Esqueletos da Estrela Solitária são Mobs hostis que podem surgir em qualquer lugar. \n\nEles têm 10 Corações e atacam arremessando a Espada em você. \n\nAo morrer, podem soltar Ossos, Pepitas de Prata Abissal, Espadas Estilhaçadas e os drops adicionados pelo Corail para Mobs Mortos-vivos.",
+  ],
+  "quest.1AB17923F87AE264.title": "Iétis",
+  "quest.636848ED1115A0B3.title": "Ratoides",
+  "quest.4D0B50731FED3CEE.quest_desc": [
+    "Para conseguir a Lança Cresant, você precisará fabricá-la a partir de Itens derrubados pela Monstruosidade Lunar e pelo Ódio Tangled, ou consegui-la como drop da Monstruosidade Lunar. (Basicamente, você terá que matá-lo de qualquer forma). \n\nVocê pode usar a Lança como um Tridente e simplesmente bater nos Mobs, ou segurar o Clique Direito para ser lançado para frente com ela. Se atingir qualquer Mob com o segundo ataque, quaisquer Mobs próximos também receberão dano.",
+  ],
+  "quest.6B00D5DBB3552F15.title": "Emaranhado",
+  "quest.770C0975CA61CE46.quest_desc": [
+    "A Glacita pode ser encontrada no subsolo profundo das Florestas de Gelo Eterno. \n\nEla pode ser usada para fabricar Armaduras e Ferramentas que ajudam contra o dano de Congelamento!",
+  ],
+  "quest.7B5D34650BBD97D9.quest_desc": [
+    "Muito raramente, na Dimensão Starlight, pode ocorrer uma Chuva de Meteoros. \n\nNa maioria das vezes os Meteoros são minúsculos e desaparecem antes de atingir o chão. \n\nMas alguns são maiores e sobrevivem; é lá que você encontrará Minério de Golpe Etéreo!",
+  ],
+  "quest.7D7BD1458CF12021.quest_desc": [
+    "É um Deserto, claro que tem Cactos! \n\nOs Cactos, quando crescem por completo, podem gerar Frutos em cima!",
+  ],
+  "quest.50674FE3C6BE9990.quest_desc": [
+    "Igual à Floresta da Starlight normal, só que com muito menos espaçamento entre as Árvores!",
+    "{image:atm:textures/questpics/eternal/starlight_dense.png width:200 height:100 align:center}",
+  ],
+  "quest.50674FE3C6BE9990.title": "Floresta Densa da Starlight",
+  "quest.4DBC3B4D38CC6152.quest_desc": [
+    "As Mariposas Cristalizadas surgem bem abaixo dos Desertos Cristalizados. \n\nElas são neutras e recomendo não batê-las, porque elas causam muito dano! \n\nElas também têm 10 Corações e podem soltar Cristais da Starlight ou Gel Trêmulo ao morrer.",
+    "{image:atm:textures/questpics/eternal/starlight_moth.png width:125 height:100 align:center}",
+  ],
+  "quest.3CAD0701EC16C2D8.quest_desc": [
+    "Pântanos Sombrios se espalham pelo mundo da Starlight. \n\nAqui você pode encontrar muitas plantas, animais e, claro, Barro.",
+    "{image:atm:textures/questpics/eternal/starlight_swamp.png width:200 height:100 align:center}",
+  ],
+  "quest.5244B2D6B5FA0487.quest_desc": [
+    "O Deserto Cristalizado parece um Deserto normal, mas em tom Roxo. \n\nAlém dos cristais gigantes, claro — acho que Desertos normais não têm isso...",
+    "{image:atm:textures/questpics/eternal/starlight_desert.png width:200 height:100 align:center}",
+  ],
+  "quest.0576C32B0FB360B0.quest_desc": [
+    "A Monstruosidade Lunar tem 200 Corações e só recebe 1 de dano por golpe, a menos que você use Fogo. \n\nEla tem alguns ataques, incluindo Espinhos do Chão, Projéteis e Cabeças Emaranhadas Explosivas! \n\nQuando você a mata, ela solta Flechas, Lingotes, Crânios Emaranhados, Pétalas Tenazes, Almas Aprisionadas e uma chance de uma Arma rara!",
+    "{image:atm:textures/questpics/eternal/starlight_lunar.png width:100 height:125 align:center}",
+  ],
+  "quest.40C776497D68367F.title": "Itens da Monstruosidade",
+  "quest.298963543B99734E.quest_desc": [
+    "Os Mares Estrelados geram suas próprias versões de Coral! \n\nSó não seja como eu e esqueça o Toque Suave para coletá-los...",
+  ],
+  "quest.144ECED643031A9A.quest_desc": [
+    "Cogumelos Brilhantes são enormes plantas de Cogumelo que você pode encontrar nas Florestas Escarlates! \n\nEles funcionam como Cogumelos Marrons ou Vermelhos, só que estes brilham muito mais! \n\n(Caso você não soubesse, Cogumelos Marrons e Vermelhos na verdade emitem um nível de Luz de 1).",
+  ],
+  "quest.68B2D3B985FC1378.quest_desc": [
+    "Uma Floresta clara e bonita, cheia de Árvores e Vinhas de Torreya.",
+    "{image:atm:textures/questpics/eternal/starlight_torreya.png width:200 height:100 align:center}",
+  ],
+  "quest.7A16D2EB63359294.title": "Cervo Aurora",
+  "quest.02B574B09AB45D09.quest_desc": [
+    "Freezes funcionam parecido com Blazes: voam e atiram uma bola em você. \n\nSó que Freezes atiram só 1 bola, e ela te deixa com frio em vez de quente. \n\nEles têm 16 Corações e soltam Tubos Congelados ao morrer.",
+    "{image:atm:textures/questpics/eternal/starlight_freeze.png width:150 height:100 align:center}",
+  ],
+  "quest.6B00D5DBB3552F15.quest_desc": [
+    "Emaranhados são inimigos que surgem dentro do Jardim Amaldiçoado. \n\nEles têm 10 Corações e atacam te batendo. Se você for atingido, recebe um pouco de veneno. \n\nAo morrer, soltam Vinhas e Ossos, mas também geram um Crânio Emaranhado! \n\nCrânios Emaranhados agem parecido com Vex: voam por aí através de blocos e te acertam. Têm só 5 Corações e, ao morrer, se transformam em um Item para você.",
+    "{image:atm:textures/questpics/eternal/starlight_tangled.png width:150 height:100 align:center}",
+  ],
+  "quest.62F33BBE7BDFE404.quest_desc": [
+    "A Varinha de Teletransporte é outro drop da Monstruosidade Lunar — e só dela! \n\nVocê pode segurar o Botão Direito com a Varinha para carregá-la; quando soltar, ela te teleporta para o Bloco que você estava olhando por último! \n\nTem alcance, mas é bem longe. E tem tempo de recarga após o uso!",
+  ],
+  "quest.636848ED1115A0B3.quest_desc": [
+    "Os Ratoides são Mobs pacíficos que podem surgir na Superfície. \n\nAo morrer, soltam Carne de Ratoide, Couro e Musgo de Caverna. \n\nEste último pode ser usado para reproduzi-los!",
+    "{image:atm:textures/questpics/eternal/starlight_rat.png width:100 height:100 align:center}",
+  ],
+  "quest.2E29DC243E8AD61E.quest_desc": [
+    "Crisopídeos Cintilantes não fazem nem soltam nada — só dão atmosfera. \n\nEles também lembram o único inseto que eu tolero!",
+    "{image:atm:textures/questpics/eternal/starlight_shimmer.png width:150 height:100 align:center}",
+  ],
+  "quest.2F3E7233129F2B89.quest_desc": [
+    "Funciona exatamente como um Peixe Luminária, só que estes têm um chifre na cabeça!",
+    "{image:atm:textures/questpics/eternal/starlight_fish2.png width:100 height:100 align:center}",
+  ],
+  "quest.60FDCA2FDFE74056.quest_desc": [
+    "É ROSA! \n\nAqui você encontra Árvores Escarlates com suas folhas caídas empilhadas embaixo. Você também pode encontrar Cogumelos Brilhantes aqui!",
+    "{image:atm:textures/questpics/eternal/starlight_scarlet.png width:200 height:100 align:center}",
+  ],
+  "quest.1BE8F864AB9147C0.quest_desc": [
+    "O Minério de Atalphase pode ser encontrado Minerando em qualquer lugar do subsolo da Starlight. \n\nEle não pode virar Ferramentas nem Armaduras, mas pode fazer diferentes tipos de Luzes!",
+  ],
+  "task.67690077D4273A36.title": "Visite a Starlight",
+  "quest.7AB2FECE47F558F8.quest_desc": [
+    "A Estelagmita pode ser encontrada no subsolo da Starlight. \n\nEla funciona como uma Pedra normal, podendo ser transformada em outros Blocos. \n\nA versão Derretida funciona como um Bloco de Magma normal!",
+  ],
+  "quest.5244B2D6B5FA0487.title": "Deserto Cristalizado",
+  "quest.4D8C9960BB675221.quest_desc": [
+    "Tem um nome engraçado!",
+  ],
+  "quest.3991EEEFDD263A91.quest_desc": [
+    "As Aranhas do Anoitecer, como os Esqueletos da Estrela Solitária, são Hostis e surgem em qualquer lugar. \n\nElas têm 5 Corações e atacam batendo em você. Depois de bater, elas aplicam o efeito Luminescente por alguns segundos. \n\nAo morrer, soltam Linha e seus olhos!",
+    "{image:atm:textures/questpics/eternal/starlight_spider.png width:100 height:100 align:center}",
+  ],
+  "quest.29EC143D7E0347DE.quest_desc": [
+    "A Adaga da Fome é feita com os Dentes da Fome. Não, eu não quis dizer Dentões. \n\nA Adaga tem um Valor de Fome. Quando você acerta Mobs ele sobe; quando está inativa, desce. Quando chega a 100% você ganha bônus. E se chegar a 0% ela começa a te matar. \n\nQuando você acerta Mobs (ou Jogadores), ela também aplica o efeito de Fome. \n\nNão a culpo — eu também fico irritado quando estou com fome.",
+  ],
+  "quest.4147D247E4D754D0.title": "Sanguessuga Luminosa",
+  "quest.15195F456D8AD4C8.quest_desc": [
+    "Quando o Éter toca a Água, forma-se Tioquartzo. Isso pode acontecer naturalmente com a geração do mundo, ou você pode fazer acontecer! \n\nMas não é assim que conseguimos os Fragmentos — eles vêm da Tioquartzo em Broto!",
+  ],
+  "quest.02B574B09AB45D09.title": "Freeze",
+  "quest.71C58666D4BC2508.quest_desc": [
+    "Funciona como Pederneira e Aço!",
+  ],
+  "quest.484ABFF266C8791E.quest_desc": [
+    "Orbfloras são plantas que crescem no fundo do Mar. \n\nElas podem ser colhidas a qualquer momento, mas se você quiser as Luzes de Orbflora vai precisar esperar! \n\nQuando crescem até o nível do Mar, elas florescem. Depois de florir, geram a Luz!",
+  ],
+  "quest.4DBC3B4D38CC6152.title": "Mariposa Cristalizada",
+  "quest.271A112ABDD923A6.quest_desc": [
+    "Como Mangue normal, mas estes não são feios.",
+  ],
+  "quest.0342248394E40B6A.quest_desc": [
+    "Esta Missão foi criada pela &6Equipe AllTheMods&r, ou por um &2contribuidor da comunidade&r para uso nos Modpacks AllTheMods.\n\nComo todos os pacotes do &6AllTheMods&r são licenciados sob &eTodos os Direitos Reservados&r, esta Missão não pode ser usada em nenhum pacote público que não seja lançado pela equipe do &6Equipe AllTheMods&r sem permissão explícita.\n\nEsta missão está intencionalmente oculta; se você está vendo isto, está no modo de edição.",
+  ],
+  "quest.429785E8F64929CE.quest_desc": [
+    "Para chegar à Dimensão Starlight você vai precisar encontrar Ruínas de Portal no Mundo Superior. \n\nLá você encontra um Porteiro: clique com o Botão Direito para iniciar uma conversa e desafie-o para um duelo! Cuidado, ele é bem forte. \n\nQuando vencer o duelo, você ganha alguns Itens de presente — o Orbe da Profecia é um deles. Clique com o Botão Direito no Portal com o Orbe para ativá-lo! Depois, entre para chegar à...",
+  ],
+  "quest.03B40AB768FC0161.title": "Rio Cintilante",
+  "quest.49D1EA8E812A12F6.quest_desc": [
+    "É só uma planta legal. \n\nVocê vai precisar de uma Foice de Prata Abissal para coletá-la! \n\nNão sei por que nunca liguei para plantas, mas Juncos são legais para mim. Talvez seja por ficar perto da Água, ou por as Taboas parecerem espetinhos de milho. Não sei, mas eu gosto delas.",
+  ],
+  "quest.49DC0BD7DC1B893C.quest_desc": [
+    "O Abismo são trincheiras profundas nos Mares Estrelados, descendo até -50! \n\nEles têm várias camadas coloridas de Pedra revestindo-os e guardam muitos Blocos, Musgos e Peixes diferentes!",
+  ],
+  "quest.375F0A098589CF29.title": "Forja de Golem",
+  "quest.10AB188AC6FB24D3.quest_desc": [
+    "O Golem da Starlight tem 220 Corações e 2 Modos. \n\nO 1º modo é o modo de ataque: nele ele não pode receber dano — você precisa esperar os ataques dele passarem para acertá-lo. Ele ataca com Bolas de Fogo, Pisada no Chão ou um Raio Laser devastador! \n\nO 2º modo é o modo de recarga: nele ele começa a puxar energia dos Blocos de Energia, que precisam ser desligados para você poder feri-lo. \n\nAo morrer, ele solta vários Lingotes e Flechas, Aço de Golem, Enfeite de Armadura da Forja e talvez até a Espada de Energia!",
+    "{image:atm:textures/questpics/eternal/starlight_golem.png width:150 height:100 align:center}",
+  ],
+  "quest.4D53D9BBD8279282.quest_desc": [
+    "As Árvores Lunares vão de árvores gigantescas e imponentes a minúsculas. Elas se adaptam para ocupar todo o espaço que puderem! (Isso explicaria as Florestas Densas). \n\nElas plantam como Mudas normais e podem fazer surgir Bagas Lunares nas folhas!",
+  ],
+  "quest.25E782DB4309A1B8.quest_desc": [
+    "As Galhadas de Cervos Aurora são soltas por Cervos Aurora ao morrer. \n\nPodem ser usadas como Espada ou como Enxada.",
+  ],
+  "quest.1AB17923F87AE264.quest_desc": [
+    "O Yeti é um nome que amedronta todos que exploram o Frio! Uma criatura abominável e peluda que vive no clima mais frio e hostil, comendo tudo que ousa se aventurar lá! \n\nBom, este Yeti não — estes são fofos e amigáveis! Preferem rolar por aí a te comer. \n\nNem revidam e têm só 10 Corações. \n\nAo morrer, soltam seu Pelo e Linha — o primeiro podendo ser usado como substituto da Lã.",
+    "{image:atm:textures/questpics/eternal/starlight_yeti.png width:100 height:100 align:center}",
+  ],
+  "quest.4147D247E4D754D0.quest_desc": [
+    "As Sanguessugas Luminosas são mobs minúsculos que surgem no Deserto Cristalizado. \n\nElas querem seu sangue incansavelmente, mesmo de forma violenta. Por sorte, elas só têm 4 Corações! \n\nAo morrer, podem soltar seus Ovos, que podem ser arremessados como projétil.",
+    "{image:atm:textures/questpics/eternal/starlight_gleech.png width:100 height:100 align:center}",
+  ],
+  "quest.29A1E1FF02BD9219.title": "Floresta da Starlight",
+  "quest.68B2D3B985FC1378.title": "Floresta de Torreya",
+}

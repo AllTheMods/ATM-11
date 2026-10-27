@@ -1,0 +1,57 @@
+{
+    "jei.inworldrecipes.dropped_items": "Itens Largados",
+    "jei.inworldrecipes.held_item": "Item na Mão",
+    "jei.inworldrecipes.inventory_items": "Necessário no Inventário",
+    "jei.inworldrecipes.weather": "Clima",
+    "jei.inworldrecipes.entity": "Entidades Necessárias",
+
+    "jei.inworldrecipes.block_state": "Bloco Colocado",
+    "jei.inworldrecipes.chance_results": "Resultados por Chance",
+    "jei.inworldrecipes.consume_held_item": "Consome os itens na mão",
+    "jei.inworldrecipes.consume_dropped_items": "Consome os itens largados necessários",
+    "jei.inworldrecipes.consume_inventory_items": "Consome os itens necessários do inventário",
+    "jei.inworldrecipes.consume_cauldron_fluid": "Consome o nível de fluido do caldeirão",
+    "jei.inworldrecipes.consume_cauldron_items": "Consome os itens necessários do caldeirão",
+    "jei.inworldrecipes.consume_fluid_items": "Consome os itens necessários do fluido",
+    "jei.inworldrecipes.consume_fluid": "Consome o fluido",
+    "jei.inworldrecipes.damage_held_item": "Danifica o item na mão",
+    "jei.inworldrecipes.message": "Mensagem",
+
+    "jei.inworldrecipes.block_landed": "Bloco Pousado",
+    "jei.inworldrecipes.chat_message": "Enviar Mensagem no Chat",
+    "jei.inworldrecipes.click_type": "Tipo de Clique",
+    "jei.inworldrecipes.block_target": "Bloco Alvo",
+    "jei.inworldrecipes.fluid": "Em Fluido",
+    "jei.inworldrecipes.cauldron": "Caldeirão",
+    "jei.inworldrecipes.standing_on": "É preciso estar sobre este bloco",
+    "jei.inworldrecipes.lightning": "Requer que um raio caia",
+
+    "jei.inworldrecipes.to_inventory": "Colocado no Inventário",
+
+    "weather.inworldrecipes.clear": "Limpo",
+    "weather.inworldrecipes.rain": "Chuva",
+    "weather.inworldrecipes.thunder": "Tempestade",
+    "weather.inworldrecipes.snow": "Neve",
+    "jei.inworldrecipes.damage": "Dano",
+
+
+
+
+    "jei.inworldrecipes.left_click": "Clique Esquerdo",
+    "jei.inworldrecipes.right_click": "Clique Direito",
+    "jei.inworldrecipes.triggers": "Gatilhos",
+    "jei.inworldrecipes.conditions": "Condições",
+    "jei.inworldrecipes.results": "Resultados",
+
+    "jei.inworldrecipes.output_block_state": "Substitui o bloco por este bloco",
+    "jei.inworldrecipes.pop_items": "Os itens resultantes são colocados no mundo",
+    "jei.inworldrecipes.chance": "Chance: %s",
+    "jei.inworldrecipes.dropped_item": "Necessário no mundo como item largado",
+    "jei.inworldrecipes.ignore_block_state": "Ignora estados de bloco",
+
+    "jei.inworldrecipes.target_block": "Este bloco deve ser o alvo",
+    "jei.inworldrecipes.target_block_tag": "Este marcador de bloco deve ser o alvo (%s)",
+
+    "jei.inworldrecipes.world_recipe": "Receita no Mundo",
+    "jei.inworldrecipes.weather_condition": "Requer %s como clima"
+}
