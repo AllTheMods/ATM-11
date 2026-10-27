@@ -997,13 +997,13 @@
     "curseForgeHash": 1327442031,
     "modrinthHash": "fb4d41416567e5bc207f5b1c8881c10cc4dda82d"
   },
-  "hephaestus_tools-neoforge-26.1.2-1.0.10.jar": {
-    "jarName": "hephaestus_tools-neoforge-26.1.2-1.0.10.jar",
+  "hephaestus_tools-neoforge-26.1.2-1.0.11.jar": {
+    "jarName": "hephaestus_tools-neoforge-26.1.2-1.0.11.jar",
     "modId": "hephaestus_tools",
     "name": "Hephaestus Tools",
-    "version": "1.0.10",
-    "curseForgeHash": 1977815302,
-    "modrinthHash": "68b036f3e1e2b3698f7a0cc5b5f320aed4fe8a54"
+    "version": "1.0.11",
+    "curseForgeHash": 3195751912,
+    "modrinthHash": "a3181746d675557b4c558ac4a9cdbebecb340cfd"
   },
   "hephaestusmetalworks-26.1.2-1.0.2.jar": {
     "jarName": "hephaestusmetalworks-26.1.2-1.0.2.jar",
@@ -1287,8 +1287,8 @@
     "modId": "kubegroovy",
     "name": "KubeGroovy",
     "version": "1.0.1+26.1.2-neoforge",
-    "curseForgeHash": 1422127982,
-    "modrinthHash": "866cc99864a19e2cb0ae30bd272ea33cf9c80d92"
+    "curseForgeHash": 1023763263,
+    "modrinthHash": "634f1759c98514af9aed4de883f293b661df3dbb"
   },
   "laserbridges-26.1.2-neoforge-6.2.jar": {
     "jarName": "laserbridges-26.1.2-neoforge-6.2.jar",
@@ -1996,37 +1996,37 @@
     "curseForgeHash": 1381368986,
     "modrinthHash": "0ea384f84ea3b31c62d13fdd0b58f0d1430c35f0"
   },
-  "sophisticatedbackpacks-26.1.2-3.26.15.2224.jar": {
-    "jarName": "sophisticatedbackpacks-26.1.2-3.26.15.2224.jar",
+  "sophisticatedbackpacks-26.1.2-3.26.17.2229.jar": {
+    "jarName": "sophisticatedbackpacks-26.1.2-3.26.17.2229.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.26.15",
-    "curseForgeHash": 2677935431,
-    "modrinthHash": "dd1eb4e0d43ff367a6583749b5d37af0d1ac042c"
+    "version": "3.26.17",
+    "curseForgeHash": 3717012260,
+    "modrinthHash": "365e09f9ee03a52a71f8216ad815dfad06464623"
   },
-  "sophisticatedcore-26.1.2-1.5.19.2432.jar": {
-    "jarName": "sophisticatedcore-26.1.2-1.5.19.2432.jar",
+  "sophisticatedcore-26.1.2-1.5.20.2437.jar": {
+    "jarName": "sophisticatedcore-26.1.2-1.5.20.2437.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.5.19",
-    "curseForgeHash": 4013732591,
-    "modrinthHash": "c4b9c35d90d2da5999549763c9a8b096d53bb868"
+    "version": "1.5.20",
+    "curseForgeHash": 3019541346,
+    "modrinthHash": "5dd524bd9038162352731ea19039e76818c53cc7"
   },
-  "sophisticatedstorage-26.1.2-1.5.124.2200.jar": {
-    "jarName": "sophisticatedstorage-26.1.2-1.5.124.2200.jar",
+  "sophisticatedstorage-26.1.2-1.5.125.2202.jar": {
+    "jarName": "sophisticatedstorage-26.1.2-1.5.125.2202.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.124",
-    "curseForgeHash": 289066436,
-    "modrinthHash": "0e767ea0518da29fde72534958ca284fddfcca6f"
+    "version": "1.5.125",
+    "curseForgeHash": 761016568,
+    "modrinthHash": "ff5ae4f16b9929249e7d5e647f868dc1e9e5cea8"
   },
-  "sophisticatedstorageinmotion-26.1.2-0.10.37.378.jar": {
-    "jarName": "sophisticatedstorageinmotion-26.1.2-0.10.37.378.jar",
+  "sophisticatedstorageinmotion-26.1.2-0.10.38.384.jar": {
+    "jarName": "sophisticatedstorageinmotion-26.1.2-0.10.38.384.jar",
     "modId": "sophisticatedstorageinmotion",
     "name": "Sophisticated Storage In Motion",
-    "version": "0.10.37",
-    "curseForgeHash": 3823326070,
-    "modrinthHash": "68b99e2b52bcc515c6f7f0831ea833371b25e9f6"
+    "version": "0.10.38",
+    "curseForgeHash": 4078232578,
+    "modrinthHash": "21d4413332820374cf265042139a93c8fedeb2fa"
   },
   "spark-1.10.187-neoforge.jar": {
     "jarName": "spark-1.10.187-neoforge.jar",
@@ -2148,13 +2148,13 @@
     "curseForgeHash": 1050198548,
     "modrinthHash": "577adec39d49a7e2e32a0d77a8be03b0f0715819"
   },
-  "titanium-26.1.2-4.0.14.jar": {
-    "jarName": "titanium-26.1.2-4.0.14.jar",
+  "titanium-26.1.2-4.0.16.jar": {
+    "jarName": "titanium-26.1.2-4.0.16.jar",
     "modId": "titanium",
     "name": "Titanium",
-    "version": "4.0.14",
-    "curseForgeHash": 1489703239,
-    "modrinthHash": "93d7b2cf9153a7449259f37dc93c16e46c79c459"
+    "version": "4.0.16",
+    "curseForgeHash": 3532546945,
+    "modrinthHash": "51d54f16f26299c54bb57708bca146d5e43f8410"
   },
   "ToastControl-26.1.2-10.0.0.jar": {
     "jarName": "ToastControl-26.1.2-10.0.0.jar",
