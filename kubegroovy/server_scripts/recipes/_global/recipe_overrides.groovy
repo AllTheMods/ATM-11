@@ -101,6 +101,15 @@ $ServerEvents.generateData("after_mods", (allthemods) -> {
     })
   }
 
+  if ($Platform.getInfo("forcecraft").version == "7.0.0.beta.2") { // bump if needed
+    def recipes = [
+        "forcecraft:recipe/infuse/forge"
+    ]
+    recipes.forEach(recipe -> {
+      allthemods.json(recipe + ".json", jsonDisable)
+    })
+  }
+
   if ($Platform.getInfo("advanced_ae").version == "26.1.6") { // bump if needed
     json = [
         "type"         : "ae2wtlib:combine",
@@ -189,7 +198,7 @@ $ServerEvents.generateData("after_mods", (allthemods) -> {
     })
   }
   
-    if ($Platform.getInfo("arsmagicalegacy").version == "1.7.0") { // bump if needed
+    if ($Platform.getInfo("arsmagicalegacy").version == "1.7.1") { // bump if needed
     json = [
       type: "integrateddynamics:squeezer",
       input_item: "arsmagicalegacy:desert_nova",
