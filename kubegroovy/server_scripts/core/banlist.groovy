@@ -94,11 +94,11 @@ if (!$Platform.isClientEnvironment()) {
     config = defaultConfig
   }
 
-  bannedBlockEntities = config?.server?.banned_block_entities
-  def bannedItems = config?.server?.banned_items
-  def bannedEntities = config?.server?.banned_entities
+  bannedBlockEntities = config?.server?.banned_block_entities.toList().stream().map(prim -> prim.asString).toList()
+  def bannedItems = config?.server?.banned_items.toList().stream().map(prim -> prim.asString).toList()
+  def bannedEntities = config?.server?.banned_entities.toList().stream().map(prim -> prim.asString).toList()
 
-  if (bannedEntities instanceof ArrayList) {
+  if (bannedEntities instanceof List) {
     $NativeEvents.onEvent(EntityJoinLevelEvent, (event) -> {
       if (bannedEntities.contains(event.entity.type)) {
         event.level.server.tell(
@@ -128,8 +128,8 @@ if (!$Platform.isClientEnvironment()) {
       def data = bannedList
       console.log("Banned items: " + data)
       console.log("Sending banned items to " + event.player.username)
-      event.player.sendData("banned_items", { banned_items:
-      data })
+      event.player.sendData("banned_items", [ banned_items:
+      data ])
     })
   }
   if (!bannedBlockEntities.isEmpty()) {
