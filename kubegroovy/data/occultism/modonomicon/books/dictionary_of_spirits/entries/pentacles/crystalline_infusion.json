@@ -1,0 +1,24 @@
+{
+    "type": "modonomicon:content",
+    "background": {
+        "height": 26,
+        "sprite": "modonomicon:modonomicon/themes/default/node/entry_backgrounds/square_gold",
+        "width": 26
+    },
+    "category": "occultism:pentacles",
+    "description": "book.occultism.dictionary_of_spirits.pentacles.crystalline_infusion.description",
+    "icon": {
+        "id": "occultism:ritual_dummy/crystalline_infusion"
+    },
+    "id": "occultism:pentacles/crystalline_infusion",
+    "name": "book.occultism.dictionary_of_spirits.pentacles.crystalline_infusion.name",
+    "parents": [
+        {
+            "entry": "occultism:pentacles/possess_foliot",
+            "line_enabled": false
+        }
+    ],
+    "sort_number": 36,
+    "x": -2,
+    "y": 5
+}

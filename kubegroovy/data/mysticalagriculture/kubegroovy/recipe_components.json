@@ -1,0 +1,15 @@
+{
+  "mysticalagriculture:soul_result": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "type",
+        "component": "id"
+      },
+      {
+        "name": "souls",
+        "component": "double"
+      }
+    ]
+  }
+}

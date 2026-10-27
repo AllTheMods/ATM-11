@@ -1,0 +1,18 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "type": "energizedpower:percentage_output",
+      "role": "output"
+    },
+    {
+      "name": "ingredient",
+      "type": "energizedpower:counted_ingredient",
+      "role": "input"
+    },
+    {
+      "name": "ticks",
+      "type": "positive_int"
+    }
+  ]
+}

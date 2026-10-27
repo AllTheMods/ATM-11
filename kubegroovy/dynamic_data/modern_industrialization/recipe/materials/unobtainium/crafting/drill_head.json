@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "G": {
+        "tag": "c:gears/unobtainium"
+      },
+      "R": {
+        "tag": "c:rods/unobtainium"
+      },
+      "b": {
+        "item": "kubegroovy:unobtainium_bolt"
+      },
+      "c": {
+        "item": "kubegroovy:unobtainium_curved_plate"
+      },
+      "p": {
+        "tag": "c:plates/unobtainium"
+      }
+    },
+    "pattern": [
+      "bcp",
+      "GRc",
+      "bGb"
+    ],
+    "result": {
+      "count": 1,
+      "id": "kubegroovy:unobtainium_drill_head"
+    }
+  }

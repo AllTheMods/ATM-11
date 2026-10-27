@@ -1,0 +1,31 @@
+{
+  "keys": [
+    {
+      "name": "output",
+      "type": "item_stack_template",
+      "role": "output"
+    },
+    {
+      "name": "input_items",
+      "type": {
+        "type": "list",
+        "component": "extendedae:item_ingredient_stack",
+        "min": 0
+      },
+      "role": "input"
+    },
+    {
+      "name": "energy",
+      "type": "long"
+    },
+    {
+      "name": "input_fluid",
+      "type": "extendedae:fluid_ingredient_stack",
+      "role": "input",
+      "default_optional": true
+    }
+  ],
+  "unique": [
+    "output"
+  ]
+}

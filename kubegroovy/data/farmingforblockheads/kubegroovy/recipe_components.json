@@ -1,0 +1,29 @@
+{
+  "farmingforblockheads:market_result": {
+    "type": "with_codec",
+    "component": "item_stack_template",
+    "codec": {
+      "class": "net.blay09.mods.farmingforblockheads.recipe.MarketRecipeImpl",
+      "field": "RESULT_CODEC"
+    }
+  },
+  "farmingforblockheads:market_payment": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "ingredient",
+        "component": "ingredient"
+      },
+      {
+        "name": "count",
+        "component": "int",
+        "optional": true
+      },
+      {
+        "name": "tooltip",
+        "component": "ignore",
+        "optional": true
+      }
+    ]
+  }
+}

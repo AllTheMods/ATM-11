@@ -1,0 +1,38 @@
+{
+    "enderio:sized_tag_output": {
+      "type": "custom_object",
+      "keys": [
+        {
+          "name": "tag",
+          "component": "item_tag"
+        },
+        {
+          "name": "count",
+          "component": "positive_int"
+        }
+      ]
+    },
+    "enderio:output_item": {
+      "type": "custom_object",
+      "keys": [
+        {
+          "name": "item",
+          "component": {
+            "type": "either",
+            "left": "item_stack_template",
+            "right": "enderio:sized_tag_output"
+          }
+        },
+        {
+          "name": "chance",
+          "component": "float",
+          "optional": true
+        },
+        {
+          "name": "optional",
+          "component": "boolean",
+          "optional": true
+        }
+      ]
+    }
+}

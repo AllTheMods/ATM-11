@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kubegroovy:block/air_essence_block"
+    }
+  }
+}

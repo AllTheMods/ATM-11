@@ -1,0 +1,39 @@
+{
+  "energizedpower:counted_ingredient": {
+    "type": "with_codec",
+    "component": "sized_ingredient",
+    "codec": {
+      "class": "me.jddev0.ep.recipe.IngredientWithCount",
+      "field": "CODEC"
+    },
+    "conversion": {
+      "class": "me.jddev0.ep.recipe.IngredientWithCount",
+      "properties": {
+        "ingredient": "input"
+      },
+      "parent_constructor": ["ingredient", "count"],
+      "codec_constructor": ["ingredient", "count"]
+    }
+  },
+  "energizedpower:percentage_output": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "result",
+        "component": "item_stack_template"
+      },
+      {
+        "name": "percentages",
+        "component": {
+          "type": "list",
+          "component": {
+            "type": "double",
+            "min": 0,
+            "max": 1
+          },
+          "min": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "inworldrecipes:block_target": {
+    "type": "either",
+    "left": "optional_block_state",
+    "right": "hashed_block_tag"
+  },
+  "inworldrecipes:fluid_target": {
+    "type": "either",
+    "left": {
+      "type": "registry_element",
+      "registry": "minecraft:fluid"
+    },
+    "right": "hashed_fluid_tag"
+  },
+  "inworldrecipes:entity_requirement": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "type",
+        "component": {
+          "type": "registry_element",
+          "registry": "minecraft:entity_type"
+        }
+      },
+      {
+        "name": "nbt",
+        "component": "ignore",
+        "optional": true
+      },
+      {
+        "name": "damage",
+        "component": "float",
+        "optional": true
+      }
+    ]
+  },
+  "inworldrecipes:chance_result": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "item",
+        "component": "item_stack_template"
+      },
+      {
+        "name": "chance",
+        "component": "float",
+        "optional": true
+      }
+    ]
+  },
+  "inworldrecipes:trigger": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "type",
+        "component": {
+          "type": "registry_element",
+          "registry": "inworldrecipes:recipe_triggers"
+        }
+      },
+      {
+        "name": "block",
+        "component": {
+          "type": "registry_element",
+          "registry": "minecraft:block"
+        },
+        "optional": true
+      },
+      {
+        "name": "target_block",
+        "component": "inworldrecipes:block_target",
+        "optional": true
+      },
+      {
+        "name": "click_type",
+        "component": "optional_string",
+        "optional": true
+      },
+      {
+        "name": "message",
+        "component": "optional_string",
+        "optional": true
+      },
+      {
+        "name": "fluid",
+        "component": {
+          "type": "either",
+          "left": "inworldrecipes:fluid_target",
+          "right": "optional_string"
+        },
+        "optional": true
+      },
+      {
+        "name": "items",
+        "component": {
+          "type": "list",
+          "component": "sized_ingredient",
+          "min": 0
+        },
+        "optional": true
+      },
+      {
+        "name": "consume_level",
+        "component": {
+          "type": "int",
+          "min": 1,
+          "max": 3
+        },
+        "optional": true
+      }
+    ]
+  },
+  "inworldrecipes:condition": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "type",
+        "component": {
+          "type": "registry_element",
+          "registry": "inworldrecipes:recipe_conditions"
+        }
+      },
+      {
+        "name": "ingredient",
+        "component": "sized_ingredient",
+        "optional": true
+      },
+      {
+        "name": "items",
+        "component": {
+          "type": "list",
+          "component": "sized_ingredient",
+          "min": 0
+        },
+        "optional": true
+      },
+      {
+        "name": "weather",
+        "component": "optional_string",
+        "optional": true
+      },
+      {
+        "name": "requirements",
+        "component": {
+          "type": "list",
+          "component": "inworldrecipes:entity_requirement",
+          "min": 0
+        },
+        "optional": true
+      }
+    ]
+  },
+  "inworldrecipes:result": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "type",
+        "component": {
+          "type": "registry_element",
+          "registry": "inworldrecipes:recipe_results"
+        }
+      },
+      {
+        "name": "block_state",
+        "component": "optional_block_state",
+        "optional": true
+      },
+      {
+        "name": "results",
+        "component": {
+          "type": "list",
+          "component": "inworldrecipes:chance_result",
+          "min": 0
+        },
+        "optional": true
+      },
+      {
+        "name": "add_to_inventory",
+        "component": "boolean",
+        "optional": true
+      },
+      {
+        "name": "chance",
+        "component": {
+          "type": "double",
+          "min": 0,
+          "max": 1
+        },
+        "optional": true
+      },
+      {
+        "name": "count",
+        "component": "int",
+        "optional": true
+      },
+      {
+        "name": "amount",
+        "component": "int",
+        "optional": true
+      },
+      {
+        "name": "message",
+        "component": "optional_string",
+        "optional": true
+      },
+      {
+        "name": "action_bar",
+        "component": "boolean",
+        "optional": true
+      }
+    ]
+  },
+  "inworldrecipes:option": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "show_in_jei",
+        "component": "boolean",
+        "optional": true
+      },
+      {
+        "name": "only_visual_recipe",
+        "component": "boolean",
+        "optional": true
+      }
+    ]
+  }
+}

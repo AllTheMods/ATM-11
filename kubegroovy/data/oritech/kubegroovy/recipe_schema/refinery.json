@@ -1,0 +1,44 @@
+{
+  "keys": [
+    {
+      "name": "itemResults",
+      "type": {
+        "type": "list",
+        "component": "item_stack_template",
+        "min": 0
+      },
+      "role": "output"
+    },
+    {
+      "name": "itemInputs",
+      "type": {
+        "type": "list",
+        "component": "ingredient",
+        "min": 0
+      },
+      "role": "input"
+    },
+    {
+      "name": "fluidInput",
+      "type": "sized_fluid_ingredient",
+      "role": "input",
+      "default_optional": true
+    },
+    {
+      "name": "fluidOutputs",
+      "type": {
+        "type": "list",
+        "component": "fluid_stack_template",
+        "min": 0
+      },
+      "role": "output",
+      "optional": []
+    },
+    {
+      "name": "time",
+      "type": "int",
+      "optional": 60
+    }
+  ],
+  "unique": ["itemResults", "fluidOutputs"]
+}

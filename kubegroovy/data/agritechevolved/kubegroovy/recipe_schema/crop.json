@@ -1,0 +1,28 @@
+{
+  "keys": [
+    {
+      "name": "drops",
+      "type": {
+        "type": "list",
+        "component": "agritechevolved:crop_drop",
+        "min": 0
+      },
+      "role": "output"
+    },
+    {
+      "name": "seed",
+      "type": "ingredient",
+      "role": "input"
+    },
+    {
+      "name": "soils",
+      "type": {
+        "type": "list",
+        "component": "ingredient",
+        "min": 0
+      },
+      "role": "input"
+    }
+  ],
+  "unique": ["seed"]
+}

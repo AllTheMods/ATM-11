@@ -1,0 +1,44 @@
+{
+  "keys": [
+    {
+      "name": "results",
+      "type": {
+        "type": "list",
+        "component": "inworldrecipes:result",
+        "min": 0
+      },
+      "role": "output"
+    },
+    {
+      "name": "triggers",
+      "type": {
+        "type": "list",
+        "component": "inworldrecipes:trigger",
+        "min": 0
+      }
+    },
+    {
+      "name": "conditions",
+      "type": {
+        "type": "list",
+        "component": "inworldrecipes:condition",
+        "min": 0
+      },
+      "role": "input"
+    },
+    {
+      "name": "options",
+      "type": {
+        "type": "list",
+        "component": "inworldrecipes:option",
+        "min": 0
+      },
+      "optional": []
+    },
+    {
+      "name": "show_notification",
+      "type": "boolean",
+      "optional": true
+    }
+  ]
+}

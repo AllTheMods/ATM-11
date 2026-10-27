@@ -1,0 +1,21 @@
+{
+  "keys": [
+    {
+      "name": "output",
+      "type": "item_stack_template",
+      "role": "output"
+    },
+    {
+      "name": "input",
+      "type": "extendedae:item_ingredient_stack",
+      "role": "input"
+    },
+    {
+      "name": "energy",
+      "type": "long"
+    }
+  ],
+  "unique": [
+    "output"
+  ]
+}

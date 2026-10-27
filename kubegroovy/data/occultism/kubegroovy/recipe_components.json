@@ -1,0 +1,15 @@
+{
+  "occultism:entity_sacrifice": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "tag",
+        "component": "entity_type_tag"
+      },
+      {
+        "name": "display_name",
+        "component": "optional_string"
+      }
+    ]
+  }
+}

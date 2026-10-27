@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "minecraft:coal"
+  ],
+  "itemResults": [
+    {
+      "id": "oritech:coal_dust"
+    }
+  ],
+  "time": 100
+}

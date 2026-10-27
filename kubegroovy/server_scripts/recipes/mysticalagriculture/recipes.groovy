@@ -1,0 +1,342 @@
+/**
+ * This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods.
+ * As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+ */
+
+// requires mysticalagriculture
+package server_scripts.recipes.mysticalagriculture
+
+import net.minecraft.world.item.ItemStackTemplate
+import net.minecraft.world.item.crafting.Ingredient
+
+$ServerEvents.recipes((allthemods) -> {
+  allthemods.remove([id: "mysticalagriculture:essence/common/niter"])
+  allthemods.remove([id: "mysticalagriculture:essence/extremereactors2/yellorium_ingot"])
+
+  if ($Platform.isLoaded("industrialforegoing")) {
+    allthemods.remove([input: "mysticalagriculture:rubber_essence"])
+    allthemods
+        .shaped("4x industrialforegoing:dryrubber", ["   ", "AAA", "   "], [
+            A: "mysticalagriculture:rubber_essence"
+        ])
+        .id("allthemods:essence/industrialforegoing/rubber")
+  }
+
+  if ($Platform.isLoaded("allthecompressed")) {
+    allthemods
+        .shaped("kubejs:magical_soil", ["ABC", "DEF", "GHI"], [
+            A: "mysticalagradditions:insanium_block",
+            B: "allthecompressed:nether_star_block_2x",
+            C: "allthecompressed:dirt_3x",
+            D: "mysticalagriculture:awakened_supremium_growth_accelerator",
+            E: "mysticalagradditions:insanium_farmland",
+            F: "minecraft:dragon_head",
+            G: "allthemodium:piglich_heart",
+            H: "allthecompressed:ender_pearl_block_3x",
+            I: "productivetrees:moonlight_magic_crepe_myrtle_sapling"
+        ])
+        .id("allthemods:kjs/magical_soil")
+  }
+
+  if ($Platform.isLoaded("hostilenetworks")) {
+    allthemods
+        .shaped("mysticalagradditions:withering_soul", ["PRP", "BSB", "PRP"], [
+            B: 'productivebees:configurable_comb[productivebees:bee_type="productivebees:withered"]',
+            P: 'hostilenetworks:prediction[hostilenetworks:data_model="hostilenetworks:wither"]',
+            R: "reliquary:witherless_rose",
+            S: "minecraft:wither_skeleton_skull"
+        ])
+        .id("allthemods:mysticalagradditions/withering_soul")
+  }
+
+  allthemods
+      .shaped("enderio:enderman_head", ["eee", "ebe", "eee"], [
+          b: "mysticalagriculture:blank_skull",
+          e: "mysticalagriculture:enderman_essence"
+      ])
+      .id("allthemods:essence/enderio/enderman_head")
+
+  // Warped Wart Blocks
+  allthemods
+      .shaped("8x minecraft:warped_wart_block", [" A ", "A  ", "AAA"], [
+          A: "mysticalagriculture:nether_essence"
+      ])
+      .id("allthemods:essence/minecraft/warped_wart_block")
+
+  // Moss Blocks
+  allthemods
+      .shaped("8x minecraft:moss_block", ["NNN", "NDN", "NNN"], [
+          N: "mysticalagriculture:nature_essence",
+          D: "mysticalagriculture:dirt_essence"
+      ])
+      .id("allthemods:essence/minecraft/moss_block")
+
+  // Shroomlights
+  allthemods
+      .shaped("6x minecraft:shroomlight", ["AGA", "GAG", "AGA"], [
+          A: "mysticalagriculture:nether_essence",
+          G: "mysticalagriculture:glowstone_essence"
+      ])
+      .id("allthemods:essence/minecraft/shroomlight")
+
+  // Froglights
+  allthemods
+      .shaped("8x minecraft:ochre_froglight", ["NDG", "GDN", "NDG"], [
+          N: "mysticalagriculture:nature_essence",
+          D: "mysticalagriculture:dye_essence",
+          G: "mysticalagriculture:glowstone_essence"
+      ])
+      .id("allthemods:essence/minecraft/ochre_froglight")
+  allthemods
+      .shaped("8x minecraft:pearlescent_froglight", ["DDD", "GNG", "NGN"], [
+          N: "mysticalagriculture:nature_essence",
+          D: "mysticalagriculture:dye_essence",
+          G: "mysticalagriculture:glowstone_essence"
+      ])
+      .id("allthemods:essence/minecraft/pearlescent_froglight")
+  allthemods
+      .shaped("8x minecraft:verdant_froglight", ["NGD", "GND", "NGD"], [
+          N: "mysticalagriculture:nature_essence",
+          D: "mysticalagriculture:dye_essence",
+          G: "mysticalagriculture:glowstone_essence"
+      ])
+      .id("allthemods:essence/minecraft/verdant_froglight")
+
+  // Nether Vines
+  allthemods
+      .shaped("12x minecraft:twisting_vines", ["NA ", " A ", " AN"], [
+          A: "mysticalagriculture:nature_essence",
+          N: "mysticalagriculture:nether_essence"
+      ])
+      .id("allthemods:essence/minecraft/twisiting_vines")
+  allthemods
+      .shaped("12x minecraft:weeping_vines", [" A ", "NAN", " A "], [
+          A: "mysticalagriculture:nature_essence",
+          N: "mysticalagriculture:nether_essence"
+      ])
+      .id("allthemods:essence/minecraft/weeping_vines")
+
+  if ($Platform.isLoaded("regions_unexplored")) {
+// Regions Unexplored Logs
+    allthemods
+        .shaped("8x regions_unexplored:alpha_log", ["AAA", "   ", "   "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/alpha_log")
+    allthemods
+        .shaped("8x regions_unexplored:ashen_log", ["   ", "AAA", "   "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/ashen_log")
+    allthemods
+        .shaped("8x regions_unexplored:bamboo_log", ["   ", "   ", "AAA"], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/bamboo_log")
+    allthemods
+        .shaped("8x regions_unexplored:silver_birch_log", ["A  ", "A  ", "A  "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/silver_birch_log")
+    allthemods
+        .shaped("8x regions_unexplored:small_oak_log", [" A ", " A ", " A "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/small_oak_log")
+    allthemods
+        .shaped("8x regions_unexplored:baobab_log", ["  A", "  A", "  A"], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/baobab_log")
+    allthemods
+        .shaped("8x regions_unexplored:blackwood_log", ["A  ", " A ", "  A"], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/blackwood_log")
+    allthemods
+        .shaped("8x regions_unexplored:brimwood_log", ["  A", " A ", "A  "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/brimwood_log")
+    allthemods
+        .shaped("8x regions_unexplored:cobalt_log", ["AA ", "  A", "   "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/cobalt_log")
+    allthemods
+        .shaped("8x regions_unexplored:cypress_log", ["A A", " A ", "   "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/cypress_log")
+    allthemods
+        .shaped("8x regions_unexplored:dead_log", ["  A", "AA ", "   "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/dead_log")
+    allthemods
+        .shaped("8x regions_unexplored:eucalyptus_log", [" AA", "A  ", "   "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/eucalyptus_log")
+    allthemods
+        .shaped("8x regions_unexplored:joshua_log", ["   ", "AA ", "  A"], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/joshua_log")
+    allthemods
+        .shaped("8x regions_unexplored:kapok_log", ["   ", "A  ", "AA "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/kapok_log")
+    allthemods
+        .shaped("8x regions_unexplored:larch_log", ["   ", "A A", " A "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/larch_log")
+    allthemods
+        .shaped("8x regions_unexplored:magnolia_log", ["   ", "  A", "AA "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/magnolia_log")
+    allthemods
+        .shaped("8x regions_unexplored:maple_log", ["   ", " AA", "A  "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/maple_log")
+    allthemods
+        .shaped("8x regions_unexplored:mauve_log", ["AA ", "A  ", "   "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/mauve_log")
+    allthemods
+        .shaped("8x regions_unexplored:palm_log", [" AA", "  A", "   "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/palm_log")
+    allthemods
+        .shaped("8x regions_unexplored:pine_log", ["   ", "A  ", "AA "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/pine_log")
+    allthemods
+        .shaped("8x regions_unexplored:redwood_log", ["   ", "  A", " AA"], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/redwood_log")
+    allthemods
+        .shaped("8x regions_unexplored:socotra_log", ["A  ", "A  ", " A "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/socotra_log")
+    allthemods
+        .shaped("8x regions_unexplored:willow_log", ["A  ", " A ", " A "], [
+            A: "mysticalagriculture:unexplored_wood_essence"
+        ])
+        .id("allthemods:essence/regions_unexplored/willow_log")
+  }
+
+  if ($Platform.isLoaded("xycraft_world")) {
+    // Xychorium Gems
+    allthemods
+        .shaped("5x xycraft_world:xychorium_gem_light", ["XX ", "X  ", "   "], [
+            X: "mysticalagriculture:xychorium_gem_essence"
+        ])
+        .id("allthemods:essence/xycraft/gem_light")
+        .noMirror()
+    allthemods
+        .shaped("5x xycraft_world:xychorium_gem_dark", [" XX", "  X", "   "], [
+            X: "mysticalagriculture:xychorium_gem_essence"
+        ])
+        .id("allthemods:essence/xycraft/gem_dark")
+        .noMirror()
+    allthemods
+        .shaped("5x xycraft_world:xychorium_gem_red", ["   ", "X  ", "XX "], [
+            X: "mysticalagriculture:xychorium_gem_essence"
+        ])
+        .id("allthemods:essence/xycraft/gem_red")
+        .noMirror()
+    allthemods
+        .shaped("5x xycraft_world:xychorium_gem_green", ["   ", "  X", " XX"], [
+            X: "mysticalagriculture:xychorium_gem_essence"
+        ])
+        .id("allthemods:essence/xycraft/gem_green")
+        .noMirror()
+    allthemods
+        .shaped("5x xycraft_world:xychorium_gem_blue", [" X ", " X ", " X "], [
+            X: "mysticalagriculture:xychorium_gem_essence"
+        ])
+        .id("allthemods:essence/xycraft/gem_blue")
+        .noMirror()
+  }
+
+  def addInfustion = { seed, item, essence ->
+    allthemods.recipes.mysticalagricultureInfusion(seed as ItemStackTemplate, "mysticalagriculture:prosperity_seed_base" as Ingredient, [
+        item,
+        essence,
+        item,
+        essence,
+        item,
+        essence,
+        item,
+        essence
+    ] as List<Ingredient>)//.id(seed.replace(":", ":infusion/"))
+//      allthemods
+//          .custom([
+//              type       : "mysticalagriculture:infusion",
+//              input      : "mysticalagriculture:prosperity_seed_base",
+//              ingredients: [
+//                  item,
+//                  essence,
+//                  item,
+//                  essence,
+//                  item,
+//                  essence,
+//                  item,
+//                  essence
+//              ],
+//              result     : [
+//                  id: seed
+//              ]
+//          ])
+//          .id(seed.replace(":", ":infusion/"))
+  }
+
+  addInfustion('mysticalagriculture:silicon_seeds', 'ae2:silicon', 'mysticalagriculture:prudentium_essence')
+  addInfustion('mysticalagriculture:steel_seeds', 'alltheores:steel_ingot', 'mysticalagriculture:imperium_essence')
+  if ($Platform.isLoaded("extendedae")) {
+    addInfustion('mysticalagriculture:entro_seeds', 'extendedae:entro_crystal', 'mysticalagriculture:supremium_essence')
+  }
+
+  allthemods.recipes.mysticalagricultureSoulExtraction([
+      type : "mysticalagriculture:fish",
+      souls: 0.5
+  ],"#c:foods/raw_fish")//.id("mysticalagriculture:kgy/from_c_foods/raw_fish")
+
+  // 2 Tall flower recipes
+  allthemods.shaped("2x minecraft:rose_bush", ["ABA", "BCA", "BAA"], [
+      A: "mysticalagriculture:nature_essence",
+      B: "mysticalagriculture:dye_essence",
+      C: "minecraft:red_dye"
+  ])
+  allthemods.shaped("2x minecraft:peony", ["BAA", "ACA", "BAB"], [
+      A: "mysticalagriculture:nature_essence",
+      B: "mysticalagriculture:dye_essence",
+      C: "minecraft:pink_dye"
+  ])
+  allthemods.shaped("2x minecraft:sunflower", ["AAB", "BCA", "ABA"], [
+      A: "mysticalagriculture:nature_essence",
+      B: "mysticalagriculture:dye_essence",
+      C: "minecraft:yellow_dye"
+  ])
+  allthemods.shaped("2x minecraft:lilac", ["ABA", "ACB", "BAA"], [
+      A: "mysticalagriculture:nature_essence",
+      B: "mysticalagriculture:dye_essence",
+      C: "minecraft:magenta_dye"
+  ])
+
+  allthemods.shapeless($Item.of('minecraft:potion[potion_contents={potion:"minecraft:water"}]', 1), [
+      "minecraft:glass_bottle",
+      "mysticalagriculture:water_essence"
+  ])
+  allthemods.shapeless($Item.of("minecraft:honey_block"), ["9x mysticalagriculture:honey_essence"])
+})

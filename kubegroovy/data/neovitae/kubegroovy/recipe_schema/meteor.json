@@ -1,0 +1,34 @@
+{
+  "keys": [
+    {
+      "name": "layers",
+      "type": {
+        "type": "list",
+        "component": "neovitae:meteor_layer",
+        "min": 0
+      },
+      "role": "output"
+    },
+    {
+      "name": "input",
+      "type": {
+        "type": "with_codec",
+        "component": "ingredient",
+        "codec": {
+          "class": "com.breakinblocks.neovitae.common.recipe.NVRecipeCodecs",
+          "field": "INGREDIENT"
+        }
+      },
+      "role": "input"
+    },
+    {
+      "name": "syphon",
+      "type": "int"
+    },
+    {
+      "name": "explosion",
+      "type": "float"
+    }
+  ],
+  "unique": ["input"]
+}

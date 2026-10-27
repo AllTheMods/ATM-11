@@ -1,0 +1,42 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "type": "item_stack_template",
+      "role": "output"
+    },
+    {
+      "name": "input",
+      "type": "ingredient",
+      "role": "input"
+    },
+    {
+      "name": "ingredients",
+      "type": {
+        "type": "list",
+        "component": "ingredient",
+        "min": 4,
+        "max": 4
+      },
+      "role": "input"
+    },
+    {
+      "name": "essences",
+      "type": {
+        "type": "list",
+        "component": "sized_ingredient",
+        "min": 4,
+        "max": 4
+      },
+      "role": "input"
+    },
+    {
+      "name": "transfer_components",
+      "type": "boolean",
+      "optional": false
+    }
+  ],
+  "unique": [
+    "result"
+  ]
+}

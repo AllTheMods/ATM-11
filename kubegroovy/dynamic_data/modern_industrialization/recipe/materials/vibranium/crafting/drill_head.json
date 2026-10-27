@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "G": {
+        "tag": "c:gears/vibranium"
+      },
+      "R": {
+        "tag": "c:rods/vibranium"
+      },
+      "b": {
+        "item": "kubegroovy:vibranium_bolt"
+      },
+      "c": {
+        "item": "kubegroovy:vibranium_curved_plate"
+      },
+      "p": {
+        "tag": "c:plates/vibranium"
+      }
+    },
+    "pattern": [
+      "bcp",
+      "GRc",
+      "bGb"
+    ],
+    "result": {
+      "count": 1,
+      "id": "kubegroovy:vibranium_drill_head"
+    }
+  }

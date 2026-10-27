@@ -1,0 +1,29 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "type": "theurgy:recipe_result",
+      "role": "output"
+    },
+    {
+      "name": "mercury",
+      "type": "ingredient",
+      "role": "input"
+    },
+    {
+      "name": "salt",
+      "type": "ingredient",
+      "role": "input"
+    },
+    {
+      "name": "sulfur",
+      "type": "ingredient",
+      "role": "input"
+    },
+    {
+      "name": "time",
+      "type": "int",
+      "optional": 100
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "agritechevolved:crop_drop": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "item",
+        "component": {
+          "type": "registry_element",
+          "registry": "minecraft:item"
+        }
+      },
+      {
+        "name": "min",
+        "component": "int"
+      },
+      {
+        "name": "max",
+        "component": "int"
+      },
+      {
+        "name": "chance",
+        "component": "float"
+      }
+    ]
+  }
+}

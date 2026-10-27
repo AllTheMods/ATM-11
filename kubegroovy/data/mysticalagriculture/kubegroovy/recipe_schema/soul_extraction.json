@@ -1,0 +1,15 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "type": "mysticalagriculture:soul_result",
+      "role": "output"
+    },
+    {
+      "name": "input",
+      "type": "ingredient",
+      "role": "input"
+    }
+  ],
+  "unique": ["input"]
+}

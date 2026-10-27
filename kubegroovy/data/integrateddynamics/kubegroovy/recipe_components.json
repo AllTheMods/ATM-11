@@ -1,0 +1,55 @@
+{
+  "integrateddynamics:tag_output": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "tag",
+        "component": "item_tag"
+      },
+      {
+        "name": "count",
+        "component": "int",
+        "optional": true
+      }
+    ]
+  },
+  "integrateddynamics:item_chance": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "item",
+        "component": "item_stack_template"
+      },
+      {
+        "name": "chance",
+        "component": "float",
+        "optional": true
+      }
+    ]
+  },
+  "integrateddynamics:tag_chance": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "tag",
+        "component": "integrateddynamics:tag_output"
+      },
+      {
+        "name": "count",
+        "component": "int",
+        "optional": true
+      },
+      {
+        "name": "chance",
+        "component": "float",
+        "optional": true
+      }
+    ]
+  },
+  "integrateddynamics:chance_output": {
+    "type": "either",
+    "left": "integrateddynamics:item_chance",
+    "right": "integrateddynamics:tag_chance"
+  },
+  "integrateddynamics:fluid_template": "fluid_stack_template"
+}

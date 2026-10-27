@@ -1,0 +1,29 @@
+{
+    "keys": [{
+            "name": "outputs",
+            "role": "output",
+            "type": {
+              "type": "list",
+              "component": "enderio:output_item"
+            }
+        },
+        {
+            "name": "input",
+            "role": "input",
+            "type": "ingredient"
+        },
+        {
+            "name": "energy",
+            "type": "non_negative_int"
+        },
+        {
+            "name": "bonus",
+            "type": {
+              "type": "enum",
+              "enum": "com.enderio.enderio.content.machines.sag_mill.SagMillingRecipe$BonusType"
+            },
+          "optional": "multiply_output"
+        }
+    ],
+  "unique": ["input"]
+}

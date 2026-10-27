@@ -1,0 +1,13 @@
+{
+    "itemGroup.underwater_village": "Aba de Mod de Exemplo",
+    "block.underwater_village.example_block": "Bloco de Exemplo",
+    "item.underwater_village.example_item": "Item de Exemplo",
+
+    "underwater_village.configuration.title": "Configurações do Underwater Village",
+    "underwater_village.configuration.section.underwater_village.common.toml": "Configurações do Underwater Village",
+    "underwater_village.configuration.section.underwater_village.common.toml.title": "Configurações do Underwater Village",
+    "underwater_village.configuration.items": "Lista de itens",
+    "underwater_village.configuration.logDirtBlock": "Registrar Bloco de Terra",
+    "underwater_village.configuration.magicNumberIntroduction": "Texto do número mágico",
+    "underwater_village.configuration.magicNumber": "Número mágico"
+}

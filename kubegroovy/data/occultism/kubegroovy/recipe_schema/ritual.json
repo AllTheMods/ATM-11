@@ -1,0 +1,98 @@
+{
+  "keys": [
+    {
+      "name": "ritual_type",
+      "type": "id"
+    },
+    {
+      "name": "pentacle_id",
+      "type": "id"
+    },
+    {
+      "name": "ingredients",
+      "type": {
+        "type": "list",
+        "component": "ingredient",
+        "min": 0
+      },
+      "role": "input"
+    },
+    {
+      "name": "activation_item",
+      "type": "ingredient",
+      "role": "input"
+    },
+    {
+      "name": "ritual_dummy",
+      "type": "item_stack_template"
+    },
+    {
+      "name": "result",
+      "type": "item_stack_template",
+      "role": "output",
+      "default_optional": true
+    },
+    {
+      "name": "duration",
+      "type": "int",
+      "optional": 30
+    },
+    {
+      "name": "entity_to_sacrifice",
+      "type": "occultism:entity_sacrifice",
+      "role": "input",
+      "default_optional": true
+    },
+    {
+      "name": "item_to_use",
+      "type": "ingredient",
+      "role": "input",
+      "default_optional": true
+    },
+    {
+      "name": "condition",
+      "type": "ignore",
+      "default_optional": true
+    },
+    {
+      "name": "entity_to_summon",
+      "type": {
+        "type": "registry_element",
+        "registry": "minecraft:entity_type"
+      },
+      "role": "output",
+      "default_optional": true
+    },
+    {
+      "name": "entity_tag_to_summon",
+      "type": "entity_type_tag",
+      "role": "output",
+      "default_optional": true
+    },
+    {
+      "name": "entity_nbt",
+      "type": "ignore",
+      "default_optional": true
+    },
+    {
+      "name": "spirit_job_type",
+      "type": "id",
+      "default_optional": true
+    },
+    {
+      "name": "spirit_max_age",
+      "type": "int",
+      "optional": -1
+    },
+    {
+      "name": "summon_number",
+      "type": "int",
+      "optional": 1
+    },
+    {
+      "name": "command",
+      "type": "optional_string",
+      "default_optional": true
+    }
+  ]
+}

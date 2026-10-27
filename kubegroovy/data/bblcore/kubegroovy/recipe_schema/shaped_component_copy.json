@@ -1,0 +1,74 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "type": "item_stack_template",
+      "role": "output"
+    },
+    {
+      "name": "pattern",
+      "type": {
+        "type": "list",
+        "component": "optional_string",
+        "min": 1
+      }
+    },
+    {
+      "name": "key",
+      "type": {
+        "type": "pattern",
+        "component": "ingredient",
+        "min": 0
+      },
+      "role": "input"
+    },
+    {
+      "name": "source",
+      "type": "ingredient",
+      "role": "input"
+    },
+    {
+      "name": "copy_components",
+      "type": {
+        "type": "list",
+        "component": "id",
+        "min": 0
+      }
+    },
+    {
+      "name": "group",
+      "type": "optional_string",
+      "optional": ""
+    },
+    {
+      "name": "category",
+      "type": "crafting_book_category",
+      "optional": "misc"
+    },
+    {
+      "name": "show_notification",
+      "type": "boolean",
+      "optional": true
+    }
+  ],
+  "recipe_factory": "kubegroovy:shaped",
+  "constructors": [
+    {
+      "keys": [
+        "result",
+        "pattern",
+        "key",
+        "source",
+        "copy_components"
+      ]
+    }
+  ],
+  "unique": [
+    "result"
+  ],
+  "post_processors": [
+    {
+      "type": "kubegroovy:key_pattern_cleanup"
+    }
+  ]
+}

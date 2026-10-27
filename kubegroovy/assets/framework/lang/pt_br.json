@@ -1,0 +1,8 @@
+{
+    "framework.gui.sync_config_failed": "(Framework) Falha ao processar a configuração sincronizada do servidor. Veja os logs para detalhes.",
+    "framework.gui.sync_entity_data_failed": "(Framework) Chaves de dados de criatura sincronizadas desconhecidas recebidas. Veja os logs para detalhes.",
+    "framework.validator.resource_location.hint": "Qualquer localização de recurso válida.\nFormato: \"<namespace>:<path>\"",
+    "framework.validator.resource_location.hint_with_namespace": "Uma localização de recurso válida, mas deve usar o namespace: %1$s.\nFormato: \"%1$s:<path>\"",
+    "framework.validator.identifier.hint": "Qualquer identificador válido.\nFormato: \"<namespace>:<path>\"",
+    "framework.validator.identifier.hint_with_namespace": "Um identificador válido, mas deve usar o namespace: %1$s.\nFormato: \"%1$s:<path>\""
+}

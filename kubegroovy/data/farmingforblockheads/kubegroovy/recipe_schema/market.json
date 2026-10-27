@@ -1,0 +1,40 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "type": "farmingforblockheads:market_result",
+      "role": "output"
+    },
+    {
+      "name": "defaults",
+      "type": "string"
+    },
+    {
+      "name": "category",
+      "type": "id",
+      "default_optional": true
+    },
+    {
+      "name": "payment",
+      "type": "farmingforblockheads:market_payment",
+      "role": "input",
+      "default_optional": true
+    },
+    {
+      "name": "sortIndex",
+      "type": "int",
+      "optional": 0
+    },
+    {
+      "name": "icon",
+      "type": "item_stack_template",
+      "default_optional": true
+    },
+    {
+      "name": "predicate",
+      "type": "ignore",
+      "default_optional": true
+    }
+  ],
+  "unique": ["result"]
+}

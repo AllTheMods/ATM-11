@@ -1,0 +1,17 @@
+{
+  "keys": [
+    {
+      "name": "higher_input",
+      "type": "item_stack_template",
+      "role": "output"
+    },
+    {
+      "name": "lower_input",
+      "type": "item_stack_template",
+      "role": "input"
+    }
+  ],
+  "unique": [
+    "higher_input"
+  ]
+}

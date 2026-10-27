@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "kubegroovy:block/magical_soil_side",
+    "bottom": "minecraft:block/dirt",
+    "top": "kubegroovy:block/magical_soil_top"
+  }
+}

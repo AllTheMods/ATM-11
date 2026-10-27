@@ -1,0 +1,52 @@
+{
+  "neovitae:meteor_weighted_block": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "entry",
+        "component": "optional_string"
+      },
+      {
+        "name": "weight",
+        "component": "int"
+      }
+    ]
+  },
+  "neovitae:meteor_layer": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "radius",
+        "component": "int"
+      },
+      {
+        "name": "fill",
+        "component": "optional_string"
+      },
+      {
+        "name": "additionalWeight",
+        "component": "int",
+        "optional": true
+      },
+      {
+        "name": "minWeight",
+        "component": "int",
+        "optional": true
+      },
+      {
+        "name": "shell",
+        "component": "optional_string",
+        "optional": true
+      },
+      {
+        "name": "weighted",
+        "component": {
+          "type": "list",
+          "component": "neovitae:meteor_weighted_block",
+          "min": 0
+        },
+        "optional": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "extendedae:item_ingredient_stack": {
+    "type": "with_codec",
+    "component": "sized_ingredient",
+    "codec": {
+      "class": "com.glodblock.github.glodium.recipe.stack.IngredientStack",
+      "field": "ITEM_CODEC"
+    },
+    "conversion": {
+      "class": "com.glodblock.github.glodium.recipe.stack.IngredientStack$Item",
+      "properties": { "count": "amount" },
+      "parent_constructor": ["ingredient", "count"],
+      "codec_constructor": ["ingredient", "count"]
+    }
+  },
+  "extendedae:fluid_ingredient_stack": {
+    "type": "with_codec",
+    "component": "sized_fluid_ingredient",
+    "codec": {
+      "class": "com.glodblock.github.glodium.recipe.stack.IngredientStack",
+      "field": "FLUID_CODEC"
+    },
+    "conversion": {
+      "class": "com.glodblock.github.glodium.recipe.stack.IngredientStack$Fluid",
+      "parent_constructor": ["ingredient", "amount"],
+      "codec_constructor": ["ingredient", "amount"]
+    }
+  }
+}

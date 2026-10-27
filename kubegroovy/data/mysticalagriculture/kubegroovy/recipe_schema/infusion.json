@@ -1,0 +1,32 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "type": "item_stack_template",
+      "role": "output"
+    },
+    {
+      "name": "input",
+      "type": "ingredient",
+      "role": "input"
+    },
+    {
+      "name": "ingredients",
+      "type": {
+        "type": "list",
+        "component": "ingredient",
+        "min": 1,
+        "max": 8
+      },
+      "role": "input"
+    },
+    {
+      "name": "transfer_components",
+      "type": "boolean",
+      "optional": false
+    }
+  ],
+  "unique": [
+    "result"
+  ]
+}

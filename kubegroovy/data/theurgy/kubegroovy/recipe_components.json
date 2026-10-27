@@ -1,0 +1,97 @@
+{
+  "theurgy:tag_result": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "type",
+        "component": {
+          "type": "registry_element",
+          "registry": "theurgy:recipe_result_type"
+        }
+      },
+      {
+        "name": "tag",
+        "component": "item_tag"
+      },
+      {
+        "name": "count",
+        "component": "int"
+      },
+      {
+        "name": "components",
+        "component": "ignore",
+        "optional": true
+      }
+    ]
+  },
+  "theurgy:item_result": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "type",
+        "component": {
+          "type": "registry_element",
+          "registry": "theurgy:recipe_result_type"
+        }
+      },
+      {
+        "name": "id",
+        "component": {
+          "type": "registry_element",
+          "registry": "minecraft:item"
+        }
+      },
+      {
+        "name": "count",
+        "component": {
+          "type": "int",
+          "min": 1,
+          "max": 99
+        },
+        "optional": true
+      },
+      {
+        "name": "components",
+        "component": "ignore",
+        "optional": true
+      }
+    ]
+  },
+  "theurgy:legacy_item_result": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "type",
+        "component": {
+          "type": "registry_element",
+          "registry": "theurgy:recipe_result_type"
+        }
+      },
+      {
+        "name": "item",
+        "component": {
+          "type": "registry_element",
+          "registry": "minecraft:item"
+        }
+      },
+      {
+        "name": "count",
+        "component": "int"
+      },
+      {
+        "name": "components",
+        "component": "ignore",
+        "optional": true
+      }
+    ]
+  },
+  "theurgy:recipe_result": {
+    "type": "either",
+    "left": "theurgy:tag_result",
+    "right": {
+      "type": "either",
+      "left": "theurgy:item_result",
+      "right": "theurgy:legacy_item_result"
+    }
+  }
+}

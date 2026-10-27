@@ -1,0 +1,30 @@
+{
+  "keys": [
+    {
+      "name": "input_item",
+      "type": "ingredient",
+      "role": "input"
+    },
+    {
+      "name": "duration",
+      "type": "int"
+    },
+    {
+      "name": "output_items",
+      "type": {
+        "type": "list",
+        "component": "integrateddynamics:chance_output",
+        "min": 0
+      },
+      "role": "output",
+      "default_optional": true
+    },
+    {
+      "name": "output_fluid",
+      "type": "fluid_stack_template",
+      "role": "output",
+      "default_optional": true
+    }
+  ],
+  "unique": ["input_item"]
+}
