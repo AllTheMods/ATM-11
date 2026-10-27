@@ -1856,7 +1856,6 @@
       shape: "hexagon",
       dependencies: [
         "2FC0E94A3C2F4AD7",
-        "421A0A4DA0A18F51",
       ],
       size: 2.0,
       id: "52860AE90D8D294A",
@@ -2002,6 +2001,7 @@
       },
       x: 36.0,
       y: 2.0,
+      hide_dependency_lines: true,
       dependencies: [
         "52860AE90D8D294A",
       ],
@@ -2647,6 +2647,7 @@
       },
       x: 36.0,
       y: -1.5,
+      hide_dependency_lines: true,
       dependencies: [
         "79CFFAB71C2DE2E3",
         "2CACC7F66C876699",
@@ -2681,6 +2682,7 @@
       },
       x: 32.0,
       y: -1.5,
+      hide_dependency_lines: true,
       dependencies: [
         "72BB2D762D384F85",
         "772596DD6F46294E",
@@ -2988,10 +2990,11 @@
     {
       x: 28.5,
       y: 1.0,
-      width: 80.0,
+      width: 150.0,
       height: 60.0,
       rotation: 0.0,
       image: "atm:textures/questpics/stellaris/stellaris_bg.png",
+      position_locked: true,
       id: "53597C2BABA7F9FD",
     },
     {
