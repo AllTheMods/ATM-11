@@ -452,6 +452,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:fire_aspect": 3,
+              },
+            },
           },
         },
         {
@@ -1983,6 +1988,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:sharpness": 3,
+              },
+            },
           },
         },
         {
@@ -2095,6 +2105,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:sharpness": 3,
+              },
+            },
           },
         },
         {
@@ -2201,6 +2216,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:loyalty": 5,
+              },
+            },
           },
         },
         {
@@ -2246,6 +2266,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:unbreaking": 3,
+              },
+            },
           },
         },
         {
@@ -2283,6 +2308,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:projectile_protection": 3,
+              },
+            },
           },
         },
         {
@@ -2524,6 +2554,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:sharpness": 3,
+              },
+            },
           },
         },
         {
@@ -3416,6 +3451,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:protection": 4,
+              },
+            },
           },
         },
         {
@@ -3435,6 +3475,9 @@
       ],
     },
     {
+      tags: [
+        "arr",
+      ],
       x: 29.0,
       y: -15.0,
       shape: "circle",
@@ -3442,7 +3485,6 @@
       optional: true,
       invisible: true,
       id: "3D88FEFA4C63CB20",
-      tags: ["arr"],
       tasks: [
         {
           id: "73AE639A41A16778",
