@@ -13,23 +13,10 @@
       },
     },
     {
-      id: "3FC1382B53839422",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:elite_energy_cube",
-        },
-      },
-    },
-    {
       id: "3E3A4D543DFBB15A",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:netherite_upgrade",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:netherite_upgrade",
-        },
       },
       random_bonus: 1,
       weight: 2.0,
@@ -44,33 +31,10 @@
       weight: 2.0,
     },
     {
-      id: "4F4FF3A29C1F75B2",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:ultimate_tier_installer",
-        },
-      },
-    },
-    {
       id: "0E91A04BEFC3D735",
       item: {
-        id: "ftbquests:missing_item",
+        id: "ironfurnaces:netherite_furnace",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ironfurnaces:netherite_furnace",
-        },
-      },
-    },
-    {
-      id: "00ED0A3B8DF1CC2B",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:quantum_entangloporter",
-        },
       },
     },
     {

@@ -1,7 +1,7 @@
 {
   id: "4C507C004144BFEE",
   group: "02FE661031A105D8",
-  order_index: 7,
+  order_index: 6,
   icon: {
     id: "occultism:ritual_dummy/summon_foliot_crusher",
     count: 1,
@@ -184,6 +184,7 @@
           id: "156CCC976E663623",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "0F602FB07D514AFB",
@@ -224,6 +225,22 @@
           count: 2,
         },
       ],
+      rewards: [
+        {
+          id: "2F6A55544E6141A8",
+          type: "item",
+          item: {
+            id: "occultism:spirit_attuned_crystal",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "35620683317E89B4",
+          type: "xp",
+          xp: 25,
+        },
+      ],
     },
     {
       x: 2.0,
@@ -262,6 +279,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "29B06155B08F3804",
+          type: "xp",
+          xp: 25,
+        },
+      ],
     },
     {
       x: 4.0,
@@ -298,6 +322,22 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "5D2C95204B9C7087",
+          type: "item",
+          item: {
+            id: "occultism:sacrificial_bowl",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "2FCFDDD0A1E50646",
+          type: "xp",
+          xp: 25,
+        },
+      ],
     },
     {
       x: 4.0,
@@ -325,6 +365,13 @@
             id: "occultism:book_of_binding_foliot",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "78D118E0A6A52FA6",
+          type: "xp",
+          xp: 25,
         },
       ],
     },
@@ -477,6 +524,7 @@
           id: "52274E201F793220",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "1B46AF21D2EB7794",
@@ -510,6 +558,7 @@
           id: "017A49F5F0062DCA",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "2B7D26A8049B7670",
@@ -541,6 +590,7 @@
           id: "2E54110F38710103",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "66AF59413C4ADCF3",
@@ -602,6 +652,7 @@
           id: "61301974F1DCE7C4",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "7C2604CEFB4D9A0A",
@@ -699,6 +750,7 @@
           id: "043D3B960A3D67C4",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
         },
         {
           id: "0975FA0F9ABEA092",
@@ -736,6 +788,7 @@
           id: "70773C4F09CEE334",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "2E70B8B02462A2FB",
@@ -806,6 +859,7 @@
           id: "52721A6614C9C818",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "595BF48ADA4E4C5F",
@@ -929,6 +983,22 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "49D55C9B05E3BA53",
+          type: "item",
+          item: {
+            id: "occultism:tallow",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "774EE8C734E60323",
+          type: "xp",
+          xp: 25,
+        },
+      ],
     },
     {
       icon: {
@@ -965,6 +1035,7 @@
           id: "3B1B9DB617500BAA",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "1ACB00A8A96B37B0",
@@ -1057,6 +1128,19 @@
             id: "occultism:chalk_orange_impure",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "504B487AA0C7A99E",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 487623848494439020,
+        },
+        {
+          id: "78C117AF80535FCB",
+          type: "xp",
+          xp: 50,
         },
       ],
     },
@@ -1209,6 +1293,7 @@
           id: "373390521D12FAFF",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "172458963B35A871",
@@ -1252,6 +1337,7 @@
           id: "71825C8D99ADBB2A",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "40665ED40AD50F96",
@@ -1284,6 +1370,7 @@
           id: "76340CDC577FD688",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "53894207A33668FB",
@@ -1339,6 +1426,13 @@
         {
           id: "2448345116BDC7C6",
           type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1DB69B16006C3079",
+          type: "xp",
+          xp: 25,
         },
       ],
     },
@@ -1437,6 +1531,7 @@
           id: "6FE0A14BDB35C40C",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "1D1E44C1ED4E349E",
@@ -1492,6 +1587,13 @@
         {
           id: "7DA8A385C843AD5F",
           type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7207614A5986E488",
+          type: "xp",
+          xp: 25,
         },
       ],
     },
@@ -1588,6 +1690,7 @@
           id: "5B284E8F9D2E2E51",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "50619186D8DC7176",
@@ -1616,6 +1719,13 @@
         {
           id: "1BEBE185FBB4969A",
           type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4DEA5BC14C43371F",
+          type: "xp",
+          xp: 50,
         },
       ],
     },
@@ -1718,6 +1828,7 @@
           id: "327F077402F22592",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "64999ED05425EAEB",
@@ -1957,6 +2068,7 @@
           id: "639F0D08BE538FE3",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 487623848494439020,
         },
         {
           id: "7E5E9C1DCC125331",
@@ -1996,6 +2108,19 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "41A553AB68A00C6B",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 487623848494439020,
+        },
+        {
+          id: "4B0A05CF34CE574B",
+          type: "xp",
+          xp: 50,
+        },
+      ],
     },
     {
       icon: {
@@ -2027,6 +2152,19 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "5248CEF7A867D6E2",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 487623848494439020,
+        },
+        {
+          id: "4BC6152353ABD717",
+          type: "xp",
+          xp: 50,
+        },
+      ],
     },
     {
       icon: {
@@ -2056,6 +2194,19 @@
             id: "occultism:chalk_brown_impure",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E96FB5D2C06ABE7",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 487623848494439020,
+        },
+        {
+          id: "6A779CB02F39F685",
+          type: "xp",
+          xp: 50,
         },
       ],
     },
@@ -2218,11 +2369,12 @@
           id: "516706F4DCD89A14",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
         },
         {
-          id: "7BC9E8E58C40E3CC",
-          type: "xp_levels",
-          xp_levels: 1,
+          id: "5CE4D5CFEC44F7DE",
+          type: "xp",
+          xp: 50,
         },
       ],
     },
@@ -2250,11 +2402,12 @@
           id: "40582796F09FEC70",
           type: "loot",
           exclude_from_claim_all: true,
+          table_id: 4196188979167302596,
         },
         {
-          id: "364D9D1E440B9756",
-          type: "xp_levels",
-          xp_levels: 1,
+          id: "35ACBFD5C78DC0C3",
+          type: "xp",
+          xp: 50,
         },
       ],
     },
@@ -2286,6 +2439,11 @@
             count: 1,
           },
         },
+        {
+          id: "04F302312BB2F7D5",
+          type: "xp",
+          xp: 50,
+        },
       ],
     },
     {
@@ -2306,6 +2464,13 @@
             id: "occultism:iesnium_anvil",
             count: 1,
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "7203635CFE56C586",
+          type: "xp",
+          xp: 100,
         },
       ],
     },
@@ -2358,6 +2523,13 @@
           },
         },
       ],
+      rewards: [
+        {
+          id: "660F7FD71135BFAA",
+          type: "xp",
+          xp: 50,
+        },
+      ],
     },
     {
       x: 38.0,
@@ -2379,6 +2551,13 @@
               "ftbfiltersystem:filter": "or(item(occultism:celestial_chalice)item(occultism:eldritch_chalice))",
             },
           },
+        },
+      ],
+      rewards: [
+        {
+          id: "7AD45390F31EB69A",
+          type: "xp",
+          xp: 50,
         },
       ],
     },
@@ -2434,6 +2613,13 @@
         {
           id: "348A7E3E3A3D324E",
           type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "09070EDFACD47D29",
+          type: "xp",
+          xp: 10,
         },
       ],
     },
@@ -2506,6 +2692,13 @@
         {
           id: "67C1DF1704EBF6AF",
           type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "52FE82707E8D00A9",
+          type: "xp",
+          xp: 10,
         },
       ],
     },

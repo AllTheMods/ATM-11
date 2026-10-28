@@ -55,38 +55,6 @@
       weight: 10.0,
     },
     {
-      id: "3C49601F199E6602",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:advanced_tier_installer",
-        },
-      },
-    },
-    {
-      id: "14E3E72B0DD5CA88",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:basic_energy_cube",
-        },
-      },
-      weight: 3.0,
-    },
-    {
-      id: "2D0F2AD339A4F466",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanismgenerators:wind_generator",
-        },
-      },
-      weight: 5.0,
-    },
-    {
       id: "699A72490DE8D9A5",
       item: {
         id: "minecraft:netherite_ingot",
@@ -96,11 +64,8 @@
     {
       id: "4D14D65B3F3F0D08",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:gold_upgrade",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:gold_upgrade",
-        },
       },
       weight: 2.0,
     },
@@ -210,17 +175,6 @@
       weight: 5.0,
     },
     {
-      id: "15B4E0216FDCF998",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanismgenerators:wind_generator",
-        },
-      },
-      weight: 10.0,
-    },
-    {
       id: "7139124A4D3A9A15",
       item: {
         id: "powah:solar_panel_basic",
@@ -237,35 +191,18 @@
       weight: 5.0,
     },
     {
-      id: "5A3DD47596C81893",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanismgenerators:gas_burning_generator",
-        },
-      },
-      weight: 5.0,
-    },
-    {
       id: "5E6A9820088B9C68",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:compacting_drawer",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:compacting_drawer",
-        },
       },
       weight: 10.0,
     },
     {
       id: "25E90078E7511C00",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:storage_controller",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:storage_controller",
-        },
       },
       weight: 3.0,
     },
@@ -311,11 +248,8 @@
     {
       id: "64CB2AC31D6DE53A",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:oak_1",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:oak_1",
-        },
       },
       count: 4,
       random_bonus: 4,
@@ -324,11 +258,8 @@
     {
       id: "27AA5AFCF44F582B",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:void_upgrade",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:void_upgrade",
-        },
       },
       random_bonus: 2,
       weight: 10.0,
@@ -352,11 +283,8 @@
     {
       id: "7EBF160D6C65FE08",
       item: {
-        id: "ftbquests:missing_item",
+        id: "ironfurnaces:gold_furnace",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ironfurnaces:gold_furnace",
-        },
       },
       weight: 3.0,
     },
