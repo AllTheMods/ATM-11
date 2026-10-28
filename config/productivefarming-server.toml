@@ -1,0 +1,49 @@
+[General]
+	#Max internal volume of the farm multiblock
+	# Default: 1024
+	# Range: > 1
+	farmMaxVolume = 1024
+	#Max circumference of the farm multiblock
+	# Default: 200
+	# Range: > 1
+	farmMaxCircumference = 200
+	#Max height of the farm multiblock
+	# Default: 20
+	# Range: > 1
+	farmMaxHeight = 20
+	#Tickrate for Feeding Troughs
+	# Default: 1200
+	# Range: > 1
+	feedingTroughTickRate = 1200
+	#Tickrate for Watering Troughs
+	# Default: 1200
+	# Range: > 1
+	wateringTroughTickRate = 1200
+	#Tickrate for Fishing Traps
+	# Default: 6000
+	# Range: > 1
+	fishTrapTickRate = 6000
+	#Tickrate for Child Separator
+	# Default: 600
+	# Range: > 1
+	childSeparatorTickRate = 600
+	#Chance for clams to propagate in a fish farm
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	clamSpreadChance = 0.1
+	#Chance for flowers to propagate near hives
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	flowerPropagationChance = 0.15
+	#Tick speed bonus from using speed upgrades in the farm
+	# Default: 0.12
+	# Range: 0.0 ~ 1.0
+	speedUpgradeModifier = 0.12
+	#Chance to get a pollen when using sieve upgrades in hives
+	# Default: 2
+	# Range: 1 ~ 100
+	pollenChanceFromSieve = 2
+	#Add crop stats to crops from outside productivefarming (vanilla and other mods) that are tagged productivefarming:external_stat_crops
+	statsOnExternalCrops = true
+	#Spawn productive farming flowers when using bonemeal on grass blocks
+	spawnFlowersWithBonemeal = true
