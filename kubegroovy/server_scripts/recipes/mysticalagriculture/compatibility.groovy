@@ -6,7 +6,11 @@
 // requires mysticalagriculture
 package server_scripts.recipes.mysticalagriculture
 
+import com.blakebr0.cucumber.event.RecipeManagerLoadingEvent
+import com.blakebr0.mysticalagriculture.registry.CropRegistry
 import dev.uncandango.kubegroovy.recipe.filter.RecipeFilter
+import net.minecraft.world.item.ItemStackTemplate
+import net.neoforged.bus.api.EventPriority
 
 // ingots to be switched to tags
 def ingots = [
@@ -16,14 +20,14 @@ def ingots = [
     [resource: "zinc", essence: "tertium"],
     [resource: "silver", essence: "tertium"],
     [resource: "lead", essence: "tertium"],
-    // {resource: 'brass', essence: 'tertium'},
-    // {resource: 'bronze', essence: 'tertium'},
+    // [resource: 'brass', essence: 'tertium'],
+    // [resource: 'bronze', essence: 'tertium'],
     [resource: "tin", essence: "tertium"],
     [resource: "nickel", essence: "imperium"],
     [resource: "uranium", essence: "imperium"],
     [resource: "gold", essence: "imperium"],
     [resource: "osmium", essence: "imperium"],
-    // {resource: 'invar', essence: 'imperium'},
+    // [resource: 'invar', essence: 'imperium'],
     [resource: "iridium", essence: "supremium"],
     [resource: "platinum", essence: "supremium"]
 ]
@@ -107,7 +111,7 @@ $ServerEvents.recipes((allthemods) -> {
     }
 
     //console.log("Checking recipe output for \"${recipeSeed}\"")
-    allthemods.forEachRecipe([type: "mysticalagriculture:infusion", output: recipeSeed] as RecipeFilter, r -> {
+    allthemods.forEachRecipe([type: "mysticalagriculture:infusion", output: recipeSeed as ItemStackTemplate] as RecipeFilter, r -> {
       console.log("Removing recipe: \"${r.id}\"")
       r.remove()
     })
@@ -147,7 +151,7 @@ $ServerEvents.recipes((allthemods) -> {
           recipeEssence,
           recipeTag,
           recipeEssence
-      ])
+      ]).id("mysticalagriculture:${$ID.path(recipeSeed)}_infusion")
     } else {
       allthemods.recipes.mysticalagricultureInfusion(recipeSeed, "mysticalagriculture:prosperity_seed_base", [
           recipeTag,
@@ -158,7 +162,7 @@ $ServerEvents.recipes((allthemods) -> {
           recipeEssence,
           recipeTag,
           recipeEssence
-      ])
+      ]).id("mysticalagriculture:${$ID.path(recipeSeed)}_infusion")
     }
   }
 
@@ -182,3 +186,18 @@ $ServerEvents.recipes((allthemods) -> {
     mysticalTags(useBlocks[i], "", "block")
   }
 })
+
+$NativeEvents.onEvent(EventPriority.HIGH, RecipeManagerLoadingEvent) {event ->
+  var seeds = ingots.collect { it.get("resource")}
+  seeds.addAll(gems.collect { it.get("seed") ?: it.get("resource")})
+  seeds.addAll(dusts.collect { it.get("resource")})
+  seeds.addAll(useBlocks.collect { it.get("resource")})
+  seeds.addAll(different.collect { it.get("seed")})
+  seeds = new HashSet(seeds)
+  for (var crop :CropRegistry.getInstance().getCrops()) {
+    if (seeds.contains(crop.name)) {
+      console.log("Disabling seed infusion recipe for crop \"${crop.name}\"")
+      crop.getRecipeConfig().setSeedInfusionRecipeEnabled(false)
+    }
+  }
+}

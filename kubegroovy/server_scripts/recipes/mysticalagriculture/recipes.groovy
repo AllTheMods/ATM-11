@@ -269,7 +269,7 @@ $ServerEvents.recipes((allthemods) -> {
         .noMirror()
   }
 
-  def addInfustion = { seed, item, essence ->
+  def addInfustion = { String seed, item, essence ->
     allthemods.recipes.mysticalagricultureInfusion(seed as ItemStackTemplate, "mysticalagriculture:prosperity_seed_base" as Ingredient, [
         item,
         essence,
@@ -279,30 +279,9 @@ $ServerEvents.recipes((allthemods) -> {
         essence,
         item,
         essence
-    ] as List<Ingredient>)//.id(seed.replace(":", ":infusion/"))
-//      allthemods
-//          .custom([
-//              type       : "mysticalagriculture:infusion",
-//              input      : "mysticalagriculture:prosperity_seed_base",
-//              ingredients: [
-//                  item,
-//                  essence,
-//                  item,
-//                  essence,
-//                  item,
-//                  essence,
-//                  item,
-//                  essence
-//              ],
-//              result     : [
-//                  id: seed
-//              ]
-//          ])
-//          .id(seed.replace(":", ":infusion/"))
+    ] as List<Ingredient>).id("mysticalagriculture:${$ID.path(seed)}_infusion")
   }
 
-  addInfustion('mysticalagriculture:silicon_seeds', 'ae2:silicon', 'mysticalagriculture:prudentium_essence')
-  addInfustion('mysticalagriculture:steel_seeds', 'alltheores:steel_ingot', 'mysticalagriculture:imperium_essence')
   if ($Platform.isLoaded("extendedae")) {
     addInfustion('mysticalagriculture:entro_seeds', 'extendedae:entro_crystal', 'mysticalagriculture:supremium_essence')
   }
