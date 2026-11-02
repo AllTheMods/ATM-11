@@ -1,10 +1,6 @@
 {
   id: "06C4634E81851A6C",
   order_index: 3,
-  icon: {
-    id: "ftbquests:lootcrate",
-    count: 1,
-  },
   loot_size: 1,
   hide_tooltip: true,
   use_title: true,
@@ -20,22 +16,16 @@
     {
       id: "482D00118478C3B8",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:copper_upgrade",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:copper_upgrade",
-        },
       },
       weight: 5.0,
     },
     {
       id: "5160D76EAE564D7D",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:oak_1",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:oak_1",
-        },
       },
       random_bonus: 2,
       weight: 7.0,
@@ -43,22 +33,16 @@
     {
       id: "53673D52BECCA5EF",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:void_upgrade",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:void_upgrade",
-        },
       },
       weight: 3.0,
     },
     {
       id: "2B30C1CDC2E318AF",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:storage_controller",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:storage_controller",
-        },
       },
     },
     {
@@ -89,33 +73,24 @@
     {
       id: "3A9A8D2CC2F88F03",
       item: {
-        id: "ftbquests:missing_item",
+        id: "ironfurnaces:augment_speed",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ironfurnaces:augment_speed",
-        },
       },
       weight: 5.0,
     },
     {
       id: "0F15BB126C9070A3",
       item: {
-        id: "ftbquests:missing_item",
+        id: "ironfurnaces:augment_factory",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ironfurnaces:augment_factory",
-        },
       },
       weight: 5.0,
     },
     {
       id: "6145C667BACDBB9F",
       item: {
-        id: "ftbquests:missing_item",
+        id: "ironfurnaces:item_spooky",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ironfurnaces:item_spooky",
-        },
       },
       weight: 3.0,
     },
@@ -145,39 +120,6 @@
         count: 1,
       },
       weight: 7.0,
-    },
-    {
-      id: "02944E22246B9CE9",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:basic_tier_installer",
-        },
-      },
-      weight: 3.0,
-    },
-    {
-      id: "269B5669845EB52B",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:upgrade_speed",
-        },
-      },
-      weight: 3.0,
-    },
-    {
-      id: "29570A6F695F0895",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:upgrade_energy",
-        },
-      },
-      weight: 3.0,
     },
     {
       id: "549F2A5F1ABF40B7",
@@ -222,17 +164,6 @@
       },
       count: 8,
       random_bonus: 8,
-      weight: 5.0,
-    },
-    {
-      id: "2FB1538E3318495F",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanismgenerators:wind_generator",
-        },
-      },
       weight: 5.0,
     },
     {
@@ -423,11 +354,8 @@
     {
       id: "2398AC6769DBCDE2",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:oak_2",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:oak_2",
-        },
       },
       random_bonus: 2,
       weight: 5.0,
@@ -435,11 +363,8 @@
     {
       id: "6262C2CB8F1F3536",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:oak_4",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:oak_4",
-        },
       },
       random_bonus: 2,
       weight: 5.0,
@@ -447,22 +372,16 @@
     {
       id: "58566B400B981B92",
       item: {
-        id: "ftbquests:missing_item",
+        id: "ironfurnaces:iron_furnace",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ironfurnaces:iron_furnace",
-        },
       },
       weight: 10.0,
     },
     {
       id: "62326D34ABF1268B",
       item: {
-        id: "ftbquests:missing_item",
+        id: "ironfurnaces:gold_furnace",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ironfurnaces:gold_furnace",
-        },
       },
       weight: 3.0,
     },

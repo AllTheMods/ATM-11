@@ -1,10 +1,6 @@
 {
   id: "4D37FFAF33DF678A",
   order_index: 5,
-  icon: {
-    id: "ftbquests:lootcrate",
-    count: 1,
-  },
   loot_size: 1,
   hide_tooltip: true,
   use_title: true,
@@ -27,22 +23,16 @@
     {
       id: "7E1FD09EE185BD57",
       item: {
-        id: "ftbquests:missing_item",
+        id: "ironfurnaces:diamond_furnace",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ironfurnaces:diamond_furnace",
-        },
       },
       weight: 3.0,
     },
     {
       id: "7F582A749B4585E9",
       item: {
-        id: "ftbquests:missing_item",
+        id: "ironfurnaces:emerald_furnace",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "ironfurnaces:emerald_furnace",
-        },
       },
     },
     {
@@ -52,32 +42,6 @@
         count: 1,
       },
       random_bonus: 3,
-      weight: 5.0,
-    },
-    {
-      id: "3F0A3F654559C4FF",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:ultimate_universal_cable",
-        },
-      },
-      count: 8,
-      random_bonus: 8,
-      weight: 5.0,
-    },
-    {
-      id: "41C78CFB780C1F08",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:ingot_refined_obsidian",
-        },
-      },
-      count: 4,
-      random_bonus: 4,
       weight: 5.0,
     },
     {
@@ -115,11 +79,8 @@
     {
       id: "35F09774D0E762D1",
       item: {
-        id: "ftbquests:missing_item",
+        id: "functionalstorage:netherite_upgrade",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "functionalstorage:netherite_upgrade",
-        },
       },
     },
     {
@@ -127,16 +88,6 @@
       item: {
         id: "pipez:ultimate_upgrade",
         count: 1,
-      },
-    },
-    {
-      id: "6F821708643D4A00",
-      item: {
-        id: "ftbquests:missing_item",
-        count: 1,
-        components: {
-          "ftbquests:missing_item": "mekanism:basic_fluid_tank",
-        },
       },
     },
     {

@@ -35,30 +35,9 @@
       count: 36,
     },
     {
-      id: "6159B6ADD18D59AC",
-      item: {
-        id: "productivebees:spawn_egg_configurable_bee",
-        count: 1,
-      },
-    },
-    {
       id: "07C32E8D96241C35",
       xp_levels: 100,
       type: "xp_levels",
-    },
-    {
-      id: "5C7BAC8CAE97C4E4",
-      item: {
-        id: "productivebees:spawn_egg_configurable_bee",
-        count: 1,
-      },
-    },
-    {
-      id: "743364960645C697",
-      item: {
-        id: "productivebees:spawn_egg_configurable_bee",
-        count: 1,
-      },
     },
   ],
 }
