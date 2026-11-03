@@ -1,13 +1,12 @@
 {
   id: "48410B67C276ED1F",
   group: "5A4775CCD6D26C80",
-  order_index: 0,
+  order_index: 1,
   icon: {
     id: "minecraft:bee_nest",
     count: 1,
   },
   filename: "bumblezone",
-  always_invisible: true,
   default_quest_shape: "hexagon",
   default_hide_dependency_lines: false,
   autofocus_id: "396CEB9D05700927",
@@ -21,9 +20,6 @@
       y: -7.0,
       shape: "gear",
       hide_dependent_lines: true,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
       size: 2.0,
       id: "22BB55249EF2E819",
       tasks: [
@@ -60,19 +56,16 @@
       y: -7.0,
       dependencies: [
         "22BB55249EF2E819",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "61768CFEDA041E4D",
       tasks: [
         {
           id: "1C26B5DF53544E1C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:beehive_beeswax",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:beehive_beeswax",
-            },
           },
         },
       ],
@@ -81,11 +74,8 @@
           id: "40A7B7BE67C2BA22",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:beehive_beeswax",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:beehive_beeswax",
-            },
           },
           count: 16,
         },
@@ -96,8 +86,8 @@
       y: -7.0,
       dependencies: [
         "22BB55249EF2E819",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "7834734E79E41A3A",
       tasks: [
         {
@@ -123,7 +113,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "22BB55249EF2E819",
-        "0B4BE681B3116680",
       ],
       size: 3.0,
       id: "396CEB9D05700927",
@@ -151,7 +140,6 @@
       y: -1.0,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       size: 1.3,
       id: "2A6FC21142E75DD5",
@@ -176,17 +164,13 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:pile_of_pollen",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:pile_of_pollen",
-        },
       },
       x: -1.0,
       y: -2.5,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       size: 1.3,
       id: "041D16DA96BC4253",
@@ -202,11 +186,8 @@
           id: "7A823DC3045356F2",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:pollen_puff",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:pollen_puff",
-            },
           },
           count: 16,
         },
@@ -214,17 +195,13 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:pollen_puff",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:pollen_puff",
-        },
       },
       x: 0.0,
       y: -2.5,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       size: 1.3,
       id: "513060836057E5B7",
@@ -240,11 +217,8 @@
           id: "203C39BA6736FD24",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:pollen_puff",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:pollen_puff",
-            },
           },
           count: 16,
         },
@@ -252,17 +226,13 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:sugar_infused_stone",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:sugar_infused_stone",
-        },
       },
       x: -2.5,
       y: -1.0,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       size: 1.3,
       id: "2AD13B965611DC86",
@@ -278,11 +248,8 @@
           id: "594ECEF1263CBC1E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:sugar_infused_stone",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:sugar_infused_stone",
-            },
           },
           count: 10,
         },
@@ -290,17 +257,13 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:filled_porous_honeycomb_block",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:filled_porous_honeycomb_block",
-        },
       },
       x: 0.0,
       y: 2.5,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       size: 1.3,
       id: "2A50A687C40DB864",
@@ -316,11 +279,8 @@
           id: "220EBCF5E2491A0F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:porous_honeycomb_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:porous_honeycomb_block",
-            },
           },
           count: 10,
         },
@@ -328,17 +288,13 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:porous_honeycomb_block",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:porous_honeycomb_block",
-        },
       },
       x: -1.0,
       y: 2.5,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       size: 1.3,
       id: "540895E6C9E724AD",
@@ -354,11 +310,8 @@
           id: "2EB9C721E628053F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:filled_porous_honeycomb_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:filled_porous_honeycomb_block",
-            },
           },
           count: 10,
         },
@@ -373,7 +326,6 @@
       y: 1.0,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       size: 1.3,
       id: "1C6B815C0F43312D",
@@ -398,17 +350,13 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:glistering_honey_crystal",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:glistering_honey_crystal",
-        },
       },
       x: 1.5,
       y: 1.0,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       size: 1.3,
       id: "680E960554CEE76B",
@@ -424,11 +372,8 @@
           id: "29345B24A06FF209",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:glistering_honey_crystal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:glistering_honey_crystal",
-            },
           },
           count: 10,
         },
@@ -444,9 +389,7 @@
       },
       x: 4.0,
       y: -5.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "0B0BDC37185AF9EC",
       tasks: [
         {
@@ -475,9 +418,7 @@
       },
       x: 4.0,
       y: -4.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "288A4A32CDBB14D5",
       tasks: [
         {
@@ -501,19 +442,16 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:carvable_wax_chiseled",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:carvable_wax_chiseled",
-        },
       },
       x: 13.5,
       y: -4.0,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       hide_until_deps_complete: true,
+      size: 1.0,
       id: "46FEF3DB6A5B52A0",
       tasks: [
         {
@@ -537,17 +475,12 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:stingless_bee_helmet_1",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:stingless_bee_helmet_1",
-        },
       },
       x: 4.0,
       y: -3.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "719D5CEB4217B734",
       tasks: [
         {
@@ -571,17 +504,12 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:super_candle",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:super_candle",
-        },
       },
       x: 4.0,
       y: -2.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "0980661B2F7FBC10",
       tasks: [
         {
@@ -605,17 +533,12 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:crystal_cannon",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:crystal_cannon",
-        },
       },
       x: 5.0,
       y: -4.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "571CC5558B87377D",
       tasks: [
         {
@@ -639,18 +562,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:honey_cocoon",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:honey_cocoon",
-        },
       },
       x: 14.5,
       y: -4.0,
       dependencies: [
         "0910C28A609ECBC1",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "30C12E249F7E2D52",
       tasks: [
         {
@@ -681,8 +601,8 @@
       y: 1.0,
       dependencies: [
         "1C6B815C0F43312D",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "0BE2E7C9454058C3",
       tasks: [
         {
@@ -710,9 +630,7 @@
       },
       x: 5.0,
       y: -3.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "4A5F84912C755688",
       tasks: [
         {
@@ -744,9 +662,7 @@
       },
       x: 6.0,
       y: -4.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "02F4C3BEBD8427AD",
       tasks: [
         {
@@ -775,9 +691,7 @@
       },
       x: 6.0,
       y: -3.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "358D4F507521075F",
       tasks: [
         {
@@ -806,9 +720,7 @@
       },
       x: 6.0,
       y: -2.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "3B9E6FBEDABA4F7E",
       tasks: [
         {
@@ -832,17 +744,12 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:sugar_water_bucket",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:sugar_water_bucket",
-        },
       },
       x: 7.0,
       y: -4.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "73C7F57B90731010",
       tasks: [
         {
@@ -866,17 +773,12 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:honey_slime_spawn_egg",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:honey_slime_spawn_egg",
-        },
       },
       x: 7.0,
       y: -3.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "29E2033EA65E706E",
       tasks: [
         {
@@ -907,9 +809,9 @@
       y: -4.0,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       hide_until_deps_complete: true,
+      size: 1.0,
       id: "4040BFCD4BE56621",
       tasks: [
         {
@@ -938,9 +840,7 @@
       },
       x: 7.0,
       y: -2.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "13E3DE157B89E847",
       tasks: [
         {
@@ -964,18 +864,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:crystalline_flower",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:crystalline_flower",
-        },
       },
       x: 3.0,
       y: 1.0,
       dependencies: [
         "680E960554CEE76B",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "55B9B9C3AA01D323",
       tasks: [
         {
@@ -1005,8 +902,8 @@
       y: -1.0,
       dependencies: [
         "2A6FC21142E75DD5",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "79FF12D7A4C8E821",
       tasks: [
         {
@@ -1028,20 +925,17 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:sugar_water_bucket",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:sugar_water_bucket",
-        },
       },
       x: -0.5,
       y: -4.0,
       dependencies: [
         "513060836057E5B7",
         "041D16DA96BC4253",
-        "0B4BE681B3116680",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "5728D87E3240AF0D",
       tasks: [
         {
@@ -1055,11 +949,8 @@
           id: "54F79D6BD779BAD9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:pile_of_pollen_suspicious",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:pile_of_pollen_suspicious",
-            },
           },
           count: 4,
         },
@@ -1067,17 +958,13 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:luminescent_wax_channel_blue",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_blue",
-        },
       },
       x: 19.5,
       y: 7.0,
       dependencies: [
         "6434796EAAF2A4EC",
-        "0B4BE681B3116680",
       ],
       size: 1.2,
       id: "053483E3349B2F8A",
@@ -1111,28 +998,20 @@
           id: "5AB4A40340255A9C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-            },
           },
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:stinger_spear",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:stinger_spear",
-        },
       },
       x: 8.0,
       y: -3.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "5B4397D4EC23E702",
       tasks: [
         {
@@ -1156,17 +1035,12 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:windy_air",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:windy_air",
-        },
       },
       x: 8.0,
       y: -2.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "7231F6177EEF5BF0",
       tasks: [
         {
@@ -1190,18 +1064,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:royal_jelly_block",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
-        },
       },
       x: 14.5,
       y: -2.0,
       dependencies: [
         "67A0F6661D658A52",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "6474FE12450A4A7D",
       tasks: [
         {
@@ -1221,20 +1092,15 @@
     {
       x: -8.0,
       y: 3.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "1A67F4F87B3D456C",
       tasks: [
         {
           id: "13090912E63F5803",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:bee_cannon",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:bee_cannon",
-            },
           },
         },
       ],
@@ -1243,11 +1109,8 @@
           id: "64EA26D25B3E9B0A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:honeycomb_brood_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:honeycomb_brood_block",
-            },
           },
         },
       ],
@@ -1255,20 +1118,15 @@
     {
       x: -8.0,
       y: 2.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "2149833F65D523E5",
       tasks: [
         {
           id: "40F605E96D10E24B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:crystal_cannon",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:crystal_cannon",
-            },
           },
         },
       ],
@@ -1277,11 +1135,8 @@
           id: "52723061BE6D5407",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:honey_crystal_shards",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:honey_crystal_shards",
-            },
           },
           count: 10,
         },
@@ -1290,20 +1145,15 @@
     {
       x: -7.0,
       y: 3.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "5219D2F2B13F57F3",
       tasks: [
         {
           id: "0E7076463EC81FDE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:buzzing_briefcase",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:buzzing_briefcase",
-            },
           },
         },
       ],
@@ -1322,20 +1172,15 @@
     {
       x: -6.0,
       y: 2.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "027EF5C8A74B1596",
       tasks: [
         {
           id: "2D804A6315871994",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:stinger_spear",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:stinger_spear",
-            },
           },
         },
       ],
@@ -1344,11 +1189,8 @@
           id: "0C3FD3FF0408ED5A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "minecraft:enchanted_book",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "minecraft:enchanted_book",
-            },
           },
         },
       ],
@@ -1356,20 +1198,15 @@
     {
       x: -6.0,
       y: 3.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "253957D992A88C88",
       tasks: [
         {
           id: "534C0A81A2292ECB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:honey_crystal_shield",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:honey_crystal_shield",
-            },
           },
         },
       ],
@@ -1378,11 +1215,8 @@
           id: "4D617B815F9312E0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:honey_crystal_shards",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:honey_crystal_shards",
-            },
           },
           count: 10,
         },
@@ -1391,20 +1225,15 @@
     {
       x: -8.0,
       y: -4.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "2DE2E5A1275E4B20",
       tasks: [
         {
           id: "2894B3CCE3553D61",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:stingless_bee_helmet_1",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:stingless_bee_helmet_1",
-            },
           },
         },
       ],
@@ -1419,20 +1248,15 @@
     {
       x: -6.0,
       y: -4.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "7C7C0D3D7FCB0297",
       tasks: [
         {
           id: "60EB37A14EF6B7C8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:stingless_bee_helmet_2",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:stingless_bee_helmet_2",
-            },
           },
         },
       ],
@@ -1447,20 +1271,15 @@
     {
       x: -8.0,
       y: -3.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "5F834F8C607A8B77",
       tasks: [
         {
           id: "48A63CB0DC088CCB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:bumble_bee_chestplate_1",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:bumble_bee_chestplate_1",
-            },
           },
         },
       ],
@@ -1475,20 +1294,15 @@
     {
       x: -6.0,
       y: -3.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "78B7FC6A868F5C4D",
       tasks: [
         {
           id: "195781EFC3AC00BB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:bumble_bee_chestplate_2",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:bumble_bee_chestplate_2",
-            },
           },
         },
       ],
@@ -1503,20 +1317,15 @@
     {
       x: -8.0,
       y: -2.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "2B857941D7BBA0B8",
       tasks: [
         {
           id: "75E4F4B0F1776BD9",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:honey_bee_leggings_1",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:honey_bee_leggings_1",
-            },
           },
         },
       ],
@@ -1531,20 +1340,15 @@
     {
       x: -6.0,
       y: -2.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "78E40BDB0E54B638",
       tasks: [
         {
           id: "41B87091E5CA786A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:honey_bee_leggings_2",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:honey_bee_leggings_2",
-            },
           },
         },
       ],
@@ -1559,20 +1363,15 @@
     {
       x: -8.0,
       y: -1.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "72489FB9D9A5A24B",
       tasks: [
         {
           id: "7CF6F7F21D0F6B03",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:carpenter_bee_boots_1",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:carpenter_bee_boots_1",
-            },
           },
         },
       ],
@@ -1587,20 +1386,15 @@
     {
       x: -6.0,
       y: -1.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "7208CB011F6E2ACF",
       tasks: [
         {
           id: "0CFA3BBD10DFF920",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:carpenter_bee_boots_2",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:carpenter_bee_boots_2",
-            },
           },
         },
       ],
@@ -1617,20 +1411,17 @@
       y: -5.0,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       hide_until_deps_complete: true,
+      size: 1.0,
       id: "0910C28A609ECBC1",
       tasks: [
         {
           id: "2C508B9FD0001F02",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:honey_compass",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:honey_compass",
-            },
           },
         },
       ],
@@ -1648,18 +1439,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:ancient_wax_diamond",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:ancient_wax_diamond",
-        },
       },
       x: -4.0,
       y: -1.0,
       dependencies: [
         "2AD13B965611DC86",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "0C8180524757B238",
       tasks: [
         {
@@ -1675,11 +1463,8 @@
           id: "721FA4D8DBEA690A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:ancient_wax_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:ancient_wax_diamond",
-            },
           },
           count: 10,
         },
@@ -1687,20 +1472,17 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:honeycomb_brood_block",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:honeycomb_brood_block",
-        },
       },
       x: -0.5,
       y: 4.0,
       dependencies: [
         "540895E6C9E724AD",
         "2A50A687C40DB864",
-        "0B4BE681B3116680",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "6013C6B2E0B81D73",
       tasks: [
         {
@@ -1730,20 +1512,17 @@
         "4040BFCD4BE56621",
         "30C12E249F7E2D52",
         "46FEF3DB6A5B52A0",
-        "0B4BE681B3116680",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "67A0F6661D658A52",
       tasks: [
         {
           id: "1EE379C541B3C951",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:honey_compass",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:honey_compass",
-            },
           },
         },
       ],
@@ -1761,7 +1540,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "6474FE12450A4A7D",
-        "0B4BE681B3116680",
       ],
       size: 2.0,
       id: "5C040191740A53C8",
@@ -1778,11 +1556,8 @@
           id: "0C1B0E938454B352",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-            },
           },
         },
       ],
@@ -1808,7 +1583,6 @@
         "14F6ED7F0C1DC503",
         "612157986673F815",
         "00764A738DA6451C",
-        "0B4BE681B3116680",
       ],
       size: 1.5,
       id: "6434796EAAF2A4EC",
@@ -1817,11 +1591,8 @@
           id: "562570CAB78A7D54",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:essence_of_the_bees",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:essence_of_the_bees",
-            },
           },
         },
       ],
@@ -1830,11 +1601,8 @@
           id: "5E56E94EF173922B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:ancient_wax_diamond",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:ancient_wax_diamond",
-            },
           },
           count: 10,
         },
@@ -1847,17 +1615,13 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:luminescent_wax_channel_green",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_green",
-        },
       },
       x: 17.5,
       y: 7.0,
       dependencies: [
         "6434796EAAF2A4EC",
-        "0B4BE681B3116680",
       ],
       size: 1.2,
       id: "516ECA0396621C32",
@@ -1891,28 +1655,21 @@
           id: "7A933D0023F5ED07",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-            },
           },
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:luminescent_wax_channel_purple",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_purple",
-        },
       },
       x: 15.5,
       y: 7.0,
       dependencies: [
         "6434796EAAF2A4EC",
-        "0B4BE681B3116680",
       ],
       size: 1.2,
       id: "29C78845B488EDF8",
@@ -1946,28 +1703,21 @@
           id: "37F19FB2B49E97EE",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-            },
           },
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:luminescent_wax_channel_red",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_red",
-        },
       },
       x: 13.5,
       y: 7.0,
       dependencies: [
         "6434796EAAF2A4EC",
-        "0B4BE681B3116680",
       ],
       size: 1.2,
       id: "3B7BB08D6AA2E7FE",
@@ -2001,28 +1751,21 @@
           id: "5C97C2B2F018C1C7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-            },
           },
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:luminescent_wax_channel_white",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_white",
-        },
       },
       x: 11.5,
       y: 7.0,
       dependencies: [
         "6434796EAAF2A4EC",
-        "0B4BE681B3116680",
       ],
       size: 1.2,
       id: "75ACC8CF5873F92D",
@@ -2056,28 +1799,21 @@
           id: "7A18EF7BB0D43F0A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-            },
           },
         },
       ],
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:luminescent_wax_channel_yellow",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:luminescent_wax_channel_yellow",
-        },
       },
       x: 9.5,
       y: 7.0,
       dependencies: [
         "6434796EAAF2A4EC",
-        "0B4BE681B3116680",
       ],
       size: 1.2,
       id: "27FEF80A08AF43C2",
@@ -2111,11 +1847,8 @@
           id: "53D97A807AA44A39",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-            },
           },
         },
       ],
@@ -2125,7 +1858,6 @@
       y: 8.5,
       dependencies: [
         "3B7BB08D6AA2E7FE",
-        "0B4BE681B3116680",
       ],
       size: 1.5,
       id: "58CC2E563F92B4C5",
@@ -2134,11 +1866,8 @@
           id: "0AA6515146223498",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:essence_raging",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:essence_raging",
-            },
           },
         },
       ],
@@ -2152,11 +1881,8 @@
           id: "0A2DBD077C1AFA44",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
-            },
           },
         },
       ],
@@ -2166,7 +1892,6 @@
       y: 8.5,
       dependencies: [
         "053483E3349B2F8A",
-        "0B4BE681B3116680",
       ],
       size: 1.5,
       id: "20E5C888891FBCFE",
@@ -2175,11 +1900,8 @@
           id: "382894B61961C73F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:essence_calming",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:essence_calming",
-            },
           },
         },
       ],
@@ -2193,11 +1915,8 @@
           id: "2006CA88D631E64F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
-            },
           },
         },
       ],
@@ -2207,7 +1926,6 @@
       y: 8.5,
       dependencies: [
         "516ECA0396621C32",
-        "0B4BE681B3116680",
       ],
       size: 1.5,
       id: "1D4973B187284CBB",
@@ -2216,11 +1934,8 @@
           id: "2D7CB61F2375BEFB",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:essence_life",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:essence_life",
-            },
           },
         },
       ],
@@ -2234,11 +1949,8 @@
           id: "6622DC02AF8B5702",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
-            },
           },
         },
       ],
@@ -2248,7 +1960,6 @@
       y: 8.5,
       dependencies: [
         "29C78845B488EDF8",
-        "0B4BE681B3116680",
       ],
       size: 1.5,
       id: "4718C2728C0CA40F",
@@ -2257,11 +1968,8 @@
           id: "72E4743B07F5B062",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:essence_knowing",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:essence_knowing",
-            },
           },
         },
       ],
@@ -2275,11 +1983,8 @@
           id: "3677BDD167D3FBB1",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
-            },
           },
         },
       ],
@@ -2289,7 +1994,6 @@
       y: 8.5,
       dependencies: [
         "75ACC8CF5873F92D",
-        "0B4BE681B3116680",
       ],
       size: 1.5,
       id: "52C7FAA044E07628",
@@ -2298,11 +2002,8 @@
           id: "25EAABE69C404707",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:essence_continuity",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:essence_continuity",
-            },
           },
         },
       ],
@@ -2316,11 +2017,8 @@
           id: "37C1A1C870A89FF5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
-            },
           },
         },
       ],
@@ -2330,7 +2028,6 @@
       y: 8.5,
       dependencies: [
         "27FEF80A08AF43C2",
-        "0B4BE681B3116680",
       ],
       size: 1.5,
       id: "3ADC0CBB059FF927",
@@ -2339,11 +2036,8 @@
           id: "32EA7A3A8A542A86",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:essence_radiance",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:essence_radiance",
-            },
           },
         },
       ],
@@ -2357,11 +2051,8 @@
           id: "49FF41D37AF67164",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_block",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_block",
-            },
           },
         },
       ],
@@ -2375,9 +2066,9 @@
       y: 1.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
       hide_until_deps_complete: false,
+      size: 1.0,
       id: "42CB494F72FA1FD1",
       tasks: [
         {
@@ -2409,8 +2100,8 @@
       y: 1.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "12EF38830108D02B",
       tasks: [
         {
@@ -2442,8 +2133,8 @@
       y: 1.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "14F6ED7F0C1DC503",
       tasks: [
         {
@@ -2468,18 +2159,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:pollen_puff",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:pollen_puff",
-        },
       },
       x: 16.0,
       y: 1.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "037E0DAA5ECC5AB8",
       tasks: [
         {
@@ -2511,8 +2199,8 @@
       y: 2.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "04665EFC3A37250E",
       tasks: [
         {
@@ -2544,8 +2232,8 @@
       y: 2.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "3365017C9B24C0A9",
       tasks: [
         {
@@ -2570,18 +2258,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:honey_slime_spawn_egg",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:honey_slime_spawn_egg",
-        },
       },
       x: 15.5,
       y: 2.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "72569275EDE9FA23",
       tasks: [
         {
@@ -2613,8 +2298,8 @@
       y: 2.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "0F5549B02D1B383B",
       tasks: [
         {
@@ -2639,18 +2324,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:bee_stinger",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:bee_stinger",
-        },
       },
       x: 13.0,
       y: 3.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "0C9C5639D76FDF65",
       tasks: [
         {
@@ -2682,8 +2364,8 @@
       y: 3.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "64FEF31955CB158D",
       tasks: [
         {
@@ -2715,8 +2397,8 @@
       y: 3.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "4646DCF463FD913F",
       tasks: [
         {
@@ -2741,18 +2423,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:bee_bread",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:bee_bread",
-        },
       },
       x: 16.0,
       y: 3.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "612157986673F815",
       tasks: [
         {
@@ -2784,8 +2463,8 @@
       y: 4.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "6BC0904E03683190",
       tasks: [
         {
@@ -2817,8 +2496,8 @@
       y: 4.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "00764A738DA6451C",
       tasks: [
         {
@@ -2850,8 +2529,8 @@
       y: 4.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "341DF467E3936E78",
       tasks: [
         {
@@ -2876,18 +2555,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:royal_jelly_bottle",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-        },
       },
       x: 16.5,
       y: 4.0,
       dependencies: [
         "5C040191740A53C8",
-        "0B4BE681B3116680",
       ],
+      size: 1.0,
       id: "54D80939887B3F7D",
       tasks: [
         {
@@ -2913,9 +2589,7 @@
     {
       x: 5.0,
       y: 3.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "21BFDE6AD1C0F62A",
       tasks: [
         {
@@ -2930,11 +2604,8 @@
           id: "7A81EC903D6C50A2",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:buzzing_briefcase",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:buzzing_briefcase",
-            },
           },
         },
       ],
@@ -2942,9 +2613,7 @@
     {
       x: 6.0,
       y: 2.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "05A4496705B6C6AF",
       tasks: [
         {
@@ -2959,11 +2628,8 @@
           id: "39B9DCC66E003756",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:honey_bucket",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:honey_bucket",
-            },
           },
         },
       ],
@@ -2971,9 +2637,7 @@
     {
       x: 6.0,
       y: 3.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "61500C8F68509E5D",
       tasks: [
         {
@@ -3013,9 +2677,7 @@
     {
       x: 7.0,
       y: 3.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "454AC491FDFC3FDB",
       tasks: [
         {
@@ -3040,9 +2702,7 @@
     {
       x: -2.5,
       y: 8.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "50150380043F97F9",
       tasks: [
         {
@@ -3073,20 +2733,15 @@
     {
       x: -1.5,
       y: 8.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "3C413D4A210A3BDE",
       tasks: [
         {
           id: "4983146A58846AC6",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_honey_bee_rat_faced_boy",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_honey_bee_rat_faced_boy",
-            },
           },
         },
       ],
@@ -3106,20 +2761,15 @@
     {
       x: -0.5,
       y: 8.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "72917C96C322A922",
       tasks: [
         {
           id: "6F80DC3CA81D680C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_la_bee_da_loca",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_la_bee_da_loca",
-            },
           },
         },
       ],
@@ -3139,20 +2789,15 @@
     {
       x: 0.5,
       y: 8.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "351769579833FA9E",
       tasks: [
         {
           id: "19FFBD14A11341D4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees",
-            },
           },
         },
       ],
@@ -3172,20 +2817,15 @@
     {
       x: 1.5,
       y: 8.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "65D993EB95726067",
       tasks: [
         {
           id: "2672B31044C04726",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_bee_ware_of_the_temple",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_bee_ware_of_the_temple",
-            },
           },
         },
       ],
@@ -3205,20 +2845,15 @@
     {
       x: -2.5,
       y: 10.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "339384ADC9CDB944",
       tasks: [
         {
           id: "70E079B29EA71462",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_knowing_renren",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_knowing_renren",
-            },
           },
         },
       ],
@@ -3238,20 +2873,15 @@
     {
       x: -1.5,
       y: 10.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "29DF2E7D0402284F",
       tasks: [
         {
           id: "06743689ED89FB87",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_radiance_renren",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_radiance_renren",
-            },
           },
         },
       ],
@@ -3271,20 +2901,15 @@
     {
       x: -0.5,
       y: 10.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "262B307753106817",
       tasks: [
         {
           id: "5C2B75FDEC7158D4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_drowning_in_despair",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_drowning_in_despair",
-            },
           },
         },
       ],
@@ -3304,20 +2929,15 @@
     {
       x: 0.5,
       y: 10.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "497FA7CA04117995",
       tasks: [
         {
           id: "40EC05D5AEC06147",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_life_renren",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_life_renren",
-            },
           },
         },
       ],
@@ -3337,20 +2957,15 @@
     {
       x: 1.5,
       y: 10.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "206918773B0BD7A0",
       tasks: [
         {
           id: "53722FB06A46BD8F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_a_last_first_last",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_a_last_first_last",
-            },
           },
         },
       ],
@@ -3370,20 +2985,15 @@
     {
       x: -7.0,
       y: -2.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "6C5D61A704DC125A",
       tasks: [
         {
           id: "6CA87D071A115686",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:flower_headwear",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:flower_headwear",
-            },
           },
         },
       ],
@@ -3402,20 +3012,15 @@
     {
       x: -7.0,
       y: 2.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "5443AA65C0D0C599",
       tasks: [
         {
           id: "6F6B8C065FD612D7",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-            },
           },
         },
       ],
@@ -3424,11 +3029,8 @@
           id: "37A9FA9C327CFE8B",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bucket",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bucket",
-            },
           },
           count: 2,
         },
@@ -3437,20 +3039,15 @@
     {
       x: -7.0,
       y: 4.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "27B5D0329DD92126",
       tasks: [
         {
           id: "225B60F52C033B2C",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:bee_soup",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:bee_soup",
-            },
           },
         },
       ],
@@ -3474,9 +3071,6 @@
     {
       x: -2.0,
       y: 9.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
       size: 1.5,
       id: "270498437D938DD4",
       tasks: [
@@ -3484,11 +3078,8 @@
           id: "7F185FBEFC0DB7E4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:potion_candle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:potion_candle",
-            },
           },
         },
       ],
@@ -3497,11 +3088,8 @@
           id: "600A6B8059340AF4",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:royal_jelly_bottle",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:royal_jelly_bottle",
-            },
           },
         },
         {
@@ -3514,9 +3102,6 @@
     {
       x: 1.0,
       y: 9.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
       size: 1.5,
       id: "5E180764FBEE666B",
       tasks: [
@@ -3524,11 +3109,8 @@
           id: "0439C2D821DC116A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:crystalline_flower",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:crystalline_flower",
-            },
           },
         },
       ],
@@ -3552,20 +3134,15 @@
     {
       x: -2.0,
       y: 7.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "1207E5C3E7BD0584",
       tasks: [
         {
           id: "6E4735BD0FAC24BF",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:banner_pattern_bee",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:banner_pattern_bee",
-            },
           },
         },
       ],
@@ -3585,20 +3162,15 @@
     {
       x: -1.0,
       y: 7.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "2ABAE97E992BB800",
       tasks: [
         {
           id: "47A90ECBC342869D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:banner_pattern_honeycombs",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:banner_pattern_honeycombs",
-            },
           },
         },
       ],
@@ -3618,20 +3190,15 @@
     {
       x: 0.0,
       y: 7.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "13681866CE6A831C",
       tasks: [
         {
           id: "317BB1713844D988",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:banner_pattern_swords",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:banner_pattern_swords",
-            },
           },
         },
       ],
@@ -3651,20 +3218,15 @@
     {
       x: 1.0,
       y: 7.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "74D4E51A6381DB24",
       tasks: [
         {
           id: "673E0676AB36DA51",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:banner_pattern_eyes",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:banner_pattern_eyes",
-            },
           },
         },
       ],
@@ -3684,20 +3246,15 @@
     {
       x: -2.0,
       y: 11.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "772C65FC32AECD6B",
       tasks: [
         {
           id: "7C4C6B711751422F",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:banner_pattern_peace",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:banner_pattern_peace",
-            },
           },
         },
       ],
@@ -3717,20 +3274,15 @@
     {
       x: -1.0,
       y: 11.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "786073B57C901DB7",
       tasks: [
         {
           id: "22FBDD99B064AE6D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:banner_pattern_pluses",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:banner_pattern_pluses",
-            },
           },
         },
       ],
@@ -3750,20 +3302,15 @@
     {
       x: 0.0,
       y: 11.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "29E9E361DDC8041B",
       tasks: [
         {
           id: "1C1F766DF473D6D5",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:banner_pattern_sun",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:banner_pattern_sun",
-            },
           },
         },
       ],
@@ -3783,20 +3330,15 @@
     {
       x: 1.0,
       y: 11.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "26988330D3E5BF95",
       tasks: [
         {
           id: "690C69FC604CC125",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:banner_pattern_arrows",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:banner_pattern_arrows",
-            },
           },
         },
       ],
@@ -3818,9 +3360,9 @@
       y: -8.5,
       dependencies: [
         "396CEB9D05700927",
-        "0B4BE681B3116680",
       ],
       hide_until_deps_complete: true,
+      size: 1.0,
       id: "0E32DB6B8E023764",
       tasks: [
         {
@@ -3847,16 +3389,16 @@
       ],
     },
     {
+      tags: [
+        "arr",
+      ],
       x: -0.5,
       y: -5.5,
       shape: "circle",
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       optional: true,
       invisible: true,
       id: "565EBD340595EAC4",
-      tags: ["arr"],
       tasks: [
         {
           id: "1884D3DA3CCC1439",
@@ -3870,17 +3412,12 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:carvable_wax_chains",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:carvable_wax_chains",
-        },
       },
       x: 5.0,
       y: -2.5,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "613AC4DF39E5621D",
       tasks: [
         {
@@ -3904,17 +3441,12 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "the_bumblezone:honey_bucket",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "the_bumblezone:honey_bucket",
-        },
       },
       x: 6.0,
       y: -5.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "41D539DA3B3EC287",
       tasks: [
         {
@@ -3943,9 +3475,7 @@
       },
       x: 8.0,
       y: -5.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "0584073A7383E0EA",
       tasks: [
         {
@@ -3974,9 +3504,7 @@
       },
       x: 8.0,
       y: -4.0,
-      dependencies: [
-        "0B4BE681B3116680",
-      ],
+      size: 1.0,
       id: "4F144E5F70932C7D",
       tasks: [
         {
@@ -3995,18 +3523,6 @@
           id: "3367DAA14E771DEF",
           type: "xp_levels",
           xp_levels: 1,
-        },
-      ],
-    },
-    {
-      x: -2.0,
-      y: -5.5,
-      invisible: true,
-      id: "0B4BE681B3116680",
-      tasks: [
-        {
-          id: "717B995068CBF00C",
-          type: "checkmark",
         },
       ],
     },
@@ -4157,7 +3673,10 @@
       height: 2.5,
       rotation: 0.0,
       image: "atm:textures/questpics/bumblezone/bumble_queen.png",
-      click: "#5C040191740A53C8",
+      click_action: {
+        type: "open_quest",
+        data: "5C040191740A53C8",
+      },
       dependency: "5C040191740A53C8",
       id: "6DA7B1D98AB8A114",
     },
@@ -4168,7 +3687,10 @@
       height: 2.5,
       rotation: 0.0,
       image: "atm:textures/questpics/bumblezone/bumble_cell.png",
-      click: "#30C12E249F7E2D52",
+      click_action: {
+        type: "open_quest",
+        data: "30C12E249F7E2D52",
+      },
       dependency: "30C12E249F7E2D52",
       id: "784FA353C7AC7B53",
     },
@@ -4179,7 +3701,10 @@
       height: 2.5,
       rotation: 0.0,
       image: "atm:textures/questpics/bumblezone/bumble_cube.png",
-      click: "#46FEF3DB6A5B52A0",
+      click_action: {
+        type: "open_quest",
+        data: "46FEF3DB6A5B52A0",
+      },
       dependency: "46FEF3DB6A5B52A0",
       id: "1F76A6B80CBAF2FE",
     },
@@ -4190,7 +3715,10 @@
       height: 2.5,
       rotation: 0.0,
       image: "atm:textures/questpics/bumblezone/bumble_honitel.png",
-      click: "#4040BFCD4BE56621",
+      click_action: {
+        type: "open_quest",
+        data: "4040BFCD4BE56621",
+      },
       dependency: "4040BFCD4BE56621",
       id: "7CBD70D4602C03FA",
     },
