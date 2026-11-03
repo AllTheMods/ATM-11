@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [{
+    "type": "neoforge:mod_loaded",
+	"modid": "twilightforest"
+  }],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hostilenetworks:twilight_prediction",
+    "minecraft:sweet_berries"
+  ],
+  "result": {
+    "id": "twilightforest:torchberries",
+    "count": 8
+  }
+}

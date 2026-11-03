@@ -10,6 +10,7 @@ import com.blakebr0.cucumber.event.RecipeManagerLoadingEvent
 import com.blakebr0.mysticalagriculture.registry.CropRegistry
 import dev.uncandango.kubegroovy.recipe.filter.RecipeFilter
 import net.minecraft.world.item.ItemStackTemplate
+import net.minecraft.world.item.ItemStack
 import net.neoforged.bus.api.EventPriority
 
 // ingots to be switched to tags
@@ -111,7 +112,7 @@ $ServerEvents.recipes((allthemods) -> {
     }
 
     //console.log("Checking recipe output for \"${recipeSeed}\"")
-    allthemods.forEachRecipe([type: "mysticalagriculture:infusion", output: recipeSeed as ItemStackTemplate] as RecipeFilter, r -> {
+    allthemods.forEachRecipe([type: "mysticalagriculture:infusion", output: recipeSeed as ItemStack] as RecipeFilter, r -> {
       console.log("Removing recipe: \"${r.id}\"")
       r.remove()
     })

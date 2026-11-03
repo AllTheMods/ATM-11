@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:player",
+    "minecraft:item",
+    "minecraft:evoker_fangs",
+    "minecraft:experience_orb",
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame",
+    "minecraft:ominous_item_spawner",
+    "minecraft:area_effect_cloud",
+    "minecraft:armor_stand",
+    "minecraft:arrow",
+    "minecraft:spectral_arrow"
+  ]
+}

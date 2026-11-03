@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [{
+    "type": "neoforge:mod_loaded",
+	"modid": "twilightforest"
+  }],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hostilenetworks:twilight_prediction",
+    "minecraft:feather"
+  ],
+  "result": {
+    "id": "twilightforest:raven_feather",
+    "count": 4
+  }
+}

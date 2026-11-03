@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [{
+    "type": "neoforge:mod_loaded",
+	"modid": "twilightforest"
+  }],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hostilenetworks:twilight_prediction",
+    "hostilenetworks:twilight_prediction",
+    "minecraft:torch"
+  ],
+  "result": {
+    "id": "twilightforest:firefly",
+    "count": 8
+  }
+}
