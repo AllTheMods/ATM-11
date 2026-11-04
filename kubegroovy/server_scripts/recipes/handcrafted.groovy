@@ -30,7 +30,7 @@ $ServerEvents.recipes((allthemods) -> {
   allthemods.replaceInput([id: "handcrafted:oak_cupboard"], "minecraft:oak_planks", "minecraft:oak_slab")
   allthemods.replaceInput([id: "handcrafted:spruce_cupboard"], "minecraft:spruce_planks", "minecraft:spruce_slab")
   allthemods.replaceInput([id: "handcrafted:warped_cupboard"], "minecraft:warped_planks", "minecraft:warped_slab")
-  allthemods.forEachRecipe([id: /handcrafted:.*_sheet$/], (recipe) -> {
+  allthemods.forEachRecipe([id: ~/handcrafted:.*_sheet$/], (recipe) -> {
     def temp_array = $JsonIO.toObject(recipe.json).ingredients
     temp_array.push(temp_array[0])
     recipe.set("ingredients", temp_array)
