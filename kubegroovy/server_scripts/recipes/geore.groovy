@@ -24,6 +24,7 @@ $ServerEvents.recipes(allthemods -> {
       'geore:budding_quartz',
       'geore:budding_aluminum',
       'geore:budding_uraninite',
+	  'geore:budding_uranium',
       'geore:budding_platinum',
       'geore:budding_diamond',
       'geore:budding_emerald',
