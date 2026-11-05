@@ -24,6 +24,7 @@ $StartupEvents.registry("item") { allthemods ->
       'quartz',
       'aluminum',
       'uraninite',
+	  'uranium',
       'platinum',
       'diamond',
       'emerald',
