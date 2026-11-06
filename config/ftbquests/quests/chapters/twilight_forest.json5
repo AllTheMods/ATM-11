@@ -1,7 +1,7 @@
 {
   id: "7732CF7AAA63DB3A",
   group: "5A4775CCD6D26C80",
-  order_index: 6,
+  order_index: 7,
   icon: {
     id: "twilightforest:moonworm_queen",
     count: 1,
@@ -111,6 +111,7 @@
           id: "4E63CBECBB6F9DD8",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "282DFA78ACFF2F6C",
@@ -344,6 +345,7 @@
           id: "7F770579C4C73CAC",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "123EE7B084E5E6C8",
@@ -386,6 +388,7 @@
           id: "68BB1F07320D5A92",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "0317E874F595ECFE",
@@ -426,6 +429,7 @@
           id: "3168A6615B22AA8E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "5EA993D898FBE022",
@@ -478,6 +482,7 @@
           id: "1E27ED8CC2162247",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "1B7B1CBC5F610AEC",
@@ -519,6 +524,7 @@
           id: "11DD1287AA1D6F5F",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "6769D44048131034",
@@ -550,6 +556,7 @@
           id: "58A8D992356C7897",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "6EE52E6A38061EF8",
@@ -591,6 +598,7 @@
           id: "5492622BE96C4D1E",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "1C2FD3A887512A1B",
@@ -632,6 +640,7 @@
           id: "0287D56E5943F3F9",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "1CCC628589B904A2",
@@ -663,6 +672,7 @@
           id: "60BCFFAE59D6BC25",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "31345650D69459AF",
@@ -712,6 +722,7 @@
           id: "3DD4CF61D37B3281",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "6A7D2364EE1680C0",
@@ -748,6 +759,7 @@
           id: "225ED668BA294AB1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "502BFC98B3530104",
@@ -787,6 +799,7 @@
           id: "401B0639D103957C",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "6E342C5980013BCE",
@@ -1228,6 +1241,7 @@
           id: "5C28A228BE2C78C5",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "6B70258C158B3CB9",
@@ -1477,6 +1491,7 @@
           id: "71F58D5F4ADFEF52",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "07A4510994964585",
@@ -2273,6 +2288,7 @@
           id: "62AE88424E533A4D",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "71103D3E1C6E494D",
@@ -2306,6 +2322,7 @@
           id: "7C55C85F194C6353",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 644369667019341813,
         },
         {
           id: "57AB867D53333E1A",
