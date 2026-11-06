@@ -1,7 +1,7 @@
 {
   id: "48410B67C276ED1F",
   group: "5A4775CCD6D26C80",
-  order_index: 1,
+  order_index: 2,
   icon: {
     id: "minecraft:bee_nest",
     count: 1,
@@ -381,11 +381,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "thaumaturge:ring_mundane",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "modern_industrialization:copper_ring",
-        },
       },
       x: 4.0,
       y: -5.0,
@@ -403,6 +400,7 @@
           id: "3807F084CE08EB50",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "56E4F05BC7CF753F",
@@ -432,6 +430,7 @@
           id: "174DBF1BF12039CF",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "035F8C0595B296C7",
@@ -470,6 +469,7 @@
           id: "322D4AA11F5DF8D2",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -494,6 +494,7 @@
           id: "15A6B550A616575A",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "7B4B7388AB3B0711",
@@ -523,6 +524,7 @@
           id: "6714A28BE73C40E1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "23EFE94C80B54594",
@@ -552,6 +554,7 @@
           id: "3488A1CBCC12E3AA",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "6DFDE631EAE985F0",
@@ -589,6 +592,7 @@
           id: "5E6AE39B958186B9",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -644,6 +648,7 @@
           id: "67D62BB1899A99A1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "4158864782D66CEC",
@@ -654,11 +659,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "minecraft:iron_chain",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "minecraft:chain",
-        },
       },
       x: 6.0,
       y: -4.0,
@@ -676,6 +678,7 @@
           id: "4B3F69182DACE322",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "13495944BC1FBCBD",
@@ -705,6 +708,7 @@
           id: "518A7F92D75B40C4",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "7AA9254736DE7248",
@@ -734,6 +738,7 @@
           id: "66D8BB63EAAF858C",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "3285E64E6337AE67",
@@ -763,6 +768,7 @@
           id: "725510E9A5E616C3",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "634993947EE0A8FD",
@@ -792,6 +798,7 @@
           id: "70F7A10FE5BDBC72",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "05EDBA7D678B74FB",
@@ -830,6 +837,7 @@
           id: "3F2360569F891CC1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -854,6 +862,7 @@
           id: "68162C15124D76E1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "1F8361E0A80B63CE",
@@ -1025,6 +1034,7 @@
           id: "15040AFFEBBF0A58",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "696A9AA7C7B567C0",
@@ -1054,6 +1064,7 @@
           id: "5EB9D46906E711AB",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "1D5B5EB5D8FBDB89",
@@ -1086,6 +1097,7 @@
           id: "3A83C9086D62772F",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -1191,6 +1203,11 @@
           item: {
             id: "minecraft:enchanted_book",
             count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "the_bumblezone:neurotoxins": 2,
+              },
+            },
           },
         },
       ],
@@ -1242,6 +1259,7 @@
           id: "00898989D688D2A4",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -1265,6 +1283,7 @@
           id: "09006699FDFB9EE3",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -1288,6 +1307,7 @@
           id: "53B82D5907266608",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -1311,6 +1331,7 @@
           id: "7C6251A539F370DA",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -1334,6 +1355,7 @@
           id: "56D14079D9AF10AC",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -1357,6 +1379,7 @@
           id: "79E07BD2FD8026D6",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -1380,6 +1403,7 @@
           id: "13D0BEC7DFBCEC45",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -1403,6 +1427,7 @@
           id: "7276FCAFA93DA415",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -1531,6 +1556,7 @@
           id: "0D3D73E5452F2B52",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
       ],
     },
@@ -2083,6 +2109,7 @@
           id: "76A65A2BF48546F2",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "3C84A4B8968A69F5",
@@ -2116,6 +2143,7 @@
           id: "4F408D93543F9DED",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "6F75D7FD9661EA35",
@@ -2149,6 +2177,7 @@
           id: "43E5091AA70334EA",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "7F7224FCFE485E9E",
@@ -2182,6 +2211,7 @@
           id: "0BDB14E064129F29",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "283F046377B65324",
@@ -2215,6 +2245,7 @@
           id: "1D876DB488CD50C2",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "04C0A71B85AE076A",
@@ -2248,6 +2279,7 @@
           id: "6619D0A071DC5C77",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "30EC5297F9BA1B21",
@@ -2281,6 +2313,7 @@
           id: "026A071A3BE154FD",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "15A0A973F02EDA35",
@@ -2314,6 +2347,7 @@
           id: "60CB057DEDFA555A",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "593C44E04067C7F2",
@@ -2347,6 +2381,7 @@
           id: "74CC7CEC3B2A1AE8",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "03EEE6FEE2DE3A2A",
@@ -2380,6 +2415,7 @@
           id: "58623A12B7A720C0",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "4188A8C23CB31A74",
@@ -2413,6 +2449,7 @@
           id: "512381F971D2F2CC",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "2F343662EE5D22DB",
@@ -2446,6 +2483,7 @@
           id: "70B45BF4D890319C",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "6094E07B60A58174",
@@ -2479,6 +2517,7 @@
           id: "34A1C526304DFBBC",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "014B9111B7EC1869",
@@ -2512,6 +2551,7 @@
           id: "60A3400D72C1CBA3",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "0C71998255DD04F5",
@@ -2545,6 +2585,7 @@
           id: "1E9FE5C11DE71261",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "238CAE7C5DAB31D0",
@@ -2578,6 +2619,7 @@
           id: "38B71D6530EB8292",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "15BE177A2A2DBD83",
@@ -2709,11 +2751,8 @@
           id: "0EE3B383AFFEFC94",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_hive_speed_beepop",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov",
-            },
           },
         },
       ],
@@ -2722,6 +2761,7 @@
           id: "0969BFBBAB21F60C",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "1A56D4F6F03BB7F7",
@@ -2750,6 +2790,7 @@
           id: "5BF0423121C38920",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "3D82E4549789AA91",
@@ -2778,6 +2819,7 @@
           id: "5BF4193FE0F3F3E1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "58869FA6069967FF",
@@ -2806,6 +2848,7 @@
           id: "132A04BBB2882B03",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "154EA9131B4DDDDC",
@@ -2834,6 +2877,7 @@
           id: "184653DE30E75C84",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "4D3EC9F81D616EB4",
@@ -2862,6 +2906,7 @@
           id: "5CFBC1CC5D426C62",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "0F2120C6CAA2366A",
@@ -2890,6 +2935,7 @@
           id: "34A1800496086108",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "283D2E0EFE259796",
@@ -2918,6 +2964,7 @@
           id: "25DEC1D34DEF6D9D",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "27F6C2B6CB7507BF",
@@ -2946,6 +2993,7 @@
           id: "31148F1D53BC89D2",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "2C6FEBA29F57C9C7",
@@ -2974,6 +3022,7 @@
           id: "5BFFEFD3AFB8FB2A",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "1407F40FDA5EB2CC",
@@ -3151,6 +3200,7 @@
           id: "086DA9039610FAE1",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "4720E731FAA6D701",
@@ -3179,6 +3229,7 @@
           id: "6AEBEDECA506BCF7",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "62445F492832F436",
@@ -3207,6 +3258,7 @@
           id: "17172B3DFA8157D9",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "7B061CF76A962EFA",
@@ -3235,6 +3287,7 @@
           id: "6C07379CFA056B1B",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "1BE27FB805F0E193",
@@ -3263,6 +3316,7 @@
           id: "4CC23D9FDE5F3FB2",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "3A4BB629706EAE46",
@@ -3291,6 +3345,7 @@
           id: "55F6AFCD6A2DED69",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "08ACF8282DA8EB07",
@@ -3319,6 +3374,7 @@
           id: "57721C3552435A00",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "0B83BBE74EEA191C",
@@ -3347,6 +3403,7 @@
           id: "0FC64AF91175B075",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "6932DAEEDDE96D34",
@@ -3431,6 +3488,7 @@
           id: "722CE2E59C878FD2",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "301264F06ED2D407",
@@ -3460,6 +3518,7 @@
           id: "0F701442A2E78348",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "36AD8CC6B1E029B9",
@@ -3489,6 +3548,7 @@
           id: "5F867BA081A7A561",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "5A43AA1E681508BB",
@@ -3518,6 +3578,7 @@
           id: "7520C8219CFFC98B",
           type: "random",
           exclude_from_claim_all: true,
+          table_id: 6996929552069196378,
         },
         {
           id: "3367DAA14E771DEF",
