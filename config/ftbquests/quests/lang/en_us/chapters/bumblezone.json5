@@ -152,7 +152,6 @@
   "quest.288A4A32CDBB14D5.title": "Ancient Shrine",
   "quest.26988330D3E5BF95.title": "Arrows Banner Pattern",
   "quest.29E2033EA65E706E.title": "&6Honey Slime&r Ranch",
-  "quest.0B4BE681B3116680.title": "NOT HERE YET",
   "quest.262B307753106817.title": "Drowning in Despair",
   "quest.5B4397D4EC23E702.quest_desc": [
     "The perfect place for all &6B&8e&6e&r Warriors! \n\nHere you can grab a Stinger Spear and enchants for it!",
@@ -367,7 +366,7 @@
     "&7Floaters&r aren't technically structures in Minecraft files wise but still are in layman terms. \n\nThey can appear in any Biome but always and abundtly in &7&lHowling Constructs&r! \n\nThey are floating disc shaped structures made of Ancient Wax. If you haven't used the Essense of Bees yet you will get Weakness, Slowness, and Mining Fatigue when touching Ancient Wax. There's also &6Honey Cocoons&r or &5Crystals&r on them!",
     "{image:atm:textures/questpics/bumblezone/bumble_floaters.png width:200 height:100 align:center}",
   ],
-  "quest.50150380043F97F9.title": "Flight of the Bumblebee",
+  "quest.50150380043F97F9.title": "Hive-Speed Beepop",
   "quest.29C78845B488EDF8.title": "&5Purple Sempiternal Sanctum",
   "quest.2A50A687C40DB864.quest_desc": [
     "&6&lHive Walls&r are the foundation of the &l&6Bumblezone&r. \n\nThey are massive walls of &6Honey Combs&r and &eWax&r that go from the floor to the roof. \n\nThey also hold &lProductive Bee&r Combs and holes in the &6&lWalls&r where Brood Blocks will spawn.",
