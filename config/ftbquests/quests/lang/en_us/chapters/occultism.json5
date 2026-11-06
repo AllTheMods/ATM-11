@@ -24,9 +24,7 @@
     "Using &aStrigeor's Higher Binding&r, you can create Gray Paste. Smear this on a piece of Impure White Chalk to create Gray Chalk.",
   ],
   "quest.57282D7E31EE61EE.quest_desc": [
-    "Once you've gathered a few &aRaw Iesnium Ores&r, you'll probably want to use the first few ingots to make an &dIesnium Pickaxe&r. This not only mines Iesnium like the Infused Pickaxe, but lasts a lot longer too.",
-    "",
-    "Do yourself a favor and make one of these!",
+    "Once you've gathered a few &aRaw Iesnium Ores&r, you'll probably want to use the first few ingots to make an &dIesnium Pickaxe&r. This not only mines Iesnium like the Infused Pickaxe, but lasts a lot longer too, and does not require a Familiar.\\n\\nDo yourself a favor and make one of these!",
   ],
   "quest.2E68E1D96B25336D.quest_desc": [
     "After fighting through a few Demon Possessed Zombified Piglins summoned by &6Odus' Open Convocation&r, you can use the Demonic Meat dropped by them to craft some Pink Chalk.",
@@ -47,9 +45,7 @@
   ],
   "quest.0A25276925EB0CBA.quest_subtitle": "With this sacred treasure I summon...",
   "quest.2A5004EB99AE4F96.quest_desc": [
-    "There are more Otherworld items you will need to gather, and eating &cDemon's Dream Fruit&r every time you need the &7Third Eye&r effect gets annoying.",
-    "",
-    "This is what the &dOtherworld Goggles&r are for! When equipped (even in your Curios slot), it gives the Third Eye effect!",
+    "There are more Otherworld items you will need to gather, and eating &cDemon's Dream Fruit&r every time you need the &7Third Eye&r effect gets annoying.\\n\\nThis is what the &dOtherworld Goggles&r are for! When equipped (even in your Curios slot), it gives the Third Eye effect!\\n\\nThese &dGoggles&r are also necessary for seeing advanced Otherworld materials. More on that later.",
   ],
   "quest.666EA8B8F13EB292.title": "&dEmpty Soul Gem",
   "quest.2960FFE0C53DFEB1.quest_desc": [
@@ -57,7 +53,6 @@
     "",
     "It's also used to create a couple of items that can speed up ritual making and performing by a significant amount.",
   ],
-  "task.037BF6F5A691E13B.title": "NOT HERE YET",
   "task.51F520BF7DA37873.title": "Storage Stabilizers",
   "quest.57282D7E31EE61EE.title": "&aThe Otherworld Pickaxe&r",
   "quest.1DE0F289821F55D1.title": "&aChalking It Up",
@@ -81,9 +76,6 @@
   "quest.690B89D23134B624.title": "&zRainbow&r Chalk",
   "quest.78ECC28DD4BA9696.quest_subtitle": "Hunting for &dOtherworld&r Materials",
   "quest.5AE80FF518B1BBA6.title": "Tools of the Trade: Ritual Satchel",
-  "quest.06B9D8973E9C6A2C.quest_desc": [
-    "You might be wondering: Why is an Ars Nouveau item in the Occultism chapter? That's because we have Ars Ocultas, to bridge the two mods. Particularly, Spirits, like our Foliot Crusher, can work in these jars. You can even pipe items into the jars for the spirits to interact with, and they will output it to adjacent inventories (I found the bottom side of the jar to be the most reliable place they output to). If they cannot output to an inventory, they'll output the items into the world.",
-  ],
   "quest.429B5A81DF6C43FE.quest_desc": [
     "&6Odus' Open Convocation&r is used to bring an &cAfrit&r demon into a Pig. Because this ritual is performed without the use of Red Chalk, it's only powerful enough to summon an &9unbound&r demon.",
     "",
@@ -100,7 +92,6 @@
     "",
     "Mainly, it's used to create Dragonyst Dust, which is the main ingredient for Magenta Chalk.",
   ],
-  "quest.06B9D8973E9C6A2C.quest_subtitle": "Spirits can work in Containment Jars",
   "quest.11A0593C0E2E6A35.title": "&2Green Chalk",
   "quest.6FEED25FFAC4101F.title": "&8Gray Chalk",
   "quest.0F412542271B6254.quest_desc": [
@@ -144,7 +135,6 @@
     "- Increases the maximum xp level at which you can edit items (the point at which it says \"Too Expensive!\").",
   ],
   "quest.53DEA3DFEDC4809E.title": "&4Tibira's Attraction",
-  "quest.4ABACE222E647E2C.quest_subtitle": "Source Substitutes Sacrifice",
   "quest.38A1295878B68F83.quest_subtitle": "Hot Demons!",
   "quest.2AD68066C1948C90.quest_desc": [
     "That first &eFoliot Crusher&r was cool, but what if I told you that you could summon a demon that gives you 6 dusts per raw ore it crushes?",
@@ -171,23 +161,13 @@
     "Using &dRonaza's Contact&r, you can upgrade your Soul Gem to create a Trinity Gem. It's basically just a beefed up version of the Soul Gem that can capture larger enemies, and it can even hold bosses like the Ender Dragon! Put a filled gem in a &5Dimensional Battlefield&r to farm that mob's drops.",
   ],
   "quest.33106E24A3B5DDD8.quest_desc": [
-    "The next step in your journey will be to find &eIesnium Ore&r in the Nether.",
-    "",
-    "Without the effects of the &3Third Eye&r, this will look just like Netherrack. Make sure to have your &dOtherworld Goggles&r equipped!",
-    "",
-    "To locate the ore, try using a &aDivination Rod&r. You'll need to attune it to Netherrack first, then hold down right click to use it. After a few seconds, you will see a particle shoot out in the direction of the nearest Iesnium Ore. You can only mine the ore using the &dInfused Pickaxe&r!",
-    "",
-    "Since you can't break this ore down into double the dusts using the standard methods, try using your Foliot Crusher to double your ingots per raw ore!",
-    "",
-    "Note: If you don't see the particle, make sure your particle settings are turned on!",
-    "",
+    "The next step in your journey will be to find &eIesnium Ore&r in the Nether.\\n\\nWithout the effects of the &3Third Eye&r, this will look just like Netherrack. Make sure to have your &dOtherworld Goggles&r equipped!\\n\\nTo locate the ore, try using a &aDivination Rod&r. You'll need to attune it to Netherrack first, then hold down right click to use it. After a few seconds, you will see a particle shoot out in the direction of the nearest Iesnium Ore. You can only mine the ore using the &dInfused Pickaxe&r! Make sure the &dPickaxe&r is occupied by a &dFamiliar&r!\\n\\nSince you can't break this ore down into double the dusts using the standard methods, try using your Foliot Crusher to double your ingots per raw ore!\\n\\nNote: If you don't see the particle, make sure your particle settings are turned on!\\n",
     "{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}",
   ],
   "quest.429B5A81DF6C43FE.title": "&6Odus' Open Convocation",
   "quest.47358ADC1470C82A.quest_subtitle": "Get Ready for a Trip",
   "task.3A9C5AE548810FA6.title": "Sacrificial Bowls",
   "quest.429B5A81DF6C43FE.quest_subtitle": "How... Fleshy...",
-  "quest.06B9D8973E9C6A2C.title": "Ars Ocultas: Spirit Jars",
   "quest.5831B3192C0E8C56.title": "&aRemote Access",
   "quest.6CC5FE34778F0DFA.title": "&c&mDemonic&r &dMagical Storage&r!",
   "quest.367E891A50991436.quest_desc": [
@@ -273,9 +253,7 @@
   "quest.67884BFA27870CCE.title": "&dOsorin's Unbound Calling",
   "quest.4F35D04721DFC9FF.title": "&bOur First &dRitual",
   "quest.2A3683BF7E50EF83.quest_desc": [
-    "Most of the items we've needed from the &3Otherworld&r so far just needed some Spiritfire. However, we will need to use the help of the &3Third Eye&r to find the Ore of the &3Otherworld&r.",
-    "",
-    "We'll also need a special pickaxe to be able to mine it. For this, we'll need to Infuse a Demon into a &dSpirit Attuned Pickaxe Head&r to create a pickaxe that can break this new kind of ore.",
+    "Most of the items we've needed from the &3Otherworld&r so far just needed some Spiritfire. However, we will need to use the help of the &3Third Eye&r to find the Ore of the &3Otherworld&r.\\n\\nWe'll also need a special pickaxe to be able to mine it. For this, we'll need to Infuse a Demon into a &7Silver Pickaxe&r to create a pickaxe that can break this new kind of ore.\\n\\nOn top of that, the &dInfused Pickaxe&r must be occupied by a &dFamiliar&r to be able to mine this ore.",
   ],
   "task.53DE943DF951696B.title": "Demon Miner",
   "task.523951BF097BA61F.title": "Any #c:dusts/emerald",
@@ -320,9 +298,6 @@
   ],
   "quest.7BCD4A425CF6199B.quest_desc": [
     "After slaying the Goat of Mercy summoned from &9Xeovrenth Adjure&r, you'll find yourself one Cruelty Essence richer. Combine this with some Cocao Beans to create Brown Chalk.",
-  ],
-  "quest.4ABACE222E647E2C.quest_desc": [
-    "The Sacrificial Altar is another tool Ars Ocultas offers, this time, focusing on the automation of Sacrifices.\n\nThis Altar goes under your central bowl, and will allow for Sacrifices to be substituted with Source from a nearby Source Jar, if a Containment Jar containing the would-be sacrifice is also nearby.",
   ],
   "quest.1848F431D0380DA9.quest_desc": [
     "Similar to the Chalk Repairing function of &aStrigeor's Higher Binding&r, &cSevira's Permanent Confinement&r can be used to repair items using the power of an Afrit Demon.",
@@ -380,7 +355,7 @@
     "",
     "It is recommended that you make some sort of mob capture item such as an Empty Soul Gem, Jar, Mob Imprisonment Tool, or Quantum Catcher!",
     "",
-    "The first tier of &5Possession rituals&r is &eHeidryn's Lure&r, which is only used to get mundane items like Skeleton Skulls and End Stone. Because of this, you can skip straight to the second tier of ritual, &aIhagan's Enthrallment&r. ",
+    "The first tier of &5Possession rituals&r is &eHedryn's Lure&r, which is only used to get mundane items like Skeleton Skulls and End Stone. Because of this, you can skip straight to the second tier of ritual, &aIhagan's Enthrallment&r. ",
   ],
   "quest.30C5B597610F4AFB.title": "&aLime Chalk",
   "quest.1DE0F289821F55D1.quest_desc": [

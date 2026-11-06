@@ -882,7 +882,6 @@
         "5ACE97EE75813006",
       ],
       size: 1.0,
-      optional: true,
       id: "7F59941D62E672B0",
       tasks: [
         {
@@ -1351,7 +1350,8 @@
       y: 4.5,
       dependencies: [
         "2A5004EB99AE4F96",
-        "0D18BBB04693885A",
+        "7F59941D62E672B0",
+        "666EA8B8F13EB292",
       ],
       size: 1.0,
       id: "2A3683BF7E50EF83",
