@@ -97,6 +97,10 @@ $ServerEvents.recipes(allthemods -> {
           ore  : 'uraninite',
           drain: 750_000
       ],
+	  [
+          ore  : 'uranium',
+          drain: 750_000
+      ],
       [
           ore  : 'platinum',
           drain: 1_000_000
@@ -170,6 +174,7 @@ $ServerEvents.recipes(allthemods -> {
       'quartz',
       'aluminum',
       'uraninite',
+	  'uranium',
       'platinum',
       'diamond',
       'emerald',
@@ -259,6 +264,10 @@ $ServerEvents.recipes(allthemods -> {
       [
           mat: 'uraninite',
           id : '#c:ingots/uraninite'
+      ],
+	  [
+          mat: 'uranium',
+          id : '#c:ingots/uranium'
       ],
       [
           mat: 'platinum',

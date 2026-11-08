@@ -381,8 +381,16 @@
     },
     {
       icon: {
-        id: "thaumaturge:ring_mundane",
+        id: "irons_jewelry:ring",
         count: 1,
+        components: {
+          "irons_jewelry:jewelry_data": {
+            pattern: "irons_jewelry:simple_band",
+            parts: {
+              "irons_jewelry:band_simple": "irons_jewelry:copper",
+            },
+          },
+        },
       },
       x: 4.0,
       y: -5.0,
