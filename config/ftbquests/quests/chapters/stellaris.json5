@@ -46,7 +46,7 @@
     },
     {
       icon: {
-        id: "stellaris:friends_list",
+        id: "stellaris:tablet",
         count: 1,
       },
       x: 0.0,
@@ -948,7 +948,7 @@
     },
     {
       icon: {
-        id: "stellaris:big_white_can",
+        id: "stellaris:white_can",
         count: 1,
       },
       x: 26.0,
@@ -2614,7 +2614,7 @@
     },
     {
       icon: {
-        id: "stellaris:moon_stone_dust",
+        id: "stellaris:titanium_sword",
         count: 1,
       },
       x: 38.0,
