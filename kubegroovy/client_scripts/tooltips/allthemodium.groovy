@@ -30,10 +30,6 @@ $ItemEvents.modifyTooltips((allthemods) -> {
       $Text.of("§dFound in the End Highlands")
   ])
 
-  allthemods.add("kubegroovy:silent_allthemodium_plate", [$Text.of("§7§oIt's less... talkative now")])
-  allthemods.add("kubegroovy:silent_vibranium_plate", [$Text.of("§7§oIt's less... talkative now")])
-  allthemods.add("kubegroovy:silent_unobtainium_plate", [$Text.of("§7§oIt's less... talkative now")])
-
   allthemods.add("allthemodium:allthemodium_ingot", [
       $Text.of("§7§oSilent Gear users, these aren\'t the ingots you are looking for"),
       $Text.of("§6Look for the [Silent Allthemodium Plate]")

@@ -6,21 +6,10 @@
 // requires silentgear
 package startup_scripts.items
 
+// The silent plates are registered by ATM: Compat; these keep plates from older pack versions.
 $StartupEvents.registry("item") { allthemods ->
-  allthemods.create('silent_allthemodium_plate').with {
-    displayName('Silent Allthemodium Plate')
-    glow(true)
+  ["allthemodium", "vibranium", "unobtainium"].each { metal ->
+    allthemods.addAlias("kubejs:silent_${metal}_plate", "allthemodium:silent_${metal}_plate")
+    allthemods.addAlias("kubegroovy:silent_${metal}_plate", "allthemodium:silent_${metal}_plate")
   }
-  allthemods.create('silent_vibranium_plate').with {
-    displayName('Silent Vibranium Plate')
-    glow(true)
-  }
-  allthemods.create('silent_unobtainium_plate').with {
-    displayName('Silent Unobtainium Plate')
-    glow(true)
-  }
-
-  allthemods.addAlias("kubejs:silent_allthemodium_plate", "kubegroovy:silent_allthemodium_plate")
-  allthemods.addAlias("kubejs:silent_vibranium_plate", "kubegroovy:silent_vibranium_plate")
-  allthemods.addAlias("kubejs:silent_unobtainium_plate", "kubegroovy:silent_unobtainium_plate")
 }
