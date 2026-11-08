@@ -1,7 +1,7 @@
 {
   id: "48410B67C276ED1F",
   group: "5A4775CCD6D26C80",
-  order_index: 1,
+  order_index: 2,
   icon: {
     id: "minecraft:bee_nest",
     count: 1,
@@ -381,10 +381,15 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "irons_jewelry:ring",
         count: 1,
         components: {
-          "ftbquests:missing_item": "modern_industrialization:copper_ring",
+          "irons_jewelry:jewelry_data": {
+            pattern: "irons_jewelry:simple_band",
+            parts: {
+              "irons_jewelry:band_simple": "irons_jewelry:copper",
+            },
+          },
         },
       },
       x: 4.0,
@@ -654,11 +659,8 @@
     },
     {
       icon: {
-        id: "ftbquests:missing_item",
+        id: "minecraft:iron_chain",
         count: 1,
-        components: {
-          "ftbquests:missing_item": "minecraft:chain",
-        },
       },
       x: 6.0,
       y: -4.0,
@@ -2709,11 +2711,8 @@
           id: "0EE3B383AFFEFC94",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "the_bumblezone:music_disc_hive_speed_beepop",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov",
-            },
           },
         },
       ],
