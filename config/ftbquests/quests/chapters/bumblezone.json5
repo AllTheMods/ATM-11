@@ -2093,7 +2093,7 @@
     },
     {
       icon: {
-        id: "minecraft:beehive",
+        id: "the_bumblezone:dirt_pellet",
         count: 1,
       },
       x: 13.0,
@@ -2108,7 +2108,7 @@
         {
           id: "042010AB43CC92FA",
           type: "advancement",
-          advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market",
+          advancement: "the_bumblezone:the_queens_desire/smackdowns",
           criterion: "",
         },
       ],
