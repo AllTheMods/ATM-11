@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gears/allthemodium"
+      }
+    }
+  ],
+  "type": "productivemetalworks:item_melting",
+  "ingredient": "#c:gears/allthemodium",
+  "maximum_temperature": 0,
+  "minimum_temperature": 3000,
+  "result": [
+    {
+      "amount": 360,
+      "id": "allthemodium:molten_allthemodium"
+    }
+  ]
+}

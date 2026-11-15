@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:plates/unobtainium"
+      }
+    }
+  ],
+  "type": "productivemetalworks:item_melting",
+  "ingredient": "#c:plates/unobtainium",
+  "maximum_temperature": 0,
+  "minimum_temperature": 3000,
+  "result": [
+    {
+      "amount": 180,
+      "id": "allthemodium:molten_unobtainium"
+    }
+  ]
+}
