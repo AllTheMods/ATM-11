@@ -56,6 +56,13 @@ $ServerEvents.recipes((allthemods) -> {
       ])
       .id("allthemods:essence/enderio/enderman_head")
 
+  // Basalt essence
+  allthemods
+      .shaped("20x minecraft:basalt", ["AAA", "A A", "AAA"], [
+          A: "mysticalagriculture:basalt_essence"
+      ])
+      .id("allthemods:essence/minecraft/basalt")
+
   // Warped Wart Blocks
   allthemods
       .shaped("8x minecraft:warped_wart_block", [" A ", "A  ", "AAA"], [
