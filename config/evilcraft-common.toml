@@ -264,7 +264,7 @@
 
 	[item.primed_pendant]
 		#Usage multipliers. Potion ids are first, followed by floating numbers. A number smaller than one blacklists that potion.
-		potionMultipliers = ["minecraft:health_boost;-1", "minecraft:regeneration;10"]
+		potionMultipliers = ["minecraft:health_boost;-1", "minecraft:regeneration;10", "witchery:last_stand;-1"]
 		#The amount of Blood to drain after one effect application.
 		usage = 10
 		#The capacity of the pendant.
