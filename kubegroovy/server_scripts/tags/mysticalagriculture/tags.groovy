@@ -7,18 +7,12 @@
 package server_scripts.tags.mysticalagriculture
 
 def seedID = [
-    "mysticalagriculture:allthemodium_seeds",
     "mysticalagriculture:darkstone_seeds",
     "mysticalagriculture:kivi_seeds",
     "mysticalagriculture:unexplored_wood_seeds",
-    "mysticalagriculture:unobtainium_seeds",
-    "mysticalagriculture:vibranium_seeds",
     "mysticalagriculture:crimson_iron_seeds",
     "mysticalagriculture:azure_silver_seeds",
-    "mysticalagriculture:entro_seeds",
-    "mysticalagriculture:sky_steel_seeds",
-    "mysticalagriculture:xychorium_gem_seeds",
-    "mysticalagriculture:black_quartz_seeds"
+    "mysticalagriculture:entro_seeds"
 ]
 
 $ServerEvents.tags("item", (allthemods) -> {
@@ -29,22 +23,12 @@ $ServerEvents.tags("item", (allthemods) -> {
     allthemods.add("ars_nouveau:whirlisprig/denied_drop", seeds)
   }
   allthemods.add("mysticalagriculture:essences", [
-      "mysticalagriculture:allthemodium_essence",
       "mysticalagriculture:darkstone_essence",
       "mysticalagriculture:kivi_essence",
       "mysticalagriculture:unexplored_wood_essence",
-      "mysticalagriculture:unobtainium_essence",
-      "mysticalagriculture:vibranium_essence",
       "mysticalagriculture:crimson_iron_essence",
       "mysticalagriculture:azure_silver_essence",
-      "mysticalagriculture:entro_essence",
-      "mysticalagriculture:sky_steel_essence",
-      "mysticalagriculture:xychorium_gem_essence"
-  ])
-
-  allthemods.add("kubegroovy:dragon_scale", [
-      "forbidden_arcanus:dragon_scale",
-      "mysticalagradditions:dragon_scale"
+      "mysticalagriculture:entro_essence"
   ])
 
   // Not unbreakable

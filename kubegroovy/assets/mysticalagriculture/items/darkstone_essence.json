@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mysticalagriculture:item/darkstone_essence",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 1973545
+      }
+    ]
+  }
+}

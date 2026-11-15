@@ -6,12 +6,8 @@
 // requires mysticalagriculture
 package startup_scripts.blocks
 
+// Magical Soil is registered by ATM: Compat; these keep soil placed by older pack versions.
 $StartupEvents.registry("block") { allthemods ->
-  allthemods.create("magical_soil").with {
-    displayName("Magical Soil")
-    grassSoundType()
-    mapColor("grass")
-    hardness(0.6)
-  }
-  allthemods.addAlias("kubejs:magical_soil", "kubegroovy:magical_soil")
+  allthemods.addAlias("kubejs:magical_soil", "allthemodium:magical_soil")
+  allthemods.addAlias("kubegroovy:magical_soil", "allthemodium:magical_soil")
 }
