@@ -6,6 +6,7 @@
 // requires mekanism
 package client_scripts.tooltips
 
+/**
 $ItemEvents.modifyTooltips((allthemods) -> {
   // ##### Gear #####
   // Mekasuit
@@ -71,3 +72,5 @@ $ItemEvents.modifyTooltips((allthemods) -> {
     allthemods.add(/mekanismgenerators:turbine_/, [$Text.green("Increased Production Speed!")])
   }
 })
+
+*/

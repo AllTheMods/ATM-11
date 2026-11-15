@@ -163,374 +163,374 @@ $ServerEvents.recipes((allthemods) -> {
     )
   }
 
-  if ($Platform.isLoaded("mekanismtools")) {
-    //	MEKANISM
-    //	LAPIS LAZULI TOOLS
-    //	PAXEL
-    allthemods.recipes.silentgearSalvaging(
-        ["2x minecraft:lapis_lazuli", "1x minecraft:stick"],
-        "mekanismtools:lapis_lazuli_paxel"
-    )
+//   if ($Platform.isLoaded("mekanismtools")) {
+//     //	MEKANISM
+//     //	LAPIS LAZULI TOOLS
+//     //	PAXEL
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x minecraft:lapis_lazuli", "1x minecraft:stick"],
+//         "mekanismtools:lapis_lazuli_paxel"
+//     )
 
-    //	SWORD
-    allthemods.recipes.silentgearSalvaging(
-        ["2x minecraft:lapis_lazuli", "1x minecraft:stick"],
-        "mekanismtools:lapis_lazuli_sword"
-    )
+//     //	SWORD
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x minecraft:lapis_lazuli", "1x minecraft:stick"],
+//         "mekanismtools:lapis_lazuli_sword"
+//     )
 
-    //	PICKAXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x minecraft:lapis_lazuli", "2x minecraft:stick"],
-        "mekanismtools:lapis_lazuli_pickaxe"
-    )
+//     //	PICKAXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x minecraft:lapis_lazuli", "2x minecraft:stick"],
+//         "mekanismtools:lapis_lazuli_pickaxe"
+//     )
 
-    //	AXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x minecraft:lapis_lazuli", "2x minecraft:stick"],
-        "mekanismtools:lapis_lazuli_axe"
-    )
+//     //	AXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x minecraft:lapis_lazuli", "2x minecraft:stick"],
+//         "mekanismtools:lapis_lazuli_axe"
+//     )
 
-    //	SHOVEL
-    allthemods.recipes.silentgearSalvaging(
-        ["1x minecraft:lapis_lazuli", "2x minecraft:stick"],
-        "mekanismtools:lapis_lazuli_shovel"
-    )
+//     //	SHOVEL
+//     allthemods.recipes.silentgearSalvaging(
+//         ["1x minecraft:lapis_lazuli", "2x minecraft:stick"],
+//         "mekanismtools:lapis_lazuli_shovel"
+//     )
 
-//	HOE
-    allthemods.recipes.silentgearSalvaging(
-        ["2x minecraft:lapis_lazuli", "2x minecraft:stick"],
-        "mekanismtools:lapis_lazuli_hoe"
-    )
+// //	HOE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x minecraft:lapis_lazuli", "2x minecraft:stick"],
+//         "mekanismtools:lapis_lazuli_hoe"
+//     )
 
-    //	LAPIS LAZULI ARMOR
-    //	HELMET
-    allthemods.recipes.silentgearSalvaging(
-        ["5x minecraft:lapis_lazuli"],
-        "mekanismtools:lapis_lazuli_helmet"
-    )
+//     //	LAPIS LAZULI ARMOR
+//     //	HELMET
+//     allthemods.recipes.silentgearSalvaging(
+//         ["5x minecraft:lapis_lazuli"],
+//         "mekanismtools:lapis_lazuli_helmet"
+//     )
 
-    //	CHESTPLATE
-    allthemods.recipes.silentgearSalvaging(
-        ["8x minecraft:lapis_lazuli"],
-        "mekanismtools:lapis_lazuli_chestplate"
-    )
+//     //	CHESTPLATE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["8x minecraft:lapis_lazuli"],
+//         "mekanismtools:lapis_lazuli_chestplate"
+//     )
 
-    //	LEGGINS
-    allthemods.recipes.silentgearSalvaging(
-        ["7x minecraft:lapis_lazuli"],
-        "mekanismtools:lapis_lazuli_leggings"
-    )
+//     //	LEGGINS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["7x minecraft:lapis_lazuli"],
+//         "mekanismtools:lapis_lazuli_leggings"
+//     )
 
-    //	BOOTS
-    allthemods.recipes.silentgearSalvaging(
-        ["4x minecraft:lapis_lazuli"],
-        "mekanismtools:lapis_lazuli_boots"
-    )
+//     //	BOOTS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["4x minecraft:lapis_lazuli"],
+//         "mekanismtools:lapis_lazuli_boots"
+//     )
 
-    // BRONZE TOOLS
-    allthemods.recipes.silentgearSalvaging(
-        ["2x alltheores:bronze_ingot", "1x minecraft:stick"],
-        "mekanismtools:bronze_paxel"
-    )
+//     // BRONZE TOOLS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x alltheores:bronze_ingot", "1x minecraft:stick"],
+//         "mekanismtools:bronze_paxel"
+//     )
 
-    //	SWORD
-    allthemods.recipes.silentgearSalvaging(
-        ["2x alltheores:bronze_ingot", "1x minecraft:stick"],
-        "mekanismtools:bronze_sword"
-    )
+//     //	SWORD
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x alltheores:bronze_ingot", "1x minecraft:stick"],
+//         "mekanismtools:bronze_sword"
+//     )
 
-    //	PICKAXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x alltheores:bronze_ingot", "2x minecraft:stick"],
-        "mekanismtools:bronze_pickaxe"
-    )
+//     //	PICKAXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x alltheores:bronze_ingot", "2x minecraft:stick"],
+//         "mekanismtools:bronze_pickaxe"
+//     )
 
-    //	AXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x alltheores:bronze_ingot", "2x minecraft:stick"],
-        "mekanismtools:bronze_axe"
-    )
+//     //	AXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x alltheores:bronze_ingot", "2x minecraft:stick"],
+//         "mekanismtools:bronze_axe"
+//     )
 
-    //	SHOVEL
-    allthemods.recipes.silentgearSalvaging(
-        ["1x alltheores:bronze_ingot", "2x minecraft:stick"],
-        "mekanismtools:bronze_shovel"
-    )
+//     //	SHOVEL
+//     allthemods.recipes.silentgearSalvaging(
+//         ["1x alltheores:bronze_ingot", "2x minecraft:stick"],
+//         "mekanismtools:bronze_shovel"
+//     )
 
-    //	HOE
-    allthemods.recipes.silentgearSalvaging(
-        ["2x alltheores:bronze_ingot", "2x minecraft:stick"],
-        "mekanismtools:bronze_hoe"
-    )
+//     //	HOE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x alltheores:bronze_ingot", "2x minecraft:stick"],
+//         "mekanismtools:bronze_hoe"
+//     )
 
-    // BRONZE ARMOR
-    //	HELMET
-    allthemods.recipes.silentgearSalvaging(
-        ["5x alltheores:bronze_ingot"],
-        "mekanismtools:bronze_helmet"
-    )
+//     // BRONZE ARMOR
+//     //	HELMET
+//     allthemods.recipes.silentgearSalvaging(
+//         ["5x alltheores:bronze_ingot"],
+//         "mekanismtools:bronze_helmet"
+//     )
 
-    //	CHESTPLATE
-    allthemods.recipes.silentgearSalvaging(
-        ["8x alltheores:bronze_ingot"],
-        "mekanismtools:bronze_chestplate"
-    )
+//     //	CHESTPLATE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["8x alltheores:bronze_ingot"],
+//         "mekanismtools:bronze_chestplate"
+//     )
 
-    //	LEGGINS
-    allthemods.recipes.silentgearSalvaging(
-        ["7x alltheores:bronze_ingot"],
-        "mekanismtools:bronze_leggings"
-    )
+//     //	LEGGINS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["7x alltheores:bronze_ingot"],
+//         "mekanismtools:bronze_leggings"
+//     )
 
-    //	BOOTS
-    allthemods.recipes.silentgearSalvaging(
-        ["4x alltheores:bronze_ingot"],
-        "mekanismtools:bronze_boots"
-    )
+//     //	BOOTS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["4x alltheores:bronze_ingot"],
+//         "mekanismtools:bronze_boots"
+//     )
 
-    // OSMIUM TOOLS
-    allthemods.recipes.silentgearSalvaging(
-        ["2x alltheores:osmium_ingot", "1x minecraft:stick"],
-        "mekanismtools:osmium_paxel"
-    )
+//     // OSMIUM TOOLS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x alltheores:osmium_ingot", "1x minecraft:stick"],
+//         "mekanismtools:osmium_paxel"
+//     )
 
-    //	SWORD
-    allthemods.recipes.silentgearSalvaging(
-        ["2x alltheores:osmium_ingot", "1x minecraft:stick"],
-        "mekanismtools:osmium_sword"
-    )
+//     //	SWORD
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x alltheores:osmium_ingot", "1x minecraft:stick"],
+//         "mekanismtools:osmium_sword"
+//     )
 
-    //	PICKAXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x alltheores:osmium_ingot", "2x minecraft:stick"],
-        "mekanismtools:osmium_pickaxe"
-    )
+//     //	PICKAXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x alltheores:osmium_ingot", "2x minecraft:stick"],
+//         "mekanismtools:osmium_pickaxe"
+//     )
 
-    //	AXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x alltheores:osmium_ingot", "2x minecraft:stick"],
-        "mekanismtools:osmium_axe"
-    )
+//     //	AXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x alltheores:osmium_ingot", "2x minecraft:stick"],
+//         "mekanismtools:osmium_axe"
+//     )
 
-    //	SHOVEL
-    allthemods.recipes.silentgearSalvaging(
-        ["1x alltheores:osmium_ingot", "2x minecraft:stick"],
-        "mekanismtools:osmium_shovel"
-    )
+//     //	SHOVEL
+//     allthemods.recipes.silentgearSalvaging(
+//         ["1x alltheores:osmium_ingot", "2x minecraft:stick"],
+//         "mekanismtools:osmium_shovel"
+//     )
 
-    //	HOE
-    allthemods.recipes.silentgearSalvaging(
-        ["2x alltheores:osmium_ingot", "2x minecraft:stick"],
-        "mekanismtools:osmium_hoe"
-    )
+//     //	HOE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x alltheores:osmium_ingot", "2x minecraft:stick"],
+//         "mekanismtools:osmium_hoe"
+//     )
 
-    // OSMIUM ARMOR
-    //	HELMET
-    allthemods.recipes.silentgearSalvaging(
-        ["5x alltheores:osmium_ingot"],
-        "mekanismtools:osmium_helmet"
-    )
+//     // OSMIUM ARMOR
+//     //	HELMET
+//     allthemods.recipes.silentgearSalvaging(
+//         ["5x alltheores:osmium_ingot"],
+//         "mekanismtools:osmium_helmet"
+//     )
 
-    //	CHESTPLATE
-    allthemods.recipes.silentgearSalvaging(
-        ["8x alltheores:osmium_ingot"],
-        "mekanismtools:osmium_chestplate"
-    )
+//     //	CHESTPLATE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["8x alltheores:osmium_ingot"],
+//         "mekanismtools:osmium_chestplate"
+//     )
 
-    //	LEGGINS
-    allthemods.recipes.silentgearSalvaging(
-        ["7x alltheores:osmium_ingot"],
-        "mekanismtools:osmium_leggings"
-    )
+//     //	LEGGINS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["7x alltheores:osmium_ingot"],
+//         "mekanismtools:osmium_leggings"
+//     )
 
-    //	BOOTS
-    allthemods.recipes.silentgearSalvaging(
-        ["4x alltheores:osmium_ingot"],
-        "mekanismtools:osmium_boots"
-    )
+//     //	BOOTS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["4x alltheores:osmium_ingot"],
+//         "mekanismtools:osmium_boots"
+//     )
 
-    // REFINED OBSIDIAN TOOLS
-    allthemods.recipes.silentgearSalvaging(
-        ["2x mekanism:ingot_refined_obsidian", "1x minecraft:stick"],
-        "mekanismtools:refined_obsidian_paxel"
-    )
+//     // REFINED OBSIDIAN TOOLS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x mekanism:ingot_refined_obsidian", "1x minecraft:stick"],
+//         "mekanismtools:refined_obsidian_paxel"
+//     )
 
-    //	SWORD
-    allthemods.recipes.silentgearSalvaging(
-        ["2x mekanism:ingot_refined_obsidian", "1x minecraft:stick"],
-        "mekanismtools:refined_obsidian_sword"
-    )
+//     //	SWORD
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x mekanism:ingot_refined_obsidian", "1x minecraft:stick"],
+//         "mekanismtools:refined_obsidian_sword"
+//     )
 
-    //	PICKAXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x mekanism:ingot_refined_obsidian", "2x minecraft:stick"],
-        "mekanismtools:refined_obsidian_pickaxe"
-    )
+//     //	PICKAXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x mekanism:ingot_refined_obsidian", "2x minecraft:stick"],
+//         "mekanismtools:refined_obsidian_pickaxe"
+//     )
 
-    //	AXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x mekanism:ingot_refined_obsidian", "2x minecraft:stick"],
-        "mekanismtools:refined_obsidian_axe"
-    )
+//     //	AXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x mekanism:ingot_refined_obsidian", "2x minecraft:stick"],
+//         "mekanismtools:refined_obsidian_axe"
+//     )
 
-    //	SHOVEL
-    allthemods.recipes.silentgearSalvaging(
-        ["1x mekanism:ingot_refined_obsidian", "2x minecraft:stick"],
-        "mekanismtools:refined_obsidian_shovel"
-    )
+//     //	SHOVEL
+//     allthemods.recipes.silentgearSalvaging(
+//         ["1x mekanism:ingot_refined_obsidian", "2x minecraft:stick"],
+//         "mekanismtools:refined_obsidian_shovel"
+//     )
 
-    //	HOE
-    allthemods.recipes.silentgearSalvaging(
-        ["2x mekanism:ingot_refined_obsidian", "2x minecraft:stick"],
-        "mekanismtools:refined_obsidian_hoe"
-    )
+//     //	HOE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x mekanism:ingot_refined_obsidian", "2x minecraft:stick"],
+//         "mekanismtools:refined_obsidian_hoe"
+//     )
 
-    // REFINED OBSIDIAN ARMOR
-    //	HELMET
-    allthemods.recipes.silentgearSalvaging(
-        ["5x mekanism:ingot_refined_obsidian"],
-        "mekanismtools:refined_obsidian_helmet"
-    )
+//     // REFINED OBSIDIAN ARMOR
+//     //	HELMET
+//     allthemods.recipes.silentgearSalvaging(
+//         ["5x mekanism:ingot_refined_obsidian"],
+//         "mekanismtools:refined_obsidian_helmet"
+//     )
 
-    //	CHESTPLATE
-    allthemods.recipes.silentgearSalvaging(
-        ["8x mekanism:ingot_refined_obsidian"],
-        "mekanismtools:refined_obsidian_chestplate"
-    )
+//     //	CHESTPLATE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["8x mekanism:ingot_refined_obsidian"],
+//         "mekanismtools:refined_obsidian_chestplate"
+//     )
 
-    //	LEGGINS
-    allthemods.recipes.silentgearSalvaging(
-        ["7x mekanism:ingot_refined_obsidian"],
-        "mekanismtools:refined_obsidian_leggings"
-    )
+//     //	LEGGINS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["7x mekanism:ingot_refined_obsidian"],
+//         "mekanismtools:refined_obsidian_leggings"
+//     )
 
-    //	BOOTS
-    allthemods.recipes.silentgearSalvaging(
-        ["4x mekanism:ingot_refined_obsidian"],
-        "mekanismtools:refined_obsidian_boots"
-    )
+//     //	BOOTS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["4x mekanism:ingot_refined_obsidian"],
+//         "mekanismtools:refined_obsidian_boots"
+//     )
 
-    // REFINED GLOWSTONE TOOLS
-    allthemods.recipes.silentgearSalvaging(
-        ["2x mekanism:ingot_refined_glowstone", "1x minecraft:stick"],
-        "mekanismtools:refined_glowstone_paxel"
-    )
+//     // REFINED GLOWSTONE TOOLS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x mekanism:ingot_refined_glowstone", "1x minecraft:stick"],
+//         "mekanismtools:refined_glowstone_paxel"
+//     )
 
-    //	SWORD
-    allthemods.recipes.silentgearSalvaging(
-        ["2x mekanism:ingot_refined_glowstone", "1x minecraft:stick"],
-        "mekanismtools:refined_glowstone_sword"
-    )
+//     //	SWORD
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x mekanism:ingot_refined_glowstone", "1x minecraft:stick"],
+//         "mekanismtools:refined_glowstone_sword"
+//     )
 
-    //	PICKAXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x mekanism:ingot_refined_glowstone", "2x minecraft:stick"],
-        "mekanismtools:refined_glowstone_pickaxe"
-    )
+//     //	PICKAXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x mekanism:ingot_refined_glowstone", "2x minecraft:stick"],
+//         "mekanismtools:refined_glowstone_pickaxe"
+//     )
 
-    //	AXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x mekanism:ingot_refined_glowstone", "2x minecraft:stick"],
-        "mekanismtools:refined_glowstone_axe"
-    )
+//     //	AXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x mekanism:ingot_refined_glowstone", "2x minecraft:stick"],
+//         "mekanismtools:refined_glowstone_axe"
+//     )
 
-    //	SHOVEL
-    allthemods.recipes.silentgearSalvaging(
-        ["1x mekanism:ingot_refined_glowstone", "2x minecraft:stick"],
-        "mekanismtools:refined_glowstone_shovel"
-    )
+//     //	SHOVEL
+//     allthemods.recipes.silentgearSalvaging(
+//         ["1x mekanism:ingot_refined_glowstone", "2x minecraft:stick"],
+//         "mekanismtools:refined_glowstone_shovel"
+//     )
 
-    //	HOE
-    allthemods.recipes.silentgearSalvaging(
-        ["2x mekanism:ingot_refined_glowstone", "2x minecraft:stick"],
-        "mekanismtools:refined_glowstone_hoe"
-    )
+//     //	HOE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x mekanism:ingot_refined_glowstone", "2x minecraft:stick"],
+//         "mekanismtools:refined_glowstone_hoe"
+//     )
 
-    // REFINED GLOWSTONE ARMOR
-    //	HELMET
-    allthemods.recipes.silentgearSalvaging(
-        ["5x mekanism:ingot_refined_glowstone"],
-        "mekanismtools:refined_glowstone_helmet"
-    )
+//     // REFINED GLOWSTONE ARMOR
+//     //	HELMET
+//     allthemods.recipes.silentgearSalvaging(
+//         ["5x mekanism:ingot_refined_glowstone"],
+//         "mekanismtools:refined_glowstone_helmet"
+//     )
 
-    //	CHESTPLATE
-    allthemods.recipes.silentgearSalvaging(
-        ["8x mekanism:ingot_refined_glowstone"],
-        "mekanismtools:refined_glowstone_chestplate"
-    )
+//     //	CHESTPLATE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["8x mekanism:ingot_refined_glowstone"],
+//         "mekanismtools:refined_glowstone_chestplate"
+//     )
 
-    //	LEGGINS
-    allthemods.recipes.silentgearSalvaging(
-        ["7x mekanism:ingot_refined_glowstone"],
-        "mekanismtools:refined_glowstone_leggings"
-    )
+//     //	LEGGINS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["7x mekanism:ingot_refined_glowstone"],
+//         "mekanismtools:refined_glowstone_leggings"
+//     )
 
-    //	BOOTS
-    allthemods.recipes.silentgearSalvaging(
-        ["4x mekanism:ingot_refined_glowstone"],
-        "mekanismtools:refined_glowstone_boots"
-    )
+//     //	BOOTS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["4x mekanism:ingot_refined_glowstone"],
+//         "mekanismtools:refined_glowstone_boots"
+//     )
 
-    // STEEL GLOWSTONE TOOLS
-    //	PAXEL
-    allthemods.recipes.silentgearSalvaging(
-        ["2x mekanism:ingot_steel", "1x minecraft:stick"],
-        "mekanismtools:steel_paxel"
-    )
+//     // STEEL GLOWSTONE TOOLS
+//     //	PAXEL
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x mekanism:ingot_steel", "1x minecraft:stick"],
+//         "mekanismtools:steel_paxel"
+//     )
 
-    //	SWORD
-    allthemods.recipes.silentgearSalvaging(
-        ["2x mekanism:ingot_steel", "1x minecraft:stick"],
-        "mekanismtools:steel_sword"
-    )
+//     //	SWORD
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x mekanism:ingot_steel", "1x minecraft:stick"],
+//         "mekanismtools:steel_sword"
+//     )
 
-    //	PICKAXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x mekanism:ingot_steel", "2x minecraft:stick"],
-        "mekanismtools:steel_pickaxe"
-    )
+//     //	PICKAXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x mekanism:ingot_steel", "2x minecraft:stick"],
+//         "mekanismtools:steel_pickaxe"
+//     )
 
-    //	AXE
-    allthemods.recipes.silentgearSalvaging(
-        ["3x mekanism:ingot_steel", "2x minecraft:stick"],
-        "mekanismtools:steel_axe"
-    )
+//     //	AXE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["3x mekanism:ingot_steel", "2x minecraft:stick"],
+//         "mekanismtools:steel_axe"
+//     )
 
-    //	SHOVEL
-    allthemods.recipes.silentgearSalvaging(
-        ["1x mekanism:ingot_steel", "2x minecraft:stick"],
-        "mekanismtools:steel_shovel"
-    )
+//     //	SHOVEL
+//     allthemods.recipes.silentgearSalvaging(
+//         ["1x mekanism:ingot_steel", "2x minecraft:stick"],
+//         "mekanismtools:steel_shovel"
+//     )
 
-    //	HOE
-    allthemods.recipes.silentgearSalvaging(
-        ["2x mekanism:ingot_steel", "2x minecraft:stick"],
-        "mekanismtools:steel_hoe"
-    )
+//     //	HOE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["2x mekanism:ingot_steel", "2x minecraft:stick"],
+//         "mekanismtools:steel_hoe"
+//     )
 
-    // STEEL ARMOR
-    //	HELMET
-    allthemods.recipes.silentgearSalvaging(
-        ["5x mekanism:ingot_steel"],
-        "mekanismtools:steel_helmet"
-    )
+//     // STEEL ARMOR
+//     //	HELMET
+//     allthemods.recipes.silentgearSalvaging(
+//         ["5x mekanism:ingot_steel"],
+//         "mekanismtools:steel_helmet"
+//     )
 
-    //	CHESTPLATE
-    allthemods.recipes.silentgearSalvaging(
-        ["8x mekanism:ingot_steel"],
-        "mekanismtools:steel_chestplate"
-    )
+//     //	CHESTPLATE
+//     allthemods.recipes.silentgearSalvaging(
+//         ["8x mekanism:ingot_steel"],
+//         "mekanismtools:steel_chestplate"
+//     )
 
-    //	LEGGINS
-    allthemods.recipes.silentgearSalvaging(
-        ["7x mekanism:ingot_steel"],
-        "mekanismtools:steel_leggings"
-    )
+//     //	LEGGINS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["7x mekanism:ingot_steel"],
+//         "mekanismtools:steel_leggings"
+//     )
 
-    //	BOOTS
-    allthemods.recipes.silentgearSalvaging(
-        ["4x mekanism:ingot_steel"],
-        "mekanismtools:steel_boots"
-    )
-  }
+//     //	BOOTS
+//     allthemods.recipes.silentgearSalvaging(
+//         ["4x mekanism:ingot_steel"],
+//         "mekanismtools:steel_boots"
+//     )
+//   }
 })

@@ -38,7 +38,7 @@ $ServerEvents.recipes((allthemods) -> {
   }
 
   if (
-      $Platform.isLoaded("mekanism") &&
+      $Platform.isLoaded("advanced_ae") &&
           $Platform.isLoaded("ae2") &&
           ($Platform.isLoaded("megacells") || $Platform.isLoaded("modern_industrialization")) &&
           $Platform.isLoaded("pneumaticcraft") &&
@@ -48,7 +48,7 @@ $ServerEvents.recipes((allthemods) -> {
     // Improbable Probability Device
     allthemods
         .shaped("allthetweaks:improbable_probability_device", ["ABA", "CGC", "FDF"], [
-            A: "mekanism:pellet_antimatter",
+            A: "advanced_ae:shattered_singularity",
             B: "ae2:singularity",
             C: $Ingredient.of(["megacells:portable_item_cell_256m", "modern_industrialization:blastproof_casing"]),
             D: "pneumaticcraft:aerial_interface",
@@ -131,7 +131,6 @@ $ServerEvents.recipes((allthemods) -> {
   if (
       $Platform.isLoaded("powah") &&
           $Platform.isLoaded("ae2wtlib") &&
-          $Platform.isLoaded("mekanism") &&
           ($Platform.isLoaded("modern_industrialization") || $Platform.isLoaded("create")) &&
           $Platform.isLoaded("immersiveengineering") &&
           $Platform.isLoaded("advanced_ae") &&
@@ -142,7 +141,7 @@ $ServerEvents.recipes((allthemods) -> {
         .shaped("allthetweaks:nexium_emitter", ["A B", " CF", "GED"], [
             A: "powah:player_transmitter_nitro",
             B: "ae2wtlib:wireless_universal_terminal[ae2wtlib:has_ex_pattern_access_terminal={},ae2wtlib:has_pattern_encoding_terminal={},ae2wtlib:has_crafting_terminal={},ae2wtlib:has_pattern_access_terminal={},ae2:stored_energy=6400000.0d]",
-            F: [$Item.of("mekanism:module_gravitational_modulating_unit")],
+            F: [$Item.of("advanced_ae:flight_card")],
             D: $Ingredient.of(["modern_industrialization:large_advanced_motor", "create:mechanical_arm"]),
             E: "immersiveengineering:tesla_coil",
             C: "advanced_ae:quantum_multi_threader",

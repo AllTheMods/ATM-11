@@ -15,11 +15,11 @@ $ServerEvents.recipes((allthemods) -> {
       F: "alltheores:enderium_block",
       G: "allthecompressed:ender_pearl_block_2x",
       H: 'productivebees:configurable_comb[productivebees:bee_type="productivebees:enderium"]',
-      C: "mekanism:quantum_entangloporter"
+      C: "rftoolspower:dimensionalcell_advanced"
   ])
   allthemods.shaped("entangled:item", [" EC", " UE", "U  "], [
       U: "#c:ingots/unobtainium",
       E: "#c:ender_pearls",
-      C: "mekanism:quantum_entangloporter"
+      C: "rftoolspower:dimensionalcell_advanced"
   ])
 })

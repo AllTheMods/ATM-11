@@ -117,19 +117,19 @@ $ServerEvents.recipes((allthemods) -> {
     )
         .id("allthemods:ironjetpacks_creative_thruster")
   }
-  if ($Platform.isLoaded("ironjetpacks") && $Platform.isLoaded("mekanism") && $Platform.isLoaded("powah")) {
+  if ($Platform.isLoaded("ironjetpacks") && $Platform.isLoaded("powah")) {
     allthemods.shaped(
         'ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
         ["ACA", "BDB", "AEA"],
         [
             A: "allthemodium:unobtainium_block",
-            B: "mekanism:sps_casing",
+            B: "powah:capacitor_nitro",
             C: "powah:reactor_nitro",
-            D: "mekanism:ultimate_induction_cell",
+            D: "powah:energy_cell_nitro",
             E: "powah:reactor_nitro"
         ]
     )
-        .id("allthemods:ironjetpacks_creative_capacator")
+        .id("allthemods:ironjetpacks_creative_capacitor")
   }
 
   if ($Platform.isLoaded("ironjetpacks") && $Platform.isLoaded("mysticalagradditions") && $Platform.isLoaded("powah")) {
@@ -148,50 +148,50 @@ $ServerEvents.recipes((allthemods) -> {
         .id("allthemods:ironjetpacks_creative_jetpack")
   }
 
-  if ($Platform.isLoaded("mekanism")) {
-    // Mekanism
+//   if ($Platform.isLoaded("mekanism")) {
+//     // Mekanism
 
-    allthemods.shaped("mekanism:creative_chemical_tank", ["TUT", "USU", "TUT"], [
-        T: "mekanism:ultimate_chemical_tank",
-        U: "allthemodium:unobtainium_ingot",
-        S: "allthetweaks:atm_star_block"
-    ])
-        .id("allthemods:mekanism/creative_chemical_tank")
+//     allthemods.shaped("mekanism:creative_chemical_tank", ["TUT", "USU", "TUT"], [
+//         T: "mekanism:ultimate_chemical_tank",
+//         U: "allthemodium:unobtainium_ingot",
+//         S: "allthetweaks:atm_star_block"
+//     ])
+//         .id("allthemods:mekanism/creative_chemical_tank")
 
-    allthemods.shaped("mekanism:creative_fluid_tank", ["TUT", "USU", "TUT"], [
-        T: "mekanism:ultimate_fluid_tank",
-        U: "allthemodium:unobtainium_ingot",
-        S: "allthetweaks:atm_star_block"
-    ])
-        .id("allthemods:mekanism/creative_fluid_tank")
+//     allthemods.shaped("mekanism:creative_fluid_tank", ["TUT", "USU", "TUT"], [
+//         T: "mekanism:ultimate_fluid_tank",
+//         U: "allthemodium:unobtainium_ingot",
+//         S: "allthetweaks:atm_star_block"
+//     ])
+//         .id("allthemods:mekanism/creative_fluid_tank")
 
-    allthemods.shaped("mekanism:creative_energy_cube", ["ATA", "UCU", "ATA"], [
-        A: "mekanism:alloy_atomic",
-        T: "mekanism:energy_tablet",
-        U: "allthemodium:unobtainium_block",
-        C: "mekanism:ultimate_energy_cube"
-    ])
-        .id("allthemods:mekanism/creative_energy_cube")
+//     allthemods.shaped("mekanism:creative_energy_cube", ["ATA", "UCU", "ATA"], [
+//         A: "mekanism:alloy_atomic",
+//         T: "mekanism:energy_tablet",
+//         U: "allthemodium:unobtainium_block",
+//         C: "mekanism:ultimate_energy_cube"
+//     ])
+//         .id("allthemods:mekanism/creative_energy_cube")
 
-    if ($Platform.isLoaded("powah")) {
-      allthemods
-          .custom([
-              type       : "powah:energizing",
-              energy     : 2147483647,
-              ingredients: [
-                  $Ingredient.of("mekanism:creative_energy_cube").toJson(),
-                  $Ingredient.of("mekanism:creative_energy_cube").toJson(),
-                  $Ingredient.of("allthetweaks:atm_star").toJson(),
-                  $Ingredient.of("mekanism:creative_energy_cube").toJson(),
-                  $Ingredient.of("mekanism:creative_energy_cube").toJson()
-              ],
-              result     : $Item.of(
-                  "mekanism:creative_energy_cube[mekanism:energy={energy_containers:[L;9223372036854775807L]}]"
-              ).toJson()
-          ])
-          .id("allthemods:energizing/mekanism_creative_energy_cube")
-    }
-  }
+//     if ($Platform.isLoaded("powah")) {
+//       allthemods
+//           .custom([
+//               type       : "powah:energizing",
+//               energy     : 2147483647,
+//               ingredients: [
+//                   $Ingredient.of("mekanism:creative_energy_cube").toJson(),
+//                   $Ingredient.of("mekanism:creative_energy_cube").toJson(),
+//                   $Ingredient.of("allthetweaks:atm_star").toJson(),
+//                   $Ingredient.of("mekanism:creative_energy_cube").toJson(),
+//                   $Ingredient.of("mekanism:creative_energy_cube").toJson()
+//               ],
+//               result     : $Item.of(
+//                   "mekanism:creative_energy_cube[mekanism:energy={energy_containers:[L;9223372036854775807L]}]"
+//               ).toJson()
+//           ])
+//           .id("allthemods:energizing/mekanism_creative_energy_cube")
+//     }
+//   }
 
   if ($Platform.isLoaded("powah")) {
     // Powah

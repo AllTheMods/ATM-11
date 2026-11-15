@@ -70,14 +70,14 @@ $ServerEvents.recipes((allthemods) -> {
         "minecraft:lava_bucket",
         "megacells:cell_component_256m"
     )
-    cell(
-        "kubegroovy:gravel_cell",
-        "allthecompressed:gravel_6x",
-        "mekanism:crusher",
-        "mekanism:crusher",
-        "extendedae:infinity_cobblestone_cell"
-    )
-    cell("kubegroovy:sand_cell", "allthecompressed:sand_6x", "mekanism:crusher", "mekanism:crusher", "kubegroovy:gravel_cell")
+    // cell(
+    //     "kubegroovy:gravel_cell",
+    //     "allthecompressed:gravel_6x",
+    //     "mekanism:crusher",
+    //     "mekanism:crusher",
+    //     "extendedae:infinity_cobblestone_cell"
+    // )
+    // cell("kubegroovy:sand_cell", "allthecompressed:sand_6x", "mekanism:crusher", "mekanism:crusher", "kubegroovy:gravel_cell")
     cell(
         "kubegroovy:red_sand_cell",
         "allthecompressed:red_sand_5x",

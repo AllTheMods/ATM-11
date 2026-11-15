@@ -48,11 +48,11 @@ $RecipeViewerEvents.removeEntriesCompletely("item", (allthemods) -> {
 
   if ($Platform.isLoaded("extradisks")) {
     // allthemods.remove('relics:researching_table')
-    if ($Platform.isLoaded("mekanism")) {
-      allthemods.remove("extradisks:infinite_chemical_storage_block")
-      allthemods.remove("extradisks:infinite_chemical_storage_disk")
-      allthemods.remove("extradisks:infinite_chemical_storage_part")
-    }
+    // if ($Platform.isLoaded("mekanism")) {
+    //   allthemods.remove("extradisks:infinite_chemical_storage_block")
+    //   allthemods.remove("extradisks:infinite_chemical_storage_disk")
+    //   allthemods.remove("extradisks:infinite_chemical_storage_part")
+    // }
     allthemods.remove("extradisks:infinite_fluid_storage_block")
     allthemods.remove("extradisks:infinite_fluid_storage_disk")
     allthemods.remove("extradisks:infinite_fluid_storage_part")
@@ -130,9 +130,9 @@ $RecipeViewerEvents.removeEntries("item", (allthemods) -> {
    "immersiveengineering:armor_steel_leggings",
    "immersiveengineering:armor_steel_chestplate",
    "immersiveengineering:armor_steel_helmet",
-   "mekanism:creative_chemical_tank",
-   "mekanism:creative_fluid_tank",
-   "mekanism:creative_bin",
+  //  "mekanism:creative_chemical_tank",
+  //  "mekanism:creative_fluid_tank",
+  //  "mekanism:creative_bin",
    "bigreactors:reinforced_reactorcreativewatergenerator",
    "bigreactors:basic_turbinecreativesteamgenerator",
    "bigreactors:reinforced_turbinecreativesteamgenerator",

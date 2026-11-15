@@ -93,14 +93,14 @@ $ServerEvents.recipes((allthemods) -> {
       return
     }
 
-    if ($Platform.isLoaded("mekanism")) {
-      mekSawing(
-          output.withCount(6),
-          firstIngredient,
-          [chance: 0.25, item: "mekanism:sawdust"],
-          recipe.getId().split(":")[0] + "/" + recipe.getId().split(":")[1]
-      )
-    }
+    // if ($Platform.isLoaded("mekanism")) {
+    //   mekSawing(
+    //       output.withCount(6),
+    //       firstIngredient,
+    //       [chance: 0.25, item: "mekanism:sawdust"],
+    //       recipe.getId().split(":")[0] + "/" + recipe.getId().split(":")[1]
+    //   )
+    // }
     if ($Platform.isLoaded("productivetrees")) {
       prodSawing(
           firstIngredient,

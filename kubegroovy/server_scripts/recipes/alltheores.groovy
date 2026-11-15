@@ -35,8 +35,7 @@ $ServerEvents.recipes((allthemods) -> {
       "modern_industrialization",
       "mysticalagriculture",
       "mysticalagradditions",
-      "extendedae",
-      "mekanism"
+      "extendedae"
   ])
   def materials = $Utils.newMap()
 

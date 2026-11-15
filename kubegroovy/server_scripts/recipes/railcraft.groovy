@@ -27,7 +27,7 @@ $ServerEvents.recipes((allthemods) -> {
   allthemods.remove([id: "railcraft:invar_ingot_crafted_with_ingots"])
   allthemods.remove([id: "railcraft:brass_ingot_crafted_with_ingots"])
 
-  if ($Platform.isLoaded("mekanismtools")) {
-    allthemods.replaceInput([mod: "railcraft"], "railcraft:steel_shovel", "mekanismtools:steel_shovel")
-  }
+  // if ($Platform.isLoaded("mekanismtools")) {
+  //   allthemods.replaceInput([mod: "railcraft"], "railcraft:steel_shovel", "mekanismtools:steel_shovel")
+  // }
 })
