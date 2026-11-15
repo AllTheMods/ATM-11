@@ -13,15 +13,9 @@ if ($Platform.isLoaded("agritechevolved")) {
         [name: "kivi", soil: "#agritechevolved:ma_tier2_soils"],
         [name: "unexplored_wood", soil: "#agritechevolved:ma_tier2_soils"],
         [name: "azure_silver", soil: "#agritechevolved:ma_tier3_soils"],
-        [name: "black_quartz", soil: "#agritechevolved:ma_tier3_soils"],
         [name: "crimson_iron", soil: "#agritechevolved:ma_tier3_soils"],
         [name: "darkstone", soil: "#agritechevolved:ma_tier3_soils"],
-        [name: "xychorium_gem", soil: "#agritechevolved:ma_tier3_soils"],
-        [name: "entro", soil: "#agritechevolved:ma_tier5_soils"],
-        [name: "sky_steel", soil: "#agritechevolved:ma_tier5_soils"],
-        [name: "allthemodium", soil: "kubegroovy:magical_soil"],
-        [name: "vibranium", soil: "kubegroovy:magical_soil"],
-        [name: "unobtainium", soil: "kubegroovy:magical_soil"]
+        [name: "entro", soil: "#agritechevolved:ma_tier5_soils"]
     ];
 
     // Adding Agritech Planter compatibility with Mystical Customization crops

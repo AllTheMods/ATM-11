@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mysticalagriculture:item/crimson_iron_seeds",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 16539783
+      }
+    ]
+  }
+}

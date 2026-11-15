@@ -22,22 +22,6 @@ $ServerEvents.recipes((allthemods) -> {
         .id("allthemods:essence/industrialforegoing/rubber")
   }
 
-  if ($Platform.isLoaded("allthecompressed")) {
-    allthemods
-        .shaped("kubejs:magical_soil", ["ABC", "DEF", "GHI"], [
-            A: "mysticalagradditions:insanium_block",
-            B: "allthecompressed:nether_star_block_2x",
-            C: "allthecompressed:dirt_3x",
-            D: "mysticalagriculture:awakened_supremium_growth_accelerator",
-            E: "mysticalagradditions:insanium_farmland",
-            F: "minecraft:dragon_head",
-            G: "allthemodium:piglich_heart",
-            H: "allthecompressed:ender_pearl_block_3x",
-            I: "productivetrees:moonlight_magic_crepe_myrtle_sapling"
-        ])
-        .id("allthemods:kjs/magical_soil")
-  }
-
   if ($Platform.isLoaded("hostilenetworks")) {
     allthemods
         .shaped("mysticalagradditions:withering_soul", ["PRP", "BSB", "PRP"], [
@@ -240,40 +224,6 @@ $ServerEvents.recipes((allthemods) -> {
             A: "mysticalagriculture:unexplored_wood_essence"
         ])
         .id("allthemods:essence/regions_unexplored/willow_log")
-  }
-
-  if ($Platform.isLoaded("xycraft_world")) {
-    // Xychorium Gems
-    allthemods
-        .shaped("5x xycraft_world:xychorium_gem_light", ["XX ", "X  ", "   "], [
-            X: "mysticalagriculture:xychorium_gem_essence"
-        ])
-        .id("allthemods:essence/xycraft/gem_light")
-        .noMirror()
-    allthemods
-        .shaped("5x xycraft_world:xychorium_gem_dark", [" XX", "  X", "   "], [
-            X: "mysticalagriculture:xychorium_gem_essence"
-        ])
-        .id("allthemods:essence/xycraft/gem_dark")
-        .noMirror()
-    allthemods
-        .shaped("5x xycraft_world:xychorium_gem_red", ["   ", "X  ", "XX "], [
-            X: "mysticalagriculture:xychorium_gem_essence"
-        ])
-        .id("allthemods:essence/xycraft/gem_red")
-        .noMirror()
-    allthemods
-        .shaped("5x xycraft_world:xychorium_gem_green", ["   ", "  X", " XX"], [
-            X: "mysticalagriculture:xychorium_gem_essence"
-        ])
-        .id("allthemods:essence/xycraft/gem_green")
-        .noMirror()
-    allthemods
-        .shaped("5x xycraft_world:xychorium_gem_blue", [" X ", " X ", " X "], [
-            X: "mysticalagriculture:xychorium_gem_essence"
-        ])
-        .id("allthemods:essence/xycraft/gem_blue")
-        .noMirror()
   }
 
   def addInfustion = { String seed, item, essence ->

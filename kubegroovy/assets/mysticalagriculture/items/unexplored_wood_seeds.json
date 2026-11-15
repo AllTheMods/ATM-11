@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mysticalagriculture:item/unexplored_wood_seeds",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 12556573
+      }
+    ]
+  }
+}

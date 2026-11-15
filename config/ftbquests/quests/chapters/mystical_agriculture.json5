@@ -4192,7 +4192,7 @@
           id: "5DE48EBDF62289D7",
           type: "item",
           item: {
-            id: "kubegroovy:magical_soil",
+            id: "allthemodium:magical_soil",
             count: 1,
           },
         },
@@ -4232,7 +4232,7 @@
           id: "4A225430802B4804",
           type: "item",
           item: {
-            id: "kubegroovy:magical_soil",
+            id: "allthemodium:magical_soil",
             count: 1,
           },
         },
@@ -4272,7 +4272,7 @@
           id: "26405897C8819538",
           type: "item",
           item: {
-            id: "kubegroovy:magical_soil",
+            id: "allthemodium:magical_soil",
             count: 1,
           },
         },

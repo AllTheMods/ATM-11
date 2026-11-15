@@ -246,13 +246,6 @@
       },
     },
     {
-      id: "6E90E338772DF6B8",
-      item: {
-        id: "mysticalagriculture:xychorium_gem_seeds",
-        count: 1,
-      },
-    },
-    {
       id: "2E18B3D90551AE42",
       item: {
         id: "mysticalagriculture:copper_alloy_seeds",
@@ -270,13 +263,6 @@
       id: "005D7D46B0012AE0",
       item: {
         id: "mysticalagriculture:ironwood_seeds",
-        count: 1,
-      },
-    },
-    {
-      id: "1CFA4D7AE76960CE",
-      item: {
-        id: "mysticalagriculture:black_quartz_seeds",
         count: 1,
       },
     },

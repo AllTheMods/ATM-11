@@ -7,8 +7,9 @@
 package startup_scripts.items
 
 $StartupEvents.registry("item") {allthemods ->
-  // from the block aliases
-  allthemods.addAlias("kubejs:magical_soil", "kubegroovy:magical_soil")
+  // Magical Soil is registered by ATM: Compat; these keep soil from older pack versions.
+  allthemods.addAlias("kubejs:magical_soil", "allthemodium:magical_soil")
+  allthemods.addAlias("kubegroovy:magical_soil", "allthemodium:magical_soil")
 
   allthemods.create("inferium_enchanting_base").with {
     texture("minecraft:item/enchanted_book")

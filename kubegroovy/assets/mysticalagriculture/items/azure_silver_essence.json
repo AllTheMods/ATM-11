@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mysticalagriculture:item/azure_silver_essence",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 16432892
+      }
+    ]
+  }
+}
