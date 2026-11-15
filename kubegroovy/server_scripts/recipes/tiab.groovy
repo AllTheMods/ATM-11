@@ -14,7 +14,7 @@ $ServerEvents.recipes((allthemods) -> {
       C: "productivelib:upgrade_time",
       B: "justdirethings:blazegold_pickaxe",
       M: "aquaculture:neptunium_pickaxe[aquaculture:in_water=0b]",
-      N: 'evilcraft:vengeance_pickaxe[enchantments={levels:{"evilcraft:vengeance":3,"minecraft:fortune":5}}]',
+      N: 'evilcraft:vengeance_pickaxe[enchantments={"evilcraft:vengeance":3,"minecraft:fortune":5}]',
       O: "ae2:fluix_pickaxe",
       P: "minecraft:experience_bottle"
   ])
