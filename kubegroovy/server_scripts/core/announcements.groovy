@@ -25,6 +25,7 @@ def addAnnouncement = { String version, MutableComponent component ->
 def initAnnouncements = {
   addAnnouncement("0.13.0-beta", $Text.of("KubeJS was replaced with KubeGroovy, items and blocks should migrate automatically"))
   addAnnouncement("0.13.0-beta", $Text.of("But some AE2 recipe patterns might need to be created again"))
+  addAnnouncement("0.15.0-beta", $Text.red("Mod DeepNull Reforged will be removed! Prepare for it or you will lose all your items!"))
 }
 
 $ServerEvents.loaded((event) -> {
