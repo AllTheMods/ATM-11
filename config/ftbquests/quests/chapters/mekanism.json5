@@ -10,7 +10,7 @@
     },
   },
   filename: "mekanism",
-  always_invisible: true,
+  always_invisible: false,
   default_quest_shape: "hexagon",
   default_hide_dependency_lines: false,
   quests: [
@@ -20,7 +20,6 @@
       shape: "octagon",
       dependencies: [
         "6F62B5510FA881CD",
-        "132777D37FD5E38B",
       ],
       size: 1.5,
       id: "162CE44400A63575",
@@ -82,7 +81,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "08DDE018A804BFE7",
@@ -130,7 +128,6 @@
       y: -3.5,
       dependencies: [
         "6263A27182B2CE3D",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "195729280394ABFB",
@@ -168,7 +165,6 @@
       y: 0.0,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "7AE502EDB73BD57A",
@@ -227,7 +223,6 @@
       hide_dependency_lines: true,
       dependencies: [
         "4274E777FB60BA28",
-        "132777D37FD5E38B",
       ],
       size: 1.0,
       progression_mode: "linear",
@@ -269,9 +264,6 @@
       y: -7.625,
       shape: "hexagon",
       hide_dependency_lines: true,
-      dependencies: [
-        "132777D37FD5E38B",
-      ],
       size: 1.25,
       progression_mode: "linear",
       id: "7CC49360D07086B8",
@@ -314,7 +306,6 @@
       shape: "circle",
       dependencies: [
         "162CE44400A63575",
-        "132777D37FD5E38B",
       ],
       id: "166971866A9234C7",
       tasks: [
@@ -351,7 +342,6 @@
       shape: "circle",
       dependencies: [
         "162CE44400A63575",
-        "132777D37FD5E38B",
       ],
       id: "0498A578D0EC3254",
       tasks: [
@@ -389,7 +379,6 @@
       dependencies: [
         "195729280394ABFB",
         "5B556192F060F3F1",
-        "132777D37FD5E38B",
       ],
       size: 1.3,
       id: "31B73D16C0199785",
@@ -426,7 +415,6 @@
       y: -3.0,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       optional: true,
@@ -477,7 +465,6 @@
       hide_dependency_lines: true,
       dependencies: [
         "162CE44400A63575",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "7B0DFA55B4D8B16D",
@@ -545,7 +532,6 @@
       dependencies: [
         "21D8B88155648EA6",
         "01A90E2541C91DB2",
-        "132777D37FD5E38B",
       ],
       id: "3C8D9278B81BB37A",
       tasks: [
@@ -601,7 +587,6 @@
       dependencies: [
         "21D8B88155648EA6",
         "01A90E2541C91DB2",
-        "132777D37FD5E38B",
       ],
       id: "0ACE573560A19309",
       tasks: [
@@ -657,7 +642,6 @@
       dependencies: [
         "21D8B88155648EA6",
         "01A90E2541C91DB2",
-        "132777D37FD5E38B",
       ],
       id: "763FB27929E053BE",
       tasks: [
@@ -713,7 +697,6 @@
       dependencies: [
         "21D8B88155648EA6",
         "01A90E2541C91DB2",
-        "132777D37FD5E38B",
       ],
       id: "001DE8028CAF0A08",
       tasks: [
@@ -769,7 +752,6 @@
       dependencies: [
         "21D8B88155648EA6",
         "01A90E2541C91DB2",
-        "132777D37FD5E38B",
       ],
       id: "09830BB2A23E94B4",
       tasks: [
@@ -825,7 +807,6 @@
       dependencies: [
         "21D8B88155648EA6",
         "01A90E2541C91DB2",
-        "132777D37FD5E38B",
       ],
       id: "515A60B89ED5440D",
       tasks: [
@@ -879,7 +860,6 @@
       shape: "octagon",
       dependencies: [
         "4B35C01F5D0AAC58",
-        "132777D37FD5E38B",
       ],
       size: 2.0,
       progression_mode: "linear",
@@ -924,7 +904,6 @@
       y: 4.0,
       dependencies: [
         "4935209D870E25F2",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "74200A48498DD7F8",
@@ -961,7 +940,6 @@
       y: 5.0,
       dependencies: [
         "4935209D870E25F2",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "0650996C7818ADB5",
@@ -1003,7 +981,6 @@
       y: 4.0,
       dependencies: [
         "4935209D870E25F2",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "6CD1720B76F47806",
@@ -1040,7 +1017,6 @@
       y: 4.0,
       dependencies: [
         "74200A48498DD7F8",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "4EDD96EB60EF5814",
@@ -1076,7 +1052,6 @@
       y: 5.0,
       dependencies: [
         "4935209D870E25F2",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "7778937DF377C1B4",
@@ -1119,9 +1094,6 @@
       x: -10.5,
       y: -2.0,
       shape: "gear",
-      dependencies: [
-        "132777D37FD5E38B",
-      ],
       size: 3.0,
       id: "58B125BD4876054C",
       tasks: [
@@ -1156,7 +1128,6 @@
       shape: "circle",
       dependencies: [
         "58B125BD4876054C",
-        "132777D37FD5E38B",
       ],
       id: "6F62B5510FA881CD",
       tasks: [
@@ -1164,8 +1135,11 @@
           id: "52967F83338A3AC3",
           type: "item",
           item: {
-            id: "alltheores:osmium_ingot",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/osmium)",
+            },
           },
         },
       ],
@@ -1196,7 +1170,6 @@
       shape: "circle",
       dependencies: [
         "08DDE018A804BFE7",
-        "132777D37FD5E38B",
       ],
       id: "0F326EEEC2EBE4E5",
       tasks: [
@@ -1243,9 +1216,6 @@
       x: -8.5,
       y: -1.0,
       shape: "circle",
-      dependencies: [
-        "132777D37FD5E38B",
-      ],
       optional: true,
       invisible: true,
       id: "4A1C8125896F7F1A",
@@ -1267,7 +1237,6 @@
       shape: "diamond",
       dependencies: [
         "162CE44400A63575",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "4B35C01F5D0AAC58",
@@ -1276,8 +1245,11 @@
           id: "6E9280AEB3B1D973",
           type: "item",
           item: {
-            id: "alltheores:steel_ingot",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)",
+            },
           },
         },
       ],
@@ -1298,7 +1270,6 @@
       shape: "octagon",
       dependencies: [
         "4B35C01F5D0AAC58",
-        "132777D37FD5E38B",
       ],
       size: 2.0,
       id: "21D8B88155648EA6",
@@ -1344,7 +1315,6 @@
       y: -1.0,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "7ECA0633AF1AEC19",
@@ -1401,7 +1371,6 @@
       shape: "octagon",
       dependencies: [
         "166971866A9234C7",
-        "132777D37FD5E38B",
       ],
       size: 2.0,
       id: "4935209D870E25F2",
@@ -1447,7 +1416,6 @@
       dependencies: [
         "0498A578D0EC3254",
         "166971866A9234C7",
-        "132777D37FD5E38B",
       ],
       size: 1.5,
       id: "19341B01E048ACAB",
@@ -1514,7 +1482,6 @@
       shape: "square",
       dependencies: [
         "19341B01E048ACAB",
-        "132777D37FD5E38B",
       ],
       size: 1.5,
       id: "7C687DCF71D77761",
@@ -1587,7 +1554,6 @@
       shape: "square",
       dependencies: [
         "7C687DCF71D77761",
-        "132777D37FD5E38B",
       ],
       size: 1.5,
       id: "1AEFF93A398B8BBF",
@@ -1660,7 +1626,6 @@
       shape: "square",
       dependencies: [
         "1AEFF93A398B8BBF",
-        "132777D37FD5E38B",
       ],
       size: 1.5,
       id: "06210B6FD0F9989B",
@@ -1726,7 +1691,6 @@
       shape: "square",
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       id: "6263A27182B2CE3D",
       tasks: [
@@ -1764,7 +1728,6 @@
       dependencies: [
         "6263A27182B2CE3D",
         "08DDE018A804BFE7",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "33415CB421F7620A",
@@ -1806,7 +1769,6 @@
       shape: "square",
       dependencies: [
         "6263A27182B2CE3D",
-        "132777D37FD5E38B",
       ],
       id: "71CF9E59F8F0B4A6",
       tasks: [
@@ -1843,7 +1805,6 @@
       dependencies: [
         "71CF9E59F8F0B4A6",
         "33415CB421F7620A",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "27512B0434531195",
@@ -1895,7 +1856,6 @@
       y: -0.5,
       dependencies: [
         "71CF9E59F8F0B4A6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "566C1DBA9829E328",
@@ -1955,7 +1915,6 @@
       shape: "square",
       dependencies: [
         "71CF9E59F8F0B4A6",
-        "132777D37FD5E38B",
       ],
       id: "1ABD22AA58E093A6",
       tasks: [
@@ -1991,7 +1950,6 @@
       y: -3.5,
       dependencies: [
         "1ABD22AA58E093A6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "60B52705049D1BA5",
@@ -2044,7 +2002,6 @@
       y: -0.5,
       dependencies: [
         "1ABD22AA58E093A6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "6B8040401B512E50",
@@ -2097,7 +2054,6 @@
       y: -2.0,
       dependencies: [
         "1ABD22AA58E093A6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "602A6CF9D5B66AD3",
@@ -2151,7 +2107,6 @@
       y: 0.5,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "18783C62009934DB",
@@ -2203,7 +2158,6 @@
       y: -4.5,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "2A793B35FE25003C",
@@ -2254,7 +2208,6 @@
       y: -2.0,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "376532CD98D39781",
@@ -2297,7 +2250,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "71869B1D81D6A7EF",
@@ -2319,11 +2271,8 @@
           id: "6272571A549DAE05",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "alltheores:sulfur_dust",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "alltheores:sulfur",
-            },
           },
           count: 5,
         },
@@ -2352,7 +2301,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "603BEDD49070ECAD",
@@ -2410,7 +2358,6 @@
         "6B8040401B512E50",
         "08DDE018A804BFE7",
         "603BEDD49070ECAD",
-        "132777D37FD5E38B",
       ],
       size: 3.0,
       id: "7276892E129A739B",
@@ -2419,10 +2366,10 @@
           id: "0EEB2867C1D2D227",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbquests:missing_item": "alltheores:sulfur",
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/sulfur)",
             },
           },
         },
@@ -2432,11 +2379,8 @@
           id: "04E2FD578DBB2E16",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "alltheores:sulfur_dust",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "alltheores:sulfur",
-            },
           },
           count: 20,
         },
@@ -2448,7 +2392,6 @@
       shape: "rsquare",
       dependencies: [
         "4935209D870E25F2",
-        "132777D37FD5E38B",
       ],
       id: "62827AA1AD29A222",
       tasks: [
@@ -2497,7 +2440,6 @@
       shape: "rsquare",
       dependencies: [
         "4935209D870E25F2",
-        "132777D37FD5E38B",
       ],
       id: "0AA9EF3981E9BA37",
       tasks: [
@@ -2544,7 +2486,6 @@
       shape: "rsquare",
       dependencies: [
         "5E116409DC7D30BB",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "33C69B5934BE4D64",
@@ -2594,7 +2535,6 @@
       shape: "rsquare",
       dependencies: [
         "5E116409DC7D30BB",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "3AF1DC02E9A0010C",
@@ -2644,7 +2584,6 @@
       shape: "rsquare",
       dependencies: [
         "5E116409DC7D30BB",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "60ECCCAB66AAC05D",
@@ -2694,7 +2633,6 @@
       shape: "rsquare",
       dependencies: [
         "5E116409DC7D30BB",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "66A450CAC07232E1",
@@ -2744,7 +2682,6 @@
       hide_dependency_lines: true,
       dependencies: [
         "19341B01E048ACAB",
-        "132777D37FD5E38B",
       ],
       size: 1.1,
       id: "090B564935D7A8F5",
@@ -2792,7 +2729,6 @@
       y: -9.0,
       dependencies: [
         "3AF1DC02E9A0010C",
-        "132777D37FD5E38B",
       ],
       id: "1922623A26E08078",
       tasks: [
@@ -2837,7 +2773,6 @@
       y: -9.0,
       dependencies: [
         "33C69B5934BE4D64",
-        "132777D37FD5E38B",
       ],
       id: "7952DA35B4F5C598",
       tasks: [
@@ -2882,7 +2817,6 @@
       y: -9.0,
       dependencies: [
         "60ECCCAB66AAC05D",
-        "132777D37FD5E38B",
       ],
       id: "73E6878553BA6908",
       tasks: [
@@ -2930,7 +2864,6 @@
       y: -9.0,
       dependencies: [
         "66A450CAC07232E1",
-        "132777D37FD5E38B",
       ],
       id: "2D1CBCEC82F1B37D",
       tasks: [
@@ -2963,7 +2896,6 @@
       y: -9.0,
       dependencies: [
         "66A450CAC07232E1",
-        "132777D37FD5E38B",
       ],
       id: "21F3379C904BFD50",
       tasks: [
@@ -2998,7 +2930,6 @@
       y: -9.0,
       dependencies: [
         "60ECCCAB66AAC05D",
-        "132777D37FD5E38B",
       ],
       id: "1F8B4F648EB5A0DC",
       tasks: [
@@ -3035,7 +2966,6 @@
       hide_dependent_lines: true,
       dependencies: [
         "4935209D870E25F2",
-        "132777D37FD5E38B",
       ],
       id: "4274E777FB60BA28",
       tasks: [
@@ -3072,7 +3002,6 @@
       hide_dependency_lines: true,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "119BED334E331C25",
@@ -3133,7 +3062,6 @@
       hide_dependency_lines: true,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "445CC9AAA6F8AAB6",
@@ -3197,7 +3125,6 @@
       shape: "rsquare",
       dependencies: [
         "445CC9AAA6F8AAB6",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       min_width: 300,
@@ -3273,7 +3200,6 @@
       hide_dependency_lines: true,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "7485BCBE366501DF",
@@ -3361,7 +3287,6 @@
       dependencies: [
         "1922623A26E08078",
         "7952DA35B4F5C598",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "1796E08BBDC09B84",
@@ -3419,9 +3344,6 @@
     {
       x: 3.5,
       y: -9.5,
-      dependencies: [
-        "132777D37FD5E38B",
-      ],
       size: 1.25,
       id: "120572510F525930",
       tasks: [
@@ -3508,7 +3430,6 @@
       shape: "rsquare",
       dependencies: [
         "7485BCBE366501DF",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "0E175356D43E6A10",
@@ -3583,7 +3504,6 @@
       shape: "rsquare",
       dependencies: [
         "0E175356D43E6A10",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       min_width: 300,
@@ -3680,7 +3600,6 @@
       hide_dependency_lines: true,
       dependencies: [
         "21D8B88155648EA6",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       id: "75E4751F7A802A44",
@@ -3689,10 +3608,10 @@
           id: "7FCF6E8726BCC769",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbquests:missing_item": "alltheores:sulfur",
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/sulfur)",
             },
           },
         },
@@ -3757,11 +3676,8 @@
           id: "7422BD0EA8BA033D",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "alltheores:sulfur_dust",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "alltheores:sulfur",
-            },
           },
           count: 15,
         },
@@ -3778,7 +3694,6 @@
       shape: "rsquare",
       dependencies: [
         "75E4751F7A802A44",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       min_width: 300,
@@ -3854,7 +3769,6 @@
       shape: "rsquare",
       dependencies: [
         "77FB313845779AED",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       min_width: 300,
@@ -3967,7 +3881,6 @@
       shape: "rsquare",
       dependencies: [
         "6DC1E08D019FD543",
-        "132777D37FD5E38B",
       ],
       size: 1.25,
       min_width: 300,
@@ -4094,7 +4007,6 @@
       shape: "circle",
       dependencies: [
         "7AE502EDB73BD57A",
-        "132777D37FD5E38B",
       ],
       id: "081DC030A0546549",
       tasks: [
@@ -4131,7 +4043,6 @@
       shape: "diamond",
       dependencies: [
         "4274E777FB60BA28",
-        "132777D37FD5E38B",
       ],
       id: "041365A540BF5A03",
       tasks: [
@@ -4161,7 +4072,6 @@
       shape: "diamond",
       dependencies: [
         "4274E777FB60BA28",
-        "132777D37FD5E38B",
       ],
       id: "424B3E3B299D3999",
       tasks: [
@@ -4192,7 +4102,6 @@
       hide_dependency_lines: true,
       dependencies: [
         "7ECA0633AF1AEC19",
-        "132777D37FD5E38B",
       ],
       id: "24BA664B60E49461",
       tasks: [
@@ -4236,7 +4145,6 @@
         "081DC030A0546549",
         "71869B1D81D6A7EF",
         "603BEDD49070ECAD",
-        "132777D37FD5E38B",
       ],
       size: 1.2,
       id: "78DD2A3DFF6D1613",
@@ -4281,9 +4189,6 @@
     {
       x: 10.0,
       y: -6.5,
-      dependencies: [
-        "132777D37FD5E38B",
-      ],
       id: "01A90E2541C91DB2",
       tasks: [
         {
@@ -4333,7 +4238,6 @@
       dependencies: [
         "162CE44400A63575",
         "7AE502EDB73BD57A",
-        "132777D37FD5E38B",
       ],
       id: "5B556192F060F3F1",
       tasks: [
@@ -4379,7 +4283,6 @@
       shape: "diamond",
       dependencies: [
         "4274E777FB60BA28",
-        "132777D37FD5E38B",
       ],
       id: "2EA0C74AE7366656",
       tasks: [
@@ -4421,7 +4324,6 @@
       shape: "diamond",
       dependencies: [
         "4274E777FB60BA28",
-        "132777D37FD5E38B",
       ],
       id: "227E9783382527CA",
       tasks: [
@@ -4451,7 +4353,6 @@
       shape: "diamond",
       dependencies: [
         "4274E777FB60BA28",
-        "132777D37FD5E38B",
       ],
       id: "47E79DFD123BF617",
       tasks: [
@@ -4503,7 +4404,6 @@
       shape: "diamond",
       dependencies: [
         "4274E777FB60BA28",
-        "132777D37FD5E38B",
       ],
       id: "109310AF19AAC482",
       tasks: [
@@ -4544,7 +4444,6 @@
       shape: "diamond",
       dependencies: [
         "4274E777FB60BA28",
-        "132777D37FD5E38B",
       ],
       id: "4E7823C2FCEBE4DC",
       tasks: [
@@ -4584,7 +4483,6 @@
       dependencies: [
         "7AE502EDB73BD57A",
         "08DDE018A804BFE7",
-        "132777D37FD5E38B",
       ],
       dependency_requirement: "one_completed",
       id: "47F38E606AD3FF53",
@@ -4625,9 +4523,6 @@
     {
       x: 5.425000000000001,
       y: -7.600000000000001,
-      dependencies: [
-        "132777D37FD5E38B",
-      ],
       size: 1.25,
       id: "07084582F9562740",
       tasks: [
@@ -4719,18 +4614,6 @@
             count: 1,
           },
           count: 8,
-        },
-      ],
-    },
-    {
-      x: -10.5,
-      y: 0.5,
-      invisible: true,
-      id: "132777D37FD5E38B",
-      tasks: [
-        {
-          id: "425D65B826EEC11B",
-          type: "checkmark",
         },
       ],
     },

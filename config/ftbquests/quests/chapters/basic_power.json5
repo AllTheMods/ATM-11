@@ -53,8 +53,11 @@
           id: "39CEB20C5018F460",
           type: "item",
           item: {
-            id: "alltheores:uranium_ingot",
+            id: "ftbfiltersystem:smart_filter",
             count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/uranium)",
+            },
           },
         },
       ],
@@ -73,7 +76,6 @@
       hide_dependency_lines: false,
       dependencies: [
         "42D173B9FF8D16E4",
-        "6AC8B243B15A311B",
       ],
       id: "48DC9E8E9D21A2FA",
       tasks: [
@@ -108,7 +110,6 @@
       shape: "rsquare",
       dependencies: [
         "42D173B9FF8D16E4",
-        "6AC8B243B15A311B",
       ],
       id: "11D09E918015355C",
       tasks: [
@@ -248,7 +249,6 @@
       shape: "rsquare",
       dependencies: [
         "1F81EA5E45424308",
-        "6AC8B243B15A311B",
       ],
       id: "5C47935A3B2877FF",
       tasks: [
@@ -297,7 +297,6 @@
       shape: "hexagon",
       dependencies: [
         "4AB0DD227471FDBF",
-        "6AC8B243B15A311B",
       ],
       size: 1.5,
       id: "1F81EA5E45424308",
@@ -325,7 +324,6 @@
       shape: "rsquare",
       dependencies: [
         "1F81EA5E45424308",
-        "6AC8B243B15A311B",
       ],
       id: "7FE969CB4B419FC6",
       tasks: [
@@ -398,7 +396,6 @@
       shape: "rsquare",
       dependencies: [
         "76EA017B12E8F01B",
-        "6AC8B243B15A311B",
       ],
       id: "477B411F84342EEA",
       tasks: [
@@ -541,7 +538,6 @@
       shape: "rsquare",
       dependencies: [
         "5E41363F9AE243F3",
-        "6AC8B243B15A311B",
       ],
       min_width: 300,
       id: "0AEC181F5E21A299",
@@ -670,7 +666,6 @@
       shape: "gear",
       dependencies: [
         "477B411F84342EEA",
-        "6AC8B243B15A311B",
       ],
       size: 1.5,
       min_width: 250,
@@ -1149,7 +1144,6 @@
       shape: "rsquare",
       dependencies: [
         "3BDB94F17765EE77",
-        "6AC8B243B15A311B",
       ],
       id: "43D83CFA824B0A70",
       tasks: [
