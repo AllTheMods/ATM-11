@@ -34,6 +34,16 @@ $ServerEvents.recipes((allthemods) -> {
       ])
       .id("allthemods:immersive/crushing/awakened_draconium_dust")
 
+  if ($Platform.isLoaded("mekanism")) {
+    allthemods
+        .custom([
+            type  : "mekanism:crushing",
+            input : [count: 1, ingredient: "draconicevolution:awakened_draconium_ingot"],
+            output: [id: "draconicevolution:awakened_draconium_dust"]
+        ])
+        .id("allthemods:mekanism/crushing/awakened_draconium_dust")
+  }
+
   allthemods
       .custom([
           type          : "create:crushing",
@@ -58,4 +68,13 @@ $ServerEvents.recipes((allthemods) -> {
       ])
       .id("allthemods:immersive/crushing/draconium_dust")
 
+  if ($Platform.isLoaded("mekanism")) {
+    allthemods
+        .custom([
+            type  : "mekanism:crushing",
+            input : [count: 1, ingredient: "draconicevolution:draconium_ingot"],
+            output: [id: "draconicevolution:draconium_dust"]
+        ])
+        .id("allthemods:mekanism/crushing/draconium_dust")
+  }
 })

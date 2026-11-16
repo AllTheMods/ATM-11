@@ -6,6 +6,6 @@
 // requires mekanism
 package server_scripts.tags
 
-// $ServerEvents.tags("entity_type", (allthemods) -> {
-//   allthemods.add("kubegroovy:entity_blacklist", "mekanism:robit")
-// })
+$ServerEvents.tags("entity_type", (allthemods) -> {
+  allthemods.add("kubegroovy:entity_blacklist", "mekanism:robit")
+})

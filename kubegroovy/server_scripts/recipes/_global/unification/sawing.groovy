@@ -53,7 +53,7 @@ $ServerEvents.recipes((allthemods) -> {
     }
     def recipe = [
         type            : "mekanism:sawing",
-        input           : input,
+        input           : [count: 1, ingredient: input],
         main_output     : output,
         secondary_chance: extraOutput.chance,
         secondary_output: $Item.of(extraOutput.item)
@@ -93,14 +93,14 @@ $ServerEvents.recipes((allthemods) -> {
       return
     }
 
-    // if ($Platform.isLoaded("mekanism")) {
-    //   mekSawing(
-    //       output.withCount(6),
-    //       firstIngredient,
-    //       [chance: 0.25, item: "mekanism:sawdust"],
-    //       recipe.getId().split(":")[0] + "/" + recipe.getId().split(":")[1]
-    //   )
-    // }
+    if ($Platform.isLoaded("mekanism")) {
+      mekSawing(
+          output.withCount(6),
+          firstIngredient,
+          [chance: 0.25, item: "mekanism:sawdust"],
+          recipe.getId().split(":")[0] + "/" + recipe.getId().split(":")[1]
+      )
+    }
     if ($Platform.isLoaded("productivetrees")) {
       prodSawing(
           firstIngredient,
