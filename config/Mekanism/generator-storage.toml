@@ -1,0 +1,5 @@
+heatGenerator = 64000
+bioGenerator = 64000
+solarGenerator = 38400
+advancedSolarGenerator = 1000000
+windGenerator = 80000

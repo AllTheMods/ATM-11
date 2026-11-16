@@ -1,0 +1,26 @@
+
+[energy_cubes]
+basicCapacity = 1600000
+basicOutput = 1600
+advancedCapacity = 6400000
+advancedOutput = 6400
+eliteCapacity = 25600000
+eliteOutput = 25600
+ultimateCapacity = 102400000
+ultimateOutput = 102400
+
+[induction]
+basicCapacity = 3200000000
+advancedCapacity = 25600000000
+eliteCapacity = 204800000000
+ultimateCapacity = 1600000000000
+basicOutput = 102400
+advancedOutput = 819200
+eliteOutput = 6553600
+ultimateOutput = 52428800
+
+[transmitters.energy]
+basicCapacity = 3200
+advancedCapacity = 51200
+eliteCapacity = 409600
+ultimateCapacity = 3276800

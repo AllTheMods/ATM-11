@@ -1,0 +1,37 @@
+enrichmentChamber = 20
+osmiumCompressor = 40
+combiner = 20
+crusher = 20
+metallurgicInfuser = 20
+purificationChamber = 80
+energizedSmelter = 20
+digitalMiner = 400
+electricPump = 40
+chargepad = 409600
+rotaryCondensentrator = 20
+chemicalOxidizer = 80
+chemicalInfuser = 80
+chemicalInjectionChamber = 160
+precisionSawmill = 20
+chemicalDissolutionChamber = 160
+chemicalWasher = 80
+chemicalCrystallizer = 160
+seismicVibrator = 20
+pressurizedReactionBase = 2
+fluidicPlenisher = 40
+laser = 20000
+formulaicAssemblicator = 40
+modificationStation = 160
+isotopicCentrifuge = 80
+nutritionalLiquifier = 80
+antiprotonicNucleosynthesizer = 40000
+pigmentExtractor = 80
+pigmentMixer = 80
+paintingMachine = 40
+dimensionalStabilizer = 2000
+randomizedConsumption = false
+
+[teleporter]
+base = 400
+distance = 4
+dimensionPenalty = 4000

@@ -1,0 +1,43 @@
+
+[solar_generator]
+solarGeneration = 60
+advancedSolarGeneration = 480
+
+[wind_generator]
+generationMin = 60
+generationMax = 360
+
+[gas_generator]
+tankCapacity = 18000
+
+[fission_reactor]
+energyPerFissionFuel = 250000
+
+[fusion_reactor]
+thermocoupleEfficiency = 0.04
+casingThermalConductivity = 0.333333333
+waterHeatingRatio = 0.27272727272727
+fuelCapacity = 500
+energyCapacity = 400000000
+
+[turbine]
+bladesPerCoil = 8
+ventChemicalFlow = 43478.262
+disperserChemicalFlow = 1280.0
+condenserRate = 128000
+energyCapacityPerVolume = 6400000
+chemicalPerTank = 6400
+joulesPerSteam = 10
+steamDivisor = 1
+
+[bio_generator]
+bioGeneration = 140
+bioFuelPerItem = 200
+tankCapacity = 24000
+
+[heat_generator]
+heatGeneration = 800
+heatGenerationLava = 30
+heatGenerationNether = 100
+tankCapacity = 24000
+heatGenerationFluidRate = 10

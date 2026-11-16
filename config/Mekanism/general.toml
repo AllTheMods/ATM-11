@@ -1,0 +1,27 @@
+maxUpgradeMultiplier = 16
+maxSolarNeutronActivatorRate = 256
+
+[sps]
+energyPerInput = 40000
+
+[heater]
+resistiveEfficiency = 0.6
+
+[radiation]
+sourceDecayRate = 0.9975
+targetDecayRate = 0.9975
+wasteBarrelProcessTicks = 10
+wasteBarrelDecayAmount = 2
+
+[pump]
+heavyWaterAmount = 50
+
+[thermal_evaporation]
+tempMultiplier = 1.85
+heatCapacity = 600.0
+
+[boiler]
+waterPerTank = 32000
+steamPerTank = 320000
+heatedCoolantPerTank = 512000
+cooledCoolantPerTank = 512000

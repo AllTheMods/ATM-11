@@ -1,0 +1,115 @@
+
+[atomic_disassembler]
+maxEnergy = 400000
+chargeRate = 2000
+energyUsage = 4
+energyUsageWeapon = 800
+minDamage = 4
+maxDamage = 20
+attackSpeed = -2.4
+slowMode = true
+fastMode = true
+veinMining = false
+miningCount = 128
+
+[electric_bow]
+maxEnergy = 48000
+chargeRate = 240
+energyUsage = 48
+energyUsageFlame = 480
+
+[energy_tablet]
+maxEnergy = 400000
+chargeRate = 2000
+
+[gauge_dropper]
+capacity = 16000
+transferRate = 250
+
+[flamethrower]
+capacity = 24000
+fillRate = 16
+destroyItems = true
+
+[free_runner]
+maxEnergy = 25600
+chargeRate = 128
+fallEnergyCost = 20
+fallDamageReductionRatio = 1.0
+
+[jetpack]
+capacity = 24000
+fillRate = 16
+
+[network_reader]
+maxEnergy = 24000
+chargeRate = 120
+energyUsage = 160
+
+[portable_teleporter]
+maxEnergy = 400000
+chargeRate = 2000
+delay = 0
+
+[scuba_tank]
+capacity = 24000
+fillRate = 16
+
+[seismic_reader]
+maxEnergy = 4800
+chargeRate = 24
+energyUsage = 100
+
+[canteen]
+maxStorage = 64000
+transferRate = 128
+
+[mekatool]
+baseEnergyCapacity = 16000000
+chargeRate = 80000
+baseDamage = 24
+attackSpeed = -0.8
+baseEfficiency = 4.0
+extendedMining = true
+maxTeleportReach = 100
+
+[mekatool.energy_usage]
+base = 20
+silk = 200
+weapon = 1600
+hoe = 20
+shovel = 20
+axe = 20
+shearEntity = 20
+shearTrim = 20
+teleport = 1000
+
+[mekasuit]
+baseEnergyCapacity = 16000000
+chargeRate = 80000
+inventoryChargeRate = 4000
+solarRechargingRate = 600
+gravitationalVibrations = true
+nutritionalMaxStorage = 128000
+nutritionalTransferRate = 256
+jetpackMaxStorage = 24000
+jetpackTransferRate = 256
+
+[mekasuit.energy_usage]
+damage = 100000
+magicReduce = 1000
+fall = 100
+jump = 800
+elytra = 12800
+energyUsagePotionTick = 32000
+sprintBoost = 100
+gravitationalModulation = 400
+visionEnhancement = 200
+hydrostaticRepulsion = 200
+nutritionalInjection = 8000
+itemAttraction = 100
+
+[mekasuit.damage_absorption]
+fallDamageReductionRatio = 1.0
+magicDamageReductionRatio = 1.0
+unspecifiedDamageReductionRatio = 1.0

@@ -1,0 +1,6 @@
+
+[mekasuit]
+geothermalChargingRate = 4
+
+[mekasuit.damage_absorption]
+heatDamageReductionRatio = 0.8
