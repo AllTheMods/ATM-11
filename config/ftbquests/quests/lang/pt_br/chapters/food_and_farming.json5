@@ -4,13 +4,13 @@
   "quest.28C9EDBF6607E180.quest_desc": [
     "Este bloco faz parte de uma cozinha multi-bloco.\n\nIsso mostrará todas as receitas que estão disponíveis para você com a comida que você tem em seu inventário, ou armazenada no multi-bloco da cozinha.\n\nVocê pode finalmente criar uma cozinha bonita no Minecraft.",
   ],
-  "quest.5A1DCD6C7F712A78.title": "Vara de Pesca de Neptunium",
+  "quest.5A1DCD6C7F712A78.title": "Vara de Pesca de Neptúnio",
   "quest.47764EFC822E462A.quest_subtitle": "Poderes de ordenha fenomenais....espacinho de vida minúsculo",
   "quest.1DCAA0310AA55F1C.quest_subtitle": "Willy ficaria orgulhoso",
   "quest.58495CFBF4F20CE9.quest_desc": [
     "Isto funciona como a bancada da cozinha, exceto que no ar.\n\nE você não pode colocar coisas em cima.",
   ],
-  "quest.43021923E220CF68.title": "O Planter",
+  "quest.43021923E220CF68.title": "O Plantador",
   "quest.28C9EDBF6607E180.title": "A MELHOR COISA DESDE O PÃO FATIADO",
   "quest.73B8A70240E6070E.title": "Ordenhar uma Vaca - Lucro",
   "quest.1F114EB0AAB86DB4.title": "Comprando Suprimentos Agrícolas",
@@ -20,7 +20,7 @@
   "quest.1827DEEA2DF1B144.title": "Comida e Agricultura",
   "task.669DEA201002793D.title": "Geladeiras",
   "quest.43021923E220CF68.quest_desc": [
-    "Para arar Terra e transformá-la em Farmland, você precisará de uma Hoe.",
+    "Para arar Terra e transformá-la em Terra Arada, você precisará de uma Enxada.",
   ],
   "quest.1D48298525EEADC9.quest_subtitle": "Jogue um pouco de Açúcar em mim!",
   "quest.1D48298525EEADC9.title": "Você é tão doce",
@@ -42,7 +42,7 @@
   "quest.1697CC05D08B388D.title": "As Galinhas Devem Partir",
   "quest.04D0543FE2820F64.title": "Fio de Linho",
   "quest.1827DEEA2DF1B144.quest_desc": [
-    "Bem-vindo ao capítulo de Food and Farming!\n\nAqui, você encontrará diferentes maneiras de cultivar e fazer comida!",
+    "Bem-vindo(a) ao capítulo de Comida e Agricultura!\n\nAqui, você encontrará diferentes maneiras de cultivar e fazer comida!",
   ],
   "task.323A434E1AF54408.title": "Enxadas",
   "quest.1D2EF12FD7FDD217.quest_desc": [
@@ -55,7 +55,7 @@
   "quest.0A1C2A7A8617D3E4.title": "Trigo",
   "quest.511562EA5811306B.title": "Vara de Pesca de Diamante",
   "quest.47764EFC822E462A.quest_desc": [
-    "Este bloco produz leite ao longo do tempo e habilita receitas de leite para a multiblock da cozinha.\n\nPara colocar uma vaca no frasco, coloque o frasco em um buraco. Atraia a vaca para cair no referido buraco acima do frasco, depois jogue uma bigorna nela.\n\nNão faço ideia do que este vidro é feito, mas é mais forte que meu relacionamento com a Galinha.",
+    "Este bloco produz leite ao longo do tempo e habilita receitas de leite para a multi-bloco da cozinha.\n\nPara colocar uma vaca no frasco, coloque o frasco em um buraco. Atraia a vaca para cair no referido buraco acima do frasco, depois jogue uma bigorna nela.\n\nNão faço ideia do que este vidro é feito, mas é mais forte que meu relacionamento com a Galinha.",
   ],
   "quest.635620A03E3505BF.quest_subtitle": "Mas... Vacas não podem ser tosquiadas...",
   "quest.2E9C035EEE7E5C34.quest_subtitle": "Vamos lá, cachorrinho",
@@ -91,16 +91,16 @@
   "quest.1F114EB0AAB86DB4.quest_subtitle": "O Aldeão tem mais de uma maneira de Nascer",
   "quest.2786D5AC19163524.quest_subtitle": "Não precisa de temporizador",
   "quest.2E9C035EEE7E5C34.quest_desc": [
-    "O clássico Laço. Use isso para levar animais para sua área de fazenda.\n\nIsso não é a mesma coisa que o minério (lead).",
+    "A clássica Coleira. Use isso para levar animais para sua área de fazenda.\n\nIsso não é a mesma coisa que o minério (lead).",
   ],
   "quest.1697CC05D08B388D.quest_subtitle": "Delicioso Frango Frito!",
   "quest.04D0543FE2820F64.quest_subtitle": "Quem precisa de Aranhas, afinal?",
   "quest.73B8A70240E6070E.quest_subtitle": "Por que não há Touros no jogo?",
   "quest.37CA6F9F0226F10E.quest_desc": [
-    "Este bloco armazena itens para cozinhar.\n\nVocê também pode colocar outros itens de multibloco de cozinha nele, como torradeiras e uma Vaca em um Pote.",
+    "Este bloco armazena itens para cozinhar.\n\nVocê também pode colocar outros itens de multi-bloco de cozinha nele, como torradeiras e uma Vaca na Jarra.",
   ],
   "task.1D8904E53906D972.title": "TodosOsDireitosReservados",
-  "quest.16D0F1E3CEB60ABF.title": "Vara de Pescar de Ferro",
+  "quest.16D0F1E3CEB60ABF.title": "Vara de Pesca de Ferro",
   "quest.45F83C2750F70F9B.quest_subtitle": "Totalmente não vai pegar fogo...",
   "quest.43021923E220CF68.quest_subtitle": "Espere até ter Máquinas para isso...",
   "quest.1D2EF12FD7FDD217.quest_subtitle": "...ou será que estou?",
@@ -111,7 +111,7 @@
   "quest.45F83C2750F70F9B.quest_desc": [
     "Vá em frente, coloque um Livro em uma Fornalha e derreta-o.",
   ],
-  "quest.0A64D0937A5F7513.title": "Vara de Pescar de Ouro",
+  "quest.0A64D0937A5F7513.title": "Vara de Pesca de Ouro",
   "quest.13AFCD3B6F62B986.quest_subtitle": "Gelo, gelo, neném!",
   "quest.1515B32545F51266.quest_desc": [
     "Permite que você conecte energia ao Fogão.",
@@ -128,7 +128,7 @@
   "quest.361DFDB1E1352D6B.title": "Açúcar, Açúcar",
   "quest.0893EFCAC7031FEA.quest_subtitle": "Tenha seu Bolo e Coma-o Também",
   "quest.04D0543FE2820F64.quest_desc": [
-    "A Fio de Linho pode ser usada no lugar da Linha normal.",
+    "O Fio de Linho pode ser usada no lugar da Linha normal.",
   ],
   "quest.1DCAA0310AA55F1C.quest_desc": [
     "Mas ele geralmente fecha às 5, então quem se importa?",
@@ -141,7 +141,7 @@
   "quest.1515B32545F51266.title": "Melhoria de Aquecimento",
   "task.7F08D4E77359BF4A.title": "Lã",
   "quest.635620A03E3505BF.title": "Couro",
-  "quest.47764EFC822E462A.title": "Uma Vaca em um Frasco",
+  "quest.47764EFC822E462A.title": "Uma Vaca na Jarra",
   "quest.0893EFCAC7031FEA.quest_desc": [
     "Hora de fazer um bolo, se você tiver leite e ovos prontos.",
   ],

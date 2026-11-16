@@ -3,7 +3,7 @@
   "quest.0752B5D72A823293.quest_desc": [
     "Um foguete básico leva a gente até a órbita e é isso. O que transforma ele numa nave de verdade são os módulos: você instala na aba Melhoria e eles ficam no foguete entre pousos e reformas.",
     "",
-    "&6Módulo de Carga:&r o porão cresce de 1 para 3 fileiras. &6Piloto Automático:&r define o destino no próprio módulo e a nave voa sozinha, e o módulo de pouso para de abrir crateras. &6Motor a Hidrogênio:&r troca o motor de Combustível para Hidrogênio (esvazie o tanque antes). &6Módulo de Escudo:&r escudos térmicos no casco.",
+    "&6Módulo de Carga:&r o porão cresce de 1 para 3 fileiras. &6Módulo de Piloto Automático:&r define o destino no próprio módulo e a nave voa sozinha, e o módulo de pouso para de abrir crateras. &6Motor a Hidrogênio:&r troca o motor de Combustível para Hidrogênio (esvazie o tanque antes). &6Módulo de Escudo:&r escudos térmicos no casco.",
     "",
     "A maioria dos módulos é fabricada com desh, um metal lunar, ou encontrada nos baús da Esfera Lunar. A gente volta a essa prateleira depois do primeiro pouso.",
   ],
@@ -48,19 +48,19 @@
   "quest.1A84E9EE32AD3A1A.title": "O Cômodo que Respira",
   "quest.29DD1B7695C09410.title": "Vestindo para o Vácuo",
   "quest.2CACC7F66C876699.quest_desc": [
-    "O bioma &6Lago azul lunar&r acumula um fluido que definitivamente não é água: o &6Líquido Azul&r. Cardumes de &6Peixe Azul&r nadam nele tranquilos, de três a sete por vez, e não existem em nenhum outro lugar.",
+    "O bioma &6Lago Azul Lunar&r acumula um fluido que definitivamente não é água: o &6Líquido Azul&r. Cardumes de &6Peixe Azul&r nadam nele tranquilos, de três a sete por vez, e não existem em nenhum outro lugar.",
     "",
     "Recolha um pouco do líquido enquanto estiver aqui; um lago estranho desses vale um balde de amostra. Os peixes soltam &6Plasma Azul&r, ingrediente da vacina e o coração do Painel de Luz Estelar. Traga um plasma agora.",
   ],
   "quest.4CD31646E6B7D364.quest_desc": [
-    "A &6Bomba de água&r vai &lexatamente em cima&r de um bloco de água fonte. Não ao lado, não embaixo. A cada ciclo ela engole a fonte, guarda 1.000 mB e empurra a água pela face de cima pra um tubo.",
+    "A &6Bomba de Água&r vai &lexatamente em cima&r de um bloco de água fonte. Não ao lado, não embaixo. A cada ciclo ela engole a fonte, guarda 1.000 mB e empurra a água pela face de cima pra um tubo.",
     "",
     "Como a fonte é consumida, monte a bomba sobre uma nascente infinita pra água voltar e ela nunca secar. Custa 1.500 FE a cada 1.000 mB bombeados.",
   ],
   "quest.229852EBBD2B964A.title": "Aprendendo a Voar",
   "quest.4D35E1719A092E9E.title": "Soltando o Manche",
   "quest.374FC20CBAA68FAB.quest_desc": [
-    "Este capítulo usa progressão &lFlexível&r: as suas tarefas acumulam progresso antes mesmo de a missão desbloquear, mas ela só é concluída quando os pré-requisitos estiverem prontos.",
+    "Este capítulo usa progressão &2&lFlexível&r: as suas tarefas acumulam progresso antes mesmo de a missão desbloquear, mas ela só é concluída quando os pré-requisitos estiverem prontos.",
     "",
     "As missões fora do caminho principal são &bopcionais&r. Elas rendem mais história do que recursos, e nada adiante fica esperando por elas.",
     "",
@@ -91,11 +91,11 @@
   "quest.46C06EC4085C06DA.title": "Ar pelo Corredor",
   "quest.2FC0E94A3C2F4AD7.quest_subtitle": "Vamos lá!",
   "quest.16BF6F4CD96CDA92.quest_desc": [
-    "O Tablet é o manual que a Companhia entrega pra cada tripulação. Fabrique um com pepitas de titânio, uma placa de vidro e um lingote de titânio, e abra com o botão direito.",
+    "O Tabulete é o manual que a Companhia entrega pra cada tripulação. Fabrique um com pepitas de titânio, uma placa de vidro e um lingote de titânio, e abra com o botão direito.",
     "",
     "Lá dentro tem a &6Wiki&r completa de cada máquina e criatura, um leitor de &6Cartões SD&r com os registros que as missões anteriores deixaram, o app &6Planetas&r com dados de gravidade e atmosfera, e &6Estatísticas&r da missão.",
     "",
-    "Agache e clique num bloco, ou solte um item sobre o tablet no inventário, e ele pula direto pra página. Na dúvida, consulte.",
+    "Agache e clique num bloco, ou solte um item sobre o Tabulete no inventário, e ele pula direto pra página. Na dúvida, consulte.",
   ],
   "quest.6CF267EBB35D9A3E.quest_desc": [
     "O programa antes do nosso deixou equipamento pela Terra inteira: &6satélites&r caídos e &6bases de operação&r que comandavam a quarentena. O livro marca um satélite nesta missão; as bases são exploração extra. Os baús guardam cartões SD, registros de rastreamento, diretrizes de comando, até as requisições dos carregamentos de mel que ninguém entendia.",
@@ -189,7 +189,7 @@
   ],
   "quest.169C28DB19A26128.title": "Aterrissar é a Parte Difícil",
   "quest.52DD11B192F6C7D9.quest_desc": [
-    "A Lua não é uma paisagem só, são cinco: o Deserto Lunar, as Crateras Lunares onde fica a maioria das ruínas, a Floresta Lunar, a Floresta Queimada marcada pelo fogo, e o estranho Lago azul lunar.",
+    "A Lua não é uma paisagem só, são cinco: o Deserto Lunar, as Crateras Lunares onde fica a maioria das ruínas, a Floresta Lunar, a Floresta Queimada marcada pelo fogo, e o estranho Lago Azul Lunar.",
     "",
     "Caminhe até pisar na floresta e no campo de crateras. A floresta tem bicho próprio, e nenhum é amigável depois de escurecer.",
   ],
@@ -202,7 +202,7 @@
   "quest.56240DD5B0414A39.quest_desc": [
     "A Lua não é vazia. A superfície, os lagos e as ruínas têm moradores. Alguns inofensivos, outros nem tanto.",
     "",
-    "A &6Wiki&r do tablet tem uma seção de Mobs com um render 3D de cada um; consulte antes de sair brigando. A fileira de caçadas abaixo cobre os que você vai encontrar de verdade.",
+    "A &6Wiki&r do Tabulete tem uma seção de Criaturas com um render 3D de cada um; consulte antes de sair brigando. A fileira de caçadas abaixo cobre os que você vai encontrar de verdade.",
   ],
   "quest.5D73AFF145322C4D.quest_desc": [
     "Posicione a &6Plataforma de Lançamento de Foguetes&r e a estrutura 3x3 inteira se monta de uma vez; quebre o centro e ela desmonta de volta.",
@@ -216,7 +216,7 @@
   "quest.287BA93731FEC83F.quest_desc": [
     "Rode as análises até desbloquear o estágio 4, que é quando a pesquisa revela o último ingrediente da vacina. Prepare-se pra queimar várias células cheias; cada estágio consome centenas de parasitas.",
     "",
-    "Cada estágio também te entrega um cartão SD. Os cartões do laboratório contam a história do programa de vacinas melhor que qualquer briefing, então leia eles no tablet entre uma rodada e outra.",
+    "Cada estágio também te entrega um cartão SD. Os cartões do laboratório contam a história do programa de vacinas melhor que qualquer briefing, então leia-os no Tabulete entre uma rodada e outra.",
   ],
   "quest.36862D1C576AB952.quest_subtitle": "Relatório de missão",
   "quest.42AE42F63D04D8C7.quest_desc": [
@@ -462,7 +462,7 @@
   "quest.1F01BFA19F649CB9.title": "Um Marco no Espaço",
   "quest.79CFFAB71C2DE2E3.quest_subtitle": "Só existe aqui",
   "quest.36A23E238E3B1C77.quest_desc": [
-    "Os &6Peixes Azuis&r nadam no bioma Lago azul lunar e em nenhum outro lugar: nadadores pacíficos, em cardumes de três a sete.",
+    "Os &6Peixes Azuis&r nadam no bioma Lago Azul Lunar e em nenhum outro lugar: nadadores pacíficos, em cardumes de três a sete.",
     "",
     "Eles soltam &6Plasma Azul&r, ingrediente da vacina e o coração do Painel de Luz Estelar. Aproveite a visita e colete alguns.",
   ],
@@ -508,7 +508,7 @@
     "",
     "Dois assentos, uma fileira de carga e embalo suficiente pra machucar o que atropela. Agache e bata no Rover vazio pra recolher ele; ele guarda combustível e módulos, mas derruba a carga.",
     "",
-    "Os módulos dele saem dos baús da Esfera Lunar: dobrador de tanque, módulo de velocidade, além do módulo de carga e do motor a hidrogênio que divide com o foguete.",
+    "Os módulos dele saem dos baús da Esfera Lunar: módulo de tanque do Rover, módulo de velocidade do Rover, além do módulo de carga e do motor a hidrogênio que divide com o foguete.",
   ],
   "quest.6522EC06CDD60743.quest_desc": [
     "As latas vazias vêm nas dezesseis cores e dá pra repintar depois, então a cozinha pode seguir um código: verde pra vegetais, vermelho pra carne, o que mantiver a tripulação honesta.",
@@ -544,7 +544,7 @@
     "",
     "Pegue um tronco pra coleção. Aliás, um barco lunar flutua nos lagos azuis sem problema nenhum.",
   ],
-  "quest.513992733EAB2CB4.title": "A Aba de Upgrades",
+  "quest.513992733EAB2CB4.title": "A Aba de Melhorias",
   "quest.67B4306849958734.title": "Turbinando o Rover",
   "quest.36862D1C576AB952.quest_desc": [
     "Releia o balanço: poços de petróleo mapeados, combustível refinado, uma nave montada e voada, dois mundos visitados, uma estação erguida em órbita, o coração do laboratório profundo silenciado, e a infecção respondida com uma vacina.",
@@ -568,7 +568,7 @@
   "quest.36E29BBF361EF35B.quest_desc": [
     "A última tripulação deixou a história dela nos baús: &6Cartões SD&r com ordens de evacuação, diários de pesquisa, memórias de colonos e registros de caixa-preta. Satélites e bases de operação na Terra, meteoritos, e na Lua as vilas, a esfera, as masmorras e as estações mortas.",
     "",
-    "Leia eles no Leitor de Cartões SD do tablet; em ordem eles contam o que de fato aconteceu aqui. Os estágios de pesquisa do laboratório também pagam um por sucesso, se você preferir o caminho do arquivo.",
+    "Leia eles no Leitor de Cartões SD do Tabulete; em ordem eles contam o que de fato aconteceu aqui. Os estágios de pesquisa do laboratório também pagam um por sucesso, se você preferir o caminho do arquivo.",
   ],
   "quest.7778B652D37F72FD.title": "A Esfera",
   "quest.28F3CBE539F1DD72.title": "O Laboratório Profundo",
@@ -584,7 +584,7 @@
   "quest.1AC6C0AFAEAF8E2C.title": "Fruto das Trepadeiras",
   "quest.52860AE90D8D294A.title": "Um Pequeno Passo",
   "quest.5DB0AEE06DE7C6FF.quest_desc": [
-    "Máquinas a mais de um bloco do gerador também querem energia. Os &6Cabo&r levam ela, até 300 FE por tick, entre tudo que tiver reserva.",
+    "Máquinas a mais de um bloco do gerador também querem energia. Os &6Cabos&r levam ela, até 300 FE por tick, entre tudo que tiver reserva.",
     "",
     "Duas regras pra memorizar: cabo transporta energia, nunca fluido; e cada máquina guarda a própria reserva, então segue rodando um tempo depois de você cortar o fio. Fabrique oito agora.",
     "",
@@ -606,7 +606,7 @@
     "{image:atm:textures/questpics/stellaris/fuel_refinery.png width:160 height:160 align:center}",
   ],
   "quest.03A014D7C04B8F3E.quest_desc": [
-    "Dois quartzos e um carvão no Liquidificador viram três &6Silício&r. É o chip dentro de tudo que a Companhia fabrica de inteligente: o tablet, o localizador de petróleo, a antena, a estação de engenharia.",
+    "Dois quartzos e um carvão no Liquidificador viram três Silícios. É o chip dentro de tudo que a Companhia fabrica de inteligente: o Tabulete, o localizador de petróleo, a antena, a estação de engenharia.",
     "",
     "Produza nove agora; a próxima máquina já quer a parte dela. Mais tarde, na Lua, poeira de rocha vira silício do mesmo jeito.",
   ],
@@ -621,7 +621,7 @@
   "quest.79CFFAB71C2DE2E3.quest_desc": [
     "&6Desh&r é a razão de a Lua importar: um metal raro que não se forma &lem nenhum outro lugar da galáxia&r, escondido abaixo de Y=32 na rocha lunar.",
     "",
-    "Extraia ele como Desh Bruto e funda ou torre como titânio. As lingotes vão pra prateleira de cima do programa: módulos de foguete, o manipulador de gravidade, projetos de estação, os melhores painéis geradores.",
+    "Extraia ele como Desh Bruto e funde ou vai ao alto-forno como titânio. Os lingotes vão pra prateleira de cima do programa: módulos de foguete, o manipulador de gravidade, projetos de estação, os melhores painéis geradores.",
     "",
     "Traga quatro pedaços agora, e lembra desse minério quando a lista de materiais da estação chegar.",
   ],

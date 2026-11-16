@@ -25,7 +25,7 @@
   "quest.3E16CF590C911129.title": "Gerando Pressão",
   "task.49A8320F9EA7F4BD.title": "Automação de Ferro Comprimido",
   "quest.230463E830D6FFEB.quest_desc": [
-    "Agora que temos plástico, o próximo passo é obter alguns PCBs finalizados, primeiro faça alguns &3PCBs Vazios&r na Pressure Chamber.",
+    "Agora que temos plástico, o próximo passo é obter alguns PCIs finalizados, primeiro faça alguns &3PCIs Vazios&r na Câmara de Pressão.",
   ],
   "quest.0D5015B8FF482D0A.quest_subtitle": "Será que eles têm entrega em 1 dia?",
   "quest.495DCA49B4E80852.quest_desc": [
@@ -35,7 +35,7 @@
   "quest.7D81F2381516204D.title": "Transistores",
   "quest.0D2F5CC96269F9E3.quest_subtitle": "É Hora da Corrosão!",
   "quest.2CC56A4F06E53307.title": "Carregando com UVs",
-  "quest.3334D15766A47A46.title": "Automatizando PCBs",
+  "quest.3334D15766A47A46.title": "Automatizando PCIs",
   "quest.5A0860631323B5E3.quest_desc": [
     "Feito com &3Farinha de Trigo&r. Pode ser usado para fazer Tempura de Salmão e Pão de Fermentação Natural.",
   ],
@@ -59,10 +59,10 @@
   "quest.54169B69725C49DF.quest_subtitle": "Finalmente!",
   "quest.122EDEC12C9A05D2.title": "Prevenindo Explosões?",
   "quest.2801B7B6BF61E978.quest_desc": [
-    "O &3Querosene&r pode ser usado para fazer Gasolina ou como combustível em uma Lâmpada de Querosene.",
+    "O &3Querosene&r pode ser usado para fazer Gasolina ou como combustível em uma Lampião a Querosene.",
   ],
   "quest.762B8309E1A31B99.quest_desc": [
-    "Cada upgrade adiciona +0.5 de Defesa de Armadura e +1 de Tenacidade de Armadura.",
+    "Cada upgrade adiciona +0.5 de Defesa de Armadura e +1 de Resistência da Armadura.",
   ],
   "quest.1427B3AB09510D20.quest_subtitle": "Você conseguiu!",
   "quest.0D31CD79BE6CC8D2.title": "Fermento",
@@ -78,7 +78,7 @@
   ],
   "quest.5E71F8A046C60346.title": "Gerando Energia",
   "quest.26BEA64C80ECE1A6.quest_desc": [
-    "Cada &3Estrutura Logística (Logistic Frame)&r pode ser usada para diferentes tipos de automação.",
+    "Cada &3Estrutura Logística &r pode ser usada para diferentes tipos de automação.",
   ],
   "quest.7953C87C488A2AF7.quest_desc": [
     "Permite que você voe como o Homem de Ferro.\n\nVocê só pode ter um nível dessas Melhorias nas Botas de cada vez. Cada nível usará mais pressão que o anterior.\n\nUse essas melhorias, não apenas as crie.",
@@ -90,12 +90,12 @@
   "quest.5C7D9BCDF19B86BD.quest_subtitle": "Seguro!",
   "quest.72C09FD89C28B1EC.quest_subtitle": "Agora estamos chegando a algum lugar",
   "quest.4C0D00B5305117A1.quest_desc": [
-    "A &3Torreta Sentinela&r pode ser colocada em algum lugar e configurada para atacar mobs ou jogadores quando eles estiverem ao alcance. Ela só precisa de um pouco de Munição de Minigun.",
+    "A &3Torreta Sentinela&r pode ser colocada em algum lugar e configurada para atacar criaturas ou jogadores quando eles estiverem ao alcance. Ela só precisa de um pouco de Munição de Minigun.",
     "",
     "{image:pneumaticcraft:textures/patchouli/sentry_turret.png width:100 height:100 align:left fit:true}",
   ],
   "quest.2E8F851A4E98F741.quest_subtitle": "Ferro Comprimido Man",
-  "quest.7D81F2381516204D.quest_subtitle": "Necessário para PCBs Acabados",
+  "quest.7D81F2381516204D.quest_subtitle": "Necessário para PCIs Acabados",
   "quest.7386A8433698946C.quest_subtitle": "Máx: 1",
   "quest.0D9560C8E247F9E7.quest_subtitle": "Máx: 1",
   "quest.04BE9F63E6003475.quest_desc": [
@@ -129,13 +129,13 @@
   ],
   "quest.3CFE522A4B7CC2EC.quest_subtitle": "Melhor que seu Baú Comum",
   "quest.68F92455A9483AD6.quest_desc": [
-    "Você só verá esta missão se tiver usado Jet Boots.\n\nNão há como usar Jet Boots sem sofrer dano, nem tente...",
+    "Você só verá esta missão se tiver usado Botas a Jato.\n\nNão há como usar Botas a Jato sem sofrer dano, nem tente...",
   ],
   "quest.32C3E14578D48E6C.quest_desc": [
     "Assim como os &3Tubos de Pressão&r normais, só que estes podem suportar 10 bar de pressão.",
   ],
   "quest.602C3E88D96F8843.quest_desc": [
-    "Coloque um PCB Vazio Carregado no Tanque de Gravação com um pouco de Ácido de Gravação e um pouco de calor e você obterá um &3PCB Não Montado&r.",
+    "Coloque um PCI Vazio Carregado no Tanque de Corrosão com um pouco de Ácido de Corrosão e um pouco de calor e você obterá um &3PCI Não Montada&r.",
   ],
   "quest.74015945716FD10A.quest_subtitle": "Um funil configurável",
   "quest.31BCE63F5E016323.quest_desc": [
@@ -143,14 +143,14 @@
   ],
   "quest.7953C87C488A2AF7.quest_subtitle": "Máx: 1",
   "quest.40924F0D64253A38.quest_subtitle": "Sumiu!",
-  "quest.0672462DA3599484.quest_subtitle": "512.000mb",
+  "quest.0672462DA3599484.quest_subtitle": "512.000 mB",
   "quest.4FCC20D9F8F87B2F.quest_desc": [
     "A &3Chave Inglesa Pneumática&r é usada para mover ou quebrar suas máquinas e tubos.",
   ],
-  "quest.461C8F1E88AA58D9.quest_subtitle": "32.000mb",
+  "quest.461C8F1E88AA58D9.quest_subtitle": "32.000 mB",
   "quest.40F634AC38F42B88.quest_subtitle": "Que Pressão?",
   "quest.3334D15766A47A46.quest_desc": [
-    "Usando um Programa de Montagem a Laser, você pode acelerar a produção de &3PCBs Não Montadas&r. Basta colocar um PCB Vazio no baú de entrada, bombear um pouco de pressão e esperar.",
+    "Usando um Programa de Montagem a Laser, você pode acelerar a produção de &3PCIs Não Montadas&r. Basta colocar um PCI Vazio no baú de entrada, bombear um pouco de pressão e esperar.",
   ],
   "quest.521656D425E2FDBA.quest_desc": [
     "Vai ainda mais rápido que o Nível II.",
@@ -188,7 +188,7 @@
   "quest.61AD2207E770CD7F.quest_subtitle": "Máx: 6",
   "quest.0D5015B8FF482D0A.title": "Amadron",
   "quest.54169B69725C49DF.quest_desc": [
-    "Coloque seu Plástico Líquido no chão ou armazene um pouco em um Baú com uma Estrutura de Calor acoplada e aí está sua &3Folha de Plástico&r!",
+    "Coloque seu Plástico Líquido no chão ou armazene um pouco em um Baú com uma Moldura de Calor acoplada e aí está sua &3Folha de Plástico&r!",
   ],
   "quest.09BA45CBBFB4AE26.quest_subtitle": "Sempre Necessário",
   "quest.3F9CCCFEF4E84166.title": "Melhor Produção de Calor",
@@ -211,10 +211,10 @@
     "O próximo estágio deste mod requer que você configure &3Linhas de Montagem&r. O componente principal de uma &3Linha de Montagem&r é o &3Controlador de Montagem&r.\n\nÉ aqui que a pressão será aplicada.",
   ],
   "quest.6674270897997BF7.quest_desc": [
-    "Permite que você pule mais alto do que o normal e o torna elástico, proporcionando viagens mais rápidas.\n\nVocê só pode ter um nível desses Upgrades nas Perneiras de cada vez.",
+    "Permite que você pule mais alto do que o normal e o torna elástico, proporcionando viagens mais rápidas.\n\nVocê só pode ter um nível dessas Melhorias nas Calças de cada vez.",
   ],
   "quest.00D7BCC68D971A53.quest_desc": [
-    "Criaturas vivas próximas serão rastreadas automaticamente, mesmo através de paredes. Se for um mob agressivo, você receberá um aviso quando ele o alvejar.",
+    "Criaturas vivas próximas serão rastreadas automaticamente, mesmo através de paredes. Se for uma criatura agressivo, você receberá um aviso quando ele o alvejar.",
   ],
   "quest.7B2008977702D0C8.quest_subtitle": "O que aconteceu com RF ou FE?",
   "quest.520EFA7F446AFBF2.quest_desc": [
@@ -271,9 +271,9 @@
     "(texto de espaço reservado de nova página)",
   ],
   "quest.46BE62C20C720D10.quest_desc": [
-    "Faz com que os Endermen não fiquem bravos com você, como as Abóboras Entalhadas.",
+    "Faz com que os Endermen não fiquem bravos com você, como as Abóboras Esculpidas.",
   ],
-  "quest.4E1E31EDD544EE10.quest_subtitle": "64.000mb",
+  "quest.4E1E31EDD544EE10.quest_subtitle": "64.000 mB",
   "quest.2801B7B6BF61E978.quest_subtitle": "Você já viu Quero-sene?",
   "quest.7BFE7DAF18981843.quest_subtitle": "Necessário para receitas de Broca",
   "quest.5D64250B940BC8FD.title": "Armadura de Ferro Comprimido",
@@ -302,7 +302,7 @@
     "Permite que você pule mais alto do que com o Nível II.",
   ],
   "quest.7386A8433698946C.quest_desc": [
-    "Selecione um item e este upgrade o procurará nas proximidades em baús ou no chão. Para encontrá-lo em baús, ele precisará do Upgrade de Rastreamento de Bloco e para encontrá-lo no chão, ele precisará do Upgrade de Rastreamento de Entidade.\n",
+    "Selecione um item e esta melhoria o procurará nas proximidades em baús ou no chão. Para encontrá-lo em baús, ele precisará do Melhoria de Rastreamento de Bloco e para encontrá-lo no chão, ele precisará do Melhoria de Rastreamento de Entidade.\n",
     "{image:atm:textures/questpics/pneumaticcraft/item_search_upgrade.png width:200 height:200 align:center}",
   ],
   "quest.2CC56A4F06E53307.quest_subtitle": "Espero que você tenha óculos de sol!",
@@ -333,7 +333,7 @@
     "A &3Planta de Processamento Termopneumático&r será usada para fazer Plástico Derretido, basta bombear um pouco de GLP, Carvão e um pouco de calor.",
   ],
   "quest.0F49E9167B5E97C9.quest_desc": [
-    "Qualquer dano que você sofrer ao cair (ignorando a armadura) também será causado a mobs próximos.",
+    "Qualquer dano que você sofrer ao cair (ignorando a armadura) também será causado a criaturas próximas.",
   ],
   "quest.7D6B4AEF806AF62E.quest_subtitle": "Máx: 1",
   "quest.39F142224D5210A9.title": "Biodiesel",
@@ -359,7 +359,7 @@
     "O &3Compressor de Líquidos Avançado&r funciona da mesma forma que o Compressor de Líquidos, só que muito melhor!",
   ],
   "quest.6CA01DCE1F4A0EC3.quest_desc": [
-    "O próximo estágio do mod requer a coleta de &3Óleo Bruto&r. Este Óleo pode ser encontrado naturalmente na superfície do Mundo Superior.",
+    "O próximo estágio do mod requer a coleta de &3Óleo Bruto&r. Este Óleo pode ser encontrado naturalmente na superfície da Superfície.",
   ],
   "quest.5303509A1C2B1CCD.quest_desc": [
     "A &3Marreta Pneumática&r usa pressão para minerar, pode ser aprimorada para ser incrível!",
@@ -369,7 +369,7 @@
   ],
   "quest.24042326B4632DD4.title": "Logística",
   "quest.2CC56A4F06E53307.quest_desc": [
-    "Coloque seus PCBs Vazios em uma &3Caixa de Luz UV&r para carregá-los. Precisa de pressão e acesso à luz solar.",
+    "Coloque seus PCIs Vazios em uma &3Caixa de Luz UV&r para carregá-los. Precisa de pressão e acesso à luz solar.",
     "{image:atm:textures/questpics/pneumaticcraft/uv_charging.png width:300 height:150 align:center}",
   ],
   "quest.39F142224D5210A9.quest_subtitle": "Bio/Diesel",
@@ -426,7 +426,7 @@
     "Para começar com a Logística, crie um &3Núcleo de Logística&r, recomendo ler o Manual do PNC:R para um tutorial completo sobre como usar esses itens.",
   ],
   "quest.5A9D6672385D3D82.quest_desc": [
-    "Use apenas 1 Lápis para uma Melhoria em vez de 4.",
+    "Use apenas 1 Plástico para uma Melhoria em vez de 4.",
   ],
   "task.2C268116DA162155.title": "TodosOsDireitosReservados",
   "quest.31BCE63F5E016323.quest_subtitle": "Na palma da minha mão...",
@@ -439,7 +439,7 @@
   ],
   "quest.7770F0D62457096D.title": "Programando Drones",
   "quest.52D3697F1F5625C7.quest_desc": [
-    "O &3Ácido de Corrosão&r é feito na Pressure Chamber com Plástico Derretido... e algumas outras coisas. Usado no Tanque de Corrosão.",
+    "O &3Ácido de Corrosão&r é feito na Câmara de Pressão com Plástico Derretido... e algumas outras coisas. Usado no Tanque de Corrosão.",
   ],
   "quest.2745297337E13E9E.quest_subtitle": "Não há mais necessidade dos velhos e chatos Compressores de Ar!",
   "quest.5303509A1C2B1CCD.quest_subtitle": "Desculpe, Jack!",
@@ -467,7 +467,7 @@
   ],
   "quest.52D3697F1F5625C7.quest_subtitle": "Não Pergunte...",
   "quest.132DF9ECEFFB3B71.quest_desc": [
-    "O &3Cartão de Expansão de Módulo&r torna o Módulo de Carregamento ainda melhor.",
+    "O &3Cartão de Expansão de Módulo&r torna o Módulo de Carga ainda melhor.",
   ],
   "quest.5AEE86EB39FD4087.quest_subtitle": "Ainda não é RF...",
   "quest.42951D14ADCD9332.quest_desc": [
@@ -487,9 +487,9 @@
   "quest.74AE214747A3DB1A.quest_desc": [
     "Aumenta a quantidade de pressão que as coisas podem suportar.",
   ],
-  "quest.230463E830D6FFEB.quest_subtitle": "O caminho para os PCBs",
+  "quest.230463E830D6FFEB.quest_subtitle": "O caminho para os PCIs",
   "quest.0D2F5CC96269F9E3.quest_desc": [
-    "O próximo passo na fabricação de PCBs envolve o uso do &3Tanque de Corrosão&r com Ácido de Corrosão. Requer calor para funcionar.",
+    "O próximo passo na fabricação de PCIs envolve o uso do &3Tanque de Corrosão&r com Ácido de Corrosão. Requer calor para funcionar.",
   ],
   "quest.3F9CCCFEF4E84166.quest_desc": [
     "Para aumentar sua produção de calor, coloque um &3Dissipador de Calor&r no lado frio do seu Tubo de Vórtice.",
@@ -497,7 +497,7 @@
   "quest.2E8F851A4E98F741.quest_desc": [
     "A &3Armadura Pneumática&r por si só já é ótima, no entanto, se você quiser tornar essa armadura incrível, precisará instalar melhorias. Pressione 'U' por padrão para abrir a INTERFACE de Melhorias, algumas melhorias usam pressão, outras não.",
     "",
-    "Assim como para aprimorar outras ferramentas em PneumaticCraft, para aprimorar a &3Armadura Pneumática&r, você precisará de uma Estação de Carregamento com pressão.",
+    "Assim como para aprimorar outras ferramentas em PneumaticCraft, para aprimorar a &3Armadura Pneumática&r, você precisará de uma Estação de Carga com pressão.",
     "",
     "Nota: O subtítulo informará a quantidade máxima dessa melhoria que pode ser colocada em algo.",
   ],
@@ -508,14 +508,14 @@
   ],
   "quest.681A3F31FB242555.title": "Etanol",
   "quest.312331F6DB0CE5F4.quest_desc": [
-    "Vai mais rápido que o Tier I.",
+    "Vai mais rápido que o Nível I.",
   ],
   "quest.30AD7B15682E4D0E.quest_subtitle": "Chapas? Nunca ouvi falar!",
   "quest.7FB12EC3A5888123.quest_subtitle": "Não, vá por aqui!",
   "quest.6D124ACF4AE80490.quest_subtitle": "Disparando Explosões de longe!",
   "quest.15D355EB164EBE68.quest_subtitle": "Necessário para Chapas de Circuito Impresso Finalizadas",
   "quest.371A34B297C8A8EF.quest_desc": [
-    "PneumaticCraft é tudo sobre Pressão! Estas missões não abordarão tudo o que o mod tem, mas ainda abordarão muito! Por favor, lembre-se de verificar o JEI, ler as dicas de ferramentas e ler o PCB:R, todos eles são muito úteis.\n\nPara começar, você precisará criar alguns &3Barras de Ferro Comprimido&r! A maneira mais fácil de fazer isso é fazer um buraco no chão, jogar algumas Barras de Ferro (ou blocos) e depois explodi-lo com um pouco de TNT!\n\nAlguns podem se perder na explosão, mas é um risco que teremos que correr!",
+    "PneumaticCraft é tudo sobre Pressão! Estas missões não abordarão tudo o que o mod tem, mas ainda abordarão muito! Por favor, lembre-se de verificar o JEI, ler as dicas de ferramentas e ler o PNC:R, todos eles são muito úteis.\n\nPara começar, você precisará criar alguns &3Lingotes de Ferro Comprimido&r! A maneira mais fácil de fazer isso é fazer um buraco no chão, jogar algumas Barras de Ferro (ou blocos) e depois explodi-lo com um pouco de TNT!\n\nAlguns podem se perder na explosão, mas é um risco que teremos que correr!",
   ],
   "quest.6EB53CDCB80D4B66.quest_desc": [
     "A &3Porta Pneumática&r age como uma porta automática que pode ser feita para abrir apenas para você!",

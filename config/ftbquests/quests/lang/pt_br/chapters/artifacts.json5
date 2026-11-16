@@ -11,7 +11,7 @@
   "quest.589F1D502F680075.title": "&dFlamingo de Hélio&r",
   "quest.72D6265E35814927.quest_subtitle": "Colar",
   "quest.5DE7C4FD5FA29236.quest_desc": [
-    "Você não odeia quando está prestes a matar um Enderman e ele se teleporta? Bem, você não odeia, você ama! Você só está com raiva porque tem inveja! Você quer isso! \n\nE com o &5Cinto de Chorus&r você pode conseguir! Você se teleportará de um golpe que o mataria.",
+    "Você não odeia quando está prestes a matar um Enderman e ele se teleporta? Bem, você não odeia, você ama! Você só está com raiva porque tem inveja! Você quer isso! \n\nE com o &5Totem do Coro&r você pode conseguir! Você se teleportará de um golpe que o mataria.",
   ],
   "quest.161A90E134592D0E.title": "&4Bife Eterno",
   "quest.5FD6A738754F6013.quest_desc": [
@@ -49,7 +49,7 @@
     "Comida por si só pode ser bem chata, mas fica muito melhor quando você tem um acompanhamento com seu prato! Mais especificamente, um (a) &6Anel de Cebola&r!\n\nAo usar o &6Anel de Cebola&r, tudo que você comer lhe dará um leve efeito de Pressa.",
   ],
   "quest.3EC8A0B89788D079.quest_desc": [
-    "Eu não tenho Mãos, eu tenho &9Nadadeiras&r. \n\nAs &9Nadadeiras&r agirão como um Depth Strider muito melhor. Você pode Nadar e Andar na &9Água&r muito mais rápido!",
+    "Eu não tenho Mãos, eu tenho &9Pés de Pato&r. \n\nOs &9Pés de Pato&r agirão como um Passos Profundos muito melhor. Você pode Nadar e Andar na &9Água&r muito mais rápido!",
   ],
   "quest.3446803FB59D8875.quest_subtitle": "Colar",
   "quest.5F5E43B3F51CAE9E.title": "&aChapéu Supersticioso",
@@ -85,7 +85,7 @@
     "Dá a você Espinhos. Não na sua Armadura, em você! Como um Baiacu!",
   ],
   "quest.3B3BD39BA02DCA13.quest_desc": [
-    "Com o &6Pistão de Bolso&r, seus Ataques atingirão seus Inimigos muito mais longe! \n\nQual será que vence, &6Pistão de Bolso&r ou &7Botas Firmes&r?",
+    "Com o &6Pistão de Bolso&r, seus Ataques atingirão seus Inimigos muito mais longe! \n\nQual será que vence, &6Pistão de Bolso&r ou &7Espinhos Firmes&r?",
   ],
   "quest.73B73870B29DFAD9.quest_subtitle": "Cabeça",
   "quest.70C7D92844089DEB.quest_desc": [
@@ -95,11 +95,11 @@
   "task.68DC39876E14FC1B.title": "Mate 1 Mímico",
   "quest.5DE7C4FD5FA29236.quest_subtitle": "Cinto",
   "quest.27E951F4F4F6F847.quest_desc": [
-    "Semelhante ao &aPingente de Espinhos&r, só que um pouco mais quente. Não, espere, muito mais quente! \n\nO &cPingente de Chama (Pingente de Chamas)&r tem uma chance de atear fogo em seus atacantes! Quando eles estão em chamas, o &cPingente&r também lhe dará Resistência ao Fogo.",
+    "Semelhante ao &aPingente de Espinhos&r, só que um pouco mais quente. Não, espere, muito mais quente! \n\nO &cPingente de Chamas&r tem uma chance de atear fogo em seus atacantes! Quando eles estão em chamas, o &cPingente&r também lhe dará Resistência ao Fogo.",
   ],
   "quest.0A1D4228271DECA3.title": "&5Amuleto do Encolhimento&r",
   "quest.7503823ACDDB0491.quest_subtitle": "Cachecol (Colar)",
-  "quest.3EC8A0B89788D079.title": "&9Nadadeiras&r",
+  "quest.3EC8A0B89788D079.title": "&9Pés de Pato&r",
   "quest.4933CF4675E77D50.quest_subtitle": "Cinto",
   "quest.427014BDE06DE631.title": "&cManopla de Fogo&r",
   "quest.7503823ACDDB0491.quest_desc": [
@@ -125,13 +125,13 @@
   "quest.73FC51144FC2DA52.title": "&7Luva Vampírica&r",
   "quest.010607466D565B53.title": "&aBotas Enraizadas",
   "quest.3E1A3BC8642390B3.quest_desc": [
-    "'Eu sou a Mary Poppins, pessoal!' \n\n&4O Guarda-chuva&r é uma ferramenta muito útil adicionada pelo &l&3Artifacts&r! Ele pode ser segurado na sua frente para funcionar como um Escudo, segurando o botão direito. Ou pode ser usado para retardar sua queda, apenas segurando-o! ",
+    "'Eu sou a Mary Poppins, pessoal!' \n\n&4O Guarda-Chuva&r é uma ferramenta muito útil adicionada pelo &l&3Artifacts&r! Ele pode ser segurado na sua frente para funcionar como um Escudo, segurando o botão direito. Ou pode ser usado para retardar sua queda, apenas segurando-o! ",
   ],
   "quest.2607F3DC07049785.quest_desc": [
     "Por que perder tempo sentado e comendo uma boa refeição caseira quando você pode simplesmente Comer e Beber rapidamente! \n\nCom este &6Chapéu&r muito estiloso, Comer e Beber é muito mais rápido.",
   ],
   "quest.7503823ACDDB0491.title": "&2Cachecol da Sorte&r",
-  "quest.789AF6D0A6321945.title": "&dAlmofada de Pum (Whoopie Cushion)&r",
+  "quest.789AF6D0A6321945.title": "&dAlmofada de Pum&r",
   "quest.6A452BFC8A967C39.quest_desc": [
     "Usar estas &aGarras&r simplesmente faz você se sentir de uma certa maneira. Adrenalina bombeando, pensamentos cessando, força aumentando como nenhuma outra! \n\nCom &aGarras Ferais&r você atacará muito mais rápido com suas Armas ou Punhos.",
   ],
@@ -152,18 +152,18 @@
   "quest.122E6E7CABCB17E7.title": "&7Pantufas de Gatinho&r",
   "quest.122E6E7CABCB17E7.quest_subtitle": "Pés",
   "quest.74B352457BF1541B.quest_desc": [
-    "Se você é como eu, ou qualquer pessoa sã, você despreza a Neve Fofa. Felizmente, o &l&3Artifacts&r nos dá uma ferramenta para lidar com isso! Raquetes de neve! \n\nAs Raquetes de Neve permitirão que você caminhe com segurança sobre a Neve Fofa, assim como as Botas de Couro. Você também receberá um impulso de Velocidade ao caminhar sobre qualquer Neve!",
+    "Se você é como eu, ou qualquer pessoa sã, você despreza a Neve em Pó. Felizmente, o &l&3Artifacts&r nos dá uma ferramenta para lidar com isso! Raquetes de Neve! \n\nAs Raquetes de Neve permitirão que você caminhe com segurança sobre a Neve em Pó, assim como as Botas de Couro. Você também receberá um impulso de Velocidade ao caminhar sobre qualquer Neve!",
   ],
   "quest.3525D5DCC3A534D9.quest_subtitle": "Mãos",
   "quest.221C9EDA651144BA.title": "&3Amuleto do Afundamento&r",
   "quest.73B73870B29DFAD9.title": "&eChapéu de Aldeão",
   "quest.5F5E43B3F51CAE9E.quest_desc": [
-    "'Eles são magicamente deliciosos!' \n\nO &aChapéu Supersticioso&r concede a você um nível extra de Pilhagem para os Mobs que você matar! \n\nEle acumula com Encantamentos!",
+    "'Eles são magicamente deliciosos!' \n\nO &aChapéu Supersticioso&r concede a você um nível extra de Saque para as Criaturas que você matar! \n\nEle acumula com Encantamentos!",
   ],
   "quest.1E40ACF3E69A4100.quest_subtitle": "Cinto",
   "quest.0E716B90E60C486B.title": "&4Colar do Pânico&r",
   "quest.19B393433FB0C62F.quest_desc": [
-    "O segredo do Strider para andar na &cLava&r está em suas Pernas. Então, tiramos suas Pernas e fizemos você usá-las! \n\nAo Agachar, você pode andar com segurança sobre a &cLava&r! Quando você parar de Agachar, você cairá na &cLava&r, no entanto. Elas também permitem que você ande com segurança sobre blocos de Magma e outros blocos quentes!",
+    "O segredo do Marchador para andar na &cLava&r está em suas Pernas. Então, tiramos suas Pernas e fizemos você usá-las! \n\nAo Agachar, você pode andar com segurança sobre a &cLava&r! Quando você parar de Agachar, você cairá na &cLava&r, no entanto. Elas também permitem que você ande com segurança sobre blocos de Magma e outros blocos quentes!",
   ],
   "quest.5EB7CE3A1DCD3E9B.title": "&cAtraidor Universal&r",
   "quest.2AD78E22988A92D3.quest_desc": [
@@ -177,21 +177,21 @@
   "quest.623796B1D7981E59.quest_desc": [
     "'Experimente também Terraria!'\n\nQuando equipado, você ganhará 5 corações extras! Ou 10 pontos inteiros de Vida! Somando um total padrão de 30 de Vida.",
   ],
-  "quest.3E1A3BC8642390B3.title": "&4Guarda-chuva&r",
+  "quest.3E1A3BC8642390B3.title": "&4Guarda-Chuva&r",
   "quest.4564B577CB4EC046.quest_desc": [
     "Ao abater centenas de Vacas, você pode encontrar um Bife Raro. Não um com a Doença da Vaca Louca, quero dizer o &cCarne Eterna&r!\n\nO &cCarne Eterna&r pode ser comido como um Bife Cru normal, mas não será deletado quando consumido! Em vez disso, terá um tempo de recarga antes que você possa comê-lo novamente.\n\n(Também funciona com mochilas de alimentação automática!)",
   ],
   "quest.145E7D1A88B83DDD.quest_subtitle": "Cachecol (Colar)",
   "quest.29448D08C8777425.title": "&cChapéu de Pescador",
   "quest.436E4E3515BCCDE9.quest_desc": [
-    "Com a &bNuvem na Garrafa&r equipada, você pode apertar a Barra de Espaço duas vezes para dar um pulo duplo! Muito útil para parkour! \n\nTambém aumenta a altura de queda que você pode suportar, como as &dSaltadores de Coelho&r!",
+    "Com a &bNuvem na Garrafa&r equipada, você pode apertar a Barra de Espaço duas vezes para dar um pulo duplo! Muito útil para parkour! \n\nTambém aumenta a altura de queda que você pode suportar, como os &dSaltadores de Coelho&r!",
   ],
   "quest.589F1D502F680075.quest_subtitle": "Cinto",
   "quest.7188DC06A28AE30E.quest_subtitle": "Mãos",
-  "quest.19B393433FB0C62F.title": "Sapatos de &4Lavagante&r",
+  "quest.19B393433FB0C62F.title": "&4Sapatos de Marchador&r",
   "quest.321F16645640C462.title": "&9Motor de Dobra&r",
   "quest.3E0643EA9183CDAE.quest_desc": [
-    "'Era o chapéu dele, Seu Siriguejo! Ele era o número 1!' \n\nFaz exatamente a mesma coisa que o &6Chapéu de Beber&r normal, só que parece muito mais legal!",
+    "'Era o chapéu dele, Seu Siriguejo! Ele era o número 1!' \n\nFaz exatamente a mesma coisa que o &6Chapéu de Bebidas&r normal, só que parece muito mais legal!",
   ],
   "quest.427014BDE06DE631.quest_desc": [
     "Tudo que eu acerto, pega Fogo!!!!!",
@@ -201,25 +201,25 @@
   "quest.3705D303CF423804.quest_subtitle": "Mãos",
   "quest.6FBE5B5D5027B32C.title": "&7Chapéu de Cowboy",
   "quest.321F16645640C462.quest_desc": [
-    "Pérolas do End são uma forma divertida de viajar! (Útil para a Bumblezone, será que teremos um capítulo de Missão para esse Mod?) Mas você não odeia que a Pérola do End seja consumida ao usar e cause 2 Corações de dano a cada uso? \n\nCom o &9Motor de Dobra&r, tudo isso desaparece, tornando claramente as Pérolas do End o melhor meio de transporte! A Fome é consumida em vez da Pérola do End e você não sofre mais dano ao usar uma Pérola do End. Quando todas as Barras de Fome se esgotarem, ela voltará a consumir Pérolas do End.",
+    "Pérolas de Ender são uma forma divertida de viajar! (Útil para a Bumblezone, será que teremos um capítulo de Missão para esse Mod?) Mas você não odeia que a Pérola de Ender seja consumida ao usar e cause 2 Corações de dano a cada uso? \n\nCom o &9Motor de Dobra&r, tudo isso desaparece, tornando claramente as Pérolas de Ender o melhor meio de transporte! A Fome é consumida em vez da Pérola de Ender e você não sofre mais dano ao usar uma Pérola de Ender. Quando todas as Barras de Fome se esgotarem, ela voltará a consumir Pérolas de Ender.",
   ],
   "quest.0E716B90E60C486B.quest_subtitle": "Colar",
   "quest.623796B1D7981E59.quest_subtitle": "Cinto",
   "quest.2215FB0777D7029D.quest_desc": [
-    "Cravos, Travas, Grampons, seja lá o que forem! \n\nOs &7Cravos Firmes&r mantêm você firme nos pés. Você não será mais empurrado por ataques nem escorregará no Gelo.",
+    "Cravos, Travas, Grampons, seja lá o que forem! \n\nOs &7Espinhos Firmes&r mantêm você firme nos pés. Você não será mais empurrado por ataques nem escorregará no Gelo.",
   ],
   "quest.16255FB20F35A9D9.title": "&3Snorkel",
-  "quest.70C7D92844089DEB.title": "&bPingente de Choque (Shock Pendant)&r",
+  "quest.70C7D92844089DEB.title": "&bPingente de Choque&r",
   "quest.62622137648A4F56.title": "&7Aquecedor de Picareta&r",
   "quest.50A32AC6EDBC5854.title": "&6Anel de Cebola&r",
   "quest.221C9EDA651144BA.quest_subtitle": "Colar",
   "quest.11C5F17C6BB1237B.quest_desc": [
-    "Enquanto usa o &5Pulseira da Decomposição&r, Ataques Corpo a Corpo têm uma chance de aplicar o efeito de Decomposição.\n\nDesculpe, usuários de Arco!",
+    "Enquanto usa a &5Pulseira da Decomposição&r, Ataques Corpo a Corpo têm uma chance de aplicar o efeito de Decomposição.\n\nDesculpe, usuários de Arco!",
   ],
-  "quest.5DE7C4FD5FA29236.title": "&5Cinto de Chorus&r",
+  "quest.5DE7C4FD5FA29236.title": "&5Totem do Coro&r",
   "quest.27E951F4F4F6F847.title": "&cPingente de Chamas&r",
   "quest.4933CF4675E77D50.quest_desc": [
-    "Depois que você levar um golpe de Dano de Fogo, o &5Crânio de Obsidiana&r será ativado, dando a você um período de Resistência ao Fogo. Esperançosamente, tempo suficiente para escapar das chamas!",
+    "Depois que você levar um golpe de Dano de Fogo, o &5Crânio de Obsidiana&r será ativado, dando a você um período de Resistência ao Fogo. Com sorte, por tempo suficiente para escapar das chamas!",
   ],
   "quest.2215FB0777D7029D.quest_subtitle": "Pés",
   "quest.5EB7CE3A1DCD3E9B.quest_desc": [
@@ -244,7 +244,7 @@
     "{@pagebreak}",
     "Ok, eu avisei...",
     "{@pagebreak}",
-    "Pressione Shift para ter uma chance de Soltar um Pum quando a &dAlmofada de Pum (Whoopie Cushion)&r estiver equipada.",
+    "Pressione Shift para ter uma chance de Soltar um Pum quando a &dAlmofada de Pum&r estiver equipada.",
   ],
   "quest.3705D303CF423804.quest_desc": [
     "O outro lado das &aGarras Ferais&r, estas aumentam o Dano que você causa enquanto as usa.",

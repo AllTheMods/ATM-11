@@ -1,25 +1,25 @@
 {
   "quest.18C0EF38430C3E67.quest_subtitle": "A Era Digital",
-  "quest.4A5A143A79809BB6.title": "&9A Era Elétrica",
+  "quest.4A5A143A79809BB6.title": "A Era Elétrica",
   "quest.3B9D9CB589DB2003.quest_subtitle": "Isso vai ajudar",
   "quest.162807D14C173CB4.quest_subtitle": "Você me deixa tonto, tonto..",
-  "quest.5B50AC47957F0CD7.quest_subtitle": "Ruídos de Águia",
+  "quest.5B50AC47957F0CD7.quest_subtitle": "Ruídos de águia",
   "task.12433760FD40CB3A.title": "Leia isto com atenção",
   "quest.3CE72DAF431269CD.quest_desc": [
     "O &#D6AC2FPolarizador&r é capaz de magnetizar os materiais colocados nele.",
   ],
-  "quest.103728F2BAD5AE84.title": "&5Componentes Avançados",
+  "quest.103728F2BAD5AE84.title": "Componentes Avançados",
   "quest.744E620B7DEBB483.quest_subtitle": "De Boa no Gelo",
   "quest.54CE9493B63620C4.quest_subtitle": "Combustíveis Líquidos -> Eletricidade",
   "quest.4E7B1B16C7CDA84C.quest_subtitle": "Igual ao do vapor",
-  "quest.1351D0594F1E6551.title": "&5Componentes de Circuito",
+  "quest.1351D0594F1E6551.title": "Componentes de Circuito",
   "quest.413F338DB07BA88C.quest_subtitle": "Igual ao do vapor",
-  "quest.401A3FD6A3511870.title": "&fPortões",
+  "quest.401A3FD6A3511870.title": "Portões",
   "quest.1351D0594F1E6551.quest_desc": [
     "Esses &#55EDA4Componentes Básicos&r nos levarão ao próximo avanço no processamento.",
   ],
   "quest.32D585D9F73CD9FD.quest_desc": [
-    "O &#EDDF55Alto-forno Elétrico&r permitirá que você processe diversos recursos. As receitas exigem uma &#B8ED55bobina específica&r para ser usada na estrutura.",
+    "O &#EDDF55Alto-Forno Elétrico&r permitirá que você processe diversos recursos. As receitas exigem uma &#B8ED55bobina específica&r para ser usada na estrutura.",
   ],
   "quest.374C06B3999BB0D3.quest_desc": [
     "Misturar &#C2C78BFerro&r, &#EDB2EACromo&r, &#BEC9A3Níquel&r e &7Manganês&r resultará em &#ADF0EEPó de Aço Inoxidável&r.",
@@ -37,12 +37,12 @@
   "quest.5D404ED40C6C2690.quest_subtitle": "Forneça mais energia",
   "quest.7FE5864E59D7B827.quest_subtitle": "Bloco básico de construção",
   "quest.22AD9DF2BCC04575.quest_subtitle": "Gerando a energia",
-  "quest.256C3DBA392B4236.quest_subtitle": "9 Pós Pequenos viram 1 Pó",
+  "quest.256C3DBA392B4236.quest_subtitle": "9 Pós Minúsculos viram 1 Pó",
   "quest.5A62260FB3850092.quest_desc": [
     "Misturar &eEnxofre&r, &#6ACDE6Oxigênio&r e &9Água&r resultará em &#D3D955Ácido Sulfúrico&r. Isso será usado para processar &7Pó de Manganês&r.",
   ],
-  "quest.6256612D46C88C0C.title": "&5Transformadores &eLV&f &5para &eMV",
-  "quest.1745124F83D033B9.title": "&5Componentes Básicos",
+  "quest.6256612D46C88C0C.title": "Transformadores LV para MV",
+  "quest.1745124F83D033B9.title": "Componentes Básicos",
   "quest.6256612D46C88C0C.quest_desc": [
     "&#723CFATransformadores&r convertem uma faixa de energia em outra.",
     "",
@@ -64,7 +64,7 @@
     "Todas as máquinas deste mod aceitam FE como energia. &c16 FE&r convertem para &#E1EB591 EU&r de energia.",
   ],
   "quest.5B50AC47957F0CD7.quest_desc": [
-    "A &7Plataforma de Perfuração de Petróleo&r vai extrair para você &#7A7A7APetróleo de Xisto&r e &#918686Petróleo Bruto&r.",
+    "A &7Plataforma Petrolífera&r vai extrair para você &#7A7A7APetróleo de Xisto&r e &#918686Petróleo Bruto&r.",
   ],
   "quest.05C630D81FA89FB9.title": "EM BREVE",
   "quest.1E0EF28175A7424F.quest_subtitle": "Vapor -> Eletricidade",
@@ -74,14 +74,14 @@
   "task.1FE598387B609AE5.title": "Transferência de Eletricidade",
   "quest.08C870DC50CA49FC.title": "&#5C5C5CProcessamento de Petróleo Bruto",
   "quest.76660075F254597E.quest_desc": [
-    "O &#F5B758Melhoria Avançada&r adiciona &#EDE02F16 EU/t&r de uso máximo por melhoria.",
+    "A &#F5B758Melhoria Avançada&r adiciona &#EDE02F16 EU/t&r de uso máximo por melhoria.",
   ],
-  "quest.55BB4005BB4CA316.title": "&fProcessamento de Monazita",
+  "quest.55BB4005BB4CA316.title": "Processamento de Monazita",
   "quest.744E620B7DEBB483.quest_desc": [
-    "O &#27CFF5Freezer à Vácuo&r será usado para resfriar &#E6AD1EBarras Quentes&r ou certos fluidos, garantindo melhores proporções dos itens que você já está produzindo.",
+    "O &#27CFF5Freezer à Vácuo&r será usado para resfriar &#E6AD1ELingotes Quentes&r ou certos fluidos, garantindo melhores proporções dos itens que você já está produzindo.",
   ],
   "quest.54CE9493B63620C4.quest_desc": [
-    "O &#AC59EBGerador a Diesel&r converte uma variedade de combustíveis líquidos em eletricidade. Os mais acessíveis para você no início serão &7Óleo de Creosoto&r e &8Óleo Sintético&r.",
+    "O &#AC59EBGerador a Diesel&r converte uma variedade de combustíveis líquidos em eletricidade. Os mais acessíveis para você no início serão &7Creosoto&r e &8Óleo Sintético&r.",
   ],
   "quest.5AA8D2A1F3618615.quest_subtitle": "Movendo eletricidade",
   "quest.401B559649C54C5C.quest_desc": [
@@ -89,7 +89,7 @@
   ],
   "quest.1F3E18129B871C49.quest_subtitle": "Igual ao do vapor",
   "quest.6A25ED4059E224D2.quest_subtitle": "Bloquear a receita",
-  "quest.2EF0C033C540A7B1.title": "&fProcessamento de &5Rubi",
+  "quest.2EF0C033C540A7B1.title": "Processamento de Rubi",
   "quest.0903F0D8642449B7.quest_desc": [
     "Saindo da &6Circuitaria Analógica&r, agora podemos processar mais de 2 bits de informação. Isso abre horizontes para algumas novas máquinas",
   ],
@@ -108,33 +108,33 @@
     "",
     "Podemos produzir &#C4C241Combustível Sulfúrico Pesado&r, &#CECC5FCombustível Sulfúrico Leve&r e &#D9D782Nafta Sulfúrica&r com ele.",
   ],
-  "quest.0C94D76B87E49FFD.title": "&fProcessamento de &7Ferro",
-  "quest.408EBED932656006.title": "&fSilicone Dopado",
+  "quest.0C94D76B87E49FFD.title": "Processamento de Ferro",
+  "quest.408EBED932656006.title": "Silicone Dopado",
   "quest.408EBED932656006.quest_desc": [
     "Dopar o &7Silício&r vai garantir um rendimento muito melhor do que usar o &7Silício&r comum.",
   ],
   "quest.72FFD9E471242D68.quest_desc": [
-    "O &7Aço Inoxidável&r requer mais &ccalor&r para ser fundido do que um forno normal. Devemos usar nosso &eAlto-forno Elétrico&r construído anteriormente.",
+    "O Aço Inoxidável requer mais calor para ser fundido do que um forno normal. Devemos usar nosso Alto-Forno Elétrico construído anteriormente.",
   ],
   "quest.532BCAB3FBF91B1D.quest_desc": [
-    "&#44DB9CAs Melhorias&r adicionam a capacidade das máquinas entrarem no estado &#4467DBoverclocked&r, aumentando ainda mais a velocidade máxima da máquina.",
+    "&#44DB9CAs Melhorias&r adicionam a capacidade das máquinas entrarem no estado &#4467DBacelerado&r, aumentando ainda mais a velocidade máxima da máquina.",
     "",
-    "Uma máquina pode suportar até uma pilha de qualquer nível de atualização. A &#CEDB44Melhoria Básica&r adiciona &#F7F448+2 EU/t&r à capacidade por melhoria.",
+    "Uma máquina pode suportar até uma pilha de qualquer nível de melhoria. A &#CEDB44Melhoria Básica&r adiciona &#F7F448+2 EU/t&r à capacidade por melhoria.",
   ],
   "quest.7FE5864E59D7B827.quest_desc": [
-    "As &#6784EBCarcaças&r controlam a quantidade de energia que pode ser fornecida a uma máquina. Conforme você adiciona melhorias à máquina, será necessário uma &#6784EBCarcaça&r de nível superior para aceitar mais energia. O nível da &#6784EBCarcaça&r também afeta quais cabos podem ser conectados a ela.",
+    "As &#6784EBMecanismos de Máquina&r controlam a quantidade de energia que pode ser fornecida a uma máquina. Conforme você adiciona melhorias à máquina, será necessário uma &#6784EBCarcaça&r de nível superior para aceitar mais energia. O nível da &#6784EBCarcaça&r também afeta quais cabos podem ser conectados a ela.",
   ],
   "quest.6256612D46C88C0C.quest_subtitle": "\"A liberdade é um direito de todos os seres conscientes.\"",
   "quest.4A5A143A79809BB6.quest_desc": [
-    "Ah, sim, você finalmente chegou. &6Bem-vindo&r à &9Era Elétrica&r, este é o verdadeiro começo da sua aventura.",
+    "Ah, sim, você finalmente chegou. Bem-vindo(a) à Era Elétrica, este é o verdadeiro começo da sua aventura.",
     "",
-    "Antes de tudo, precisamos da &5Liga de Bateria&r... para fazer baterias. Surpreendente, eu sei.",
+    "Antes de tudo, precisamos da Liga de Bateria... para fazer baterias. Surpreendente, eu sei.",
   ],
   "quest.1B4CD5AC8F6C3307.quest_desc": [
-    "O &#4497DBMódulo Overdrive&r mantém a eficiência da máquina mesmo quando a receita não está em execução. Em troca, ele bloqueia a máquina para essa receita.",
+    "O &#4497DBMódulo Saturador&r mantém a eficiência da máquina mesmo quando a receita não está em execução. Em troca, ele bloqueia a máquina para essa receita.",
   ],
   "quest.6647A9652EFDDCDF.quest_desc": [
-    "Para resfriar a &#ADF0EEBarra Quente de Aço Inoxidável&r, basta colocá-lo em um &#56E3DFFreezer à Vácuo&r para transformá-lo em &#ADF0EELingote de Aço Inoxidável&r utilizável.",
+    "Para resfriar a &#ADF0EELingote de Aço Inoxidável Quente&r, basta colocá-lo em um &#56E3DFFreezer à Vácuo&r para transformá-lo em &#ADF0EELingote de Aço Inoxidável&r utilizável.",
   ],
   "quest.7E3B19796870C2B1.quest_desc": [
     "O &#9955EDReator Químico&r será uma das máquinas mais úteis para você daqui para frente. Ele será usado para criar diversos produtos químicos.",
@@ -142,17 +142,17 @@
   "quest.3A03852E282DAA4D.quest_desc": [
     "O &#ED8055Eletrolisador&r é capaz de fornecer pulsos de energia suficientes para que o material se quebre em recursos mais fundamentais.",
   ],
-  "quest.6E7DF4AF86A036EC.title": "&fProcessamento de Petróleo de Xisto",
+  "quest.6E7DF4AF86A036EC.title": "Processamento de Petróleo de Xisto",
   "task.1489DD401D237541.title": "Eletricidade",
-  "quest.548274CC00E67EC4.title": "&5Cabos &eLV",
+  "quest.548274CC00E67EC4.title": "Cabos LV",
   "quest.1F21B578FAF4CCAC.quest_subtitle": "Igual ao do vapor",
   "quest.7EDBE88A2CFAB353.quest_desc": [
-    "As &#562FD6Montadoras&r são usadas para fabricar muitos componentes e máquinas. Elas conseguem realizar trabalhos de fabricação de forma automática.",
+    "Os &#562FD6Montadores&r são usadas para fabricar muitos componentes e máquinas. Eles conseguem realizar trabalhos de fabricação de forma automática.",
     "Também oferecem variantes &amuito mais baratas&r de algumas receitas que você já utilizou.",
   ],
   "quest.66D4256F79D5B30B.quest_subtitle": "Igual ao do vapor",
   "quest.401A3FD6A3511870.quest_subtitle": "Abre-te Sésamo",
-  "quest.22AD9DF2BCC04575.title": "&fGeração de Eletricidade",
+  "quest.22AD9DF2BCC04575.title": "Geração de Eletricidade",
   "quest.548274CC00E67EC4.quest_subtitle": "Limites dos Cabos",
   "quest.068128395837AF4F.quest_subtitle": "Igual ao do vapor",
 }
