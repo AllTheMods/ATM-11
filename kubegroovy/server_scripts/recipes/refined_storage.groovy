@@ -138,7 +138,7 @@ $ServerEvents.recipes((allthemods) -> {
           cir: "processing_unit",
       ],
       [
-          num: "65536k",
+          num: "262144k",
           out: "1048576k",
           mod: "reinforced_advanced",
           cir: "processing_unit",
