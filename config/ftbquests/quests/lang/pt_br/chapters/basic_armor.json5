@@ -16,13 +16,13 @@
   "quest.39796D8EE440F318.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_dune.png width:100 height:150 align:center}",
   ],
-  "quest.52B61FB01D7C12A4.title": "Armadura de &2Prudentium",
+  "quest.52B61FB01D7C12A4.title": "Armadura de &2Prudênio",
   "quest.333682022948E2F3.title": "&2Tioquartzo&r",
   "quest.3F0CD2C03CD7D730.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_forge.png width:100 height:150 align:center}",
   ],
   "quest.7B76EC62E3F7E12C.title": "&5Golpe Etéreo&r",
-  "quest.1C27C74722A19FC1.title": "&aTraje-Meka",
+  "quest.1C27C74722A19FC1.title": "&aMekaSuit",
   "quest.7F11ABFB2E21B7E4.quest_desc": [
     "Armadura é uma parte muito importante do &l&2Minecraft&r, é o que te protege de danos. \n\nPeças diferentes de Armadura dão diferentes Pontos de Armadura. Estes são o que determinam a eficácia da sua Armadura, quanto mais, melhor!\n\nA maioria das armaduras pode ser alterada para mais decoração com Acabamentos de Armadura, use uma peça de Armadura com um Acabamento de Armadura e um Item para colorir para mudar a aparência!",
   ],
@@ -48,16 +48,16 @@
   ],
   "quest.4664AFCFB5618CEB.quest_subtitle": "17",
   "quest.1FC7ABEAB5018E79.title": "&4Redstone&r",
-  "quest.72D578686C47B154.title": "&5Cristal de Luz Estelar Vermelho&r",
-  "quest.15978093237448FE.title": "Armadura do &3Warden",
+  "quest.72D578686C47B154.title": "&5Cristal da Starlight Vermelho&r",
+  "quest.15978093237448FE.title": "Armadura do &3Sentinela",
   "quest.1A8440C0048EEB02.quest_desc": [
     "&cOuro de Blaze&r tem os mesmos status do Ferro, mas tem outras habilidades que o Ferro gostaria de ter! \n\nConfira as descrições dos Itens para saber mais sobre o que eles podem fazer!",
   ],
   "quest.4B65100885AE762D.title": "&6Traje de Sacerdote",
-  "quest.2C387BFA6EE6FDB7.title": "&cArmadura de Utherium",
+  "quest.2C387BFA6EE6FDB7.title": "&cArmadura de Utário",
   "quest.76CDF08465700AA2.quest_subtitle": "Cidades Ancestrais",
   "quest.3416DB9F58D8AA2C.quest_subtitle": "28",
-  "quest.3416DB9F58D8AA2C.title": "&3Armadura de Neptunium",
+  "quest.3416DB9F58D8AA2C.title": "&3Armadura de Neptúnio",
   "quest.6ED2CDD01659FD10.title": "&7Armadura de Ferro Comprimido",
   "quest.4DD66E31859EA593.quest_desc": [
     "&3Armadura de Vibranium&r mas com bônus para os Feitiços de &e&lIron's Spells&r!",
@@ -66,7 +66,7 @@
     "&5Armadura de Unobtainium&r mas com bônus para Feitiços de &d&lArs Nouveau&r!",
   ],
   "quest.1C27C74722A19FC1.quest_desc": [
-    "Com uma tonelada de Itens super caros do &l&5Mekanism&r, você pode atualizar a &5Armadura de Unobtainium&r para o &aTraje-Meka&r! \n\nAgora ele pode conter Energia e, em vez de tirar corações de dano, ele tirará Energia. \n\nVocê pode usar Unidades de Melhoria para torná-lo ainda melhor!",
+    "Com uma tonelada de Itens super caros do &l&5Mekanism&r, você pode atualizar a &5Armadura de Unobtainium&r para o &aMekaSuit&r! \n\nAgora ele pode conter Energia e, em vez de tirar corações de dano, ele tirará Energia. \n\nVocê pode usar Unidades de Melhoria para torná-lo ainda melhor!",
   ],
   "quest.686EB173C94301C0.title": "Traje de &bCriomante",
   "quest.42AAEC41F2BC2474.title": "&bGlacita&r",
@@ -78,7 +78,7 @@
   ],
   "quest.1A8440C0048EEB02.title": "Armadura de &cOuro de Blaze",
   "quest.1D27EE427ECFD6CE.quest_subtitle": "27",
-  "quest.1D27EE427ECFD6CE.title": "&9Armadura Imperium",
+  "quest.1D27EE427ECFD6CE.title": "&9Armadura Imperita",
   "quest.3AE0198177A8E91B.title": "Enfeite do Litoral",
   "quest.50B127137AA9E660.quest_desc": [
     "Finalmente o &6Cobre&r tem um uso de verdade!",
@@ -104,33 +104,33 @@
     "{image:atm:textures/questpics/basicarmor/armor_copper.png width:100 height:150 align:center}",
   ],
   "quest.13517D17E6BF015F.quest_desc": [
-    "Com &bArmadura de Diamante&r e alguns &aItens de Inferium&r, podemos criar a &aArmadura de Inferium&r! \n\nEles também podem ser melhorados com Modificações!",
+    "Com &bArmadura de Diamante&r e alguns &aItens de Infério&r, podemos criar a &aArmadura de Infério&r! \n\nEles também podem ser melhorados com Modificações!",
   ],
   "quest.361EF9E4973E3522.quest_subtitle": "20",
   "quest.21B96130EA516B82.quest_desc": [
-    "\"Eu sou o Ferro Comprimido Man!\" \n\nPode ser usado e atualizado com Ar comprimido!",
+    "\"Eu sou o Homem de Ferro Comprimido!\" \n\nPode ser usado e atualizado com Ar comprimido!",
   ],
   "quest.72DDA413D73E3235.quest_desc": [
     "Estatísticas muito mais altas em tudo com o próximo na linha de Armaduras de &6&lAllthemodium&r, &3Vibranium&r! \n\nVocê precisará da &6Armadura de Allthemodium&r para criá-la.",
   ],
   "quest.004D61425172324F.quest_subtitle": "12",
   "quest.5DDC15AAFD2CAF47.quest_desc": [
-    "A &bArmadura de Diamante&r é a próxima na cadeia &l&2Vanilla&r, geralmente é aqui que começamos a Encantá-la também! \n\nRecomendo Proteção e suas várias formas, não precisamos ser exigentes com mods!",
+    "A &bArmadura de Diamante&r é a próxima na cadeia &l&2Minecraft&r, geralmente é aqui que começamos a Encantá-la também! \n\nRecomendo Proteção e suas várias formas, não precisamos ser exigentes com mods!",
   ],
   "quest.52A29269A23F85B3.quest_subtitle": "20",
   "quest.4A90A6AC65B1E25B.title": "EM BREVE",
   "quest.15978093237448FE.quest_desc": [
-    "Por que atualizar &cNetherita&r para &6Allthemodium&r ou até mesmo qualquer outra coisa quando podemos atualizá-la para &3Armadura do Warden&r! \n\nVocê precisará de alguns drops do Warden para fazê-la, no entanto!",
+    "Por que atualizar &cNetherita&r para &6Allthemodium&r ou até mesmo qualquer outra coisa quando podemos atualizá-la para &3Armadura do Sentinela&r! \n\nVocê precisará de alguns drops do Sentinela para fazê-la, no entanto!",
   ],
   "quest.4A9CB8778D37049F.quest_subtitle": "36",
   "quest.1452D9CF827782B5.quest_subtitle": "16",
-  "quest.361C9D90617E6D38.title": "Ornamento de Armadura de Guardião",
+  "quest.361C9D90617E6D38.title": "Enfeite do Guardião",
   "quest.1452D9CF827782B5.title": "Equipamento &fÁrtico",
   "quest.452DC5EB02D592B8.title": "&5Ametista&r",
   "quest.211FD55DEB635A98.title": "&6Cobre&r",
   "quest.15978093237448FE.quest_subtitle": "24",
   "quest.4664AFCFB5618CEB.quest_desc": [
-    "&bGlacite&r é encontrado nos biomas frios de &5&lEternal Starlight&r!",
+    "&bGlacita&r é encontrado nos biomas frios de &5&lEternal Starlight&r!",
   ],
   "quest.52B61FB01D7C12A4.quest_desc": [
     "Versão melhorada do &aInferium&r.",
@@ -152,13 +152,13 @@
   "quest.459BB5B4CDB21773.title": "Armadura de &9Prata do Pântano",
   "quest.3ABE7074E500494D.quest_subtitle": "20",
   "quest.50429F57480F44DA.quest_desc": [
-    "A &cPedra de Fonte Termal&r aparece em lagoas quentes encontradas raramente em &5&lEternal Starlight&r!",
+    "A &cPedra Primaveril Térmica&r aparece em lagoas quentes encontradas raramente em &5&lEternal Starlight&r!",
   ],
-  "quest.3EA3A6414AB8A39C.quest_subtitle": "Câmaras de Desafio",
+  "quest.3EA3A6414AB8A39C.quest_subtitle": "Câmaras do Desafio",
   "quest.0E2515424291BB59.quest_subtitle": "20",
   "quest.79D3055DE0EEA6B0.quest_subtitle": "15",
   "quest.52A29269A23F85B3.quest_desc": [
-    "O &9Traje de Yeti&r precisa de Pele de Yeti Alfa, que você adivinhou! Só cai de Yetis Alfa. \n\nPelo menos o Traje vai desacelerar seus Inimigos, congelando-os!",
+    "O &9Traje de Iéti&r precisa de Pelo de Iéti Alfa, que você adivinhou! Só cai de Iétis Alfa. \n\nPelo menos o Traje vai desacelerar seus Inimigos, congelando-os!",
   ],
   "quest.24A7B2902E7430A1.quest_desc": [
     "&7Armadura de Couro&r com um pouco de Arcano salpicado sobre ela. \n\nDá bônus de Mana para Feitiços, só um pouquinho.",
@@ -173,14 +173,14 @@
     "&5Armadura de Unobtainium&r mas com bônus para os feitiços do &e&lIron's Spells&r!",
   ],
   "quest.729DCB919A92B735.title": "Enfeite de Parafuso",
-  "quest.260C7F3C1F51221D.title": "&aTraje de Archevoker",
+  "quest.260C7F3C1F51221D.title": "&aTraje de Arquinvocador",
   "quest.21B96130EA516B82.title": "&8Armadura Pneumática",
   "quest.42AAEC41F2BC2474.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_glacite.png width:100 height:150 align:center}",
   ],
-  "quest.729DCB919A92B735.quest_subtitle": "Câmaras de Desafio",
+  "quest.729DCB919A92B735.quest_subtitle": "Câmaras do Desafio",
   "quest.6C5F9D0D447EFB9C.quest_desc": [
-    "Você acha que &l&2Vanilla&r era tudo o que tínhamos? \n\nA &6Armadura de Allthemodium&r tem mais Pontos de Armadura e Resistência de Armadura, além de proteção aumentada contra Magia e outros bônus sobre os quais você pode ler na Página de Missões de &6&lAllthemodium&r! \n\nAh, e você precisará de &cNetherita&r para criá-la.",
+    "Você acha que &l&2Minecraft&r era tudo o que tínhamos? \n\nA &6Armadura de Allthemodium&r tem mais Pontos de Armadura e Resistência de Armadura, além de proteção aumentada contra Magia e outros bônus sobre os quais você pode ler na Página de Missões de &6&lAllthemodium&r! \n\nAh, e você precisará de &cNetherita&r para criá-la.",
   ],
   "quest.3FCEF8FF45E51608.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_quartz.png width:100 height:150 align:center}",
@@ -188,9 +188,9 @@
   "quest.4B65100885AE762D.quest_desc": [
     "&e&lIron's Spells&r &6Armadura Sagrada&r!",
   ],
-  "quest.2FA0F5B348322095.title": "&7Armadura de Cloggrum",
+  "quest.2FA0F5B348322095.title": "&7Armadura de Obstrúmio",
   "quest.1D27EE427ECFD6CE.quest_desc": [
-    "Versão aprimorada da &cTertium&r.",
+    "Versão aprimorada da &cTértio&r.",
   ],
   "quest.2EAA6BE598C83F24.quest_subtitle": "15",
   "quest.2E0F82F7E1B74033.quest_desc": [
@@ -201,7 +201,7 @@
   ],
   "quest.4DF683461225690F.title": "&7Ferro&r",
   "quest.243008D4DCD789D0.quest_subtitle": "Templos da Selva",
-  "quest.7F8B6D5F360D985A.title": "&eÍgneo",
+  "quest.7F8B6D5F360D985A.title": "&eArdente",
   "quest.1E3E688B3B52C4D2.title": "Enfeite de Levante",
   "quest.5BA84F6282D9CAF1.title": "&6Traje de Mago de Allthemodium",
   "quest.13517D17E6BF015F.title": "Armadura de &aInferium",
@@ -223,25 +223,25 @@
     "&d&lArs Elemental&r Armadura de Ar!",
   ],
   "quest.215C9C2B2240FAA1.quest_subtitle": "20",
-  "quest.2E0F82F7E1B74033.title": "&2Traje de Geomancer",
+  "quest.2E0F82F7E1B74033.title": "&2Traje de Geomante",
   "quest.71C552678A0F649F.quest_subtitle": "21",
   "quest.19F58E291A543228.quest_desc": [
     "Versão de &eOuro&r das Armaduras do &d&lArs&r!",
   ],
-  "quest.10AA2B20D86747F7.title": "Amor de &bFerricore",
-  "quest.3F0CD2C03CD7D730.title": "Ornamento de Armadura da Forja",
+  "quest.10AA2B20D86747F7.title": "Armadura de &bFerricoro",
+  "quest.3F0CD2C03CD7D730.title": "Enfeite da Forja",
   "quest.0ED11FCF6298CE85.quest_subtitle": "20",
   "quest.1452D9CF827782B5.quest_desc": [
-    "Equipamento Ártico é feito com Pele Ártica. A Pele Ártica é dropada de Lobos de Inverno e Yetis! \n\nNão, você não pode tosquiar nenhum deles. \n\nO Equipamento pode ser tingido como &7Armadura de Couro&r!",
+    "Equipamento Ártico é feito com Pelo Ártico. A Pelo Ártico é dropada de Lobos-do-Inverno e Yetis! \n\nNão, você não pode tosquiar nenhum deles. \n\nO Equipamento pode ser tingido como &7Armadura de Couro&r!",
   ],
-  "quest.3F0CD2C03CD7D730.quest_subtitle": "Deixado pelo Golem Starlight",
+  "quest.3F0CD2C03CD7D730.quest_subtitle": "Dropado pelo Golem da Starlight",
   "quest.690DB8BEF80617E5.title": "&cUtário&r",
   "quest.1E3E688B3B52C4D2.quest_subtitle": "Ruínas da Trilha",
   "quest.3403D7502F7BC897.title": "&eArmadura &bQuântica&r (&l&7MI&r)",
   "quest.4B65100885AE762D.quest_subtitle": "20",
   "quest.52B61FB01D7C12A4.quest_subtitle": "23",
   "quest.4A9CB8778D37049F.quest_desc": [
-    "Você precisará usar um Ritual do Despertar para obter os Itens para fazer outro Ritual do Despertar na &4Armadura de Supremium&r. \n\nEu acho que vale a pena; é a melhor Armadura que você pode obter do &2&lMystical&r!",
+    "Você precisará usar um Ritual do Despertar para obter os Itens para fazer outro Ritual do Despertar na &4Armadura de Suprêmio&r. \n\nEu acho que vale a pena; é a melhor Armadura que você pode obter do &2&lMystical&r!",
   ],
   "quest.3EA3A6414AB8A39C.title": "Enfeite de Fluxo",
   "quest.4DF683461225690F.quest_desc": [
@@ -251,14 +251,14 @@
     "Agora sim, é disso que eu gosto! Ferro é muito comum e sua Armadura é incrível para o início do jogo. \n\nZumbis e Esqueletos quase não têm chance!",
   ],
   "quest.3D72E3E53E7306FA.quest_subtitle": "20",
-  "quest.3A2047CC0F59C6CC.title": "&aEquipamento de Wildwood",
+  "quest.3A2047CC0F59C6CC.title": "&aEquipamento do Bosque Selvagem",
   "quest.6ED2CDD01659FD10.quest_subtitle": "15",
   "quest.2E0F82F7E1B74033.quest_subtitle": "15",
   "quest.7ADE27F9398D97F1.quest_desc": [
     "Esta não é diferente, por que você está verificando?",
   ],
   "quest.0ABB2264CBB82470.quest_subtitle": "15",
-  "quest.3215A3D706CECCEF.title": "&7Armadura de Ironwood",
+  "quest.3215A3D706CECCEF.title": "&7Armadura de Madeira de Ferro",
   "quest.3416DB9F58D8AA2C.quest_desc": [
     "&3Neptunium&r é uma recompensa da Recompensa de Netuno, que é obtida através da Pesca! \nTambém concede bônus por estar debaixo d'água.",
   ],
@@ -279,16 +279,16 @@
     "{image:atm:textures/questpics/basicarmor/armor_wayfinder.png width:100 height:150 align:center}",
   ],
   "quest.074EC1E636CD6605.quest_subtitle": "20",
-  "quest.2D93888313B03029.title": "&9Cristal de Luz Estelar Azul&r",
+  "quest.2D93888313B03029.title": "&9Cristal da Starlight Azul&r",
   "quest.3AA836E8EDB52097.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_lapis.png width:100 height:150 align:center}",
   ],
   "quest.7B500E0577BDFF8F.quest_subtitle": "18",
   "quest.5DDC15AAFD2CAF47.title": "&bArmadura de Diamante",
-  "quest.2A4FE9644F3B9DC1.title": "&cArmadura de Tertium",
+  "quest.2A4FE9644F3B9DC1.title": "&cArmadura de Tértio",
   "quest.5865951E4F81C91F.quest_subtitle": "20",
   "quest.497D222F74A52DF5.quest_subtitle": "15",
-  "quest.3AE0198177A8E91B.quest_subtitle": "Shipwrecks e Tesouros Enterrados",
+  "quest.3AE0198177A8E91B.quest_subtitle": "Naufrágios e Tesouros Enterrados",
   "quest.6F76DA3BBAE8337B.title": "Armadura de &5Unobtainium",
   "quest.459BB5B4CDB21773.quest_subtitle": "15",
   "quest.24FDA15A7ACDF021.quest_subtitle": "40",
@@ -307,25 +307,25 @@
   "quest.1CC627D3FB348C89.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_shaper.png width:100 height:150 align:center}",
   ],
-  "quest.5865951E4F81C91F.title": "&eArmadura de Pedra Luminosa Refinada",
+  "quest.5865951E4F81C91F.title": "&eArmadura de Pedra-Luminosa Refinada",
   "quest.3B4511E7DC788AB3.title": "&dPétala Tenaz&r",
   "quest.215C9C2B2240FAA1.quest_desc": [
     "&e&lIron's Spells&r &5Armadura Elétrica&r!",
   ],
-  "quest.1D23F53C585185B7.title": "&2Escamas de Naga",
+  "quest.1D23F53C585185B7.title": "&2Escama de Naga",
   "quest.3ABE7074E500494D.quest_desc": [
     "O &7Aço&r é usado na maioria das Máquinas do &5&lMekanism&r... além da Armadura, o que é bom!",
   ],
   "quest.686EB173C94301C0.quest_desc": [
-    "&e&lArmadura de Gelo&r de &bIron's Spells&r!",
+    "&e&lIron's Spells&r &bArmadura de Gelo&r!",
   ],
   "quest.3260EDAD3A619479.quest_desc": [
-    "&5Minério de Aethersent&r é encontrado durante Chuvas de Meteoritos em &5&lEternal Starlight&r. Os pequenos quebram com o impacto, você precisará esperar por Meteoros grandes! \n\nOu são Meteoritos? Qual é a diferença?",
+    "&5Minério de Golpe Etéreo&r é encontrado durante Chuvas de Meteoritos em &5&lEternal Starlight&r. Os pequenos quebram com o impacto, você precisará esperar por Meteoros grandes! \n\nOu são Meteoritos? Qual é a diferença?",
   ],
   "quest.3061B67330367CE2.quest_desc": [
-    "Se você de alguma forma matou a Hidra ou o Ur-Ghast, então terá acesso a &4Lágrimas/Sangue Ardentes&r, qualquer um serve! \n\nAgora você pode fazer &4Armadura Ardente&r, melhorando sua Armadura de Ferro com qualquer um dos &4Frascos Ardentes&r. \n\nAgora sua Armadura é mais forte que a de &cNetherite&r e qualquer um azarado o suficiente para te acertar será incendiado!",
+    "Se você de alguma forma matou a Hidra ou o Ur-Ghast, então terá acesso a &4Lágrimas/Sangue Ardentes&r, qualquer um serve! \n\nAgora você pode fazer &4Armadura Ardente&r, melhorando sua Armadura de Ferro com qualquer um dos &4Frascos Ardentes&r. \n\nAgora sua Armadura é mais forte que a de &cNetherita&r e qualquer um azarado o suficiente para te acertar será incendiado!",
   ],
-  "quest.041ED280691BB05D.title": "Armadura de &9Aço Gelado",
+  "quest.041ED280691BB05D.title": "Armadura de &9Aço Gélido",
   "quest.6B671CB07D046BEC.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_diamond.png width:100 height:150 align:center}",
   ],
@@ -336,10 +336,10 @@
   "quest.24A7B2902E7430A1.title": "&9Equipamento de Mago Errante",
   "quest.1EABF2E7AE7B8F22.title": "&8Netherita&r",
   "quest.2FA0F5B348322095.quest_desc": [
-    "&7Cloggrum&r é o Minério de Ferro do &2&lUndergarden&r. Ele aparece em todos os lugares.",
+    "&7Obstrúmio&r é o Minério de Ferro do &2&lUndergarden&r. Ele aparece em todos os lugares.",
   ],
   "quest.606775701551F3EE.title": "&4Carminita",
-  "quest.66B5A8D259E12BF5.title": "&4Traje de Mago de Batalha de Netherita",
+  "quest.66B5A8D259E12BF5.title": "&4Traje de Mago Guerreiro de Netherita",
   "quest.1E3E688B3B52C4D2.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_raiser.png width:100 height:150 align:center}",
   ],
@@ -355,12 +355,12 @@
     "Versão aprimorada do &2Prudentium&r.",
   ],
   "quest.05B5E640F1B68A28.title": "&3Aço de Golem&r",
-  "quest.4A9CB8778D37049F.title": "&6Armadura de Supremium Desperta",
+  "quest.4A9CB8778D37049F.title": "&6Armadura de Suprêmio Desperto",
   "quest.30A61E1A1EFA81E6.quest_desc": [
-    "&2Folha de Aço&r é, tecnicamente uma Barra, encontrado dentro de Baús na &9&lThe Twilight Forest&r. \nCada parte da Armadura dá um Encantamento diferente!",
+    "&2Folha de Aço&r é, tecnicamente um Lingote, encontrado dentro de Baús na &9&lThe Twilight Forest&r. \nCada parte da Armadura dá um Encantamento diferente!",
   ],
   "quest.074EC1E636CD6605.quest_desc": [
-    "A &cArmadura de Netherita&r é o melhor que o &l&2Vanilla&r pode oferecer. Ela tem os mesmos Pontos de Armadura que a de &bDiamante&r, mas mais Resistência de Armadura.\n\nProvavelmente porque você precisa de &bDiamante&r para fazê-la!",
+    "A &cArmadura de Netherita&r é o melhor que o &l&2Minecraft&r pode oferecer. Ela tem os mesmos Pontos de Armadura que a de &bDiamante&r, mas mais Resistência de Armadura.\n\nProvavelmente porque você precisa de &bDiamante&r para fazê-la!",
   ],
   "quest.6C5F9D0D447EFB9C.quest_subtitle": "24",
   "quest.5391385A75535EC8.quest_subtitle": "20",
@@ -370,10 +370,10 @@
   "quest.338BD467EBE6EE1F.title": "Enfeite de Sentinela",
   "quest.5DDC15AAFD2CAF47.quest_subtitle": "20",
   "quest.004D61425172324F.quest_desc": [
-    "A &8Armadura de Malha&r é um pouco pior que a de Ferro. Seu uso principal no &l&2Minecraft&r era sua natureza elusiva, sendo obtida apenas através de Trocas e Drops de Mobs.\n\nClaro que isso é moddado, então agora podemos criá-la! O que tira seu propósito...",
+    "A &8Armadura de Cota de Malha&r é um pouco pior que a de Ferro. Seu uso principal no &l&2Minecraft&r era sua natureza elusiva, sendo obtida apenas através de Trocas e Drops de Criaturas.\n\nClaro que isso é moddado, então agora podemos criá-la! O que tira seu propósito...",
   ],
   "quest.39796D8EE440F318.title": "Enfeite de Dunas",
-  "quest.66C21934DAFFAC7F.quest_subtitle": "Dropado de Guardiões Anciões",
+  "quest.66C21934DAFFAC7F.quest_subtitle": "Dropado de Guardiões-Mestre",
   "quest.05B5E640F1B68A28.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_golem.png width:100 height:150 align:center}",
   ],
@@ -398,14 +398,14 @@
   ],
   "quest.3512F47DADC07EAE.title": "&5Equipamento Arcanista de Unobtainium",
   "quest.5865951E4F81C91F.quest_desc": [
-    "&7Ósmio&r + &6Pedra Luminosa&r = &ePedra Luminosa Refinada&r!",
+    "&7Ósmio&r + &6Pedra-Luminosa&r = &ePedra-Luminosa Refinada&r!",
   ],
   "quest.1EABF2E7AE7B8F22.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_netherite.png width:100 height:150 align:center}",
   ],
   "quest.498483750C18FCD6.title": "&eRegálio&r",
   "quest.66C21934DAFFAC7F.title": "Enfeite de Marés",
-  "quest.16359196D49A6223.title": "&bAço Gelado&r",
+  "quest.16359196D49A6223.title": "&bAço Gélido&r",
   "quest.21B96130EA516B82.quest_subtitle": "15",
   "quest.52AFABA08674B6A8.quest_desc": [
     "&3Armadura de Vibranium&r mas com bônus para os Feitiços de &d&lArs Nouveau&r!",
@@ -431,13 +431,13 @@
   ],
   "quest.1EBF234015B26F15.title": "&2Equipamento Silvestre",
   "quest.7FABB77A60E7962C.quest_desc": [
-    "Ao infundir Obsidiana com &bDiamantes&r, podemos obter Pó de Obsidiana Refinada! \n\nEntão, podemos comprimir &7Ósmio&r nele para obtê-lo em forma de Barra. \n\nDepois disso, podemos transformar essas Barras em Armadura com status melhores do que até mesmo a &6Armadura de Allthemodium&r!",
+    "Ao infundir Obsidiana com &bDiamantes&r, podemos obter Pó de Obsidiana Refinada! \n\nEntão, podemos comprimir &7Ósmio&r nele para obtê-lo em forma de Lingote. \n\nDepois disso, podemos transformar esses Lingotes em Armadura com status melhores do que até mesmo a &6Armadura de Allthemodium&r!",
   ],
   "quest.76CDF08465700AA2.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_silent.png width:100 height:150 align:center}",
   ],
   "quest.28408BFAA54E4FC6.title": "&7Armadura de Couro",
-  "quest.50429F57480F44DA.title": "Armadura de &cPedra de Fonte Termal",
+  "quest.50429F57480F44DA.title": "Armadura de &cPedra Primaveril Térmica",
   "quest.68DABFFB6B3E1A57.quest_subtitle": "Fortaleza",
   "quest.65A529C8238E89F1.title": "&9Armadura de Lápis-lazúli",
   "quest.243008D4DCD789D0.quest_desc": [
@@ -462,7 +462,7 @@
   ],
   "quest.4DD66E31859EA593.quest_subtitle": "32",
   "quest.71C552678A0F649F.quest_desc": [
-    "O &7Ósmio&r aparece ao redor da Deepslate e só precisa de Ferro para ser minerado, mas oferece estatísticas melhores que a &cNetherite&r!",
+    "O &7Ósmio&r aparece ao redor da Ardosiabissal e só precisa de Ferro para ser minerado, mas oferece estatísticas melhores que a &cNetherita&r!",
   ],
   "quest.756628F4B7F79446.title": "&cÂmbaramarelo&r",
   "quest.13517D17E6BF015F.quest_subtitle": "21",
@@ -489,22 +489,22 @@
     "{image:atm:textures/questpics/basicarmor/armor_allthemodium.png width:100 height:150 align:center}",
   ],
   "quest.3215A3D706CECCEF.quest_desc": [
-    "Combinando um pouco de Liveroot, um Lingote de Ferro e uma &ePepita de Ouro&r, você pode criar &7Madeira de Ferro&r! \n\nParece que você precisará de um Machado e uma Picareta para conseguir um pouco. \n\nToda a &7Armadura de Ironwood&r vem com um nível de Proteção de graça!",
+    "Combinando um pouco de Raiz-Viva, um Lingote de Ferro e uma &ePepita de Ouro&r, você pode criar &7Madeira de Ferro&r! \n\nParece que você precisará de um Machado e uma Picareta para conseguir um pouco. \n\nToda a &7Armadura de Madeira de Ferro&r vem com um nível de Proteção de graça!",
   ],
   "quest.28408BFAA54E4FC6.quest_desc": [
-    "A &7Armadura de Couro&r é o pior conjunto de Armadura que você pode obter. \n\nIsso ocorre principalmente porque a &c&lMojang&r esperava que você a obtivesse antes de qualquer outra. \n\nEu quase nunca a obtenho, no entanto, porque luto para encontrar tantas &zVacas&r, desculpe &c&lMojang&r!",
+    "A &7Armadura de Couro&r é o pior conjunto de Armadura que você pode obter. \n\nIsso ocorre principalmente porque a &c&lMojang&r esperava que você a obtivesse antes de qualquer outra. \n\nEu quase nunca a obtenho, no entanto, porque luto para encontrar tantas &8V&fa&8c&fa&rs&r, desculpe &c&lMojang&r!",
   ],
   "quest.71C552678A0F649F.title": "Armadura de &7Ósmio",
-  "quest.004D61425172324F.title": "&8Armadura de Malha",
+  "quest.004D61425172324F.title": "&8Armadura de Cota de Malha",
   "quest.5064D5F99E2C69C8.quest_desc": [
-    "Versão melhorada do &9Imperium&r.",
+    "Versão melhorada do &9Imperita&r.",
   ],
   "quest.1D23F53C585185B7.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_naga.png width:100 height:150 align:center}",
   ],
   "quest.260C7F3C1F51221D.quest_subtitle": "20",
   "quest.10AA2B20D86747F7.quest_desc": [
-    "&bFerricore&r tem os mesmos status que Ferro, mas tem outras habilidades que o Ferro gostaria de ter!\n\nConfira as descrições dos Itens para saber mais sobre o que eles podem fazer!",
+    "&bFerricoro&r tem os mesmos status que Ferro, mas tem outras habilidades que o Ferro gostaria de ter!\n\nConfira as descrições dos Itens para saber mais sobre o que eles podem fazer!",
   ],
   "quest.2296CE4418AE62D4.quest_desc": [
     "&6Armadura de Allthemodium&r mas com bônus para os feitiços do &d&lArs Nouveau&r!",
@@ -518,17 +518,17 @@
   "quest.6A21228B0511FF85.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_thermal.png width:100 height:150 align:center}",
   ],
-  "quest.4664AFCFB5618CEB.title": "Armadura de &bGlacite",
+  "quest.4664AFCFB5618CEB.title": "Armadura de &bGlacita",
   "quest.3512F47DADC07EAE.quest_subtitle": "40",
   "quest.074EC1E636CD6605.title": "Armadura de &cNetherita",
   "quest.1CC627D3FB348C89.title": "Enfeite de Moldador",
   "quest.66B5A8D259E12BF5.quest_desc": [
-    "Espera, você está me dizendo que ele tem as mesmas estatísticas que o &cNetherita&r? E ainda bônus de Feitiço? \n\nPor que alguém iria querer o &cNetherita&r normal!",
+    "Espera, você está me dizendo que ele tem as mesmas estatísticas que a &cNetherita&r? E ainda bônus de Feitiço? \n\nPor que alguém iria querer a &cNetherita&r normal!",
   ],
   "quest.3403D7502F7BC897.quest_desc": [
-    "Literalmente invencível, nada pode te atingir e causar dano. \n\nAtualmente você precisa aprimorar a &cArmadura de Netherita&r com um &eAprimoramento &bQuântico&r, mas seus amigos da &6&lEquipe ATM&r estão trabalhando para tornar essa receita mais difícil! \n\nE você não pode fazer nada para impedir! &lBWAHAHAHAHA",
+    "Literalmente invencível, nada pode te atingir e causar dano. \n\nAtualmente você precisa aprimorar a &cArmadura de Netherita&r com um &eMelhoria &bQuântica&r, mas seus amigos da &6&lEquipe ATM&r estão trabalhando para tornar essa receita mais difícil! \n\nE você não pode fazer nada para impedir! &lBWAHAHAHAHA",
   ],
-  "quest.3260EDAD3A619479.title": "&5Armadura de Aethersent",
+  "quest.3260EDAD3A619479.title": "&5Armadura de Golpe Etéreo",
   "quest.04B31A600004F7CB.quest_desc": [
     "Esta Missão foi criada pela &6Equipe AllTheMods&r, ou por um &2contribuidor da Comunidade&r para uso nos Modpacks AllTheMods.\n\nComo todos os pacotes &6AllTheMods&r são licenciados sob &eTodos os Direitos Reservados&r, esta Missão não pode ser usada em nenhum pacote público não lançado pela &6Equipe AllTheMods&r sem permissão explícita.\n\nEsta missão está intencionalmente oculta, se você está vendo isso, está no modo de edição.",
   ],
@@ -536,10 +536,10 @@
   "quest.7B76EC62E3F7E12C.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_aethersent.png width:100 height:150 align:center}",
   ],
-  "quest.5391385A75535EC8.title": "Traje &2Empesteado",
-  "quest.361C9D90617E6D38.quest_subtitle": "Trocado com o Gatekeeper",
-  "quest.7C1D407CF67786F6.title": "&fTraje de Aethermante",
-  "quest.1245126B4338C019.title": "Enfeite de Vex",
+  "quest.5391385A75535EC8.title": "Traje &2Apodrecido",
+  "quest.361C9D90617E6D38.quest_subtitle": "Trocado com o Guardião do Portal",
+  "quest.7C1D407CF67786F6.title": "&fTraje de Etéromante",
+  "quest.1245126B4338C019.title": "Enfeite de Obsessor",
   "quest.0ABB2264CBB82470.title": "&5Traje de Arcanista",
   "quest.459BB5B4CDB21773.quest_desc": [
     "&9Prata do Pântano&r é encontrada na lama dos pântanos de &5&lEternal Starlight&r.",
@@ -556,16 +556,16 @@
   "quest.7FBC64E6408D8D7F.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_knightmetal.png width:100 height:150 align:center}",
   ],
-  "quest.5C83D5CDD980FD9A.quest_subtitle": "Restos de Bastiões",
+  "quest.5C83D5CDD980FD9A.quest_subtitle": "Bastiões em Ruínas",
   "quest.0E2515424291BB59.title": "&5Traje de Mago de Batalha",
   "quest.6A21228B0511FF85.title": "&6Pedra Primaveril Térmica&r",
   "quest.1245126B4338C019.quest_subtitle": "Mansão da Floresta",
-  "quest.5064D5F99E2C69C8.title": "Armadura de &4Supremium",
+  "quest.5064D5F99E2C69C8.title": "Armadura de &4Suprêmio",
   "quest.17A68C4E9E9EA2B7.quest_desc": [
     "A &eArmadura de Ouro&r está entre a de Ferro e a de &7Couro&r. Mas sua Durabilidade é muito mais próxima da de &7Couro&r. \n\nNão há muito uso para ela, além de fazer com que os Piglins fiquem neutros em relação a você quando estiver usando alguma &eArmadura de Ouro&r.",
   ],
   "quest.34D14B807A2DAC0F.quest_desc": [
-    "Você acha que o &5&lMekanism&r e o &l&7Modern Industrialization&r podem ter toda a diversão? \n\nEsta &5Armadura Quântica&r tem status padrão semelhantes à &cArmadura de Netherita&r, mas, como o &aTraje-Meka&r, pode usar Energia como um escudo para Negar 30% do Dano. \nTambém possui melhorias que podem ser instaladas para torná-lo ainda mais poderoso! Como Voo, Visão Noturna e até a capacidade de recarregar. \n\nMas a melhor parte é que ela pode ser vinculada ao seu Sistema de Armazenamento! Então, você pode retirar energia automaticamente dele e retirar qualquer Item dele, não importa onde você esteja. ",
+    "Você acha que o &5&lMekanism&r e o &l&7Modern Industrialization&r podem ter toda a diversão? \n\nEsta &5Armadura Quântica&r tem status padrão semelhantes à &cArmadura de Netherita&r, mas, como o &aMekaSuit&r, pode usar Energia como um escudo. \nTambém possui melhorias que podem ser instaladas para torná-lo ainda mais poderoso! Como Voo, Visão Noturna e até a capacidade de recarregar. \n\nMas a melhor parte é que ela pode ser vinculada ao seu Sistema de Armazenamento! Então, você pode retirar energia automaticamente dele e retirar qualquer Item dele, não importa onde você esteja. ",
   ],
   "quest.6B671CB07D046BEC.title": "&bDiamante&r",
   "quest.788A7A2F1F438B64.title": "&7Obstrúmio&r",
@@ -578,7 +578,7 @@
   ],
   "quest.30A61E1A1EFA81E6.quest_subtitle": "20",
   "quest.041ED280691BB05D.quest_desc": [
-    "&9Aço Gelado&r é um Minério comum nos Biomas Frios do &2&lUndergarden&r.",
+    "&9Aço Gélido&r é um Minério comum nos Biomas Frios do &2&lUndergarden&r.",
   ],
   "quest.79D3055DE0EEA6B0.quest_desc": [
     "&d&lArs Elemental&r &cArmadura de Fogo&r!",
@@ -594,7 +594,7 @@
   "quest.50B127137AA9E660.quest_subtitle": "13",
   "quest.52AFABA08674B6A8.title": "Equipamento Arcanista de &3Vibranium",
   "quest.2C387BFA6EE6FDB7.quest_desc": [
-    "&cCristais de Utherium&r dropam de &cRotbeasts&r no &2&lUndergarden&r!",
+    "&cCristais de Utário&r dropam de &cPodrões&r no &2&lUndergarden&r!",
   ],
   "quest.3AE0198177A8E91B.quest_desc": [
     "{image:atm:textures/questpics/basicarmor/armor_coast.png width:100 height:150 align:center}",

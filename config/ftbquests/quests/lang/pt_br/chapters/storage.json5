@@ -2,7 +2,7 @@
   "quest.696E063016CAD1B9.quest_desc": [
     "Adiciona interfaces de criação para Bancadas de Trabalho Chipped à sua Mochila.",
   ],
-  "quest.0682DC1F2417DAEB.title": "&eFunctional Storage",
+  "quest.0682DC1F2417DAEB.title": "Functional Storage",
   "quest.156FF8B7B724DC38.quest_desc": [
     "Adiciona um filtro para itens sendo bombeados para dentro ou para fora da Mochila.",
   ],
@@ -13,14 +13,14 @@
     "Troca automaticamente para a ferramenta mais eficaz para o bloco que você está olhando.",
   ],
   "quest.4C0BDD483CCB40C4.title": "&bBaú de Diamante",
-  "quest.1FE052F643401232.quest_subtitle": "A Base para Upgrades",
+  "quest.1FE052F643401232.quest_subtitle": "A Base para Melhorias",
   "quest.19DFAEB6D88F3580.quest_desc": [
-    "A Melhoria de Empurrar permite que as Gavetas empurrem itens para qualquer lado.",
+    "A Melhoria de Empurrador permite que as Gavetas empurrem itens para qualquer lado.",
   ],
-  "quest.4007DFA7CC3A5FF2.quest_subtitle": "A Base para Aprimoramentos",
+  "quest.4007DFA7CC3A5FF2.quest_subtitle": "A Base para Melhorias",
   "quest.17DC77F7F8C68AE6.quest_subtitle": "Livrando-se do Excesso",
   "quest.019CA0E35F888222.title": "&eMódulo de Reabastecimento Avançado",
-  "quest.77F241BEE9902751.title": "&dBaú de Netherite",
+  "quest.77F241BEE9902751.title": "&dBaú de Netherita",
   "quest.3A1D07AED2A841E4.quest_desc": [
     "Derrete itens automaticamente na Mochila.",
   ],
@@ -29,19 +29,19 @@
     "Adiciona um filtro que permite que você diga à Mochila quais itens ela deve manter em estoque. Clicar com o botão direito do mouse em um inventário irá reabastecê-lo.",
   ],
   "quest.5A94A2664BFDD7B9.title": "Armazenamento Básico",
-  "quest.3A1D07AED2A841E4.title": "&eAprimoramento de Auto-Fusão",
+  "quest.3A1D07AED2A841E4.title": "&eMódulo de Fornalha Avançado",
   "quest.0CD04A00529FE1C9.quest_desc": [
     "O Baú de Cobre pode ser feito, mas não é necessário para fazer um Baú de Ferro, pode ser usado se você quiser economizar um pouco de Ferro.",
   ],
   "quest.072FBEB0F6F1BC48.quest_desc": [
-    "Usado para ligar Gavetas a um Controlador e para ligar Gavetas do End.\n\nPara ligar Gavetas ao Controlador, clique com o botão direito no bloco do Controlador para iniciar a configuração. Clicar com o botão direito nas Gavetas as adicionará à rede.\n\nSegurar a ferramenta mostrará quais Gavetas estão conectadas ao Controlador.",
+    "Usado para ligar Gavetas a um Controlador e para ligar Gavetas de Ender.\n\nPara ligar Gavetas ao Controlador, clique com o botão direito no bloco do Controlador para iniciar a configuração. Clicar com o botão direito nas Gavetas as adicionará à rede.\n\nSegurar a ferramenta mostrará quais Gavetas estão conectadas ao Controlador.",
   ],
   "quest.3D5852E6D0ADF651.title": "Armazenamento Dimensional",
   "quest.26A9F402DAE15EA2.quest_desc": [
-    "Adiciona uma INTERFACE de Defumador à Mochila.",
+    "Adiciona um Módulo de Defumador à Mochila.",
   ],
   "quest.1FE17B1C7C639F88.quest_desc": [
-    "O Controlador de armazenamento permite que você trabalhe com múltiplos armazenamentos como se fossem um grande multibloco de armazenamento.\n\nIsso permite uma rede de armazenamento muito grande, que pode ser combinada com mods como Applied Energistics ou Integrated Dynamics, já que o Controlador de armazenamento atua como um ponto de entrada/saída para todos os armazenamentos conectados a ele.\n\nConectar qualquer um pode ser feito simplesmente colocando os armazenamentos ao lado do Controlador de armazenamento ou ao lado de outros que já estão conectados ao Controlador de armazenamento (isso funciona até 14 blocos de distância do controlador em todas as direções).",
+    "O Controlador de Armazenamento permite que você trabalhe com múltiplos armazenamentos como se fossem um grande multibloco de armazenamento.\n\nIsso permite uma rede de armazenamento muito grande, que pode ser combinada com mods como Applied Energistics ou Integrated Dynamics, já que o Controlador de Armazenamento atua como um ponto de entrada/saída para todos os armazenamentos conectados a ele.\n\nConectar qualquer um pode ser feito simplesmente colocando os armazenamentos ao lado do Controlador de Armazenamento ou ao lado de outros que já estão conectados ao Controlador de Armazenamento (isso funciona até 14 blocos de distância do controlador em todas as direções).",
   ],
   "quest.4C2A60FC1F1E0328.quest_desc": [
     "Adiciona uma bateria à Mochila.",
@@ -58,7 +58,7 @@
     "Aumenta o tamanho da pilha na Mochila em 16.",
   ],
   "quest.46D756F4DC6CC894.title": "&dMochila de Netherita",
-  "quest.1A4B1CA7EC15348E.quest_subtitle": "Drawer Dimensional...",
+  "quest.1A4B1CA7EC15348E.quest_subtitle": "Gaveta Dimensional...",
   "quest.0CD04A00529FE1C9.title": "&6Baú de Cobre",
   "quest.5FA9BC0D8476D322.quest_desc": [
     "Alimenta você automaticamente com a comida na Mochila.",
@@ -69,14 +69,14 @@
     "Assim você pode ter sua Mochila na sua Mochila para quando precisar da sua Mochila na sua Mochila.",
   ],
   "quest.1E499F94A2A193E1.quest_desc": [
-    "Adiciona uma INTERFACE de Alto-forno à Mochila.",
+    "Adiciona um Módulo de Alto-Forno à Mochila.",
   ],
   "quest.1CD2C6AFD788C35E.quest_desc": [
     "Compacta itens na Mochila para sua receita 2x2.",
   ],
-  "quest.36BCE35215B2B6E9.title": "&eMelhoria de Auto-Defumação",
+  "quest.36BCE35215B2B6E9.title": "&eMódulo de Defumação Avançado",
   "quest.7C0F7A1B3AB9A1A1.title": "&eMódulo de Reposição Avançado",
-  "task.349B2DA0A38AE9B5.title": "Gavetas com Moldura",
+  "task.349B2DA0A38AE9B5.title": "Gavetas Emolduradas",
   "quest.3E33730DC2115D26.title": "&eBaú de Ouro",
   "quest.0298A17C2AAC5765.quest_desc": [
     "Aumenta o tamanho da pilha na Mochila em 8.",
@@ -85,7 +85,7 @@
     "Aumenta o tamanho da pilha na Mochila em 2.",
   ],
   "quest.6E9041744C592573.quest_desc": [
-    "Adiciona a habilidade de bombear líquidos da Melhoria de Tanque.",
+    "Adiciona a habilidade de bombear líquidos do Módulo de Tanque.",
   ],
   "task.0427B441A750316F.title": "Baús de Ouro",
   "quest.1985CFD1F0425E88.title": "&eMódulo de Coleta Avançado",
@@ -93,7 +93,7 @@
   "quest.53F861876B991C36.quest_subtitle": "Agora estamos na vibe",
   "task.51CC9A8E36385400.title": "Baús",
   "quest.53F861876B991C36.quest_desc": [
-    "Adiciona uma INTERFACE deToca-discoà Mochila.",
+    "Adiciona um Módulo de Jukebox à Mochila.",
   ],
   "quest.0682DC1F2417DAEB.quest_desc": [
     "Functional Storage é um mod de armazenamento que adiciona vários itens úteis para ajudar com o armazenamento e maneiras de armazenar pilhas dos mesmos itens.\n\nIsso pode ser útil para itens como Pedregulho, Terra e mais.",
@@ -109,19 +109,19 @@
   ],
   "quest.26988E22BD019628.quest_subtitle": "Automático",
   "quest.2B422B7E0CE3590D.quest_desc": [
-    "O Linking Tool de Compactação pode converter itens colocados dentro em suas formas de pepita ou bloco.\n\nPor exemplo: um Lingote de Ferro colocado aqui permitirá que você retire 9 pepitas, ou se mais Ferro for colocado, o converterá em Blocos de Ferro.",
+    "A Gaveta Compactadora pode converter itens colocados dentro em suas formas de pepita ou bloco.\n\nPor exemplo: um Lingote de Ferro colocado aqui permitirá que você retire 9 pepitas, ou se mais Ferro for colocado, o converterá em Blocos de Ferro.",
   ],
   "quest.508A8366219175FE.quest_desc": [
     "A Ferramenta de Configuração é usada para travar Gavetas para que elas se lembrem do item que têm dentro.\n\nIsso pode ser útil sempre que você configurar um sistema para empurrar e puxar de Gavetas. A Gaveta travada não substituirá o item que foi travado nela!",
   ],
   "task.593CD1E685B4DDAA.title": "Melhorias do Chipped",
   "quest.5A94A2664BFDD7B9.quest_desc": [
-    "Bem-vindo ao Capítulo de Armazenamento Básico!\n\nVocê encontrará todas as formas básicas de armazenar itens sem precisar de energia, bem como itens úteis para suas necessidades de armazenamento!",
+    "Bem-vindo(a) ao Capítulo de Armazenamento Básico!\n\nVocê encontrará todas as formas básicas de armazenar itens sem precisar de energia, bem como itens úteis para suas necessidades de armazenamento!",
   ],
   "quest.61A22707DBC83818.quest_desc": [
-    "O Ponto de Aacesso de armazenamento atua como um Controlador de armazenamento quando vinculado a ele, podendo receber ou enviar itens. Basicamente, um ponto de entrada para as Gavetas.",
+    "O Ponto de Acesso do Controlador atua como um Controlador de Armazenamento quando vinculado a ele, podendo receber ou enviar itens. Basicamente, um ponto de entrada para as Gavetas.",
   ],
-  "quest.134608BB2B04D96E.title": "Armazenamento Vanilla",
+  "quest.134608BB2B04D96E.title": "Armazenamento Minecraft",
   "quest.2746575C929B6C50.quest_subtitle": "Pilhas sobre Pilhas",
   "quest.134608BB2B04D96E.quest_desc": [
     "Baús têm 27 espaços e podem ser transformados em um baú duplo para armazenar o dobro dessa quantidade.",
@@ -135,41 +135,41 @@
   "quest.019CA0E35F888222.quest_subtitle": "Mais Opções de Filtragem",
   "quest.0E5AE195158CF344.title": "&dMelhoria de Netherita",
   "quest.544791880F315D5A.quest_desc": [
-    "Barcos com Baús são Barcos com Baús neles. Você pode abrir o baú enquanto está no Barco ou pode clicar com o botão direito nele. Apenas uma pessoa pode andar no Barco de cada vez.",
+    "Botes com Baú são botes com um baú dentro. Você pode abrir o baú enquanto está no Bote ou pode clicar com o botão direito nele. Apenas uma pessoa pode andar no Bote de cada vez.",
   ],
   "quest.2FC15D3916DBF4E4.title": "&eMódulo de Descarte Avançado",
-  "quest.57CF8C6C867B9BDA.title": "&eMelhoria de Filtro Avançada",
+  "quest.57CF8C6C867B9BDA.title": "&eMódulo de Filtro Avançado",
   "quest.1985CFD1F0425E88.quest_subtitle": "Mais Opções de Filtragem",
   "quest.209DC1E9AD4C5A84.quest_desc": [
     "Esta Missão foi criada pela &6Equipe AllTheMods&r, ou por um &2contribuidor da Comunidade&r para uso nos Modpacks AllTheMods.\n\nComo todos os pacotes &6AllTheMods&r são licenciados sob &eTodos os Direitos Reservados&r, esta Missão não pode ser usada em nenhum pacote público não lançado pela &6Equipe AllTheMods&r sem permissão explícita.\n\nEsta missão está intencionalmente oculta, se você está vendo isso, você está no modo de edição.",
   ],
   "quest.1CACE201C6AA0913.quest_desc": [
-    "Esta melhoria anulará itens extras que chegam quando asGavetas estão cheias.\n\nIsso pode ser útil para evitar transbordamento ou para impedir que uma configuração fique congestionada devido ao armazenamento estar cheio.",
+    "Esta melhoria anulará itens extras que chegam quando as Gavetas estão cheias.\n\nIsso pode ser útil para evitar transbordamento ou para impedir que uma configuração fique congestionada devido ao armazenamento estar cheio.",
   ],
   "quest.00DB5495C3A44999.quest_desc": [
     "Shift + Clique Direito em um inventário para esvaziar.",
   ],
   "quest.134608BB2B04D96E.quest_subtitle": "O Baú",
   "quest.7649D648A3688D4A.quest_desc": [
-    "O Upgrade Puxador permite que as Gavetas puxem itens de qualquer lado.",
+    "A Melhoria de Puxador permite que as Gavetas puxem itens de qualquer lado.",
   ],
   "quest.56B80A7EBFE21428.quest_subtitle": "Mais Opções de Filtragem",
   "quest.15CD4BFDC56E9510.title": "&eMódulo de Troca de Ferramenta Avançado",
-  "task.26A85DCA60F71DFF.title": "Gaveta de Fluido",
+  "task.26A85DCA60F71DFF.title": "Gavetas de Fluidos",
   "quest.2746575C929B6C50.quest_desc": [
-    "As Gavetas (Gavetas) podem ser 1x1, 2x1 ou 2x2. As Gavetas podem conter uma tonelada de pilhas de 1/2/4 itens, dependendo do tipo de Linking Tool.",
+    "As gavetas podem ser 1x1, 2x1 ou 2x2. As Gavetas podem conter uma tonelada de pilhas de 1/2/4 itens, dependendo do tipo de gaveta.",
   ],
   "quest.6A2B2C5E2ADCE366.quest_desc": [
     "Sophisticated Backpacks oferece Mochilas aprimoráveis que podem usar filtros para adicionar recursos interessantes!\n\nAs Mochilas podem ser colocadas no seu slot de Curios das costas e podem ser tingidas.",
   ],
   "task.200CE35BF3C04F6F.title": "Baús de Cobre",
   "quest.33AADC1B97E9F7A9.quest_desc": [
-    "Carrinhos de Mina com Baús são Carrinhos de Mina com Baús dentro deles. Você não pode andar neles, mas eles podem ser úteis para transportar itens através de sistemas de Trilhos.",
+    "Carrinhos de Mina com Baú são Carrinhos de Mina com Baú dentro deles. Você não pode andar neles, mas eles podem ser úteis para transportar itens através de sistemas de Trilhos.",
   ],
-  "quest.7AE3C8134F5ED726.title": "&dMelhoria de Pilha Nível 4",
+  "quest.7AE3C8134F5ED726.title": "&dMódulo de Empilhamento — Supremo",
   "quest.0E057B7F76401421.quest_subtitle": "A Primeira Melhoria",
   "quest.38F9E9A830D3EA0C.quest_desc": [
-    "Se você achou que este mod era apenas para armazenar itens, você estaria errado, também existem Fluid Gavetas!\n\nElas funcionam da mesma forma que as Gavetas normais, mas em vez disso armazenam fluidos.",
+    "Se você achou que este mod era apenas para armazenar itens, você estaria errado, também existem Gavetas de Fluidos!\n\nElas funcionam da mesma forma que as Gavetas normais, mas em vez disso armazenam fluidos.",
   ],
   "quest.17DC77F7F8C68AE6.quest_desc": [
     "Lixeiras agem como uma forma de destruir itens, líquidos e energia indesejados.",
@@ -187,13 +187,13 @@
     "Baús com Armadilha são iguais aos Baús normais, só que emitem um sinal de Redstone quando abertos e não podem ser combinados em 1.",
   ],
   "quest.1A4B1CA7EC15348E.quest_desc": [
-    "Usando uma &aFerramenta de Vinculação&r, você pode vincular 2 Gavetas do Ender para sincronizar seus conteúdos.\n\nIsso funciona exatamente como um Baú do Ender, mas como uma Gaveta.\n\nPara vincular, clique com o botão esquerdo na primeira Gaveta do Ender com a &aFerramenta de Vinculação&r (na parte externa, não na face do item), depois agache/shift + clique com o botão direito na segunda Gaveta do Ender.",
+    "Usando uma &aFerramenta de Vinculação&r, você pode vincular 2 Gavetas de Ender para sincronizar seus conteúdos.\n\nIsso funciona exatamente como um Baú do Ender, mas como uma Gaveta.\n\nPara vincular, clique com o botão esquerdo na primeira Gaveta do Ender com a &aFerramenta de Vinculação&r (na parte externa, não na face do item), depois agache/shift + clique com o botão direito na segunda Gaveta do Ender.",
   ],
   "quest.4E4C8BCD45766F03.quest_desc": [
     "Esta Gaveta converterá automaticamente o item colocado dentro dela para sua forma compactada.",
   ],
   "quest.4A854CD5EC70733E.quest_desc": [
-    "Adiciona uma INTERFACE de Bancada de Trabalho à Mochila.",
+    "Adiciona um Módulo de Bancada de Trabalho à Mochila.",
   ],
   "task.073D1C45B3018BBA.title": "Baús",
   "quest.6E3D53D1C4569A89.quest_desc": [
@@ -220,20 +220,20 @@
   "quest.36BCE35215B2B6E9.quest_desc": [
     "Auto-funde itens na Mochila.",
   ],
-  "quest.6E3D53D1C4569A89.title": "Melhoria de Bomba de &aExperiência",
+  "quest.6E3D53D1C4569A89.title": "Módulo de Bomba de &aExperiência",
   "quest.67704F7341EDCC49.title": "&bMochila de Diamante",
   "quest.52672B7FFFD51D16.quest_desc": [
-    "Adiciona uma INTERFACE de Cortador de Pedra à Mochila.",
+    "Adiciona um Módulo de Cortador de Pedras à Mochila.",
   ],
   "quest.6FBAE89EE782DABA.quest_subtitle": "O Cérebro das Gavetas",
-  "quest.5E4BC0F59C90433A.quest_subtitle": "\"Baú Vanilla\"",
-  "quest.1B72E95569B07E18.title": "Melhoria de &bDiamante",
+  "quest.5E4BC0F59C90433A.quest_subtitle": "\"Baú Minecraft\"",
+  "quest.1B72E95569B07E18.title": "&bMelhoria de Diamante",
   "task.5DEBE38C614EFBB4.title": "TodosOsDireitosReservados",
   "quest.1310C1E14C259807.quest_desc": [
     "Quer ter Gavetas personalizadas? Não procure mais, estas podem imitar a textura de um bloco por fora e uma diferente na frente.\n\nSiga a dica na descrição para saber como fazer.",
   ],
   "quest.0682DC1F2417DAEB.quest_subtitle": "Parente Distante das Gavetas de Armazenamento",
-  "quest.785951190FFDAA21.title": "&eMelhoria de Pilha Nível 2",
+  "quest.785951190FFDAA21.title": "&eMódulo de Empilhamento — Intermediário",
   "task.00ED02255105A973.title": "Baús de Diamante",
   "quest.5E4BC0F59C90433A.quest_desc": [
     "O Sophisticated Storage permite que você aprimore seus Baús e Barris com metais para aumentar seu armazenamento! Você também pode adicionar melhorias para aumentar sua funcionalidade.\n\nEsses baús são como um Baú ou Barril vanilla, mas eles têm um slot para uma Melhoria de Armazenamento!",
@@ -245,12 +245,12 @@
   "quest.58514FDE153FD971.title": "&fBaú de Ferro",
   "quest.7C0F7A1B3AB9A1A1.quest_subtitle": "Mais Opções de Filtragem",
   "quest.25AFD10D008DF30B.quest_desc": [
-    "Os Baús do End todos compartilham o mesmo inventário e esse inventário é diferente para cada jogador. Eles não podem ser combinados em 1.",
+    "Os Baús de Ender todos compartilham o mesmo inventário e esse inventário é diferente para cada jogador. Eles não podem ser combinados em 1.",
   ],
   "quest.11D57C768032E3F7.title": "&eMódulo de Ímã Avançado",
-  "quest.0298A17C2AAC5765.title": "&bMelhoria de Pilha Nível 3",
+  "quest.0298A17C2AAC5765.title": "&bMódulo de Empilhamento — Avançado",
   "quest.122FBF5110E4CFF2.quest_desc": [
-    "A Pioria de Ferro irá rebaixar o espaço máximo da Gaveta para um pack. Isso pode ser útil para manter itens em estoque, mas não muitos.",
+    "O Rebaixamento de Ferro irá rebaixar o espaço máximo da Gaveta para uma pilha. Isso pode ser útil para manter itens em estoque, mas não muitos.",
   ],
   "quest.70902EF96F060672.quest_desc": [
     "Esta melhoria fará com que as Gavetas emitam um sinal de Redstone em todos os lados, com a força do sinal indicando o quão cheia/vazia ela está.\n\nPara Gavetas com múltiplos slots, a melhoria pode ser configurada para qual slot monitorar.\n\n0 - significa vazio.\n15 - significa cheio.",
@@ -261,12 +261,12 @@
   "quest.5E4FE420B6D2C97F.title": "&eMódulo de Compactação Avançado",
   "quest.4B62AF0405F68041.quest_subtitle": "Tudo abastecido",
   "quest.78E51D22C16C4686.quest_desc": [
-    "O Controlador de armazenamento também pode se conectar a outros armazenamentos sem fio, isso é possível usando a Ferramenta de Armazenamento, basta clicar com o botão direito no Controlador de armazenamento para vinculá-lo e clicar com o botão direito nos armazenamentos para conectá-los.\n\nO alcance para vinculação sem fio é o mesmo que o regular, 14 blocos de espaço.",
+    "O Controlador de Armazenamento também pode se conectar a outros armazenamentos sem fio, isso é possível usando a Ferramenta de Armazenamento, basta clicar com o botão direito no Controlador de Armazenamento para vinculá-lo e clicar com o botão direito nos armazenamentos para conectá-los.\n\nO alcance para vinculação sem fio é o mesmo que o regular, 14 blocos de espaço.",
   ],
   "quest.4C0EAB9F795686D0.quest_subtitle": "Mais Opções de Filtragem",
   "quest.2FC15D3916DBF4E4.quest_subtitle": "Mais Opções de Filtragem",
   "quest.668C313FF46B6005.quest_desc": [
-    "Adiciona uma INTERFACE de Fornalha à Mochila.",
+    "Adiciona um Módulo de Fornalha à Mochila.",
   ],
   "quest.33882172DA8021F6.quest_desc": [
     "Mantém o inventário do jogador abastecido com itens de dentro da Mochila.",
@@ -274,14 +274,14 @@
   "quest.485D5664A17E16DF.title": "&6Melhoria de Cobre",
   "quest.6A2B2C5E2ADCE366.quest_subtitle": "Inventários são muito pequenos",
   "quest.0108F3EFDFD6DFD0.quest_desc": [
-    "O Link de Armazenamento permite que você conecte múltiplos armazenamentos que não estão ligados a um Controlador de armazenamento ou a quaisquer blocos conectados a ele.\n\nEntão é uma maneira de conectar sem fio um \"multibloco\" de armazenamentos sem precisar clicar com o botão direito em cada um deles.\n\nO alcance de 14 blocos ainda se aplica.",
+    "O Link de Armazenamento permite que você conecte múltiplos armazenamentos que não estão ligados a um Controlador de Armazenamento ou a quaisquer blocos conectados a ele.\n\nEntão é uma maneira de conectar sem fio um \"multibloco\" de armazenamentos sem precisar clicar com o botão direito em cada um deles.\n\nO alcance de 14 blocos ainda se aplica.",
   ],
   "quest.7EFBFF5D0DA018E7.quest_desc": [
     "Adiciona um filtro para itens que você deseja excluir automaticamente na Mochila.",
   ],
   "quest.56B80A7EBFE21428.title": "&eMódulo de Bomba Avançado",
-  "task.14FA4A933C39A406.title": "Barcos com Baús",
-  "quest.26988E22BD019628.title": "&eMelhoria de Auto-Fundição",
+  "task.14FA4A933C39A406.title": "Botes com Baú",
+  "quest.26988E22BD019628.title": "&eMódulo de Alto-Forno Avançado",
   "quest.2F9B0C642A6BE30C.title": "&fMochila de Ferro",
   "quest.0D4C64DD58567758.quest_desc": [
     "Adiciona um tanque à Mochila.",
@@ -294,9 +294,9 @@
   ],
   "task.49F46466DB8EDD61.title": "Baús de Ferro",
   "quest.36BCE35215B2B6E9.quest_subtitle": "Automático",
-  "quest.7E9E03274A88347D.title": "&fMelhoria de Pilha Nível 1",
+  "quest.7E9E03274A88347D.title": "&fMódulo de Empilhamento — Básico",
   "quest.1FE052F643401232.quest_desc": [
-    "Você precisará destes para fazer os Upgrades da Mochila.",
+    "Você precisará destes para fazer os Módulos da Mochila.",
   ],
   "quest.7EFBFF5D0DA018E7.quest_subtitle": "Adiciona um filtro para itens que você deseja excluir automaticamente na mochila.",
   "task.21FBC4E0F668347C.title": "NBT e VOCÊ!",

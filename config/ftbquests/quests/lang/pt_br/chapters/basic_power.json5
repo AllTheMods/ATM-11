@@ -1,12 +1,12 @@
 {
   "quest.1409C17773B6A131.title": "&9Pipez: &aMelhorias",
   "quest.05B6DB75AEC01187.quest_desc": [
-    "O RFTools Power tem &9Células de Energia&r para armazenar energia, que são unidades de armazenamento multibloco que podem ser personalizadas e aprimoradas para armazenar energia.\n\nVocê precisará de uma Chave Inglesa para determinar as entradas e saídas de energia.",
+    "O RFTools Power tem &9Células de Energia&r para armazenar energia, que são unidades de armazenamento multibloco que podem ser personalizadas e aprimoradas para armazenar energia.\n\nVocê precisará de uma Chave-Inglesa para determinar as entradas e saídas de energia.",
   ],
   "quest.79AD74A863EA43CB.title": "Armazenamento Flux",
   "quest.42D173B9FF8D16E4.title": "&8&lOpções de Energia de Início de Jogo",
   "quest.36DEA17CBB696CC7.quest_desc": [
-    "Se você clicar com o botão direito no Plug, verá a interface da Rede Flux. No canto superior direito, clique no botão + para criar sua primeira rede. Você precisará definir uma senha para criar a rede, mas também pode definir uma cor!\n\nA partir daqui, você pode ir para a guia Seleção de Rede para ativar sua rede no Plug. Se o Plug estiver conectado a uma fonte de energia, agora você pode aproveitar essa energia em qualquer lugar do seu sistema usando um Ponto Flux!\n\nDica Profissional: Você pode criar várias redes se quiser ter diferentes fontes de energia alimentando diferentes partes de seus sistemas!",
+    "Se você clicar com o botão direito no Plugue de Flux, verá a interface da Rede Flux. No canto superior direito, clique no botão + para criar sua primeira rede. Você precisará definir uma senha para criar a rede, mas também pode definir uma cor!\n\nA partir daqui, você pode ir para a guia Seleção de Rede para ativar sua rede no Plugue de Flux. Se o Plugue de Flux estiver conectado a uma fonte de energia, agora você pode aproveitar essa energia em qualquer lugar do seu sistema usando um Ponto de Flux!\n\nDica Profissional: Você pode criar várias redes se quiser ter diferentes fontes de energia alimentando diferentes partes de seus sistemas!",
   ],
   "quest.677D0C23D53A77CA.quest_subtitle": "Armazenamento Basicamente Infinito",
   "quest.477B411F84342EEA.quest_desc": [
@@ -22,7 +22,7 @@
     "Se você já ouviu alguém falando sobre \"Poder do Melão\", é isso. O &dGerador a Gás&r do Mekanism pode produzir uma boa quantidade de energia bombeando &9Etileno&r feito de Fatias de Melão.\n\nPara produzir &dEtileno&r, comece triturando materiais orgânicos em um &eTriturador&r para criar &6Biocombustível&r. Fatias de Melão são normalmente usadas para isso! Isso é então bombeado para uma &dCâmara de Reação Pressurizada&r (PRC para abreviar).\n\nA PRC precisa de Água, Biocombustível e um pouco de Hidrogênio para criar Etileno. Você pode obter o Hidrogênio separando a água em um &9Separador Eletrolítico&r.\n\nDepois de começar a produzir o Etileno, bombeie-o para o Gerador a Gás para começar a gerar energia!",
   ],
   "quest.56B6ABF3D6EA0D84.quest_desc": [
-    "Com nosso Plugue configurado, agora podemos acessar a energia da nossa rede. O &9Ponto de Fluxo&r faz exatamente isso. Ele direciona a energia da sua rede para qualquer bloco ao qual esteja conectado, incluindo Canos ou Cabos, ou diretamente em máquinas!\n\nDepois de colocar seu Ponto na máquina ou bloco que deseja energizar, clique com o botão direito nele e selecione sua rede na aba \"Seleção de Rede\". Assim como o Plugue, você pode ajustar quanta energia o Ponto consome, nível de prioridade, etc.",
+    "Com nosso Plugue de Flux configurado, agora podemos acessar a energia da nossa rede. O &9Ponto de Flux&r faz exatamente isso. Ele direciona a energia da sua rede para qualquer bloco ao qual esteja conectado, incluindo Canos ou Cabos, ou diretamente em máquinas!\n\nDepois de colocar seu Ponto na máquina ou bloco que deseja energizar, clique com o botão direito nele e selecione sua rede na aba \"Seleção de Rede\". Assim como o Plugue de Flux, você pode ajustar quanta energia o Ponto consome, nível de prioridade, etc.",
   ],
   "quest.5F078A574A783B02.quest_subtitle": "Apenas conecte!",
   "quest.72EA25D05C46D39A.title": "&9Integrated Dynamics: &bBateria de Energia",
@@ -47,11 +47,11 @@
   ],
   "quest.1F81EA5E45424308.title": "&f&lTransferindo Energia",
   "quest.43D83CFA824B0A70.quest_desc": [
-    "O &9Mekanism&r tem uma opção de energia de fim de jogo que é difícil de superar. O &dReator de Fusão&r pode produzir até 80MRF/t, e se você quiser aprender a construí-lo, não deixe de conferir o capítulo de missões &aMekanism: &dReactors&r!",
+    "O &9Mekanism&r tem uma opção de energia de fim de jogo que é difícil de superar. O &dReator de Fusão&r pode produzir até 80MRF/t, e se você quiser aprender a construí-lo, não deixe de conferir o capítulo de missões &aMekanism: &dReatores&r!",
   ],
   "quest.35ABB0DEE70DF7FD.title": "Mais &aPowah&r!",
   "quest.1EECA19DF9CF6A0C.quest_desc": [
-    "O Pó de Fluxo também pode ser automatizado usando &6XyCraft&r!\n\nColoque um bloco de cristal de redstone carregado sobre a Rocha Matriz, cerque o bloco de cristal com 4 obsidianas em todos os lados e coloque o extrator em cima.\nDepois é só colocar um armazenamento em cima do extrator e pronto!",
+    "O Pó de Flux também pode ser automatizado usando &6XyCraft&r!\n\nColoque um bloco de cristal de redstone carregado sobre a Rocha Matriz, cerque o bloco de cristal com 4 obsidianas em todos os lados e coloque o extrator em cima.\nDepois é só colocar um armazenamento em cima do extrator e pronto!",
   ],
   "quest.42D173B9FF8D16E4.quest_desc": [
     "Procurando por opções de energia no início do jogo? Estas são boas maneiras de começar a gerar energia.\n\nElas não produzem uma tonelada de energia, mas geralmente são fáceis ou baratas de obter no início do jogo!",
@@ -62,7 +62,7 @@
   ],
   "quest.48DC9E8E9D21A2FA.title": "&9Mekanism: &aEnergia Renovável",
   "quest.5F078A574A783B02.quest_desc": [
-    "O primeiro item que você precisará para iniciar sua Flux Network é um &9Plugue de Flux&r.\n\nO Plug é usado para \"puxar\" energia do bloco ao qual está conectado. Além de um pequeno buffer, o Plug não armazena energia por si só, então não se preocupe em ele consumir toda a sua energia.\n\nSugere-se colocar o Plug em um bloco de armazenamento de energia como um Cubo de Energia. Ele pode se conectar a Cabos, Canos ou à saída de qualquer máquina produtora de energia.\n\nPara aprender como configurar sua primeira rede, confira a próxima missão!",
+    "O primeiro item que você precisará para iniciar sua Flux Network é um &9Plugue de Flux&r.\n\nO Plug é usado para \"puxar\" energia do bloco ao qual está conectado. Além de um pequeno buffer, o Plugue de Flux não armazena energia por si só, então não se preocupe em ele consumir toda a sua energia.\n\nSugere-se colocar o Plugue de Flux em um bloco de armazenamento de energia como um Cubo de Energia. Ele pode se conectar a Cabos, Canos ou à saída de qualquer máquina produtora de energia.\n\nPara aprender como configurar sua primeira rede, confira a próxima missão!",
   ],
   "quest.5E41363F9AE243F3.quest_desc": [
     "Você não pode alimentar sua base com Carvão para sempre! Se você tiver uma quantidade decente de recursos disponíveis, é hora de atualizar sua configuração de energia!\n\nEssas opções geralmente requerem um pouco de configuração, mas produzem energia suficiente para levá-lo longe em sua jogatina.",
@@ -104,14 +104,14 @@
     "Mekanism oferece várias maneiras de gerar energia usando recursos renováveis.\n\nOs &9Geradores Solares&r aproveitam a energia do Sol para suprir necessidades básicas de energia. Não funciona durante a noite e deve ter acesso ao céu. Vidro é permitido.\n\nO &9Gerador Eólico&r fornece energia através do vento. A menos que você tenha descoberto uma maneira de seu personagem girá-lo manualmente, a velocidade com que ele gira é baseada no nível Y em que está colocado. Ele também precisa de acesso direto ao céu, sem nenhum bloco acima dele.",
   ],
   "quest.2EB7784D5296F410.quest_desc": [
-    "Clicar com o botão direito em um bloco funcional da Flux Network lhe dará esta interface.\n\nCada Plug ou Point pode ser nomeado, ter um nível de prioridade personalizado e um limite de transferência de energia personalizado. Isso permite controle total sobre todas as partes do seu sistema.\n\n&aIgnorar Limite&r ignora o limite definido.\n\nHá várias outras abas para conferir, principalmente para estatísticas da sua rede!\n",
+    "Clicar com o botão direito em um bloco funcional da Flux Network lhe dará esta interface.\n\nCada Plugue ou Ponto pode ser nomeado, ter um nível de prioridade personalizado e um limite de transferência de energia personalizado. Isso permite controle total sobre todas as partes do seu sistema.\n\n&aIgnorar Limite&r ignora o limite definido.\n\nHá várias outras abas para conferir, principalmente para estatísticas da sua rede!\n",
     "{image:atm:textures/questpics/basic_power/flux_ui.png width:125 height:150 align:center}",
   ],
   "quest.4EEAB467C722ECE7.title": "&9Pipez: &aCanos de Energia",
   "quest.56B6ABF3D6EA0D84.title": "Acessando a Energia da Rede",
   "quest.7FE969CB4B419FC6.title": "&9Mekanism: &6Entreleportador Quântico",
   "quest.7A979BEB20C9591E.quest_desc": [
-    "Pó de Flux pode ser automatizado usando &6Productive Bees&r!\n\nOvos de Geração de Abelha de Redstone podem ser convertidos em Ovos de Geração de Abelha de Pó de Flux usando uma Abelha de Obsidiana.",
+    "Pó de Flux pode ser automatizado usando &6Productive Bees&r!\n\nOvos Geradores de Abelha de Redstone podem ser convertidos em Ovos Geradores de Abelha de Pó de Flux usando uma Abelha de Obsidiana.",
   ],
   "quest.43D83CFA824B0A70.quest_subtitle": "Fusão, Ativar!",
   "quest.5E41363F9AE243F3.title": "&b&lOpções de Energia de Meio de Jogo",
@@ -121,14 +121,14 @@
     "Se você está procurando gerar uma tonelada de energia, pode começar ampliando algumas das opções da seção &9Energia de Meio de Jogo&r. Aumente seus &aReatores&r. Aprimore seus &9Geradores Térmicos&r para Nitro. Enlouqueça.\n\nNo entanto, você pode precisar de ainda mais energia.",
   ],
   "quest.35CC898E0E49FE58.quest_desc": [
-    "&9Flux Networks&r é um mod que visa ser a solução para todas as suas necessidades de energia sem fio.\n\nO mod em si não tem uma maneira de gerar energia, mas pode armazenar e transmitir energia sem fio, até mesmo entre dimensões. Ele pode até carregar seus itens em seu inventário.\n\nVocê pode até carregar seus Jetpacks enquanto voa com este mod.\n\nPara começar com o mod, você precisará de um pouco de Pó de Fluxo. Vá para a Rocha Matriz, jogue um pouco de Redstone em cima de alguma Rocha Matriz. Coloque um pouco de Obsidiana logo acima da Redstone flutuante e clique com o botão esquerdo na Obsidiana.",
+    "&9Flux Networks&r é um mod que visa ser a solução para todas as suas necessidades de energia sem fio.\n\nO mod em si não tem uma maneira de gerar energia, mas pode armazenar e transmitir energia sem fio, até mesmo entre dimensões. Ele pode até carregar seus itens em seu inventário.\n\nVocê pode até carregar suas Mochilas a Jato enquanto voa com este mod.\n\nPara começar com o mod, você precisará de um pouco de Pó de Flux. Vá para a Rocha Matriz, jogue um pouco de Redstone em cima de alguma Rocha Matriz. Coloque um pouco de Obsidiana logo acima da Redstone flutuante e clique com o botão esquerdo na Obsidiana.",
   ],
   "quest.6D6E07564D8FDD8D.quest_desc": [
     "&aExtreme Reactors&r oferece Reatores multi-bloco que são completamente personalizáveis em tamanho, eficiência e mais.\n\nPara saber mais sobre como começar com Extreme Reactors, confira o capítulo de missões do mod!",
   ],
   "quest.0BB42C5861B22D32.quest_subtitle": "Não é o Seu Reator Micelial",
   "quest.1409C17773B6A131.quest_desc": [
-    "\nTodas as Melhorias aumentam a quantidade que os &e&lPipez&r se movem e também oferecem mais opções para usar com o &e&lPipe&r. \n\nA Melhoria Básica permite a Ativação por Redstone com os &e&lPipez&r, para mudar a distribuição para: Mais Próximo Primeiro, Mais Distante Primeiro, Round-Robin, ou Aleatório, e adicionar Filtros.\n\nAs melhorias Melhorada, Avançada e Ultimate não oferecem nada novo, elas apenas movem mais!",
+    "\nTodas as Melhorias aumentam a quantidade que os &e&lPipez&r se movem e também oferecem mais opções para usar com o &e&lPipe&r. \n\nA Melhoria Básica permite a Ativação por Redstone com os &e&lPipez&r, para mudar a distribuição para: Mais Próximo Primeiro, Mais Distante Primeiro, Round-Robin, ou Aleatório, e adicionar Filtros.\n\nAs melhorias Melhorada, Avançada e Suprema não oferecem nada novo, elas apenas movem mais!",
   ],
   "quest.4AB0DD227471FDBF.quest_desc": [
     "Este capítulo é dedicado a tudo relacionado à energia!\n\nAqui você encontrará as maneiras básicas de gerar, armazenar e transferir energia.",
@@ -154,7 +154,7 @@
   "quest.4AB0DD227471FDBF.quest_subtitle": "Toda a Energia!",
   "quest.35CC898E0E49FE58.quest_subtitle": "A Solução Definitiva de Energia Sem Fio",
   "quest.1BE26A00A420DAE3.quest_desc": [
-    "Neste mod, você precisará de &aNúcleos de Fluxo&r e &aBlocos de Fluxo&r para criar as partes centrais da sua rede. Faça alguns de cada!",
+    "Neste mod, você precisará de &aNúcleos de Flux&r e &aBlocos de Flux&r para criar as partes centrais da sua rede. Faça alguns de cada!",
   ],
   "quest.35CC898E0E49FE58.title": "&8Flux Networks",
   "quest.677D0C23D53A77CA.title": "&9Draconic Evolution: &dNúcleo de Energia",
@@ -169,12 +169,12 @@
     "Estes &8Geradores a Carvão&r são alguns dos geradores mais fáceis de fazer.\n\nEles são muito simples de usar e criam uma quantidade decente de energia com base no material combustível que você coloca. Eles também distribuem energia automaticamente para blocos adjacentes.",
   ],
   "quest.4EEAB467C722ECE7.quest_desc": [
-    "Estes são canos simples que podem ser melhorados com Melhorias de Cano.\n\nPara 'extrair' energia de um bloco, coloque o cano ao lado do bloco e, no lado que está conectado, shift+clique com o botão direito com a chave de cano para definir o cano para extrair.\n\nO mod &e&lPipez&r também oferece maneiras de transportar itens, gases e líquidos! Ou você pode fazer um Cano Tudo-em-Um chamado &aCano Universal&r.\n\nOutras Chaves Inglesas funcionam com &e&lPipez&r também!",
+    "Estes são canos simples que podem ser melhorados com Melhorias de Cano.\n\nPara 'extrair' energia de um bloco, coloque o cano ao lado do bloco e, no lado que está conectado, shift+clique com o botão direito com a Chave de Tubo para definir o cano para extrair.\n\nO mod &e&lPipez&r também oferece maneiras de transportar itens, gases e líquidos! Ou você pode fazer um Cano Tudo-em-Um chamado &aCano Universal&r.\n\nOutras Chaves-Inglesas funcionam com &e&lPipez&r também!",
   ],
   "quest.76EA017B12E8F01B.quest_desc": [
     "Esta seção mostra diferentes maneiras de armazenar sua energia!",
   ],
-  "quest.1EECA19DF9CF6A0C.title": "Pó de Fluxo Automatizado",
+  "quest.1EECA19DF9CF6A0C.title": "Pó de Flux Automatizado",
   "quest.0BB367839D28607D.quest_subtitle": "Combustíveis Fósseis",
   "quest.72EA25D05C46D39A.quest_subtitle": "Baterias Incluídas",
   "quest.48DC9E8E9D21A2FA.quest_subtitle": "O Poder do Sol...",

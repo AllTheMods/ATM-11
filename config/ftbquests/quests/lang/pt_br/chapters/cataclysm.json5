@@ -1,17 +1,17 @@
 {
   "task.0B7F934439806558.title": "TodosOsDireitosReservados",
   "quest.4CCEC13CC5A5772D.quest_desc": [
-    "Existem 3 Pets de &4&lCataclysm&r: o &eMini-Fóssil&r, o &5Bebê Leviatã&r e a &4Ministruosidade de Netherita&r! \n\nTanto o &eMini-Fóssil&r quanto a &4Ministruosidade de Netherita&r podem ser colocados em Baldes. \n\nO &5Bebê Leviatã&r precisará de um Balde de Água.",
+    "Existem 3 Mascotes de &4&lCataclysm&r: o &eMini-Fóssil&r, o &5Bebê Leviatã&r e a &4Ministruosidade de Netherita&r! \n\nTanto o &eMini-Fóssil&r quanto a &4Ministruosidade de Netherita&r podem ser colocados em Baldes. \n\nO &5Bebê Leviatã&r precisará de um Balde de Água.",
   ],
   "quest.1C5EA7D62BAF2108.quest_subtitle": "Acordando O Leviatã",
   "quest.2CD58FC229BC0C28.quest_desc": [
-    "A &dManopla do Guardião Ender&r é o drop do &d&lGuardião Ender&r. \n\nSegure-a em qualquer Mão e mantenha o Botão Direito pressionado para trazer todos os Mobs próximos ainda mais perto! \n\nVocê também pode bater em Mobs com ela na Mão Principal para causar Dano. \n\nTente usar a mecânica de puxão junto com o voo para derrubar Mobs!",
+    "A &dManopla do Guardião Ender&r é o drop do &d&lGuardião Ender&r. \n\nSegure-a em qualquer Mão e mantenha o Botão Direito pressionado para trazer todas as Criaturas próximas ainda mais perto! \n\nVocê também pode bater em Criaturas com ela na Mão Principal para causar Dano. \n\nTente usar a mecânica de puxão junto com o voo para derrubar Criaturas!",
   ],
   "quest.445C9117198936B6.quest_desc": [
-    "A &4Arma de Assalto de Wither (W.A.S.W.)&r é a última arma que você pode fazer com &4Witherita&r. \n\nEla tem 2 projéteis diferentes que pode disparar: &4Wither Missiles&r e &4Wither Howitzers&r. \n\nOs &4Wither Missiles&r são disparados apenas segurando o botão direito do mouse e danificarão qualquer coisa que for atingida por eles, com baixo tempo de recarga. \n\nOs &4Wither Howitzers&r são disparados quando você segura Shift e o botão direito do mouse, eles danificam uma área maior e deixam uma área de Efeito Wither, que danifica qualquer coisa que entre nela. Eles têm um tempo de recarga muito maior, no entanto.",
+    "A &4Arma de Assalto de Wither (W.A.S.W.)&r é a última arma que você pode fazer com &4Witherita&r. \n\nEla tem 2 projéteis diferentes que pode disparar: &4Mísseis de Wither&r e &4Bombas de Wither&r. \n\nOs &4Mísseis de Wither&r são disparados apenas segurando o botão direito do mouse e danificarão qualquer coisa que for atingida por eles, com baixo tempo de recarga. \n\nOs &4Bombas de Wither&r são disparados quando você segura Shift e o botão direito do mouse, eles danificam uma área maior e deixam uma área de Efeito Wither, que danifica qualquer coisa que entre nela. Eles têm um tempo de recarga muito maior, no entanto.",
   ],
   "quest.696A33E7D91A487E.quest_desc": [
-    "&9Cindaria&r são Mobs de Água-Viva/Humana que protegem &9Acrópole&r. Eles são esverdeados/púrpura e transparentes. \n\nEles têm 60 &4Corações&r sem Armadura. \n\nEles também empunham o que parece um Guarda-chuva, mas na verdade é uma Arma mortal! \n\nSe você estiver muito perto, balançarão a Arma para te atingir. Se estiver mais longe, lançarão uma &9Lança-Relâmpago&r em você. \n\nAs &9Lanças-Relâmpago&r ricocheteiam nas Paredes; felizmente, &9Acrópole&r não tem muitas! \n\nAo morrer, os &9Cindaria&r soltam &9Lacrima&r.",
+    "&9Cindária&r são Criaturas de Água-Viva/Humana que protegem &9Acrópole&r. Eles são esverdeados/púrpura e transparentes. \n\nEles têm 60 &4Corações&r sem Armadura. \n\nEles também empunham o que parece um Guarda-chuva, mas na verdade é uma Arma mortal! \n\nSe você estiver muito perto, balançarão a Arma para te atingir. Se estiver mais longe, lançarão uma &9Lança-Relâmpago&r em você. \n\nAs &9Lanças-Relâmpago&r ricocheteiam nas Paredes; felizmente, &9Acrópole&r não tem muitas! \n\nAo morrer, os &9Cindária&r soltam &9Lágrima&r.",
   ],
   "quest.7F4963FCAE5337EC.quest_desc": [
     "Porque só lutar contra o &b&lIgnis&r não é difícil o suficiente, você terá que lutar contra o &bRevenant Aceso&r primeiro para obter as &bCinzas Flamejantes&r. \n\nQuando as tiver, use-as no Altar de Fogo para invocar o &b&lIgnis&r.",
@@ -34,7 +34,7 @@
   "quest.7AED8FD7FB023AD8.quest_subtitle": "Energizando o Wither Robô-Mecânico",
   "quest.53154550397E9704.title": "&c&lMonstruosidade de Netherita&r",
   "quest.5BD22081ED81BCC6.quest_desc": [
-    "&9Urchinkin&r são pragas pequenas que, por algum motivo, vivem em &9Acrópole&r. \n\nEles têm 6 &4Corações&r sem Armadura. Felizmente, são bem fracos. \n\nEles têm alguns Ataques, se estiverem perto de você, vão te bater. Se houver distância, eles irão rolar em sua direção. Quando rolarem, toneladas de seus &9Espinhos&r serão disparados, causando dano a qualquer um que atingirem! \n\nAo morrer, eles não soltarão nada de único. Além de mais &9Espinhos&r para te ferir, é só isso.",
+    "&9Ouriçinho&r são pragas pequenas que, por algum motivo, vivem em &9Acrópole&r. \n\nEles têm 6 &4Corações&r sem Armadura. Felizmente, são bem fracos. \n\nEles têm alguns Ataques, se estiverem perto de você, vão te bater. Se houver distância, eles irão rolar em sua direção. Quando rolarem, toneladas de seus &9Espinhos&r serão disparados, causando dano a qualquer um que atingirem! \n\nAo morrer, eles não soltarão nada de único. Além de mais &9Espinhos&r para te ferir, é só isso.",
   ],
   "quest.5C6C4AD0F60BECCA.title": "&eKhopesh",
   "quest.1744E700CF742CE2.quest_desc": [
@@ -48,14 +48,14 @@
     "{image:atm:textures/questpics/cataclysm/cataclysm_arena.png width:200 height:100 align:center}",
   ],
   "quest.5FBA199E0B7F1585.quest_desc": [
-    "O &9Octohost&r é na verdade 2 Mobs trabalhando juntos para te matar! \n\nEle é formado pelo &9Symbiocto&r, que controla o &9Hospedeiro Afogado&r. \n\nO &9Symbiocto&r tem 8 &4Corações&r e nenhuma Armadura. Sozinho, ele só atira &0Tinta&r em você. Ao morrer, solta &0Sacos de Tinta&r. \n\nO &9Hospedeiro Afogado&r age como um &9Afogado&r normal. Tem 10 &4Corações&r e 2 Pontos de Armadura, e o &9Hospedeiro Afogado&r pode nascer com Armaduras e Armas que sabe usar. \n\nQuando estão juntos, usam seus Ataques contra você ao mesmo tempo: o &9Symbiocto&r te ataca com &0Tinta&r enquanto o &9Hospedeiro Afogado&r usa Armas ou os Punhos para te atingir.",
+    "O &9Octohost&r é na verdade 2 Criaturas trabalhando juntos para te matar! \n\nEle é formado pelo &9Simbipolvo&r, que controla o &9Hospedeiro Afogado&r. \n\nO &9Simbipolvo&r tem 8 &4Corações&r e nenhuma Armadura. Sozinho, ele só atira &0Tinta&r em você. Ao morrer, solta &0Sacos de Tinta&r. \n\nO &9Hospedeiro Afogado&r age como um &9Afogado&r normal. Tem 10 &4Corações&r e 2 Pontos de Armadura, e o &9Hospedeiro Afogado&r pode nascer com Armaduras e Armas que sabe usar. \n\nQuando estão juntos, usam seus Ataques contra você ao mesmo tempo: o &9Simbipolvo&r te ataca com &0Tinta&r enquanto o &9Hospedeiro Afogado&r usa Armas ou os Punhos para te atingir.",
   ],
   "quest.62C32905C33E2D88.quest_desc": [
     "O &dOlho do Vazio&r levará você para a &dCidadela em Ruínas&r para lutar contra o &d&lGuardião Ender&r.",
   ],
   "quest.1C5EA7D62BAF2108.title": "&5Sacrifício Abissal",
   "quest.6BC3CF8937DEDE89.quest_desc": [
-    "Combine uma &cForja Infernal&r com um &dNúcleo do Vazio&r para fazer a &dForja &cdo Vazio&r! \n\nEla ainda é uma Picareta, com o mesmo Nível de Mineração e Velocidade. \n\nSó que agora podemos Clicar com o Botão Direito com ela, no chão para invocar &dRunas do Vazio&r em forma de leque, para ferir todos os Mobs com ela. \n\nEles realmente não se concentram muito na parte da Picareta, não é?",
+    "Combine uma &cForja Infernal&r com um &dNúcleo do Vazio&r para fazer a &dForja &cdo Vazio&r! \n\nEla ainda é uma Picareta, com o mesmo Nível de Mineração e Velocidade. \n\nSó que agora podemos Clicar com o Botão Direito com ela, no chão para invocar &dRunas do Vazio&r em forma de leque, para ferir todas as Criaturas com ela. \n\nEles realmente não se concentram muito na parte da Picareta, não é?",
   ],
   "quest.2011638351B67396.title": "&9Astrape",
   "quest.5E3263ACE170A8E3.quest_desc": [
@@ -64,7 +64,7 @@
   "quest.4D822D92492E1F53.title": "&3Aptrgangr",
   "quest.2790EB2E347D28DE.quest_subtitle": "Derrote todos os chefes do Cataclysm",
   "quest.713006AB89E43C6D.quest_desc": [
-    "O topo do enorme &9Acrópole&r é onde a &9&lScylla&r surge. Como o &d&lGuardião de Ender&r, você só precisa estar perto para ela surgir. \n\nEla é uma das Chefes mais pequenas do &4&lCataclysm&r, com só uns 3 Blocos de altura. No momento, ela tem 390 &4Corações&r e 12 Pontos de Armadura. Não se preocupe, ela será fortalecida em breve! \n\nNão deixe o tamanho ou a falta de fortalecimento do &6&lATM10&r fazer você subestimá-la: ela tem alguns dos maiores conjuntos de ataques entre todos os Chefes aqui. \n\nEla pode usar sua &9Âncora&r, a &9Ceranus&r, para puxar você de longe, ou simplesmente balançá-la para causar muito Dano! \n\nEla pode lançar &9Lanças de Raio&r em você das costas ou das Nuvens. Até saltar no Ar e cair de volta trazendo &9Relâmpagos&r por todo lado onde atingiu. \n\nE não é só isso! Ela também controla a &9Água&r, podendo mandar &9Ondas&r em você ou até invocar &9Serpentes Aquáticas&r para te Morder! \n\nQuando morta, ela solta o Equipamento de Chefe de sempre, além de &9Lacrima&r e &9Essência da Tempestade&r.",
+    "O topo do enorme &9Acrópole&r é onde a &9&lScylla&r surge. Como o &d&lGuardião Ender&r, você só precisa estar perto para ela surgir. \n\nEla é uma das Chefes mais pequenas do &4&lCataclysm&r, com só uns 3 Blocos de altura. No momento, ela tem 390 &4Corações&r e 12 Pontos de Armadura. Não se preocupe, ela será fortalecida em breve! \n\nNão deixe o tamanho ou a falta de fortalecimento do &6&lATM10&r fazer você subestimá-la: ela tem alguns dos maiores conjuntos de ataques entre todos os Chefes aqui. \n\nEla pode usar sua &9Âncora&r, a &9Ceraunus&r, para puxar você de longe, ou simplesmente balançá-la para causar muito Dano! \n\nEla pode lançar &9Lanças de Raio&r em você das costas ou das Nuvens. Até saltar no Ar e cair de volta trazendo &9Relâmpagos&r por todo lado onde atingiu. \n\nE não é só isso! Ela também controla a &9Água&r, podendo mandar &9Ondas&r em você ou até invocar &9Serpentes Aquáticas&r para te Morder! \n\nQuando morta, ela solta o Equipamento de Chefe de sempre, além de &9Lágrima&r e &9Essência da Tempestade&r.",
     "{image:atm:textures/questpics/cataclysm/cataclysm_scylla.png width:100 height:100 align:center}",
   ],
   "quest.565376084F05ED6E.title": "&4Nether&r: Terra de 2 chefes",
@@ -90,15 +90,15 @@
     "&dBesouros do End&r vivem ao redor da &dCidadela em Ruínas&r. \n\nElas têm 8 &4Corações&r e apenas um ataque básico de roer você. \n\nSe elas roerem você demais, podem quebrar suas mandíbulas, e então não as droparão mais na morte. \n\nEntão, certifique-se de matá-las rapidamente se quiser aquelas &dMandíbulas do Vazio&r!",
   ],
   "quest.747B62A955D0C629.quest_desc": [
-    "A &4Fábrica Ancestral&r fica nas profundezas do &2Mundo Superior&r. \n\nVocê encontrará muitos Itens de Redstone como Alavancas, Trilhos Elétricos e PEMs... me pergunto se eles serão úteis em breve? \n\nVocê também encontrará algumas Máquinas de Redstone tentando te matar! Como os &4Observadores &fe &4Rondadores&r! \n\nMesmo com o perigo, ainda há toneladas de Saques e Blocos que você pode roubar daqui, especialmente Redstone.",
+    "A &4Fábrica Ancestral&r fica nas profundezas do &2Superfície&r. \n\nVocê encontrará muitos Itens de Redstone como Alavancas, Trilhos Elétricos e PEMs... me pergunto se eles serão úteis em breve? \n\nVocê também encontrará algumas Máquinas de Redstone tentando te matar! Como os &4Observadores &fe &4Rondadores&r! \n\nMesmo com o perigo, ainda há toneladas de Saques e Blocos que você pode roubar daqui, especialmente Redstone.",
     "{image:atm:textures/questpics/cataclysm/cataclysm_factory.png width:200 height:100 align:center}",
   ],
   "quest.0B7F2B63D867D221.title": "&eColar do deserto",
   "quest.0741FABE57CA1A7D.quest_desc": [
-    "&9Hippocamtus&r são poderosos guerreiros Cavalo-marinho que guardam &9Acrópole&r. \n\nEles usam muita Armadura e seguram uma Lança e um Escudo. \n\nEles têm 85 &4Corações&r e 18 Pontos de Armadura. \n\nO Escudo deles irá proteger contra Dano e a Lança será usada para te Matar. Eles podem balançar, esfaquear e até fazer um movimento especial em você. Esse movimento vai te prender no lugar onde o &9Hippocamtus&r vai te esfaquear repetidamente. \n\nAssim como o &9Cindaria&r, estes vão soltar &9Lacrima&r.",
+    "&9Kaltrion&r são poderosos guerreiros Cavalo-marinho que guardam &9Acrópole&r. \n\nEles usam muita Armadura e seguram uma Lança e um Escudo. \n\nEles têm 85 &4Corações&r e 18 Pontos de Armadura. \n\nO Escudo deles irá proteger contra Dano e a Lança será usada para te Matar. Eles podem balançar, esfaquear e até fazer um movimento especial em você. Esse movimento vai te prender no lugar onde o &9Kaltrion&r vai te esfaquear repetidamente. \n\nAssim como o &9Cindária&r, estes vão soltar &9Lágrima&r.",
   ],
   "quest.7AED8FD7FB023AD8.quest_desc": [
-    "Para energizar o &4&lWither Robô-Mecânico&r, você vai precisar de uma Estrela do Nether, obtida ao matar o Wither. \n\nÉ uma mecânica &2&lVanilla&r que eu não deveria precisar explicar. \n\nAlém disso, já foi vista no Capítulo 1.",
+    "Para energizar o &4&lWither Robô-Mecânico&r, você vai precisar de uma Estrela do Nether, obtida ao matar o Wither. \n\nÉ uma mecânica &2&lMinecraft&r que eu não deveria precisar explicar. \n\nAlém disso, já foi vista no Capítulo 1.",
   ],
   "quest.462D173D576A8D91.quest_desc": [
     "&eMetal Ancestral&r é um Drop de praticamente tudo dentro da &ePirâmide Amaldiçoada&r! \n\nComo outras Barras, pode ser Criado a partir de Pepitas ou Blocos e vice-versa. \n\nVocê pode usá-lo para fazer &eArmadura de Réptil de Osso&r ou a &eLança Ancestral&r.",
@@ -110,9 +110,9 @@
     "A &c&lMonstruosidade de Netherita&r faz jus ao seu nome, é uma fera de &cNetherita &fe &cLava&r. \n\nEle pode ter até 9.600 &4Corações&r, mas quando o encontrei pela primeira vez, ele estava com apenas cerca de 1.100 &4Corações&r. Ele regenerará &4Corações&r quando nenhum Jogador estiver por perto.\n\nEle tem alguns ataques corpo a corpo, como bater em você com seus braços enormes e pisotear você. Ele também pode jogar blocos no Ar, causando uma Onda de Choque. \n\nSe você se afastar dele, ele pode avançar em você ou pular em você. Honestamente, ele parece pesar 100 Toneladas, eu não gostaria que ele fizesse nenhuma das duas coisas comigo! \n\nO pior de seus ataques são definitivamente os de Longo Alcance... ele pode atirar &cBolas de Magma&r em você e, onde elas caem, &cLava&r aparecerá. Ele também pode atirar &cBolas de Fogo&r de suas mãos, estas causarão &cJatos de Fogo&r saindo do chão.",
     "{image:atm:textures/questpics/cataclysm/cataclysm_monstrosity.png width:100 height:100 align:center}",
   ],
-  "task.01063DC98BCE5A91.title": "&cO Cataclismandante",
+  "task.01063DC98BCE5A91.title": "O Cataclismandante",
   "quest.25ACB08E4F12CE79.quest_desc": [
-    "A &cMinistruosidade de Netherita&r é um Pet dado a nós pelo &4&lCataclysm&r! \n\nPrimeiro, você precisará criar uma &cEstatueta de Netherita&r. \n\nDepois, podemos matar a &c&lMonstruosidade de Netherita&r para conseguir as &cCélulas de Poder de Lava&r. \n\nPor fim, coloque a &cEstatueta&r no chão e alimente-a com uma &cCélula de Poder&r para domá-la! \n\nUma vez domada, pode ser configurada com Shift + botão direito para seguir, ficar parada ou vagar. \n\nVocê também pode clicar com o botão direito nela para abrir seu inventário, ou seja, abrir a cabeça inteira como um Monstro de Pedra da Lego Power Miners. Tem 15 slots de inventário. \n\nEla também tem 960 &4Corações&r e não encontrei uma maneira de curá-la...",
+    "A &cMinistruosidade de Netherita&r é um mascote dado a nós pelo &4&lCataclysm&r! \n\nPrimeiro, você precisará criar uma &cEstatueta de Netherita&r. \n\nDepois, podemos matar a &c&lMonstruosidade de Netherita&r para conseguir as &cCélulas de Poder de Lava&r. \n\nPor fim, coloque a &cEstatueta&r no chão e alimente-a com uma &cCélula de Poder&r para domá-la! \n\nUma vez domada, pode ser configurada com Shift + botão direito para seguir, ficar parada ou vagar. \n\nVocê também pode clicar com o botão direito nela para abrir seu inventário, ou seja, abrir a cabeça inteira como um Monstro de Pedra da Lego Power Miners. Tem 15 slots de inventário. \n\nEla também tem 960 &4Corações&r e não encontrei uma maneira de curá-la...",
   ],
   "quest.6C84176EB4CC9D4A.title": "EM BREVE",
   "quest.6B5BC33667C782EC.title": "&dGolem do End&r",
@@ -121,10 +121,10 @@
   "quest.04B40BB107F14330.quest_subtitle": "Direto da DLC de Fallout 3, The Pitt",
   "quest.1178E4123E8818E2.title": "&eGarrafa de Tempestade de Areia",
   "quest.392EAE8BE71510C1.quest_desc": [
-    "A Terra Desolada do &5End&r agora tem mais 1 residente. \n\nO outro sendo o &dDragão Ender&r, claro!",
+    "A Terra Desolada do &5End&r agora tem mais 1 residente. \n\nO outro sendo o &dDragão de Ender&r, claro!",
   ],
   "quest.33B1D3FD4C0B5514.title": "&e&lFóssil Ancestral&r",
-  "quest.0496E8E786262464.title": "&2Mundo Superior&r: Terra de &m3 4&r 5 chefes",
+  "quest.0496E8E786262464.title": "&2Superfície&r: Terra de &m3 4&r 5 chefes",
   "quest.04B40BB107F14330.quest_desc": [
     "O &4Triturador&r é uma arma corpo a corpo que você pode fazer de &4Witherita&r.\n\nEle tem dois ataques, usando o Clique Esquerdo ou o Clique Direito.\n\nQuando você Clica com o Esquerdo, ele usará o &4Triturador&r como um Machado, acertando-os uma vez de uma distância razoável.\n\nQuando você Clica com o Direito, ele irá triturá-los repetidamente com sua Serra, causando Dano muito mais rápido de perto.",
   ],
@@ -140,12 +140,12 @@
     "Nem todas as Masmorras do Cataclysm são tão fáceis de encontrar quanto as &ePirâmides Amaldiçoadas&r. \n\nEntão, um Olho específico pode ajudá-lo a encontrá-las! \n\nCada um dos diferentes Olhos o levará à sua estrutura definida; e não se preocupe, os Olhos raramente quebram.",
   ],
   "quest.35E42F7925CA097A.quest_desc": [
-    "&dNúcleos do Vazio&r são drops do &dGolem do Ender&r! \n\nEles são armas, quando você clica com o botão direito com eles, &dRunas do Vazio&r surgirão do chão. \n\n&dRunas do Vazio&r agem como Presas de Evocador, elas vão em linha por cerca de 10 Blocos na direção que você está usando. \n\nElas causam cerca de 3 &4corações&r e meio de dano cada vez que atingem um Mob. Elas também empurram Mobs, o que as Presas de Evocador não fazem. \n\nIsso pode ser usado em Criações para ainda mais Armas de &4&lCataclysm&r!",
+    "&dNúcleos do Vazio&r são drops do &dGolem do Ender&r! \n\nEles são armas, quando você clica com o botão direito com eles, &dRunas do Vazio&r surgirão do chão. \n\n&dRunas do Vazio&r agem como Presas de Evocador, elas vão em linha por cerca de 10 Blocos na direção que você está usando. \n\nElas causam cerca de 3 &4corações&r e meio de dano cada vez que atingem uma Criatura. Elas também empurram Criaturas, o que as Presas de Evocador não fazem. \n\nIsso pode ser usado em Criações para ainda mais Armas de &4&lCataclysm&r!",
   ],
   "quest.13D5F689E6884281.title": "&eCobóleto Gladiador",
   "quest.2CD58FC229BC0C28.title": "&dManopla do Guardião Ender",
   "quest.445C9117198936B6.title": "&4A.D.A.D.W. (Arma de Assalto de Wither)",
-  "quest.775AB10F8196F27B.title": "&4Olho de Mec&r",
+  "quest.775AB10F8196F27B.title": "&4Olho Mecânico&r",
   "quest.2F62C290A5CE50F8.quest_desc": [
     "Espere, você está me dizendo que por apenas alguns &eMetais Ancestrais&r podemos obter uma Arma que causa mais Dano que uma Espada de Netherita, tem um Alcance insano e lança &eTempestades de Areia&r!? \n\nSim, é isso que você obtém da &eLança Ancestral&r!",
   ],
@@ -155,7 +155,7 @@
   "quest.1744E700CF742CE2.title": "&5Coralssus&r",
   "quest.5FBA199E0B7F1585.title": "&9Hospedeiro Afogado",
   "quest.2B115519A21F9CB7.quest_desc": [
-    "O &d&lGuardião Ender&r é uma besta colossal de Endstone, &dPurpur&r e &5Obsidiana&r que aguarda dentro do &dAltar do Vazio&r. \nEle tem 6,660 &4Corações&r e cuidado para não chegar muito perto ou você pode ser puxado para mais perto dele! \n\nEle tem uma tonelada de ataques e habilidades, um sendo um soco muito simples para aqueles que estão muito perto de seu espaço pessoal, ou uma pancada que o jogará para trás. \n\nSe você estiver mais longe dele, ele pode fechar a distância avançando e colidindo com você. Ou ele pode pisar e produzir &dRunas do Vazio&r para atingi-lo! Ele também pode enviar &dBolas de Shulker&r em uma fileira. \n\nE lembra quando eu disse que ele pode te puxar para mais perto dele? Sim, ele faz isso com uma coisa chamada &dTufão do Vazio&r, que ele também pode invocar aos seus Pés para te prender. Depois que você fica lá por muito tempo, ele explode, muito provavelmente te danificando no processo. \n\nQuando você o leva à metade da &4Vida&r, sua Máscara se quebra revelando sua verdadeira Cabeça! Com raiva, ele destruirá o chão da arena, levando vocês dois para o nível inferior. \n\nAgora ele vai te sugar mais, enviar mais &dRunas do Vazio&r atrás de você e atacar mais rápido e mais forte!",
+    "O &d&lGuardião Ender&r é uma besta colossal de Pedra do End, &dPurpur&r e &5Obsidiana&r que aguarda dentro do &dAltar do Vazio&r. \nEle tem 6.660 &4Corações&r e cuidado para não chegar muito perto ou você pode ser puxado para mais perto dele! \n\nEle tem uma tonelada de ataques e habilidades, um sendo um soco muito simples para aqueles que estão muito perto de seu espaço pessoal, ou uma pancada que o jogará para trás. \n\nSe você estiver mais longe dele, ele pode fechar a distância avançando e colidindo com você. Ou ele pode pisar e produzir &dRunas do Vazio&r para atingi-lo! Ele também pode enviar &dProjéteis de Shulker&r em uma fileira. \n\nE lembra quando eu disse que ele pode te puxar para mais perto dele? Sim, ele faz isso com uma coisa chamada &dTufão do Vazio&r, que ele também pode invocar aos seus Pés para te prender. Depois que você fica lá por muito tempo, ele explode, muito provavelmente te danificando no processo. \n\nQuando você o leva à metade da &4Vida&r, sua Máscara se quebra revelando sua verdadeira Cabeça! Com raiva, ele destruirá o chão da arena, levando vocês dois para o nível inferior. \n\nAgora ele vai te sugar mais, enviar mais &dRunas do Vazio&r atrás de você e atacar mais rápido e mais forte!",
     "{image:atm:textures/questpics/cataclysm/cataclysm_guardiuan.png width:100 height:100 align:center}",
   ],
   "quest.6E08D4E6BC3FB99F.quest_desc": [
@@ -183,22 +183,22 @@
   ],
   "quest.37E4DECFB6526969.title": "&3Renderizador de Almas",
   "quest.0F8F0F7880235BA2.quest_desc": [
-    "&cO Ferreiro das Almas&r reside no Nether&r. Não o subestime pensando que é um Bastião, é muito pior.\n\nVocê pode encontrar Ouro, Blackstone e Netherita aqui.\n\nO único Mob hostil que aparece aqui é o chefe... a &c&lMonstruosidade de Netherita&r!",
+    "&cO Ferreiro das Almas&r reside no Nether&r. Não o subestime pensando que é um Bastião, é muito pior.\n\nVocê pode encontrar Ouro, Pedra-Negra e Netherita aqui.\n\nO único Criatura hostil que aparece aqui é o chefe... a &c&lMonstruosidade de Netherita&r!",
     "{image:atm:textures/questpics/cataclysm/cataclysm_blacksmith.png width:200 height:100 align:center}",
   ],
   "quest.3E8C7D92F99496BE.quest_desc": [
     "O &5Olho do Abismo&r o levará à &5Cidade Submersa&r para lutar contra o &5&lLeviatã&r.",
   ],
   "quest.6CB8D3919B16784B.quest_desc": [
-    "&9Ceraunus&r é a Arma Âncora que a própria &9&lScylla&r usa! \n\nCom apenas 2 &9Essência da Tempestade&r e 3 &9Lacrima&r podemos Criá-la! Só que em uma ordem diferente da que você usaria para &9Astrape&r. \n\nVocê pode balançar a Âncora como uma Maça, com um grande atraso. Ou usá-la para ataques especiais! \n\nSegure o Clique Direito para lançar a Âncora à sua frente. Quando ela atingir um Mob, ele receberá dano e será empurrado para trás. \n\nVocê também pode segurar o Shift e o Clique Direito para, ao invés de lançar a Âncora, lançar &9Ondas&r em uma linha à sua frente!",
+    "&9Ceraunus&r é a Arma Âncora que a própria &9&lScylla&r usa! \n\nCom apenas 2 &9Essência da Tempestade&r e 3 &9Lágrima&r podemos Criá-la! Só que em uma ordem diferente da que você usaria para &9Astrape&r. \n\nVocê pode balançar a Âncora como uma Maça, com um grande atraso. Ou usá-la para ataques especiais! \n\nSegure o Clique Direito para lançar a Âncora à sua frente. Quando ela atingir uma Criatura, ele receberá dano e será empurrado para trás. \n\nVocê também pode segurar o Shift e o Clique Direito para, ao invés de lançar a Âncora, lançar &9Ondas&r em uma linha à sua frente!",
   ],
   "quest.30C5D432C810F904.title": "&9Olho da Tempestade",
   "quest.46CC8E7ED59F51D2.title": "&5Garra das Marés",
   "quest.6B5BC33667C782EC.quest_desc": [
-    "O &dGolem do End&r guarda a &dCidadela Arruinada&r, bem, vários deles guardam. \n\nTecnicamente, você não precisa lutar contra eles para lutar contra o &dGuardião Ender&r, mas você definitivamente deveria para obter o &dNúcleo do Vazio&r. \n\nO &dGolem do End&r tem 3000 &4Corações&r e os regenerará quando deixado em paz. \n\nEle tem alguns ataques, como ser capaz de socá-lo e esmagar o chão. Quando ele esmaga o chão, &dRunas do Vazio&r surgirão, ferindo qualquer Jogador ou Mob que as toque.",
+    "O &dGolem do End&r guarda a &dCidadela Arruinada&r, bem, vários deles guardam. \n\nTecnicamente, você não precisa lutar contra eles para lutar contra o &dGuardião Ender&r, mas você definitivamente deveria para obter o &dNúcleo do Vazio&r. \n\nO &dGolem do End&r tem 3000 &4Corações&r e os regenerará quando deixado em paz. \n\nEle tem alguns ataques, como ser capaz de socá-lo e esmagar o chão. Quando ele esmaga o chão, &dRunas do Vazio&r surgirão, ferindo qualquer Jogador ou Criatura que as toque.",
   ],
   "quest.2011638351B67396.quest_desc": [
-    "Com 2 &9Essência da Tempestade&r e 3 &9Lacrima&r podemos criar &9Astrape&r. \n\n&9Astrape&r é uma combinação das Armas usadas pelo &9Hippocamtus&r e &9Cindaria&r. \n\nEla pode esfaquear como um Tridente, só que com mais Dano e Alcance. Além disso, você pode Segurar o Clique Direito para lançar &9Lanças de Raios&r, assim como o &9Cindaria&r! \n\nAs &9Lanças de Raios&r ainda ricocheteiam nas Paredes! Só que agora com um Tempo de Recarga...",
+    "Com 2 &9Essência da Tempestade&r e 3 &9Lágrima&r podemos criar &9Astrape&r. \n\n&9Astrape&r é uma combinação das Armas usadas pelo &9Kaltrion&r e &9Cindária&r. \n\nEla pode esfaquear como um Tridente, só que com mais Dano e Alcance. Além disso, você pode Segurar o Clique Direito para lançar &9Lanças-Relâmpago&r, assim como o &9Cindária&r! \n\nAs &9Lanças-Relâmpago&r ainda ricocheteiam nas Paredes! Só que agora com um Tempo de Recarga...",
   ],
   "quest.74ACCEB6DC9EF6F7.quest_desc": [
     "A &4Arma de Ombro de Assalto do &dVazio &d(A.&4O.A.V.)&r é como a versão do Wither, mas melhor! \n\nAgora ela só dispara &4Howitzers do &dVazio&r que causarão mais Dano e farão &dRunas do Vazio&r saírem do chão, na área que o &4Howitzer&r atingiu. \n\nSó ao custo do longo tempo de recarga, mas temos tempo para esperar. \n\nPode ser criada combinando o &4A.O.A.V.&r e um &dNúcleo do Vazio&r na &4Bigorna de Infusão Mecânica&r.",
@@ -221,26 +221,26 @@
   ],
   "quest.0B7F2B63D867D221.quest_subtitle": "Ressuscitando um Fóssil Ancestral",
   "quest.573DD5834B321D0A.quest_desc": [
-    "A &9Acrópole&r é uma cidade gigantesca nas Nuvens, acima do vasto &9Oceano&r. (Mesmo assim, não a vi da primeira vez). \n\nÉ feita de &9Pedra do Mar Celeste&r, &3Prismarina&r e &9Água&r! Sim, muita, muita e muita &9Água&r! \n\nÉ baseada na Arquitetura Grega, com muitos andares diferentes, jardins e até arenas. \n\nPor toda parte aparecerão &9Octohosts&r, &9Urchinkin&r, &9Cindaria&r, &9Hippocamtus&r e &9Clawdian&r! Além de alguns Mobs do &9Oceano&r bem azarados. \n\nEscondidos pela Arquitetura você encontrará Baús e Blocos raros, como Blocos de Diamante e Esponjas!",
+    "A &9Acrópole&r é uma cidade gigantesca nas Nuvens, acima do vasto &9Oceano&r. (Mesmo assim, não a vi da primeira vez). \n\nÉ feita de &9Pedra do Mar Celeste&r, &3Prismarina&r e &9Água&r! Sim, muita, muita e muita &9Água&r! \n\nÉ baseada na Arquitetura Grega, com muitos andares diferentes, jardins e até arenas. \n\nPor toda parte aparecerão &9Octohosts&r, &9Ouriçinho&r, &9Cindária&r, &9Kaltrion&r e &9Garradião&r! Além de alguns Criaturas do &9Oceano&r bem azarados. \n\nEscondidos pela Arquitetura você encontrará Baús e Blocos raros, como Blocos de Diamante e Esponjas!",
     "{image:atm:textures/questpics/cataclysm/cataclysm_acropolis.png width:200 height:100 align:center}",
   ],
   "quest.1A8F438DB8508276.quest_desc": [
-    "A &3Prisão Congelada&r é uma enorme estrutura, semelhante a um castelo, no topo e dentro das Montanhas Nevadas. \n\nDentro você encontrará dezenas de celas, arsenais e uma grande sala onde fica o &3Túmulo Amaldiçoado&r. \n\nHá muitos Baús cheios de Tesouros, incluindo Aço Preto, e Vasos Decorados espalhados por toda parte! \n\nE, claro, Mobs inimigos no seu caminho: &3Draugrs&r e &3Aptrgangr&r.",
+    "A &3Prisão Congelada&r é uma enorme estrutura, semelhante a um castelo, no topo e dentro das Montanhas Nevadas. \n\nDentro você encontrará dezenas de celas, arsenais e uma grande sala onde fica o &3Túmulo Amaldiçoado&r. \n\nHá muitos Baús cheios de Tesouros, incluindo Aço Preto, e Vasos Decorados espalhados por toda parte! \n\nE, claro, Criaturas inimigos no seu caminho: &3Draugrs&r e &3Aptrgangr&r.",
     "{image:atm:textures/questpics/cataclysm/cataclysm_prison.png width:200 height:100 align:center}",
   ],
   "quest.683C260C854C5AA3.quest_desc": [
     "A &4Bigorna de Fusão Mecânica&r será necessária para fazer combinações de Itens do &4&lCataclysm&r. \n\nVocê pode colocá-la como uma Bigorna normal, mas esta não tem Durabilidade... felizmente! \n\nVerifique o JEI para Receitas, você coloca 1 Item no Slot Esquerdo e o outro no Slot do Meio para obter o produto final no Slot Direito.",
   ],
   "quest.46CC8E7ED59F51D2.quest_desc": [
-    "A &5Garra das Marés&r é um drop confirmado do &5&lLeviatã&r. \n\nTem dois modos, ataque e gancho. Ataque é com o Clique Esquerdo, Gancho é com o Clique Direito. \n\nNo ataque, ela lança a garra, que atravessa até 5 mobs, causando dano e aplicando &5Maldição Abissal&r, que continua a danificá-los. \n\nNo modo gancho, ela se prende a qualquer coisa ao alcance e puxa você em direção a ela. \n\nNão tem durabilidade, então aproveite para sempre!",
+    "A &5Garra das Marés&r é um drop confirmado do &5&lLeviatã&r. \n\nTem dois modos, ataque e gancho. Ataque é com o Clique Esquerdo, Gancho é com o Clique Direito. \n\nNo ataque, ela lança a garra, que atravessa até 5 criaturas, causando dano e aplicando &5Maldição Abissal&r, que continua a danificá-los. \n\nNo modo gancho, ela se prende a qualquer coisa ao alcance e puxa você em direção a ela. \n\nNão tem durabilidade, então aproveite para sempre!",
   ],
   "quest.3C0F8EB779E56F2A.quest_desc": [
-    "Aqui está a sua Garra de Caranguejo da Votação dos Mobs! \n\nMas o Caranguejo que você precisa matar é muito maior... e mais feroz... \n\nA Garra de Quitina é um item solto pelo Clawdian. \n\nQuando usada, você terá aumento no Alcance de Bloqueio e no Alcance de Entidade. Assim, você pode colocar Blocos mais longe e golpear Mobs mais longe também!",
+    "Aqui está a sua Garra de Caranguejo da Votação dos Mobs! \n\nMas o Caranguejo que você precisa matar é muito maior... e mais feroz... \n\nA Garra de Quitina é um item solto pelo Garradião. \n\nQuando usada, você terá aumento no Alcance de Bloqueio e no Alcance de Entidade. Assim, você pode colocar Blocos mais longe e golpear criaturas mais longe também!",
   ],
   "quest.5E3263ACE170A8E3.title": "&dManopla do &eTurbilhão do Vazio",
   "quest.35E42F7925CA097A.title": "&dNúcleo do Vazio",
   "quest.775AB10F8196F27B.quest_desc": [
-    "O &4Olho de Mec&r o levará à &4Fábrica Ancestral&r para lutar contra o &4&lWither Robô-Mecânico&r.",
+    "O &4Olho Mecânico&r o levará à &4Fábrica Ancestral&r para lutar contra o &4&lWither Robô-Mecânico&r.",
   ],
   "quest.69439426534EBDC4.quest_desc": [
     "As &bLuvas Flamejantes&r são outro Item que podemos fazer com &bIgnítio&r! \n\nÉ um Item de Curio que vai nas Mãos. \n\nQuando usadas, todo ataque tem uma chance de dar ao alvo a &bMarca de Fogo&r. \n\nIsso reduz a Armadura e a Resistência da Armadura, e é ruim de sofrer vindo do &b&lIgnis&r.",
@@ -257,21 +257,21 @@
     "A &eWadjet&r é semelhante ao &eKobolediator&r, pois ela repousa dentro da &ePirâmide Amaldiçoada&r esperando que um Jogador se aproxime. \n\nA &eWadjet&r tem 450 &4Corações&r e, felizmente, não lhe dará Fadiga de Mineração! \nEla tem muitos ataques, o mais básico é quando você está perto, ela vai balançar sua arma em você. Se você se afastar, ela pode jogar uma Tempestade de Areia em você ou derrubar Blocos de Areia do teto sobre você. \n\nVou ser honesto, não sei qual ataque é pior! \n\nNa morte, elas só soltarão Barras de Metal Ancestral.",
   ],
   "quest.655FF7295B688354.quest_desc": [
-    "O &9Clawdian&r é o minichefe do &9Acrópole&r. \n\nSão lagostas gigantes que seguram um Machado ainda maior! \n\nEles têm 225 &4Corações&r e 12 Pontos de Armadura. \n\nEles gostam de usar o Machado e as Patas para te Atacar: desde balançar o Machado para causar Dano moderado, até bater no chão com o Machado para soltar uma Onda de Choque, até pisar no chão para soltar uma Onda de Choque ainda maior e &9Ondas&r em você! \n\nSe você ficar muito longe, eles avançam na sua direção, Quebrando Blocos no caminho! \n\nSe você conseguir Matar um, ele solta sua &9Garra&r! Meio gráfico, mas felizmente é só violência de fantasia!",
+    "O &9Garradião&r é o minichefe do &9Acrópole&r. \n\nSão lagostas gigantes que seguram um Machado ainda maior! \n\nEles têm 225 &4Corações&r e 12 Pontos de Armadura. \n\nEles gostam de usar o Machado e as Patas para te Atacar: desde balançar o Machado para causar Dano moderado, até bater no chão com o Machado para soltar uma Onda de Choque, até pisar no chão para soltar uma Onda de Choque ainda maior e &9Ondas&r em você! \n\nSe você ficar muito longe, eles avançam na sua direção, Quebrando Blocos no caminho! \n\nSe você conseguir Matar um, ele solta sua &9Garra&r! Meio gráfico, mas felizmente é só violência de fantasia!",
   ],
   "quest.18EB86F91CBBCCC6.title": "Eu vejo você!",
   "quest.0B7F2B63D867D221.quest_desc": [
-    "Para encontrá-los vamos precisar de um pouco de arqueologia! \n\nNa fossa gigante que você desce para chegar ao &e&lFóssil Ancestral&r, há 3 salas nas laterais. \n\n2 dessas salas têm Areia Suspeita, na qual você pode usar um Pincel para conseguir Saque! Incluindo o &eColar do Deserto&r. \nDepois, clique com o Botão Direito no &e&lFóssil Ancestral&r com o &eColar do Deserto&r para ressuscitá-lo!",
+    "Para encontrá-los vamos precisar de um pouco de arqueologia! \n\nNa fossa gigante que você desce para chegar ao &e&lFóssil Ancestral&r, há 3 salas nas laterais. \n\n2 dessas salas têm Areia Suspeita, na qual você pode usar um Pincel para conseguir Saque! Incluindo o &eColar do deserto&r. \nDepois, clique com o Botão Direito no &e&lFóssil Ancestral&r com o &eColar do deserto&r para ressuscitá-lo!",
   ],
   "quest.62089E9E6D596DA7.quest_desc": [
-    "&3O &bImolador&r é um &3Aniquilador&r aprimorado com um &bLingote de Ignítio&r dentro da &4Bigorna de Fusão Mecânica&r. \n\nEle causa mais dano a Mobs afligidos com &bMarca de Fogo&r, então as &bLuvas Flamejantes&r combinam muito bem com ele! \n\nSe você tiver &3O &bImolador&r em cada mão, pode segurar o botão direito para invocar um &bGolpe de Chamas&r sob você. Isso causa dano a todos os Mobs atingidos e explode ao terminar, como uma despedida final!",
+    "&3O &bImolador&r é um &3Aniquilador&r aprimorado com um &bLingote de Ignítio&r dentro da &4Bigorna de Fusão Mecânica&r. \n\nEle causa mais dano a Criaturas afligidos com &bMarca de Fogo&r, então as &bLuvas Flamejantes&r combinam muito bem com ele! \n\nSe você tiver &3O &bImolador&r em cada mão, pode segurar o botão direito para invocar um &bGolpe de Chamas&r sob você. Isso causa dano a todas as Criaturas atingidas e explode ao terminar, como uma despedida final!",
   ],
   "quest.6ED61438A8A1EAA4.title": "Wither mais Netherita = ...?",
   "quest.465B08461B460DAC.quest_subtitle": "Baratas do End",
   "quest.2F62C290A5CE50F8.title": "&eLança Ancestral",
   "quest.291C76140DE97E3C.quest_subtitle": "Melhor que Netherita?",
   "quest.45FBEABEBA7CC09E.quest_desc": [
-    "Quem sabe o que aconteceu para trazer essa &5Cidade&r para debaixo da &9Água&r, mas claramente está lá! Você perceberá facilmente pelos Tijolos de Pedra saindo da &9Água&r. \n\nA primeira e maior sala é o Centro da Cidade, a enorme cúpula! É aqui que está o &5Altar do Abismo&r. \n\nA partir das salas você encontrará corredores que levam a outros prédios na &5Cidade&r. Prisões com &5Coralssus&r e até Salas de Tesouro com toneladas de Loot preciosos! \n\nPor toda a &5Cidade&r você encontrará seus habitantes, os &5Ondadores&r. ",
+    "Quem sabe o que aconteceu para trazer essa &5Cidade&r para debaixo da &9Água&r, mas claramente está lá! Você perceberá facilmente pelos Tijolos de Pedra saindo da &9Água&r. \n\nA primeira e maior sala é o Centro da Cidade, a enorme cúpula! É aqui que está o &5Altar do Abismo&r. \n\nA partir das salas você encontrará corredores que levam a outros prédios na &5Cidade&r. Prisões com &5Coralssus&r e até Salas de Tesouro com toneladas de Saques valiosos! \n\nPor toda a &5Cidade&r você encontrará seus habitantes, os &5Ondadores&r. ",
     "{image:atm:textures/questpics/cataclysm/cataclysm_city.png width:200 height:100 align:center}",
   ],
   "quest.291C76140DE97E3C.quest_desc": [
@@ -288,14 +288,14 @@
     "A &eArmadura de Réptil de Osso&r é feita de &eOssos de Koboleton&r, &eMetal Ancestral&r e, para o Capacete, um &eCrânio de Cobóleto Gladiador&r.\n\nElas não parecem fazer nada de especial, só dão estatísticas muito boas para uma Armadura barata!",
   ],
   "quest.3459CAEB59CBD60E.quest_desc": [
-    "Parece que alguém ligou o interruptor desta vez! \n\nO &4Peste-Robô&r é um miniboss que guarda a &4Fábrica Ancestral&r. Tem 640 &4Corações&r. \n\nSão 3 ataques: a Serra contra Inimigos próximos e, para os mais distantes, Mísseis de Ombro (parecidos com os do W.A.S.W.) e um Laser disparado do olho. \n\nNa morte, dropa Redstone e Ferro. \n(Dica: também é fraco a ataques EMP)",
+    "Parece que alguém ligou o interruptor desta vez! \n\nO &4Peste-Robô&r é um mini-chefe que guarda a &4Fábrica Ancestral&r. Tem 640 &4Corações&r. \n\nSão 3 ataques: a Serra contra Inimigos próximos e, para os mais distantes, Mísseis de Ombro (parecidos com os do W.A.S.W.) e um Laser disparado do olho. \n\nNa morte, dropa Redstone e Ferro. \n(Dica: também é fraco a ataques EMP)",
   ],
   "quest.4BF5EB050EC14C80.title": "&4Os Vigias&r",
   "quest.30C5D432C810F904.quest_desc": [
     "O &9Olho da Tempestade&r vai te levar até a &9Acrópole&r para lutar contra &9&lScylla&r.",
   ],
   "quest.0496E8E786262464.quest_desc": [
-    "Eu realmente preciso te explicar o &2Mundo Superior&r?",
+    "Eu realmente preciso te explicar o &2Superfície&r?",
   ],
   "quest.0741FABE57CA1A7D.title": "&9Kaltrion",
   "quest.2BCB788924BBD849.title": "&bO Incinerador",
@@ -305,7 +305,7 @@
     "Os &5Golems de Coral&r aparecem na &5Cidade Submersa&r e nos Oceanos depois de você ter derrotado o &5&lLeviatã&r. \n\nEles são semelhantes a seus parentes maiores: os &5Coralssus&r, mas têm menos &4Corações&r, com 110, e não podem ser montados por &5Ondadores&r. \n\nEles têm mais ataques que seus parentes, no entanto! Como pular em você e esmagar o chão ao seu lado. E pode te dar um tapa. \n\nNa morte, eles dropam Fragmentos de Coral Cristalizado, que podem ser transformados em Coral Cristalizado. Estes podem ser transformados no &5Sacrifício Abissal&r.",
   ],
   "quest.7270FA5C48AF7280.quest_desc": [
-    "A &3Armadura de Maldímio&r é uma melhoria para a Armadura de Netherita. Combine um Equipamento de Netherita com um &3Lingote de Maldímio&r e um &3Modelo de Melhoria de Maldímio&r. Você pode Criá-los, não se preocupe! \n\nO &3Capacete de Maldímio&r pode ser usado com a Tecla: C para ver Mobs através de Blocos! Como o Olho Espectral. \n\nO &3Peitoral de Maldímio&r funciona como um Totem da Imortalidade embutido. Depois de morrer, você será salvo. Tem um Cooldown de 6 minutos, no entanto... \n\nAs &3Calças de Maldímio&r funcionam com probabilidade... não tenho certeza de como isso funciona no &2&lMinecraft&r! \n\nAs &3Botas de Maldímio&r permitem que você seja lançado para trás em um salto com a Tecla: V. Elas também reduzem o Dano de Queda em muito (mas não completamente!)",
+    "A &3Armadura de Maldímio&r é uma melhoria para a Armadura de Netherita. Combine um Equipamento de Netherita com um &3Lingote de Maldímio&r e um &3Modelo de Melhoria de Maldímio&r. Você pode Criá-los, não se preocupe! \n\nO &3Capacete de Maldímio&r pode ser usado com a Tecla: C para ver Criaturas através de Blocos! Como o Olho Espectral. \n\nO &3Peitoral de Maldímio&r funciona como um Totem da Imortalidade embutido. Depois de morrer, você será salvo. Tem um tempo de recarga de 6 minutos, no entanto... \n\nAs &3Calças de Maldímio&r funcionam com probabilidade... não tenho certeza de como isso funciona no &2&lMinecraft&r! \n\nAs &3Botas de Maldímio&r permitem que você seja lançado para trás em um salto com a Tecla: V. Elas também reduzem o Dano de Queda em muito (mas não completamente!)",
   ],
   "quest.1D56D3B444A4B2D4.quest_desc": [
     "A &dManopla de &bFogo&r age de um jeito diferente do que você imaginaria. \n\nEm vez de aproximar os monstros, ela os afasta ao segurar o botão direito e ainda dá a eles o efeito &bMarca de Fogo&r. \n\nQuando você solta o botão direito, avança na direção em que está olhando. \n\nÉ feita fundindo a &dManopla do Guardião Ender&r com um &bEscudo das Chamas&r na &4Bigorna de Fusão Mecânica&r.",
@@ -322,11 +322,11 @@
     "&eKobolediadores&r são um dos dois mini-chefes dentro da &ePirâmide Amaldiçoada&r. \n\nEles permanecerão dormentes até que um Jogador (no Sobrevivência, demorei um pouco para descobrir isso) passe perto deles e eles acordarão. \n\nEles têm 540 &4Corações&r e infligirão Fadiga de Mineração em você. \n\nEles balançarão sua Espada em você se você chegar muito perto! Se você se distanciar deles, eles avançarão em você como se estivesse segurando uma Bola de Futebol Americano e correndo para a endzone! \n\nNa morte, eles droparão Ossos de Koboleton, Barras de Metal Ancestral e sua Caveira!",
   ],
   "quest.70CDA5F1593DB4B2.quest_desc": [
-    "A &ePirâmide Amaldiçoada&r aparece em desertos e é muito difícil não a ver. Uma pirâmide massiva com enormes pilares na entrada. \n\nEntre e você encontrará armadilhas por toda parte, &eCobóletos&r e mini-bosses! \n\nNão se preocupe, também há Baús, Potes e até Areia Suspeita de que você precisará para o...",
+    "A &ePirâmide Amaldiçoada&r aparece em desertos e é muito difícil não a ver. Uma pirâmide massiva com enormes pilares na entrada. \n\nEntre e você encontrará armadilhas por toda parte, &eCobóletos&r e mini-chefes! \n\nNão se preocupe, também há Baús, Potes e até Areia Suspeita de que você precisará para o...",
     "{image:atm:textures/questpics/cataclysm/cataclysm_pyramid.png width:200 height:100 align:center}",
   ],
   "quest.4FA7774D89171BB3.quest_desc": [
-    "Quer outro pet de &4&lCataclysm&r? Então o Crânio Remanescente é o que você precisa! \n\nÉ um drop confirmado do &eFóssil Ancestral&r e quando usado irá gerar um Revenant Moderno. \n\nEste é muito menor e mais legal que o &eAncestral&r. Você pode domesticá-lo alimentando-o com um Ovo de Sniffer e então ele agirá como um cachorro. \n\nAtacando o que te ataca ou o que você ataca. Ele também tem 3 modos: seguir, vagar e ficar. Seguir, ele vai... bem, te seguir. Vagar fará com que ele ande por uma determinada área. E ficar fará com que ele se deite em um lugar. \n\nEles têm 1,500 &4Corações&r e eu aprendi que você pode alimentá-los com &eOssos de Koboleton&r para curá-los! \n\nAproveite seu novo dino!",
+    "Quer outro mascote de &4&lCataclysm&r? Então o Crânio Remanescente é o que você precisa! \n\nÉ um drop confirmado do &eFóssil Ancestral&r e quando usado irá gerar um Revenant Moderno. \n\nEste é muito menor e mais legal que o &eAncestral&r. Você pode domesticá-lo alimentando-o com um Ovo de Sniffer e então ele agirá como um cachorro. \n\nAtacando o que te ataca ou o que você ataca. Ele também tem 3 modos: seguir, vagar e ficar. Seguir, ele vai... bem, te seguir. Vagar fará com que ele ande por uma determinada área. E ficar fará com que ele se deite em um lugar. \n\nEles têm 1,500 &4Corações&r e eu aprendi que você pode alimentá-los com &eOssos de Koboleton&r para curá-los! \n\nAproveite seu novo dino!",
   ],
   "quest.2B115519A21F9CB7.title": "&d&lGuardião Ender&r",
   "quest.71055E7BBB337C4D.quest_desc": [
@@ -349,7 +349,7 @@
   ],
   "quest.6FC4146E534C51DA.title": "&cCapacete da Monstruosidade",
   "quest.17CA9D80D8EC3EF7.quest_desc": [
-    "&4&lWither Robô-Mecânico&r se inspira muito no que o fortalece, a Estrela do Nether. \n\nEle tem 4.680 &4Corações&r e atacará todos os Mobs e Jogadores que vir que não aparecem na &4Fábrica Ancestral&r. \n\nEle voará por aí e até mesmo investirá contra você. Assim como &0o Wither&r, &l&4o Wither Robô-Mecânico&r quebrará quase todos os Blocos em seu caminho. \n\nPara atacar, pode atirar &4Mísseis Wither&r em você, que podem lhe dar o &0Efeito Wither&r, ou disparar &4Howitzers Wither&r de suas costas, que voam em todas as direções. \n\nEle também tem &4Lasers&r que pode atirar em você, &4Metralhadoras a Laser&r e um &4grande raio pela boca&r. \n\nMas tem uma grande fraqueza: como as outras máquinas vivas, é fraco a &4EMPs&r! Se você usá-los nele, ele ficará atordoado, incapaz de se mover ou lutar por alguns segundos.",
+    "&4&lWither Robô-Mecânico&r se inspira muito no que o fortalece, a Estrela do Nether. \n\nEle tem 4.680 &4Corações&r e atacará todas as Criaturas e Jogadores que vir que não aparecem na &4Fábrica Ancestral&r. \n\nEle voará por aí e até mesmo investirá contra você. Assim como &0o Wither&r, &l&4o Wither Robô-Mecânico&r quebrará quase todos os Blocos em seu caminho. \n\nPara atacar, pode atirar &4Mísseis Wither&r em você, que podem lhe dar o &0Efeito Wither&r, ou disparar &4Bombas de Wither&r de suas costas, que voam em todas as direções. \n\nEle também tem &4Lasers&r que pode atirar em você, &4Metralhadoras a Laser&r e um &4grande raio pela boca&r. \n\nMas tem uma grande fraqueza: como as outras máquinas vivas, é fraco a &4EMPs&r! Se você usá-los nele, ele ficará atordoado, incapaz de se mover ou lutar por alguns segundos.",
     "{image:atm:textures/questpics/cataclysm/cataclysm_harbinger.png width:100 height:100 align:center}",
   ],
   "quest.4D644A9829C240CB.quest_desc": [
@@ -365,7 +365,7 @@
   "quest.683C260C854C5AA3.title": "&4Bigorna de Fusão Mecânica",
   "quest.7F4963FCAE5337EC.title": "&bCinzas Flamejantes",
   "quest.4D822D92492E1F53.quest_desc": [
-    "O &3Aptrgangr&r é o mini chefe dentro da &3Prisão Gelada&r. \n\nEles têm 480 &4Corações&r e irão atacá-lo com seu machado gigante. \n\nEles podem balançar seu Machado normalmente, ou podem esmagá-lo no chão perto de você. Quando fazem isso, lasers aparecerão, danificando tudo em seu caminho. Eles também têm um ataque de carga semelhante ao do &eKobolediator&r! \n\nNa morte, eles derrubarão Barras e Pepitas de Aço Negro, e Carne Podre e Ossos.",
+    "O &3Aptrgangr&r é o mini chefe dentro da &3Prisão Gelada&r. \n\nEles têm 480 &4Corações&r e irão atacá-lo com seu machado gigante. \n\nEles podem balançar seu Machado normalmente, ou podem esmagá-lo no chão perto de você. Quando fazem isso, lasers aparecerão, danificando tudo em seu caminho. Eles também têm um ataque de carga semelhante ao do &eKobolediator&r! \n\nNa morte, eles derrubarão Lingotes e Pepitas de Aço Negro, e Carne Podre e Ossos.",
   ],
   "quest.0EE0946240B41A00.quest_desc": [
     "&bIgnítio&r é uma melhoria para Netherita. Você precisará de uma &bMelhoria de Ignítio&r que é Criada, e um &bLingote de Ignítio&r que é dropado do &b&lIgnis&r.\n\nO &bCapacete de Ignítio&r permite que você veja claramente sob a Lava.\n\nO &bPeitoral de Ignítio&r pode ser combinado com uma Élitros.\n\nAs &bCalças de Ignítio&r não nos tornam à prova de chamas, mas sim fazem com que os Fogos que cobrem nossos corpos se apaguem mais rápido!\nAs &bBotas de Ignítio&r nos permitem andar sobre a Lava. Como as Botas de Couro sobre Neve Fofa, você pode Segurar Shift para descer na Lava.",
@@ -377,7 +377,7 @@
     "Witherita é um drop do &4Wither Robô-Mecânico&r, que sempre solta 1 bloco, transformável em 9 Barras. \n\nA Witherita é usada para criar 3 Armas e a &4Bigorna de Fusão Mecânica&r, que serve para combinar Itens do &4&lCataclysm&r!",
   ],
   "quest.1C5EA7D62BAF2108.quest_desc": [
-    "Para lutar contra o &5&lLeviatã&r você vai precisar de um sacrifício. O &5Sacrifício Abissal&r, para ser exato. \n\nOs Itens mais básicos necessários são os Blocos de Lingotes e de Ametista, que são só Itens &2&lVanilla&r. \n\nDepois, você vai precisar de um Concha de Náutilo e um Coração do Mar. São Itens &2&lVanilla&r raros de conseguir... a menos que você mate &5Ondadores&r, que podem soltá-los! \n\nVocê também vai precisar de um Atame, uma arma usada pelos &5Ondadores Feiticeiros &fe &5Ondadores Iluminadores&r e solta por eles ao morrer. \nA última parte nos dá uma escolha: Coral Cristalizado ou Coral Pesado. Ambos são drops do &5Golem de Coral&r e do &5Coralsus&r.",
+    "Para lutar contra o &5&lLeviatã&r você vai precisar de um sacrifício. O &5Sacrifício Abissal&r, para ser exato. \n\nOs Itens mais básicos necessários são os Blocos de Lingotes e de Ametista, que são só Itens &2&lMinecraft&r. \n\nDepois, você vai precisar de um Concha de Náutilo e um Coração do Mar. São Itens &2&lMinecraft&r raros de conseguir... a menos que você mate &5Ondadores&r, que podem soltá-los! \n\nVocê também vai precisar de um Atame, uma arma usada pelos &5Ondadores Feiticeiros &fe &5Ondadores Iluminadores&r e solta por eles ao morrer. \nA última parte nos dá uma escolha: Coral Cristalizado ou Coral Pesado. Ambos são drops do &5Golem de Coral&r e do &5Coralsus&r.",
   ],
   "quest.655FF7295B688354.title": "&9Garradião",
   "quest.43A5B83862D9E94C.quest_desc": [
@@ -390,7 +390,7 @@
   "quest.5EDB5A2D744CE415.quest_subtitle": "Direto de Fallout",
   "quest.746DE905D45A396C.title": "&5&lO Leviatã&r",
   "quest.05DE9E1CDFBC22DE.quest_desc": [
-    "As &dFlechas Dispersoras do Vazio&r são Criadas com uma Flecha Espectral e uma &dMandíbula do Vazio&r.\n\nElas podem ser disparadas por qualquer Arco ou Besta. Quando atingem qualquer Mob ou Bloco, elas se quebram.\n\nQuando se quebram, muitas partes são lançadas pela área, danificando o que quer que atinjam!",
+    "As &dFlechas Dispersoras do Vazio&r são Criadas com uma Flecha Espectral e uma &dMandíbula do Vazio&r.\n\nElas podem ser disparadas por qualquer Arco ou Besta. Quando atingem qualquer Criatura ou Bloco, elas se quebram.\n\nQuando se quebram, muitas partes são lançadas pela área, danificando o que quer que atinjam!",
   ],
   "quest.1B4ED65C614B102F.title": "&bFantasma Incendiado&r",
   "quest.747B62A955D0C629.title": "&4Fábrica Ancestral&r: Lar do &4&lWither Robô-Mecânico&r",

@@ -17,7 +17,7 @@
   "quest.4EAD06B0B3AD7D6E.quest_subtitle": "Fragmenta minérios brutos",
   "quest.53D5A6F210DF199C.title": "Transferindo Energia",
   "quest.5932B5AD48F6AB74.quest_desc": [
-    "Use energia com um &5Reforço de Tubo&r para impulsionar a velocidade de extração dos tubos &2Oritech&r.",
+    "Use energia com um &5Acelerador de Tubo&r para impulsionar a velocidade de extração dos tubos &2Oritech&r.",
   ],
   "quest.55DCCC4035B8BB2A.quest_subtitle": "Misture netherita e platina",
   "quest.4A19FA0912FE38B5.title": "EM BREVE",
@@ -52,7 +52,7 @@
   "quest.6539582429A70EE8.quest_subtitle": "Oritech pode usar energia gerada pela maioria das fontes neste pacote",
   "quest.1F139091C1B4E50B.quest_subtitle": "Um circuito normal",
   "quest.3DD27DED791C6A0B.quest_desc": [
-    "Para processar minérios usando &5Oritech&r, você precisa usar uma &aCentrífuga&r com um &6Addon de Fluido&r e um &aPulverizador&r ou &6Forja de Fragmentos&r.",
+    "Para processar minérios usando &5Oritech&r, você precisa usar uma &aCentrífuga&r com um &6Complemento de Fluido&r e um &aPulverizador&r ou &6Forja de Fragmentos&r.",
   ],
   "quest.418E0A23EC74F320.quest_subtitle": "Você gira minha cabeça...",
   "task.3CC9C741B461AD4B.title": "Grumos",
@@ -61,7 +61,7 @@
   "quest.7D2F41DD9774DDA7.title": "Transportando itens",
   "quest.5F8363EC8F4499B6.quest_subtitle": "Fazendo ligas",
   "quest.6134991F25B25B42.quest_desc": [
-    "&lMontadores&r não apenas permitem que você fabrique &aitens mais novos&r, mas também melhoram o rendimento de alguns outros itens.",
+    "&lMontadoras&r não apenas permitem que você fabrique &aitens mais novos&r, mas também melhoram o rendimento de alguns outros itens.",
   ],
   "quest.0C9F9196CA49FF8D.quest_subtitle": "Encontre minério de níquel para começar sua jornada",
   "quest.4ED29ACF4A699E1B.quest_subtitle": "É 'mais melhor'",
@@ -119,7 +119,7 @@
     "",
     "Para usar portos de drone, coloque 2 deles e &aShift + clique direito&r com seu &5designador de alvo&r em um deles para armazenar sua localização. Abra a interface do segundo e coloque seu &5designador de alvo&r nele.",
     "",
-    "Agora, quando o porto de drone onde você colocou o &5designador de alvo&r tiver itens, ele lançará um drone para transportá-los. ",
+    "Agora, quando o porto de drones onde você colocou o &5designador de alvo&r tiver itens, ele lançará um drone para transportá-los. ",
   ],
   "quest.46EFCAE81C09368A.quest_desc": [
     "Núcleos de máquina formam a base do &9Oritech&r. Clique com o botão direito nas máquinas com núcleos de máquina para construí-las.",
@@ -136,7 +136,7 @@
   "quest.7CBAD1047B087803.title": "Girando até virar gemas",
   "quest.11A4C57600E692EC.quest_subtitle": "Aumenta a capacidade de energia da máquina",
   "quest.5189D72ED3808DC6.quest_subtitle": "Carregue a ametista com o laser",
-  "quest.01C0DC225CB25A0C.quest_subtitle": "O Addon de Caçador permite que o laser mire em criaturas",
+  "quest.01C0DC225CB25A0C.quest_subtitle": "O Complemento de Caçador permite que o laser mire em criaturas",
   "quest.124CD4B8876B81F6.title": "Armazenando Energia",
   "quest.2A69272FD3C57924.quest_subtitle": "Um pouco melhor",
 }

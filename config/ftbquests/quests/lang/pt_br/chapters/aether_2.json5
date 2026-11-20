@@ -6,10 +6,10 @@
   ],
   "quest.59059329118899B6.title": "Postos Avançados",
   "quest.374A1C2A2655F4CC.quest_desc": [
-    "Bem-vindo ao &e&lAether&r... &e&l2&r. \\n\\nEsta Dimensão foi alterada e atualizada! E esta definitivamente não será a última vez. \\n\\nNovos Biomas, Estruturas, Blocos, Ferramentas, Mobs! \\n\\nVá e descubra tudo de novo.",
+    "Bem-vindo(a) ao &e&lAether&r... &e&l2&r. \\n\\nEsta Dimensão foi alterada e atualizada! E esta definitivamente não será a última vez. \\n\\nNovos Biomas, Estruturas, Blocos, Ferramentas, Criaturas! \\n\\nVá e descubra tudo de novo.",
   ],
   "quest.34DE7709A677E64B.quest_desc": [
-    "As &dArmas de Gravitita&r aumentam a massa do Mob atingido. Basicamente eles cairão como uma Bigorna da ACME. Ou uma Bigorna do &2&lMinecraft&r. \\n\\nConfira as &2Armas de Aerorraiz&r para detalhes sobre os diferentes tipos de Armas. \\n\\nA &dBesta&r Atira diretamente onde você está mirando, sem cair. \\n\\nAs &dArmas de Gravitita&r também podem ser Aprimoradas em uma Forja de Arquênio.",
+    "As &dArmas de Gravitita&r aumentam a massa da Criatura atingida. Basicamente eles cairão como uma Bigorna da ACME. Ou uma Bigorna do &2&lMinecraft&r. \\n\\nConfira as &2Armas de Aerorraiz&r para detalhes sobre os diferentes tipos de Armas. \\n\\nA &dBesta&r Atira diretamente onde você está mirando, sem cair. \\n\\nAs &dArmas de Gravitita&r também podem ser Aprimoradas em uma Forja de Arquênio.",
   ],
   "quest.00C211DA0CEC0038.title": "Serra Frígida",
   "quest.56697C07427A48AE.title": "Pântanos Cintilantes",
@@ -35,7 +35,7 @@
   "quest.7F7ED7E88024F174.title": "&dPorco Alado",
   "quest.63A834E40BF90E14.title": "Zéfiro",
   "quest.511696C81C8E2711.quest_desc": [
-    "A Selva Contaminada já foi uma linda floresta Encantada, mas a Radiação está invadindo aos poucos e a arruinando. \\n\\nAqui você encontrará &2Árvores Aerorraiz&r Irradiadas, Grama Encantada e muito Musgo Ambrelinn. \\n\\nNenhum Mob nascerá aqui por causa da Radiação.",
+    "A Selva Contaminada já foi uma linda floresta Encantada, mas a Radiação está invadindo aos poucos e a arruinando. \\n\\nAqui você encontrará &2Árvores Aerorraiz&r Irradiadas, Grama Encantada e muito Musgo Ambrelinn. \\n\\nNenhum Criatura nascerá aqui por causa da Radiação.",
   ],
   "quest.6B1DC0E2AB39B771.quest_desc": [
     "Os Bunkers nascem expostos em &eBiomas Irradiados&r. \\n\\nO Bunker terá Estantes de Livros e &eBlocos de Ambrósio&r.",
@@ -72,14 +72,14 @@
   "quest.24842B5F76063992.title": "Cavernas de Hestveil",
   "quest.415AF3FA5F73F155.title": "&6Skephid",
   "quest.323FFEC533D59DD0.quest_desc": [
-    "Os &7Kirrids&r são Mobs parecidos com Cabras saltitando pelo &e&lAether&r. \\n\\nEles têm 8 &4Corações&r e soltam Lã de Nuvem e &7Carne de Kirrid&r ao morrer. \\n\\nComo as Uuuvelhas, você pode Tingir e Tosquiar a Lã deles. \\n\\nEles têm aparência diferente nos Biomas dos Campos Altos, Ártico e Magnético. \\n\\nOs dos Campos Altos têm &6Chifres Dourados&r e &6Patas&r com &7Pele Cinza&r. Os do Ártico têm &8Chifres Marrons&r e Patas com Pele Branca. Os do Magnético têm &bChifres Azuis&r e &bPatas&r com &7Pele Cinza&r.",
+    "Os &7Kirrids&r são Criaturas parecidas com Cabras saltitando pelo &e&lAether&r. \\n\\nEles têm 8 &4Corações&r e soltam Lã de Nuvem e &7Carne de Kirrid&r ao morrer. \\n\\nComo as Uuuvelhas, você pode Tingir e Tosquiar a Lã deles. \\n\\nEles têm aparência diferente nos Biomas dos Campos Altos, Ártico e Magnético. \\n\\nOs dos Campos Altos têm &6Chifres Dourados&r e &6Patas&r com &7Pele Cinza&r. Os do Ártico têm &8Chifres Marrons&r e Patas com Pele Branca. Os do Magnético têm &bChifres Azuis&r e &bPatas&r com &7Pele Cinza&r.",
   ],
   "quest.3554892518642473.title": "Domando &bMoas",
   "quest.4255B04D58B13D1E.title": "&3Taegores",
   "quest.46C43D3D613500D9.title": "&bConjunto de Pelagem de Fera",
   "quest.2CAA538587D78A8F.title": "&l&8O Olho Mecânico",
   "quest.2E4D32863106F785.quest_desc": [
-    "As &bMoas&r agora nascem em seus Ninhos protegendo seus &bOvos&r. \\n\\nSão Neutras até você Bater nelas ou tentar pegar o &bOvo&r delas. \\n\\nTêm 17 Corações e meio &4&r e vão te beliscar. Não soltam nada. \\n\\nO &bOvo&r é a única coisa que nos interessa, é o único jeito de Domesticá-las.",
+    "As &bMoas&r agora nascem em seus Ninhos protegendo seus &bOvos&r. \\n\\nSão Neutras até você Bater nelas ou tentar pegar o &bOvo&r delas. \\n\\nTêm 17 e meio &4Corações&r e vão te beliscar. Não soltam nada. \\n\\nO &bOvo&r é a única coisa que nos interessa, é o único jeito de Domesticá-las.",
   ],
   "quest.452A97AA78D368C2.title": "&7Sentinela Detonante",
   "quest.7ACFEA5D36C4E8FF.quest_desc": [
@@ -92,7 +92,7 @@
     "O Esquife de Nuvem é a versão do &e&lAether&r para o Barco. \\n\\nSó que não temos muita Água para Navegar... então vamos Navegar pelas Nuvens! \\n\\nIsso! Você ouviu certo: o Esquife de Nuvem desliza suavemente pelas Aeronuvens.",
   ],
   "quest.37C5266720652696.quest_desc": [
-    "As &8Tempestades&r gostam de se esconder em Aeronuvens lá embaixo onde é escuro. \\n\\nTêm 14 &4Corações&r e Atacarão com Bolas de Fogo parecidas com as do &d&lDragão Ender&r. Essas Bolas de Fogo Explodem e deixam um resíduo que causa Dano. \\n\\nElas Voarão para longe e desaparecerão numa &8Fumaça Negra&r quando se sentirem inseguras. \\n\\nAs &8Tempestades&r soltam &5Aeronuvens de Tempestade&r ao morrer.",
+    "As &8Tempestades&r gostam de se esconder em Aeronuvens lá embaixo onde é escuro. \\n\\nTêm 14 &4Corações&r e Atacarão com Bolas de Fogo parecidas com as do &d&lDragão de Ender&r. Essas Bolas de Fogo Explodem e deixam um resíduo que causa Dano. \\n\\nElas Voarão para longe e desaparecerão numa &8Fumaça Negra&r quando se sentirem inseguras. \\n\\nAs &8Tempestades&r soltam &5Aeronuvens de Tempestade&r ao morrer.",
   ],
   "quest.361056AE9756BF18.quest_desc": [
     "As Uuuvelhas não Planam nem Flutuam, mas elas... Estufam? \\n\\nVocê pode Tosquiar e Tingir a Lã delas. Elas até Estufam a Lã, adicionando uma camada extra para você Tosquiar duas vezes! \\n\\nTêm 4 &4Corações&r e ao morrer soltam a Lã e &7Carne de Kirrid&r.",
@@ -102,7 +102,7 @@
   "quest.5FF84939068D9AC9.title": "Mata Alta Violeta",
   "quest.2AA07E948346C417.title": "&5Armadura de Zanita",
   "quest.78C86403B4F8D382.quest_desc": [
-    "Com 10 &ePedras Luminosas&r podemos fazer uma moldura parecida com a do &cPortal do Nether&r. 2 Blocos em cima e embaixo, 3 nas laterais, pulando os cantos. \\n\\nDepois, basta colocar &9Água&r na Moldura de &ePedra Luminosa&r e nosso &ePortal do Aether&r será ativado.",
+    "Com 10 &ePedras-Luminosas&r podemos fazer uma moldura parecida com a do &cPortal do Nether&r. 2 Blocos em cima e embaixo, 3 nas laterais, pulando os cantos. \\n\\nDepois, basta colocar &9Água&r na Moldura de &ePedra-Luminosa&r e nosso &ePortal do Aether&r será ativado.",
   ],
   "quest.44A90483E4A1B776.quest_desc": [
     "Acampamentos são Estruturas encontradas na maioria dos Biomas. \\n\\nVêm em 3 formas diferentes dependendo do Bioma em que nascem. \\n\\nMas todos são parecidos: tendas, poços, caminhos e fogueiras!",
@@ -120,13 +120,13 @@
     "Os &bVooelhos&r não soltam nada ao morrer, não vale a pena matá-los. \\n\\nEles servem mais para olhar mesmo; vê-los saltitando e flutuando por aí é bem engraçado!",
   ],
   "quest.5C9D61CE2E5CD3CE.quest_desc": [
-    "As &bBaleiaéreas&r são Mobs Voadores gigantes e dóceis. \\n\\nTêm 10 &4Corações&r, mas não soltam nada. \\n\\nA menos que você queira acabar com as melodias delas...",
+    "As &bBaleiaéreas&r são Criaturas Voadoras gigantes e dóceis. \\n\\nTêm 10 &4Corações&r, mas não soltam nada. \\n\\nA menos que você queira acabar com as melodias delas...",
   ],
   "quest.00EF3C7136FD03E6.quest_desc": [
     "A &2Aerorraiz&r vem de 4 Árvores diferentes: &2Aerorraiz&r, &9Aeroplátano&r, &bAerobétula&r e &dAeropinheiro&r. \\n\\nA &2Aerorraiz&r tem &2Folhas Verdes&r. \\n\\nO &9Aeroplátano&r tem &9Folhas Azuis&r. \\n\\nA &bAerobétula&r tem &bFolhas Azul-Claro&r. \\n\\nE o &dAeropinheiro&r tem &dFolhas Rosas&r. \\n\\nAs &2Tábuas de Aerorraiz&r são &2Verde-Escuras&r.",
   ],
   "quest.3BEB52D15F5C73E7.quest_desc": [
-    "As Ferramentas de Arquênio não têm uma habilidade parecida com as outras Ferramentas do Aether. Em vez disso, podem ser Aprimoradas na Forja de Arquênio. \\n\\nEspátulas serão necessárias para Matar certos Mobs Vegetais.",
+    "As Ferramentas de Arquênio não têm uma habilidade parecida com as outras Ferramentas do Aether. Em vez disso, podem ser Aprimoradas na Forja de Arquênio. \\n\\nEspátulas serão necessárias para Matar certos Criaturas Vegetais.",
   ],
   "quest.020025A8178CBD40.quest_desc": [
     "A &6Ampulheta&r funciona como um Desfazedor e Restaurador do &e&lAether&r. \\n\\nItens Fossilizados podem ser trazidos de volta à condição de uso e Itens podem ser desfeitos em seus Materiais. \\n\\nPor sorte ela só funciona com Objetos do &e&lAether&r, então não é quebrada! \\n\\nEla usa &6Âmbar Dourado&r como Combustível.",
@@ -153,7 +153,7 @@
     "A Mata Alta Violeta é bem Roxa. \\n\\nÉ feita inteiramente de &5Árvores Fátuacopa&r e &6Árvores Ambarraiz&r. \\n\\nEste é um Bioma Magnético.",
   ],
   "quest.6B31BC88C23EA226.quest_desc": [
-    "As &7Ferramentas de Pedrasanta&r soltam &eCristais de Ambrósio&r quando usadas em Blocos específicos. \\n\\nMachados em Troncos, Picaretas em Pedra e Pás em Terra. \\n\\nTambém precisaremos da &7Picareta de Pedrasanta&r para Minerar &5Minério de Zanita&r. \\n\\nEspátulas serão necessárias para Matar certos Mobs Vegetais.",
+    "As &7Ferramentas de Pedrasanta&r soltam &eCristais de Ambrósio&r quando usadas em Blocos específicos. \\n\\nMachados em Troncos, Picaretas em Pedra e Pás em Terra. \\n\\nTambém precisaremos da &7Picareta de Pedrasanta&r para Minerar &5Minério de Zanita&r. \\n\\nEspátulas serão necessárias para Matar certos Criaturas Vegetais.",
   ],
   "quest.3FC5FF405CAAF1EF.quest_desc": [
     "As Florestas Turquesas são nossas Florestas Azul-Claras. \\n\\nElas têm &bAerobétula&r e &2Árvores Granderraiz&r. \\n\\nÉ outro Bioma Magnético.",
@@ -177,7 +177,7 @@
     "Os &dTroncos de Granderraiz&r vêm das Árvores &2Granderraiz&r, &dGrandecarvalho&r e &9Grandiboa&r. \\n\\nA &2Granderraiz&r tem &2Folhas Verdes&r. \\n\\nO &dGrandecarvalho&r tem &dFolhas Rosas&r. \\n\\nA &9Grandiboa&r tem Folhas &9Azul-Escuras&r/&5Roxas&r. \\n\\nTodas essas precisam de 2x2 Mudas para Crescer. \\n\\nAs &dTábuas de Granderraiz&r são Marrom-Escuras, parecidas com Carvalho Escuro e Pinheiro.",
   ],
   "quest.68755B04AED4A19F.quest_desc": [
-    "Os &9Burrukai&r são Mobs grandes parecidos com Alces. \\n\\nCada um tem 13 &4Corações&r e 6 Pontos de Armadura. \\n\\nOs &9Burrukai&r não são Passivos, são Neutros. Se você Bater neles, eles começam a Investir contra você. Como as Cabras fazem por diversão! \\nAo morrer, soltam &9Placas de Burrukai&r, &9Cortes de Costela de Burrukai&r e &bPelagem de Fera&r. \\n\\nEles nascem de formas diferentes nos Biomas dos Campos Altos, Ártico e Magnético. \\n\\nOs dos Campos Altos têm &9Pele Azul&r e &0Placas Pretas&r. Os do Ártico têm &5Pele Roxa&r e &7Placas Prateadas&r. Os do Magnético têm &8Pele Marrom&5 com &7Placas Cinzas&r.",
+    "Os &9Burrukai&r são Criaturas grandes parecidas com Alces. \\n\\nCada um tem 13 &4Corações&r e 6 Pontos de Armadura. \\n\\nOs &9Burrukai&r não são Passivos, são Neutros. Se você Bater neles, eles começam a Investir contra você. Como as Cabras fazem por diversão! \\nAo morrer, soltam &9Placas de Burrukai&r, &9Cortes de Costela de Burrukai&r e &bPelagem de Fera&r. \\n\\nEles nascem de formas diferentes nos Biomas dos Campos Altos, Ártico e Magnético. \\n\\nOs dos Campos Altos têm &9Pele Azul&r e &0Placas Pretas&r. Os do Ártico têm &5Pele Roxa&r e &7Placas Prateadas&r. Os do Magnético têm &8Pele Marrom&5 com &7Placas Cinzas&r.",
   ],
   "quest.19DB1FFF6A1BD363.title": "&4Mímico",
   "quest.5DBD7B1F8A8B9BE5.title": "Aquedutos Veradexianos",
@@ -187,17 +187,17 @@
   "quest.64789CF858BCA9D2.title": "&dTaluton de Gravitita",
   "quest.6B31BC88C23EA226.title": "&7Ferramentas de Pedrasanta",
   "quest.1CF12FED1C03F66D.quest_desc": [
-    "Os &bGolems Sentinela&r nascem dentro das &8Ruínas de Sentinela&r. \\n\\nTêm 17 Corações e meio &4&r, e empunham um &bMartelo de Demolição&r. \\n\\nTambém não soltam nada de interessante...",
+    "Os &bGolems Sentinela&r nascem dentro das &8Ruínas de Sentinela&r. \\n\\nTêm 17 e meio &4Corações&r, e empunham um &bMartelo de Demolição&r. \\n\\nTambém não soltam nada de interessante...",
   ],
   "quest.30410136040EFB34.quest_desc": [
     "Cortador de Pedras chique.",
   ],
   "quest.29E42E388252BA90.title": "Biblioteca Veradexiana",
   "quest.03482A7A8010BBB9.quest_desc": [
-    "Não temos &7Armadura de Pedrasanta&r, mas temos a &9Armadura de Burrukai&r. \\n\\nA &9Armadura de Burrukai&r tem um total de 12 Pontos de Armadura, com Resistência a Atordoamento extra quando vestimos o conjunto completo. \\n\\nIncluindo os &9Protetores de Placa&r.",
+    "Não temos &7Armadura de Pedrasanta&r, mas temos a &9Armadura de Burrukai&r. \\n\\nA &9Armadura de Burrukai&r tem um total de 12 Pontos de Armadura, com Resistência a Atordoamento extra quando vestimos o conjunto completo. \\n\\nIncluindo os &9Luvas de Placa de Burrukai&r.",
   ],
   "quest.1317CD842F94846B.quest_desc": [
-    "As &7Armas de Pedrasanta&r soltam &eCristais de Ambrósio&r ao Ferir Mobs. \\n\\nConfira as &2Armas de Aerorraiz&r para mais detalhes sobre os tipos de Armas. \\n\\nA &7Besta de Pedrasanta&r Atira 3 Flechas em linha, como o Encantamento Tiro Múltiplo, ao Agachar.",
+    "As &7Armas de Pedrasanta&r soltam &eCristais de Ambrósio&r ao Ferir Criaturas. \\n\\nConfira as &2Armas de Aerorraiz&r para mais detalhes sobre os tipos de Armas. \\n\\nA &7Besta de Pedrasanta&r Atira 3 Flechas em linha, como o Encantamento Multidisparo, ao Agachar.",
   ],
   "quest.5F229A0A52DF68CC.quest_desc": [
     "Uma pista de patinação perfeita feita de Gelo Ártico e Gelo Compactado Ártico. \\n\\nEste é um Bioma Ártico.",
@@ -209,7 +209,7 @@
   "task.05327C8D3374AA66.title": "AllRightsReserved",
   "task.0D64F53517C9E3A2.title": "Ferramentas de Gravitita",
   "quest.2C8684AA92B889E8.quest_desc": [
-    "As &dFerramentas de Gravitita&r são literalmente Mágicas! \\n\\nShift + Botão Direito num Bloco fará ele flutuar até você. Depois, ele Voará ao seu redor até que você Clique com o Botão Esquerdo para lançá-lo como uma Bola de Fogo. Ou clique com o Botão Direito para Colocá-lo onde está. \\n\\nCada &dFerramenta&r só pode fazer isso com seus Blocos específicos: Pás com Terra, Picaretas com Pedra, Machados com Madeira. \\n\\nAs &dFerramentas de Gravitita&r também podem ser Aprimoradas numa Forja de Arquênio. \\n\\nEspátulas são necessárias para Matar certos Mobs Vegetais. ",
+    "As &dFerramentas de Gravitita&r são literalmente Mágicas! \\n\\nShift + Botão Direito num Bloco fará ele flutuar até você. Depois, ele Voará ao seu redor até que você Clique com o Botão Esquerdo para lançá-lo como uma Bola de Fogo. Ou clique com o Botão Direito para Colocá-lo onde está. \\n\\nCada &dFerramenta&r só pode fazer isso com seus Blocos específicos: Pás com Terra, Picaretas com Pedra, Machados com Madeira. \\n\\nAs &dFerramentas de Gravitita&r também podem ser Aprimoradas numa Forja de Arquênio. \\n\\nEspátulas são necessárias para Matar certos Criaturas Vegetais. ",
   ],
   "quest.2ABC7BE1CCAF266D.quest_desc": [
     "O &6Tocador de Música&r é como podemos ouvir os Discos do &e&lAether&r onde quer que estejamos. \\n\\nNo seu Inventário, clique no &6Tocador de Música&r sobre o Disco ou vice-versa e ele colocará o Disco no &6Tocador&r. \\n\\nDepois, segurando o &6Tocador de Música&r na Mão, clique com o Botão Direito para começar a tocar a Música. \\n\\nPara tirar o Disco, clique com o Botão Direito no Inventário segurando o &6Tocador de Música&r sobre um Espaço vazio.",
@@ -246,10 +246,10 @@
   ],
   "quest.2C8684AA92B889E8.title": "&dFerramentas de Gravitita",
   "quest.3AD1DECD6F51C798.quest_desc": [
-    "As &5Ferramentas de Zanita&r são parecidas com as de Ferro, mas começam mais Lentas. \\n\\nComeçam mais lentas? \\n\\nAs &5Ferramentas de Zanita&r levam mais tempo para Minerar Blocos, até perderem Durabilidade. Quanto mais Durabilidade perdem, mais rápido Mineram. \\n\\nEspátulas são necessárias para Matar certos Mobs Vegetais.",
+    "As &5Ferramentas de Zanita&r são parecidas com as de Ferro, mas começam mais Lentas. \\n\\nComeçam mais lentas? \\n\\nAs &5Ferramentas de Zanita&r levam mais tempo para Minerar Blocos, até perderem Durabilidade. Quanto mais Durabilidade perdem, mais rápido Mineram. \\n\\nEspátulas são necessárias para Matar certos Criaturas Vegetais.",
   ],
   "quest.30BD1DF4FC9295C6.quest_desc": [
-    "As &2Ferramentas de Aerorraiz&r são as Ferramentas de Madeira do &e&lAether&r. \\n\\nTêm Durabilidade baixa, são bem lentas para Quebrar Blocos, mas pelo menos cada Ferramenta tem Fortuna! \\n\\nA &2Picareta de Aerorraiz&r solta mais Minérios, as &2Espátulas&r soltam mais Plantações e as &2Pás&r soltam mais Terra. \\n\\nEspátulas são necessárias para Matar Mobs Vegetais.",
+    "As &2Ferramentas de Aerorraiz&r são as Ferramentas de Madeira do &e&lAether&r. \\n\\nTêm Durabilidade baixa, são bem lentas para Quebrar Blocos, mas pelo menos cada Ferramenta tem Fortuna! \\n\\nA &2Picareta de Aerorraiz&r solta mais Minérios, as &2Espátulas&r soltam mais Plantações e as &2Pás&r soltam mais Terra. \\n\\nEspátulas são necessárias para Matar Criaturas Vegetais.",
   ],
   "quest.11099F13C54468FC.quest_desc": [
     "Outra Estrutura dos Biomas Irradiados: os Restos de Assentamento Irradiado. \\n\\nSão um pouco mais sem graça que os Bunkers, mas pelo menos têm Baús!",
@@ -263,7 +263,7 @@
     "Alguns &8Caixotes de Sentinela&r são na verdade &4Mímicos&r! \\n\\nOs &4Mímicos&r têm 16 &4Corações&r e vão te Morder. \\nEsses caras também não soltam nada?!?! O que eu estou fazendo de errado?",
   ],
   "quest.7F7ED7E88024F174.quest_desc": [
-    "Quando os &dPorcos&r Voarem! \\n\\nOs &dPorcos Alados&r contam? Bom, eles não Voam de verdade, eles mais Planam. \\n\\nTêm 5 &4Corações&r e soltam &3Carne de Taegore&r ao morrer.",
+    "Quando os &dPorcos&r Voarem! \\n\\nOs &dPorcos Alados&r contam? Bom, eles não Voam de verdade, eles mais Planam. \\n\\nTêm 5 &4Corações&r e soltam &3Bife de Taegore&r ao morrer.",
   ],
   "quest.79EFB4F41F736CDB.quest_desc": [
     "As &5Ruínas de Brexallen&r são Estruturas antigas enterradas no subsolo. \\n\\nAqui encontraremos alguns Baús que podem nascer com Itens Fossilizados. Você precisará de uma &6Ampulheta&r para Restaurá-los. \\n\\nAlém de &5Vasos de Brexallen&r para ainda mais Itens!",
@@ -291,10 +291,10 @@
   ],
   "quest.2E6D1418F8B30844.title": "&bSlimes Doces &fAzuis e &eDourados",
   "quest.482CCCEA90EDA3CA.quest_desc": [
-    "Os Ermos de Batalha já foram um Bioma de Planície Encantada, mas a Radiação o destruiu. \\n\\nAqui você encontrará o que um dia foram saudáveis &9Aeroplátanos&r, &2Aerorraiz&r e &bÁrvores Fátuaraiz&r. \\n\\nMas nenhum Mob, agradeça à Radiação por isso!",
+    "Os Ermos de Batalha já foram um Bioma de Planície Encantada, mas a Radiação o destruiu. \\n\\nAqui você encontrará o que um dia foram saudáveis &9Aeroplátanos&r, &2Aerorraiz&r e &bÁrvores Fátuaraiz&r. \\n\\nMas nenhum Criatura, agradeça à Radiação por isso!",
   ],
   "quest.4255B04D58B13D1E.quest_desc": [
-    "Os &3Taegores&r são Mobs parecidos com Javalis. \\n\\nTêm 9 &4Corações&r e soltam &3Carne de Taegore&r e &bPelagem de Fera&r ao morrer. \\n\\nEles farejam Itens como os Farejadores fazem, mas são bem assustados, então não Corra perto deles. \\n\\nEles nascem de formas diferentes nos Biomas dos Campos Altos, Ártico e Magnético. \\n\\nOs dos Campos Altos têm &3Pele Azul&r e &epartes Douradas&r? Os do Ártico têm &7Pele Cinza&r com &7partes Prateadas&r? Os do Magnético têm &bPele Azul-Claro&r com &6partes de Bronze&r?",
+    "Os &3Taegores&r são Criaturas parecidas com Javalis. \\n\\nTêm 9 &4Corações&r e soltam &3Bife de Taegore&r e &bPelagem de Fera&r ao morrer. \\n\\nEles farejam Itens como os Farejadores fazem, mas são bem assustados, então não Corra perto deles. \\n\\nEles nascem de formas diferentes nos Biomas dos Campos Altos, Ártico e Magnético. \\n\\nOs dos Campos Altos têm &3Pele Azul&r e &epartes Douradas&r? Os do Ártico têm &7Pele Cinza&r com &7partes Prateadas&r? Os do Magnético têm &bPele Azul-Claro&r com &6partes de Bronze&r?",
   ],
   "quest.2655C88A18B11FD3.title": "&2Armas de Aerorraiz",
   "quest.3FC5FF405CAAF1EF.title": "Florestas Turquesas",
@@ -344,7 +344,7 @@
   "quest.0A99E6F4FD4004E1.title": "&6Âmbar Dourado",
   "quest.5C54B79F14701A64.title": "&2Balde de Aerorraiz",
   "quest.415AF3FA5F73F155.quest_desc": [
-    "Os &6Skephids&r são os Aracnídeos do &e&lAether&r. \\n\\nNascem no escuro do subterrâneo e têm 8 &4Corações&r. \\n\\nNão causam Dano, mas podem te acertar com suas Teias, que dão um Efeito de Emaranhamento. \\n\\nEsse Efeito te deixa mais Lento e dificulta Pular. Quanto mais vezes você for Atingido, pior fica. \\n\\nDepois que o inseto é esmagado, ele solta &7Barbante de Nuvem&r.",
+    "Os &6Skephids&r são os Aracnídeos do &e&lAether&r. \\n\\nNascem no escuro do subterrâneo e têm 8 &4Corações&r. \\n\\nNão causam Dano, mas podem te acertar com suas Teias, que dão um Efeito de Emaranhado. \\n\\nEsse Efeito te deixa mais Lento e dificulta Pular. Quanto mais vezes você for Atingido, pior fica. \\n\\nDepois que o inseto é esmagado, ele solta &7Barbante de Nuvem&r.",
   ],
   "quest.020025A8178CBD40.title": "&6Ampulheta de Âmbar",
   "quest.0DC12365A642E371.title": "Floresta Velada",
@@ -377,7 +377,7 @@
   ],
   "task.7A561765EB6BBAE1.title": "Aeronuvens",
   "quest.2655C88A18B11FD3.quest_desc": [
-    "Agora há várias &2Armas de Aerorraiz&r. \\n\\nCada uma das Armas Corpo a Corpo concede um pequeno Nível de Saque porque são feitas de &2Aerorraiz&r. \\n\\nA Espada faz um Ataque Cortante. A Pique Perfura, podendo Atingir Mobs atrás do que foi Atingido. O Martelo causa Dano de Impacto, que causa um pouco de Dano aos Mobs perto do Mob Atingido e os Empurra para trás. \\n\\nMobs diferentes recebem mais ou menos Dano de cada tipo de Dano (Corte, Perfuração e Impacto); confira o Livro-Guia para saber mais. \\n\\nTambém temos a &2Besta&r, que Atira 2 Flechas de uma vez quando Agachamos! \\n\\nE o &2Escudo&r; não é o melhor para Bloquear Dano, mas é só de &2Aerorraiz&r.",
+    "Agora há várias &2Armas de Aerorraiz&r. \\n\\nCada uma das Armas Corpo a Corpo concede um pequeno Nível de Saque porque são feitas de &2Aerorraiz&r. \\n\\nA Espada faz um Ataque Cortante. A Pique Perfura, podendo Atingir Criaturas atrás do que foi Atingido. O Martelo causa Dano de Impacto, que causa um pouco de Dano às Criaturas perto da Criatura Atingida e os Empurra para trás. \\n\\nMobs diferentes recebem mais ou menos Dano de cada tipo de Dano (Corte, Perfuração e Impacto); confira o Livro-Guia para saber mais. \\n\\nTambém temos a &2Besta&r, que Atira 2 Flechas de uma vez quando Agachamos! \\n\\nE o &2Escudo&r; não é o melhor para Bloquear Dano, mas é só de &2Aerorraiz&r.",
   ],
   "quest.6C19B3FE5D203A39.title": "&dÁrvores Granderraiz",
   "quest.5D51DA2ADA9D2A52.title": "&8Ruínas de Sentinela",
@@ -394,7 +394,7 @@
   ],
   "quest.21F92193BD6CABC4.title": "Bosque Verdejante",
   "quest.2E6D1418F8B30844.quest_desc": [
-    "Os &bSlimes Doces&r são Mobs Hostis que nascem em qualquer lugar do &e&lAether&r. Ambos são Cubos saltitantes. \\n\\nOs dois &bSlimes Doces&r têm 8 &4Corações&r. \\n\\nOs &bSlimes Doces Azuis&r pulam e grudam em você. Depois, drenam sua Fome aos poucos. \\n\\nNão causam Dano, só engordam às custas da sua saturação. \\n\\nOs &eSlimes Doces Dourados&r fazem exatamente a mesma coisa, só que um pouco mais rápido. \\n\\nAmbos soltam &bAçúcar de Slime Doce&r e &bGel de Slime Doce&r. ",
+    "Os &bSlimes Doces&r são Criaturas hostis que nascem em qualquer lugar do &e&lAether&r. Ambos são Cubos saltitantes. \\n\\nOs dois &bSlimes Doces&r têm 8 &4Corações&r. \\n\\nOs &bSlimes Doces Azuis&r pulam e grudam em você. Depois, drenam sua Fome aos poucos. \\n\\nNão causam Dano, só engordam às custas da sua saturação. \\n\\nOs &eSlimes Doces Dourados&r fazem exatamente a mesma coisa, só que um pouco mais rápido. \\n\\nAmbos soltam &bAçúcar de Slime Doce&r e &bGel de Slime Doce&r. ",
   ],
   "quest.1215C8E73624FD13.quest_desc": [
     "Os Bidões de Arquênio podem ser usados para Guardar &aAlcaeste&r ou &7Hestveil&r. \\n\\nAmbos são Gases que encontramos no &e&lAether&r. \\n\\nO &7Hestveil&r funciona como Combustível de Fornalha. \\n\\nO &aAlcaeste&r funciona com o &aPurificador de Alcaeste&r para curar &4Itens&f e &4Blocos Irradiados&r.",
@@ -430,7 +430,7 @@
     "Ok, nós Ovo-mos, e agora como fazemos nosso bebê... vou reformular isso. \\n\\nPara Chocar nosso &bOvo&r, coloque-o sobre um Bloco de &2Gravetos Entrelaçados de Aerorraiz&r. Não reutilize o &bNinho de Moa&r, isso seria cruel. \\n\\nCom o tempo ele vai tremer e soltar partículas antes de Chocar um &bBebê Moa&r. \\n\\nPara Crescer, o Bebê precisará de &bRação de Moa&r, fabricada com &dPétalas de Écor&r (soltas pelas &dPlantas Écor&r) e &2Pinhas de Aerorraiz&r (que vêm de qualquer Árvore do &e&lAether&r). \\n\\nQuando crescer por completo, você pode colocar uma Sela nele para Montá-lo e equipar outros Itens. Como Alforges, que dão Armazenamento.",
   ],
   "quest.6AF942CA0323094C.quest_desc": [
-    "As &7Botas Sentinela&r impedem o Empurrão e resistem a boa parte do Dano de Queda (não todo).",
+    "As &7Botas Sentinela&r impedem a Repulsão e resistem a boa parte do Dano de Queda (não todo).",
   ],
   "quest.4FAAD7AF09199D36.quest_desc": [
     "As &eAsas-Véu&r são um tipo de Inseto que costuma nascer perto dos Pântanos Cintilantes. \\n\\nTêm 3 &4Corações&r e vêm em várias Cores.",

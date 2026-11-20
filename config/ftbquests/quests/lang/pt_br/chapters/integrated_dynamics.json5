@@ -1,9 +1,9 @@
 {
   "quest.65FA86357BC60573.quest_desc": [
-    "É hora de mover coisas de um lugar para outro. Aqui estão os passos:\n\n&l1.&r Coloque uma interface em um inventário (como um Baú ou um Tanque)\n\n&l2.&r Coloque um Importador ou um Exportador em outro inventário, dependendo se você quer puxar ou enviar coisas para ele.\n\n&l3.&r Conecte ambos com Cabos, coloque um Cartão Variável no Importador ou Exportador, e pronto!",
+    "É hora de mover coisas de um lugar para outro. Aqui estão os passos:\n\n&l1.&r Coloque uma interface em um inventário (como um Baú ou um Tanque)\n\n&l2.&r Coloque um Importador ou um Exportador em outro inventário, dependendo se você quer puxar ou enviar coisas para ele.\n\n&l3.&r Conecte ambos com Cabos, coloque um Cartão de Variável no Importador ou Exportador, e pronto!",
   ],
   "quest.4A05C037C0EE40BD.quest_desc": [
-    "Cabos Lógicos são diferentes de outros cabos. Outros Cabos agem como Funis, os itens se movem de 1 Inventário, para o cabo, e depois para o 2º inventário. Cabos Lógicos simplesmente pulam o intermediário, o que também pula muito lag.\n\nEles são apenas para conectar Importadores e Interfaces.",
+    "Cabos de Lógica são diferentes de outros cabos. Outros Cabos agem como Funis, os itens se movem de 1 Inventário, para o cabo, e depois para o 2º inventário. Cabos de Lógica simplesmente pulam o intermediário, o que também pula muito lag.\n\nEles são apenas para conectar Importadores e Interfaces.",
   ],
   "task.5DD862CF56AF7BF9.title": "Troncos de Menril",
   "task.1C045BB5FAFCF4D3.title": "Interfaces",
@@ -16,14 +16,14 @@
   ],
   "quest.33F4A7613764A016.quest_subtitle": "Exportando",
   "quest.450EDE68EC992A5A.quest_desc": [
-    "Interfaces &cleem&r o que quer que estejam olhando. Você pode pensar nisso como um &bAE2&r Ponto de Armazenamento.\n\nNão sabe o que é isso? Aqui vai um exemplo: Um baú com 100 Cobblestones tem uma interface conectada a ele, isso significa que sua rede ID tem 100 Cobblestones no sistema, bem simples, certo?",
+    "Interfaces &cleem&r o que quer que estejam olhando. Você pode pensar nisso como um &bAE2&r Ponto de Armazenamento.\n\nNão sabe o que é isso? Aqui vai um exemplo: Um baú com 100 Pedregulhos tem uma interface conectada a ele, isso significa que sua rede ID tem 100 Pedregulhos no sistema, bem simples, certo?",
   ],
   "quest.437F4945AFBE0825.quest_desc": [
-    "Quando você clica com o botão direito em um Importer ou Exporter, um menu aparece. O menu é principalmente para filtragem, digamos que você tenha um Variable Card configurado para Cobblestone, seu Exporter enviará apenas Cobblestone.\n\nHá um pequeno \"+\" à esquerda das variáveis quando você as insere, clicar nele abre outra GUI. Aqui você pode alterar as taxas de transferência para poder enviar itens/fluidos/energia &dINFINITOS&r, além de poder fazer outras coisas.\n\nNo canto superior esquerdo temos as configurações, que são, na maior parte, a mesma coisa que as configurações da interface.",
+    "Quando você clica com o botão direito em um Importador ou Exportador, um menu aparece. O menu é principalmente para filtragem, digamos que você tenha um Cartão de Variável configurado para Pedregulho, seu Exportador enviará apenas Pedregulho.\n\nHá um pequeno \"+\" à esquerda das variáveis quando você as insere, clicar nele abre outra GUI. Aqui você pode alterar as taxas de transferência para poder enviar itens/fluidos/energia &dINFINITOS&r, além de poder fazer outras coisas.\n\nNo canto superior esquerdo temos as configurações, que são, na maior parte, a mesma coisa que as configurações da interface.",
   ],
   "quest.72F57D77C3FB366D.quest_subtitle": "O Principal Ingrediente de Criação",
   "quest.65D89991A45BC042.quest_desc": [
-    "Coloque uma Interface de Criação em uma mesa de trabalho e clique com o botão direito nela, isso lhe dará alguns slots para &bCartões de Variáveis&r. \n\nUsando o Programador Lógico, procure por &eReceita&r no canto superior esquerdo e crie uma para autocriação, depois salve-a em um &bCartão de Variável&r. Se uma receita &c&lexigir&r itens que precisam ser criados, crie uma receita para cada um deles e coloque tudo na Interface de Criação.",
+    "Coloque uma Interface de Fabricação em uma bancada de trabalho e clique com o botão direito nela, isso lhe dará alguns espaços para &bCartões de Variável&r. \n\nUsando o Programador de Lógica, procure por &eReceita&r no canto superior esquerdo e crie uma para autofabricação, depois salve-a em um &bCartão de Variável&r. Se uma receita &c&lexigir&r itens que precisam ser criados, crie uma receita para cada um deles e coloque tudo na Interface de Fabricação.",
   ],
   "quest.3BC94B0B922C0708.quest_desc": [
     "Estes são ingredientes de criação para coisas que fazem importação, seja de itens, fluidos ou energia.",
@@ -35,12 +35,12 @@
     "As Abelhas de Menril podem ser usadas para automatizar Pedaços de Menril Cristalizado.",
   ],
   "quest.1568CBFA09827137.quest_desc": [
-    "A mesma coisa que o Programador Lógico, só que este pode ser usado em qualquer lugar.",
+    "A mesma coisa que o Programador de Lógica, só que este pode ser usado em qualquer lugar.",
   ],
   "quest.499CF9F39CED8899.quest_subtitle": "Cultivando Menril",
   "task.1C7C0F345759111C.title": "Exportadores",
   "quest.4D4152032F0410D2.quest_desc": [
-    "O Programador Lógico permite que você defina o valor de variáveis. Isso pode ser definido para itens e fluidos para filtragem, ou até mesmo valores. \n\nDeixe-me dar um exemplo simples: Selecione &bItem&r do lado esquerdo, coloque um item de sua escolha no slot central da INTERFACE que aparece e coloque um &bCartão de Variável&r no slot inferior direito. Se você então colocar esse cartão de variável em um importador/exportador, ele só importará/exportará aquele bloco!",
+    "O Programador de Lógica permite que você defina o valor de variáveis. Isso pode ser definido para itens e fluidos para filtragem, ou até mesmo valores. \n\nDeixe-me dar um exemplo simples: Selecione &bItem&r do lado esquerdo, coloque um item de sua escolha no espaço central da interface que aparece e coloque um &bCartão de Variável&r no espaço inferior direito. Se você então colocar esse cartão de variável em um importador/exportador, ele só importará/exportará aquele bloco!",
   ],
   "task.238B5BA2FAE9785B.title": "TodosOsDireitosReservados",
   "quest.6D75CF34957ECCD9.quest_desc": [
@@ -51,45 +51,45 @@
     "Blocos de Menril Cristalizado podem ser transformados em Pedaços de Menril Cristalizado. Esses pedaços são o principal ingrediente de criação do ID.",
   ],
   "quest.44DA091B53473723.quest_desc": [
-    "O Mechanical Squeezer usa energia para espremer.",
+    "A Prensa Mecânica usa energia para espremer.",
   ],
   "task.4209A06A392362DB.title": "GUI de Importador \\& Exportador",
   "quest.2F37E284BB83BFF6.quest_desc": [
-    "A Chave Inglesa é usada para girar ou destruir certos blocos, segure shift e clique com o botão direito no ar para mudar os modos.",
+    "A Chave-Inglesa é usada para girar ou destruir certos blocos, segure shift e clique com o botão direito no ar para mudar os modos.",
   ],
   "quest.73EA326304C01C3B.quest_subtitle": "Importando",
   "quest.73EA326304C01C3B.quest_desc": [
-    "Coloque um Importador no inventário do qual você quer que as coisas sejam puxadas. Em seguida, coloque a Interface no segundo inventário e conecte-os com Cabos Lógicos. Depois, insira o Cartão de Variável no Importador e altere-o como quiser.\n\nPode ser alterado para importar coisas no Limite de Inteiro (Mais de 2 bilhões).",
+    "Coloque um Importador no inventário do qual você quer que as coisas sejam puxadas. Em seguida, coloque a Interface no segundo inventário e conecte-os com Cabos de Lógica. Depois, insira o Cartão de Variável no Importador e altere-o como quiser.\n\nPode ser alterado para importar coisas no Limite de Inteiro (Mais de 2 bilhões).",
     "{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}",
     "{image:atm:textures/questpics/logistics/id_fluid.png width:200 height:50 align:center}",
     "{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}",
   ],
   "quest.499CF9F39CED8899.title": "&bIntegrated Dynamics",
   "quest.232A06C9FF0EE7B2.quest_desc": [
-    "Sementes de Menril podem ser usadas para automatizar Bagas de Menril, Troncos de Menril e Mudas de Menril.",
+    "Sementes de Menril podem ser usadas para automatizar Frutos de Menril, Troncos de Menril e Mudas de Menril.",
   ],
   "quest.450EDE68EC992A5A.quest_subtitle": "Interfaces Têm GUIs!",
   "quest.65FA86357BC60573.quest_subtitle": "Movendo Coisas!",
   "quest.6D75CF34957ECCD9.quest_subtitle": "Armazenando Energia",
-  "quest.4A05C037C0EE40BD.title": "Cabos Lógicos",
+  "quest.4A05C037C0EE40BD.title": "Cabos de Lógica",
   "quest.56BF647EA84FFF7E.quest_subtitle": "Mostra Receitas",
   "task.22CCBBC66D509404.title": "Redes!",
   "quest.232A06C9FF0EE7B2.quest_subtitle": "Automatizando Menril",
   "quest.60D9F04E91171D16.quest_desc": [
-    "Isso pode atuar como um Baú para suas Variáveis, ou pode ser realmente usado em uma rede avançada.\n\nSe você quiser redes avançadas, certifique-se de ler sobre elas na &eDinâmica da Integração&r.",
+    "Isso pode atuar como um Armazenamento de Variáveis, ou pode ser realmente usado em uma rede avançada.\n\nSe você quiser redes avançadas, certifique-se de ler sobre elas em &eSobre a Dinâmica da Integração&r.",
   ],
   "quest.62B4A37CFDECA679.quest_desc": [
-    "A Resina de Menril irá para 2 lados do Espremedor. Colocar uma Bacia de Secagem ao lado do Espremedor fará com que a Bacia de Secagem colete a Resina de Menril.\n\nApós 7,5 segundos, a Resina de Menril se transformará em um Bloco de Menril Cristalizado.",
+    "A Resina de Menril irá para 2 lados da Prensa. Colocar uma Bacia de Secagem ao lado da Prensa fará com que a Bacia de Secagem colete a Resina de Menril.\n\nApós 7,5 segundos, a Resina de Menril se transformará em um Bloco de Menril Cristalizado.",
   ],
   "quest.79C1105A84B8BF8F.quest_desc": [
-    "Cartões Variáveis são necessários para iniciar Interações como Importar Itens. Você os colocará em um dos slots do Importador para adicioná-los.\n\nA partir daí, você pode editar tudo através do Botão +. Você pode alterar o quanto é Importado, qual Slot de Item, qual Canal, praticamente tudo com apenas esse Cartão.\n\nSe você está apenas querendo mover itens, nada muito extravagante, apenas coloque-o e talvez mude o Limite de quanto é movido.",
+    "Cartões de Variável são necessários para iniciar Interações como Importar Itens. Você os colocará em um dos slots do Importador para adicioná-los.\n\nA partir daí, você pode editar tudo através do Botão +. Você pode alterar o quanto é Importado, qual Slot de Item, qual Canal, praticamente tudo com apenas esse Cartão.\n\nSe você está apenas querendo mover itens, nada muito extravagante, apenas coloque-o e talvez mude o Limite de quanto é movido.",
   ],
   "quest.1B5C86AE05678420.quest_desc": [
     "Quando você clica com o botão direito em uma interface, ela exibe várias opções, eis o que todas elas fazem:\n\n&lDefinir Lado&r: Na parte superior da tela, você pode definir o lado em que a interface \"age\" como se estivesse. Pode ser útil para máquinas com lados de entrada/saída específicos.\n\n&lTiques/Operação&r: Se uma interface estiver definida para 10 tiques/operação, ela importará/exportará uma vez a cada 10 tiques (0,5 segundos).\n\n&lPrioridade&r: Envia itens para o inventário com a interface de maior prioridade.\n\n&lCanais de Item/Energia&r: Isso dividirá seu sistema em vários canais. Você pode empurrar e puxar de diferentes lugares em sua rede.",
   ],
-  "quest.79C1105A84B8BF8F.title": "Cartões Variáveis",
+  "quest.79C1105A84B8BF8F.title": "Cartões de Variável",
   "quest.6C9191DA4B1039D6.quest_desc": [
-    "Bagas de Menril dão a você Visão Noturna por um curto período de tempo quando comidas.",
+    "Frutos de Menril dão a você Visão Noturna por um curto período de tempo quando comidos.",
   ],
   "quest.3C9539083BCC145C.quest_subtitle": "Automatizando Menril",
   "quest.6ABDBE41880CFDA9.quest_desc": [
@@ -102,11 +102,11 @@
     "O Gerador gera FE usando combustíveis queimáveis como Carvão.",
   ],
   "quest.72F57D77C3FB366D.title": "Pedaços de Menril Cristalizado",
-  "quest.65D89991A45BC042.quest_subtitle": "&l&zAUTOCRAFT",
+  "quest.65D89991A45BC042.quest_subtitle": "&l&cF&6A&eB&aR&bI&dC&9A&3Ç&0Ã&cO &6A&eU&aT&bO&dM&9Á&3T&0I&cC&6A",
   "task.267CE316E1F8FA83.title": "TodosOsDireitosReservados",
   "task.166BA23E49F6DCD6.title": "Importadores",
   "quest.68498ADEF9765F81.quest_desc": [
-    "Para fazer Pedaços de Menril Cristalizado, você primeiro precisa colocar algumas Troncos de Menril em um Espremedor. Pule no Espremedor para transformá-las em Resina de Menril.\n\nVocê pode esvaziar o Espremedor dando-lhe um sinal de Redstone.",
+    "Para fazer Pedaços de Menril Cristalizado, você primeiro precisa colocar alguns Troncos de Menril em uma Prensa. Pule na Prensa para transformá-los em Resina de Menril.\n\nVocê pode esvaziar a Prensa dando-lhe um sinal de Redstone.",
   ],
   "task.2656ACB55A33D4FE.title": "GUI da Interface",
   "quest.4A05C037C0EE40BD.quest_subtitle": "Criando Redes",
