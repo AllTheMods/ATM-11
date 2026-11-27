@@ -6,6 +6,8 @@
 // requires railcraft
 package server_scripts.recipes
 
+import net.neoforged.neoforge.common.crafting.DifferenceIngredient
+
 $ServerEvents.recipes((allthemods) -> {
   def toRemoveRecipes = [
       "railcraft:lead_gear",
@@ -30,4 +32,7 @@ $ServerEvents.recipes((allthemods) -> {
   // if ($Platform.isLoaded("mekanismtools")) {
   //   allthemods.replaceInput([mod: "railcraft"], "railcraft:steel_shovel", "mekanismtools:steel_shovel")
   // }
+
+  allthemods.replaceInput([id: "minecraft:name_tag"], "#minecraft:metal_nuggets",
+      DifferenceIngredient.of($Ingredient.of("#minecraft:metal_nuggets"), $Ingredient.of("#c:nuggets/gold")))
 })

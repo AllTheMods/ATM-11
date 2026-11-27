@@ -5,6 +5,8 @@
 
 package server_scripts.recipes._global
 
+import net.neoforged.neoforge.common.crafting.DifferenceIngredient
+
 $ServerEvents.recipes((allthemods) -> {
   allthemods.shaped(
       '8x minecraft:item_frame[entity_data={Invisible:1b,id:"minecraft:item_frame"},custom_name="Invisible Item Frame"]',
@@ -51,9 +53,13 @@ $ServerEvents.recipes((allthemods) -> {
     ])
   })
 
-  allthemods.shaped("minecraft:crafting_table", ["XX", "XX"], [X: "#minecraft:planks"]).id("minecraft:crafting_table")
+  def tablePlanks = $Platform.isLoaded("aether_ii")
+      ? DifferenceIngredient.of($Ingredient.of("#minecraft:planks"), $Ingredient.of("#allthemods:planks_with_crafting_table"))
+      : "#minecraft:planks"
+  allthemods.shaped("minecraft:crafting_table", ["XX", "XX"], [X: tablePlanks]).id("minecraft:crafting_table")
 
-  allthemods.shapeless($Item.of("minecraft:crafting_table"), ["#c:player_workstations/crafting_tables"])
+  allthemods.shapeless($Item.of("minecraft:crafting_table"),
+      [DifferenceIngredient.of($Ingredient.of("#c:player_workstations/crafting_tables"), $Ingredient.of("minecraft:crafting_table"))])
   // Example Firework Star recipe to help people in JEI (as it's not shown there)
   allthemods
       .shapeless($Item.of('minecraft:firework_star[firework_explosion={colors:[I;15790320],shape:"small_ball"}]'), [

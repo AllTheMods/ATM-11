@@ -6,6 +6,8 @@
 // requires croptopia
 package server_scripts.recipes
 
+import net.neoforged.neoforge.common.crafting.DifferenceIngredient
+
 $ServerEvents.recipes((allthemods) -> {
   allthemods.remove([id: "croptopia:knife"])
   allthemods.shaped(
@@ -20,4 +22,16 @@ $ServerEvents.recipes((allthemods) -> {
           I: '#c:ingots/iron',
       ]
   ).id("croptopia:knife")
+
+  allthemods.replaceInput([id: "croptopia:cooking_oil"], "#croptopia:converts_to_cooking_oil",
+      DifferenceIngredient.of($Ingredient.of("#croptopia:converts_to_cooking_oil"), $Ingredient.of("#c:olives")))
+
+  if ($Platform.isLoaded("productivetrees")) {
+    def ptNuts = ["almond", "beechnut", "brazil_nut", "butternut", "candlenut", "cashew", "chestnut",
+                  "ginkgo_nut", "hazelnut", "pecan", "pistachio", "walnut"]
+    def ptItems = ptNuts.collect { "productivetrees:${it}".toString() } +
+        (ptNuts + "coffee_bean").collect { "productivetrees:roasted_${it}".toString() }
+    allthemods.replaceInput([id: ~/^croptopia:roasted_nuts_from_(smelting|smoking)$/], "#c:nuts",
+        DifferenceIngredient.of($Ingredient.of("#c:nuts"), $Ingredient.of(ptItems)))
+  }
 })

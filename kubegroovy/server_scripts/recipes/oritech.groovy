@@ -35,6 +35,7 @@ $ServerEvents.recipes((allthemods) -> {
   // Cheaty alloys
   allthemods.remove([id: "oritech:steel_ingot"])
   allthemods.remove([id: "oritech:electrum_ingot"])
+  allthemods.replaceInput([id: "oritech:silicon_blockblockinv"], "#c:storage_blocks/silicon", "oritech:silicon_block")
   // Alternate Tainted Refinery recipe
   // To be revisited another time
   /* if ($Platform.isLoaded("apothic_enchanting")) {

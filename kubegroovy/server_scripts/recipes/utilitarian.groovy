@@ -6,6 +6,8 @@
 // requires utilitarian
 package server_scripts.recipes
 
+import net.neoforged.neoforge.common.crafting.DifferenceIngredient
+
 $ServerEvents.recipes((allthemods) -> {
   allthemods.shaped("utilitarian:redstone_clock", [" R ", "RSR", " R "], [
       R: "minecraft:redstone",
@@ -14,4 +16,15 @@ $ServerEvents.recipes((allthemods) -> {
 
   allthemods.remove([id: "utilitarian:tiny_fuel/coal"])
   allthemods.remove([id: "utilitarian:tiny_fuel/charcoal"])
+
+  if ($Platform.isLoaded("occultism")) {
+    allthemods.replaceInput([id: ~/^utilitarian:utility\/redying\/[a-z_]+_candle$/], "#minecraft:candles",
+        DifferenceIngredient.of($Ingredient.of("#minecraft:candles"), $Ingredient.of("#occultism:candles")))
+  }
+
+  ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray",
+   "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"].each { colour ->
+    allthemods.replaceInput([id: "utilitarian:utility/redying/${colour}_stained_glass".toString()], "#c:glass_blocks/cheap",
+        DifferenceIngredient.of($Ingredient.of("#c:glass_blocks/cheap"), $Ingredient.of("minecraft:${colour}_stained_glass".toString())))
+  }
 })

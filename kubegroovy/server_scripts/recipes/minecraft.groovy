@@ -5,8 +5,26 @@
 
 package server_scripts.recipes
 
+import net.neoforged.neoforge.common.crafting.DifferenceIngredient
+
 $ServerEvents.recipes((allthemods) -> {
   // allthemods.remove({ id: "minecraft:cake" })
+
+  if ($Platform.isLoaded("allthemodium") || $Platform.isLoaded("aether_ii")) {
+    allthemods.replaceInput([id: "minecraft:bookshelf"], "#minecraft:planks",
+        DifferenceIngredient.of($Ingredient.of("#minecraft:planks"), $Ingredient.of("#allthemods:planks_with_bookshelf")))
+  }
+  if ($Platform.isLoaded("twilightforest") || $Platform.isLoaded("aether_ii")) {
+    allthemods.replaceInput([id: "minecraft:chest"], "#minecraft:planks",
+        DifferenceIngredient.of($Ingredient.of("#minecraft:planks"), $Ingredient.of("#allthemods:planks_with_chest")))
+  }
+  if ($Platform.isLoaded("twilightforest")) {
+    allthemods.replaceInput([id: "minecraft:chiseled_bookshelf"], "#minecraft:planks",
+        DifferenceIngredient.of($Ingredient.of("#minecraft:planks"), $Ingredient.of("#allthemods:planks_with_chiseled_bookshelf")))
+    allthemods.replaceInput([id: "minecraft:trapped_chest"], "#c:chests/wooden",
+        DifferenceIngredient.of(DifferenceIngredient.of($Ingredient.of("#c:chests/wooden"), $Ingredient.of("#c:chests/trapped")),
+            $Ingredient.of("#allthemods:chests_with_trapped_chest")))
+  }
 
   allthemods.shaped(
       $Item.of("minecraft:sculk", 1), // arg 1: output
