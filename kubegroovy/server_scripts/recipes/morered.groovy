@@ -7,5 +7,8 @@
 package server_scripts.recipes
 
 $ServerEvents.recipes((allthemods) -> {
-  allthemods.forEachRecipe([id: ~/^morered:([a-z_]+_)?tube_from_(copper|gold)$/], (recipe) -> recipe.set("pattern", ["i  ", " G ", "  i"]))
+  def prefixes = [""] + ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray",
+                         "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"].collect { "${it}_" }
+  def ids = ["copper", "gold"].collectMany { metal -> prefixes.collect { [id: "morered:${it}tube_from_${metal}".toString()] } }
+  allthemods.forEachRecipe(ids, (recipe) -> recipe.set("pattern", ["i  ", " G ", "  i"]))
 })

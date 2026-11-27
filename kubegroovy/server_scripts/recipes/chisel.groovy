@@ -6,12 +6,10 @@
 // requires chisel
 package server_scripts.recipes
 
-import net.neoforged.neoforge.common.crafting.DifferenceIngredient
-
 $ServerEvents.recipes((allthemods) -> {
   allthemods.replaceInput([id: "chisel:mossy_stone_raw"], "minecraft:vine", "minecraft:moss_block")
   allthemods.replaceInput([id: "chisel:futura_controller"], "#c:stones",
-      DifferenceIngredient.of($Ingredient.of("#c:stones"), $Ingredient.of("#c:cobblestones")))
+      $Ingredient.of("#c:stones").except("#c:cobblestones"))
   allthemods.shaped("36x chisel:kitchen_checker", ["WBW", "BWB", "WBW"], [W: "minecraft:white_concrete", B: "minecraft:black_concrete"])
       .id("chisel:kitchen_checker")
 })

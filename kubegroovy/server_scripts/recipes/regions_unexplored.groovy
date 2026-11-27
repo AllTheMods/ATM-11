@@ -6,8 +6,6 @@
 // requires regions_unexplored
 package server_scripts.recipes
 
-import net.neoforged.neoforge.common.crafting.DifferenceIngredient
-
 $ServerEvents.recipes((allthemods) -> {
   allthemods.shapeless("minecraft:redstone", ["regions_unexplored:pointed_redstone"])
 
@@ -16,5 +14,5 @@ $ServerEvents.recipes((allthemods) -> {
 
   allthemods.remove([id: "minecraft:yellow_bioshroom_from_tall_yellow_bioshroom"])
   allthemods.replaceInput([id: "minecraft:bamboo_planks"], "#minecraft:bamboo_blocks",
-      DifferenceIngredient.of($Ingredient.of("#minecraft:bamboo_blocks"), $Ingredient.of("#regions_unexplored:bamboo_logs")))
+      $Ingredient.of("#minecraft:bamboo_blocks").except("#regions_unexplored:bamboo_logs"))
 })

@@ -6,11 +6,9 @@
 // requires agritechevolved
 package server_scripts.recipes
 
-import net.neoforged.neoforge.common.crafting.DifferenceIngredient
-
 $ServerEvents.recipes((allthemods) -> {
   def ownPlanter = ["acacia", "bamboo", "birch", "cherry", "crimson", "dark_oak", "jungle", "mangrove", "pale_oak", "spruce", "warped"]
       .collect { "minecraft:${it}_planks".toString() }
   allthemods.replaceInput([id: "agritechevolved:zzz_basic_planter_from_any_wood"], "#minecraft:planks",
-      DifferenceIngredient.of($Ingredient.of("#minecraft:planks"), $Ingredient.of(ownPlanter)))
+      $Ingredient.of("#minecraft:planks").except($Ingredient.of(ownPlanter)))
 })
