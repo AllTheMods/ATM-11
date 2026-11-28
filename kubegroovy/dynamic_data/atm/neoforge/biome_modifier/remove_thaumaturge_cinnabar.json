@@ -1,0 +1,7 @@
+{
+  "neoforge:conditions": [{"type": "neoforge:mod_loaded", "modid": "thaumaturge"}],
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "thaumaturge:ore_cinnabar",
+  "steps": ["underground_ores"]
+}

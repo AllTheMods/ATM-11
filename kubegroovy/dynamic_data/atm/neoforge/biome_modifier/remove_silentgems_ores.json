@@ -5,6 +5,7 @@
     "silentgems:overworld/ruby_ore",
     "silentgems:overworld/peridot_ore",
     "silentgems:overworld/sapphire_ore",
+    "silentgems:overworld/topaz_ore",
     "silentgems:overworld/silver_ore"
   ],
   "steps": ["underground_ores"]

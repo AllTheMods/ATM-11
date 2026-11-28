@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [{"type": "neoforge:mod_loaded", "modid": "silentgems"}],
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_end",
+  "features": [
+    "silentgems:the_end/ruby_ore",
+    "silentgems:the_end/peridot_ore",
+    "silentgems:the_end/sapphire_ore",
+    "silentgems:the_end/topaz_ore"
+  ],
+  "steps": ["underground_ores"]
+}

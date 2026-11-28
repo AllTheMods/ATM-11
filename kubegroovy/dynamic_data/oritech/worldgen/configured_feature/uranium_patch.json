@@ -1,0 +1,8 @@
+{
+  "type": "oritech:uranium_patch",
+  "config": {
+    "number": 5,
+    "blockId": "alltheores:deepslate_uranium_ore",
+    "crystalId": "oritech:uranite_crystal"
+  }
+}

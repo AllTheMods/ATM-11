@@ -8,6 +8,7 @@ package server_scripts.tags
 
 $ServerEvents.tags("item", (allthemods) -> {
   allthemods.add("c:wither_bones", "iceandfire:witherbone")
+  allthemods.add("c:storage_blocks/sapphire", "iceandfire:sapphire_block")
 })
 
 $ServerEvents.tags("entity_type", (allthemods) -> {

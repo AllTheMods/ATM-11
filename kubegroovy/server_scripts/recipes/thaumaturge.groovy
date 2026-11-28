@@ -7,8 +7,14 @@
 package server_scripts.recipes
 
 $ServerEvents.recipes((allthemods) -> {
-  [iron: "iron", brass: "brass", thaumium: "thaumium", void: "void_metal"].each { plate, ingot ->
-    allthemods.shaped("3x thaumaturge:plate_${plate}".toString(), ["N", "N", "N"], [N: "#c:ingots/${ingot}".toString()])
+  [
+      iron    : ["iron", "alltheores:iron_plate"],
+      brass   : ["brass", "alltheores:brass_plate"],
+      thaumium: ["thaumium", "thaumaturge:plate_thaumium"],
+      void    : ["void_metal", "thaumaturge:plate_void"]
+  ].each { plate, values ->
+    def (ingot, result) = values
+    allthemods.shaped("3x ${result}".toString(), ["N", "N", "N"], [N: "#c:ingots/${ingot}".toString()])
         .id("thaumaturge:plate_${plate}".toString())
   }
 })

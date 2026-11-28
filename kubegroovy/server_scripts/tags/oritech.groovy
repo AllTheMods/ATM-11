@@ -6,6 +6,10 @@
 // requires oritech
 package server_scripts.tags
 
+$ServerEvents.tags("item", (allthemods) -> {
+  allthemods.remove("c:ingots/steel", "oritech:biosteel_ingot")
+})
+
 $ServerEvents.tags("fluid", (allthemods) -> {
   allthemods.add("c:fuels/crude_oil", "oritech:still_oil")
 })
