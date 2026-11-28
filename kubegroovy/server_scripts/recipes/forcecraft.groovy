@@ -3,8 +3,11 @@
  * As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
  */
 
+// requires forcecraft
 package server_scripts.recipes
 
 $ServerEvents.recipes((allthemods) -> {
-  allthemods.shapeless("minecraft:ender_pearl", ["#c:ender_pearls"]).id("allthemods:enderpearl")
+  ["bane", "camo", "healing", "heat", "time"].each { torch ->
+    allthemods.remove([id: "forcecraft:${torch}_torch".toString()])
+  }
 })

@@ -8,6 +8,21 @@ package server_scripts.recipes
 $ServerEvents.recipes((allthemods) -> {
   // allthemods.remove({ id: "minecraft:cake" })
 
+  if ($Platform.isLoaded("allthemodium") || $Platform.isLoaded("aether_ii")) {
+    allthemods.replaceInput([id: "minecraft:bookshelf"], "#minecraft:planks",
+        $Ingredient.of("#minecraft:planks").except("#allthemods:planks_with_bookshelf"))
+  }
+  if ($Platform.isLoaded("twilightforest") || $Platform.isLoaded("aether_ii")) {
+    allthemods.replaceInput([id: "minecraft:chest"], "#minecraft:planks",
+        $Ingredient.of("#minecraft:planks").except("#allthemods:planks_with_chest"))
+  }
+  if ($Platform.isLoaded("twilightforest")) {
+    allthemods.replaceInput([id: "minecraft:chiseled_bookshelf"], "#minecraft:planks",
+        $Ingredient.of("#minecraft:planks").except("#allthemods:planks_with_chiseled_bookshelf"))
+    allthemods.replaceInput([id: "minecraft:trapped_chest"], "#c:chests/wooden",
+        $Ingredient.of("#c:chests/wooden").except("#c:chests/trapped").except("#allthemods:chests_with_trapped_chest"))
+  }
+
   allthemods.shaped(
       $Item.of("minecraft:sculk", 1), // arg 1: output
       ["OOO", "OOO", "OOO"],

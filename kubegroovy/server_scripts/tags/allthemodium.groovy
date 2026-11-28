@@ -22,6 +22,7 @@ $ServerEvents.tags("item", (allthemods) -> {
       "allthemodium:stripped_soul_log"
   ])
   allthemods.add("allthemodium:demonic_logs", ["allthemodium:demonic_log", "allthemodium:stripped_demonic_log"])
+  allthemods.add("allthemods:planks_with_bookshelf", ["#allthemodium:ancient_planks", "#allthemodium:demonic_planks", "#allthemodium:soul_planks"])
 
   // Not unbreakable
   allthemods.remove("kubegroovy:unbreakable", [

@@ -14,4 +14,17 @@ $ServerEvents.recipes((allthemods) -> {
 
   allthemods.remove([id: "utilitarian:tiny_fuel/coal"])
   allthemods.remove([id: "utilitarian:tiny_fuel/charcoal"])
+
+  def colours = ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray",
+                 "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+
+  if ($Platform.isLoaded("occultism")) {
+    allthemods.replaceInput(colours.collect { [id: "utilitarian:utility/redying/${it}_candle".toString()] }, "#minecraft:candles",
+        $Ingredient.of("#minecraft:candles").except("#occultism:candles"))
+  }
+
+  colours.each { colour ->
+    allthemods.replaceInput([id: "utilitarian:utility/redying/${colour}_stained_glass".toString()], "#c:glass_blocks/cheap",
+        $Ingredient.of("#c:glass_blocks/cheap").except("minecraft:${colour}_stained_glass".toString()))
+  }
 })

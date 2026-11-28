@@ -51,9 +51,13 @@ $ServerEvents.recipes((allthemods) -> {
     ])
   })
 
-  allthemods.shaped("minecraft:crafting_table", ["XX", "XX"], [X: "#minecraft:planks"]).id("minecraft:crafting_table")
+  def tablePlanks = $Platform.isLoaded("aether_ii")
+      ? $Ingredient.of("#minecraft:planks").except("#allthemods:planks_with_crafting_table")
+      : "#minecraft:planks"
+  allthemods.shaped("minecraft:crafting_table", ["XX", "XX"], [X: tablePlanks]).id("minecraft:crafting_table")
 
-  allthemods.shapeless($Item.of("minecraft:crafting_table"), ["#c:player_workstations/crafting_tables"])
+  allthemods.shapeless($Item.of("minecraft:crafting_table"),
+      [$Ingredient.of("#c:player_workstations/crafting_tables").except("minecraft:crafting_table")])
   // Example Firework Star recipe to help people in JEI (as it's not shown there)
   allthemods
       .shapeless($Item.of('minecraft:firework_star[firework_explosion={colors:[I;15790320],shape:"small_ball"}]'), [

@@ -11,4 +11,8 @@ $ServerEvents.recipes((allthemods) -> {
 
   // Remove Raw Redstone Block Recipe
   allthemods.remove([id: "regions_unexplored:raw_redstone_block"])
+
+  allthemods.remove([id: "minecraft:yellow_bioshroom_from_tall_yellow_bioshroom"])
+  allthemods.replaceInput([id: "minecraft:bamboo_planks"], "#minecraft:bamboo_blocks",
+      $Ingredient.of("#minecraft:bamboo_blocks").except("#regions_unexplored:bamboo_logs"))
 })
